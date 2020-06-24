@@ -1,0 +1,288 @@
+{
+    "workers": [
+        {
+            "associateOID": "ADPNL00000001",
+            "workerID": {
+                "idValue": "000001"
+            },
+            "workerDates": {
+                "originalHireDate": "1987-01-01",
+                "terminationDate": "2099-12-31",
+                "adjustedServiceDate": "1987-01-01",
+                "retirementDate": "2099-12-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "shortName": "Active"
+                }
+            },
+            "photos": [
+                {
+                    "itemID": "1",
+                    "nameCode": {
+                        "shortName": "portal pic"
+                    },
+                    "links": [
+                        {
+                            "href": "/hr/v1/worker/000001",
+                            "rel": "/adp/image"
+                        }
+                    ]
+                }
+            ],
+            "person": {
+                "birthDate": "1956-08-13",
+                "birthPlace": {
+                    "cityName": "",
+                    "countryCode": ""
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "0001"
+                    }
+                ],
+                "preferredName": {
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": ""
+                            }
+                        }
+                    ],
+                    "titlePrefixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": ""
+                            }
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "V"
+                },
+                "legalName": {
+                    "familyName1": "Burghout",
+                    "familyName1Prefix": "",
+                    "formattedName": "NDS Burghout",
+                    "givenName": "Nienke",
+                    "initials": "NDS",
+                    "nickName": "Nienke",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "1V",
+                                "longName": "Mevrouw"
+                            }
+                        }
+                    ]
+                },
+                "maritalStatusCode": {
+                    "codeValue": "6",
+                    "shortName": "Testhuwelijk"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "emailUri": "000001@adp.com"
+                    }
+                ],
+                "landlines": [
+                    {
+                        "formattedNumber": "P001",
+                        "itemID": "1",
+                        "nameCode": {
+                            "shortName": "business landline"
+                        }
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "",
+                        "itemID": "1",
+                        "nameCode": {
+                            "shortName": "business mobile"
+                        }
+                    }
+                ]
+            },
+            "customFieldGroup": {
+                "stringFields": [
+                    {
+                        "nameCode": {
+                            "codeValue": "partnerFamilyName1"
+                        },
+                        "stringValue": "Nikolai"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "partnerFamilyName1Prefix"
+                        },
+                        "stringValue": ""
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "partnerInitials"
+                        },
+                        "stringValue": "RTM"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "naamSamenstelling"
+                        },
+                        "stringValue": "tiva"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "samengesteldeNaam"
+                        },
+                        "stringValue": "NDS Burghout"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "loginName"
+                        },
+                        "stringValue": ""
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "verwijzendWerknemernummer"
+                        },
+                        "stringValue": "P001"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "leefvormCode"
+                        },
+                        "stringValue": ""
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "leefvorm"
+                        },
+                        "stringValue": ""
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": true,
+                    "actualStartDate": "1987-01-01",
+                    "workerTypeCode": {
+                        "codeValue": "1",
+                        "longName": "Klantspecifiek"
+                    },
+                    "managementPositionIndicator": true,
+                    "positionID": "000001-000094",
+                    "positionTitle": "Corporate Headquarter - General Manager",
+                    "homeOrganizationalUnits": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "codeValue": "000001",
+                                "longName": "Corporate Headquarter"
+                            }
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "",
+                            "longName": ""
+                        }
+                    },
+                    "assignedWorkLocations": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "codeValue": "",
+                                "longName": ""
+                            }
+                        }
+                    ],
+                    "itemID": "1",
+                    "payrollGroupCode": "2572",
+                    "payrollFileNumber": "11",
+                    "jobCode": {
+                        "codeValue": "000094",
+                        "longName": "General Manager"
+                    },
+                    "occupationalClassifications": [
+                        {
+                            "nameCode": {
+                                "shortName": "reportingCode"
+                            },
+                            "classificationCode": {
+                                "codeValue": "2",
+                                "shortName": "Indirect"
+                            }
+                        }
+                    ],
+                    "standardHours": {
+                        "hoursQuantity": 4E+1,
+                        "unitCode": {
+                            "codeValue": "W",
+                            "longName": "week"
+                        }
+                    },
+                    "fullTimeEquivalenceRatio": 1E+2,
+                    "terminationDate": "2099-12-31",
+                    "expectedTerminationDate": "2099-12-31",
+                    "wageLawCoverage": {
+                        "wageLawNameCode": {
+                            "codeValue": "64",
+                            "longName": "ADP CAO 64"
+                        }
+                    },
+                    "assignmentCostCenters": [
+                        {
+                            "costCenterPercentage": 2E+1,
+                            "costCenterID": "01250"
+                        },
+                        {
+                            "costCenterPercentage": 3E+1,
+                            "costCenterID": "01260"
+                        }
+                    ],
+                    "reportsTo": [
+                        {
+                            "itemID": "000001-HOOFD",
+                            "workerID": {
+                                "idValue": "000001"
+                            },
+                            "reportsToRelationshipCode": {
+                                "longName": "HOOFD"
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "NDS Burghout"
+                            },
+                            "associateOID": "000001"
+                        },
+                        {
+                            "itemID": "000087-PNO",
+                            "workerID": {
+                                "idValue": "000087"
+                            },
+                            "reportsToRelationshipCode": {
+                                "longName": "PNO"
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "D Koren"
+                            },
+                            "associateOID": "000087"
+                        }
+                    ],
+                    "customFieldGroup": {
+                        "stringFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "contractHours"
+                                },
+                                "stringValue": "40.0"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
