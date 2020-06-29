@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "e407887a-464e-4faf-baa0-39b0c8b1be78",
+		"name": "B2B Worker Management-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve all workers",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/workers",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"workers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve individual worker",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/workers/000001",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"workers",
+						"000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the worker response using $top and $skip parameters",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/workers?$top=5&$skip=5",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"workers"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "5"
+						},
+						{
+							"key": "$skip",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the workers response using $filter parameter",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer 39ea2159-68ed-4d6a-84d2-1d44c2b12ea6"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/workers?$filter=/workers/workAssignments/assignmentCostCenters/costCenterID eq '01260' and /workers/workAssignments/homeOrganizationalUnits/nameCode/codeValue eq '000001'",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"workers"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "/workers/workAssignments/assignmentCostCenters/costCenterID eq '01260' and /workers/workAssignments/homeOrganizationalUnits/nameCode/codeValue eq '000001'"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
