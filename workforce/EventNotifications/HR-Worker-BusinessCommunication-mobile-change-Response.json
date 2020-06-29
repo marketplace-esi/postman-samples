@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "eventStatusCode": {
+        "codeValue": "submitted",
+        "shortName": "submitted"
+      },
+      "data": {
+        "eventContext": {
+          "worker": {
+            "workerID": {
+              "idValue": "000001"
+            }
+          }
+        },
+        "transform": {
+          "worker": {
+            "businessCommunication": {
+              "mobile": {
+                "formattedNumber": "+31646016850"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
