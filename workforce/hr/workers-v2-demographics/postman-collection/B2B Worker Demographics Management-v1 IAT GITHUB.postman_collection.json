@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "fbfa1756-28c0-4fb7-853c-68863da742a6",
+		"name": "B2B Worker Demographics Management-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve all worker-demographics",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/worker-demographics",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"worker-demographics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve individual worker-demographics",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/worker-demographics/000001",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"worker-demographics",
+						"000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the worker-demographics response using $top and $skip parameters",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/worker-demographics?$top=5&$skip=5",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"worker-demographics"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "5"
+						},
+						{
+							"key": "$skip",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the worker-demographics response using $filter parameter",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer 39ea2159-68ed-4d6a-84d2-1d44c2b12ea6"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v2/worker-demographics?$filter=/workers/workAssignments/assignmentCostCenters/costCenterID eq '01260' and /workers/workAssignments/homeOrganizationalUnits/nameCode/codeValue eq '000001'",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v2",
+						"worker-demographics"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "/workers/workAssignments/assignmentCostCenters/costCenterID eq '01260' and /workers/workAssignments/homeOrganizationalUnits/nameCode/codeValue eq '000001'"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e884fbe9-c1ff-49c2-b50a-715fe647eaa2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "6603a683-157d-4587-b63c-8b1ce6a1f462",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
