@@ -1,0 +1,268 @@
+{
+	"info": {
+		"_postman_id": "cba3679c-da09-4547-bc4f-44c045dce0aa",
+		"name": "B2B Inbound Event Notifications-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "worker.hire event - Inbound event for a new employee that is joining the company",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"events\": [\r\n        {\r\n            \"eventID\": \"test-event-123459\",\r\n          \"data\": {\r\n                \"eventContext\": {\r\n                    \"worker\": {\r\n                        \"workerID\": {\r\n                            \"idValue\": \"hireserve_id_1234\"\r\n                        }\r\n                    }\r\n                },\r\n                \"transform\": {\r\n                    \"worker\": {\r\n                        \"person\": {\r\n                            \"birthDate\": \"1986-05-12\",\r\n                            \"preferredName\": {\r\n                                \"titleAffixCodes\": [\r\n                                    {\r\n                                        \"affixCode\": {\r\n                                            \"longName\": \"\"\r\n                                        }\r\n                                    }\r\n                                ]\r\n                            },\r\n                            \"communication\": {\r\n                                \"emails\": [\r\n                                    {\r\n                                        \"emailUri\": \"sdf@fdg.vmn\"\r\n                                    }\r\n                                ]\r\n                            },\r\n                            \"genderCode\": {\r\n                                \"codeValue\": \"V\"\r\n                            },\r\n                            \"legalAddress\": {\r\n                                \"buildingNumber\": \"5\",\r\n                                \"cityName\": \"Testdorp\",\r\n                                \"countryCode\": \"FR\",\r\n                                \"postalCode\": \"9999XX\",\r\n                                \"streetName\": \"Teststraat\"\r\n                            },\r\n                            \"legalName\": {\r\n                                \"familyName1\": \"Test\",\r\n                                \"givenName\": \"Ooktest\",\r\n                                \"initials\": \"T.\",\r\n                                \"nickName\": \"Titus\",\r\n                                \"preferredSalutations\": [\r\n                                    {\r\n                                        \"salutationCode\": {}\r\n                                    }\r\n                                ]\r\n                            }\r\n                        },\r\n                        \"workAssignment\": {\r\n                            \"actualStartDate\": \"2020-02-01\",\r\n                            \"homeOrganizationalUnits\": [\r\n                                {\r\n                                    \"itemID\": \"1\",\r\n                                    \"nameCode\": {\r\n                                        \"codeValue\": \"000001\"\r\n                                    }\r\n                                }\r\n                            ],\r\n                            \"jobCode\": {\r\n                                \"codeValue\": \"000094\"\r\n                            },\r\n                            \"expectedTerminationDate\": \"2021-02-01\"\r\n                        },\r\n                        \"workerID\": {\r\n                            \"idValue\": \"hireserve_id_1234\"\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.hire",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.hire"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "worker.work-assignment.add - Inbound event containing a new contract for an employee",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"events\": [\r\n        {\r\n\r\n\t\t\"data\" : {\r\n\t\t\t\"eventContext\" : {\r\n\t\t\t\t\"worker\" : {\r\n\t\t\t\t\t\"workerID\" : {\r\n\t\t\t\t\t\t\"idValue\" : \"000101\"\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t},\r\n\t\t\t\"transform\" : {\r\n\r\n\t\t\t\t\t\"workAssignment\" : {\r\n\t\t\t\t\t\t\"homeOrganizationalUnits\" : [ \r\n\t\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\t\"nameCode\" : {\r\n\t\t\t\t\t\t\t\t\t\"codeValue\" : \"000095\"\r\n\t\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t],\r\n\t\t\t\t\t\t\"jobCode\" : {\r\n\t\t\t\t\t\t\t\"codeValue\" : \"000287\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\r\n        }\r\n        \r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.work-assignment.add",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.work-assignment.add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "worker.business-communication.landline.change - Inbound event to change landline number for an employee",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"events\": [\r\n\t\t{\r\n\t\t\t\"eventNameCode\": {\r\n\t\t\t\t\"codeValue\": \"worker.businessCommunication.landline.change\"\r\n\t\t\t},\r\n\t\t\t\"data\": {\r\n\t\t\t\t\"eventContext\": {\r\n\t\t\t\t\t\"worker\": {\r\n\t\t\t\t\t\t\"workerID\": {\r\n\t\t\t\t\t\t\t\"idValue\": \"000001\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\t\"transform\": {\r\n\t\t\t\t\t\"worker\": {\r\n\t\t\r\n\t\t\t\t\t\t\"businessCommunication\": {\r\n\t\t\t\t\t\t\t\"landline\": {\r\n\t\t\t\t\t\t\t\t\"formattedNumber\": \"+31646016850\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.business-communication.landline.change",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.business-communication.landline.change"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "worker.business-communication.mobile.change - Inbound event to change mobile number for an employee",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"events\": [\r\n\t\t{\r\n\t\t\t\"eventNameCode\": {\r\n\t\t\t\t\"codeValue\": \"worker.businessCommunication.mobile.change\"\r\n\t\t\t},\r\n\t\t\t\"data\": {\r\n\t\t\t\t\"eventContext\": {\r\n\t\t\t\t\t\"worker\": {\r\n\t\t\t\t\t\t\"workerID\": {\r\n\t\t\t\t\t\t\t\"idValue\": \"000001\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t},\r\n\t\t\t\t\"transform\": {\r\n\t\t\t\t\t\"worker\": {\r\n\t\t\r\n\t\t\t\t\t\t\"businessCommunication\": {\r\n\t\t\t\t\t\t\t\"mobile\": {\r\n\t\t\t\t\t\t\t\t\"formattedNumber\": \"+31646016850\"\r\n\t\t\t\t\t\t\t}\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.business-communication.mobile.change",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.business-communication.mobile.change"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
