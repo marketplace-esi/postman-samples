@@ -1,1 +1,2 @@
-Repository to store postman collection with exampels of REST calls to ADP marketplace ESI
+# marketplace-esi-postman-samples
+ADP Marketplace ESI sample request and response JSON payloads

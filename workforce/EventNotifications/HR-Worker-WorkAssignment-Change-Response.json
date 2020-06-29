@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "eventStatusCode": {
+        "codeValue": "submitted",
+        "shortName": "submitted"
+      },
+      "data": {
+        "eventContext": {
+          "worker": {
+            "workerID": {
+              "idValue": "000101"
+            }
+          }
+        },
+        "transform": {
+          "workAssignment": {
+            "homeOrganizationalUnits": [
+              {
+                "nameCode": {
+                  "codeValue": "000095"
+                }
+              }
+            ],
+            "jobCode": {
+              "codeValue": "000287"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

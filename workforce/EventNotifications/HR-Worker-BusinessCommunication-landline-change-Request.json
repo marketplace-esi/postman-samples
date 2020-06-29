@@ -1,0 +1,28 @@
+{
+	"events": [
+		{
+			"eventNameCode": {
+				"codeValue": "worker.businessCommunication.landline.change"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000001"
+						}
+					}
+				},
+				"transform": {
+					"worker": {
+		
+						"businessCommunication": {
+							"landline": {
+								"formattedNumber": "+31646016850"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

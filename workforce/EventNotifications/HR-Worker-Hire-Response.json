@@ -1,0 +1,81 @@
+{
+  "events": [
+    {
+      "eventStatusCode": {
+        "codeValue": "submitted",
+        "shortName": "submitted"
+      },
+      "data": {
+        "eventContext": {
+          "worker": {
+            "workerID": {
+              "idValue": "hireserve_id_1234"
+            }
+          }
+        },
+        "transform": {
+          "worker": {
+            "person": {
+              "birthDate": "1986-05-12",
+              "preferredName": {
+                "titleAffixCodes": [
+                  {
+                    "affixCode": {
+                      "longName": ""
+                    }
+                  }
+                ]
+              },
+              "communication": {
+                "emails": [
+                  {
+                    "emailUri": "sdf@fdg.vmn"
+                  }
+                ]
+              },
+              "genderCode": {
+                "codeValue": "V"
+              },
+              "legalAddress": {
+                "buildingNumber": "5",
+                "cityName": "Testdorp",
+                "countryCode": "FR",
+                "postalCode": "9999XX",
+                "streetName": "Teststraat"
+              },
+              "legalName": {
+                "familyName1": "Test",
+                "givenName": "Ooktest",
+                "initials": "T.",
+                "nickName": "Titus",
+                "preferredSalutations": [
+                  {
+                    "salutationCode": {}
+                  }
+                ]
+              }
+            },
+            "workAssignment": {
+              "actualStartDate": "2020-02-01",
+              "homeOrganizationalUnits": [
+                {
+                  "itemID": "1",
+                  "nameCode": {
+                    "codeValue": "000001"
+                  }
+                }
+              ],
+              "jobCode": {
+                "codeValue": "000094"
+              },
+              "expectedTerminationDate": "2021-02-01"
+            },
+            "workerID": {
+              "idValue": "hireserve_id_1234"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
