@@ -1,0 +1,78 @@
+{
+  "timeOffRequests": [
+    {
+      "workerID": {
+        "idValue": "000084"
+      },
+      "workAssignmentID": "1",
+      "timeOffRequestID": "V-2020-07-16",
+      "requestStatusCode": {
+        "codeValue": "approved",
+        "longName": "Approved"
+      },
+      "totalQuantity": {
+        "quantityValue": 8.0,
+        "unitTimeCode": {
+          "codeValue": "H",
+          "longName": "Hours"
+        }
+      },
+      "timeOffEntries": [
+        {
+          "datePeriod": {
+            "startDate": "2020-07-16",
+            "endDate": "2020-07-16"
+          },
+          "timeOffPolicyCode": {
+            "codeValue": "V",
+            "longName": "Verlof"
+          },
+          "totalQuantity": {
+            "quantityValue": 8.0,
+            "unitTimeCode": {
+              "codeValue": "H",
+              "longName": "Hours"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "workerID": {
+        "idValue": "000084"
+      },
+      "workAssignmentID": "1",
+      "timeOffRequestID": "V-2020-07-17",
+      "requestStatusCode": {
+        "codeValue": "approved",
+        "longName": "Approved"
+      },
+      "totalQuantity": {
+        "quantityValue": 8.0,
+        "unitTimeCode": {
+          "codeValue": "H",
+          "longName": "Hours"
+        }
+      },
+      "timeOffEntries": [
+        {
+          "datePeriod": {
+            "startDate": "2020-07-17",
+            "endDate": "2020-07-17"
+          },
+          "timeOffPolicyCode": {
+            "codeValue": "V",
+            "longName": "Verlof"
+          },
+          "totalQuantity": {
+            "quantityValue": 8.0,
+            "unitTimeCode": {
+              "codeValue": "H",
+              "longName": "Hours"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
