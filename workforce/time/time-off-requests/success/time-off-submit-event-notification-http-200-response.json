@@ -1,0 +1,59 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-07-13T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "325ddecb-3564-432b-ba55-beff0873e245",
+            "eventNameCode": {
+                "codeValue": "timeOffRequest.submit"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000001"
+                        },
+                        "workAssignment": {
+                            "itemID": "1"
+                        }
+                    }
+                },
+                "output": {
+                    "timeOffRequest": {
+                        "timeOffRequestID": "V-2020-07-24",
+                        "requestStatusCode": {
+                            "codeValue": "approved",
+                            "longName": "Approved"
+                        },
+                        "totalQuantity": {
+                            "quantityValue": 8,
+                            "unitTimeCode": {
+                                "codeValue": "H",
+                                "longName": "Hours"
+                            }
+                        },
+                        "timeOffEntries": [
+                            {
+                                "datePeriod": {
+                                    "startDate": "2020-07-24",
+                                    "endDate": "2020-07-24"
+                                },
+                                "timeOffPolicyCode": {
+                                    "codeValue": "V",
+                                    "longName": "Verlof"
+                                },
+                                "totalQuantity": {
+                                    "quantityValue": 8,
+                                    "unitTimeCode": {
+                                        "codeValue": "H",
+                                        "longName": "Hours"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

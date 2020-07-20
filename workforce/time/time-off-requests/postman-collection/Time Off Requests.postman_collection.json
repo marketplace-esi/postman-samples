@@ -109,6 +109,116 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "A time off request for a certain date is cancelled",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/events/time/v1/time-off-request.cancel/5fe103b2-fb04-4bef-ae1d-e4abdd235d79",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"time",
+						"v1",
+						"time-off-request.cancel",
+						"5fe103b2-fb04-4bef-ae1d-e4abdd235d79"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "A time off request for a certain date is submitted",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/events/time/v1/time-off-request.submit/325ddecb-3564-432b-ba55-beff0873e245",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"time",
+						"v1",
+						"time-off-request.submit",
+						"325ddecb-3564-432b-ba55-beff0873e245"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
