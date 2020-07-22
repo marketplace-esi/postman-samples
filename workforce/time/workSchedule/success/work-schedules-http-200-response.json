@@ -1,0 +1,35 @@
+{
+  "workSchedules": [
+    {
+      "associateOID": "000001",
+      "workAssignmentID": "1",
+      "schedulePeriod": {
+        "startDate": "2020-07-01",
+        "endDate": "2020-07-04"
+      },
+      "scheduleDays": [
+        {
+          "daySequenceNumber": 1,
+          "scheduleDayDate": "2020-07-01",
+          "scheduledHours": {
+            "hoursQuantity": 8.0
+          }
+        },
+        {
+          "daySequenceNumber": 2,
+          "scheduleDayDate": "2020-07-02",
+          "scheduledHours": {
+            "hoursQuantity": 2.0
+          }
+        },
+        {
+          "daySequenceNumber": 3,
+          "scheduleDayDate": "2020-07-03",
+          "scheduledHours": {
+            "hoursQuantity": 0
+          }
+        }
+      ]
+    }
+  ]
+}

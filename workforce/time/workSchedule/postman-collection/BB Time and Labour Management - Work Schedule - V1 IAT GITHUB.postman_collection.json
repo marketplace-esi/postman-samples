@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "8895da82-1cc7-43f0-859c-ed295c54cbf9",
+		"name": "BB Time and Labour Management - Work Schedule - V1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reading a Work Schedule",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "840b24bf-bd48-4801-a497-06609c550f02",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/time/v1/workers/000001/work-schedules?$filter=/workSchedules/schedulePeriod/startDate ge '2020-07-01' and /workSchedules/schedulePeriod/endDate lt '2020-07-04'",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"time",
+						"v1",
+						"workers",
+						"000001",
+						"work-schedules"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "/workSchedules/schedulePeriod/startDate ge '2020-07-01' and /workSchedules/schedulePeriod/endDate lt '2020-07-04'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reading a Work Schedule and exclude holidays",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "0dbe9b2b-8f6c-4548-af7a-b2ae6f47212e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "showHolidays",
+						"value": "false",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/time/v1/workers/000001/work-schedules?$filter=/workSchedules/schedulePeriod/startDate ge '2020-12-24' and /workSchedules/schedulePeriod/endDate lt '2020-12-31'&showHolidays=false",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"time",
+						"v1",
+						"workers",
+						"000001",
+						"work-schedules"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "/workSchedules/schedulePeriod/startDate ge '2020-12-24' and /workSchedules/schedulePeriod/endDate lt '2020-12-31'"
+						},
+						{
+							"key": "showHolidays",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
