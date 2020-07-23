@@ -60,26 +60,13 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "840b24bf-bd48-4801-a497-06609c550f02",
+							"value": "paste bearer token here",
 							"type": "string"
 						}
 					]
 				},
 				"method": "GET",
-				"header": [
-					{
-						"key": "adp.env",
-						"value": "DEV",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "Content-Type",
-						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text"
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "urlencoded",
 					"urlencoded": []
@@ -121,33 +108,13 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "0dbe9b2b-8f6c-4548-af7a-b2ae6f47212e",
+							"value": "paste bearer token here",
 							"type": "string"
 						}
 					]
 				},
 				"method": "GET",
-				"header": [
-					{
-						"key": "adp.env",
-						"value": "DEV",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "Content-Type",
-						"name": "Content-Type",
-						"value": "application/x-www-form-urlencoded",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "showHolidays",
-						"value": "false",
-						"type": "text",
-						"disabled": true
-					}
-				],
+				"header": [],
 				"body": {
 					"mode": "urlencoded",
 					"urlencoded": []
