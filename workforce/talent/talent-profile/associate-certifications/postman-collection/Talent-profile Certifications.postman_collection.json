@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "e963138e-13a8-446d-bb22-5119e689e4fd",
+		"name": "BB Talent-profile Certifications-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve a list of defined certifcations",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/talent/v2/certifications",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"talent",
+						"v2",
+						"certifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the certifications for all employees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/talent/v2/associate-certifications",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"talent",
+						"v2",
+						"associate-certifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the certifications for a given employee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/talent/v2/associates/000005/associate-certifications",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"talent",
+						"v2",
+						"associates",
+						"000005",
+						"associate-certifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a certificate for a given employee",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"associateCertification\":\r\n        {\r\n        \"certificationID\": {\r\n            \"idValue\": \"453645\"\r\n        },\r\n        \"certificationDescription\": \"Kubernetes for Beginners\",\r\n        \"certificationNameCode\": {\r\n            \"codeValue\": \"EXCEL01\"\r\n        },\r\n        \"expirationDate\": \"2024-07-01\",\r\n        \"lastIssueDate\": \"2020-07-01\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/talent/v2/associates/000005/associate-certifications",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"talent",
+						"v2",
+						"associates",
+						"000005",
+						"associate-certifications"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

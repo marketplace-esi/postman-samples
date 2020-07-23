@@ -1,0 +1,113 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "f0818ece-4cad-42b8-9ce3-f4d53d6f3c6f",
+      "schemeAgencyName": "confirmMessageID",
+      "schemeName": "DEX"
+    },
+    "createDateTime": "2020-07-23T14:47:16.692+02:00",
+    "processMessages": [
+      {
+        "developerMessage": {
+          "codeValue": 400,
+          "links": [
+            {
+              "href": "https://splunk.esi.adp.com/en-US/app/search/search?q=search%20dexCorrelationID%20f0818ece-4cad-42b8-9ce3-f4d53d6f3c6f",
+              "method": "GET",
+              "title": "Splunk search on correlation id"
+            }
+          ],
+          "messageTxt": "{error={code=3, description=Afgiftedatum (WP_CER_AFGIFTE) is verplicht}}..."
+        },
+        "expressionLanguageCode": {
+          
+        },
+        "links": [
+          {
+            
+          }
+        ],
+        "messageTypeCode": {
+          
+        },
+        "processMessageID": {
+          
+        },
+        "userMessage": {
+          "links": [
+            {
+              
+            }
+          ],
+          "messageTxt": "{error={code=3, description=Afgiftedatum (WP_CER_AFGIFTE) is verplicht}}..."
+        }
+      }
+    ],
+    "processingStatusCode": {
+      
+    },
+    "protocolCode": {
+      
+    },
+    "protocolStatusCode": {
+      "codeValue": 400,
+      "longName": "{error={code=3, description=Afgiftedatum (WP_CER_AFGIFTE) is verplicht}}..."
+    },
+    "requestID": {
+      
+    },
+    "requestLink": {
+      
+    },
+    "requestMethodCode": {
+      
+    },
+    "requestStatusCode": {
+      
+    },
+    "resourceMessages": [
+      {
+        "processMessages": [
+          {
+            "developerMessage": {
+              
+            },
+            "expressionLanguageCode": {
+              
+            },
+            "links": [
+              {
+                
+              }
+            ],
+            "messageTypeCode": {
+              
+            },
+            "processMessageID": {
+              
+            },
+            "userMessage": {
+              "links": [
+                {
+                  
+                }
+              ]
+            }
+          }
+        ],
+        "resourceLink": {
+          
+        },
+        "resourceMessageID": {
+          
+        },
+        "resourceStatusCode": {
+          
+        }
+      }
+    ],
+    "sessionID": {
+      
+    }
+  }
+}

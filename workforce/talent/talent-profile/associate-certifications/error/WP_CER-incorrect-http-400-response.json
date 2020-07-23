@@ -1,0 +1,113 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "297e9182-6d85-4d75-acca-75cdf509b5c4",
+      "schemeAgencyName": "confirmMessageID",
+      "schemeName": "DEX"
+    },
+    "createDateTime": "2020-07-23T14:49:09.772+02:00",
+    "processMessages": [
+      {
+        "developerMessage": {
+          "codeValue": 400,
+          "links": [
+            {
+              "href": "https://splunk.esi.adp.com/en-US/app/search/search?q=search%20dexCorrelationID%20297e9182-6d85-4d75-acca-75cdf509b5c4",
+              "method": "GET",
+              "title": "Splunk search on correlation id"
+            }
+          ],
+          "messageTxt": "{error={code=7, description=Certificaat (WP_CER: EXCEL01111) onbekend op de afgiftedatum (WP_CER_AFGIFTE: 20200701)}}..."
+        },
+        "expressionLanguageCode": {
+          
+        },
+        "links": [
+          {
+            
+          }
+        ],
+        "messageTypeCode": {
+          
+        },
+        "processMessageID": {
+          
+        },
+        "userMessage": {
+          "links": [
+            {
+              
+            }
+          ],
+          "messageTxt": "{error={code=7, description=Certificaat (WP_CER: EXCEL01111) onbekend op de afgiftedatum (WP_CER_AFGIFTE: 20200701)}}..."
+        }
+      }
+    ],
+    "processingStatusCode": {
+      
+    },
+    "protocolCode": {
+      
+    },
+    "protocolStatusCode": {
+      "codeValue": 400,
+      "longName": "{error={code=7, description=Certificaat (WP_CER: EXCEL01111) onbekend op de afgiftedatum (WP_CER_AFGIFTE: 20200701)}}..."
+    },
+    "requestID": {
+      
+    },
+    "requestLink": {
+      
+    },
+    "requestMethodCode": {
+      
+    },
+    "requestStatusCode": {
+      
+    },
+    "resourceMessages": [
+      {
+        "processMessages": [
+          {
+            "developerMessage": {
+              
+            },
+            "expressionLanguageCode": {
+              
+            },
+            "links": [
+              {
+                
+              }
+            ],
+            "messageTypeCode": {
+              
+            },
+            "processMessageID": {
+              
+            },
+            "userMessage": {
+              "links": [
+                {
+                  
+                }
+              ]
+            }
+          }
+        ],
+        "resourceLink": {
+          
+        },
+        "resourceMessageID": {
+          
+        },
+        "resourceStatusCode": {
+          
+        }
+      }
+    ],
+    "sessionID": {
+      
+    }
+  }
+}
