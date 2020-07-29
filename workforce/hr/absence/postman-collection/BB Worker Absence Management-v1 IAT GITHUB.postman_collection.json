@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "be0bfda2-b594-4d75-9a85-6e1cc9c95f37",
+		"name": "BB Worker Absence Management-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the worker absences using $filter parameter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/absence/v2/absences?$filter=/absences/firstDateOfAbsence ge '2020-07-01'",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"absence",
+						"v2",
+						"absences"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "/absences/firstDateOfAbsence ge '2020-07-01'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the current worker absences",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/absence/v2/absences/current",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"absence",
+						"v2",
+						"absences",
+						"current"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve the worker absence based on absenceID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/absence/v2/absences/0000641-20200729",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"absence",
+						"v2",
+						"absences",
+						"0000641-20200729"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

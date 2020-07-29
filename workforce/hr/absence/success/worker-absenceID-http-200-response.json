@@ -1,0 +1,27 @@
+{
+    "absenceId": "0000641-20200729",
+    "firstDateOfAbsence": "2020-07-29",
+    "dateOfRecovery": "2099-12-31",
+    "absenceCode": {
+        "codeValue": "1",
+        "longName": "Ziek, overige gevallen"
+    },
+    "hoursOfAbsenceOnFirstDate": 4,
+    "workerID": {
+        "idValue": "000064"
+    },
+    "assignmentID": {
+        "idValue": "1"
+    },
+    "changes": [
+        {
+            "changeDateTime": "2020-07-29T09:39",
+            "effectiveDate": "2020-07-29",
+            "absencePercentage": 1E+2,
+            "reasonCode": {
+                "codeValue": "IZ",
+                "longName": "Initiele ziektemelding"
+            }
+        }
+    ]
+}

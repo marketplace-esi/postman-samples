@@ -1,0 +1,146 @@
+{
+    "absences": [
+        {
+            "absenceId": "0000951-20200714",
+            "absenceCreationDateTime": "2020-07-29T09:40",
+            "absenceClosureDateTime": "2020-07-29T09:40",
+            "lastChangeDateTime": "2020-07-29T09:40",
+            "effectiveDate": "2020-07-14",
+            "workerID": {
+                "idValue": "000095"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2020-07-14",
+            "originalDateOfAbsence": "2020-07-14",
+            "dateOfRecovery": "2020-07-29",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "absencePercentage": 1E+2
+        },
+        {
+            "absenceId": "0000641-20200729",
+            "absenceCreationDateTime": "2020-07-29T09:39",
+            "lastChangeDateTime": "2020-07-29T09:39",
+            "effectiveDate": "2020-07-29",
+            "workerID": {
+                "idValue": "000064"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2020-07-29",
+            "originalDateOfAbsence": "2020-07-29",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "hoursOfAbsenceOnFirstDate": 4,
+            "absencePercentage": 1E+2
+        },
+        {
+            "absenceId": "0012471-20170501",
+            "absenceCreationDateTime": "2019-08-20T11:12",
+            "lastChangeDateTime": "2019-08-20T11:12",
+            "effectiveDate": "2017-05-01",
+            "workerID": {
+                "idValue": "001247"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2017-05-01",
+            "originalDateOfAbsence": "2017-05-01",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "absencePercentage": 1E+2
+        },
+        {
+            "absenceId": "0011191-20160912",
+            "absenceCreationDateTime": "2018-03-28T11:44",
+            "lastChangeDateTime": "2018-03-28T11:44",
+            "effectiveDate": "2016-09-12",
+            "workerID": {
+                "idValue": "001119"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2016-09-12",
+            "originalDateOfAbsence": "2017-01-01",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "absencePercentage": 1E+2
+        },
+        {
+            "absenceId": "0011201-20180318",
+            "absenceCreationDateTime": "2018-03-28T11:43",
+            "absenceClosureDateTime": "2018-03-28T11:43",
+            "lastChangeDateTime": "2018-03-28T11:43",
+            "effectiveDate": "2018-03-18",
+            "workerID": {
+                "idValue": "001120"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2018-03-18",
+            "originalDateOfAbsence": "",
+            "dateOfRecovery": "2018-03-25",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "absencePercentage": 1E+2
+        },
+        {
+            "absenceId": "0011201-20180204",
+            "absenceCreationDateTime": "2018-03-28T11:43",
+            "absenceClosureDateTime": "2018-03-28T11:43",
+            "lastChangeDateTime": "2018-03-28T11:43",
+            "effectiveDate": "2018-02-04",
+            "workerID": {
+                "idValue": "001120"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2018-02-04",
+            "originalDateOfAbsence": "",
+            "dateOfRecovery": "2018-02-11",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "absencePercentage": 1E+2
+        },
+        {
+            "absenceId": "0011201-20171224",
+            "absenceCreationDateTime": "2018-03-28T11:42",
+            "absenceClosureDateTime": "2018-03-28T11:42",
+            "lastChangeDateTime": "2018-03-28T11:42",
+            "effectiveDate": "2017-12-24",
+            "workerID": {
+                "idValue": "001120"
+            },
+            "assignmentID": {
+                "idValue": "1"
+            },
+            "firstDateOfAbsence": "2017-12-24",
+            "originalDateOfAbsence": "",
+            "dateOfRecovery": "2017-12-31",
+            "absenceCode": {
+                "codeValue": "1",
+                "longName": "Ziek, overige gevallen"
+            },
+            "absencePercentage": 1E+2
+        }
+    ]
+}
