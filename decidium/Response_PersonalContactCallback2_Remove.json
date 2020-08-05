@@ -1,0 +1,1 @@
+{"events":[{"eventID":"14b2f594-c58a-48e8-94c7-2ab4ba523bbb","eventNameCode":{"codeValue":"worker.personalContact.remove"},"recordDateTime":"2020-07-31T12:59:47+02:00","effectiveDateTime":"2020-07-31T12:59:47+02:00","data":{"eventContext":{"worker":{"associateOID":"pnom2-mp2"}},"output":{"personalContact":{"itemID":"2"}}}}]}
