@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-05-28T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "7c9d2d7f-cb07-4ea9-a13b-11140f86b4bc",
+            "eventNameCode": {
+                "codeValue": "organizationDepartment.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationDepartment": {
+                        "departmentCode": {
+                            "codeValue": "061100"
+                        }
+                    }
+                },
+                "output": {
+                    "organizationDepartment": {
+                        "parentDepartmentCode": {},
+                        "departmentCode": {
+                            "codeValue": "061100"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

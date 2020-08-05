@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "0a1cf307-e30d-43bd-9613-ccef71d0079c",
+		"name": "BB Organization Management-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve department information",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-departments",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Organization Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/events/core/v1/organization-department.remove/7c9d2d7f-cb07-4ea9-a13b-11140f86b4bc",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-department.remove",
+						"7c9d2d7f-cb07-4ea9-a13b-11140f86b4bc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Organization Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/events/core/v1/organization-department.add/070a8528-327a-4306-9c98-ebcf53f30fcb",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-department.add",
+						"070a8528-327a-4306-9c98-ebcf53f30fcb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Organization Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/events/core/v1/organization-department.change/4a944954-a9c3-41be-aa8d-cc02dbe4ecb8",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-department.change",
+						"4a944954-a9c3-41be-aa8d-cc02dbe4ecb8"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
