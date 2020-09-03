@@ -85,10 +85,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/absence/v2/absences?$filter=/absences/firstDateOfAbsence ge '2020-07-01'",
+					"raw": "https://iat-api.eu.adp.com/absence/v2/absences?$filter=/absences/firstDateOfAbsence ge '2020-07-01'",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"
@@ -144,10 +144,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/absence/v2/absences/current",
+					"raw": "https://iat-api.eu.adp.com/absence/v2/absences/current",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"
@@ -198,10 +198,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/absence/v2/absences/0000641-20200729",
+					"raw": "https://iat-api.eu.adp.com/absence/v2/absences/0000641-20200729",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"

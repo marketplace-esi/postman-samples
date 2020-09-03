@@ -1,0 +1,26 @@
+{
+    "organizationRoles": [
+        {
+            "workerID": {
+                "idValue": "000001",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": "NDS Burghout",
+            "departmentCode": {
+                "codeValue": "000001",
+                "shortName": "Head",
+                "longName": "Corporate Headquarter"
+            },
+            "roleCode": {
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
+            },
+            "managementPositionIndicator": true,
+            "activeIndicator": true,
+            "effectiveDate": "2000-01-01"
+        }
+    ]
+}

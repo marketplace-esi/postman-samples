@@ -72,10 +72,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/talent/v2/certifications",
+					"raw": "https://iat-api.eu.adp.com/talent/v2/certifications",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"
@@ -112,10 +112,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/talent/v2/associate-certifications",
+					"raw": "https://iat-api.eu.adp.com/talent/v2/associate-certifications",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"
@@ -152,10 +152,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/talent/v2/associates/000005/associate-certifications",
+					"raw": "https://iat-api.eu.adp.com/talent/v2/associates/000005/associate-certifications",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"
@@ -196,10 +196,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/talent/v2/associates/000005/associate-certifications",
+					"raw": "https://iat-api.eu.adp.com/talent/v2/associates/000005/associate-certifications",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"

@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-02T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "dd212a89-a516-4b40-89a4-94ed350d6267",
+            "eventNameCode": {
+                "codeValue": "organizationCostCenter.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationCostCenter": {
+                        "costCenterCode": "01230"
+                    }
+                },
+                "output": {
+                    "organizationCostCenter": {
+                        "costCenterCode": {
+                            "codeValue": "01230"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

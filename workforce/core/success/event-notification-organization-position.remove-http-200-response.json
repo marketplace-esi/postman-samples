@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-02T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "ea73b0f8-237a-4109-8d20-ccfcc2935846",
+            "eventNameCode": {
+                "codeValue": "organizationPosition.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationPosition": {
+                        "positionID": "000010-000109"
+                    }
+                },
+                "output": {
+                    "organizationPosition": {
+                        "positionID": "000010-000109",
+                        "sharedPositionMaximumHeadcount": 0,
+                        "activePeriod": {
+                            "end": {
+                                "reasonCode": {}
+                            }
+                        },
+                        "budgetedAmount": {
+                            "amountValue": 0.00,
+                            "currencyCode": "EUR"
+                        },
+                        "workAssignment": {
+                            "standardHours": {
+                                "hoursQuantity": 0,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "Week"
+                                }
+                            },
+                            "wageLawCoverages": [
+                                {
+                                    "wageLawNameCode": {}
+                                }
+                            ]
+                        },
+                        "compensationData": {
+                            "baseRemuneration": {
+                                "payScaleCode": {
+                                    "shortName": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

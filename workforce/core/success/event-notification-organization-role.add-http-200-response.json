@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2018-11-29T00:00:00Z",
+            "effectiveDateTime": "2018-11-01T00:00:00Z",
+            "eventID": "ee85be58-4f7e-472a-ba63-feb8935fd345",
+            "eventNameCode": {
+                "codeValue": "organizationRole.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000039"
+                        }
+                    }
+                },
+                "output": {
+                    "organizationRole": {
+                        "workerID": {
+                            "idValue": "000039",
+                            "schemeCode": {
+                                "codeValue": "WF",
+                                "longName": "Workforce"
+                            }
+                        },
+                        "departmentCode": {
+                            "codeValue": "000011"
+                        },
+                        "roleCode": {
+                            "codeValue": "HOOFD"
+                        },
+                        "managementPositionIndicator": true,
+                        "effectiveDate": "2018-11-01"
+                    }
+                }
+            }
+        }
+    ]
+}

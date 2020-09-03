@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-02T00:00:00Z",
+            "effectiveDateTime": "2020-10-01T00:00:00Z",
+            "eventID": "6f71e85c-5626-41df-9e99-151d0af748b3",
+            "eventNameCode": {
+                "codeValue": "organizationPosition.change"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationPosition": {
+                        "positionID": "000020-000002"
+                    }
+                },
+                "output": {
+                    "organizationPosition": {
+                        "positionID": "000020-000002",
+                        "positionTitle": "Marketing - Secretaresse",
+                        "sharedPositionMaximumHeadcount": 2.00,
+                        "activePeriod": {
+                            "effectiveDate": "1950-01-01",
+                            "end": {
+                                "endDate": "",
+                                "reasonCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            }
+                        },
+                        "budgetedAmount": {
+                            "amountValue": 108211.85,
+                            "currencyCode": "EUR"
+                        },
+                        "workAssignment": {
+                            "standardHours": {
+                                "hoursQuantity": 40.00,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "Week"
+                                }
+                            },
+                            "wageLawCoverages": [
+                                {
+                                    "wageLawNameCode": {
+                                        "codeValue": "64"
+                                    }
+                                }
+                            ]
+                        },
+                        "compensationData": {
+                            "baseRemuneration": {
+                                "payScaleCode": {
+                                    "codeValue": "6",
+                                    "shortName": "64-6"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
