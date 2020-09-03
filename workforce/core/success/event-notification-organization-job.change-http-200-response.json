@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "creationDateTime": "2020-05-28T00:00:00Z",
+      "effectiveDateTime": "2020-01-01T00:00:00Z",
+      "eventID": "3223f5eb-c04d-4565-a6d0-f7950748bb09",
+      "eventNameCode": {
+        "codeValue": "organizationJob.change"
+      },
+      "data": {
+        "eventContext": {
+          "organizationJob": {
+            "jobCode": {
+              "codeValue": "012345"
+            }
+          }
+        },
+        "output": {
+          "organizationJob": {
+            "jobCode": {
+              "codeValue": "012345"
+            },
+            "jobStatusCode": {
+              "codeValue": "I",
+              "shortName": "Inactive",
+              "longName": "Inactive",
+              "effectiveDate": ""
+            },
+            "jobTitle": "Dex functie aangepast",
+            "jobFamilyCode": {
+              "codeValue": "",
+              "longName": ""
+            },
+            "effectiveDate": "2020-01-01",
+            "salaryPlan": {
+              "payGradeCode": {
+                "codeValue": "",
+                "shortName": ""
+              },
+              "planCode": {
+                "codeValue": "1",
+                "shortName": "64-1"
+              }
+            },
+            "wageLawCoverage": {
+              "wageLawNameCode": {
+                "codeValue": "64",
+                "shortName": "ADP CAO 64"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "organizationCostCenters": [
+        {
+            "costCenterCode": {
+                "codeValue": "01225",
+                "shortName": "Kostenplaats 01225",
+                "longName": "Kostenplaats 01225"
+            },
+            "costCenterDescription": "Kostenplaats 01225",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "endDate": "2099-12-31"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-02T00:00:00Z",
+            "effectiveDateTime": "2020-09-01T00:00:00Z",
+            "eventID": "75580211-fd42-4b8d-934d-60b0259ad887",
+            "eventNameCode": {
+                "codeValue": "organizationCostCenter.add"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationCostCenter": {
+                        "costCenterCode": "01230"
+                    }
+                },
+                "output": {
+                    "organizationCostCenter": {
+                        "costCenterCode": {
+                            "codeValue": "01230",
+                            "longName": "Test"
+                        },
+                        "costCenterDescription": "Test",
+                        "activeIndicator": false,
+                        "effectiveDate": "2020-09-01"
+                    }
+                }
+            }
+        }
+    ]
+}

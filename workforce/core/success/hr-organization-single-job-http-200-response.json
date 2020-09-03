@@ -1,0 +1,37 @@
+{
+    "organizationJobs": [
+        {
+            "jobCode": {
+                "codeValue": "000001"
+            },
+            "jobStatusCode": {
+                "codeValue": "A",
+                "shortName": "Active",
+                "longName": "Active",
+                "effectiveDate": "1950-01-01"
+            },
+            "jobTitle": "Tester",
+            "jobFamilyCode": {
+                "codeValue": "",
+                "longName": ""
+            },
+            "effectiveDate": "1950-01-01",
+            "salaryPlan": {
+                "payGradeCode": {
+                    "codeValue": "",
+                    "shortName": ""
+                },
+                "planCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
+            },
+            "wageLawCoverage": {
+                "wageLawNameCode": {
+                    "codeValue": "64",
+                    "shortName": "ADP CAO 64"
+                }
+            }
+        }
+    ]
+}

@@ -72,10 +72,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/time/v1/workers/000001/work-schedules?$filter=/workSchedules/schedulePeriod/startDate ge '2020-07-01' and /workSchedules/schedulePeriod/endDate lt '2020-07-04'",
+					"raw": "https://iat-api.eu.adp.com/time/v1/workers/000001/work-schedules?$filter=/workSchedules/schedulePeriod/startDate ge '2020-07-01' and /workSchedules/schedulePeriod/endDate lt '2020-07-04'",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"
@@ -120,10 +120,10 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "https://iat-accounts.eu.adp.com/time/v1/workers/000001/work-schedules?$filter=/workSchedules/schedulePeriod/startDate ge '2020-12-24' and /workSchedules/schedulePeriod/endDate lt '2020-12-31'&showHolidays=false",
+					"raw": "https://iat-api.eu.adp.com/time/v1/workers/000001/work-schedules?$filter=/workSchedules/schedulePeriod/startDate ge '2020-12-24' and /workSchedules/schedulePeriod/endDate lt '2020-12-31'&showHolidays=false",
 					"protocol": "https",
 					"host": [
-						"iat-accounts",
+						"iat-api",
 						"eu",
 						"adp",
 						"com"

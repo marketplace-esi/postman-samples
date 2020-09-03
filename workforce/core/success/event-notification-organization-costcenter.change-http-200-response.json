@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-02T00:00:00Z",
+            "effectiveDateTime": "2020-09-01T00:00:00Z",
+            "eventID": "93f303f9-c7f2-44aa-9347-b046cf290c0d",
+            "eventNameCode": {
+                "codeValue": "organizationCostCenter.change"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationCostCenter": {
+                        "costCenterCode": "01225"
+                    }
+                },
+                "output": {
+                    "organizationCostCenter": {
+                        "costCenterCode": {
+                            "codeValue": "01225",
+                            "longName": "Bureauinrichting"
+                        },
+                        "costCenterDescription": "Bureauinrichting",
+                        "activeIndicator": false,
+                        "effectiveDate": "1950-01-01"
+                    }
+                }
+            }
+        }
+    ]
+}
