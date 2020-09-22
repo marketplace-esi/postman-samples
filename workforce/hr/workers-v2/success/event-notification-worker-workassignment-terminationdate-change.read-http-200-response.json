@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-05-28T00:00:00Z",
+            "effectiveDateTime": "2020-05-01T00:00:00Z",
+            "eventID": "71915b3a-c612-45d7-bf2f-7345231a804d",
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.terminationDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000098"
+                        },
+                        "workAssignment": {
+                            "itemID": "4"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "terminationDate": "2020-06-01"
+                        },
+                        "workerID": {
+                            "idValue": "000098"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

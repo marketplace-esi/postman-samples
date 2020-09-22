@@ -1,0 +1,114 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-21T00:00:00Z",
+            "effectiveDateTime": "2020-09-01T00:00:00Z",
+            "eventID": "1ed29d56-aa1b-4c1d-9bcf-9f7c74fe8e86",
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.position.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "ADPNL00000005",
+                        "workerID": {
+                            "idValue": "000005"
+                        },
+                        "workAssignment": {
+                            "itemID": "1"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "ADPNL00000005",
+                        "workAssignment": {
+                            "actualStartDate": "1991-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "1",
+                                "longName": "Klantspecifiek"
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "000001",
+                                        "longName": "Corporate Headquarter"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "",
+                                        "longName": ""
+                                    }
+                                }
+                            ],
+                            "payrollGroupCode": "2572",
+                            "payrollFileNumber": "0000051",
+                            "jobCode": {
+                                "codeValue": "000130",
+                                "longName": "Beleidsmedewerker"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "008.00"
+                            },
+                            "payScaleCode": {
+                                "codeValue": "8"
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 32,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": 8E+1,
+                            "terminationDate": "",
+                            "expectedTerminationDate": "",
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "64",
+                                    "longName": "ADP CAO 64"
+                                }
+                            },
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenter"
+                                        },
+                                        "stringValue": "#"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenterName"
+                                        },
+                                        "stringValue": "#"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "032.00"
+                                    }
+                                ]
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000005"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

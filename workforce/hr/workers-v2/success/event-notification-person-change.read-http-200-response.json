@@ -1,0 +1,190 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2018-11-29T00:00:00Z",
+            "effectiveDateTime": "2018-11-28T00:00:00Z",
+            "eventID": "4f2bd9a8-fed8-44e9-8cc4-7f8a899e36d9",
+            "eventNameCode": {
+                "codeValue": "worker.person.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "",
+                        "workerID": {
+                            "idValue": "000037"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "",
+                        "businessCommunication": {
+                            "emails": [
+                                {
+                                    "emailUri": "000037@adp.com"
+                                }
+                            ],
+                            "landlines": [
+                                {
+                                    "formattedNumber": "P037",
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "shortName": "business landline"
+                                    }
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "formattedNumber": "",
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "shortName": "business mobile"
+                                    }
+                                }
+                            ]
+                        },
+                        "customFieldGroup": {
+                            "stringFields": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "partnerFamilyName1"
+                                    },
+                                    "stringValue": "Hunger"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "partnerFamilyName1Prefix"
+                                    },
+                                    "stringValue": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "partnerInitials"
+                                    },
+                                    "stringValue": "RS"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "naamSamenstelling"
+                                    },
+                                    "stringValue": "tiva"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "samengesteldeNaam"
+                                    },
+                                    "stringValue": "HKNT Mulder"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "loginName"
+                                    },
+                                    "stringValue": ""
+                                }
+                            ]
+                        },
+                        "person": {
+                            "birthDate": "1968-07-11",
+                            "birthPlace": {
+                                "cityName": "Maasdonk",
+                                "countryCode": ""
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "0001"
+                                }
+                            ],
+                            "governmentIDs": [
+                                {
+                                    "itemID": "1",
+                                    "idValue": "410236627",
+                                    "nameCode": {
+                                        "codeValue": "BSN",
+                                        "longName": "Burgerservicenummer"
+                                    }
+                                }
+                            ],
+                            "identityDocuments": [
+                                {
+                                    "documentID": "",
+                                    "typeCode": {
+                                        "codeValue": "",
+                                        "shortName": ""
+                                    }
+                                }
+                            ],
+                            "preferredName": {
+                                "titleAffixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "longName": ""
+                                        }
+                                    }
+                                ],
+                                "titlePrefixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "longName": ""
+                                        }
+                                    }
+                                ]
+                            },
+                            "communication": {
+                                "emails": [
+                                    {
+                                        "emailUri": ""
+                                    }
+                                ],
+                                "landlines": [
+                                    {
+                                        "formattedNumber": "",
+                                        "itemID": "1",
+                                        "nameCode": {
+                                            "shortName": "home phone"
+                                        }
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "",
+                                        "itemID": "1",
+                                        "nameCode": {
+                                            "shortName": "private mobile"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "M"
+                            },
+                            "legalName": {
+                                "familyName1": "Mulder",
+                                "familyName1Prefix": "",
+                                "formattedName": "HKNT Mulder",
+                                "givenName": "Harm",
+                                "initials": "HKNT",
+                                "nickName": "Harm",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "1M",
+                                            "longName": "De heer"
+                                        }
+                                    }
+                                ]
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": "1",
+                                "shortName": "Ongehuwd"
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000037"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

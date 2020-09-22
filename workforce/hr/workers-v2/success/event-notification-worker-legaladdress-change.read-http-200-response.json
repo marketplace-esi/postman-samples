@@ -1,0 +1,41 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2018-11-29T00:00:00Z",
+            "effectiveDateTime": "2018-12-01T00:00:00Z",
+            "eventID": "f629edc3-b6fa-48be-b76f-4dc28461da99",
+            "eventNameCode": {
+                "codeValue": "worker.legalAddress.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "001203"
+                        },
+                        "workAssignment": {
+                            "itemID": "1"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "legalAddress": {
+                                "buildingNumber": "12",
+                                "cityName": "Testdorp",
+                                "countryCode": "NL",
+                                "postalCode": "1234 AB",
+                                "streetName": "Teststraat",
+                                "unit": ""
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "001203"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

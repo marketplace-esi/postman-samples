@@ -1,0 +1,148 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2018-11-29T00:00:00Z",
+            "effectiveDateTime": "2018-11-28T00:00:00Z",
+            "eventID": "b2a471cd-8291-422b-bbfd-337d35abb88d",
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "ADPNL00000037",
+                        "workerID": {
+                            "idValue": "000037"
+                        },
+                        "workAssignment": {
+                            "itemID": "1"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "ADPNL00000037",
+                        "workAssignment": {
+                            "actualStartDate": "2001-09-01",
+                            "baseRemuneration": {
+                                "effectiveDate": "2018-11-28",
+                                "payPeriodRateAmount": {
+                                    "amountValue": 3894,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "10"
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "000025",
+                                        "longName": "Klantenservice"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "",
+                                        "longName": ""
+                                    }
+                                }
+                            ],
+                            "payrollGroupCode": "2572",
+                            "payrollFileNumber": "0000371",
+                            "jobCode": {
+                                "codeValue": "000002",
+                                "longName": "Secretaresse"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "007.00"
+                            },
+                            "payScaleCode": {
+                                "codeValue": "7"
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 4E+1,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": 1E+2,
+                            "terminationDate": "",
+                            "expectedTerminationDate": "",
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "64",
+                                    "longName": "ADP CAO 64"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "000019-HOOFD",
+                                    "workerID": {
+                                        "idValue": "000019"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "longName": "HOOFD"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "P van Consten"
+                                    },
+                                    "associateOID": "000019"
+                                },
+                                {
+                                    "itemID": "000025-PNO",
+                                    "workerID": {
+                                        "idValue": "000025"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "longName": "PNO"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "MCJ Jeuneville"
+                                    },
+                                    "associateOID": "000025"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenter"
+                                        },
+                                        "stringValue": "01225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenterName"
+                                        },
+                                        "stringValue": "Kostenplaats 01225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "040.00"
+                                    }
+                                ]
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000037"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
