@@ -1,0 +1,159 @@
+{
+    "workers": [
+        {
+            "associateOID": "tdimi-6mk",
+            "workerID": {
+                "idValue": "00000350"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "TAR",
+                    "middleName": "",
+                    "familyName1": "DIMI",
+                    "formattedName": "TAR DIMI",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "birthDate": "2001-01-01",
+                "legalAddress": {
+                    "cityName": "NANTES",
+                    "buildingNumber": "0",
+                    "buildingNumberExtension": " ",
+                    "buildingName": " ",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "",
+                        "longName": "",
+                        "subdivisionType": ""
+                    }
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": ""
+                },
+                "identityDocuments": [
+                    {
+                        "documentID": "1010144986788",
+                        "typeCode": {
+                            "codeValue": "SSN",
+                            "shortName": "Numéro de sécurité sociale"
+                        }
+                    }
+                ],
+                "immigrationDocuments": [],
+                "birthPlace": {
+                    "cityName": "PARIS",
+                    "postalCode": "44000",
+                    "countryCode": "FR"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCE",
+                        "longName": "FRANCE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-08-25"
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "2020-08-25",
+                    "actualStartDate": "2020-08-25",
+                    "jobCode": {
+                        "codeValue": "EMPLO1",
+                        "shortName": "Emploi 1",
+                        "longName": "Emploi 1"
+                    },
+                    "jobTitle": "Emploi 1",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "111111",
+                                "shortName": "MANAGEMENT",
+                                "longName": "MANAGEMENT"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "01001",
+                                "shortName": "ORION SIEGE LEVALLOIS",
+                                "longName": "ORION SIEGE LEVALLOIS"
+                            },
+                            "address": {
+                                "lineOne": "",
+                                "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                "cityName": "SAINT DIDIER MONT D OR",
+                                "countryCode": "FR",
+                                "postalCode": "69370",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "SAINT DIDIER MONT D OR",
+                                    "shortName": "SAINT DIDIER MONT D OR",
+                                    "longName": "SAINT DIDIER MONT D OR",
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "S"
+                    },
+                    "baseRemuneration": {
+                        "annualRateAmount": {
+                            "nameCode": {
+                                "codeValue": "MSATH",
+                                "shortName": "Salaire annuel théorique"
+                            },
+                            "amountValue": 0.0,
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "levangelist-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "LINDA",
+                                "familyName1": "EVANGELIST"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "A0001098",
+                    "itemID": "A0001098"
+                }
+            ],
+            "links": [
+                {
+                    "href": "/hr/v2/workers/tdimi-6mk/worker-data-image",
+                    "rel": "/adp/image",
+                    "mediaType": "application/pdf"
+                }
+            ]
+        }
+    ]
+}
