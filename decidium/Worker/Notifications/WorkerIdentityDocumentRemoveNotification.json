@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventID": "2f687654-818b-4a5b-bf8d-4551eac3f531",
+            "eventNameCode": {
+                "codeValue": "worker.identityDocument.remove"
+            },
+            "recordDateTime": "2020-09-22T14:42:28+02:00",
+            "effectiveDateTime": "2020-09-22T14:42:28+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "identityDocument": {
+                                "typeCode": {
+                                    "codeValue": "IDCard",
+                                    "shortName": "Carte d'identité"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

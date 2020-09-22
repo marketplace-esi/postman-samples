@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "eventID": "d564ca5f-2d16-4ee8-8594-87ab549c5eff",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.pager.change"
+            },
+            "recordDateTime": "2020-09-21T16:27:44+02:00",
+            "effectiveDateTime": "2020-09-21T16:27:44+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "businessCommunication": {
+                            "pager": {
+                                "formattedNumber": "114 332 12",
+                                "itemID": "Travail"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

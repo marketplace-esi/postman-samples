@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "892110ba-8797-48c5-a573-d4888a00fa31",
+            "eventNameCode": {
+                "codeValue": "worker.personalAddress.add"
+            },
+            "recordDateTime": "2020-09-07T13:28:09+02:00",
+            "effectiveDateTime": "2020-09-07T13:28:09+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "cityName": "MONTPELLIER",
+                                "postalCode": "34000",
+                                "buildingNumber": "0",
+                                "buildingNumberExtension": " ",
+                                "buildingName": " ",
+                                "countrySubdivisionLevel2": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventID": "88727fc9-8de0-4fa4-9b26-60fda4ceff97",
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change"
+            },
+            "recordDateTime": "2020-09-07T12:44:11+02:00",
+            "effectiveDateTime": "2020-09-07T12:44:11+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "C",
+                                "shortName": "CELIBATAIRE",
+                                "longName": "CELIBATAIRE",
+                                "effectiveDate": "2020-09-01"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "eventID": "db284017-588e-4970-9b37-dcf1483c5548",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.fax.change"
+            },
+            "recordDateTime": "2020-09-21T16:13:19+02:00",
+            "effectiveDateTime": "2020-09-21T16:13:19+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "businessCommunication": {
+                            "fax": {
+                                "formattedNumber": "777 665 321",
+                                "itemID": "Travail"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
