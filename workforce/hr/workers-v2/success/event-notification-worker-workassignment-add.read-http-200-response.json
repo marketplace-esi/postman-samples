@@ -1,0 +1,136 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2018-11-29T00:00:00Z",
+            "effectiveDateTime": "2018-11-28T00:00:00Z",
+            "eventID": "ebdb03ba-5d6d-4bcf-ad1d-b78ae3dfe1fc",
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "",
+                        "workerID": {
+                            "idValue": "000037"
+                        },
+                        "workAssignment": {
+                            "itemID": "2"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "",
+                        "workAssignment": {
+                            "actualStartDate": "2018-11-28",
+                            "baseRemuneration": {
+                                "effectiveDate": "2018-11-28",
+                                "payPeriodRateAmount": {
+                                    "amountValue": 1833.3,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "10"
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "000010",
+                                        "longName": "ICT"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "",
+                                        "longName": ""
+                                    }
+                                }
+                            ],
+                            "payrollGroupCode": "2572",
+                            "payrollFileNumber": "0000372",
+                            "jobCode": {
+                                "codeValue": "000002",
+                                "longName": "Secretaresse"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "007.00"
+                            },
+                            "payScaleCode": {
+                                "codeValue": "6"
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 21,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": 52.5,
+                            "terminationDate": "",
+                            "expectedTerminationDate": "",
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "64",
+                                    "longName": "ADP CAO 64"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "000008-HOOFD",
+                                    "workerID": {
+                                        "idValue": "000008"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "longName": "HOOFD"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "W Grijns"
+                                    },
+                                    "associateOID": "000008"
+                                },
+                                {
+                                    "itemID": "000086-PNO",
+                                    "workerID": {
+                                        "idValue": "000086"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "longName": "PNO"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "GRAK Smits"
+                                    },
+                                    "associateOID": "000086"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "021.00"
+                                    }
+                                ]
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000037"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

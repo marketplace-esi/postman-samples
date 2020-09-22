@@ -1,0 +1,350 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-21T00:00:00Z",
+            "effectiveDateTime": "2020-10-01T00:00:00Z",
+            "eventID": "8d7195fa-107e-4cb2-a8be-ce62cfa84164",
+            "eventNameCode": {
+                "codeValue": "worker.hire"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "",
+                        "workerID": {
+                            "idValue": "001046"
+                        },
+                        "workAssignment": {
+                            "itemID": "2"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "",
+                        "businessCommunication": {
+                            "emails": [
+                                {
+                                    "emailUri": "001046@adp.com"
+                                }
+                            ],
+                            "landlines": [
+                                {
+                                    "formattedNumber": "P1046",
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "shortName": "business landline"
+                                    }
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "formattedNumber": "",
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "shortName": "business mobile"
+                                    }
+                                }
+                            ]
+                        },
+                        "customFieldGroup": {
+                            "stringFields": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "partnerFamilyName1"
+                                    },
+                                    "stringValue": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "partnerFamilyName1Prefix"
+                                    },
+                                    "stringValue": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "partnerInitials"
+                                    },
+                                    "stringValue": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "naamSamenstelling"
+                                    },
+                                    "stringValue": "tiva"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "samengesteldeNaam"
+                                    },
+                                    "stringValue": "MLSD van der Lowry"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "loginName"
+                                    },
+                                    "stringValue": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "verwijzendWerknemernummer"
+                                    },
+                                    "stringValue": "P1046"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "leefvormCode"
+                                    },
+                                    "stringValue": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "leefvorm"
+                                    },
+                                    "stringValue": ""
+                                }
+                            ]
+                        },
+                        "person": {
+                            "birthDate": "1955-02-10",
+                            "birthPlace": {
+                                "cityName": "",
+                                "countryCode": ""
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "0001"
+                                }
+                            ],
+                            "governmentIDs": [
+                                {
+                                    "itemID": "1",
+                                    "idValue": "128283208",
+                                    "nameCode": {
+                                        "codeValue": "BSN",
+                                        "longName": "Burgerservicenummer"
+                                    }
+                                }
+                            ],
+                            "identityDocuments": [
+                                {
+                                    "documentID": "123456934",
+                                    "typeCode": {
+                                        "codeValue": "1",
+                                        "shortName": "Codelijst is leeg!"
+                                    }
+                                }
+                            ],
+                            "preferredName": {
+                                "titleAffixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "longName": ""
+                                        }
+                                    }
+                                ],
+                                "titlePrefixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "longName": ""
+                                        }
+                                    }
+                                ]
+                            },
+                            "communication": {
+                                "emails": [
+                                    {
+                                        "emailUri": ""
+                                    }
+                                ],
+                                "landlines": [
+                                    {
+                                        "formattedNumber": "",
+                                        "itemID": "1",
+                                        "nameCode": {
+                                            "shortName": "home phone"
+                                        }
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "",
+                                        "itemID": "1",
+                                        "nameCode": {
+                                            "shortName": "private mobile"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "V"
+                            },
+                            "legalAddress": {
+                                "buildingNumber": "91",
+                                "cityName": "Woudenberg",
+                                "countryCode": "NL",
+                                "postalCode": "2952 BJ",
+                                "streetName": "Leirkensstraat",
+                                "unit": ""
+                            },
+                            "legalName": {
+                                "familyName1": "Lowry",
+                                "familyName1Prefix": "van der",
+                                "formattedName": "MLSD van der Lowry",
+                                "givenName": "Madelon",
+                                "initials": "MLSD",
+                                "nickName": "Madelon",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "1V",
+                                            "longName": "Mevrouw"
+                                        }
+                                    }
+                                ]
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": "1",
+                                "shortName": "Ongehuwd"
+                            },
+                            "otherPersonalAddresses": [
+                                {
+                                    "buildingNumber": "91",
+                                    "cityName": "Woudenberg",
+                                    "countryCode": "NL",
+                                    "postalCode": "2952 BJ",
+                                    "streetName": "Leirkensstraat",
+                                    "unit": " "
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "actualStartDate": "2020-10-01",
+                            "baseRemuneration": {
+                                "effectiveDate": "2020-10-01",
+                                "payPeriodRateAmount": {
+                                    "amountValue": 506.55,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "1",
+                                "longName": "Klantspecifiek"
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "000092",
+                                        "longName": "Facilitair"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "",
+                                        "longName": ""
+                                    }
+                                }
+                            ],
+                            "payrollGroupCode": "2572",
+                            "payrollFileNumber": "0010462",
+                            "jobCode": {
+                                "codeValue": "000289",
+                                "longName": "Medewerker facilitaire dienst"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "005.00"
+                            },
+                            "payScaleCode": {
+                                "codeValue": "6"
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 6,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": 15,
+                            "terminationDate": "",
+                            "expectedTerminationDate": "",
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "64",
+                                    "longName": "ADP CAO 64"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "000038-HOOFD",
+                                    "workerID": {
+                                        "idValue": "000038"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "longName": "HOOFD"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "NDC de Jong"
+                                    },
+                                    "associateOID": "000038"
+                                },
+                                {
+                                    "itemID": "000043-PNO",
+                                    "workerID": {
+                                        "idValue": "000043"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "longName": "PNO"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "D Bijl"
+                                    },
+                                    "associateOID": "000043"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenter"
+                                        },
+                                        "stringValue": "#"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenterName"
+                                        },
+                                        "stringValue": "#"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "006.00"
+                                    }
+                                ]
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "1999-05-17",
+                            "terminationDate": "",
+                            "adjustedServiceDate": "1999-05-17"
+                        },
+                        "workerID": {
+                            "idValue": "001046"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

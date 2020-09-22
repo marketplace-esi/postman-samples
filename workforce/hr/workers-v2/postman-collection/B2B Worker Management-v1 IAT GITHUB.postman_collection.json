@@ -203,6 +203,611 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Worker Hire Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.hire/8d7195fa-107e-4cb2-a8be-ce62cfa84164",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.hire",
+						"8d7195fa-107e-4cb2-a8be-ce62cfa84164"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker Termination Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.terminate/0327e12a-e9ac-420d-a802-2cc49f71ce7d",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.terminate",
+						"0327e12a-e9ac-420d-a802-2cc49f71ce7d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker Rehire Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.rehire/daad0e84-0443-40b7-bb18-f30136dc4edc",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.rehire",
+						"daad0e84-0443-40b7-bb18-f30136dc4edc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker Person Change Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.person.change/4f2bd9a8-fed8-44e9-8cc4-7f8a899e36d9",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.person.change",
+						"4f2bd9a8-fed8-44e9-8cc4-7f8a899e36d9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker LegalAddress Change Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.legal-address.change/f629edc3-b6fa-48be-b76f-4dc28461da99",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.legal-address.change",
+						"f629edc3-b6fa-48be-b76f-4dc28461da99"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker Worker TerminatationDate Change Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.worker-termination-date.change/a167c2f4-ab4f-4cca-ad65-43f09656bff3",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.worker-termination-date.change",
+						"a167c2f4-ab4f-4cca-ad65-43f09656bff3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker WorkAssignment Add Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.work-assignment.add/ebdb03ba-5d6d-4bcf-ad1d-b78ae3dfe1fc",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.work-assignment.add",
+						"ebdb03ba-5d6d-4bcf-ad1d-b78ae3dfe1fc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker WorkAssignment Change Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.work-assignment.change/b2a471cd-8291-422b-bbfd-337d35abb88d",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.work-assignment.change",
+						"b2a471cd-8291-422b-bbfd-337d35abb88d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker WorkAssignment TerminationDate Change Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.work-assignment.termination-date.change/71915b3a-c612-45d7-bf2f-7345231a804d",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.work-assignment.termination-date.change",
+						"71915b3a-c612-45d7-bf2f-7345231a804d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker Workassignment Terminate Read Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.work-assignment.terminate/27390742-ce17-4747-8028-ec6eef4cabd9",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.work-assignment.terminate",
+						"27390742-ce17-4747-8028-ec6eef4cabd9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker WorkAssignment Position Change Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/worker.work-assignment.position.change/1ed29d56-aa1b-4c1d-9bcf-9f7c74fe8e86",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"worker.work-assignment.position.change",
+						"1ed29d56-aa1b-4c1d-9bcf-9f7c74fe8e86"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}

@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-09-21T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "0327e12a-e9ac-420d-a802-2cc49f71ce7d",
+            "eventNameCode": {
+                "codeValue": "worker.terminate"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000098"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2020-10-01"
+                        },
+                        "workerID": {
+                            "idValue": "000098"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
