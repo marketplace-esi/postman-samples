@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "eventID": "0583ba4a-3108-4df4-a81d-b4eeac7d9a07",
+            "eventNameCode": {
+                "codeValue": "worker.gender.change"
+            },
+            "recordDateTime": "2020-09-21T16:37:13+02:00",
+            "effectiveDateTime": "2020-09-21T16:37:13+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "genderCode": {
+                                "codeValue": "F"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

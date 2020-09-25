@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "eventID": "a816e8e3-0996-4212-8650-d98f35c03711",
+            "eventNameCode": {
+                "codeValue": "worker.citizenship.change"
+            },
+            "recordDateTime": "2020-09-07T13:04:13+02:00",
+            "effectiveDateTime": "2020-09-07T13:04:13+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "citizenshipCountryCode": {
+                                "codeValue": "ES",
+                                "shortName": "ESPAGNE",
+                                "longName": "ESPAGNE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

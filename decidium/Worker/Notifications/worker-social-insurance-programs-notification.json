@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "eventID": "f3bb9d44-4a5e-45d4-8553-87b11dd9809b",
+            "eventNameCode": {
+                "codeValue": "worker.socialInsurancePrograms.modify"
+            },
+            "recordDateTime": "2020-09-21T16:41:26+02:00",
+            "effectiveDateTime": "2020-09-21T16:41:26+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "socialInsurancePrograms": [
+                                {
+                                    "programServiceCenter": {
+                                        "nameCode": {
+                                            "codeValue": "00011",
+                                            "shortName": "CPAM DE L AIN"
+                                        },
+                                        "address": {
+                                            "lineOne": "Place de la Grenouillere",
+                                            "cityName": "BOURG EN BRESSE"
+                                        }
+                                    },
+                                    "_modificationTypeCode": "MODIFY"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

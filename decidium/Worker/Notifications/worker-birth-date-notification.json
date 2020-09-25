@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "eventID": "04e5fd8b-1747-4d62-9f81-001a86317831",
+            "eventNameCode": {
+                "codeValue": "worker.birthDate.change"
+            },
+            "recordDateTime": "2020-09-07T12:55:09+02:00",
+            "effectiveDateTime": "2020-09-07T12:55:09+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "birthDate": "Thu Jul 05 00:00:00 CEST 1984"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

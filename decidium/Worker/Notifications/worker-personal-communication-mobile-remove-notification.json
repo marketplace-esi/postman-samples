@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "eventID": "9aa74ebf-742b-4afc-8f84-e09cc8a424e0",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.mobile.remove"
+            },
+            "recordDateTime": "2020-09-07T14:42:32+02:00",
+            "effectiveDateTime": "2020-09-07T14:41:48+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {}
+                }
+            }
+        }
+    ]
+}

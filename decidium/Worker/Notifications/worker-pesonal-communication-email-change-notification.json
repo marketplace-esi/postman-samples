@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "eventID": "5a7356d1-ca73-49cb-886b-522b6393d9b2",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.email.change"
+            },
+            "recordDateTime": "2020-09-21T15:31:44+02:00",
+            "effectiveDateTime": "2020-09-21T15:31:44+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "nameCode": {
+                                        "codeValue": "Personnel",
+                                        "shortName": "Personnel",
+                                        "longName": "Personnel"
+                                    },
+                                    "emailUri": "test_change@adp.com"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

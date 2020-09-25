@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "eventID": "59266d76-0755-4cd3-957f-67934557e667",
+            "eventNameCode": {
+                "codeValue": "worker.immigrationDocument.add"
+            },
+            "recordDateTime": "2020-09-22T13:46:49+02:00",
+            "effectiveDateTime": "2020-09-22T13:46:49+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "immigrationDocument": {
+                                "documentID": "123654789",
+                                "issueDate": "2020-09-02",
+                                "expirationDate": "2020-09-30"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

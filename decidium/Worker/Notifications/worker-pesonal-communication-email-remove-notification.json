@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "eventID": "648ea2a6-4e77-4f05-afbd-ba73a1769b7d",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.email.remove"
+            },
+            "recordDateTime": "2020-09-21T15:33:26+02:00",
+            "effectiveDateTime": "2020-09-21T15:33:26+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {}
+                }
+            }
+        }
+    ]
+}

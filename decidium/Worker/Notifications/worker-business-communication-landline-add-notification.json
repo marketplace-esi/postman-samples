@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "eventID": "7b695299-da23-4ea2-af84-7835033dcd02",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.add"
+            },
+            "recordDateTime": "2020-09-21T15:44:11+02:00",
+            "effectiveDateTime": "2020-09-21T15:44:11+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "businessCommunication": {
+                            "landline": {
+                                "formattedNumber": "654 987 123",
+                                "itemID": "Travail"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
