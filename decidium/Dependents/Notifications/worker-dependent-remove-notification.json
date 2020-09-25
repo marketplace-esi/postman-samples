@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "eventID": "904b13c7-7f43-4cd6-909d-baa2783d2ed2",
+            "eventNameCode": {
+                "codeValue": "worker.dependent.remove"
+            },
+            "recordDateTime": "2020-09-14T14:13:08+02:00",
+            "effectiveDateTime": "2020-09-14T14:13:08+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "adimitar-mp2"
+                    }
+                },
+                "output": {
+                    "dependent": {
+                        "itemID": "2"
+                    }
+                }
+            }
+        }
+    ]
+}
