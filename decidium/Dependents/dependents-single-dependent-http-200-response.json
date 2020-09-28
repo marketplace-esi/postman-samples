@@ -1,0 +1,75 @@
+{
+    "dependents": [
+        {
+            "associateOID": "dandreevui-mp2",
+            "relationshipTypeCode": {
+                "codeValue": "E",
+                "shortName": "ENFANT",
+                "longName": "ENFANT"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "DIMITAR JUNIOR",
+                    "familyName1": "ANDREEV UI",
+                    "familyName2": "NOM NAISSANCE",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 0
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "M",
+                                "shortName": "Monsieur",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 0
+                        }
+                    ]
+                },
+                "birthDate": "2018-07-05",
+                "legalAddress": {
+                    "cityName": "LIEU DE NAISSANCE",
+                    "postalCode": "08905",
+                    "streetName": "NOM",
+                    "streetTypeCode": {
+                        "codeValue": "53"
+                    }
+                },
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "C",
+                    "shortName": "CELIBATAIRE",
+                    "longName": "CELIBATAIRE"
+                },
+                "socialInsurancePrograms": [
+                    {
+                        "coveredIndicator": false
+                    },
+                    {
+                        "coveredIndicator": true
+                    }
+                ],
+                "birthOrder": 1,
+                "taxDependentIndicator": true
+            },
+            "itemID": "1",
+            "links": [
+                {
+                    "href": "/hr/v1/associates/dandreevui-mp2/dependents/1",
+                    "rel": "self"
+                }
+            ]
+        }
+    ]
+}
