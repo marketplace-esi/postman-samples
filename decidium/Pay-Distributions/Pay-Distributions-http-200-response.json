@@ -1,0 +1,46 @@
+{
+    "payDistributions": [
+        {
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "primary",
+                        "shortName": "Compte principal",
+                        "longName": "Compte principal"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "check",
+                        "shortName": "Chèque",
+                        "longName": "Chèque"
+                    },
+                    "itemID": "1"
+                },
+                {
+                    "precedenceCode": {
+                        "codeValue": "secondary",
+                        "shortName": "Compte secondaire",
+                        "longName": "Compte secondaire"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "bank_account",
+                        "shortName": "Virement",
+                        "longName": "Virement"
+                    },
+                    "depositAccount": {
+                        "financialParty": {
+                            "nameCode": {
+                                "shortName": "DANIEL"
+                            },
+                            "SWIFTCode": "CEPAFRPP333"
+                        },
+                        "financialAccount": {
+                            "accountName": "DANIEL ABT"
+                        },
+                        "IBAN": "FR7613335004010493185809415"
+                    },
+                    "itemID": "2"
+                }
+            ]
+        }
+    ]
+}
