@@ -1,0 +1,16 @@
+{
+    "organizationDepartments": [
+        {
+            "departmentCode": {
+                "codeValue": "02",
+                "shortName": "ORION CONSEIL",
+                "longName": "ORION CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "orgadmin"
+            },
+            "effectiveDate": "2011-02-01",
+            "organizationName": "Organisation hiérarchique"
+        }
+    ]
+}
