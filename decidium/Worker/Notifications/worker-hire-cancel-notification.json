@@ -1,0 +1,27 @@
+{
+    "events": [
+        {
+            "eventID": "a5080aab-3e5a-452f-872e-5f192e488f6e",
+            "eventNameCode": {
+                "codeValue": "workerHire.cancel"
+            },
+            "recordDateTime": "2020-10-05T10:35:21+02:00",
+            "effectiveDateTime": "2020-09-01T00:00:00+02:00",
+            "data": {
+                "eventContext": {
+                    "associateOID": "pafe-h6x"
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "originalHireDate": "2020-09-01"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-09-01"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
