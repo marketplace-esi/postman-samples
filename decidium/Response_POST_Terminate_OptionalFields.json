@@ -1,0 +1,66 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "cvidal-mp6"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "workAssignment": {
+                            "terminationDate": "2020-10-30",
+                            "customFieldGroup": {
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2020-10-30",
+                                        "itemID": "terminationNotificationDate"
+                                    },
+                                    {
+                                        "dateValue": "2020-10-01",
+                                        "itemID": "terminationNoticeDonePayedStartDate"
+                                    },
+                                    {
+                                        "dateValue": "2020-10-05",
+                                        "itemID": "terminationNoticeDonePayedEndDate"
+                                    },
+                                    {
+                                        "dateValue": "2020-10-06",
+                                        "itemID": "terminationNoticeNotDonePayedStartDate"
+                                    },
+                                    {
+                                        "dateValue": "2020-10-20",
+                                        "itemID": "terminationNoticeNotDonePayedEndDate"
+                                    },
+                                    {
+                                        "dateValue": "2020-10-21",
+                                        "itemID": "terminationNoticeNotDoneNotPayedStartDate"
+                                    },
+                                    {
+                                        "dateValue": "2020-10-31",
+                                        "itemID": "terminationNoticeNotDoneNotPayedEndDate"
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "stringValue": "MU",
+                                        "itemID": "terminationReason"
+                                    },
+                                    {
+                                        "stringValue": "F",
+                                        "itemID": "terminationReasonPE"
+                                    },
+                                    {
+                                        "stringValue": "Test",
+                                        "itemID": "unpayedNoticeReason"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
