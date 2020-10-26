@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "eventID": "e086b63d-3d8b-41ab-b693-2b12450670ac",
+            "eventNameCode": {
+                "codeValue": "worker.start"
+            },
+            "recordDateTime": "2020-09-24T16:26:14+02:00",
+            "effectiveDateTime": "2020-09-01T00:00:00+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "hafe-g23"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "Active"
+                            },
+                            "effectiveDate": "2020-09-01"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
