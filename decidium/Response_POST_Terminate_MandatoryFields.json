@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "cvidal-mp6"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "terminationDate": "2020-10-30",
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "stringValue": "MU",
+                                        "itemID": "terminationReason"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
