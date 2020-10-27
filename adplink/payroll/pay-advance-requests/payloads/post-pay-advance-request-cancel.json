@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "employee-xyz",
+                    "payAdvanceRequestID": 1047278
+                }
+            }
+        }
+    ]
+}

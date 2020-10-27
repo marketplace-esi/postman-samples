@@ -1,0 +1,27 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-10-27T17:46:54.326+01:00",
+        "protocolStatusCode": {
+            "codeValue": 400
+        },
+        "protocolCode": {
+            "codeValue": ""
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Le montant minimum de l'acompte est fixé à 50€"
+                },
+                "developerMessage": {
+                    "messageTxt": "Le montant minimum de l'acompte est fixé à 50€"
+                }
+            }
+        ]
+    }
+}
