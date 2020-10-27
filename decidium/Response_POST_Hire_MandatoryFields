@@ -1,0 +1,65 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "",
+                                "familyName1": "",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "",
+                                            "shortName": ""
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": ""
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": ""
+                        },
+                        "workAssignment": {
+                            "hireDate": "",
+                            "workerTypeCode": {
+                                "codeValue": ""
+                            },
+                             "jobCode": {
+                                "codeValue": ""
+                            },
+                            "jobTitle": "AAA CODE AAA",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": ""
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "stringValue": "",
+                                        "itemID": "typeContrat"
+                                    },
+                                    {
+                                        "stringValue": "",
+                                        "itemID": "typeCollab"
+                                    },
+                                    {
+                                        "stringValue": "",
+                                        "itemID": "recoursReason"
+                                    }
+                                ]
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    ]
+}
