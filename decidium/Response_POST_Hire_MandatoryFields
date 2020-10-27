@@ -6,52 +6,52 @@
                     "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "",
-                                "familyName1": "",
+                                "givenName": "DANHIRE 44",
+                                "familyName1": "HIRE 44",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "",
-                                            "shortName": ""
+                                            "codeValue": "M",
+                                            "shortName": "M"
                                         }
                                     }
                                 ]
                             },
                             "genderCode": {
-                                "codeValue": ""
+                                "codeValue": "M"
                             }
                         },
                         "workerDates": {
-                            "originalHireDate": ""
+                            "originalHireDate": "2020-08-01"
                         },
                         "workAssignment": {
-                            "hireDate": "",
+                            "hireDate": "2020-08-01",
                             "workerTypeCode": {
-                                "codeValue": ""
+                                "codeValue": "00"
                             },
                              "jobCode": {
-                                "codeValue": ""
+                                "codeValue": "EMPLO1"
                             },
                             "jobTitle": "AAA CODE AAA",
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
-                                        "codeValue": ""
+                                        "codeValue": "01001"
                                     }
                                 }
                             ],
                             "customFieldGroup": {
                                 "stringFields": [
                                     {
-                                        "stringValue": "",
+                                        "stringValue": "CU1",
                                         "itemID": "typeContrat"
                                     },
                                     {
-                                        "stringValue": "",
+                                        "stringValue": "SAL",
                                         "itemID": "typeCollab"
                                     },
                                     {
-                                        "stringValue": "",
+                                        "stringValue": "50",
                                         "itemID": "recoursReason"
                                     }
                                 ]
