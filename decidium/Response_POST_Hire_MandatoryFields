@@ -1,0 +1,65 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "DANHIRE 44",
+                                "familyName1": "HIRE 44",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "M"
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2020-08-01"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-08-01",
+                            "workerTypeCode": {
+                                "codeValue": "00"
+                            },
+                             "jobCode": {
+                                "codeValue": "EMPLO1"
+                            },
+                            "jobTitle": "AAA CODE AAA",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "stringValue": "CU1",
+                                        "itemID": "typeContrat"
+                                    },
+                                    {
+                                        "stringValue": "SAL",
+                                        "itemID": "typeCollab"
+                                    },
+                                    {
+                                        "stringValue": "50",
+                                        "itemID": "recoursReason"
+                                    }
+                                ]
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    ]
+}
