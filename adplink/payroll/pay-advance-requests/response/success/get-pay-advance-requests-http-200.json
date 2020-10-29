@@ -1,0 +1,116 @@
+{
+    "payAdvanceRequests": [
+        {
+            "requestDate": "2020-02-18",
+            "amount": {
+                "amountValue": 100.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "V",
+                "shortName": "V",
+                "longName": "V"
+            },
+            "notificationIndicator": true,
+            "itemID": "1039011",
+            "statusCode": {
+                "codeValue": "REFUSED",
+                "shortName": "Annulée",
+                "longName": "Annulée",
+                "effectiveDate": "2020-02-19"
+            },
+            "comment": {
+                "textValue": "Commentaire demande acompte annulée"
+            },
+            "reviewRequest": {
+                "comment": {
+                    "textValue": ""
+                }
+            }
+        },
+        {
+            "requestDate": "2020-04-27",
+            "amount": {
+                "amountValue": 200.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "C",
+                "shortName": "C",
+                "longName": "C"
+            },
+            "notificationIndicator": true,
+            "itemID": "1047278",
+            "statusCode": {
+                "codeValue": "PENDING",
+                "shortName": "En cours",
+                "longName": "En cours",
+                "effectiveDate": "2020-04-27"
+            },
+            "comment": {
+                "textValue": "Commentaire demande acompte en cours"
+            },
+            "reviewRequest": {
+                "comment": {
+                    "textValue": ""
+                }
+            }
+        },
+        {
+            "requestDate": "2020-06-02",
+            "amount": {
+                "amountValue": 50.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "E",
+                "shortName": "E",
+                "longName": "E"
+            },
+            "notificationIndicator": true,
+            "itemID": "1047358",
+            "statusCode": {
+                "codeValue": "REFUSED",
+                "shortName": "Refusée",
+                "longName": "Refusée",
+                "effectiveDate": "2020-06-09"
+            },
+            "comment": {
+                "textValue": "Commentaire demande acompte refusée"
+            },
+            "reviewRequest": {
+                "comment": {
+                    "textValue": "Commentaire refus demande acompte"
+                }
+            }
+        },
+        {
+            "requestDate": "2020-09-12",
+            "amount": {
+                "amountValue": 50.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "V",
+                "shortName": "V",
+                "longName": "V"
+            },
+            "notificationIndicator": true,
+            "itemID": "1047359",
+            "statusCode": {
+                "codeValue": "VALIDATED",
+                "shortName": "Acceptée",
+                "longName": "Acceptée",
+                "effectiveDate": "2020-09-17"
+            },
+            "comment": {
+                "textValue": "Commentaire demande acompte acceptée"
+            },
+            "reviewRequest": {
+                "comment": {
+                    "textValue": ""
+                }
+            }
+        }
+    ]
+}

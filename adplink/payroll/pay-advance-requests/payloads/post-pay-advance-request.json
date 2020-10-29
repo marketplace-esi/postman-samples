@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "employee-xyz"
+                },
+                "transform": {
+                    "payAdvanceRequest": {
+                        "amount": {
+                            "amountValue": 90.0
+                        },
+                        "paymentMethodCode": {
+                            "codeValue": "C"
+                        },
+                        "comment": {
+                            "textValue": "Commentaire demande acompte"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
