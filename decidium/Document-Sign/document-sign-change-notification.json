@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "eventID": "44",
+            "eventNameCode": {
+                "codeValue": "document.sign.change"
+            },
+            "recordDateTime": "2020-09-04T14:14:01+02:00",
+            "effectiveDateTime": "2020-09-04T14:14:01+02:00",
+            "data": {
+                "eventContext": {
+                    "itemID": "5f522b7acaaf2053adf8d54e"
+                },
+                "output": {
+                    "document": {
+                        "itemID": "5f522b7acaaf2053adf8d54e",
+                        "eSignatureSignedBy": {
+                            "associateOID": "eafe16-mp2",
+                            "formattedName": "EQUIPEB AFE1"
+                        },
+                        "eSignatureStatusCode": {
+                            "codeValue": "COLLAB"
+                        },
+                        "eSignatureSignedDate": "2020-09-08"
+                    }
+                }
+            }
+        }
+    ]
+}
