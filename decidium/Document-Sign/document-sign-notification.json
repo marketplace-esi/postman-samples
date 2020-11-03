@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventID": "44",
+            "eventNameCode": {
+                "codeValue": "documentsDocument.sign"
+            },
+            "recordDateTime": "2020-11-03T14:31:28+01:00",
+            "effectiveDateTime": "2020-11-03T14:31:28+01:00",
+            "data": {
+                "eventContext": {
+                    "itemID": "5fa15ab2315d10077951a55c"
+                },
+                "output": {
+                    "document": {
+                        "itemID": "5fa15ab2315d10077951a55c",
+                        "eSignatureSignedBy": {
+                            "associateOID": "levangelist-mp6",
+                            "formattedName": "LINDA EVANGELIST"
+                        },
+                        "eSignatureTypeCode": "COLLAB",
+                        "eSignatureStatusCode": {
+                            "codeValue": "signed"
+                        },
+                        "eSignatureSignedDate": "2020-11-03"
+                    }
+                }
+            }
+        }
+    ]
+}
