@@ -1,1 +1,74 @@
-{"personalContacts":[{"personName":{"givenName":"PRENOM002","familyName1":"NOM002","formattedName":"NOM002,PRENOM002","preferredSalutations":[{"salutationCode":{"codeValue":"MLE","shortName":"Mademoiselle","longName":"Mademoiselle"},"sequenceNumber":0}],"titleAffixCodes":[{"affixCode":{"codeValue":"MLE","shortName":"Mademoiselle","longName":"Mademoiselle"},"sequenceNumber":0}]},"communication":{"landlines":[{"nameCode":{"codeValue":"Work Phone"},"formattedNumber":"02 01 01 01"},{"nameCode":{"codeValue":"Home Phone"},"formattedNumber":"02 01 01 02"}],"mobiles":[{"nameCode":{"codeValue":"Mobile Phone"},"formattedNumber":"02 01 01 03"}],"emails":[{"nameCode":{"codeValue":"Travail","shortName":"Travail","longName":"Travail"},"emailUri":"NOM002@test.com"}]},"relationshipTypeCode":{"codeValue":"C","shortName":"CONJOINT","longName":"CONJOINT"},"precedenceCode":{"codeValue":"N"},"itemID":"2"}]}
+{
+    "personalContacts": [
+        {
+            "personName": {
+                "givenName": "PRENOM002",
+                "familyName1": "NOM002",
+                "formattedName": "NOM002,PRENOM002",
+                "preferredSalutations": [
+                    {
+                        "salutationCode": {
+                            "codeValue": "MLE",
+                            "shortName": "Mademoiselle",
+                            "longName": "Mademoiselle"
+                        },
+                        "sequenceNumber": 0
+                    }
+                ],
+                "titleAffixCodes": [
+                    {
+                        "affixCode": {
+                            "codeValue": "MLE",
+                            "shortName": "Mademoiselle",
+                            "longName": "Mademoiselle"
+                        },
+                        "sequenceNumber": 0
+                    }
+                ]
+            },
+            "communication": {
+                "landlines": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Work Phone"
+                        },
+                        "formattedNumber": "02 01 01 01"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "Home Phone"
+                        },
+                        "formattedNumber": "02 01 01 02"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Mobile Phone"
+                        },
+                        "formattedNumber": "02 01 01 03"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "NOM002@test.com"
+                    }
+                ]
+            },
+            "relationshipTypeCode": {
+                "codeValue": "C",
+                "shortName": "CONJOINT",
+                "longName": "CONJOINT"
+            },
+            "precedenceCode": {
+                "codeValue": "N"
+            },
+            "itemID": "2"
+        }
+    ]
+}
