@@ -1,46 +1,46 @@
 {
-    "events": [
-        {
-            "data": {
-                "transform": {
-                    "worker": {
-						"associateOID": "dcbellovilla-mp6",
-                        "workAssignment": {
-                            "hireDate": "2020-09-01",
-                            "workerTypeCode": {
-                                "codeValue": "00"
-                            },
-                            "jobCode": {
-                                "codeValue": "EMPLO2"
-                            },
-                            "jobTitle": "CHEF PROJET",
-                            "assignedWorkLocations": [
-                                {
-                                    "nameCode": {
-                                        "codeValue": "02004"
-                                    }
-                                }
-                            ],
-                            "customFieldGroup": {
-                                "stringFields": [
-                                    {
-                                        "stringValue": "00",
-                                        "itemID": "typeContrat"
-                                    },
-                                    {
-                                        "stringValue": "99",
-                                        "itemID": "recoursReason"
-                                    },
-                                    {
-                                        "stringValue": "SAL",
-                                        "itemID": "typeCollab"
-                                    }
-                                ]
-                            }
+   "events":[
+      {
+         "data":{
+            "transform":{
+               "worker":{
+                  "associateOID":"dcbellovilla-mp6",
+                  "workAssignment":{
+                     "hireDate":"2020-09-01",
+                     "workerTypeCode":{
+                        "codeValue":"00"
+                     },
+                     "jobCode":{
+                        "codeValue":"EMPLO2"
+                     },
+                     "jobTitle":"CHEF PROJET",
+                     "assignedWorkLocations":[
+                        {
+                           "nameCode":{
+                              "codeValue":"02004"
+                           }
                         }
-                    }
-                }
+                     ],
+                     "customFieldGroup":{
+                        "stringFields":[
+                           {
+                              "stringValue":"00",
+                              "itemID":"typeContrat"
+                           },
+                           {
+                              "stringValue":"99",
+                              "itemID":"recoursReason"
+                           },
+                           {
+                              "stringValue":"SAL",
+                              "itemID":"typeCollab"
+                           }
+                        ]
+                     }
+                  }
+               }
             }
-        }
-    ]
+         }
+      }
+   ]
 }
