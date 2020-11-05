@@ -1,24 +1,24 @@
 {
     "events": [
         {
-            "eventID": "203bf909-a177-4f8d-8dfc-3370d4642332",
+            "eventID": "c3596527-512e-426f-ae6b-50724534cfc2",
             "eventNameCode": {
                 "codeValue": "payrollProcessingJob.status.change"
             },
-            "recordDateTime": "2020-10-05T00:00:00+02:00",
-            "effectiveDateTime": "2020-10-05T00:00:00+02:00",
+            "recordDateTime": "2020-10-13T15:35:17+02:00",
+            "effectiveDateTime": "2020-10-13T15:35:17+02:00",
             "data": {
                 "eventContext": {
                     "payrollProcessingJob": {
-                        "itemID": "Test_Rafael",
+                        "itemID": "84957ff9-ba3f-4ae2-baa9-9c4b6085807d",
                         "payrollGroupCode": {
-                            "codeValue": "ZXMPE6"
+                            "codeValue": "ZXMON6"
                         },
-                        "payDate": "2020-02-01"
+                        "payDate": "2020-03-01"
                     }
                 },
                 "transform": {
-                    "effectiveDateTime": "2020-10-05T00:00:00+02:00",
+                    "effectiveDateTime": "2020-10-13T15:35:17+02:00",
                     "payrollProcessingJob": {
                         "payrollProcessingStatusCode": {
                             "codeValue": "Complete"
