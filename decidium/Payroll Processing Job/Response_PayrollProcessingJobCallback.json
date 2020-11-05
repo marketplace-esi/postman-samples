@@ -6,19 +6,17 @@
                 "codeValue": "payrollProcessingJob.status.change"
             },
             "recordDateTime": "2020-10-05T00:00:00+02:00",
-            "effectiveDateTime": "2020-10-05T00:00:00+02:00",
+            "effectiveDateTime": "2020-10-06T00:00:00+02:00",
             "data": {
                 "eventContext": {
                     "payrollProcessingJob": {
-                        "itemID": "Test_Rafael",
                         "payrollGroupCode": {
                             "codeValue": "ZXMPE6"
                         },
-                        "payDate": "2020-02-01"
+                        "payDate": "2020-03-01"
                     }
                 },
-                "transform": {
-                    "effectiveDateTime": "2020-10-05T00:00:00+02:00",
+                "output": {
                     "payrollProcessingJob": {
                         "payrollProcessingStatusCode": {
                             "codeValue": "Complete"
