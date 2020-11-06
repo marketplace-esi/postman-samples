@@ -1,0 +1,24 @@
+{
+    "payAdvanceRequests": [
+        {
+            "requestDate": "2020-10-13",
+            "amount": {
+                "amountValue": 220.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "1"
+            },
+            "notificationIndicator": false,
+            "itemID": "7079650000358630183",
+            "statusCode": {
+                "codeValue": "ACCEPTED",
+                "shortName": "Acceptée",
+                "effectiveDate": "2020-10-13"
+            },
+            "comment": {
+                "textValue": ""
+            }
+        }
+    ]
+}
