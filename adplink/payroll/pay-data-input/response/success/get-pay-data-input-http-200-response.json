@@ -1,0 +1,192 @@
+{
+    "payDataInputs": [
+        {
+            "payeePayInputs": [
+                {
+                    "associateOID": "aoiduser-3mk",
+                    "payPeriodStartDate": "2020-04-01",
+                    "payPeriodEndDate": "2020-04-01",
+                    "payrollProfilePayInputs": [
+                        {
+                            "payInputs": [
+                                {
+                                    "payAllocation": {
+                                        "allocationID": ""
+                                    },
+                                    "earningInputs": [
+                                        {
+                                            "earningCode": {
+                                                "codeValue": "0348"
+                                            },
+                                            "rate": {
+                                                "rateValue": 40.0,
+                                                "baseMultiplierValue": 4000.0
+                                            },
+                                            "numberOfHours": 400.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "aoiduser-3mk",
+                    "payPeriodStartDate": "2020-01-01",
+                    "payPeriodEndDate": "2020-01-01",
+                    "payrollProfilePayInputs": [
+                        {
+                            "payInputs": [
+                                {
+                                    "payAllocation": {
+                                        "allocationID": "IMP02"
+                                    },
+                                    "earningInputs": [
+                                        {
+                                            "earningCode": {
+                                                "codeValue": "0220"
+                                            },
+                                            "rate": {
+                                                "rateValue": 60.0,
+                                                "baseMultiplierValue": 6000.0
+                                            },
+                                            "numberOfHours": 650.0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "payAllocation": {
+                                        "allocationID": "IMP01"
+                                    },
+                                    "earningInputs": [
+                                        {
+                                            "earningCode": {
+                                                "codeValue": "0224"
+                                            },
+                                            "rate": {
+                                                "rateValue": 10.0,
+                                                "baseMultiplierValue": 1000.0
+                                            },
+                                            "numberOfHours": 150.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "aoiduser-8hv",
+                    "payPeriodStartDate": "2019-01-01",
+                    "payPeriodEndDate": "2019-01-01",
+                    "payrollProfilePayInputs": [
+                        {
+                            "payInputs": [
+                                {
+                                    "payAllocation": {
+                                        "allocationID": "IMP01"
+                                    },
+                                    "earningInputs": [
+                                        {
+                                            "earningCode": {
+                                                "codeValue": "0220"
+                                            },
+                                            "rate": {
+                                                "rateValue": 40.0,
+                                                "baseMultiplierValue": 4000.0
+                                            },
+                                            "numberOfHours": 450.0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "payeePayInputs": [
+                {
+                    "associateOID": "aoiduser-8hv",
+                    "payPeriodStartDate": "2018-10-01",
+                    "payPeriodEndDate": "2018-10-01",
+                    "payrollProfilePayInputs": [
+                        {
+                            "payInputs": [
+                                {
+                                    "calculationFactorInputs": [
+                                        {
+                                            "calculationFactorCode": {
+                                                "codeValue": "A114"
+                                            },
+                                            "calculationFactorRate": {
+                                                "baseUnitCode": {
+                                                    "codeValue": "66"
+                                                }
+                                            },
+                                            "configurationTags": [
+                                                {
+                                                    "tagCode": "3"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "calculationFactorInputs": [
+                                        {
+                                            "calculationFactorCode": {
+                                                "codeValue": "A115"
+                                            },
+                                            "calculationFactorRate": {
+                                                "baseUnitCode": {
+                                                    "codeValue": "68"
+                                                }
+                                            },
+                                            "configurationTags": [
+                                                {
+                                                    "tagCode": "2"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "aoiduser-3mk",
+                    "payPeriodStartDate": "2020-03-01",
+                    "payPeriodEndDate": "2020-03-01",
+                    "payrollProfilePayInputs": [
+                        {
+                            "payInputs": [
+                                {
+                                    "calculationFactorInputs": [
+                                        {
+                                            "calculationFactorCode": {
+                                                "codeValue": "X982"
+                                            },
+                                            "calculationFactorRate": {
+                                                "baseUnitCode": {
+                                                    "codeValue": "15032020"
+                                                }
+                                            },
+                                            "configurationTags": [
+                                                {
+                                                    "tagCode": "01"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
