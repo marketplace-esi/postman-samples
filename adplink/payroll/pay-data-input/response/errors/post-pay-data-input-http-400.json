@@ -1,0 +1,27 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-11-12T14:18:01.999+01:00",
+        "protocolStatusCode": {
+            "codeValue": 400
+        },
+        "protocolCode": {
+            "codeValue": ""
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Associate Oid aoiduser-3mk : Une erreur s'est produite pendant le traitement de ce collaborateur : Pas de données pour le collaborateur."
+                },
+                "developerMessage": {
+                    "messageTxt": "Associate Oid aoiduser-3mk : Une erreur s'est produite pendant le traitement de ce collaborateur : Pas de données pour le collaborateur."
+                }
+            }
+        ]
+    }
+}
