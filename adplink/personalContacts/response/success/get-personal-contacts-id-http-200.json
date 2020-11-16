@@ -1,0 +1,41 @@
+{
+	"personalContacts": [{
+		"personName": {
+			"formattedName": "NOM,PRENOM"
+		},
+		"communication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "Work Phone"
+				},
+				"countryDialing": "+33",
+				"formattedNumber": "01 01 01 01 01"
+			},
+			{
+				"nameCode": {
+					"codeValue": "Home Phone"
+				},
+				"countryDialing": "+33",
+				"formattedNumber": "01 01 01 01 02"
+			}],
+			"mobiles": [{
+				"nameCode": {
+					"codeValue": "Mobile Phone"
+				},
+				"countryDialing": "+33",
+				"formattedNumber": "01 01 01 01 03"
+			}],
+			"emails": [{
+				"emailUri": "NOM@test.com"
+			}]
+		},
+		"relationshipTypeCode": {
+			"codeValue": "03",
+			"shortName": "CONJOINT"
+		},
+		"personalContactComments": [{
+			"textValue": "Comment Get Personal Contact Details"
+		}],
+		"itemID": "NOM,PRENOM"
+	}]
+}
