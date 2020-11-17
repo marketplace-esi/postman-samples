@@ -1,0 +1,96 @@
+{
+    "payrollOutputs": [
+        {
+            "payrollSummary": {
+                "earningsSummary": {
+                    "earningsSummarySections": [
+                        {
+                            "earningsSummaryItems": [
+                                {
+                                    "earningID": {
+                                        "idValue": "MDSalFix"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 3.0
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRPartSalariale"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 3.1
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TROrganisme"
+                                    },
+                                    "earningClassificationCode": {
+                                        "codeValue": "LU"
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRNombre"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 13.0
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDPat"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 1.08
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRPartPatronale"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 5.4
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDEkey"
+                                    },
+                                    "earningClassificationCode": {
+                                        "codeValue": "aZeRtY"
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDIdentifiant"
+                                    },
+                                    "earningClassificationCode": {
+                                        "codeValue": "IDENT_MD"
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDSalNet"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 0.54
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "associatePayments": [
+                {
+                    "associateOID": "aoiduser-alp",
+                    "payrollID": {
+                        "idValue": "00000001"
+                    }
+                }
+            ]
+        }
+    ]
+}
