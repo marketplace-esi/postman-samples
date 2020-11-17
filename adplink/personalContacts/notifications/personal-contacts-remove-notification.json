@@ -1,0 +1,20 @@
+{
+    "events": [
+        {
+            "eventID": "event-id",
+            "eventNameCode": {
+                "codeValue": "worker.personalContact.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "personalContact": {}
+                }
+            }
+        }
+    ]
+}

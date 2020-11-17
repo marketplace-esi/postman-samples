@@ -1,0 +1,63 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    },
+                    "personalContact": {
+                        "itemID": "NOM,PRENOM"
+                    }
+                },
+                "transform": {
+                    "personalContact": {
+                        "personName": {
+                            "formattedName": "NOM,PRENOM"
+                        },
+                        "relationshipTypeCode": {
+                            "codeValue": "03"
+                        },
+                        "personalContactComments": [
+                            {
+                                "textValue": "Comment Add Personal Contact"
+                            }
+                        ],
+                        "communication": {
+                            "landlines": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Home Phone"
+                                    },
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "01 01 01 01 01"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Work Phone"
+                                    },
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "01 01 01 01 02"
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Mobile Phone"
+                                    },
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "01 01 01 01 03"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "emailUri": "NOM@test.com"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
