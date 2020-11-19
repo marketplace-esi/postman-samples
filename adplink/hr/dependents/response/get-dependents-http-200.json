@@ -1,0 +1,193 @@
+{
+	"dependents": [{
+		"itemID": "E;1;1970-05-07",
+		"associateOID": "employee-xyz",
+		"relationshipTypeCode": {
+			"codeValue": "E",
+			"shortName": "Enfant",
+			"longName": "Enfant"
+		},
+		"person": {
+			"legalName": {
+				"givenName": "PRENOM",
+				"familyName1": "NOM",
+				"familyName2": "",
+				"formattedName": "NOM,PRENOM",
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": ""
+					},
+					"typeCode": {
+						
+					},
+					"sequenceNumber": 1
+				}]
+			},
+			"birthDate": "1970-05-07",
+			"genderCode": {
+				"codeValue": "F",
+				"shortName": "F",
+				"longName": "FEMININ"
+			},
+			"socialInsurancePrograms": [{
+				"nameCode": {
+					"codeValue": "0",
+					"shortName": "SS",
+					"longName": "Social Security"
+				},
+				"itemID": "",
+				"coveredIndicator": false
+			},
+			{
+				"nameCode": {
+					"codeValue": "1",
+					"shortName": "Health",
+					"longName": "Health Insurance"
+				},
+				"itemID": "",
+				"coveredIndicator": false,
+				"coveragePeriod": {
+					"endDate": null,
+					"startDate": null
+				}
+			}],
+			"disabledIndicator": false,
+			"birthOrder": 1,
+			"taxDependentIndicator": false,
+			"childSupportIndicator": false
+		},
+		"links": [{
+			"rel": "self",
+			"href": "/hr/v1/associates/employee-xyz/dependents/E;1;1970-05-07",
+			"title": "dependents"
+		}]
+	},
+	"itemID": "E;2;2020-10-21",
+	"associateOID": "employee-xyz",
+	"relationshipTypeCode": {
+		"codeValue": "E",
+		"shortName": "Enfant",
+		"longName": "Enfant"
+	},
+	"person": {
+		"legalName": {
+			"givenName": "PRENOM",
+			"familyName1": "NOM",
+			"familyName2": "",
+			"formattedName": "NOM,PRENOM",
+			"preferredSalutations": [{
+				"salutationCode": {
+					"codeValue": ""
+				},
+				"typeCode": {
+					
+				},
+				"sequenceNumber": 1
+			}]
+		},
+		"birthDate": "2020-10-21",
+		"genderCode": {
+			"codeValue": "M",
+			"shortName": "M",
+			"longName": "MASCULIN"
+		},
+		"socialInsurancePrograms": [{
+			"nameCode": {
+				"codeValue": "0",
+				"shortName": "SS",
+				"longName": "Social Security"
+			},
+			"itemID": "",
+			"coveredIndicator": true
+		},
+		{
+			"nameCode": {
+				"codeValue": "1",
+				"shortName": "Health",
+				"longName": "Health Insurance"
+			},
+			"itemID": "",
+			"coveredIndicator": true,
+			"coveragePeriod": {
+				"endDate": "2020-10-28",
+				"startDate": "2020-10-21"
+			}
+		}],
+		"disabledIndicator": false,
+		"birthOrder": 2,
+		"taxDependentIndicator": false,
+		"childSupportIndicator": false
+	},
+	"links": [{
+		"rel": "self",
+		"href": "/hr/v1/associates/employee-xyz/dependents/E;-1;2020-10-21",
+		"title": "dependents"
+	}]
+},
+{
+	"itemID": "C;01",
+	"associateOID": "employee-xyz",
+	"relationshipTypeCode": {
+		"codeValue": "C",
+		"shortName": "Conjoint",
+		"longName": "Conjoint"
+	},
+	"person": {
+		"legalName": {
+			"givenName": "PRENOM",
+			"familyName1": "NOM",
+			"familyName2": "NOM DE NAISSANCE",
+			"formattedName": "NOM,PRENOM",
+			"preferredSalutations": [{
+				"salutationCode": {
+					"codeValue": "MME"
+				},
+				"typeCode": {
+					
+				},
+				"sequenceNumber": 1
+			}]
+		},
+		"birthDate": "2000-11-02",
+		"deathDate": "2019-11-02",
+		"genderCode": {
+			"codeValue": "F",
+			"shortName": "F",
+			"longName": "Féminin"
+		},
+		"socialInsurancePrograms": [{
+			"nameCode": {
+				"codeValue": "0",
+				"shortName": "SS",
+				"longName": "Social Security"
+			},
+			"itemID": ""
+		},
+		{
+			"nameCode": {
+				"codeValue": "1",
+				"shortName": "Health",
+				"longName": "Health Insurance"
+			},
+			"itemID": "",
+			"coveredIndicator": true,
+			"coveragePeriod": {
+				"endDate": "2020-11-14",
+				"startDate": "2020-10-26"
+			}
+		}],
+		"birthOrder": 1,
+		"taxDependentIndicator": true,
+		"professionTypeCode": {
+			"codeValue": "5",
+			"shortName": "5",
+			"longName": "SALARIE DANS AUTRE ENTREPRISE"
+		}
+	},
+	"links": [{
+		"rel": "self",
+		"href": "/hr/v1/associates/employee-xyz"/dependents/C;01",
+		"title": "dependents"
+	}]
+}]
+}

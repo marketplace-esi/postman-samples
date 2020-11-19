@@ -1,0 +1,55 @@
+{
+	"events": [{
+		"data": {
+			"eventContext": {
+				"worker": {
+					"associateOID": "employee-xyz"
+				}
+			},
+			"transform": {
+                "dependent": {
+                    "itemID": "C;01;1980-01-01",
+                    "relationshipTypeCode": {
+                        "codeValue": "C",
+                        "shortName": "Conjoint",
+                        "longName": "Conjoint"
+                    },
+                    "person": {
+                        "legalName": {
+                            "givenName": "PRENOM",
+                            "familyName1": "NOM",
+                            "familyName2": ""
+                        },
+                        "birthDate": "1970-02-01",
+                        "deceasedIndicator": "true",
+                        "deathDate": "2014-01-03",
+                        "genderCode": {
+                            "codeValue": "M"
+                        },
+                        "socialInsurancePrograms": [
+                            {
+                                "coveredIndicator": "true",
+                                "coveragePeriod": {
+                                    "startDate": "1997-01-01",
+                                    "endDate": "2013-01-01"
+                                }
+                            }
+                        ],
+                        "disabledIndicator": "true"
+                    },
+                    "birthOrder": "01",
+                    "taxDependentIndicator": "true",
+                    "childSupportIndicator": "true",
+                    "professionTypeCode": {
+                        "codeValue": "4",
+                        "shortName": "SALARIE DANS LE GROUPE",
+                        "longName": "SALARIE DANS LE GROUPE"
+                    }
+                }
+			}
+		},
+		"eventNameCode": {
+			"codeValue": "dependent.change"
+		}
+	}]
+}
