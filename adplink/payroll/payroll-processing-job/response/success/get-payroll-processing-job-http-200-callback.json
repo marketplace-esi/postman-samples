@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payrollProcessingJob": {
+                        "payrollGroupCode": {
+                            "codeValue": "IDENT-NUMPAC"
+                        },
+                        "payDate": "yyyy-mm-dd"
+                    }
+                },
+                "output": {
+                    "payrollProcessingJob": {
+                        "payrollProcessingStatusCode": {
+                            "codeValue": "complete"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
