@@ -60,8 +60,8 @@
 			"rel": "self",
 			"href": "/hr/v1/associates/employee-xyz/dependents/E;1;1970-05-07",
 			"title": "dependents"
-		}]
-	},
+	}]},
+	{
 	"itemID": "E;2;2020-10-21",
 	"associateOID": "employee-xyz",
 	"relationshipTypeCode": {
@@ -186,7 +186,7 @@
 	},
 	"links": [{
 		"rel": "self",
-		"href": "/hr/v1/associates/employee-xyz"/dependents/C;01",
+		"href": "/hr/v1/associates/employee-xyz/dependents/C;01",
 		"title": "dependents"
 	}]
 }]
