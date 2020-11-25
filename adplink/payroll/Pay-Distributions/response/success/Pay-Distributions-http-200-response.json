@@ -1,0 +1,89 @@
+{
+    "payDistributions": [
+        {
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "primary",
+                        "shortName": "Compte principal"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "bank_account",
+                        "shortName": "VIREMENT"
+                    },
+                    "depositAccount": {
+                        "financialParty": {
+                            "nameCode": {
+                                "codeValue": "LCL",
+                                "shortName": "LCL"
+                            },
+                            "SWIFTCode": "NORDFRPP"
+                        },
+                        "financialAccount": {
+                            "accountName": "M NOM"
+                        },
+                        "IBAN": "FR2676123007604317124767003"
+                    },
+                    "distributionAmount": {
+                        "currencyCode": "EUR"
+                    },
+                    "itemID": "1"
+                },
+                {
+                    "precedenceCode": {
+                        "codeValue": "secondary",
+                        "shortName": "Compte secondaire"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "cash",
+                        "shortName": "ESPECES"
+                    },
+                    "depositAccount": {
+                        "financialParty": {
+                            "nameCode": {
+                                "codeValue": "",
+                                "shortName": ""
+                            },
+                            "SWIFTCode": ""
+                        },
+                        "financialAccount": {
+                            "accountName": "M NOM PRENOM"
+                        },
+                        "IBAN": ""
+                    },
+                    "distributionAmount": {
+                        "currencyCode": "EUR"
+                    },
+                    "itemID": "2"
+                },
+                {
+                    "precedenceCode": {
+                        "codeValue": "expenses",
+                        "shortName": "Note de frais"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "check",
+                        "shortName": "CHEQUE"
+                    },
+                    "depositAccount": {
+                        "financialParty": {
+                            "nameCode": {
+                                "codeValue": "",
+                                "shortName": ""
+                            },
+                            "SWIFTCode": ""
+                        },
+                        "financialAccount": {
+                            "accountName": "M NOM PRENOM"
+                        },
+                        "IBAN": ""
+                    },
+                    "distributionAmount": {
+                        "currencyCode": "EUR"
+                    },
+                    "itemID": "3"
+                }
+            ]
+        }
+    ]
+}
