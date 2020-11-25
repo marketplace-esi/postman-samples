@@ -1,0 +1,35 @@
+{
+    "payDistributions": [
+        {
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "primary",
+                        "shortName": "Compte principal"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "bank_account",
+                        "shortName": "VIREMENT"
+                    },
+                    "depositAccount": {
+                        "financialParty": {
+                            "nameCode": {
+                                "codeValue": "LCL",
+                                "shortName": "LCL"
+                            },
+                            "SWIFTCode": "NORDFRPP"
+                        },
+                        "financialAccount": {
+                            "accountName": "NOM"
+                        },
+                        "IBAN": "FR2676123007604317124767003"
+                    },
+                    "distributionAmount": {
+                        "currencyCode": "EUR"
+                    },
+                    "itemID": "1"
+                }
+            ]
+        }
+    ]
+}
