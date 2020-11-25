@@ -1,0 +1,14 @@
+{
+    "organizationDepartments": [
+        {
+            "departmentCode": {
+                "codeValue": "02"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "orgadmin"
+            },
+            "effectiveDate": "2011-02-01",
+            "departmentDescription": "Organisation hiérarchique"
+        }
+    ]
+}
