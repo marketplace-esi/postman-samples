@@ -1,0 +1,130 @@
+{
+    "payStatement": {
+        "earnings": [
+            {
+                "earningAmount": {
+                    "amountValue": -8813.24,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Recalc.diff.w/ last payr."
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 6595.14,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Standard Salary"
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 464.70,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Coll. Agreement Allowance"
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 2470.92,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Seniority"
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 1099.19,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Prorated Special Pay. Jul"
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 190.62,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Transport Plus"
+            }
+        ],
+        "payPeriod": {
+            "endDate": "2014-10-31",
+            "startDate": "2014-10-01"
+        },
+        "grossPayAmount": {
+            "amountValue": 0.00,
+            "currencyCode": "EUR"
+        },
+        "otherPay": [
+            {
+                "otherPayDetail": [
+                    {
+                        "payAmount": {
+                            "amountValue": 2701.20,
+                            "currencyCode": "EUR"
+                        },
+                        "labelName": "Employer non-ind. risks"
+                    },
+                    {
+                        "payAmount": {
+                            "amountValue": 22.92,
+                            "currencyCode": "EUR"
+                        },
+                        "labelName": "Company stand.wage maint."
+                    },
+                    {
+                        "payAmount": {
+                            "amountValue": 629.52,
+                            "currencyCode": "EUR"
+                        },
+                        "labelName": "Company unemployment"
+                    },
+                    {
+                        "payAmount": {
+                            "amountValue": 68.70,
+                            "currencyCode": "EUR"
+                        },
+                        "labelName": "Company occup. training"
+                    }
+                ],
+                "sectionLabelName": "Employer contributions"
+            }
+        ],
+        "deductions": [
+            {
+                "deductionAmount": {
+                    "amountValue": -537.96,
+                    "currencyCode": "EUR"
+                },
+                "codeName": "Employee non-ind. risks",
+                "deductionCategoryCodeName": "Employee non-ind. risks"
+            },
+            {
+                "deductionAmount": {
+                    "amountValue": -177.42,
+                    "currencyCode": "EUR"
+                },
+                "codeName": "Employee unemployment",
+                "deductionCategoryCodeName": "Employee unemployment"
+            },
+            {
+                "deductionAmount": {
+                    "amountValue": -11.46,
+                    "currencyCode": "EUR"
+                },
+                "codeName": "Employee occup. training",
+                "deductionCategoryCodeName": "Employee occup. training"
+            },
+            {
+                "deductionAmount": {
+                    "amountValue": -1541.04,
+                    "currencyCode": "EUR"
+                },
+                "codeName": "Employment tax deduction",
+                "deductionCategoryCodeName": "Employment tax deduction"
+            }
+        ],
+        "payDate": "2014-10-19",
+        "netPayAmount": {
+            "amountValue": 8739.52,
+            "currencyCode": "EUR"
+        }
+    }
+}
