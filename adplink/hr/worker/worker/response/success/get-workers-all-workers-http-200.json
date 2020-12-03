@@ -1,0 +1,178 @@
+{
+	"workers": [{
+			"associateOID": "employee-xyz",
+			"workerID": {
+				"idValue": "0000001"
+			},
+			"person": {
+				"birthDate": "1899-12-31",
+				"communication": {
+					"landlines": [{
+							"formattedNumber": "0112345678",
+							"itemID": "Personnel"
+						}
+					],
+					"mobiles": [{
+							"formattedNumber": "0612345678",
+							"itemID": "Mobile"
+						}
+					]
+				},
+				"deceasedIndicator": true,
+				"deathDate": "1980-01-01",
+				"genderCode": {
+					"codeValue": "F",
+					"shortName": "Féminin",
+					"longName": "Féminin"
+				},
+				"maritalStatusCode": {
+					"codeValue": "M",
+					"shortName": "MARIE(E)",
+					"longName": "MARIE(E)",
+					"effectiveDate": "2012-12-03"
+				},
+				"birthPlace": {
+					"cityName": "AMBEYRAC",
+					"countryCode": "100"
+				},
+				"citizenshipCountryCodes": [{
+						"codeValue": "100",
+						"shortName": "FRANCAISE",
+						"longName": "FRANCAISE"
+					}
+				]
+			},
+			"workerDates": {
+				"originalHireDate": "2010-01-01"
+			},
+			"businessCommunication": {
+				"landlines": [{
+						"formattedNumber": "014544845",
+						"itemID": "businessLandline"
+					}
+				],
+				"emails": [{
+						"emailUri": "nom.prenom@email.com",
+						"itemID": "businessEmail"
+					}
+				]
+			},
+			"workAssignments": [{
+					"jobCode": {
+						"codeValue": "301",
+						"shortName": "SALES MANAGER PME-PMI",
+						"longName": "SALES MANAGER PME-PMI"
+					},
+					"jobTitle": "SALES MANAGER PME-PMI",
+					"assignedWorkLocations": [{
+							"nameCode": {
+								"codeValue": "130"
+							},
+							"address": {
+								"countrySubdivisionLevel1": {
+									"codeValue": "75"
+								},
+								"countryCode": "100",
+								"postalCode": "75001",
+								"buildingNumberExtension": "",
+								"streetName": "DE PARIS",
+								"unit": "",
+								"countrySubdivisionLevel2": {
+									"codeValue": "75101",
+									"longName": "PARIS"
+								}
+							}
+						}
+					]
+				}
+			]
+		}, {
+			"associateOID": "employee-abc",
+			"workerID": {
+				"idValue": "0000002"
+			},
+			"person": {
+				"birthDate": "1899-12-31",
+				"communication": {
+					"landlines": [{
+							"formattedNumber": "0112345678",
+							"itemID": "Personnel"
+						}
+					],
+					"mobiles": [{
+							"formattedNumber": "0612345678",
+							"itemID": "Mobile"
+						}
+					]
+				},
+				"deceasedIndicator": true,
+				"deathDate": "1980-01-01",
+				"genderCode": {
+					"codeValue": "F",
+					"shortName": "Féminin",
+					"longName": "Féminin"
+				},
+				"maritalStatusCode": {
+					"codeValue": "M",
+					"shortName": "MARIE(E)",
+					"longName": "MARIE(E)",
+					"effectiveDate": "2012-12-03"
+				},
+				"birthPlace": {
+					"cityName": "AMBEYRAC",
+					"countryCode": "100"
+				},
+				"citizenshipCountryCodes": [{
+						"codeValue": "100",
+						"shortName": "FRANCAISE",
+						"longName": "FRANCAISE"
+					}
+				]
+			},
+			"workerDates": {
+				"originalHireDate": "2010-01-01"
+			},
+			"businessCommunication": {
+				"landlines": [{
+						"formattedNumber": "014544845",
+						"itemID": "businessLandline"
+					}
+				],
+				"emails": [{
+						"emailUri": "nom.prenom@email.com",
+						"itemID": "businessEmail"
+					}
+				]
+			},
+			"workAssignments": [{
+					"jobCode": {
+						"codeValue": "301",
+						"shortName": "SALES MANAGER PME-PMI",
+						"longName": "SALES MANAGER PME-PMI"
+					},
+					"jobTitle": "SALES MANAGER PME-PMI",
+					"assignedWorkLocations": [{
+							"nameCode": {
+								"codeValue": "130"
+							},
+							"address": {
+								"countrySubdivisionLevel1": {
+									"codeValue": "75"
+								},
+								"countryCode": "100",
+								"postalCode": "75001",
+								"buildingNumberExtension": "",
+								"streetName": "DE PARIS",
+								"unit": "",
+								"countrySubdivisionLevel2": {
+									"codeValue": "75101",
+									"longName": "PARIS"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

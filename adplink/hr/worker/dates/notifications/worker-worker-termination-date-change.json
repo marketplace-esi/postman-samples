@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "eventID": "TestTerminationDateChange",
+            "eventNameCode": {
+                "codeValue": "worker.workerTerminationDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2020-05-15"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

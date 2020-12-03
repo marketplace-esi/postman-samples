@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.email.change"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "emailUri": "EMAIL@EMAIL.COM"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

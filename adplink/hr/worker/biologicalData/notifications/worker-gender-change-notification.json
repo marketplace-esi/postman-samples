@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3291747d8466ce29ee8fb",
+            "eventNameCode": {
+                "codeValue": "worker.gender.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "Masculin",
+                                "longName": "Masculin"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

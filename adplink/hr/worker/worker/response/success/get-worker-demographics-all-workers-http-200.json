@@ -1,0 +1,324 @@
+{
+    "workers": [
+            "associateOID": "00000005",
+            "workerID": {
+                "idValue": "00000005"
+            },
+            "person": {
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Mobile"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "emailUri": "",
+                            "itemID": "MailPerso"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Féminin",
+                    "longName": "Féminin"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "A",
+                    "shortName": "AUTRE SITUATION",
+                    "longName": "AUTRE SITUATION",
+                    "effectiveDate": "2002-05-11"
+                },
+                "birthPlace": {
+                    "cityName": "ARFEUILLES",
+                    "countryCode": "100"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "100",
+                        "shortName": "FRANCAISE",
+                        "longName": "FRANCAISE"
+                    }
+                ]
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "formattedNumber": "014544845",
+                        "itemID": "businessLandline"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "062454585",
+                        "itemID": "businessMobile"
+                    }
+                ],
+                "emails": [
+                    {
+                        "emailUri": "VALERIE.CLAUDE@ADP.COM",
+                        "itemID": "businessEmail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "062454586",
+                        "itemID": "businessFax"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "jobCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "jobTitle": "",
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": ""
+                            },
+                            "address": {
+                                "postalCode": "",
+                                "buildingNumberExtension": "",
+                                "streetName": "",
+                                "unit": "",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "associateOID": "employee-xyz",
+            "workerID": {
+                "idValue": "0000001"
+            },
+            "person": {
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Mobile"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "emailUri": "",
+                            "itemID": "MailPerso"
+                        }
+                    ]
+                },
+                "deceasedIndicator": true,
+                "deathDate": "1980-01-01",
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Féminin",
+                    "longName": "Féminin"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "M",
+                    "shortName": "MARIE(E)",
+                    "longName": "MARIE(E)",
+                    "effectiveDate": "2012-12-03"
+                },
+                "birthPlace": {
+                    "cityName": "AMBEYRAC",
+                    "countryCode": "100"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "100",
+                        "shortName": "FRANCAISE",
+                        "longName": "FRANCAISE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2010-01-01"
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "formattedNumber": "0112345678",
+                        "itemID": "businessLandline"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "0612345678",
+                        "itemID": "businessMobile"
+                    }
+                ],
+                "emails": [
+                    {
+                        "emailUri": "mobile.pro@adp.com",
+                        "itemID": "businessEmail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "0112345678",
+                        "itemID": "businessFax"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "jobCode": {
+                        "codeValue": "301",
+                        "shortName": "SALES MANAGER PME-PMI",
+                        "longName": "SALES MANAGER PME-PMI"
+                    },
+                    "jobTitle": "SALES MANAGER PME-PMI",
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "130"
+                            },
+                            "address": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "75"
+                                },
+                                "countryCode": "100",
+                                "postalCode": "75001",
+                                "buildingNumberExtension": "",
+                                "streetName": "DE PARIS",
+                                "unit": "",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "75101",
+                                    "longName": "PARIS"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "associateOID": "employee-abc",
+            "workerID": {
+                "idValue": "0000002"
+            },
+            "person": {
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Mobile"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "emailUri": "",
+                            "itemID": "MailPerso"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Féminin",
+                    "longName": "Féminin"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "P",
+                    "shortName": "PACS",
+                    "longName": "PACS"
+                },
+                "birthPlace": {
+                    "cityName": "AMAGNE",
+                    "countryCode": "100"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "101",
+                        "shortName": "DANOISE",
+                        "longName": "DANOISE"
+                    }
+                ]
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "formattedNumber": "0112345678",
+                        "itemID": "businessLandline"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "0612345678",
+                        "itemID": "businessMobile"
+                    }
+                ],
+                "emails": [
+                    {
+                        "emailUri": "TEST@MAILPERSO.NET",
+                        "itemID": "businessEmail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "0112345678",
+                        "itemID": "businessFax"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "jobCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "jobTitle": "AJOUT MANUEL BY RUN",
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "60"
+                            },
+                            "address": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "75"
+                                },
+                                "countryCode": "100",
+                                "postalCode": "75001",
+                                "buildingNumberExtension": "",
+                                "streetName": "DE PARIS",
+                                "unit": "",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "75101",
+                                    "longName": "PARIS"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

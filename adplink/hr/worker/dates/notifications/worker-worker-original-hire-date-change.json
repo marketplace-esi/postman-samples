@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d846127c9ee8e4",
+            "eventNameCode": {
+                "codeValue": "worker.workerOriginalHireDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "originalHireDate": "2020-05-10"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
