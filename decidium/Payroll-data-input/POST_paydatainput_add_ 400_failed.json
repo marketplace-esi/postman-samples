@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-12-01T11:22:43.024+01:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 01012020, Identifiant RH: 00000124, Période: 202009 - la date payPeriodStartDate doit être sur le mois de paie en cours"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 01012020, Identifiant RH: 00000124, Période: 202009 - la date payPeriodStartDate doit être sur le mois de paie en cours"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: dafe5-mp1, Date d'effet: 01012020, Période: 202009 - Collaborateur non trouvé"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: dafe5-mp1, Date d'effet: 01012020, Période: 202009 - Collaborateur non trouvé"
+                }
+            }
+        ]
+    }
+}
