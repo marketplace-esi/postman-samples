@@ -1,0 +1,75 @@
+{
+    "retirementPlanIndicator": false,
+    "payStatements": [
+        {
+            "grossPayAmount": {
+                "amountValue": 8430.16,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 7430.16,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-08",
+            "payDetailUri": {
+                "href": "/v1_0/O/A/payStatement/MjAxNS0wOA"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.07,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.07,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-07",
+            "payDetailUri": {
+                "href": "/v1_0/O/A/payStatement/MjAxNS0wNw"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.06,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.06,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-06",
+            "payDetailUri": {
+                "href": "/v1_0/O/A/payStatement/MjAxNS0wNg"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.11,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.11,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-05",
+            "payDetailUri": {
+                "href": "/v1_0/O/A/payStatement/MjAxNS0wNQ"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.11,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.11,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-04",
+            "payDetailUri": {
+                "href": "/v1_0/O/A/payStatement/MjAxNS0wNA"
+            }
+        }
+    ]
+}

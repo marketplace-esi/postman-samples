@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3291747d846b3489ee8f8",
+            "eventNameCode": {
+                "codeValue": "worker.birthPlace.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "MONTPELLIER",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "34"
+                                },
+                                "postalCode": "34",
+                                "countryCode": "100"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

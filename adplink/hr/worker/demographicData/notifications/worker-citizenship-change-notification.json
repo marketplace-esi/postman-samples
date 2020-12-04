@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d8467db49ee8df",
+            "eventNameCode": {
+                "codeValue": "worker.citizenship.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "citizenshipCountryCode": {
+                                "codeValue": "100",
+                                "shortName": "FRANCAISE",
+                                "longName": "FRANCAISE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

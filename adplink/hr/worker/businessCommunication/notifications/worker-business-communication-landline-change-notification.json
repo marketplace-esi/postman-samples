@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d8463d4c9ee8e2",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "businessCommunication": {
+                            "landline": {
+                                "formattedNumber": "0501020304",
+                                "itemID": "businessLandline"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
