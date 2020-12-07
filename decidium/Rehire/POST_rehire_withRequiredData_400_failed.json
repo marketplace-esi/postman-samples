@@ -1,0 +1,25 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-12-04T14:47:44.576+01:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Impossible de réembaucher ce collaborateur : il est présent à la date du 15/11/2019"
+                },
+                "developerMessage": {
+                    "messageTxt": "Impossible de réembaucher ce collaborateur : il est présent à la date du 15/11/2019"
+                }
+            }
+        ]
+    }
+}

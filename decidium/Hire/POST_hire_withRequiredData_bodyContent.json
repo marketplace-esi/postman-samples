@@ -6,33 +6,29 @@
                     "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "DANHIRE 44",
-                                "familyName1": "HIRE 44",
-                                "preferredSalutations": [
+                                "givenName": "HIRE GIVENNAME",
+                                "familyName1": "HIRE NAME",
+								"preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "M",
-                                            "shortName": "M"
+                                            "codeValue": "MME"
                                         }
                                     }
-                                ]
-                            },
+    							]
+							},								
                             "genderCode": {
-                                "codeValue": "M"
+                                "codeValue": "F"
                             }
                         },
-                        "workerDates": {
-                            "originalHireDate": "2020-08-01"
-                        },
                         "workAssignment": {
-                            "hireDate": "2020-08-01",
+                            "hireDate": "2020-01-01",
                             "workerTypeCode": {
-                                "codeValue": "00"
+                                "codeValue": "01"
                             },
-                             "jobCode": {
+                            "jobCode": {
                                 "codeValue": "EMPLO1"
                             },
-                            "jobTitle": "AAA CODE AAA",
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
@@ -41,23 +37,29 @@
                                 }
                             ],
                             "customFieldGroup": {
-                                "stringFields": [
+                                "codeFields": [
+								   {
+									  "codeValue":"SAL",
+									  "itemID":"typeCollab"
+								   },
                                     {
-                                        "stringValue": "CU1",
+                                        "codeValue": "CU2",
                                         "itemID": "typeContrat"
                                     },
                                     {
-                                        "stringValue": "SAL",
-                                        "itemID": "typeCollab"
-                                    },
-                                    {
-                                        "stringValue": "50",
+                                        "codeValue": "50",
                                         "itemID": "recoursReason"
                                     }
+                                ],
+                                "dateFields": [
+								   {
+									  "dateValue":"2020-01-30",
+									  "itemID":"initialCddTerminationDate"
+								   }
                                 ]
                             }
                         }
-                    } 
+                    }
                 }
             }
         }
