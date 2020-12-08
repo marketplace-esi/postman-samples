@@ -1,0 +1,484 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "E1000001"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "TestUser",
+                    "familyName": "Ericsson",
+                    "formattedName": "TestUser Ericsson"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "GGN3MVXEWF03WVRT"
+        },
+        {
+            "workerID": {
+                "idValue": "1010303"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E16RNYS65M0D7GD3"
+        },
+        {
+            "workerID": {
+                "idValue": "11223344"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "test",
+                    "familyName": "mady",
+                    "formattedName": "test mady"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1X5NH4SZH6JCFKN"
+        },
+        {
+            "workerID": {
+                "idValue": "TestUser1221"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Madhu",
+                    "familyName": "RAj",
+                    "formattedName": "Madhu RAj"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E11Q932K5FPEK0FQ"
+        },
+        {
+            "workerID": {
+                "idValue": "1010404"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1WR90NSB0RTT00C"
+        },
+        {
+            "workerID": {
+                "idValue": "1010302"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1D3D5VQQ3AWM044"
+        },
+        {
+            "workerID": {
+                "idValue": "12345431"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Madhu",
+                    "familyName": "Test",
+                    "formattedName": "Madhu Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1H0C1X4XG48E036"
+        },
+        {
+            "workerID": {
+                "idValue": "1010411"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E17XDZ7ZKXV3Z24T"
+        },
+        {
+            "workerID": {
+                "idValue": "1010413"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1N0H04GH1WJT245"
+        },
+        {
+            "workerID": {
+                "idValue": "1010414"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1N0H04GH1WJT246"
+        },
+        {
+            "workerID": {
+                "idValue": "1234567688"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "maddy23",
+                    "familyName": "tset",
+                    "formattedName": "maddy23 tset"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1C6643B03DAF000"
+        },
+        {
+            "workerID": {
+                "idValue": "11223345"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "FirstUser",
+                    "familyName": "Test",
+                    "formattedName": "FirstUser Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1C6643B03DAF005"
+        },
+        {
+            "workerID": {
+                "idValue": "1235345453"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "FRBench",
+                    "familyName": "Test",
+                    "formattedName": "FRBench Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1R4WPMPC81QF017"
+        },
+        {
+            "workerID": {
+                "idValue": "12345432"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Maddy1",
+                    "familyName": "Test",
+                    "formattedName": "Maddy1 Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1Q72437SXDX9002"
+        },
+        {
+            "workerID": {
+                "idValue": "786"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "arcelergofive",
+                    "familyName": "testft1",
+                    "formattedName": "arcelergofive testft1"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E10XNARBSQ8VG006"
+        },
+        {
+            "workerID": {
+                "idValue": "1010418"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1YC8JHWP7TSF1D9"
+        },
+        {
+            "workerID": {
+                "idValue": "1234006"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Mobile",
+                    "familyName": "Test",
+                    "formattedName": "Mobile Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1YC8JHWP7TSF1DB"
+        },
+        {
+            "workerID": {
+                "idValue": "56765438"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "FEd",
+                    "familyName": "Test",
+                    "formattedName": "FEd Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1YC8JHWP7TSF1QV"
+        },
+        {
+            "workerID": {
+                "idValue": "ADMIN1200"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Maddy",
+                    "familyName": "Test",
+                    "formattedName": "Maddy Test"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1N2RCQMEF7YC0GC"
+        },
+        {
+            "workerID": {
+                "idValue": "1010518"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Richard",
+                    "familyName": "Maddy",
+                    "formattedName": "Richard Maddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "madhuraj.soudathikar@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1N2RCQMEF7YC0TF"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "06000015"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "deletion3"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "deactive"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "delete"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "1100"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "insightuser1"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "2343466"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "R11113"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "R11115"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "06000023"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "06000024"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "06000025"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "6767227"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "23823832"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "232332"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "fs"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "NEXOTEST20"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "XNEXOXANOTHER"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "00011366666"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "9890990"
+            }
+        }
+    ]
+}
