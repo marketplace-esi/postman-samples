@@ -43,7 +43,21 @@
                     "operationID": "timeOffRequest.cancel"
                 }
             ],
-            "associateOID": "employee1-xyz"
+            "associateOID": "employee1-xyz",
+            "comments": [
+                {
+                    "textValue": "Comment for Time Off Request from 10/10 to 11/10",
+                    "entryDateTime": "2020-09-02T18:36:29+01:00",
+                    "author": {
+                        "associateOID": "employee1-xyz",
+                        "roleCode": {
+                            "codeValue": "employee",
+                            "shortName": "employee"
+                        },
+                        "formattedName": "PRENOM NOM"
+                    }
+                }
+            ]
         },
         {
             "timeOffRequestID": "1048244",
@@ -232,7 +246,17 @@
                     "operationID": "timeOffRequest.cancel"
                 }
             ],
-            "associateOID": "employee1-xyz"
+            "associateOID": "employee1-xyz",
+            "comments": [
+                {
+                    "textValue": "Time Off Not Allowed for 04/10",
+                    "entryDateTime": "2020-09-04T11:37:12+01:00",
+                    "author": {
+                        "associateOID": "manager-tuv",
+                        "formattedName": "PRENOM NOM"
+                    }
+                }
+            ]
         }
     ],
     "meta": {
