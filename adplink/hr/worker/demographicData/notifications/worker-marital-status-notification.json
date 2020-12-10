@@ -1,0 +1,32 @@
+{
+	"events": [{
+			"eventID": "5ef3291747d846a96b9ee8f7",
+			"eventNameCode": {
+				"codeValue": "worker.maritalStatus.change"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "employee-xyz"
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "employee-xyz",
+						"workerID": {
+							"idValue": "0000000"
+						},
+						"person": {
+							"maritalStatusCode": {
+								"codeValue": "M",
+								"shortName": "MARIE(E)",
+								"longName": "MARIE(E)",
+								"effectiveDate": "2010-07-03"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.mobile.change"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "mobile": {
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "06 06 06 06 07"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
