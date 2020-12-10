@@ -1,0 +1,282 @@
+{
+    "events": [
+{
+			"data": {
+                "eventContext": {
+				    "associateOID": "",
+                    "workerID":""
+			    },
+				"transform": {
+					  "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "Patrice",
+                                "familyName1": "URBAIN",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                             "genderCode": {
+                                "codeValue": "M"
+                            },
+                            "birthDate": "1987-09-07",
+                            "birthPlace": {
+                            	"postalCode": "34",
+                            	"countryCode" : "100",
+                            	"cityName" : "BERLOU"
+                            } 
+                            ,
+                            "maritalStatusCode": {
+                                "codeValue": "M",
+                                "effectiveDate": "2020-02-27"
+                            },
+                            "legalAddress": {
+                                "countryCode": "100",
+                                "postalCode": "78300",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue":"78498",
+                                    "longName" : "POISSY"
+                                }
+                            },
+                            "communication":{
+                                "landlines":[{
+                                    "countryDialing":"+33",
+                                    "formattedNumber":"1 23 45 67 89"
+                                }],
+                                "mobiles":[{
+                                    "countryDialing":"+33",
+                                    "formattedNumber":"1 33 45 69 89"
+                                }],
+                                "emails":[
+                                    {
+                                        "emailUri":"patrice.urbain@gmail.com"
+                                    }
+                                ]
+                            },
+                            "otherPersonalAddresses":[{
+                                    "countryCode": "100",
+                                    "lineFive":"",
+                                    "buildingNumber":"",
+                                    "streetName":"",
+                                    "postalCode":"",
+                                     "cityName":""
+                            }],
+                            "identityDocuments":[
+                                {
+                                    "documentID":"1879934999999"
+                                },
+                                {
+                                    "documentID":"01"
+                                }
+                            ]
+
+                            
+                        },
+                    "businessCommunication":{
+                        "landlines":[
+                            {
+                                "countryDialing":"+33",
+                                "formattedNumber":"1 25 43 67 88"
+                            }
+                        ],
+                        "mobiles":[
+                            {
+                                "countryDialing":"+33",
+                                "formattedNumber":"1 45 63 87 88"
+                            }
+                        ],
+                        "faxes":[
+                            {
+                                "countryDialing":"+33",
+                                "formattedNumber":"1 25 43 67 88"
+                            }
+                        ],
+                        "emails":[
+                            {
+                                "emailUri":"patrice.urbain@adp.com"
+                            }
+                        ]
+                    },
+                    "workerDates": {
+                            "originalHireDate": "2020-08-01"
+                     },
+					"workAssignment": {
+						"hireDate": "2020-08-01",
+						"workerTypeCode": {
+							"codeValue": "CDI"
+						},
+                        "workLevelCode": {
+							"codeValue": "C1"
+						},
+						"workerGroups": [{
+								"groupCode": {
+									"codeValue": "13"
+								},
+								"itemID": "occupationalCategory"
+							}, {
+								"groupCode": {
+									"codeValue": "3.2"
+								},
+								"itemID": "echelonLevel"
+							}, {
+								"groupCode": {
+									"codeValue": "221"
+								},
+								"itemID": "CPNCode"
+							}, {
+								"groupCode": {
+									"codeValue": "333F"
+								},
+								"itemID": "inseeCode"
+							},  {
+								"groupCode": {
+									"codeValue": "0051"
+								},
+								"itemID": "collectiveAgreement"
+							}
+						],
+                         "jobCode": {
+                                "codeValue": "101"
+                            },
+                        "jobTitle": "CONTROLE DE GESTION SOCIALES COM",
+						"occupationalClassifications": [
+                             {
+								"classificationCode": {
+									"codeValue": "01"
+								},
+								"itemID": "occupationalClassificationField"
+							}, {
+								"classificationCode": {
+									"codeValue": "10"
+								},
+								"itemID": "occupationalClassificationFamily"
+							}, {
+								"classificationCode": {
+									"codeValue": "101"
+								},
+								"itemID": "occupationalClassificationProfession"
+							}
+						],
+						"workArrangementCode": {
+							"codeValue": "100"
+						},
+						"standardHours": {
+							"hoursQuantity": 30.0
+						},
+						"fullTimeEquivalenceRatio": 100.0,
+						"assignedOrganizationalUnits": [{
+								"nameCode": {
+									"codeValue": "SEC_SUD"
+								}
+							}
+						],
+						"assignedWorkLocations": [{
+								"nameCode": {
+									"codeValue": "DG"
+								},
+								"address": {
+									"unit": "159"
+								}
+							}
+						],
+						"standardPayPeriodHours": {
+							"hoursQuantity": 30.0
+						},
+						"baseRemuneration": {
+							"monthlyRateAmount": {
+								"amountValue": 3000.0
+							}
+						},
+						"additionalRemunerations": [{
+								"rate": {
+									"amountValue": 1000.0
+								},
+								"itemID": "additionalRemuneration"
+							}, {
+								"rate": {
+									"amountValue": 100.0
+								},
+								"itemID": "additionalRemunerationFood"
+							}, {
+								"rate": {
+									"amountValue": 150.0
+								},
+								"itemID": "additionalRemunerationTransport"
+							}
+						],
+						"customFieldGroup": {
+							"dateFields": [  {
+									"dateValue": "2020-08-01",
+									"itemID": "occupationalEntryDate"
+								}, {
+									"dateValue": "2020-08-01",
+									"itemID": "seniorityDate"
+								}, {
+									"dateValue": "2020-08-01",
+									"itemID": "dateEntryCompany"
+								}, {
+									"dateValue": "2020-08-01",
+									"itemID": "actualStartDate"
+								}
+							],
+							"dateTimeFields": [{
+									"dateTimeValue": "2020-08-01T10:30:00+02:00",
+									"itemID": "hireTime"
+								}
+							],
+							"indicatorFields": [{
+									"indicatorValue": false,
+									"itemID": "probationPeriod"
+								}, {
+									"indicatorValue": true,
+									"itemID": "managementPositionIndicator"
+								}, {
+									"indicatorValue": false,
+									"itemID": "exoTaxeTransport"
+								}, {
+									"indicatorValue": false,
+									"itemID": "alsaceMoselle"
+								}
+							],
+							"numberFields": [{
+									"numberValue": 439.0,
+									"itemID": "coefficient"
+								}, {
+									"numberValue": 10.0,
+									"itemID": "txTransportEtab"
+								}
+							],
+							"stringFields": [{
+									"stringValue": "20",
+									"itemID": "typeContrat"
+								}, {
+                                        "stringValue": "SAL",
+                                        "itemID": "typeCollab"
+                                    }, {
+									"stringValue": "50",
+									"itemID": "recoursReason"
+								}, {
+									"stringValue": "Z",
+									"itemID": "gtaCode"
+								}, {
+									"stringValue": "10",
+									"itemID": "admSituation"
+								},{
+									"stringValue": "001",
+									"itemID": "lotPermanent"
+								}
+							]
+						}
+					}
+				}
+				}
+			}
+			
+		}
+		]
+}
