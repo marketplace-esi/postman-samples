@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "fa07bdbe-ffa9-43d0-b9e1-2c9b7f57c41d",
+		"name": "Marketplace- Tax statements",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tax Statements list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E17XDZ7ZKXV3Z05Z",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/payroll/v1/workers/E17XDZ7ZKXV3Z05Z/tax-statements",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"payroll",
+						"v1",
+						"workers",
+						"E17XDZ7ZKXV3Z05Z",
+						"tax-statements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tax statement details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E17XDZ7ZKXV3Z05Z",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/payroll/v1/workers/E17XDZ7ZKXV3Z05Z/tax-statements/353B353535353B353535373735363D5F57645D4649556452353B644B4E584846514B4E484D4A3535GV",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"payroll",
+						"v1",
+						"workers",
+						"E17XDZ7ZKXV3Z05Z",
+						"tax-statements",
+						"353B353535353B353535373735363D5F57645D4649556452353B644B4E584846514B4E484D4A3535GV"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tax statement image",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E17XDZ7ZKXV3Z05Z",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/payroll/v1/associates/E17XDZ7ZKXV3Z05Z/worker-tax-statements/353B353535353B353535373735363D5F57645D4649556452353B644B4E584846514B4E484D4A3535GV/images/005056B875CF1EDB82AF14B075FE85E3.pdf",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"payroll",
+						"v1",
+						"associates",
+						"E17XDZ7ZKXV3Z05Z",
+						"worker-tax-statements",
+						"353B353535353B353535373735363D5F57645D4649556452353B644B4E584846514B4E484D4A3535GV",
+						"images",
+						"005056B875CF1EDB82AF14B075FE85E3.pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tax statements List with Query Param",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E17XDZ7ZKXV3Z05Z",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/payroll/v1/workers/E17XDZ7ZKXV3Z05Z/tax-statements?numStatementYr=2",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"payroll",
+						"v1",
+						"workers",
+						"E17XDZ7ZKXV3Z05Z",
+						"tax-statements"
+					],
+					"query": [
+						{
+							"key": "numStatementYr",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
