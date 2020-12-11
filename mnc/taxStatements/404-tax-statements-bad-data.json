@@ -1,0 +1,14 @@
+{
+    "response": {
+        "resourceUri": {
+            "href": "/marketplace/payroll/v1/workers/E17XDZ7ZV3Z05Z/tax-statements"
+        },
+        "applicationCode": {
+            "code": "100-001",
+            "message": "User AOID NOT FOUND",
+            "typeCode": "error"
+        },
+        "methodCode": "GET",
+        "responseCode": "404"
+    }
+}
