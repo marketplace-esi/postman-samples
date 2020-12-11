@@ -1,0 +1,89 @@
+{
+    "events": [
+        {
+            "eventID": "Hire_eventID",
+            "eventNameCode": {
+                "codeValue": "worker.hire"
+            },
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "testmp",
+                        "workerID": {
+                            "idValue": "0011542"
+                        },
+                        "person": {
+                            "birthDate": "1986-01-01",
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "formattedNumber": "0101010101",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "0707070707",
+                                        "itemID": "Mobile"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "emailUri": "testrunper@adp.com",
+                                        "itemID": "MailPerso"
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "F",
+                                "shortName": "Féminin",
+                                "longName": "Féminin"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": "C",
+                                "shortName": "CELIBATAIRE",
+                                "longName": "CELIBATAIRE"
+                            },
+                            "birthPlace": {
+                                "cityName": "SAGONE",
+                                "countryCode": "100"
+                            }
+                        },
+                        "workerDates": {
+                            "rehireDate": "2020-03-05"
+                        },
+                        "businessCommunication": {
+                            "landlines": [
+                                {
+                                    "formattedNumber": "0202020202",
+                                    "itemID": "businessLandline"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "emailUri": "testrunpro@adp.com",
+                                    "itemID": "businessEmail"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "jobCode": {
+                                "codeValue": "101",
+                                "shortName": "CONTRÔLE DE GESTION SOCIALES COM",
+                                "longName": "CONTRÔLE DE GESTION SOCIALES COM"
+                            },
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES COM",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

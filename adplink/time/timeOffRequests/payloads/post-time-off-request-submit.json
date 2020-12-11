@@ -1,0 +1,38 @@
+{
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"associateOID": "employee1-xyz"
+				},
+				"transform": {
+					"timeOffRequest": {
+						"timeOffEntries": [
+							{
+								"timeOffPolicyCode": {
+									"codeValue": "CP"
+								},
+								"durationTypeCode": {
+									"codeValue": "dayPeriodEntry"
+								},
+								"dateTimePeriod": {
+									"startDateTime": "2020-12-01",
+									"endDateTime": "2020-12-04"
+								},
+								"dayPeriodStartCode": {
+									"codeValue": "2"
+								},
+								"dayPeriodEndCode": {
+									"codeValue": "1"
+								}
+							}
+						],
+						"comment": {
+							"textValue": "Request Time Off Sample"
+						}
+					}
+				}
+			}
+		}
+	]
+}

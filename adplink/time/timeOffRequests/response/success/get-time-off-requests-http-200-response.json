@@ -1,0 +1,265 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "1048245",
+            "requestDateTime": "2020-09-02T18:36:29+01:00",
+            "requestStatusCode": {
+                "codeValue": "pending",
+                "effectiveDate": null
+            },
+            "requestorName": {
+                "givenName": "PRENOM",
+                "familyName1": "NOM",
+                "formattedName": "PRENOM NOM"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2020-10-11T00:00:00+02:00",
+                        "startDateTime": "2020-10-10T00:00:00+02:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "fullday"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "",
+                        "shortName": ""
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.review"
+                },
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "employee1-xyz",
+            "comments": [
+                {
+                    "textValue": "Comment for Time Off Request from 10/10 to 11/10",
+                    "entryDateTime": "2020-09-02T18:36:29+01:00",
+                    "author": {
+                        "associateOID": "employee1-xyz",
+                        "roleCode": {
+                            "codeValue": "employee",
+                            "shortName": "employee"
+                        },
+                        "formattedName": "PRENOM NOM"
+                    }
+                }
+            ]
+        },
+        {
+            "timeOffRequestID": "1048244",
+            "requestDateTime": "2020-09-02T18:36:29+01:00",
+            "requestStatusCode": {
+                "codeValue": "inprogress",
+                "effectiveDate": null
+            },
+            "requestorName": {
+                "givenName": "PRENOM",
+                "familyName1": "NOM",
+                "formattedName": "PRENOM NOM"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2020-10-09T00:00:00+02:00",
+                        "startDateTime": "2020-10-09T00:00:00+02:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "dayPeriodEntry"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "2",
+                        "shortName": "Après-midi"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "2",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.review"
+                },
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "employee2-abc"
+        },
+        {
+            "timeOffRequestID": "1048246",
+            "requestDateTime": "2020-09-02T18:36:30+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "effectiveDate": null
+            },
+            "requestorName": {
+                "givenName": "PRENOM",
+                "familyName1": "NOM",
+                "formattedName": "PRENOM NOM"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2020-10-08T00:00:00+02:00",
+                        "startDateTime": "2020-10-08T00:00:00+02:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "dayPeriodEntry"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "1",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "1",
+                        "shortName": "Matin"
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.review"
+                },
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "employee3-jkl"
+        },
+        {
+            "timeOffRequestID": "1048243",
+            "requestDateTime": "2020-09-02T18:36:28+01:00",
+            "requestStatusCode": {
+                "codeValue": "cancelled",
+                "effectiveDate": null
+            },
+            "requestorName": {
+                "givenName": "PRENOM",
+                "familyName1": "NOM",
+                "formattedName": "PRENOM NOM"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2020-10-07T00:00:00+02:00",
+                        "startDateTime": "2020-10-05T00:00:00+02:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "dayPeriodEntry"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "2",
+                        "shortName": "Après-midi"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "1",
+                        "shortName": "Matin"
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.review"
+                },
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "employee2-abc"
+        },
+        {
+            "timeOffRequestID": "1048247",
+            "requestDateTime": "2020-09-02T18:44:43+01:00",
+            "requestStatusCode": {
+                "codeValue": "denied",
+                "effectiveDate": null
+            },
+            "requestorName": {
+                "givenName": "PRENOM",
+                "familyName1": "NOM",
+                "formattedName": "PRENOM NOM"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "A2",
+                        "shortName": "ACC. TRAVAIL J.F"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2020-10-04T00:00:00+02:00",
+                        "startDateTime": "2020-10-04T00:00:00+02:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "hoursEntry"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "A2",
+                        "shortName": "ACC. TRAVAIL J.F"
+                    },
+                    "dailyTimeDuration": "3:00"
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.review"
+                },
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "employee1-xyz",
+            "comments": [
+                {
+                    "textValue": "Time Off Not Allowed for 04/10",
+                    "entryDateTime": "2020-09-04T11:37:12+01:00",
+                    "author": {
+                        "associateOID": "manager-tuv",
+                        "formattedName": "PRENOM NOM"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "totalNumber": 5
+    }
+}

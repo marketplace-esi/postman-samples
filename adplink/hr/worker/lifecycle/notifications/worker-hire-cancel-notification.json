@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "eventID": "HireCancel_eventID",
+            "eventNameCode": {
+                "codeValue": "workerHire.cancel"
+            },
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "rurbainnoti-kr6",
+                        "workerID": {
+                            "idValue": "0011574"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-05-10"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

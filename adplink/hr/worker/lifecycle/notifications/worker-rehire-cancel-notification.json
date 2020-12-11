@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "eventID": "RehireCancel_eventID",
+            "eventNameCode": {
+                "codeValue": "workerRehire.cancel"
+            },
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "rurbainnoti-kr6",
+                        "workerID": {
+                            "idValue": "0011574"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-06-23"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
