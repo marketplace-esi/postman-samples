@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-01T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "a4f82dde-8b62-4ac6-96c4-694b89eecba9",
+            "eventNameCode": {
+                "codeValue": "worker.gender.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000069"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "genderCode": {
+                                "codeValue": "V"
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000069"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
