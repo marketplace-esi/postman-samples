@@ -1,0 +1,37 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-14T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "438067e4-49dd-4437-b398-f650011feb91",
+            "eventNameCode": {
+                "codeValue": "worker.identityDocument.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000070"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "identityDocument": {
+                                "documentID": "32492349",
+                                "typeCode": {
+                                    "codeValue": "",
+                                    "shortName": ""
+                                }
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000070"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
