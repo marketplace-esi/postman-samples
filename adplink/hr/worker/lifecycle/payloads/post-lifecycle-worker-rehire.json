@@ -157,6 +157,10 @@
 						"customFieldGroup": {
 							"dateFields": [
 							{
+                                        "dateValue": "2015-03-06",
+                                        "itemID": "expectedTerminationDate"
+                            },
+							{
 								"dateValue": "2015-03-10",
 								"itemID": "initialCddTerminationDate"
 							},
