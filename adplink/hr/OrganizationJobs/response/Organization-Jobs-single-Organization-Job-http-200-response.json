@@ -1,0 +1,21 @@
+{
+    "jobs": [
+        {
+            "jobCode": {
+                "code": "114"
+            },
+            "jobTitle": "CONTRÔLE GESTION FINANCE",
+            "jobFunctionCode": {
+                "code": "114"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "11"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        }
+    ]
+}
