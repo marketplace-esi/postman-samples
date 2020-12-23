@@ -13,16 +13,45 @@
                             "idValue": "0011542"
                         },
                         "person": {
+                            "legalName": {
+                                "givenName": "REHIRE",
+                                "familyName1": "TESTREHIRE",
+                                "familyName2": "TESTREHIRE",
+                                "formattedName": "TESTREHIRE,REHIRE",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MLE"
+                                        }
+                                    }
+                                ]
+                            },
                             "birthDate": "1986-01-01",
+                            "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "JOURNANS"
+                                },
+                                "countryCode": "",
+                                "postalCode": "01250",
+                                "lineFive": "",
+                                "buildingNumber": "",
+                                "buildingNumberExtension": "",
+                                "streetName": "",
+                                "countrySubdivisionLevel2": {
+                                    "longName": "JOURNANS"
+                                }
+                            },
                             "communication": {
                                 "landlines": [
                                     {
+                                        "countryDialing": "+33",
                                         "formattedNumber": "0101010101",
                                         "itemID": "Personnel"
                                     }
                                 ],
                                 "mobiles": [
                                     {
+                                        "countryDialing": "+33",
                                         "formattedNumber": "0707070707",
                                         "itemID": "Mobile"
                                     }
@@ -46,17 +75,40 @@
                             },
                             "birthPlace": {
                                 "cityName": "SAGONE",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "2A"
+                                },
+                                "postalCode": "2A",
                                 "countryCode": "100"
-                            }
+                            },
+                            "otherPersonalAddresses": [
+                                {
+                                    "countryCode": "",
+                                    "postalCode": "",
+                                    "lineFive": "",
+                                    "buildingNumber": "",
+                                    "buildingNumberExtension": "",
+                                    "streetName": ""
+                                }
+                            ]
                         },
                         "workerDates": {
-                            "rehireDate": "2020-03-05"
+                            "rehireDate": "2020-03-05",
+                            "terminationDate": "2020-05-06"
                         },
                         "businessCommunication": {
                             "landlines": [
                                 {
+                                    "countryDialing": "+33",
                                     "formattedNumber": "0202020202",
                                     "itemID": "businessLandline"
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "0606060606",
+                                    "itemID": "businessMobile"
                                 }
                             ],
                             "emails": [
@@ -64,22 +116,117 @@
                                     "emailUri": "testrunpro@adp.com",
                                     "itemID": "businessEmail"
                                 }
+                            ],
+                            "faxes": [
+                                {
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "",
+                                    "itemID": "businessFax"
+                                }
                             ]
                         },
                         "workAssignment": {
+                            "actualStartDate": "2020-03-05",
+                            "terminationDate": "2020-05-06",
+                            "workerTypeCode": {
+                                "codeValue": "CDI",
+                                "shortName": "CDI DUREE INDETERMINEE"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "333F",
+                                        "shortName": "PERS.ADMIN.CAT.A COLL.LOC & HOPX"
+                                    },
+                                    "itemID": "inseeCode"
+                                }
+                            ],
                             "jobCode": {
                                 "codeValue": "101",
                                 "shortName": "CONTRÔLE DE GESTION SOCIALES COM",
                                 "longName": "CONTRÔLE DE GESTION SOCIALES COM"
                             },
                             "jobTitle": "CONTRÔLE DE GESTION SOCIALES COM",
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "01",
+                                        "shortName": "SUPPORT TRANSVERSE"
+                                    },
+                                    "itemID": "occupationalClassificationField"
+                                },
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "10",
+                                        "shortName": "RESSOURCES HUMAINES"
+                                    },
+                                    "itemID": "occupationalClassificationFamily"
+                                },
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "101",
+                                        "shortName": "CONTRÔLE GESTION SOCIALE"
+                                    },
+                                    "itemID": "occupationalClassificationProfession"
+                                }
+                            ],
+                            "workArrangementCode": {
+                                "codeValue": "101",
+                                "shortName": "32.99H"
+                            },
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "BU_LYON",
+                                        "shortName": "LYON1",
+                                        "longName": "LYON1"
+                                    },
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": ""
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ],
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
                                         "codeValue": "01001"
                                     }
                                 }
-                            ]
+                            ],
+                            "baseRemuneration": {
+                                "monthlyRateAmount": {
+                                    "amountValue": 10000.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "customFieldGroup": {
+                                "indicatorFields": [
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "probationPeriod"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "numberValue": 439.0,
+                                        "itemID": "coefficient"
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "stringValue": "20",
+                                        "itemID": "typeContrat"
+                                    },
+                                    {
+                                        "stringValue": "",
+                                        "itemID": "recoursReason"
+                                    }
+                                ]
+                            }
                         }
                     }
                 }

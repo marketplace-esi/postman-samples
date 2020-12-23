@@ -8,12 +8,22 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "rurbainnoti-kr6",
+                        "associateOID": "0011317",
                         "workerID": {
-                            "idValue": "0011574"
+                            "idValue": "0011317"
+                        },
+                        "workerDates": {
+                            "rehireDate": "2020-08-28"
                         },
                         "workAssignment": {
-                            "hireDate": "2020-06-23"
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": ""
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ]
                         }
                     }
                 }

@@ -8,12 +8,22 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "rurbainnoti-kr6",
+                        "associateOID": "0001275",
                         "workerID": {
-                            "idValue": "0011574"
+                            "idValue": "0001275"
                         },
                         "workAssignment": {
-                            "hireDate": "2020-05-10"
+                            "hireDate": "2010-03-01",
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "FG_3_4",
+                                        "shortName": "Ent 4 Niv 3",
+                                        "longName": "Ent 4 Niv 3"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ]
                         }
                     }
                 }

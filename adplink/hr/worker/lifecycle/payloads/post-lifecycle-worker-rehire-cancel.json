@@ -2,7 +2,7 @@
 	"events": [{
 		"data": {
 			"eventContext": {
-                "associateOID": "",
+                "associateOID": "employee-xyz",
                 "workerID":"0011317"
 			}
 			
