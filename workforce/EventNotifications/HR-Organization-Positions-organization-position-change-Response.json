@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-30T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "a9cc5d77-3968-4f07-8425-6ec24a85b189",
+            "eventNameCode": {
+                "codeValue": "organizationPosition.change"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationPosition": {
+                        "positionID": "000091-000001"
+                    }
+                },
+                "output": {
+                    "organizationPosition": {
+                        "positionID": "000091-000001",
+                        "positionTitle": "Finance - Tester Daniel updated",
+                        "sharedPositionMaximumHeadcount": 0.00,
+                        "activePeriod": {
+                            "effectiveDate": "1950-01-01",
+                            "end": {
+                                "endDate": "",
+                                "reasonCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            }
+                        },
+                        "budgetedAmount": {
+                            "amountValue": 0.00,
+                            "currencyCode": "EUR"
+                        },
+                        "workAssignment": {
+                            "standardHours": {
+                                "hoursQuantity": 40.00,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "Week"
+                                }
+                            },
+                            "wageLawCoverages": [
+                                {
+                                    "wageLawNameCode": {
+                                        "codeValue": "65"
+                                    }
+                                }
+                            ]
+                        },
+                        "compensationData": {
+                            "baseRemuneration": {
+                                "payScaleCode": {
+                                    "codeValue": "2",
+                                    "shortName": "65-2"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
