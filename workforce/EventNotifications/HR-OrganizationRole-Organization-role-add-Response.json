@@ -1,0 +1,43 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-29T00:00:00Z",
+            "effectiveDateTime": "2020-12-28T00:00:00Z",
+            "eventID": "de9ddeb7-1abd-4717-8c78-c39455b5247d",
+            "eventNameCode": {
+                "codeValue": "organizationRole.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000001"
+                        }
+                    }
+                },
+                "output": {
+                    "organizationRole": {
+                        "workerID": {
+                            "idValue": "000001",
+                            "schemeCode": {
+                                "codeValue": "WF",
+                                "longName": "Workforce"
+                            }
+                        },
+                        "workerName": "NDS Burghout",
+                        "departmentCode": {
+                            "codeValue": "000020",
+                            "shortName": "Marketing",
+                            "longName": "Marketing"
+                        },
+                        "roleCode": {
+                            "codeValue": "HOOFD"
+                        },
+                        "managementPositionIndicator": true,
+                        "effectiveDate": "2020-12-28"
+                    }
+                }
+            }
+        }
+    ]
+}
