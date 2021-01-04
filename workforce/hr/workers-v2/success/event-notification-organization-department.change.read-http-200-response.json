@@ -1,0 +1,45 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "f2bd0e59-3ef0-46f2-9e8c-dc1b6309d303",
+            "eventNameCode": {
+                "codeValue": "organizationDepartment.change"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationDepartment": {
+                        "departmentCode": {
+                            "codeValue": "000091",
+                            "shortName": "Finance Department",
+                            "longName": "Finance"
+                        }
+                    }
+                },
+                "output": {
+                    "organizationDepartment": {
+                        "parentDepartmentCode": {
+                            "codeValue": "000001"
+                        },
+                        "departmentCode": {
+                            "codeValue": "000091",
+                            "shortName": "Finance Department",
+                            "longName": "Finance"
+                        },
+                        "departmentDescription": "Finance",
+                        "activeIndicator": false,
+                        "auxilliaryFields": [
+                            {
+                                "stringValue": "",
+                                "nameCode": {
+                                    "codeValue": "endDate"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
