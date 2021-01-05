@@ -2,17 +2,15 @@
     "events": [
 {
 			"data": {
-                "eventContext": {
-				    "associateOID": "",
-                    "workerID":""
-			    },
 				"transform": {
 					  "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "Patrice",
-                                "familyName1": "URBAIN",
-                                "preferredSalutations": [
+                                "givenName": "PRENOM",
+                                "familyName1": "NOM",
+                                "familyName2": "NOM_NAISSANCE",
+                                "middleName":"PRENOM2",
+                               	"preferredSalutations": [
                                     {
                                         "salutationCode": {
                                             "codeValue": "M",
@@ -26,22 +24,35 @@
                             },
                             "birthDate": "1987-09-07",
                             "birthPlace": {
-                            	"postalCode": "34",
                             	"countryCode" : "100",
+                           		"postalCode": "34",
+                           		"countrySubdivisionLevel1": {
+									"codeValue": "34"
+								},
                             	"cityName" : "BERLOU"
-                            } 
-                            ,
+                            },
+                            "citizenshipCountryCodes": [{
+							    "codeValue": "100"
+						    }],
                             "maritalStatusCode": {
                                 "codeValue": "M",
                                 "effectiveDate": "2020-02-27"
                             },
                             "legalAddress": {
-                                "countryCode": "100",
-                                "postalCode": "78300",
-                                "countrySubdivisionLevel2": {
-                                    "codeValue":"78498",
-                                    "longName" : "POISSY"
-                                }
+                            	"countryCode": "100",
+								"postalCode": "78300",
+								"lineFive": "SQUARE DU BERRY",
+								"buildingNumber": "9",
+								"buildingNumberExtension": "",
+								"streetName": "TEST",
+								"cityName":"",
+								"countrySubdivisionLevel1": {
+									"codeValue": "POISSY"
+								},
+								"countrySubdivisionLevel2": {
+									"codeValue":"78498",
+									"longName": "POISSY"
+								}
                             },
                             "communication":{
                                 "landlines":[{
@@ -54,7 +65,7 @@
                                 }],
                                 "emails":[
                                     {
-                                        "emailUri":"patrice.urbain@gmail.com"
+                                        "emailUri":"prenom.nom@gmail.com"
                                     }
                                 ]
                             },
@@ -63,15 +74,15 @@
                                     "lineFive":"",
                                     "buildingNumber":"",
                                     "streetName":"",
-                                    "postalCode":"",
+                                    "postalCode":"34",
                                      "cityName":""
                             }],
                             "identityDocuments":[
                                 {
-                                    "documentID":"1879934999999"
+                                    "documentID":"1879934999913"
                                 },
                                 {
-                                    "documentID":"01"
+                                    "documentID":"02"
                                 }
                             ]
 
@@ -98,7 +109,7 @@
                         ],
                         "emails":[
                             {
-                                "emailUri":"patrice.urbain@adp.com"
+                                "emailUri":"prenom.nom@adp.com"
                             }
                         ]
                     },
