@@ -18,7 +18,9 @@
                 "output": {
                     "worker": {
                         "businessCommunication": {
-                            "mobile": {}
+                            "email": {
+                                "emailUri": "000009@adp.com"
+                            }
                         },
                         "workerID": {
                             "idValue": "000003"
