@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "f6ecf220-2a85-405c-a1a7-7639ed249a3a",
+            "eventNameCode": {
+                "codeValue": "organizationCostCenter.change"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationCostCenter": {
+                        "costCenterCode": "01250"
+                    }
+                },
+                "output": {
+                    "organizationCostCenter": {
+                        "costCenterCode": {
+                            "codeValue": "01250",
+                            "longName": "Kostenplaats 01250"
+                        },
+                        "costCenterDescription": "Kostenplaats 01250",
+                        "activeIndicator": false,
+                        "effectiveDate": "1950-01-01"
+                    }
+                }
+            }
+        }
+    ]
+}
