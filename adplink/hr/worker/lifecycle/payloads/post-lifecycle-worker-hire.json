@@ -2,10 +2,6 @@
     "events": [
 {
 			"data": {
-                "eventContext": {
-				    "associateOID": "",
-                    "workerID":""
-			    },
 				"transform": {
 					  "worker": {
                         "person": {
