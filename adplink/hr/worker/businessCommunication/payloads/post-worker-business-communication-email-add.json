@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.email.add"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "businessCommunication": {
+                            "email": {
+                                "emailUri": "EMAIL.PRO@MAIL.COM"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

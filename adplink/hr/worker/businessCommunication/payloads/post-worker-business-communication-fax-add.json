@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.fax.add"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "businessCommunication": {
+                            "fax": {
+                                "countryDialing": "+33",
+                                "formattedNumber": "03 03 03 03 04"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

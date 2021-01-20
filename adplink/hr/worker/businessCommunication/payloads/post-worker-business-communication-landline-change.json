@@ -2,7 +2,7 @@
     "events": [
         {
             "eventNameCode": {
-                "codeValue": "worker.personalCommunication.landline.change"
+                "codeValue": "worker.businessCommunication.landline.change"
             },
             "actor": {
                 "associateOID": "employee-abc"
