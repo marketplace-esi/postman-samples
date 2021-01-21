@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "8fff1824-47af-4889-ace2-751a5f8d8e2b",
+            "eventNameCode": {
+                "codeValue": "worker.workerTerminationDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000027"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2004-12-02"
+                        },
+                        "workerID": {
+                            "idValue": "000027"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
