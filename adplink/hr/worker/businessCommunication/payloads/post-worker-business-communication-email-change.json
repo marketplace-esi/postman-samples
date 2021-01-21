@@ -2,7 +2,7 @@
     "events": [
         {
             "eventNameCode": {
-                "codeValue": "worker.personalCommunication.email.change"
+                "codeValue": "worker.businessCommunication.email.change"
             },
             "actor": {
                 "associateOID": "employee-abc"

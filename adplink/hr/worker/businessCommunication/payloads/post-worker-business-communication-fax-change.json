@@ -2,7 +2,7 @@
     "events": [
         {
             "eventNameCode": {
-                "codeValue": "worker.personalCommunication.fax.change"
+                "codeValue": "worker.businessCommunication.fax.change"
             },
             "actor": {
                 "associateOID": "employee-abc"

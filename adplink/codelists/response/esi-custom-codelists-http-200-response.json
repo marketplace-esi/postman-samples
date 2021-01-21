@@ -1,0 +1,39 @@
+{
+    "listItems": [
+        {
+            "codeValue": "CODE1",
+            "shortName": "Short label 1",
+            "longName": "Long label 1"
+        },
+        {
+            "codeValue": "CODE2",
+            "shortName": "Short label 2",
+            "longName": "Long label 2"
+        },
+        {
+            "codeValue": "CODE3",
+            "shortName": "Short label 3",
+            "longName": "Long label 3"
+        },
+        {
+            "codeValue": "CODE4",
+            "shortName": "Short label 4",
+            "longName": "Long label 4"
+        },
+        {
+            "codeValue": "CODE5",
+            "shortName": "Short label 5",
+            "longName": "Long label 5"
+        },
+        {
+            "codeValue": "CODE6",
+            "shortName": "Short label 6",
+            "longName": "Long label 6"
+        },
+        {
+            "codeValue": "CODE7",
+            "shortName": "Short label 7",
+            "longName": "Long label 7"
+        }
+    ]
+}
