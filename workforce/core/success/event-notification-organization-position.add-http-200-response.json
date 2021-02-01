@@ -1,40 +1,28 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-09-02T00:00:00Z",
-            "effectiveDateTime": "2020-09-01T00:00:00Z",
-            "eventID": "41d980da-e47b-4cb2-ad79-15d92d920175",
+            "creationDateTime": "2021-01-11T00:00:00Z",
+            "effectiveDateTime": "2021-01-11T00:00:00Z",
+            "eventID": "a1b03138-9a94-432f-982b-e28d074b048b",
             "eventNameCode": {
                 "codeValue": "organizationPosition.add"
             },
             "data": {
                 "eventContext": {
-                    "organizationPosition": {
-                        "positionID": "000010-000109"
-                    }
+                    "contextExpressionID": "000091-000007"
                 },
                 "output": {
                     "organizationPosition": {
-                        "positionID": "000010-000109",
-                        "positionTitle": "ICT - Adviseur ICT (extern)",
+                        "positionID": "000091-000007",
+                        "positionTitle": "Finance - Systeembeheerder",
                         "sharedPositionMaximumHeadcount": 0,
-                        "activePeriod": {
-                            "effectiveDate": "2020-09-01",
-                            "end": {
-                                "endDate": "",
-                                "reasonCode": {
-                                    "codeValue": "",
-                                    "longName": ""
-                                }
-                            }
-                        },
                         "budgetedAmount": {
                             "amountValue": 0.00,
                             "currencyCode": "EUR"
                         },
                         "workAssignment": {
                             "standardHours": {
-                                "hoursQuantity": 38.00,
+                                "hoursQuantity": 36.00,
                                 "unitCode": {
                                     "codeValue": "W",
                                     "longName": "Week"
@@ -47,14 +35,6 @@
                                     }
                                 }
                             ]
-                        },
-                        "compensationData": {
-                            "baseRemuneration": {
-                                "payScaleCode": {
-                                    "codeValue": "8",
-                                    "shortName": "64-8"
-                                }
-                            }
                         }
                     }
                 }

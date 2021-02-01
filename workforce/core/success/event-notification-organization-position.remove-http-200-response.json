@@ -1,27 +1,20 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-09-02T00:00:00Z",
+            "creationDateTime": "2021-01-11T00:00:00Z",
             "effectiveDateTime": "2020-01-01T00:00:00Z",
-            "eventID": "ea73b0f8-237a-4109-8d20-ccfcc2935846",
+            "eventID": "0f410459-f11a-44b5-bcb6-4b5b2a2e3086",
             "eventNameCode": {
                 "codeValue": "organizationPosition.remove"
             },
             "data": {
                 "eventContext": {
-                    "organizationPosition": {
-                        "positionID": "000010-000109"
-                    }
+                    "contextExpressionID": "000091-000007"
                 },
                 "output": {
                     "organizationPosition": {
-                        "positionID": "000010-000109",
+                        "positionID": "000091-000007",
                         "sharedPositionMaximumHeadcount": 0,
-                        "activePeriod": {
-                            "end": {
-                                "reasonCode": {}
-                            }
-                        },
                         "budgetedAmount": {
                             "amountValue": 0.00,
                             "currencyCode": "EUR"
@@ -39,13 +32,6 @@
                                     "wageLawNameCode": {}
                                 }
                             ]
-                        },
-                        "compensationData": {
-                            "baseRemuneration": {
-                                "payScaleCode": {
-                                    "shortName": ""
-                                }
-                            }
                         }
                     }
                 }
