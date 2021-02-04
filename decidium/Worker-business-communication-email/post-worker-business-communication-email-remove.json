@@ -1,0 +1,13 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "cafe17-mp5"
+                    }
+                }
+            }
+        }
+    ]
+}
