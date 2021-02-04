@@ -1,35 +1,23 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-09-02T00:00:00Z",
-            "effectiveDateTime": "2020-10-01T00:00:00Z",
-            "eventID": "6f71e85c-5626-41df-9e99-151d0af748b3",
+            "creationDateTime": "2021-01-11T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "c9b858c5-359e-4590-807a-b6b9e3b68172",
             "eventNameCode": {
                 "codeValue": "organizationPosition.change"
             },
             "data": {
                 "eventContext": {
-                    "organizationPosition": {
-                        "positionID": "000020-000002"
-                    }
+                    "contextExpressionID": "000030-000202"
                 },
                 "output": {
                     "organizationPosition": {
-                        "positionID": "000020-000002",
-                        "positionTitle": "Marketing - Secretaresse",
-                        "sharedPositionMaximumHeadcount": 2.00,
-                        "activePeriod": {
-                            "effectiveDate": "1950-01-01",
-                            "end": {
-                                "endDate": "",
-                                "reasonCode": {
-                                    "codeValue": "",
-                                    "longName": ""
-                                }
-                            }
-                        },
+                        "positionID": "000030-000202",
+                        "positionTitle": "Functioneel applicatiebeheerder (000030)",
+                        "sharedPositionMaximumHeadcount": 4.10,
                         "budgetedAmount": {
-                            "amountValue": 108211.85,
+                            "amountValue": 281713.26,
                             "currencyCode": "EUR"
                         },
                         "workAssignment": {
@@ -43,18 +31,10 @@
                             "wageLawCoverages": [
                                 {
                                     "wageLawNameCode": {
-                                        "codeValue": "64"
+                                        "codeValue": "65"
                                     }
                                 }
                             ]
-                        },
-                        "compensationData": {
-                            "baseRemuneration": {
-                                "payScaleCode": {
-                                    "codeValue": "6",
-                                    "shortName": "64-6"
-                                }
-                            }
                         }
                     }
                 }
