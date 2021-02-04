@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "f896af45-aa98-4255-959c-01082cc4240c",
+            "eventNameCode": {
+                "codeValue": "organizationJob.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "000082"
+                },
+                "output": {
+                    "organizationJob": {
+                        "jobCode": {
+                            "codeValue": "000082"
+                        },
+                        "jobFamilyCode": {},
+                        "salaryPlan": {
+                            "payGradeCode": {},
+                            "planCode": {
+                                "shortName": ""
+                            }
+                        },
+                        "wageLawCoverage": {
+                            "wageLawNameCode": {}
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
