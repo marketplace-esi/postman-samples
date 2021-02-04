@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.add"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "countryDialing": "+33",
+                                    "formattedNumber": "01 01 01 01 01"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

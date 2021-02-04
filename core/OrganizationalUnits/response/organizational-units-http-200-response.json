@@ -1,0 +1,122 @@
+{
+    "organizationalUnits": [
+	        {
+            "nameCode": {
+                "codeValue": "SER_PRO",
+                "shortName": "PROCESSING"
+            },
+            "typeCode": {
+                "codeValue": "2"
+            },
+            "effectiveDateTime": "1950-01-01T00:00:00+01:00",
+            "parentOrganizationalUnit": {
+                "nameCode": {
+                    "codeValue": "DIR_OPE",
+                    "shortName": "OPERATIONS"
+                },
+                "typeCode": {
+                    "codeValue": "2"
+                }
+            },
+            "childOrganizationalUnits": [
+                {
+                    "nameCode": {
+                        "codeValue": "SEC_SUD",
+                        "shortName": "SUD"
+                    },
+                    "typeCode": {
+                        "codeValue": "2"
+                    },
+                    "effectiveDateTime": "1950-01-01T00:00:00+01:00",
+                    "hasChildrenIndicator": true
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "SER_MEP",
+                        "shortName": "MEP"
+                    },
+                    "typeCode": {
+                        "codeValue": "4"
+                    },
+                    "effectiveDateTime": "2000-01-01T00:00:00+01:00",
+                    "hasChildrenIndicator": true
+                }
+            ]
+        },
+        {
+            "nameCode": {
+                "codeValue": "SEC_SUD",
+                "shortName": "SUD"
+            },
+            "typeCode": {
+                "codeValue": "2"
+            },
+            "effectiveDateTime": "1950-01-01T00:00:00+01:00",
+            "parentOrganizationalUnit": {
+                "nameCode": {
+                    "codeValue": "SER_PRO",
+                    "shortName": "PROCESSING"
+                },
+                "typeCode": {
+                    "codeValue": "2"
+                }
+            },
+            "childOrganizationalUnits": [
+                {
+                    "nameCode": {
+                        "codeValue": "BU_LYON",
+                        "shortName": "LYON1"
+                    },
+                    "typeCode": {
+                        "codeValue": "2"
+                    },
+                    "effectiveDateTime": "1950-01-01T00:00:00+01:00",
+                    "hasChildrenIndicator": false
+                }
+            ]
+        },
+        {
+            "nameCode": {
+                "codeValue": "SER_MEP",
+                "shortName": "MEP"
+            },
+            "typeCode": {
+                "codeValue": "4"
+            },
+            "effectiveDateTime": "2000-01-01T00:00:00+01:00",
+            "parentOrganizationalUnit": {
+                "nameCode": {
+                    "codeValue": "SER_PRO",
+                    "shortName": "PROCESSING"
+                },
+                "typeCode": {
+                    "codeValue": "4"
+                }
+            },
+            "childOrganizationalUnits": [
+                {
+                    "nameCode": {
+                        "codeValue": "SEC_EST",
+                        "shortName": "EST"
+                    },
+                    "typeCode": {
+                        "codeValue": "2"
+                    },
+                    "effectiveDateTime": "1950-01-01T00:00:00+01:00",
+                    "hasChildrenIndicator": true
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "SEC_NORD",
+                        "shortName": "NORD"
+                    },
+                    "typeCode": {
+                        "codeValue": "2"
+                    },
+                    "effectiveDateTime": "1950-01-01T00:00:00+01:00",
+                    "hasChildrenIndicator": true
+                }
+            ]
+        }
+    ]
+}

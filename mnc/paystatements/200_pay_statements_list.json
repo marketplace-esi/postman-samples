@@ -1,0 +1,70 @@
+{
+    "retirementPlanIndicator": false,
+    "payStatements": [
+        {
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/E11Q932K5FPEK0HF/pay-statements/3535373C3D3536353539353535353635/images/35393535353536353535373C3D2635.pdf"
+            },
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements/3535373C3D3536353539353535353635"
+            },
+            "payDate": "2014-10-19",
+            "netPayAmount": {
+                "amountValue": 8739.52,
+                "currencyCode": "EUR"
+            }
+        },
+        {
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/E11Q932K5FPEK0HF/pay-statements/3535373B3D3536353539353535353635/images/35393535353536353535373B3D2636.pdf"
+            },
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements/3535373B3D3536353539353535353635"
+            },
+            "payDate": "2014-04-19",
+            "netPayAmount": {
+                "amountValue": 1244.94,
+                "currencyCode": "EUR"
+            }
+        },
+        {
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/E11Q932K5FPEK0HF/pay-statements/3535373B393536353539353535353635/images/35393535353536353535373B392637.pdf"
+            },
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements/3535373B393536353539353535353635"
+            },
+            "payDate": "2014-03-19",
+            "netPayAmount": {
+                "amountValue": 2256.85,
+                "currencyCode": "EUR"
+            }
+        },
+        {
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/E11Q932K5FPEK0HF/pay-statements/3535373B383536353539353535353635/images/35393535353536353535373B382638.pdf"
+            },
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements/3535373B383536353539353535353635"
+            },
+            "payDate": "2014-02-19",
+            "netPayAmount": {
+                "amountValue": 1244.94,
+                "currencyCode": "EUR"
+            }
+        },
+        {
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/E11Q932K5FPEK0HF/pay-statements/3535373B373536353539353535353635/images/35393535353536353535373B372639.pdf"
+            },
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements/3535373B373536353539353535353635"
+            },
+            "payDate": "2014-01-19",
+            "netPayAmount": {
+                "amountValue": 18253.23,
+                "currencyCode": "EUR"
+            }
+        }
+    ]
+}

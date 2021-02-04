@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "eventID": "9d6ef4d7-68eb-4eff-bf05-87baccf1bb5c",
+            "eventNameCode": {
+                "codeValue": "worker.immigrationDocument.remove"
+            },
+            "recordDateTime": "2020-09-22T13:51:52+02:00",
+            "effectiveDateTime": "2020-09-22T13:51:52+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {}
+                }
+            }
+        }
+    ]
+}

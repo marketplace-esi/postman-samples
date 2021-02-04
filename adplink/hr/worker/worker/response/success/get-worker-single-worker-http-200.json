@@ -1,0 +1,232 @@
+{
+    "workers": [
+        {
+            "associateOID": "employee-xyz",
+            "workerID": {
+                "idValue": "0000000"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "ALEX",
+                    "middleName": "",
+                    "familyName1": "DUPONT",
+                    "familyName2": "",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M"
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1983-04-19",
+                "legalAddress": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PARIS 02"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "75002",
+                    "lineFive": "LINE FIVE FOR TEST",
+                    "buildingNumber": "12",
+                    "buildingNumberExtension": "T",
+                    "streetName": "RUE DE LA ROQUETTE",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "75102",
+                        "longName": "PARIS 02"
+                    }
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "countryDialing": "+33",
+                            "formattedNumber": "01 01 01 01 02",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "countryDialing": "+33",
+                            "formattedNumber": "06 06 06 06 07",
+                            "itemID": "Mobile"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "MailPerso",
+                                "shortName": "MailPerso",
+                                "longName": "MailPerso"
+                            },
+                            "emailUri": "ALEXB@YAHOO.FR",
+                            "itemID": "MailPerso"
+                        }
+                    ]
+                },
+                "deceasedIndicator": true,
+                "deathDate": "1969-02-13",
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Masculin",
+                    "longName": "Masculin"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "V",
+                    "shortName": "VEUF / VEUVE",
+                    "longName": "VEUF / VEUVE",
+                    "effectiveDate": "2019-04-28"
+                },
+                "immigrationDocuments": [
+                    {}
+                ],
+                "birthPlace": {
+                    "cityName": "MONTPELLIER",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "34"
+                    },
+                    "postalCode": "34",
+                    "countryCode": "FR"
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "LE PECQ"
+                        },
+                        "countryCode": "FR",
+                        "postalCode": "78231",
+                        "lineFive": "ligne 5",
+                        "buildingNumber": "10",
+                        "buildingNumberExtension": "B",
+                        "streetName": "RUE DE PARIS",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "78481",
+                            "longName": "LE PECQ"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCAISE",
+                        "longName": "FRANCAISE"
+                    }
+                ],
+                "customFieldGroup": {
+                    "indicatorFields": [
+                        {
+                            "indicatorValue": false,
+                            "itemID": "refusDematerialisation"
+                        }
+                    ]
+                }
+            },
+            "workerDates": {
+                "originalHireDate": "2013-09-10"
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "countryDialing": "+33",
+                        "formattedNumber": "02 02 02 02 03",
+                        "itemID": "businessLandline"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "countryDialing": "+33",
+                        "formattedNumber": "07 07 07 07 09",
+                        "itemID": "businessMobile"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "EMAIL.PRO@MAIL.COM",
+                        "itemID": "businessEmail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "countryDialing": "+33",
+                        "formattedNumber": "03 03 03 03 04",
+                        "itemID": "businessFax"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "assignmentStatus": {
+                        "reasonCode": {
+                            "codeValue": "22",
+                            "shortName": "Autre motif"
+                        }
+                    },
+                    "jobCode": {
+                        "codeValue": "203",
+                        "shortName": "INGÉNIEUR D'EXPLOITATION SERVICE",
+                        "longName": "INGÉNIEUR D'EXPLOITATION SERVICE"
+                    },
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "BU_STRA",
+                                "shortName": "STRASBOURG INTRA",
+                                "longName": "STRASBOURG INTRA"
+                            },
+                            "itemID": "departmentId"
+                        },
+                        null
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "A2232",
+                                "longName": "ENTREPRISE TOULOUSE"
+                            },
+                            "address": {
+                                "lineOne": "12 DES PRUNES",
+                                "lineTwo": "B",
+                                "cityName": "",
+                                "countryCode": "FR",
+                                "postalCode": "31700",
+                                "lineFive": "A GAUCHE",
+                                "unit": ""
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {},
+                    "baseRemuneration": {
+                        "monthlyRateAmount": {
+                            "amountValue": 3000.0,
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "0002331",
+                            "reportsToWorkerName": {
+                                "givenName": "LAURE",
+                                "familyName1": "DUPOND",
+                                "formattedName": "DUPOND,LAURE"
+                            },
+                            "itemID": "manager"
+                        }
+                    ],
+                    "payrollFileNumber": "00001066",
+                    "customFieldGroup": {}
+                }
+            ],
+            "customFieldGroup": {
+                "stringFields": [
+                    {
+                        "stringValue": "",
+                        "itemID": "workerCustomStringLibre"
+                    }
+                ]
+            }
+        }
+    ]
+}

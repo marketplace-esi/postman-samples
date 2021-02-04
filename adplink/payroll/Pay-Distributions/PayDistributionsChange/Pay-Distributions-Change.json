@@ -1,0 +1,75 @@
+{
+	"events": [{
+		"data": {
+			"eventContext": {
+				"worker": {
+					"associateOID": "{{collab}}"
+				}
+			},
+			"transform": {
+				"payDistribution": {
+					"distributionInstructions": [
+		                {
+		                    "itemID": "1",
+		                    "precedenceCode": {
+		                        "codeValue": "primary",
+		                        "shortName": "Compte principal"
+		                    },
+		                    "paymentMethodCode": {
+		                        "codeValue": "bank_account",
+		                        "shortName": "VIREMENT"
+		                    },
+		                    "depositAccount": {
+		                        "financialParty": {
+		                            "nameCode": {
+		                                "codeValue": "CDN",
+		                                "shortName": "CDN"
+		                            },
+		                            "SWIFTCode": "NORDFRPP"
+		                        },
+		                        "financialAccount": {
+		                            "accountName": "NOM PRENOM"
+		                        },
+		                        "IBAN": "FR7630076043171247670030005"
+		                    },
+		                    "distributionAmount": {
+		                        "currencyCode": "EUR"
+		                    }
+		                },
+		                {
+		                    "itemID": "2",
+		                    "precedenceCode": {
+		                        "codeValue": "secondary",
+		                        "shortName": "Compte secondaire"
+		                    },
+		                    "paymentMethodCode": {
+		                        "codeValue": "cash",
+		                        "shortName": "ESPECES"
+		                    },
+		                    "depositAccount": {
+		                        "financialParty": {
+		                            "nameCode": {
+		                                "codeValue": "",
+		                                "shortName": ""
+		                            },
+		                            "SWIFTCode": ""
+		                        },
+		                        "financialAccount": {
+		                            "accountName": "M NOM PRENOM "
+		                        },
+		                        "IBAN": ""
+		                    },
+		                    "distributionAmount": {
+		                        "amountValue": 300.0,
+		                        "currencyCode": "EUR"
+		                    }
+		                }
+		            ]
+				}
+			}
+		},
+		"eventNameCode": {
+			"codeValue": "worker.payDistribution.change"
+		}
+	}]
+}

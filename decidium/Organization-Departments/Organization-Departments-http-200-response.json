@@ -1,0 +1,68 @@
+{
+    "organizationDepartments": [
+        {
+            "departmentCode": {
+                "codeValue": "orgadmin",
+                "shortName": "Organisation hiérarchique",
+                "longName": "Organisation hiérarchique"
+            },
+            "organizationName": "Organisation hiérarchique"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02",
+                "shortName": "ORION CONSEIL",
+                "longName": "ORION CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "orgadmin",
+                "shortName": "Organisation hiérarchique",
+                "longName": "Organisation hiérarchique"
+            },
+            "effectiveDate": "2011-02-01",
+            "organizationName": "Organisation hiérarchique"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010",
+                "shortName": "ORION CONSEIL PARIS",
+                "longName": "ORION CONSEIL PARIS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02",
+                "shortName": "ORION CONSEIL",
+                "longName": "ORION CONSEIL"
+            },
+            "effectiveDate": "2011-02-01",
+            "organizationName": "Organisation hiérarchique"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020101",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010",
+                "shortName": "ORION CONSEIL PARIS",
+                "longName": "ORION CONSEIL PARIS"
+            },
+            "effectiveDate": "2011-02-01",
+            "organizationName": "Organisation hiérarchique"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020101",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "effectiveDate": "2011-02-01",
+            "organizationName": "Organisation hiérarchique"
+        }
+    ]
+}

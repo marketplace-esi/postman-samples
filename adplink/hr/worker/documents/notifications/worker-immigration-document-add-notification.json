@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d84659379ee8e9",
+            "eventNameCode": {
+                "codeValue": "worker.immigrationDocument.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+					"person":{  
+						"immigrationDocument": {
+			                "documentID": "98765",
+			                "typeCode": {
+			                  "codeValue": "02"
+			                },
+			                "issuingParty": {
+				                  "nameCode": {
+				                    "codeValue": "MAIRIE LE PECQ"
+				                  }
+			                },
+			                "issueDate": "2019-01-01",
+                			"expirationDate": "2022-12-31"
+							}
+						}
+                    }
+                }
+            }
+        }
+    ]
+}

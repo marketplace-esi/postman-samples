@@ -1,0 +1,50 @@
+{
+    "events": [
+        {
+            "eventID": "06f02f1d-330f-4b11-a2df-84a51f3a4a9e",
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "recordDateTime": "2020-09-17T16:31:26+02:00",
+            "effectiveDateTime": "2020-09-17T16:31:26+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "rvirenqueap-mp2"
+                    }
+                },
+                "output": {
+                    "payDistribution": {
+                        "distributionInstructions": [
+                            {
+                                "precedenceCode": {
+                                    "codeValue": "primary",
+                                    "shortName": "Compte principal",
+                                    "longName": "Compte principal"
+                                },
+                                "paymentMethodCode": {
+                                    "codeValue": "bank_account",
+                                    "shortName": "Virement",
+                                    "longName": "Virement"
+                                },
+                                "depositAccount": {
+                                    "financialParty": {
+                                        "nameCode": {
+                                            "shortName": "SG"
+                                        },
+                                        "SWIFTCode": "AZERFRRE"
+                                    },
+                                    "financialAccount": {
+                                        "accountName": "RICHARD VIRENQUE"
+                                    },
+                                    "IBAN": "FR7630003017030005018443228"
+                                },
+                                "itemID": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "events": [
+        {
+            "eventID": "754c8776-afd4-43de-af59-41f52acbe09b",
+            "eventNameCode": {
+                "codeValue": "worker.legalName.change"
+            },
+            "recordDateTime": "2020-09-07T12:27:21+02:00",
+            "effectiveDateTime": "2020-09-07T12:27:21+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "WORKER",
+                                "middleName": "",
+                                "familyName1": "NOTIFICATIONS DEMO",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ],
+                                "titleAffixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

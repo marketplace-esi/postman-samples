@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "ae14624c-2989-4124-9132-df3adf99a0ae",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000069"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "formattedNumber": "+34 653349956"
+                                }
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000069"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

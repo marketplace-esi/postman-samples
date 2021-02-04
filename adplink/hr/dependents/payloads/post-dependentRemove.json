@@ -1,0 +1,17 @@
+{
+	"events": [{
+		"data": {
+			"eventContext": {
+				"worker": {
+					"associateOID": "employee-xyz"
+				},
+				"dependent": {
+					"itemID": "E;1;2010-11-16"
+				}
+			}
+		},
+		"eventNameCode": {
+			"codeValue": "dependent.remove"
+		}
+	}]
+}

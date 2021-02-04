@@ -1,0 +1,714 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "01006000015"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Gaëtan",
+                    "familyName": "Berthier",
+                    "formattedName": "Gaëtan Berthier"
+                },
+                "genderCode": {
+                    "shortName": "Male",
+                    "codeValue": "M"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "kadari.praneeth@adp.com"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "+33 673645441",
+                            "access": "",
+                            "nameCode": {
+                                "shortName": "Phone",
+                                "codeValue": "Phone"
+                            },
+                            "areaDialing": "6",
+                            "countryDialing": "33",
+                            "dialNumber": "73645441"
+                        }
+                    ]
+                },
+                "birthDate": "1985-02-01",
+                "legalAddress": {
+                    "lineTwo": "",
+                    "cityName": "Bordeaux",
+                    "nameCode": {
+                        "shortName": "Address",
+                        "codeValue": "Address"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "33000",
+                    "lineOne": "47 Rue Parlement Sainte-Cather",
+                    "countrySubdivisionLevel": {
+                        "shortName": "33",
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "33"
+                    }
+                }
+            },
+            "associateOID": "E1C6643B03DAF04V",
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "method": "GET",
+                            "mediaType": "image/jpg",
+                            "href": "/GV/GV/v1_0/O/corporateContactPhoto/01004000010.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workerID": {
+                "idValue": "deletion3"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Will",
+                    "familyName": "Smith",
+                    "formattedName": "Will Smith"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "wenqian.chen@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1Q72437SXDX9054"
+        },
+        {
+            "workerID": {
+                "idValue": "deactive"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "deactive",
+                    "familyName": "user",
+                    "formattedName": "deactive user"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "wenqian.chen@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1PTVFJBHVTYY051"
+        },
+        {
+            "workerID": {
+                "idValue": "delete"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "James",
+                    "familyName": "Smith",
+                    "formattedName": "James Smith"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "wenqian.chen@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1PTVFJBHVTYY07B"
+        },
+        {
+            "workerID": {
+                "idValue": "1100"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Audrey",
+                    "familyName": "Hepburn",
+                    "formattedName": "Audrey Hepburn"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "bettina.quilitzsch@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1C6643B03DAF051"
+        },
+        {
+            "workerID": {
+                "idValue": "insightuser1"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Test",
+                    "familyName": "User1",
+                    "formattedName": "Test User1"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "piyush.bhandari@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1C6643B03DAF055"
+        },
+        {
+            "workerID": {
+                "idValue": "2343466"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Gary",
+                    "familyName": "Evans",
+                    "formattedName": "Gary Evans"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "kajal.patil@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1PTVFJBHVTYY06C"
+        },
+        {
+            "workerID": {
+                "idValue": "01004000089"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Test2",
+                    "familyName": "PruebasTest2",
+                    "formattedName": "Test2 PruebasTest2"
+                },
+                "genderCode": {
+                    "shortName": "Male",
+                    "codeValue": "M"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "raghavendra.reddy.bokka@adp.com"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "",
+                            "access": "",
+                            "nameCode": {
+                                "shortName": "Phone",
+                                "codeValue": "Phone"
+                            },
+                            "areaDialing": "",
+                            "countryDialing": "",
+                            "dialNumber": ""
+                        }
+                    ]
+                },
+                "birthDate": "1968-02-10",
+                "legalAddress": {
+                    "lineTwo": "",
+                    "cityName": "Barcelona",
+                    "nameCode": {
+                        "shortName": "Address",
+                        "codeValue": "Address"
+                    },
+                    "countryCode": "ES",
+                    "postalCode": "08005",
+                    "lineOne": "C/ Marina, 16-18",
+                    "countrySubdivisionLevel": {
+                        "shortName": "08",
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "08"
+                    }
+                }
+            },
+            "associateOID": "E1PTVFJBHVTYY06V",
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "method": "GET",
+                            "mediaType": "image/jpg",
+                            "href": "/GV/GV/v1_0/O/corporateContactPhoto/01004000010.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workerID": {
+                "idValue": "R11115"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "raghu",
+                    "familyName": "reddy",
+                    "formattedName": "raghu reddy"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "raghavendra.reddy.bokka@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1PTVFJBHVTYY06X"
+        },
+        {
+            "workerID": {
+                "idValue": "01006000023"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Guillaume",
+                    "familyName": "Leduc",
+                    "formattedName": "Guillaume Leduc"
+                },
+                "genderCode": {
+                    "shortName": "Male",
+                    "codeValue": "M"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "JAMES.GU@ADP.COM"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "",
+                            "access": "",
+                            "nameCode": {
+                                "shortName": "Phone",
+                                "codeValue": "Phone"
+                            },
+                            "areaDialing": "",
+                            "countryDialing": "",
+                            "dialNumber": ""
+                        }
+                    ]
+                },
+                "birthDate": "1985-02-01",
+                "legalAddress": {
+                    "lineTwo": "",
+                    "cityName": "Paris",
+                    "nameCode": {
+                        "shortName": "Address",
+                        "codeValue": "Address"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "75001",
+                    "lineOne": "107 Rue Saint-Lazare",
+                    "countrySubdivisionLevel": {
+                        "shortName": "75",
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "75"
+                    }
+                }
+            },
+            "associateOID": "E1ZMQT49S47MP001",
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "method": "GET",
+                            "mediaType": "image/jpg",
+                            "href": "/GV/GV/v1_0/O/corporateContactPhoto/01004000010.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workerID": {
+                "idValue": "01006000024"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Jérôme",
+                    "familyName": "Bodin",
+                    "formattedName": "Jérôme Bodin"
+                },
+                "genderCode": {
+                    "shortName": "Male",
+                    "codeValue": "M"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "JAMES.GU@ADP.COM"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "",
+                            "access": "",
+                            "nameCode": {
+                                "shortName": "Phone",
+                                "codeValue": "Phone"
+                            },
+                            "areaDialing": "",
+                            "countryDialing": "",
+                            "dialNumber": ""
+                        }
+                    ]
+                },
+                "birthDate": "1985-02-01",
+                "legalAddress": {
+                    "lineTwo": "",
+                    "cityName": "Paris",
+                    "nameCode": {
+                        "shortName": "Address",
+                        "codeValue": "Address"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "75001",
+                    "lineOne": "107 Rue Saint-Lazare",
+                    "countrySubdivisionLevel": {
+                        "shortName": "75",
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "75"
+                    }
+                }
+            },
+            "associateOID": "E1ZMQT49S47MP002",
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "method": "GET",
+                            "mediaType": "image/jpg",
+                            "href": "/GV/GV/v1_0/O/corporateContactPhoto/01004000010.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workerID": {
+                "idValue": "01006000025"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Jean",
+                    "familyName": "Le gal",
+                    "formattedName": "Jean Le gal"
+                },
+                "genderCode": {
+                    "shortName": "Male",
+                    "codeValue": "M"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "JAMES.GU@ADP.COM"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "",
+                            "access": "",
+                            "nameCode": {
+                                "shortName": "Phone",
+                                "codeValue": "Phone"
+                            },
+                            "areaDialing": "",
+                            "countryDialing": "",
+                            "dialNumber": ""
+                        }
+                    ]
+                },
+                "birthDate": "1985-02-01",
+                "legalAddress": {
+                    "lineTwo": "",
+                    "cityName": "Paris",
+                    "nameCode": {
+                        "shortName": "Address",
+                        "codeValue": "Address"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "75001",
+                    "lineOne": "107 Rue Saint-Lazare",
+                    "countrySubdivisionLevel": {
+                        "shortName": "75",
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "75"
+                    }
+                }
+            },
+            "associateOID": "E19RX8ZS770YZ000",
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "method": "GET",
+                            "mediaType": "image/jpg",
+                            "href": "/GV/GV/v1_0/O/corporateContactPhoto/01004000010.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workerID": {
+                "idValue": "6767227"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Sara",
+                    "familyName": "Jack",
+                    "formattedName": "Sara Jack"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "bashamani.sdsd@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E19RX8ZS770YZ008"
+        },
+        {
+            "workerID": {
+                "idValue": "23823832"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "dow",
+                    "familyName": "jow",
+                    "formattedName": "dow jow"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "dbgsjhf@gmail.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1ZMQT49S47MP004"
+        },
+        {
+            "workerID": {
+                "idValue": "232332"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Zack",
+                    "familyName": "West",
+                    "formattedName": "Zack West"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "zack.west@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E19RX8ZS770YZ00D"
+        },
+        {
+            "workerID": {
+                "idValue": "fs"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "fads1",
+                    "familyName": "fsd",
+                    "formattedName": "fads1 fsd"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "fdas123@ADP.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1B215F0SXFKA009"
+        },
+        {
+            "workerID": {
+                "idValue": "NEXOTEST20"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Smith",
+                    "familyName": "Jamesxxxddd",
+                    "formattedName": "Smith Jamesxxxddd"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "james@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1GBZH9M68J5103H"
+        },
+        {
+            "workerID": {
+                "idValue": "XNEXOXANOTHER"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "GUY",
+                    "familyName": "ANOTHER",
+                    "formattedName": "GUY ANOTHER"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "roro@riri.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1GBZH9M68J5103G"
+        },
+        {
+            "workerID": {
+                "idValue": "00011366666"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "RTEST",
+                    "familyName": "TEST",
+                    "formattedName": "RTEST TEST"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "as@a.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1B8X75B51CHT00G"
+        },
+        {
+            "workerID": {
+                "idValue": "9890990"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "demo9",
+                    "familyName": "demo",
+                    "formattedName": "demo9 demo"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "nexo@adp.com"
+                        }
+                    ]
+                }
+            },
+            "associateOID": "E1276KXTPQKP70ED"
+        }
+    ]
+}

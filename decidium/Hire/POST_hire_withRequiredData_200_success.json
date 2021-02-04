@@ -1,0 +1,165 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "hghirename-jxk",
+                        "workerID": {
+                            "idValue": "00000406"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "HIRE GIVENNAME",
+                                "middleName": "",
+                                "familyName1": "HIRE NAME",
+                                "formattedName": "HIRE GIVENNAME HIRE NAME",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ],
+                                "titleAffixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "legalAddress": {
+                                "buildingNumber": "0",
+                                "buildingNumberExtension": " ",
+                                "buildingName": " ",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "",
+                                    "longName": "",
+                                    "subdivisionType": ""
+                                }
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "F",
+                                "shortName": "Femme",
+                                "longName": "Femme"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            },
+                            "identityDocuments": [],
+                            "immigrationDocuments": [],
+                            "birthPlace": {}
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2020-01-01"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-01-01",
+                            "actualStartDate": "2020-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "01",
+                                "shortName": "CDD",
+                                "longName": "CDD"
+                            },
+                            "jobCode": {
+                                "codeValue": "EMPLO1"
+                            },
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
+                            "jobFunctionCode": {},
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {}
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "address": {
+                                        "lineOne": "",
+                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "countryCode": "FR",
+                                        "postalCode": "69370",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "SAINT DIDIER MONT D OR",
+                                            "shortName": "SAINT DIDIER MONT D OR",
+                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-mp5",
+                                    "reportsToWorkerName": {
+                                        "givenName": "LINDA",
+                                        "familyName1": "EVANGELIST"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "00000406",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "longName": "Salarié",
+                                        "itemID": "typeCollab"
+                                    },
+                                    {
+                                        "codeValue": "50",
+                                        "longName": "Politique de l'emploi",
+                                        "itemID": "recoursReason"
+                                    },
+                                    {
+                                        "codeValue": "CU2",
+                                        "longName": "CUI-CAE-PEC CDD",
+                                        "itemID": "typeContrat"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activite"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2020-01-30",
+                                        "itemID": "initialCddTerminationDate"
+                                    }
+                                ]
+                            },
+                            "itemID": "00000406"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

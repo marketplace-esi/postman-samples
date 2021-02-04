@@ -1,0 +1,170 @@
+{
+    "events": [
+        {
+            "eventID": "9241f3f5-1c26-442a-aab9-5a9dasaekr3",
+            "eventNameCode": {
+                "codeValue": "worker.rehire"
+            },
+            "recordDateTime": "2020-09-22T09:53:14+02:00",
+            "effectiveDateTime": "2020-09-11T00:00:00+02:00",
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "dabt-mp2",
+                        "workerID": {
+                            "idValue": "00000223",
+                            "schemeCode": {
+                                "shortName": "Employee ID"
+                            }
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "DANIEL",
+                                "middleName": "",
+                                "familyName1": "ABT",
+                                "formattedName": "DANIEL ABT",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ],
+                                "titleAffixCodes": [
+                                    {
+                                        "affixCode": {
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "birthDate": "1985-05-05",
+                            "legalAddress": {
+                                "cityName": "SUCE SUR ERDRE",
+                                "buildingNumber": "0",
+                                "buildingNumberExtension": " ",
+                                "buildingName": " ",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "",
+                                    "longName": "",
+                                    "subdivisionType": ""
+                                }
+                            },
+                            "deceasedIndicator": false,
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            },
+                            "socialInsurancePrograms": [
+                                {
+                                    "programServiceCenter": {
+                                        "address": {
+                                            "lineOne": "Place de la Grenouillere",
+                                            "cityName": "BOURG EN BRESSE",
+                                            "postalCode": "01015"
+                                        }
+                                    }
+                                }
+                            ],
+                            "identityDocuments": [
+                                {
+                                    "documentID": "2850535672169",
+                                    "typeCode": {
+                                        "codeValue": "SSN",
+                                        "shortName": "Numéro de sécurité sociale"
+                                    }
+                                }
+                            ],
+                            "immigrationDocuments": [],
+                            "birthPlace": {
+                                "cityName": "REDON",
+                                "postalCode": "35600",
+                                "countryCode": "FR"
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2020-09-11"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "PENDING"
+                            },
+                            "effectiveDate": "2020-09-11"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-09-11",
+                            "actualStartDate": "2020-09-11",
+                            "jobCode": {
+                                "codeValue": "EMPLO1",
+                                "shortName": "Emploi 1",
+                                "longName": "Emploi 1"
+                            },
+                            "jobTitle": "Emploi 1",
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "MANAGEMENT"
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "shortName": "ORION SIEGE LEVALLOIS",
+                                        "longName": "ORION SIEGE LEVALLOIS"
+                                    },
+                                    "address": {
+                                        "lineOne": "",
+                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "countryCode": "FR",
+                                        "postalCode": "69370",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "SAINT DIDIER MONT D OR",
+                                            "shortName": "SAINT DIDIER MONT D OR",
+                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-mp2",
+                                    "reportsToWorkerName": {
+                                        "givenName": "LINDA",
+                                        "familyName1": "EVANGELIST"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "A0001150",
+                            "itemID": "A0001150"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

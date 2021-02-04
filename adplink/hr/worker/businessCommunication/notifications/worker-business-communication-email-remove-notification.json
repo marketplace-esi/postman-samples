@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d8460f5f9ee8db",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.email.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "businessCommunication": {
+                            "email": {
+                                "emailUri": "EMAIL.PRO@EMAIL.COM",
+                                "itemID": "businessEmail"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

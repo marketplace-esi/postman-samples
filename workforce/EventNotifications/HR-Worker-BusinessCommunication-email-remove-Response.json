@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "creationDateTime": "2020-12-21T00:00:00Z",
+      "effectiveDateTime": "2020-01-01T00:00:00Z",
+      "eventID": "7f053eff-cefb-4b28-b7e7-fb574c007ab9",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.email.remove"
+      },
+      "data": {
+        "eventContext": {
+          "worker": {
+            "workerID": {
+              "idValue": "000070"
+            }
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "email": {
+                "emailUri": "companyemail_71@adp.com"
+              }
+            },
+            "workerID": {
+              "idValue": "000070"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

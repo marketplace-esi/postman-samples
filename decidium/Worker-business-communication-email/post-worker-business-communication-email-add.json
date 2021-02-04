@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "cafe17-mp5"
+                    }
+                },                
+                "transform": {
+                    "worker": {
+                        "businessCommunication": {
+                            "email": {
+                                "emailUri": "new_business_email@adp.com"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

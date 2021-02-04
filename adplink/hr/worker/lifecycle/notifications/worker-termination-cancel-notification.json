@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "TerminationCancel_eventID",
+            "eventNameCode": {
+                "codeValue": "workerTermination.cancel"
+            },
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "0001525",
+                        "workerID": {
+                            "idValue": "0001525"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2012-02-01",
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "FG_3_13",
+                                        "shortName": "Ent 13 Niv 3",
+                                        "longName": "Ent 13 Niv 3"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

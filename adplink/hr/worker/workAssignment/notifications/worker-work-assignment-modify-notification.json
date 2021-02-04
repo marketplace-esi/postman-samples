@@ -1,0 +1,345 @@
+{
+	"events": [
+		{
+			"eventID": "5ef3291747d846aa3e9ee8fe",
+			"eventNameCode": {
+				"codeValue": "worker.workAssignment.modify"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "collab-xyz"
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "collab-xyz",
+						"workerID": {
+							"idValue": "0011574"
+						},
+						"workAssignment": {
+							"assignmentStatus": {
+								"reasonCode": {
+									"codeValue": "02"
+								}
+							},
+							"workerTypeCode": {
+								"codeValue": "CDD"
+							},
+							"workLevelCode": {
+								"codeValue": "R1"
+							},
+							"workerGroups": [
+								{
+									"groupCode": {
+										"codeValue": "11"
+									},
+									"itemID": "occupationalCategory"
+								},
+								{
+									"groupCode": {
+										"codeValue": "3.2"
+									},
+									"itemID": "echelonLevel"
+								},
+								{
+									"groupCode": {
+										"codeValue": "221"
+									},
+									"itemID": "CPNCode"
+								},
+								{
+									"groupCode": {
+										"codeValue": "372E"
+									},
+									"itemID": "inseeCode"
+								},
+								{
+									"groupCode": {
+										"codeValue": "ADA010"
+									},
+									"itemID": "PCSComplement"
+								},
+								{
+									"groupCode": {
+										"codeValue": "0007"
+									},
+									"itemID": "collectiveAgreement"
+								}
+							],
+							"jobCode": {
+								"codeValue": "101"
+							},
+							"jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
+							"occupationalClassifications": [
+								{
+									"classificationCode": {
+										"codeValue": "TEST0001"
+									},
+									"itemID": "classification"
+								},
+								{
+									"classificationCode": {
+										"codeValue": "01"
+									},
+									"itemID": "occupationalClassificationField"
+								},
+								{
+									"classificationCode": {
+										"codeValue": "10"
+									},
+									"itemID": "occupationalClassificationFamily"
+								},
+								{
+									"classificationCode": {
+										"codeValue": "101"
+									},
+									"itemID": "occupationalClassificationProfession"
+								}
+							],
+							"workArrangementCode": {
+								"codeValue": "100"
+							},
+							"standardHours": {
+								"hoursQuantity": 30.0
+							},
+							"fullTimeEquivalenceRatio": 100.0,
+							"assignedOrganizationalUnits": [
+								{
+									"nameCode": {
+										"codeValue": "SEC_SUD"
+									}
+								}
+							],
+							"assignedWorkLocations": [
+								{
+									"nameCode": {
+										"codeValue": "DG"
+									},
+									"address": {
+										"unit": "159"
+									}
+								}
+							],
+							"standardPayPeriodHours": {
+								"hoursQuantity": 30.0
+							},
+							"baseRemuneration": {
+								"monthlyRateAmount": {
+									"amountValue": 3000.0
+								}
+							},
+							"additionalRemunerations": [
+								{
+									"rate": {
+										"amountValue": 1000.0
+									},
+									"itemID": "additionalRemuneration"
+								},
+								{
+									"rate": {
+										"amountValue": 100.0
+									},
+									"itemID": "additionalRemunerationFood"
+								},
+								{
+									"rate": {
+										"amountValue": 150.0
+									},
+									"itemID": "additionalRemunerationTransport"
+								},
+								{
+									"rate": {
+										"amountValue": 200.0
+									},
+									"itemID": "additionalRemunerationAccomodation"
+								},
+								{
+									"rate": {
+										"amountValue": 250.0
+									},
+									"itemID": "additionalRemunerationNTIC"
+								},
+								{
+									"rate": {
+										"amountValue": 300.0
+									},
+									"itemID": "additionalRemunerationOther"
+								}
+							],
+							"reportsTo": [
+								{
+									"positionID": "121314",
+									"workerID": {
+										"idValue": "A VOIR"
+									},
+									"itemID": "tutor"
+								}
+							],
+							"customFieldGroup": {
+								"dateFields": [
+									{
+										"dateValue": "2015-03-10",
+										"itemID": "initialCddTerminationDate"
+									},
+									{
+										"dateValue": "2014-07-01",
+										"itemID": "contratProStartDate"
+									},
+									{
+										"dateValue": "2014-10-31",
+										"itemID": "contratProEndDate"
+									},
+									{
+										"dateValue": "2014-08-01",
+										"itemID": "apprenticeContractStartDate"
+									},
+									{
+										"dateValue": "2014-08-31",
+										"itemID": "endProbationDate"
+									},
+									{
+										"dateValue": "2017-01-01",
+										"itemID": "occupationalEntryDate"
+									},
+									{
+										"dateValue": "2014-06-01",
+										"itemID": "seniorityDate"
+									},
+									{
+										"dateValue": "2012-06-01",
+										"itemID": "dateEntryCompany"
+									},
+									{
+										"dateValue": "2015-03-10",
+										"itemID": "renewCddDate"
+									},
+									{
+										"dateValue": "2015-03-10",
+										"itemID": "actualStartDate"
+									},
+									{
+										"dateValue": "2015-03-10",
+										"itemID": "cddToCdiDate"
+									},
+									{
+										"dateValue": "2015-03-10",
+										"itemID": "intershipAgreementDate"
+									}
+								],
+								"dateTimeFields": [
+									{
+										"dateTimeValue": "2014-06-01T10:30:00+02:00",
+										"itemID": "hireTime"
+									}
+								],
+								"indicatorFields": [
+									{
+										"indicatorValue": true,
+										"itemID": "probationPeriod"
+									},
+									{
+										"indicatorValue": true,
+										"itemID": "managementPositionIndicator"
+									},
+									{
+										"indicatorValue": true,
+										"itemID": "couvertureATStagParEcole"
+									},
+									{
+										"indicatorValue": true,
+										"itemID": "exoTaxeTransport"
+									},
+									{
+										"indicatorValue": true,
+										"itemID": "alsaceMoselle"
+									},
+									{
+										"indicatorValue": true,
+										"itemID": "RAZPourcentageImpositionCICE"
+									}
+								],
+								"numberFields": [
+									{
+										"numberValue": 439.0,
+										"itemID": "coefficient"
+									},
+									{
+										"numberValue": 1.0,
+										"itemID": "txEmploiAide"
+									},
+									{
+										"numberValue": 10.0,
+										"itemID": "txTransportEtab"
+									},
+									{
+										"numberValue": 20.0,
+										"itemID": "pourcentageImpositionCICE"
+									}
+								],
+								"stringFields": [
+									{
+										"stringValue": "01",
+										"itemID": "typeContrat"
+									},
+									{
+										"stringValue": "09",
+										"itemID": "TypeReembauche"
+									},
+									{
+										"stringValue": "50",
+										"itemID": "recoursReason"
+									},
+									{
+										"stringValue": "W",
+										"itemID": "gtaCode"
+									},
+									{
+										"stringValue": "10",
+										"itemID": "admSituation"
+									},
+									{
+										"stringValue": "2",
+										"itemID": "apprenticeContractDurationCode"
+									},
+									{
+										"stringValue": "001",
+										"itemID": "lotPermanent"
+									},
+									{
+										"stringValue": "2",
+										"itemID": "tpsPartielCotisTxPlein"
+									},
+									{
+										"stringValue": "5",
+										"itemID": "niveauFormation"
+									},
+									{
+										"stringValue": "1",
+										"itemID": "diplomePlusEleveObtenu"
+									},
+									{
+										"stringValue": "4",
+										"itemID": "situationAvantContrat"
+									},
+									{
+										"stringValue": "P",
+										"itemID": "natureExoPro"
+									},
+									{
+										"stringValue": "23",
+										"itemID": "categorieSalarieAbattementFraisPro"
+									},
+									{
+										"stringValue": "01",
+										"itemID": "MSACatStatus"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

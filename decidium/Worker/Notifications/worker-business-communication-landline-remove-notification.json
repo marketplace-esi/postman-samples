@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "eventID": "7b695299-da23-4ea2-af84-7835033dcd02",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.remove"
+            },
+            "recordDateTime": "2020-09-21T15:48:52+02:00",
+            "effectiveDateTime": "2020-09-21T15:48:52+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {}
+                }
+            }
+        }
+    ]
+}

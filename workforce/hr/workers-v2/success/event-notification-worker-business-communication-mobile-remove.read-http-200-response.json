@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-29T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "c55e0ee8-4c5a-4ff0-91c3-f31cd2091a66",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.mobile.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000003"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "businessCommunication": {
+                            "mobile": {
+                                "formattedNumber": "0655512345"
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000003"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

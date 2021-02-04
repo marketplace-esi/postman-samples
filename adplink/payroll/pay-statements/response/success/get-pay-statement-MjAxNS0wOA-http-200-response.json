@@ -1,0 +1,191 @@
+{
+    "payStatement": {
+        "meta": {
+            "currentPeriod": {
+                "sectionLabelName": "Période en cours",
+                "totalAmount": {
+                    "amountValue": 7430.16,
+                    "currencyCode": "EUR",
+                    "labelName": "Net à payer"
+                }
+            },
+            "aggregatePeriod": {
+                "sectionLabelName": "cumul",
+                "totalAmount": {
+                    "amountValue": 29720.73,
+                    "currencyCode": "EUR",
+                    "labelName": "Net à payer"
+                }
+            }
+        },
+        "deductions": [
+            {
+                "codeName": "Charges salariales",
+                "deductionAmount": {
+                    "amountValue": 1430.16,
+                    "currencyCode": "EUR"
+                },
+                "deductionYTDAmount": {
+                    "amountValue": 5720.73,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false,
+                "deductionCategoryCodeName": "deductions"
+            },
+            {
+                "codeName": "Retenues non déductibles",
+                "deductionAmount": {
+                    "amountValue": 0.0,
+                    "currencyCode": "EUR"
+                },
+                "deductionYTDAmount": {
+                    "amountValue": 0.0,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false,
+                "deductionCategoryCodeName": "deductions"
+            },
+            {
+                "codeName": "Montant PAS",
+                "deductionAmount": {
+                    "amountValue": 418.0,
+                    "currencyCode": "EUR"
+                },
+                "deductionYTDAmount": {
+                    "amountValue": 4444.0,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false,
+                "deductionCategoryCodeName": "withholdingTax"
+            },
+            {
+                "codeName": "Taux transmis par la DGFIP",
+                "percentage": 9.0,
+                "preTaxIndicator": false,
+                "deductionCategoryCodeName": "withholdingTax"
+            }
+        ],
+        "earnings": [
+            {
+                "earningAmount": {
+                    "amountValue": 7030.16,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Salaire",
+                "earningYTDAmount": {
+                    "amountValue": 28120.73,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 430.16,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Primes mensuelles",
+                "earningYTDAmount": {
+                    "amountValue": 1720.73,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 1230.16,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Primes ponctuelles",
+                "earningYTDAmount": {
+                    "amountValue": 4920.73,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 230.16,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Avantages en nature",
+                "earningYTDAmount": {
+                    "amountValue": 920.73,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false
+            },
+            {
+                "earningAmount": {
+                    "amountValue": 30.16,
+                    "currencyCode": "EUR"
+                },
+                "earningCodeName": "Indemnités non soumises",
+                "earningYTDAmount": {
+                    "amountValue": 120.73,
+                    "currencyCode": "EUR"
+                },
+                "preTaxIndicator": false
+            }
+        ],
+        "grossPayAmount": {
+            "amountValue": 8430.16,
+            "currencyCode": "EUR"
+        },
+        "netPayAmount": {
+            "amountValue": 7430.16,
+            "currencyCode": "EUR"
+        },
+        "payDate": "2015-08",
+        "payPeriod": {
+            "endDate": "2015-08-31",
+            "startDate": "2015-08-01"
+        },
+        "deductionCategoryDetails": [
+            {
+                "deductionCategoryCodeName": "deductions",
+                "deductionCategoryTotalPeriodAmount": {
+                    "amountValue": 1430.16,
+                    "currencyCode": "EUR"
+                }
+            },
+            {
+                "deductionCategoryCodeName": "withholdingTax",
+                "deductionCategoryTotalPeriodAmount": {
+                    "amountValue": 418.0,
+                    "currencyCode": "EUR"
+                }
+            }
+        ],
+        "otherPay": [
+            {
+                "sectionLabelName": "Bruts et Nets",
+                "otherPayDetail": [
+                    {
+                        "labelName": "Brut réel",
+                        "payAmount": {
+                            "amountValue": 8430.16,
+                            "currencyCode": "EUR"
+                        },
+                        "payYTDAmount": {
+                            "amountValue": 33720.73,
+                            "currencyCode": "EUR"
+                        },
+                        "preTaxIndicator": false
+                    },
+                    {
+                        "labelName": "Net imposable",
+                        "payAmount": {
+                            "amountValue": 7230.16,
+                            "currencyCode": "EUR"
+                        },
+                        "payYTDAmount": {
+                            "amountValue": 28920.73,
+                            "currencyCode": "EUR"
+                        },
+                        "preTaxIndicator": false
+                    }
+                ]
+            }
+        ]
+    }
+}

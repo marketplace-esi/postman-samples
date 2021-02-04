@@ -1,0 +1,151 @@
+{
+    "workers": [
+        {
+            "associateOID": "dafe9-mp2",
+            "workerID": {
+                "idValue": "00000282"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "DATAINOUTPUT1",
+                    "middleName": "",
+                    "familyName1": "AFE",
+                    "formattedName": "DATAINOUTPUT1 AFE",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "MME",
+                                "shortName": "MME",
+                                "longName": "Madame"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "MME",
+                                "shortName": "MME",
+                                "longName": "Madame"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NORT SUR ERDRE",
+                        "subdivisionType": "NORT SUR ERDRE"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "44390",
+                    "buildingNumber": "0",
+                    "buildingNumberExtension": " ",
+                    "buildingName": " ",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "",
+                        "longName": "",
+                        "subdivisionType": ""
+                    }
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Femme",
+                    "longName": "Femme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": ""
+                },
+                "disabilityIdentificationDeclinedIndicator": true,
+                "birthPlace": {
+                    "cityName": "DOURDAN",
+                    "postalCode": "91000",
+                    "countryCode": "FR"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCE",
+                        "longName": "FRANCE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-01-15"
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "itemID": "Travail"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "2020-01-15",
+                    "actualStartDate": "2020-01-15",
+                    "jobCode": {
+                        "codeValue": "EMPLO1",
+                        "shortName": "Emploi 1",
+                        "longName": "Emploi 1"
+                    },
+                    "jobTitle": "Emploi 1",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "111111",
+                                "shortName": "MANAGEMENT",
+                                "longName": "MANAGEMENT"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "01001",
+                                "shortName": "ORION SIEGE LEVALLOIS",
+                                "longName": "ORION SIEGE LEVALLOIS"
+                            },
+                            "address": {
+                                "lineOne": "",
+                                "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                "cityName": "SAINT DIDIER MONT D OR",
+                                "countryCode": "FR",
+                                "postalCode": "69370",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "SAINT DIDIER MONT D OR",
+                                    "shortName": "SAINT DIDIER MONT D OR",
+                                    "longName": "SAINT DIDIER MONT D OR",
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "Salarié",
+                        "longName": "Salarié"
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "levangelist-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "LINDA",
+                                "familyName1": "EVANGELIST"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "A0000986",
+                    "itemID": "A0000986"
+                }
+            ]
+        }
+    ]
+}

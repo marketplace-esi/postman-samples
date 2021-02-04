@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "eventID": "e05af160-0874-498d-ba0b-767c2254ba32",
+            "eventNameCode": {
+                "codeValue": "workerTermination.cancel"
+            },
+            "recordDateTime": "2020-09-24T16:30:19+02:00",
+            "effectiveDateTime": "2020-09-02T00:00:00+02:00",
+            "data": {
+                "eventContext": {
+                    "associateOID": "jseudeci218-w7q"
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "terminationDate": "2020-09-02"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

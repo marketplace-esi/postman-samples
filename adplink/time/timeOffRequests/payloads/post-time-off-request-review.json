@@ -1,0 +1,22 @@
+{
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"associateOID": "employee1-xyz",
+					"timeOffRequestID": "1048245"
+				},
+				"transform": {
+					"reviewRequest": {
+						"reviewStatusCode": {
+							"codeValue": "refused"
+						},
+						"comment": {
+							"textValue": "Time Off Not Allowed"
+						}
+					}
+				}
+			}
+		}
+	]
+}

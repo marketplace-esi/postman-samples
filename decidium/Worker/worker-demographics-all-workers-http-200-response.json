@@ -1,0 +1,869 @@
+{
+    "workers": [
+        {
+            "associateOID": "nfiolot1-mp2",
+            "workerID": {
+                "idValue": "00000001"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "NOEL",
+                    "middleName": "",
+                    "familyName1": "FIOLOT",
+                    "formattedName": "NOEL FIOLOT",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NANTES",
+                        "subdivisionType": "NANTES"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "44000",
+                    "buildingNumber": "97",
+                    "buildingNumberExtension": " ",
+                    "buildingName": " ",
+                    "streetName": "RUE SAINT PIERRE",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "",
+                        "longName": "",
+                        "subdivisionType": ""
+                    }
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "123456",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "formattedNumber": "12333",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "Personnel",
+                                "shortName": "Personnel",
+                                "longName": "Personnel"
+                            },
+                            "emailUri": "fiolot@test.com"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "formattedNumber": "1234",
+                            "itemID": "Personnel"
+                        }
+                    ]
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "C",
+                    "shortName": "CELIBATAIRE",
+                    "longName": "CELIBATAIRE"
+                },
+                "disabilityIdentificationDeclinedIndicator": true,
+                "birthPlace": {
+                    "cityName": "PARIS",
+                    "postalCode": "93",
+                    "countryCode": "FR"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCE",
+                        "longName": "FRANCE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-12-01"
+            },
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "href": "/hr/v2/workers/nfiolot1-mp2/worker-images/photo"
+                        }
+                    ],
+                    "itemID": "1"
+                }
+            ],
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "itemID": "Travail"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "2019-12-01",
+                    "actualStartDate": "2019-12-01",
+                    "jobTitle": "CHEF PROJET",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "222221",
+                                "shortName": "TRESORERIE ACHATS",
+                                "longName": "TRESORERIE ACHATS"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "02004",
+                                "shortName": "ORION CONSEIL STRASBOURG",
+                                "longName": "ORION CONSEIL STRASBOURG"
+                            },
+                            "address": {
+                                "lineOne": "BP 23",
+                                "lineTwo": "15 Rue Jacobe Mayer",
+                                "cityName": "STRASBOURG",
+                                "countryCode": "FR",
+                                "postalCode": "67037",
+                                "countrySubdivisionLevel2": {
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "Salarié",
+                        "longName": "Salarié"
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "jlmoureau-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "JEAN-LUCAFESTN",
+                                "familyName1": "MOUREAU"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "A0000808",
+                    "itemID": "A0000808"
+                }
+            ]
+        },
+        {
+            "associateOID": "pmassina-mp2",
+            "workerID": {
+                "idValue": "00000002"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "PHILIPPE",
+                    "middleName": "SECPRENOMTEST, TROISPRENOMTEST, QUATPRENOMTEST",
+                    "familyName1": "MASSINA",
+                    "familyName2": "NAISSTEST",
+                    "formattedName": "PHILIPPE MASSINA",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "VILLEURBANNE",
+                        "subdivisionType": "VILLEURBANNE"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "69100",
+                    "lineFive": "LIEU DIT",
+                    "buildingNumber": "14",
+                    "buildingNumberExtension": "B",
+                    "buildingName": "B",
+                    "streetName": "RUE NOTRE DAME",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "69266",
+                        "longName": "VILLEURBANNE",
+                        "subdivisionType": "VILLEURBANNE"
+                    }
+                },
+                "communication": {
+                    "mobiles": [
+                        {
+                            "formattedNumber": "03 33 33 33 34",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "Personnel",
+                                "shortName": "Personnel",
+                                "longName": "Personnel"
+                            },
+                            "emailUri": "test4@adp.com"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "formattedNumber": "11 11 11 11 11 11",
+                            "itemID": "Personnel"
+                        }
+                    ]
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "C",
+                    "shortName": "CELIBATAIRE",
+                    "longName": "CELIBATAIRE",
+                    "effectiveDate": "2020-01-27"
+                },
+                "disabilityIdentificationDeclinedIndicator": true,
+                "birthPlace": {
+                    "cityName": "ROME",
+                    "postalCode": "A",
+                    "countryCode": "VA"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCE",
+                        "longName": "FRANCE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2012-01-02"
+            },
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "href": "/hr/v2/workers/pmassina-mp2/worker-images/photo"
+                        }
+                    ],
+                    "itemID": "1"
+                }
+            ],
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "formattedNumber": "02 45 78 45 80",
+                        "itemID": "Travail"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "06 56 78 89 59",
+                        "itemID": "Travail"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "itemID": "Travail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "09 45 78 45 80",
+                        "itemID": "Travail"
+                    }
+                ],
+                "pagers": [
+                    {
+                        "formattedNumber": "23568945",
+                        "itemID": "Travail"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "2012-01-02",
+                    "actualStartDate": "2019-05-23",
+                    "jobCode": {
+                        "codeValue": "120",
+                        "shortName": "INGENIEUR",
+                        "longName": "INGENIEUR"
+                    },
+                    "jobTitle": "INGENIEUR INDIVIDUALISE",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "332322",
+                                "shortName": "VTE SERVICES",
+                                "longName": "VTE SERVICES"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "02010",
+                                "shortName": "ORION CONSEIL PARIS",
+                                "longName": "ORION CONSEIL PARIS"
+                            },
+                            "address": {
+                                "lineOne": "",
+                                "lineTwo": " RUE ANATOLE FRANCE",
+                                "cityName": "LEVALLOIS PERRET",
+                                "countryCode": "FR",
+                                "postalCode": "92688",
+                                "unit": "69",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "LEVALLOIS PERRET",
+                                    "shortName": "LEVALLOIS PERRET",
+                                    "longName": "LEVALLOIS PERRET",
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "Salarié",
+                        "longName": "Salarié"
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "amarc-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "ANTOINE",
+                                "familyName1": "MARC"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "00000002",
+                    "itemID": "00000002"
+                }
+            ]
+        },
+        {
+            "associateOID": "msanson-mp2",
+            "workerID": {
+                "idValue": "00000003"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "MARIE",
+                    "middleName": "",
+                    "familyName1": "SANSON",
+                    "formattedName": "MARIE SANSON",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "MLE",
+                                "shortName": "MLE",
+                                "longName": "Mademoiselle"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "MLE",
+                                "shortName": "MLE",
+                                "longName": "Mademoiselle"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BORDEAUX",
+                        "subdivisionType": "BORDEAUX"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "33100",
+                    "buildingNumber": "10",
+                    "buildingNumberExtension": " ",
+                    "buildingName": " ",
+                    "streetName": "RUE D ATHENES",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "",
+                        "longName": "",
+                        "subdivisionType": ""
+                    }
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Femme",
+                    "longName": "Femme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "C",
+                    "shortName": "CELIBATAIRE",
+                    "longName": "CELIBATAIRE"
+                },
+                "disabilityIdentificationDeclinedIndicator": true,
+                "birthPlace": {
+                    "cityName": "BORDEAUX",
+                    "postalCode": "33",
+                    "countryCode": "FR"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCE",
+                        "longName": "FRANCE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2003-06-04",
+                "terminationDate": "2020-12-31"
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "itemID": "Travail"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "2003-06-04",
+                    "actualStartDate": "2012-01-01",
+                    "terminationDate": "2020-12-31",
+                    "jobCode": {
+                        "codeValue": "410",
+                        "shortName": "OUVRIER",
+                        "longName": "OUVRIER"
+                    },
+                    "jobTitle": "OUVRIER",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "441411",
+                                "shortName": "ROBOTIQUE",
+                                "longName": "ROBOTIQUE"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "01001",
+                                "shortName": "ORION SIEGE levallois",
+                                "longName": "ORION SIEGE levallois"
+                            },
+                            "address": {
+                                "lineOne": "",
+                                "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                "cityName": "SAINT DIDIER MONT D OR",
+                                "countryCode": "FR",
+                                "postalCode": "69370",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "SAINT DIDIER MONT D OR",
+                                    "shortName": "SAINT DIDIER MONT D OR",
+                                    "longName": "SAINT DIDIER MONT D OR",
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "Salarié",
+                        "longName": "Salarié"
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "levangelist-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "LINDA",
+                                "familyName1": "EVANGELIST"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "00000003",
+                    "itemID": "00000003"
+                }
+            ]
+        },
+        {
+            "associateOID": "jhouvil-mp2",
+            "workerID": {
+                "idValue": "00000004"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "JOSE",
+                    "middleName": "",
+                    "familyName1": "HOUVIL",
+                    "familyName2": "1234FR12",
+                    "formattedName": "JOSE HOUVIL",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "cityName": "COLLONGES AU MONT D OR",
+                    "lineFive": "DOMAINE MONPLAISIR",
+                    "buildingNumber": "4",
+                    "buildingNumberExtension": " ",
+                    "buildingName": " ",
+                    "streetName": "AVENUE MONPLAISIR",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "00000"
+                    }
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "M",
+                    "shortName": "MARIE",
+                    "longName": "MARIE"
+                },
+                "disabilityIdentificationDeclinedIndicator": true,
+                "birthPlace": {
+                    "cityName": "BORDEAUXC",
+                    "postalCode": "33000",
+                    "countryCode": "FR"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "DK",
+                        "shortName": "DANEMARK",
+                        "longName": "DANEMARK"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "1991-11-01"
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "itemID": "Travail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "01 23 45 67 89",
+                        "itemID": "Travail"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "1991-11-01",
+                    "actualStartDate": "2012-01-01",
+                    "jobCode": {
+                        "codeValue": "400",
+                        "shortName": "OUVRIER HAUTEMENT QUALIFIE",
+                        "longName": "OUVRIER HAUTEMENT QUALIFIE"
+                    },
+                    "jobTitle": "OUVRIER HAUTEMENT QUALIFIE",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "441411"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "01001",
+                                "shortName": "ORION SIEGE levallois",
+                                "longName": "ORION SIEGE levallois"
+                            },
+                            "address": {
+                                "lineOne": "",
+                                "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                "cityName": "SAINT DIDIER MONT D OR",
+                                "countryCode": "FR",
+                                "postalCode": "69370",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "SAINT DIDIER MONT D OR",
+                                    "shortName": "SAINT DIDIER MONT D OR",
+                                    "longName": "SAINT DIDIER MONT D OR",
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "Salarié",
+                        "longName": "Salarié"
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "levangelist-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "LINDA",
+                                "familyName1": "EVANGELIST"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "00000004",
+                    "itemID": "00000004"
+                }
+            ]
+        },
+        {
+            "associateOID": "dberthe-mp2",
+            "workerID": {
+                "idValue": "00000005"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "DANIEL",
+                    "middleName": "",
+                    "familyName1": "BERTHE",
+                    "formattedName": "DANIEL BERTHE",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
+                            },
+                            "sequenceNumber": 1
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PARIS",
+                        "subdivisionType": "PARIS"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "75016",
+                    "buildingNumber": "18",
+                    "buildingNumberExtension": " ",
+                    "buildingName": " ",
+                    "streetName": "RUE DES JONQUILLES",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "00000"
+                    }
+                },
+                "deceasedIndicator": false,
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "C",
+                    "shortName": "CELIBATAIRE",
+                    "longName": "CELIBATAIRE"
+                },
+                "disabilityIdentificationDeclinedIndicator": true,
+                "birthPlace": {
+                    "cityName": "CHARTRES",
+                    "postalCode": "28",
+                    "countryCode": "FR"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "FR",
+                        "shortName": "FRANCE",
+                        "longName": "FRANCE"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2013-10-21"
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "formattedNumber": "1",
+                        "itemID": "Travail"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "2",
+                        "itemID": "Travail"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "itemID": "Travail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "3",
+                        "itemID": "Travail"
+                    }
+                ],
+                "pagers": [
+                    {
+                        "formattedNumber": "32",
+                        "itemID": "Travail"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "hireDate": "2013-10-21",
+                    "actualStartDate": "2013-10-21",
+                    "jobCode": {
+                        "codeValue": "100",
+                        "shortName": "DIRECTEUR",
+                        "longName": "DIRECTEUR"
+                    },
+                    "jobTitle": "DIRECTEUR",
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "111111"
+                            }
+                        }
+                    ],
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "02003",
+                                "shortName": "ORION CONSEIL LEVALLOIS",
+                                "longName": "ORION CONSEIL LEVALLOIS"
+                            },
+                            "address": {
+                                "lineOne": "",
+                                "lineTwo": " RUE ANATOLE FRANCE",
+                                "cityName": "LEVALLOIS PERRET",
+                                "countryCode": "FR",
+                                "postalCode": "92688",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "LEVALLOIS PERRET",
+                                    "shortName": "LEVALLOIS PERRET",
+                                    "longName": "LEVALLOIS PERRET",
+                                    "subdivisionType": "INSEE"
+                                }
+                            }
+                        }
+                    ],
+                    "remunerationBasisCode": {
+                        "codeValue": "S",
+                        "shortName": "Salarié",
+                        "longName": "Salarié"
+                    },
+                    "reportsTo": [
+                        {
+                            "associateOID": "levangelist-mp2",
+                            "reportsToWorkerName": {
+                                "givenName": "LINDA",
+                                "familyName1": "EVANGELIST"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "A0000759",
+                    "itemID": "A0000759"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "events": [
+        {
+            "eventID": "48dba75c-8786-4a3d-8e70-ccb5bc1e833d",
+            "eventNameCode": {
+                "codeValue": "worker.deceased"
+            },
+            "recordDateTime": "2020-09-07T12:48:41+02:00",
+            "effectiveDateTime": "2020-09-07T12:48:41+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dnotifica-dev"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "deceasedIndicator": true,
+                            "deathDate": "2020-08-03"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

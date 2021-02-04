@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "eventID": "1ec99825-7229-4652-9c39-9d7cefcf78bd",
+            "eventNameCode": {
+                "codeValue": "worker.identityDocument.change"
+            },
+            "recordDateTime": "2020-09-22T13:40:45+02:00",
+            "effectiveDateTime": "2020-09-22T13:40:45+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dabt-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "identityDocument": {
+                                "documentID": "1850506321456",
+                                "typeCode": {
+                                    "codeValue": "SSN",
+                                    "shortName": "Numéro de sécurité sociale"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

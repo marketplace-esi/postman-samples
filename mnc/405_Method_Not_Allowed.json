@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "Error"
+                },
+                "userMessage": {
+                    "codeValue": "Error",
+                    "userMessage": "Request method 'POST' not supported"
+                }
+            }
+        ],
+        "createDateTime": "2020-11-25T08:41:42.493Z",
+        "protocolStatusCode": {
+            "codeValue": "405"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestLink": {
+            "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements",
+            "rel": "related",
+            "method": "POST"
+        },
+        "processingStatusCode": {
+            "codeValue": "received"
+        }
+    }
+}

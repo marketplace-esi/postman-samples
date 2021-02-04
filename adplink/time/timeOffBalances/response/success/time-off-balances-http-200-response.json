@@ -1,0 +1,145 @@
+{
+    "timeOffBalances": [
+        {
+            "associateOID": "employee-xyz",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "it_mb_CP",
+                        "shortName": "Congés payés"
+                    },
+                    "policyBalances": [
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Solde"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 8.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Droits"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 15.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Pris fin de période"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 7.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Pris"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 7.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Posés non pris"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 0.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "it_mb_RTT",
+                        "shortName": "RTT"
+                    },
+                    "policyBalances": [
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Solde"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 0.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Droits"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": -2.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Pris fin de période"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 0.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Pris"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": -2.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "shortName": "Posés non pris"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": -2.0,
+                                "unitTimeCode": {
+                                    "codeValue": "day"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

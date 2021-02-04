@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3291747d8462c0a9ee8f9",
+            "eventNameCode": {
+                "codeValue": "worker.legalName.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "JEAN",
+                                "familyName1": "DUPONT",
+                                "familyName2": "",
+                                "formattedName": "DUPONT,JEAN",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

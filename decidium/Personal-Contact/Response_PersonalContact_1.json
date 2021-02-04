@@ -1,0 +1,74 @@
+{
+    "personalContacts": [
+        {
+            "personName": {
+                "givenName": "PRENOM001",
+                "familyName1": "NOM001",
+                "formattedName": "NOM001,PRENOM001",
+                "preferredSalutations": [
+                    {
+                        "salutationCode": {
+                            "codeValue": "M",
+                            "shortName": "Monsieur",
+                            "longName": "Monsieur"
+                        },
+                        "sequenceNumber": 0
+                    }
+                ],
+                "titleAffixCodes": [
+                    {
+                        "affixCode": {
+                            "codeValue": "M",
+                            "shortName": "Monsieur",
+                            "longName": "Monsieur"
+                        },
+                        "sequenceNumber": 0
+                    }
+                ]
+            },
+            "communication": {
+                "landlines": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Work Phone"
+                        },
+                        "formattedNumber": "01 01 01 01"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "Home Phone"
+                        },
+                        "formattedNumber": "01 01 01 02"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Mobile Phone"
+                        },
+                        "formattedNumber": "01 01 01 03"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Travail",
+                            "shortName": "Travail",
+                            "longName": "Travail"
+                        },
+                        "emailUri": "NOM001@test.com"
+                    }
+                ]
+            },
+            "relationshipTypeCode": {
+                "codeValue": "C",
+                "shortName": "CONJOINT",
+                "longName": "CONJOINT"
+            },
+            "precedenceCode": {
+                "codeValue": "Y"
+            },
+            "itemID": "1"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	"events": [{
+			"eventID": "TestDeceased",
+			"eventNameCode": {
+				"codeValue": "worker.deceased"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "employee-xyz"
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "employee-xyz",
+						"workerID": {
+							"idValue": "0000000"
+						},
+                        "person": {
+                            "deceasedIndicator": true,
+                            "deathDate": "2020-11-02"
+                        }
+					}
+				}
+			}
+		}
+	]
+}
