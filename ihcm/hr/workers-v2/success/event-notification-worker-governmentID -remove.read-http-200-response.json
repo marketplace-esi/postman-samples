@@ -1,0 +1,75 @@
+{
+    "events": [
+        {
+            "eventID": "0061156e-933a-401b-bb4b-df7bd4255094",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.governmentId.remove",
+                "shortName": "worker.governmentId.remove"
+            },
+            "eventTitle": "Remove Worker Government ID",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2021-01-18T12:41:26Z",
+            "creationDateTime": "2021-01-18T12:41:26Z",
+            "effectiveDateTime": "2021-01-18T12:41:26Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0KB5E071437F65",
+                "personOID": "TEST_PADDYCOE",
+                "formattedName": "Test COE",
+                "deviceID": "iHCM",
+                "eventID": "0061156e-933a-401b-bb4b-df7bd4255094",
+                "eventNameCode": {
+                    "codeValue": "worker.governmentId.remove",
+                    "shortName": "worker.governmentId.remove",
+                    "longName": "worker.governmentId.remove"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0KB5E071437F65",
+                "formattedName": "Test COE",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0L1FB57506ZJMG"
+                    }
+                },
+                "transform": {},
+                "output": {
+                    "worker": {
+                        "associateOID": "UK0L1FB57506ZJMG",
+                        "workerID": {
+                            "idValue": "675758"
+                        },
+                        "person": {
+                            "governmentID": {
+                                "nameCode": {
+                                    "codeValue": "NINumber",
+                                    "shortName": "NI Number"
+                                },
+                                "countryCode": "GB",
+                                "idValue": "ST785672A"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
