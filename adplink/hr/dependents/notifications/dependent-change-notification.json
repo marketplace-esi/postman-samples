@@ -1,0 +1,78 @@
+{
+    "events": [
+        {
+            "eventID": "event-id",
+            "eventNameCode": {
+                "codeValue": "dependent.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "dependent": {
+                        "associateOID": "employee-xyz",
+                        "relationshipTypeCode": {
+                            "codeValue": "C",
+                            "shortName": "Conjoint",
+                            "longName": "Conjoint"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "TEST1",
+                                "familyName1": "TEST",
+                                "familyName2": "",
+                                "formattedName": "TEST1 TEST ",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        },
+                                        "typeCode": {},
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "birthDate": "1970-02-10",
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Masculin"
+                            },
+                            "socialInsurancePrograms": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0",
+                                        "shortName": "SS",
+                                        "longName": "Social Security"
+                                    },
+                                    "itemID": ""
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "1",
+                                        "shortName": "Health",
+                                        "longName": "Health Insurance"
+                                    },
+                                    "coveredIndicator": false,
+                                    "coveragePeriod": {},
+                                    "itemID": ""
+                                }
+                            ],
+                            "birthOrder": 1,
+                            "taxDependentIndicator": false,
+                            "professionTypeCode": {
+                                "codeValue": "",
+                                "shortName": "",
+                                "longName": ""
+                            }
+                        },
+                        "itemID": "C;01"
+                    }
+                }
+            }
+        }
+    ]
+}
