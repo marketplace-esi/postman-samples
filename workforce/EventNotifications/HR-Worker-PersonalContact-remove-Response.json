@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-02-04T00:00:00Z",
+            "effectiveDateTime": "2020-05-10T00:00:00Z",
+            "eventID": "4ac48a18-3d8d-4eac-98eb-44165f2ae931",
+            "eventNameCode": {
+                "codeValue": "worker.personalContact.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "000006"
+                    },
+                    "personalContact": {
+                        "itemID": "W-001"
+                    }
+                },
+                "output": {
+                    "personalContact": {
+                        "itemID": "W-001",
+                        "contactTypeCode": {
+                            "codeValue": "E",
+                            "shortName": "Emergency"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
