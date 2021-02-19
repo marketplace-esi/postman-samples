@@ -12,7 +12,7 @@
             },
             "payDate": "2015-08",
             "payDetailUri": {
-                "href": "/v1_0/O/A/payStatement/MjAxNS0wOA"
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wOA"
             }
         },
         {
@@ -26,7 +26,7 @@
             },
             "payDate": "2015-07",
             "payDetailUri": {
-                "href": "/v1_0/O/A/payStatement/MjAxNS0wNw"
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNw"
             }
         },
         {
@@ -40,7 +40,7 @@
             },
             "payDate": "2015-06",
             "payDetailUri": {
-                "href": "/v1_0/O/A/payStatement/MjAxNS0wNg"
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNg"
             }
         },
         {
@@ -54,7 +54,7 @@
             },
             "payDate": "2015-05",
             "payDetailUri": {
-                "href": "/v1_0/O/A/payStatement/MjAxNS0wNQ"
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNQ"
             }
         },
         {
@@ -68,7 +68,7 @@
             },
             "payDate": "2015-04",
             "payDetailUri": {
-                "href": "/v1_0/O/A/payStatement/MjAxNS0wNA"
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNA"
             }
         }
     ]
