@@ -1,0 +1,45 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-05-28T00:00:00Z",
+            "effectiveDateTime": "2020-05-01T00:00:00Z",
+            "eventID": "070a8528-327a-4306-9c98-ebcf53f30fcb",
+            "eventNameCode": {
+                "codeValue": "organizationDepartment.add"
+            },
+            "data": {
+                "eventContext": {
+                    "organizationDepartment": {
+                        "departmentCode": {
+                            "codeValue": "061100",
+                            "shortName": "Omsch",
+                            "longName": "Omschrijving"
+                        }
+                    }
+                },
+                "output": {
+                    "organizationDepartment": {
+                        "parentDepartmentCode": {
+                            "codeValue": ""
+                        },
+                        "departmentCode": {
+                            "codeValue": "061100",
+                            "shortName": "Omsch",
+                            "longName": "Omschrijving"
+                        },
+                        "departmentDescription": "Omschrijving",
+                        "activeIndicator": false,
+                        "auxilliaryFields": [
+                            {
+                                "stringValue": "",
+                                "nameCode": {
+                                    "codeValue": "endDate"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

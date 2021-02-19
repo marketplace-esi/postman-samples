@@ -1,0 +1,11 @@
+{
+	"personalContacts": [{
+			"personName": {
+				"formattedName": "NOM,PRENOM"
+			},
+			"links": [{
+				"href": "/hr/v2/associates/{associate-oid}/personal-contacts/NOM,PRENOM",
+				"rel": "self"
+			}]
+		}]
+}

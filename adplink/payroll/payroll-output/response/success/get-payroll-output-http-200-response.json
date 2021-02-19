@@ -1,0 +1,170 @@
+{
+    "payrollOutputs": [
+        {
+            "payrollSummary": {
+                "earningsSummary": {
+                    "earningsSummarySections": [
+                        {
+                            "earningsSummaryItems": [
+                                {
+                                    "earningID": {
+                                        "idValue": "MDSalFix"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 3.0
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRPartSalariale"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 3.1
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TROrganisme"
+                                    },
+                                    "earningClassificationCode": {
+                                        "codeValue": "LU"
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRNombre"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 13.0
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDPat"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 1.08
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRPartPatronale"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 5.4
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDEkey"
+                                    },
+                                    "earningClassificationCode": {
+                                        "codeValue": "aZeRtY"
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDIdentifiant"
+                                    },
+                                    "earningClassificationCode": {
+                                        "codeValue": "IDENT_MD"
+                                    }
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDSalNet"
+                                    },
+                                    "earningAmount": {
+                                        "amountValue": 0.54
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "associatePayments": [
+                {
+                    "associateOID": "aoiduser-alp",
+                    "payrollID": {
+                        "idValue": "00000001"
+                    }
+                }
+            ]
+        },
+        {
+            "payrollSummary": {
+                "earningsSummary": {
+                    "earningsSummarySections": [
+                        {
+                            "earningsSummaryItems": [
+                                {
+                                    "earningID": {
+                                        "idValue": "MDSalFix"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRPartSalariale"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TROrganisme"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRNombre"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDPat"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "TRPartPatronale"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDEkey"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDIdentifiant"
+                                    },
+                                    "earningAmount": {}
+                                },
+                                {
+                                    "earningID": {
+                                        "idValue": "MDSalNet"
+                                    },
+                                    "earningAmount": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "associatePayments": [
+                {
+                    "associateOID": "aoiduser2-alp",
+                    "payrollID": {
+                        "idValue": "00000002"
+                    }
+                }
+            ]
+        }
+    ]
+}

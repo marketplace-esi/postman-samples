@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "Error"
+                },
+                "userMessage": {
+                    "codeValue": "Error",
+                    "userMessage": "Missing request header 'associateOID' for method parameter of type String"
+                }
+            }
+        ],
+        "createDateTime": "2020-11-25T08:43:53.263Z",
+        "protocolStatusCode": {
+            "codeValue": "412"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "requestLink": {
+            "href": "/payroll/v1/workers/E11Q932K5FPEK0HF/pay-statements",
+            "rel": "related",
+            "method": "GET"
+        },
+        "processingStatusCode": {
+            "codeValue": "received"
+        }
+    }
+}

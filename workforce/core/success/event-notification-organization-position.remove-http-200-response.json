@@ -1,0 +1,41 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-11T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "0f410459-f11a-44b5-bcb6-4b5b2a2e3086",
+            "eventNameCode": {
+                "codeValue": "organizationPosition.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "000091-000007"
+                },
+                "output": {
+                    "organizationPosition": {
+                        "positionID": "000091-000007",
+                        "sharedPositionMaximumHeadcount": 0,
+                        "budgetedAmount": {
+                            "amountValue": 0.00,
+                            "currencyCode": "EUR"
+                        },
+                        "workAssignment": {
+                            "standardHours": {
+                                "hoursQuantity": 0,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "Week"
+                                }
+                            },
+                            "wageLawCoverages": [
+                                {
+                                    "wageLawNameCode": {}
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

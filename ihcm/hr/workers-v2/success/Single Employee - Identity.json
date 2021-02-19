@@ -1,0 +1,205 @@
+{
+  "workerID": {
+    "idValue": "ADP43254",
+    "schemeCode": {
+      "codeValue": "REFERENCE",
+      "shortName": "Employee Reference Number"
+    }
+  },
+  "person": {
+    "legalName": {
+      "preferredSalutations": [
+        {
+          "salutationCode": {
+            "codeValue": "Dr",
+            "shortName": "Dr."
+          },
+          "typeCode": {
+            "codeValue": "SOCIAL",
+            "shortName": "Social"
+          },
+          "sequenceNumber": 1
+        }
+      ],
+      "nickName": "Known As",
+      "givenName": "Adam",
+      "middleName": "Midele Name",
+      "familyName1": "Jones",
+      "familyName2": "Maiden Name",
+      "formattedName": "Adam Jones"
+    },
+    "communication": {
+      "mobiles": [
+        {
+          "nameCode": {
+            "codeValue": "PERMOBILE",
+            "shortName": "Personal Mobile"
+          },
+          "formattedNumber": "079843255231"
+        }
+      ],
+      "emails": [
+        {
+          "nameCode": {
+            "codeValue": "PERSONALEMAIL",
+            "shortName": "Personal Email"
+          },
+          "emailUri": "manish.vadgama@hotmail.co.uk"
+        }
+      ]
+    },
+    "birthDate": "1980-01-01",
+    "genderCode": {
+      "codeValue": "Male",
+      "shortName": "Male"
+    },
+    "governmentIDs": [
+      {
+        "nameCode": {
+          "codeValue": "2",
+          "shortName": "Passport"
+        },
+        "countryCode": "ALB",
+        "idValue": "PassportNumber"
+      },
+      {
+        "nameCode": {
+          "codeValue": "SocialInsuranceID",
+          "shortName": "SocialInsuranceID"
+        },
+        "countryCode": "SE",
+        "idValue": "5656"
+      }
+    ],
+    "identityDocuments": [
+      {
+        "documentID": "PassportNumber",
+        "typeCode": {
+          "codeValue": "2",
+          "shortName": "Passport"
+        },
+        "countryCode": "ALB"
+      },
+      {
+        "documentID": "5656",
+        "typeCode": {
+          "codeValue": "SocialInsuranceID",
+          "shortName": "SocialInsuranceID"
+        },
+        "countryCode": "SE"
+      }
+    ]
+  },
+  "workerDates": {
+    "adjustedServiceDate": "2020-06-01",
+    "retirementDate": "2045-01-01"
+  },
+  "workerStatus": {
+    "statusCode": {
+      "codeValue": "Current",
+      "shortName": "Current"
+    }
+  },
+  "businessCommunication": {
+    "emails": [
+      {
+        "nameCode": {
+          "codeValue": "WORKEMAIL",
+          "shortName": "Work Email"
+        },
+        "emailUri": "manish.vadgama@hotmail.co.uk"
+      }
+    ]
+  },
+  "workAssignments": [
+    {
+      "primaryIndicator": true,
+      "hireDate": "2020-06-01",
+      "assignmentStatus": {
+        "statusCode": {
+          "codeValue": "Current",
+          "shortName": "Current"
+        }
+      },
+      "workerTypeCode": {
+        "shortName": "Permanent",
+        "longName": "Permanent"
+      },
+      "workLevelCode": {
+        "codeValue": "Full_Time",
+        "shortName": "Full Time"
+      },
+      "legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+      "jobCode": {
+        "effectiveDate": "2020-06-01",
+        "codeValue": "0037",
+        "shortName": "Customer Service Manager"
+      },
+      "jobTitle": "Customer Service Manager",
+      "fullTimeEquivalenceRatio": 1.0,
+      "homeOrganizationalUnits": [
+        {
+          "nameCode": {
+            "codeValue": "AC06",
+            "shortName": "Marketing"
+          },
+          "typeCode": {
+            "codeValue": "Department SE",
+            "shortName": "Accomatics Ltd"
+          }
+        },
+        {
+          "nameCode": {
+            "codeValue": "AC02",
+            "shortName": "Accomatics Division"
+          },
+          "typeCode": {
+            "codeValue": " Division SE",
+            "shortName": "Accomatics Ltd"
+          }
+        },
+        {
+          "nameCode": {
+            "codeValue": "AC01",
+            "shortName": "Accomatics Company"
+          },
+          "typeCode": {
+            "codeValue": "Company SE",
+            "shortName": "Accomatics Ltd"
+          }
+        }
+      ],
+      "homeWorkLocation": {
+        "nameCode": {
+          "codeValue": "SE11",
+          "shortName": "Stockholm Office, Sweden"
+        },
+        "address": {
+          "countryCode": "SE"
+        }
+      },
+      "reportsTo": [
+        {
+          "associateOID": "UK0K5S62914FIWS3",
+          "workerID": {
+            "idValue": "SE01",
+            "schemeCode": {
+              "codeValue": "REFERENCENUMBER",
+              "shortName": "REFERENCE NUMBER"
+            }
+          },
+          "reportsToWorkerName": {
+            "givenName": "Gary",
+            "familyName1": "Evans",
+            "formattedName": "Gary Evans"
+          },
+          "reportsToRelationshipCode": {
+            "codeValue": "REPORTSTO",
+            "shortName": "REPORTS TO"
+          }
+        }
+      ],
+      "payrollFileNumber": "ADP43254"
+    }
+  ]
+}

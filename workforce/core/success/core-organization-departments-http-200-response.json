@@ -1,0 +1,500 @@
+{
+    "organizationDepartments": [
+        {
+            "parentDepartmentCode": {
+                "codeValue": ""
+            },
+            "departmentCode": {
+                "codeValue": "000001",
+                "shortName": "Head",
+                "longName": "Corporate Headquarter"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Corporate Headquarter",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000010",
+                "shortName": "ICT",
+                "longName": "ICT"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "ICT",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "departmentCode": {
+                "codeValue": "000020",
+                "shortName": "Marketing",
+                "longName": "Marketing"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Marketing",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000021",
+                "shortName": "Marketing/Sales",
+                "longName": "Marketing en Sales"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Marketing en Sales",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000022",
+                "shortName": "S-a-l-e-s",
+                "longName": "S-a-l-e-s"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062 MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "S-a-l-e-s",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000025",
+                "shortName": "Klantenservice",
+                "longName": "Klantenservice"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Klantenservice",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000050"
+            },
+            "departmentCode": {
+                "codeValue": "000030",
+                "shortName": "Beheer",
+                "longName": "Beheer"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Beheer",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000040",
+                "shortName": "Archief",
+                "longName": "Kwaliteit"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Kwaliteit",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000050",
+                "shortName": "Internal Systems",
+                "longName": "Internal Systems"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Internal Systems",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "departmentCode": {
+                "codeValue": "000060",
+                "shortName": "Sales",
+                "longName": "Sales"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Sales",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000060"
+            },
+            "departmentCode": {
+                "codeValue": "000070",
+                "shortName": "|nt#rn@tion&l",
+                "longName": "|nt#rn@tion&l (<> use / C%%p€r)"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "|nt#rn@tion&l (<> use / C%%p€r)",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000090",
+                "shortName": "HRM",
+                "longName": "HRM"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "HRM",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "departmentCode": {
+                "codeValue": "000091",
+                "shortName": "Finance",
+                "longName": "Finance"
+            },
+            "assignedLocation": {
+                "cityName": "",
+                "streetName": "",
+                "postalCode": "",
+                "buildingNumber": "",
+                "unit": ""
+            },
+            "departmentDescription": "Finance",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01"
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000030"
+            },
+            "departmentCode": {
+                "codeValue": "000092",
+                "shortName": "Facilitair",
+                "longName": "Facilitair"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Facilitair",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000050"
+            },
+            "departmentCode": {
+                "codeValue": "000093",
+                "shortName": "Office management",
+                "longName": "Office management"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Office management",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000025"
+            },
+            "departmentCode": {
+                "codeValue": "000094",
+                "shortName": "ICT2",
+                "longName": "Consultancy"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Consultancy",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "departmentCode": {
+                "codeValue": "000095",
+                "shortName": "Communicatie",
+                "longName": "Communicatie"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Communicatie",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        },
+        {
+            "parentDepartmentCode": {
+                "codeValue": "000090"
+            },
+            "departmentCode": {
+                "codeValue": "000096",
+                "shortName": "PnO",
+                "longName": "Personeel en Organisatie"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Personeel en Organisatie",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        }
+    ]
+}

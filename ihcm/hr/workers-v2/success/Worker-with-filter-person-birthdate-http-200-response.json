@@ -1,0 +1,5601 @@
+{
+	"workers": [{
+		"workerID": {
+			"idValue": "7895",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "jayi",
+				"givenName": "jayi",
+				"familyName1": "jazz",
+				"formattedName": "jayi jazz"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "55",
+				"deliveryPoint": "True",
+				"cityName": "j",
+				"countryCode": "GBR"
+			},
+			"birthDate": "1990-06-05",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "55",
+				"deliveryPoint": "True",
+				"cityName": "j",
+				"countryCode": "GBR"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2020-06-11"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jaz@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2020-06-11",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "Demo1 - Demo Company Pvt Ltd",
+			"jobCode": {
+				"effectiveDate": "2020-06-11",
+				"codeValue": "021",
+				"shortName": "UAT Manager"
+			},
+			"jobTitle": "UAT Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "Demo1",
+					"shortName": "Demo Company Pvt Ltd"
+				},
+				"typeCode": {
+					"codeValue": "Company",
+					"shortName": "Demo group of companies"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "12",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Kennet",
+					"familyName1": "Marshal",
+					"formattedName": "Kennet Marshal"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollGroupCode": "AD002",
+			"payrollFileNumber": "4563"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "8524",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Vamsi",
+				"givenName": "Vamsi",
+				"middleName": "jai",
+				"familyName1": "Krishna",
+				"formattedName": "Vamsi Krishna"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			},
+			"communication": {
+				"landlines": [{
+					"nameCode": {
+						"codeValue": "HOME",
+						"shortName": "Home Telephone"
+					},
+					"formattedNumber": "784569333"
+				}],
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "78451245"
+				}]
+			},
+			"birthDate": "1995-05-16",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2020-05-27"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "987662112"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "vamsi@jai.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2020-05-27",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "Demo1 - Demo Company Pvt Ltd",
+			"jobCode": {
+				"effectiveDate": "2020-05-27",
+				"codeValue": "023",
+				"shortName": "Development Manager"
+			},
+			"jobTitle": "Development Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "Demo1",
+					"shortName": "Demo Company Pvt Ltd"
+				},
+				"typeCode": {
+					"codeValue": "Company",
+					"shortName": "Demo group of companies"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "26953-15",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Elton",
+					"middleName": "de",
+					"familyName1": "Boyd",
+					"formattedName": "Elton Boyd"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollGroupCode": "AD002",
+			"payrollFileNumber": "963"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "123",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Jayapal",
+				"givenName": "Jayapal",
+				"middleName": "deva",
+				"familyName1": "Dasan",
+				"formattedName": "Jayapal Dasan"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			},
+			"birthDate": "1994-05-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2020-05-22"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jaya@jam.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2020-05-22",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "Demo1 - Demo Company Pvt Ltd",
+			"jobCode": {
+				"effectiveDate": "2020-05-22",
+				"codeValue": "041",
+				"shortName": "Business Analyst"
+			},
+			"jobTitle": "Business Analyst",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "Demo1",
+					"shortName": "Demo Company Pvt Ltd"
+				},
+				"typeCode": {
+					"codeValue": "Company",
+					"shortName": "Demo group of companies"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "26953-10",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Jeramy",
+					"middleName": "van",
+					"familyName1": "Castaneda",
+					"formattedName": "Jeramy Castaneda"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollGroupCode": "AD002",
+			"payrollFileNumber": "757705"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "789",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Ponnudas",
+				"givenName": "Ponnudasan",
+				"middleName": "divyarani",
+				"familyName1": "kutty",
+				"formattedName": "Ponnudasan kutty"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			},
+			"birthDate": "1994-05-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2020-05-22"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "ponnu@kutty.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2020-05-22",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "Demo1 - Demo Company Pvt Ltd",
+			"jobCode": {
+				"effectiveDate": "2020-05-22",
+				"codeValue": "027",
+				"shortName": "HR Business Partner"
+			},
+			"jobTitle": "HR Business Partner",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "Demo1",
+					"shortName": "Demo Company Pvt Ltd"
+				},
+				"typeCode": {
+					"codeValue": "Company",
+					"shortName": "Demo group of companies"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "26953-1001",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Abel",
+					"middleName": "van",
+					"familyName1": "Horn",
+					"formattedName": "Abel Horn"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollGroupCode": "AD002",
+			"payrollFileNumber": "147"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "1234",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "jai",
+				"givenName": "jaiApdddss",
+				"familyName1": "pal",
+				"familyName2": "Jayapal",
+				"formattedName": "jaiApdddss pal"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			},
+			"birthDate": "1994-05-10",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"lineOne": "22",
+				"deliveryPoint": "True",
+				"cityName": "uk",
+				"countryCode": "GBR"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2020-05-21"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jai@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2020-05-21",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "01256 - adp netherlands",
+			"jobCode": {
+				"effectiveDate": "2020-05-21",
+				"codeValue": "025",
+				"shortName": "Senior Developer"
+			},
+			"jobTitle": "Senior Developer",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "01256",
+					"shortName": "adp netherlands"
+				},
+				"typeCode": {
+					"codeValue": "Company",
+					"shortName": "Adp Netherlands"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "NL0J5ND40389WV34",
+				"workerID": {
+					"idValue": "26953-1",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Rick",
+					"familyName1": "James",
+					"formattedName": "Rick James"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollGroupCode": "AD002",
+			"payrollFileNumber": "1434"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "26953-58",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Ms"
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Jerlene",
+				"givenName": "Jerlene",
+				"middleName": "van",
+				"familyName1": "Silva",
+				"formattedName": "Jerlene Silva",
+				"initials": "J"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"buildingNumber": "58",
+				"streetName": "Drielandendreef",
+				"deliveryPoint": "True",
+				"cityName": "Distelberg",
+				"countryCode": "NL",
+				"postalCode": "6845 PE"
+			},
+			"birthDate": "1998-04-15",
+			"genderCode": {
+				"codeValue": "2"
+			},
+			"maritalStatusCode": {
+				"codeValue": "1",
+				"shortName": "Single"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "SocialSecurityNumber",
+					"shortName": "Social Security Number"
+				},
+				"countryCode": "NL",
+				"idValue": "692628769"
+			}],
+			"identityDocuments": [{
+				"documentID": "692628769",
+				"typeCode": {
+					"codeValue": "SocialSecurityNumber",
+					"shortName": "Social Security Number"
+				},
+				"countryCode": "NL"
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"buildingNumber": "58",
+				"streetName": "Drielandendreef",
+				"deliveryPoint": "True",
+				"cityName": "Distelberg",
+				"countryCode": "NL",
+				"postalCode": "6845 PE"
+			}],
+			"citizenshipCountryCodes": [{
+				"codeValue": "0001",
+				"shortName": "Dutch"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2019-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Silva@emaildomaintest.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2019-01-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "26953 - Demo Inc",
+			"jobCode": {
+				"effectiveDate": "2019-01-01",
+				"codeValue": "042",
+				"shortName": "Implementation Manager"
+			},
+			"jobTitle": "Telesales Executive",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"address": {
+					"countryCode": "NL"
+				}
+			},
+			"payrollGroupCode": "26953",
+			"payrollFileNumber": "58"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE257",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Simon",
+				"givenName": "Simon",
+				"familyName1": "Coombes",
+				"formattedName": "Simon Coombes"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 006"
+				}]
+			},
+			"birthDate": "1990-12-23",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-02"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3336"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Simon.Coombes@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-02",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-02",
+				"codeValue": "042",
+				"shortName": "Implementation Manager"
+			},
+			"jobTitle": "Implementation Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "jrusting-z8x",
+				"workerID": {
+					"idValue": "LITE094",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "John",
+					"familyName1": "Rusting",
+					"formattedName": "John Rusting"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "257",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-02"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE258",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Stefan",
+				"givenName": "Stefan",
+				"familyName1": "Thompson",
+				"formattedName": "Stefan Thompson"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 249"
+				}]
+			},
+			"birthDate": "1994-03-24",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-02"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3728"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Stefan.Thompson@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-02",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-02",
+				"codeValue": "043",
+				"shortName": "Implementation Team Lead"
+			},
+			"jobTitle": "Implementation Team Lead",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "scoombes-z8x",
+				"workerID": {
+					"idValue": "LITE257",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Simon",
+					"familyName1": "Coombes",
+					"formattedName": "Simon Coombes"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "258",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-02"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE263",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Miss",
+						"shortName": "Miss."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Charlotte",
+				"givenName": "Charlotte",
+				"familyName1": "Woodford",
+				"formattedName": "Charlotte Woodford"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 693"
+				}]
+			},
+			"birthDate": "1992-02-12",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-02"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3560"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Charlotte.Woodford@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-02",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-02",
+				"codeValue": "044",
+				"shortName": "Implementation Consultant"
+			},
+			"jobTitle": "Implementation Consultant",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "sthompson-z8x",
+				"workerID": {
+					"idValue": "LITE258",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Stefan",
+					"familyName1": "Thompson",
+					"formattedName": "Stefan Thompson"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "263",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-02"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE270",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Daniel",
+				"givenName": "Daniel",
+				"familyName1": "James",
+				"formattedName": "Daniel James"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 222"
+				}]
+			},
+			"birthDate": "1992-09-04",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-02"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3034"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Daniel.James@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-02",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-02",
+				"codeValue": "044",
+				"shortName": "Implementation Consultant"
+			},
+			"jobTitle": "Implementation Consultant",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "wrimmer-z8x",
+				"workerID": {
+					"idValue": "LITE265",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "William",
+					"familyName1": "Rimmer",
+					"formattedName": "William Rimmer"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "270",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-02"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE272",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Miss",
+						"shortName": "Miss."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Sophie",
+				"givenName": "Sophie",
+				"familyName1": "Carlier",
+				"formattedName": "Sophie Carlier"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 030"
+				}]
+			},
+			"birthDate": "1991-09-10",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-02"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3342"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Sophie.Carlier@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-02",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-02",
+				"codeValue": "045",
+				"shortName": "Client UAT Team Lead"
+			},
+			"jobTitle": "Client UAT Team Lead",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "scoombes-z8x",
+				"workerID": {
+					"idValue": "LITE257",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Simon",
+					"familyName1": "Coombes",
+					"formattedName": "Simon Coombes"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "272",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-02"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE212",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "David",
+				"givenName": "David",
+				"familyName1": "Porter",
+				"formattedName": "David Porter"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 285"
+				}]
+			},
+			"birthDate": "1990-04-17",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3609"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "David.Porter@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-01",
+				"codeValue": "46",
+				"shortName": "Account Manager"
+			},
+			"jobTitle": "Account Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "emiller-z8x",
+				"workerID": {
+					"idValue": "LITE023",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Eric",
+					"familyName1": "Miller",
+					"formattedName": "Eric Miller"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "212",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-01"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE231",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Miss",
+						"shortName": "Miss."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Sara",
+				"givenName": "Sara",
+				"familyName1": "Gibbs",
+				"formattedName": "Sara Gibbs"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 541"
+				}]
+			},
+			"birthDate": "1994-03-28",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3915"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Sara.Gibbs@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-01",
+				"codeValue": "024",
+				"shortName": "Development Team Leader"
+			},
+			"jobTitle": "Development Team Leader",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "bjohnson-z8x",
+				"workerID": {
+					"idValue": "LITE202",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Ben",
+					"familyName1": "Johnson",
+					"formattedName": "Ben Johnson"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "231",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-01"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE237",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Miss",
+						"shortName": "Miss."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Katie",
+				"givenName": "Katie",
+				"familyName1": "Fowler",
+				"formattedName": "Katie Fowler"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 807"
+				}]
+			},
+			"birthDate": "1991-05-13",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2015-04-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3620"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Katie.Fowler@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2015-04-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-04-01",
+				"codeValue": "41",
+				"shortName": "Telesales Executive"
+			},
+			"jobTitle": "Telesales Executive",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "swhitman-z8x",
+				"workerID": {
+					"idValue": "LITE103",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Stuart",
+					"familyName1": "Whitman",
+					"formattedName": "Stuart Whitman"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "237",
+			"workerProbationPeriod": {
+				"endDate": "2015-07-01"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "REF001",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Mohan",
+				"givenName": "Mohan",
+				"familyName1": "Annasamy",
+				"formattedName": "Mohan Annasamy"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 308"
+				}]
+			},
+			"birthDate": "1991-09-29",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-10-30",
+			"terminationDate": "2015-06-01",
+			"expectedTerminationDate": "2015-06-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Leaver",
+				"shortName": "Leaver"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3568"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Mohan.Annasamy@example.com"
+			}]
+		}
+	},
+	{
+		"workerID": {
+			"idValue": "REF002",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Travis",
+				"givenName": "Travis",
+				"familyName1": "Bickle",
+				"formattedName": "Travis Bickle"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 517"
+				}]
+			},
+			"birthDate": "1991-09-29",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "M",
+				"shortName": "Married"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}],
+			"citizenshipCountryCodes": [{
+				"codeValue": "British"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-10-30"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3001"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Travis.Bickle@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2014-10-30",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2014-10-30",
+				"codeValue": "57",
+				"shortName": "USA Sales Representative"
+			},
+			"jobTitle": "USA Sales Representative",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "USA 6",
+					"shortName": "Bayern, Germany"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "hrussell-z8x",
+				"workerID": {
+					"idValue": "LITE102",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Harold",
+					"familyName1": "Russell",
+					"formattedName": "Harold Russell"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "REF002",
+			"workerProbationPeriod": {
+				"endDate": "2014-12-31"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE095",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Richard",
+				"givenName": "Richard",
+				"familyName1": "Heaton",
+				"formattedName": "Richard Heaton"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"landlines": [{
+					"nameCode": {
+						"codeValue": "HOME",
+						"shortName": "Home Telephone"
+					},
+					"formattedNumber": "01438 2357898"
+				}],
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 390"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "rheaton24@gmail.com"
+				}]
+			},
+			"birthDate": "1990-04-09",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "M",
+				"shortName": "Married"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}],
+			"citizenshipCountryCodes": [{
+				"codeValue": "British"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-09-30"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"extension": "095",
+				"formattedNumber": "0208 666 3202"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Richard.Heaton@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": false,
+			"hireDate": "2014-09-30",
+			"terminationDate": "2015-02-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2014-09-30",
+				"codeValue": "16",
+				"shortName": "Sales Operations Manager"
+			},
+			"jobTitle": "Sales Operations Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "hspearman-z8x",
+				"workerID": {
+					"idValue": "LITE039",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Harry",
+					"middleName": "David",
+					"familyName1": "Spearman",
+					"formattedName": "Harry Spearman"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "454945",
+			"workerProbationPeriod": {
+				"endDate": "2014-12-31"
+			}
+		},
+		{
+			"primaryIndicator": true,
+			"hireDate": "2014-09-30",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-02-02",
+				"codeValue": "021",
+				"shortName": "UAT Manager"
+			},
+			"jobTitle": "UAT Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "hspearman-z8x",
+				"workerID": {
+					"idValue": "LITE039",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Harry",
+					"middleName": "David",
+					"familyName1": "Spearman",
+					"formattedName": "Harry Spearman"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "454945",
+			"workerProbationPeriod": {
+				"endDate": "2014-12-31"
+			}
+		},
+		{
+			"primaryIndicator": false,
+			"hireDate": "2014-09-30",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2015-02-02",
+				"codeValue": "021",
+				"shortName": "UAT Manager"
+			},
+			"jobTitle": "UAT Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "hspearman-z8x",
+				"workerID": {
+					"idValue": "LITE039",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Harry",
+					"middleName": "David",
+					"familyName1": "Spearman",
+					"formattedName": "Harry Spearman"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "454945",
+			"workerProbationPeriod": {
+				"endDate": "2014-12-31"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE117",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mrs",
+						"shortName": "Mrs."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Frances",
+				"givenName": "Frances",
+				"familyName1": "Cassidy",
+				"formattedName": "Frances Cassidy"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 782"
+				}]
+			},
+			"birthDate": "1992-08-06",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-08-04"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3552"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Frances.Cassidy@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2014-08-04",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2014-08-04",
+				"codeValue": "17",
+				"shortName": "Accounts Clerk"
+			},
+			"jobTitle": "Accounts Clerk",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "mtaliaferro-z8x",
+				"workerID": {
+					"idValue": "LITE056",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Mabel",
+					"familyName1": "Taliaferro",
+					"formattedName": "Mabel Taliaferro"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "Lite976001",
+			"workerProbationPeriod": {
+				"endDate": "2014-11-03"
+			}
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE043",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mrs",
+						"shortName": "Mrs."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Jean",
+				"givenName": "Jean",
+				"familyName1": "Scott",
+				"formattedName": "Jean Scott"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 929"
+				}]
+			},
+			"birthDate": "1990-03-22",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}],
+			"citizenshipCountryCodes": [{
+				"codeValue": "British"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-05-29"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3343"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Jean.Scott@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2014-05-29",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2014-05-29",
+				"codeValue": "53",
+				"shortName": "Promotions & Events Manager"
+			},
+			"jobTitle": "Promotions & Events Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "dharrison-f68",
+				"workerID": {
+					"idValue": "LITE007",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Daniel",
+					"familyName1": "Harrison",
+					"formattedName": "Daniel Harrison"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "LITE043"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE049",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Elliot",
+				"givenName": "Elliot",
+				"familyName1": "Goddard",
+				"formattedName": "Elliot Goddard"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 291"
+				}]
+			},
+			"birthDate": "1991-01-20",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}],
+			"citizenshipCountryCodes": [{
+				"codeValue": "British"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-05-27"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3078"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Elliot.Goddard@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2014-05-27",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2014-05-27",
+				"codeValue": "55",
+				"shortName": "Communications Assistant"
+			},
+			"jobTitle": "Communications Assistant",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "LON01",
+					"shortName": "London, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "sbooth-z8x",
+				"workerID": {
+					"idValue": "LITE115",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Shirley",
+					"familyName1": "Booth",
+					"formattedName": "Shirley Booth"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "LITE049"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "LITE005",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Ben",
+				"givenName": "Ben",
+				"familyName1": "Jackobsen",
+				"formattedName": "Ben Jackobsen"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "07812 677 599"
+				}]
+			},
+			"birthDate": "1992-08-14",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"disabledIndicator": false,
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"identityDocuments": [{
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				}
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"deliveryPoint": "True"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2014-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"landlines": [{
+				"nameCode": {
+					"codeValue": "WORK",
+					"shortName": "Work Telephone"
+				},
+				"formattedNumber": "0208 666 3538"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Ben.Jackobsen@example.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2014-01-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"jobCode": {
+				"effectiveDate": "2014-01-01",
+				"codeValue": "7",
+				"shortName": "Sales Representative - EMEA"
+			},
+			"jobTitle": "Sales Representative - Birmingham",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "BIR001",
+					"shortName": "Birmingham, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "UK0K5JC3528QQDG3",
+				"workerID": {
+					"idValue": "LITE006",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Samantha",
+					"middleName": "Janette",
+					"familyName1": "Pederson",
+					"familyName2": "Johnson",
+					"formattedName": "Samantha Pederson"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollGroupCode": "AR002",
+			"payrollFileNumber": "LITE005"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "8956",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Mani",
+				"givenName": "Mani",
+				"familyName1": "Vanan",
+				"formattedName": "Mani Vanan"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "78451245"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "mani@jo.com"
+				}]
+			},
+			"birthDate": "2000-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE",
+				"idValue": "12345"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "12345"
+			}],
+			"identityDocuments": [{
+				"documentID": "12345",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE"
+			},
+			{
+				"documentID": "12345",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2005-12-15",
+			"retirementDate": "2067-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "man@mo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2005-12-15",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2005-12-15",
+				"codeValue": "0017",
+				"shortName": "Business Analyst"
+			},
+			"jobTitle": "Business Analyst",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "SW1",
+					"shortName": "SE Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Swedish Org"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "J003",
+					"shortName": "Chertsey, UK"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "12345",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "jamm",
+					"familyName1": "devaa",
+					"formattedName": "jamm jayapal devaa"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "7845"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "9852",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "das",
+				"givenName": "das",
+				"familyName1": "jai",
+				"formattedName": "das jai"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "784512"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "jai@joo.com"
+				}]
+			},
+			"birthDate": "1993-11-15",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			}
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2005-11-23"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jam@ko.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2005-11-23",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SW1 - SE Company",
+			"jobCode": {
+				"effectiveDate": "2005-11-23",
+				"codeValue": "0017",
+				"shortName": "Business Analyst"
+			},
+			"jobTitle": "Business Analyst",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "12345",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "jamm",
+					"familyName1": "devaa",
+					"formattedName": "jamm jayapal devaa"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "742"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "4587",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Dhoni",
+				"givenName": "Dhoni",
+				"familyName1": "jai",
+				"formattedName": "Dhoni jai"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "784512"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "dhoni@jo.com"
+				}]
+			},
+			"birthDate": "1992-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "ALB",
+				"idValue": "1234567"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "1234568"
+			}],
+			"identityDocuments": [{
+				"documentID": "1234567",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "ALB"
+			},
+			{
+				"documentID": "1234568",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-12-25",
+			"retirementDate": "2066-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jo@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-12-25",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2000-12-25",
+				"codeValue": "0012",
+				"shortName": "HR Executive"
+			},
+			"jobTitle": "Senior Application Developer",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "SW1",
+					"shortName": "SE Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Swedish Org"
+				}
+			}],
+			"homeWorkLocation": {
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "12345",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "jamm",
+					"familyName1": "devaa",
+					"formattedName": "jamm jayapal devaa"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "7854"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "741",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "jayi",
+				"givenName": "jayi",
+				"familyName1": "pal",
+				"formattedName": "jayi pal"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "74125896"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "jai@jo.com"
+				}]
+			},
+			"birthDate": "1993-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			}
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-12-25"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "ma@mo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-12-25",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "AC01 - Accomatics Company",
+			"jobCode": {
+				"effectiveDate": "2000-12-25",
+				"codeValue": "0017",
+				"shortName": "Business Analyst"
+			},
+			"jobTitle": "Business Analyst",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "J002",
+					"shortName": "Bristol, UK"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "43253254",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Gemma",
+					"familyName1": "Best",
+					"formattedName": "Gemma Best"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "7895"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "963",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "jayi",
+				"givenName": "jayi",
+				"familyName1": "Mass",
+				"formattedName": "jayi Mass"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "784512"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "jai@jo.com"
+				}]
+			},
+			"birthDate": "1993-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"disabledIndicator": false
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-12-18"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "mass@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-12-18",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "COMP000 - Alliance Demo Limited",
+			"jobCode": {
+				"effectiveDate": "2000-12-18",
+				"codeValue": "022",
+				"shortName": "UAT Specialist"
+			},
+			"jobTitle": "UAT Specialist",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "UK0K5R813472BF45",
+				"workerID": {
+					"idValue": "8524",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Vamsi",
+					"middleName": "jai",
+					"familyName1": "Krishna",
+					"formattedName": "Vamsi Krishna"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "8523"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "85",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "saravanan",
+				"givenName": "Saravanan",
+				"familyName1": "Samy",
+				"formattedName": "Saravanan Samy"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "456321"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "saro@jo.com"
+				}]
+			},
+			"birthDate": "1990-11-14",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "AFG",
+				"idValue": "123456"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "124456456"
+			}],
+			"identityDocuments": [{
+				"documentID": "123456",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "AFG"
+			},
+			{
+				"documentID": "124456456",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-11-20",
+			"retirementDate": "2055-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "saro@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-11-20",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2000-11-20",
+				"codeValue": "0012",
+				"shortName": "HR Executive"
+			},
+			"jobTitle": "Senior Application Developer",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "SW1",
+					"shortName": "SE Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Swedish Org"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "USA 6",
+					"shortName": "Bayern, Germany"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "1458",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "varunkumar",
+					"familyName1": "kumar",
+					"formattedName": "varunkumar kumar"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "741"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "1458",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "varunjai",
+				"givenName": "varunkumar",
+				"familyName1": "kumar",
+				"formattedName": "varunkumar kumar"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "78451245"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "var@jo.com"
+				}]
+			},
+			"birthDate": "1995-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			}
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-05-22",
+			"retirementDate": "2062-01-01",
+			"terminationDate": "2020-06-08",
+			"expectedTerminationDate": "2020-06-08"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Leaver",
+				"shortName": "Leaver"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "varan@jam.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-05-22",
+			"terminationDate": "2020-06-08",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Leaver",
+					"shortName": "Leaver"
+				}
+			},
+			"assignmentCostCenters": [{
+				"costCenterID": "SE01",
+				"costCenterName": "Sweden CC"
+			}],
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2000-05-22",
+				"codeValue": "0012",
+				"shortName": "HR Executive"
+			},
+			"jobTitle": "Senior Application Developer",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "SW1",
+					"shortName": "SE Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Swedish Org"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "BIR001",
+					"shortName": "Birmingham, UK"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "UK0K5S62914FIWS3",
+				"workerID": {
+					"idValue": "SE01",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Gary",
+					"familyName1": "Evans",
+					"formattedName": "Gary Evans"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "7852"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "7412",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Miss",
+						"shortName": "Miss."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Michelle",
+				"givenName": "Mandy",
+				"familyName1": "Jones",
+				"formattedName": "Mandy Jones"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "78521"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "mo@ci.com"
+				}]
+			},
+			"birthDate": "1999-05-20",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE",
+				"idValue": "123"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "123"
+			}],
+			"identityDocuments": [{
+				"documentID": "123",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE"
+			},
+			{
+				"documentID": "123",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-05-20"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "maa@cjo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-05-20",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2000-05-20",
+				"codeValue": "0037",
+				"shortName": "Customer Service Manager"
+			},
+			"jobTitle": "Customer Service Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "J002",
+					"shortName": "Bristol, UK"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "12",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Kennet",
+					"familyName1": "Marshal",
+					"formattedName": "Kennet Marshal"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "7845523"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "12",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "kennet",
+				"givenName": "Kennet",
+				"familyName1": "Marshal",
+				"formattedName": "Kennet Marshal"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "852369"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "kenent@jo.com"
+				}]
+			},
+			"birthDate": "1992-10-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE",
+				"idValue": "13423532"
+			},
+			{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE",
+				"idValue": "13423532"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "1234214"
+			}],
+			"identityDocuments": [{
+				"documentID": "13423532",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE"
+			},
+			{
+				"documentID": "13423532",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE"
+			},
+			{
+				"documentID": "1234214",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-04-18",
+			"retirementDate": "2057-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "kee@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-04-18",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"assignmentCostCenters": [{
+				"costCenterID": "SE01",
+				"costCenterName": "Sweden CC"
+			}],
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2000-04-18",
+				"codeValue": "0012",
+				"shortName": "HR Executive"
+			},
+			"jobTitle": "Senior Application Developer",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "SW1",
+					"shortName": "SE Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Swedish Org"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "SE11",
+					"shortName": "Stockholm Office, Sweden"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "852",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "jayapal",
+					"middleName": "mass",
+					"familyName1": "kutty",
+					"formattedName": "jayapal kutty"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "46"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "852",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "jayapal",
+				"givenName": "jayapal",
+				"middleName": "mass",
+				"familyName1": "kutty",
+				"formattedName": "jayapal kutty"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "78451245"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "mass@mo.com"
+				}]
+			},
+			"birthDate": "1994-06-23",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			}
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-04-10",
+			"retirementDate": "2059-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jao@jig.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-04-10",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Temporary",
+				"longName": "Temporary"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2020-06-10",
+				"codeValue": "0047",
+				"shortName": "Marketing Associate"
+			},
+			"jobTitle": "Marketing Associate",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "AC03",
+					"shortName": "Research & Development"
+				},
+				"typeCode": {
+					"codeValue": "Department SE",
+					"shortName": "Accomatics Ltd"
+				}
+			},
+			{
+				"nameCode": {
+					"codeValue": "AC02",
+					"shortName": "Accomatics Division"
+				},
+				"typeCode": {
+					"codeValue": " Division SE",
+					"shortName": "Accomatics Ltd"
+				}
+			},
+			{
+				"nameCode": {
+					"codeValue": "AC01",
+					"shortName": "Accomatics Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Accomatics Ltd"
+				}
+			}],
+			"homeWorkLocation": {
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "UK0K5S62914FIWS3",
+				"workerID": {
+					"idValue": "SE01",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Gary",
+					"familyName1": "Evans",
+					"formattedName": "Gary Evans"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "65489"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "12345",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "jam",
+				"givenName": "jamm",
+				"familyName1": "devaa",
+				"formattedName": "jamm devaa"
+			},
+			"communication": {
+				"landlines": [{
+					"nameCode": {
+						"codeValue": "HOME",
+						"shortName": "Home Telephone"
+					},
+					"formattedNumber": "785829"
+				}],
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "978451278"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "jam@jo.com"
+				}]
+			},
+			"birthDate": "1993-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			}
+		},
+		"workerDates": {
+			"adjustedServiceDate": "2000-03-03",
+			"retirementDate": "2056-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"mobiles": [{
+				"nameCode": {
+					"codeValue": "WORKMOBILE",
+					"shortName": "Work Mobile Telephone"
+				},
+				"formattedNumber": "78451245"
+			}],
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jam@jo.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "2000-03-03",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"assignmentCostCenters": [{
+				"costCenterID": "SE01",
+				"costCenterName": "Sweden CC"
+			}],
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "2000-03-03",
+				"codeValue": "0017",
+				"shortName": "Business Analyst"
+			},
+			"jobTitle": "Business Analyst",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeOrganizationalUnits": [{
+				"nameCode": {
+					"codeValue": "SW1",
+					"shortName": "SE Company"
+				},
+				"typeCode": {
+					"codeValue": "Company SE",
+					"shortName": "Swedish Org"
+				}
+			}],
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "SE11",
+					"shortName": "Stockholm Office, Sweden"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "UK0K5S62914FIWS3",
+				"workerID": {
+					"idValue": "SE01",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Gary",
+					"familyName1": "Evans",
+					"formattedName": "Gary Evans"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "502839"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "26953-8",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Willard",
+				"givenName": "Willard",
+				"familyName1": "Jacobs",
+				"formattedName": "Willard Jacobs",
+				"initials": "W"
+			},
+			"legalAddress": {
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"buildingNumber": "8",
+				"streetName": "Amperestraat",
+				"deliveryPoint": "True",
+				"cityName": "Bath",
+				"countryCode": "NL",
+				"postalCode": "7594 DV"
+			},
+			"birthDate": "1999-01-01",
+			"genderCode": {
+				"codeValue": "1"
+			},
+			"maritalStatusCode": {
+				"codeValue": "1",
+				"shortName": "Single"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "SocialSecurityNumber",
+					"shortName": "Social Security Number"
+				},
+				"countryCode": "NL",
+				"idValue": "165682358"
+			}],
+			"identityDocuments": [{
+				"documentID": "165682358",
+				"typeCode": {
+					"codeValue": "SocialSecurityNumber",
+					"shortName": "Social Security Number"
+				},
+				"countryCode": "NL"
+			}],
+			"otherPersonalAddresses": [{
+				"typeCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"nameCode": {
+					"codeValue": "HOME",
+					"shortName": "Home Address"
+				},
+				"buildingNumber": "8",
+				"streetName": "Amperestraat",
+				"deliveryPoint": "True",
+				"cityName": "Bath",
+				"countryCode": "NL",
+				"postalCode": "7594 DV"
+			}],
+			"citizenshipCountryCodes": [{
+				"codeValue": "0001",
+				"shortName": "Dutch"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "1999-06-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "Jacobs@emaildomaintest.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "1999-06-01",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "26953 - Demo Inc",
+			"jobCode": {
+				"effectiveDate": "1999-06-01",
+				"codeValue": "15",
+				"shortName": "Accountant"
+			},
+			"jobTitle": "Accountant",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"address": {
+					"countryCode": "NL"
+				}
+			},
+			"payrollGroupCode": "26953",
+			"payrollFileNumber": "8"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "784545",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Michelle",
+				"givenName": "Christian",
+				"familyName1": "Phillips",
+				"formattedName": "Christian Phillips"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "784512"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "jai@pal.com"
+				}]
+			},
+			"birthDate": "1996-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "AND",
+				"idValue": "123"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "123"
+			}],
+			"identityDocuments": [{
+				"documentID": "123",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "AND"
+			},
+			{
+				"documentID": "123",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "1999-05-20"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "pal@do.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "1999-05-20",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "1999-05-20",
+				"codeValue": "0032",
+				"shortName": "Graphic Designer"
+			},
+			"jobTitle": "Graphics Designer",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "J002",
+					"shortName": "Bristol, UK"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "1343434",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "Bravo",
+					"familyName1": "Smith",
+					"formattedName": "Bravo Smith"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "789556"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "63",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Mr",
+						"shortName": "Mr."
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "prakash",
+				"givenName": "Prakash",
+				"familyName1": "Jai",
+				"formattedName": "Prakash Jai"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "45124578"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "pra@jo.com"
+				}]
+			},
+			"birthDate": "1990-11-18",
+			"genderCode": {
+				"codeValue": "Male",
+				"shortName": "Male"
+			},
+			"maritalStatusCode": {
+				"codeValue": "S",
+				"shortName": "Single"
+			},
+			"governmentIDs": [{
+				"nameCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE",
+				"idValue": "123214"
+			},
+			{
+				"nameCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE",
+				"idValue": "1234"
+			}],
+			"identityDocuments": [{
+				"documentID": "123214",
+				"typeCode": {
+					"codeValue": "2",
+					"shortName": "Passport"
+				},
+				"countryCode": "SWE"
+			},
+			{
+				"documentID": "1234",
+				"typeCode": {
+					"codeValue": "SocialInsuranceID",
+					"shortName": "SocialInsuranceID"
+				},
+				"countryCode": "SE"
+			}]
+		},
+		"workerDates": {
+			"adjustedServiceDate": "1996-12-23",
+			"retirementDate": "2055-01-01"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "pra@ko.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "1996-12-23",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "SE01 - Alliance Demo Ltd - Sweden",
+			"jobCode": {
+				"effectiveDate": "1996-12-23",
+				"codeValue": "0017",
+				"shortName": "Business Analyst"
+			},
+			"jobTitle": "Business Analyst",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "USA 6",
+					"shortName": "Bayern, Germany"
+				},
+				"address": {
+					"countryCode": "SE"
+				}
+			},
+			"reportsTo": [{
+				"workerID": {
+					"idValue": "12345",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "jamm",
+					"familyName1": "devaa",
+					"formattedName": "jamm jayapal devaa"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "96"
+		}]
+	},
+	{
+		"workerID": {
+			"idValue": "98745",
+			"schemeCode": {
+				"codeValue": "REFERENCE",
+				"shortName": "Employee Reference Number"
+			}
+		},
+		"person": {
+			"legalName": {
+				"preferredSalutations": [{
+					"salutationCode": {
+						"codeValue": "Ms"
+					},
+					"typeCode": {
+						"codeValue": "SOCIAL",
+						"shortName": "Social"
+					},
+					"sequenceNumber": 1
+				}],
+				"nickName": "Divya",
+				"givenName": "Divya",
+				"familyName1": "Rani",
+				"formattedName": "Divya Rani"
+			},
+			"communication": {
+				"mobiles": [{
+					"nameCode": {
+						"codeValue": "PERMOBILE",
+						"shortName": "Personal Mobile"
+					},
+					"formattedNumber": "7845124578"
+				}],
+				"emails": [{
+					"nameCode": {
+						"codeValue": "PERSONALEMAIL",
+						"shortName": "Personal Email"
+					},
+					"emailUri": "divya@jai.com"
+				}]
+			},
+			"birthDate": "1994-08-23",
+			"genderCode": {
+				"codeValue": "Female",
+				"shortName": "Female"
+			},
+			"disabledIndicator": false
+		},
+		"workerDates": {
+			"adjustedServiceDate": "1994-11-12"
+		},
+		"workerStatus": {
+			"statusCode": {
+				"codeValue": "Current",
+				"shortName": "Current"
+			}
+		},
+		"businessCommunication": {
+			"emails": [{
+				"nameCode": {
+					"codeValue": "WORKEMAIL",
+					"shortName": "Work Email"
+				},
+				"emailUri": "jai@jam.com"
+			}]
+		},
+		"workAssignments": [{
+			"primaryIndicator": true,
+			"hireDate": "1994-11-12",
+			"assignmentStatus": {
+				"statusCode": {
+					"codeValue": "Current",
+					"shortName": "Current"
+				}
+			},
+			"workerTypeCode": {
+				"shortName": "Permanent",
+				"longName": "Permanent"
+			},
+			"workLevelCode": {
+				"codeValue": "Full_Time",
+				"shortName": "Full Time"
+			},
+			"legalEntityID": "COMP000 - Alliance Demo Limited",
+			"jobCode": {
+				"effectiveDate": "1994-11-12",
+				"codeValue": "021",
+				"shortName": "UAT Manager"
+			},
+			"jobTitle": "UAT Manager",
+			"fullTimeEquivalenceRatio": 1.0,
+			"homeWorkLocation": {
+				"nameCode": {
+					"codeValue": "MAN01",
+					"shortName": "Manchester, UK"
+				},
+				"address": {
+					"countryCode": "GB"
+				}
+			},
+			"reportsTo": [{
+				"associateOID": "jmathews-j5f",
+				"workerID": {
+					"idValue": "ADP001",
+					"schemeCode": {
+						"codeValue": "REFERENCENUMBER",
+						"shortName": "REFERENCE NUMBER"
+					}
+				},
+				"reportsToWorkerName": {
+					"givenName": "John",
+					"middleName": "jo",
+					"familyName1": "Mathews",
+					"formattedName": "John Mathews"
+				},
+				"reportsToRelationshipCode": {
+					"codeValue": "REPORTSTO",
+					"shortName": "REPORTS TO"
+				}
+			}],
+			"payrollFileNumber": "8526"
+		}]
+	}]
+}

@@ -1,0 +1,47 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-02-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "2dcd1b7c-db3b-4a37-b2e9-6ba0b71da907",
+            "eventNameCode": {
+                "codeValue": "worker.personalContact.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "000089"
+                    },
+                    "personalContact": {
+                        "itemID": "W-001"
+                    }
+                },
+                "output": {
+                    "personalContact": {
+                        "itemID": "W-001",
+                        "personName": {
+                            "familyName1": "Willigennn",
+                            "familyName1Prefix": "",
+                            "initials": "K",
+                            "givenName": "",
+                            "nickName": "",
+                            "formattedName": "K Willigennn"
+                        },
+                        "communication": {
+                            "landlines": [
+                                {
+                                    "itemID": "1",
+                                    "formattedNumber": "'+31644150089"
+                                }
+                            ]
+                        },
+                        "contactTypeCode": {
+                            "codeValue": "E",
+                            "shortName": "Emergency"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

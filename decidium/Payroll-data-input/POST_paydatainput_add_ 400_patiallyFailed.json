@@ -1,0 +1,25 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-12-01T11:24:34.864+01:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: dafe5-mp1, Date d'effet: 01012020, Période: 202009 - Collaborateur non trouvé"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: dafe5-mp1, Date d'effet: 01012020, Période: 202009 - Collaborateur non trouvé"
+                }
+            }
+        ]
+    }
+}

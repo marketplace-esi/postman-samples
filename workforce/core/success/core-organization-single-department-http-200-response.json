@@ -1,0 +1,32 @@
+{
+    "organizationDepartments": [
+        {
+            "parentDepartmentCode": {
+                "codeValue": ""
+            },
+            "departmentCode": {
+                "codeValue": "000001",
+                "shortName": "Head",
+                "longName": "Corporate Headquarter"
+            },
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "streetName": "K.P. van der Mandelelaan",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "unit": ""
+            },
+            "departmentDescription": "Corporate Headquarter",
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "010-2590000",
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    }
+                }
+            ]
+        }   
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d846b44b9ee8dd",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.fax.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "businessCommunication": {
+                            "fax": {
+                                "formattedNumber": "0501020305",
+                                "itemID": "businessFax"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"events": [{
+		"data": {
+			"eventContext": {
+				"worker": {
+					"associateOID": "employee-xyz"
+				},
+				"personalContact": {
+					"itemID": "NOM,PRENOM"
+				}
+			}
+		}
+	}]
+}

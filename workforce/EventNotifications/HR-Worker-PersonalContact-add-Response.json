@@ -1,0 +1,36 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-02-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "6bfa5f09-3951-4aa5-8353-6260496fc6ee",
+            "eventNameCode": {
+                "codeValue": "worker.personalContact.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "000088"
+                    }
+                },
+                "output": {
+                    "personalContact": {
+                        "itemID": "W-002",
+                        "personName": {
+                            "familyName1": "trfsergsersg",
+                            "familyName1Prefix": "",
+                            "initials": "rd",
+                            "givenName": "",
+                            "nickName": "",
+                            "formattedName": "rd trfsergsersg"
+                        },
+                        "contactTypeCode": {
+                            "codeValue": "E",
+                            "shortName": "Emergency"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

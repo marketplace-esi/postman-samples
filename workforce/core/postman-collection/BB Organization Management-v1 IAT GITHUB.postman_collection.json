@@ -1,0 +1,1223 @@
+{
+	"info": {
+		"_postman_id": "0a1cf307-e30d-43bd-9613-ccef71d0079c",
+		"name": "BB Organization Management-v1 IAT GITHUB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Access token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "paste client_id here",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "paste client_secret here",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://iat-accounts.eu.adp.com/auth/oauth/v2/token",
+					"protocol": "https",
+					"host": [
+						"iat-accounts",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"auth",
+						"oauth",
+						"v2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Cost Centers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-cost-centers",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-cost-centers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Cost Centers based on Cost Center Code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-cost-centers/01225",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-cost-centers",
+						"01225"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Organization Cost Center Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-cost-center.add/75580211-fd42-4b8d-934d-60b0259ad887",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-cost-center.add",
+						"75580211-fd42-4b8d-934d-60b0259ad887"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Organization Cost Center Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-cost-center.change/93f303f9-c7f2-44aa-9347-b046cf290c0d",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-cost-center.change",
+						"93f303f9-c7f2-44aa-9347-b046cf290c0d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Organization Cost Center Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-cost-center.remove/dd212a89-a516-4b40-89a4-94ed350d6267",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-cost-center.remove",
+						"dd212a89-a516-4b40-89a4-94ed350d6267"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve department information",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-departments",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve department information based on departmentCode",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-departments/000001",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-departments",
+						"000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Organization Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-department.add/070a8528-327a-4306-9c98-ebcf53f30fcb",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-department.add",
+						"070a8528-327a-4306-9c98-ebcf53f30fcb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Organization Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"type": "text",
+						"value": "DEV",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-department.change/4a944954-a9c3-41be-aa8d-cc02dbe4ecb8",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-department.change",
+						"4a944954-a9c3-41be-aa8d-cc02dbe4ecb8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Organization Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-department.remove/7c9d2d7f-cb07-4ea9-a13b-11140f86b4bc",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-department.remove",
+						"7c9d2d7f-cb07-4ea9-a13b-11140f86b4bc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve jobs information",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v1/organization-jobs",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v1",
+						"organization-jobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve jobs information based on jobCode",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v1/organization-jobs/000001",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v1",
+						"organization-jobs",
+						"000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Organization Job Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/organization-job.add/461ada4d-cfe2-46e9-b255-d7a040dd365a",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"organization-job.add",
+						"461ada4d-cfe2-46e9-b255-d7a040dd365a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Organization Job Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/organization-job.change/3223f5eb-c04d-4565-a6d0-f7950748bb09",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"organization-job.change",
+						"3223f5eb-c04d-4565-a6d0-f7950748bb09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Organization Job Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/organization-job.remove/051f6b91-9b1c-4ada-ac8a-cf47218162dc",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"organization-job.remove",
+						"051f6b91-9b1c-4ada-ac8a-cf47218162dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Positions Information",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v1/organization-positions",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v1",
+						"organization-positions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve Positions Information based on Position Code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/hr/v1/organization-positions/000001-000001",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"hr",
+						"v1",
+						"organization-positions",
+						"000001-000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Organization Position Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/organization-position.add/41d980da-e47b-4cb2-ad79-15d92d920175",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"organization-position.add",
+						"41d980da-e47b-4cb2-ad79-15d92d920175"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Organization Position Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/organization-position.change/6f71e85c-5626-41df-9e99-151d0af748b3",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"organization-position.change",
+						"6f71e85c-5626-41df-9e99-151d0af748b3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Organization Position Event Instance (by Event Manager)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/hr/v1/organization-position.remove/ea73b0f8-237a-4109-8d20-ccfcc2935846",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"hr",
+						"v1",
+						"organization-position.remove",
+						"ea73b0f8-237a-4109-8d20-ccfcc2935846"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve role information",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-roles",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-roles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve role information based on RoleCode",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/core/v1/organization-roles/000001",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"core",
+						"v1",
+						"organization-roles",
+						"000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Role Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-role.add/ee85be58-4f7e-472a-ba63-feb8935fd345",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-role.add",
+						"ee85be58-4f7e-472a-ba63-feb8935fd345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Role Department Event Instance (by Event Manager)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "paste bearer token here",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "adp.env",
+						"value": "DEV",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iat-api.eu.adp.com/events/core/v1/organization-role.remove/ce1abaed-4e40-4690-8c79-2630ba3d0313",
+					"protocol": "https",
+					"host": [
+						"iat-api",
+						"eu",
+						"adp",
+						"com"
+					],
+					"path": [
+						"events",
+						"core",
+						"v1",
+						"organization-role.remove",
+						"ce1abaed-4e40-4690-8c79-2630ba3d0313"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

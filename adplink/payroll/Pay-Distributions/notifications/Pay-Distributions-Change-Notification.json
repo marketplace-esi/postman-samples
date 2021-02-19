@@ -1,0 +1,50 @@
+{
+	"events": [
+		{
+			"eventID": "5ef3254447d846b8e29ee8e6",
+			"eventNameCode": {
+				"codeValue": "worker.payDistribution.change"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "employee-xyz"
+					}
+				},
+				"output": {
+					"payDistribution": {
+						"distributionInstructions": [
+							{
+								"precedenceCode": {
+									"codeValue": "primary",
+									"shortName": "Compte principal"
+								},
+								"paymentMethodCode": {
+									"codeValue": "bank_account",
+									"shortName": "VIREMENT"
+								},
+								"depositAccount": {
+									"financialParty": {
+										"nameCode": {
+											"codeValue": "LCL",
+											"shortName": "LCL"
+										},
+										"SWIFTCode": "NORDFRPP"
+									},
+									"financialAccount": {
+										"accountName": "NOM"
+									},
+									"IBAN": "FR2676123007604317124767003"
+								},
+								"distributionAmount": {
+									"currencyCode": "EUR"
+								},
+								"itemID": "1"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

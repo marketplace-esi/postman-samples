@@ -1,0 +1,44 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-11T00:00:00Z",
+            "effectiveDateTime": "2021-01-11T00:00:00Z",
+            "eventID": "a1b03138-9a94-432f-982b-e28d074b048b",
+            "eventNameCode": {
+                "codeValue": "organizationPosition.add"
+            },
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "000091-000007"
+                },
+                "output": {
+                    "organizationPosition": {
+                        "positionID": "000091-000007",
+                        "positionTitle": "Finance - Systeembeheerder",
+                        "sharedPositionMaximumHeadcount": 0,
+                        "budgetedAmount": {
+                            "amountValue": 0.00,
+                            "currencyCode": "EUR"
+                        },
+                        "workAssignment": {
+                            "standardHours": {
+                                "hoursQuantity": 36.00,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "Week"
+                                }
+                            },
+                            "wageLawCoverages": [
+                                {
+                                    "wageLawNameCode": {
+                                        "codeValue": "64"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

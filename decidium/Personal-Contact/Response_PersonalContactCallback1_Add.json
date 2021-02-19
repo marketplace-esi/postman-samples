@@ -1,0 +1,91 @@
+{
+  "events": [
+    {
+      "eventID": "0383e013-1c15-497d-874e-aa7822ed6dfa",
+      "eventNameCode": {
+        "codeValue": "worker.personalContact.add"
+      },
+      "recordDateTime": "2020-07-31T12:59:47+02:00",
+      "effectiveDateTime": "2020-07-31T12:59:47+02:00",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "pnom2-mp2"
+          }
+        },
+        "output": {
+          "personalContact": {
+            "personName": {
+              "givenName": "TESTINGPRENOM_PC1",
+              "familyName1": "TESTINGNOM_PC1",
+              "formattedName": "TESTINGNOM_PC1,TESTINGPRENOM_PC1",
+              "preferredSalutations": [
+                {
+                  "salutationCode": {
+                    "codeValue": "MLE",
+                    "shortName": "Mademoiselle",
+                    "longName": "Mademoiselle"
+                  },
+                  "sequenceNumber": 0
+                }
+              ],
+              "titleAffixCodes": [
+                {
+                  "affixCode": {
+                    "codeValue": "MLE",
+                    "shortName": "Mademoiselle",
+                    "longName": "Mademoiselle"
+                  },
+                  "sequenceNumber": 0
+                }
+              ]
+            },
+            "communication": {
+              "landlines": [
+                {
+                  "nameCode": {
+                    "codeValue": "Work Phone"
+                  },
+                  "formattedNumber": "987 765 111"
+                },
+                {
+                  "nameCode": {
+                    "codeValue": "Home Phone"
+                  },
+                  "formattedNumber": "987 766 111"
+                }
+              ],
+              "mobiles": [
+                {
+                  "nameCode": {
+                    "codeValue": "Mobile Phone"
+                  },
+                  "formattedNumber": "987 767 111"
+                }
+              ],
+              "emails": [
+                {
+                  "nameCode": {
+                    "codeValue": "Travail",
+                    "shortName": "Travail",
+                    "longName": "Travail"
+                  },
+                  "emailUri": "TESTINGNOM_PC1@adp.com"
+                }
+              ]
+            },
+            "relationshipTypeCode": {
+              "codeValue": "P",
+              "shortName": "PARENT",
+              "longName": "PARENT"
+            },
+            "precedenceCode": {
+              "codeValue": "Y"
+            },
+            "itemID": "1"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "GIVENNAME",
+                                "middleName": "",
+                                "familyName1": "FAMILYNAME",
+                                "familyName2": "",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

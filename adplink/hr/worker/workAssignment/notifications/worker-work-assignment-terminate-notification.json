@@ -1,0 +1,60 @@
+{
+	"events": [
+		{
+			"eventID": "5ef578956783e9ee8fe",
+			"eventNameCode": {
+				"codeValue": "worker.workAssignment.terminate"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "collab-xyz"
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "collab-xyz",
+						"workerID": {
+							"idValue": "0011574"
+						},
+						"workAssignment": {
+							"terminationDate": "2020-10-01",
+							"customFieldGroup": {
+								"dateFields": [
+									{
+										"itemID": "terminationDateAdm",
+										"dateValue": "2020-10-01"
+									},
+									{
+										"itemID": "terminationNotificationDate",
+										"dateValue": "2020-07-01"
+									},
+									{
+										"itemID": "terminationNoticeStartDate",
+										"dateValue": "2020-07-15"
+									},
+									{
+										"itemID": "terminationNoticeEndDate",
+										"dateValue": "2020-10-01"
+									}
+								],
+								"stringFields": [
+									{
+										"itemID": "terminationReason",
+										"stringValue": "01"
+									}
+								],
+								"numberFields": [
+									{
+										"itemID": "monthDurationNoticeCSP",
+										"numberValue": "0"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}
