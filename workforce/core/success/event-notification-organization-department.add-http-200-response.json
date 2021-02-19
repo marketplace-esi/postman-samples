@@ -1,35 +1,35 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-05-28T00:00:00Z",
-            "effectiveDateTime": "2020-05-01T00:00:00Z",
-            "eventID": "070a8528-327a-4306-9c98-ebcf53f30fcb",
+            "creationDateTime": "2021-01-05T00:00:00Z",
+            "effectiveDateTime": "2021-01-01T00:00:00Z",
+            "eventID": "d14ac663-cc88-48a6-b683-098ba3318230",
             "eventNameCode": {
                 "codeValue": "organizationDepartment.add"
             },
             "data": {
                 "eventContext": {
-                    "organizationDepartment": {
-                        "departmentCode": {
-                            "codeValue": "061100",
-                            "shortName": "Omsch",
-                            "longName": "Omschrijving"
-                        }
-                    }
+                    "contextExpressionID": "000123"
                 },
                 "output": {
                     "organizationDepartment": {
                         "parentDepartmentCode": {
-                            "codeValue": ""
+                            "codeValue": "000091"
                         },
                         "departmentCode": {
-                            "codeValue": "061100",
-                            "shortName": "Omsch",
-                            "longName": "Omschrijving"
+                            "codeValue": "000123",
+                            "shortName": "DTC",
+                            "longName": "Department Test Case"
                         },
-                        "departmentDescription": "Omschrijving",
+                        "departmentDescription": "Department Test Case",
                         "activeIndicator": false,
                         "auxilliaryFields": [
+                            {
+                                "stringValue": "00012",
+                                "nameCode": {
+                                    "codeValue": "costCenter"
+                                }
+                            },
                             {
                                 "stringValue": "",
                                 "nameCode": {
