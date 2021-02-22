@@ -1,59 +1,28 @@
-{  
-  "events":[  
-    {  
-      "serviceCategoryCode":{  
-        "codeValue":"hr"
-      },
-      "eventNameCode":{  
-        "codeValue":"worker.businessCommunication.email.change"
-      },
-      "eventStatusCode":{  
-        "codeValue":"completed"
-      },
-      "recordDateTime":"2020-12-20T00:00:00Z",
-      "creationDateTime":"2020-12-20T00:00:00Z",
-      "effectiveDateTime":"2020-12-20T00:00:00Z",
-      "originator":{  
-        "associateOID":"G4O73G9Z62SL2NFM",
-        "formattedName":"Anthony Albright",
-        "deviceID":"ABC123XYZ"
-      },
-      "actor":{  
-        "associateOID":"G4O73G9Z62SL2NFM",
-        "formattedName":"Anthony Albright",
-        "deviceID":"ABC123XYZ"
-      },
-      "data":{  
-        "eventContext":{  
-          "worker":{  
-            "workerID": {
-                "idValue": "000004"
-            },
-            "businessCommunication":{  
-              "email":{  
-                "itemID":"1"
-              }
-            }
-          }
-        },
-        "output":{  
-          "worker":{  
-            "workerID":{  
-              "idValue":"000004",
-              "schemeCode":{  
-                "codeValue":"EID",
-                "shortName":"Employee ID"
-              }
-            },
-            "businessCommunication":{  
-              "email":{  
-                "itemID":"1",
-                "emailUri":"example@mail.com"
-              }
-            }
-          }
-        }
-      }
-    }
-  ]
+{
+	"events": [
+		{
+			"eventNameCode": {
+				"codeValue": "worker.businessCommunication.email.change"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000004"
+						}
+					}
+				},
+				"transform": {
+					"worker": {
+		
+                        "businessCommunication": {
+                            "email": {
+                                "emailUri": "newmail@mail.com"
+                            }
+                        }
+					}
+				}
+			}
+		}
+	]
 }
