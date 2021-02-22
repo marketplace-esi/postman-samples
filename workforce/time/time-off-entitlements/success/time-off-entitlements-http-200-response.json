@@ -1,0 +1,113 @@
+{
+    "workerTimeOffEntitlements": [
+        {
+            "associateOID": "000011",
+            "workAssignmentID": "1",
+            "entitlementPeriod": {
+                "periodName": "2021"
+            },
+            "timeOffEntitlements": [
+                {
+                    "timeOffPolicyCode": {
+                        "code": "V"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 1
+                    },
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 1
+                            },
+                            "entitlementTypeCode": {
+                                "code": "E"
+                            },
+                            "expirationDateTime": "2027-01-01T00:00:00+01:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "associateOID": "696969",
+            "workAssignmentID": "1",
+            "entitlementPeriod": {
+                "periodName": "2021"
+            },
+            "timeOffEntitlements": [
+                {
+                    "timeOffPolicyCode": {
+                        "code": "V"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 196.71
+                    },
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 157.37
+                            },
+                            "entitlementTypeCode": {
+                                "code": "B"
+                            },
+                            "expirationDateTime": "2022-07-01T00:00:00+01:00"
+                        },
+                        {
+                            "balanceQuantity": {
+                                "quantity": 39.34
+                            },
+                            "entitlementTypeCode": {
+                                "code": "E"
+                            },
+                            "expirationDateTime": "2027-01-01T00:00:00+01:00"
+                        }
+                    ]
+                },
+                {
+                    "timeOffPolicyCode": {
+                        "code": "A"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 31.47
+                    },
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 31.47
+                            },
+                            "entitlementTypeCode": {
+                                "code": "B"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "timeOffPolicyCode": {
+                        "code": "V2"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 9.92
+                    },
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 4.92
+                            },
+                            "entitlementTypeCode": {
+                                "code": "B"
+                            }
+                        },
+                        {
+                            "balanceQuantity": {
+                                "quantity": 5
+                            },
+                            "entitlementTypeCode": {
+                                "code": "B"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
