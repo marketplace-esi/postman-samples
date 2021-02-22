@@ -1,0 +1,76 @@
+{
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "b67accb5-1460-4759-b70b-01c6775eb63f",
+            "schemeAgencyName": "confirmMessageID",
+            "schemeName": "DEX"
+        },
+        "createDateTime": "2021-02-22T17:54:32.76+01:00",
+        "processMessages": [
+            {
+                "developerMessage": {
+                    "codeValue": 405,
+                    "links": [
+                        {
+                            "href": "https://splunk.esi.adp.com/en-US/app/search/search?q=search%20dexCorrelationID%20b67accb5-1460-4759-b70b-01c6775eb63f",
+                            "method": "GET",
+                            "title": "Splunk search on correlation id"
+                        }
+                    ],
+                    "messageTxt": "null (org.mule.module.apikit.exception.MethodNotAllowedException)."
+                },
+                "expressionLanguageCode": {},
+                "links": [
+                    {}
+                ],
+                "messageTypeCode": {},
+                "processMessageID": {},
+                "userMessage": {
+                    "links": [
+                        {}
+                    ],
+                    "messageTxt": "null (org.mule.module.apikit.exception.MethodNotAllowedException)."
+                }
+            }
+        ],
+        "processingStatusCode": {},
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "protocolStatusCode": {
+            "codeValue": 405,
+            "longName": "null (org.mule.module.apikit.exception.MethodNotAllowedException)."
+        },
+        "requestID": {},
+        "requestLink": {
+            "href": "/time-off-entitlement_v2/time/v2/workers/000011/time-off-entitlements",
+            "method": "POST"
+        },
+        "requestMethodCode": {},
+        "requestStatusCode": {},
+        "resourceMessages": [
+            {
+                "processMessages": [
+                    {
+                        "developerMessage": {},
+                        "expressionLanguageCode": {},
+                        "links": [
+                            {}
+                        ],
+                        "messageTypeCode": {},
+                        "processMessageID": {},
+                        "userMessage": {
+                            "links": [
+                                {}
+                            ]
+                        }
+                    }
+                ],
+                "resourceLink": {},
+                "resourceMessageID": {},
+                "resourceStatusCode": {}
+            }
+        ],
+        "sessionID": {}
+    }
+}
