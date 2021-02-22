@@ -1,0 +1,28 @@
+{
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "ea67693d-536c-4b41-a7a8-16acdfa82219",
+            "schemeName": "DEX_CORRELATION_ID",
+            "schemeAgencyName": "DEX"
+        },
+        "createDateTime": "2021-02-22T17:53:10.050+01:00",
+        "requestReceiptDateTime": "2021-02-22T17:53:10.034+01:00",
+        "protocolStatusCode": {
+            "codeValue": "404",
+            "shortName": "Proxy Exception Handling"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "developerMessage": {
+                    "messageTxt": "Orgoid not configured for this sor. (DEX_UNKNOWN_ORGOID) (java.lang.Exception). (org.mule.api.transformer.TransformerMessagingException)."
+                }
+            }
+        ]
+    }
+}
