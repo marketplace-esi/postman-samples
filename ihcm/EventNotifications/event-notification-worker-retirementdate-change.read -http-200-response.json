@@ -1,0 +1,75 @@
+{
+    "events": [
+        {
+            "eventID": "ad30fa88-3a05-4e6f-a030-0cf3f8ab0f0b",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.workerRetirementDate.change",
+                "shortName": "worker.workerRetirementDate.change"
+            },
+            "eventTitle": "Change Worker Retirement Date",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T14:00:15Z",
+            "creationDateTime": "2020-09-18T14:00:16Z",
+            "effectiveDateTime": "2020-09-18T14:00:16Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "ad30fa88-3a05-4e6f-a030-0cf3f8ab0f0b",
+                "eventNameCode": {
+                    "codeValue": "worker.workerRetirementDate.change",
+                    "shortName": "worker.workerRetirementDate.change",
+                    "longName": "worker.workerRetirementDate.change"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {}
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-18T14:00:15Z",
+                    "worker": {
+                        "workerDates": {
+                            "retirementDate": "2065-01-01"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "workerDates": {
+                            "retirementDate": "2065-01-01"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
