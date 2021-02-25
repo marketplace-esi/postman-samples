@@ -1,0 +1,15 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "Business Units Code List",
+            "listItems": [
+                {
+                    "codeValue": "000001",
+                    "shortName": "Head",
+                    "longName": "Corporate Headquarter",
+                    "inactiveIndicator": false
+                }
+            ]
+        }
+    ]
+}
