@@ -35,6 +35,10 @@
                                     }
                                 }
                             ]
+                        },
+                        "payrollGroupCode": {
+                            "codeValue": "8",
+                            "shortName": "65-8"
                         }
                     }
                 }
