@@ -13,6 +13,9 @@
             "payDate": "2015-08",
             "payDetailUri": {
                 "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wOA"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wOA/images/alpcrypt_-13,87,-12,82.pdf"
             }
         },
         {
@@ -27,6 +30,9 @@
             "payDate": "2015-07",
             "payDetailUri": {
                 "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNw"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNw/images/alpcrypt_-13,87,-12,82.pdf"
             }
         },
         {
@@ -41,6 +47,9 @@
             "payDate": "2015-06",
             "payDetailUri": {
                 "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNg"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNg/images/alpcrypt_-33,67,-92,32.pdf"
             }
         },
         {
@@ -55,6 +64,9 @@
             "payDate": "2015-05",
             "payDetailUri": {
                 "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNQ"
+             },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNQ/images/alpcrypt_-55,87,-92,55.pdf"
             }
         },
         {
@@ -69,6 +81,9 @@
             "payDate": "2015-04",
             "payDetailUri": {
                 "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNA"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNA/images/alpcrypt_-55,87,-92,55.pdf"
             }
         }
     ]
