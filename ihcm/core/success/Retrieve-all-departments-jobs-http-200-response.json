@@ -1,0 +1,140 @@
+{
+    "organizationDepartments": [
+        {
+            "activeIndicator": true,
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "Level"
+                    },
+                    "stringValue": "0"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "Type"
+                    },
+                    "stringValue": "Company"
+                }
+            ],
+            "departmentCode": {
+                "codeValue": "OCN",
+                "shortName": "Org Chart Now"
+            },
+            "effectiveDate": "2000-01-01",
+            "itemID": "1d49899a-f3c2-4a85-9bd6-5a88b6704b54",
+            "organizationName": "ADP OrgChart Now"
+        },
+        {
+            "activeIndicator": true,
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "Level"
+                    },
+                    "stringValue": "1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "Type"
+                    },
+                    "stringValue": "Division"
+                }
+            ],
+            "departmentCode": {
+                "codeValue": "OCN_Div",
+                "shortName": "OCN Division"
+            },
+            "effectiveDate": "2020-01-01",
+            "itemID": "2bebb4e3-9a13-4393-ade3-9b0a22622b8d",
+            "organizationName": "ADP OrgChart Now",
+            "parentDepartmentCode": {
+                "codeValue": "OCN",
+                "shortName": "Org Chart Now"
+            }
+        },
+        {
+            "activeIndicator": true,
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "Level"
+                    },
+                    "stringValue": "2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "Type"
+                    },
+                    "stringValue": "Department"
+                }
+            ],
+            "departmentCode": {
+                "codeValue": "OCN_Dept",
+                "shortName": "OCN Department"
+            },
+            "effectiveDate": "2020-01-01",
+            "itemID": "d23cdc4d-18c4-458f-9424-ee9c381fbae1",
+            "organizationName": "ADP OrgChart Now",
+            "parentDepartmentCode": {
+                "codeValue": "OCN_Div",
+                "shortName": "OCN Division"
+            }
+        },
+        {
+            "activeIndicator": true,
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "Level"
+                    },
+                    "stringValue": "3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "Type"
+                    },
+                    "stringValue": "Team"
+                }
+            ],
+            "departmentCode": {
+                "codeValue": "OCN_Team",
+                "shortName": "OCN Team"
+            },
+            "effectiveDate": "2020-01-01",
+            "itemID": "a89681df-2b46-4cc8-9bbb-42fe48a9c3fa",
+            "organizationName": "ADP OrgChart Now",
+            "parentDepartmentCode": {
+                "codeValue": "OCN_Dept",
+                "shortName": "OCN Department"
+            }
+        },
+        {
+            "activeIndicator": true,
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "Level"
+                    },
+                    "stringValue": "4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "Type"
+                    },
+                    "stringValue": "Sub Team"
+                }
+            ],
+            "departmentCode": {
+                "codeValue": "OCN_SubTeam",
+                "shortName": "OCN Sub Team"
+            },
+            "effectiveDate": "2020-01-01",
+            "itemID": "246b9bfe-4a91-47a0-b207-d2061ba6a813",
+            "organizationName": "ADP OrgChart Now",
+            "parentDepartmentCode": {
+                "codeValue": "OCN_Team",
+                "shortName": "OCN Team"
+            }
+        }
+    ]
+}
