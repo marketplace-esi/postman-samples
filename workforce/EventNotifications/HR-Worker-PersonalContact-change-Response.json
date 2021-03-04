@@ -9,8 +9,10 @@
             },
             "data": {
                 "eventContext": {
-                    "worker": {
-                        "associateOID": "000089"
+					"worker": {
+						"workerID": {
+                            "idValue": "000089"
+                        }
                     },
                     "personalContact": {
                         "itemID": "W-001"
