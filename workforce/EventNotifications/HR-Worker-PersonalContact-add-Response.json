@@ -10,7 +10,9 @@
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "000088"
+						"workerID": {
+                            "idValue": "000088"
+                        }
                     }
                 },
                 "output": {
