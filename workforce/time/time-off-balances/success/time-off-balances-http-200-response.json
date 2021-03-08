@@ -1,0 +1,114 @@
+{
+    "timeOffBalances": [
+        {
+            "workAssignmentID": "1",
+            "workerName": {
+                "familyName1": "Aroui"
+            },
+            "balanceAsOfDate": "2021-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "A",
+                        "longName": "ADV"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 31.47,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "longName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workAssignmentID": "1",
+            "workerName": {
+                "familyName1": "Aroui"
+            },
+            "balanceAsOfDate": "2021-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "T",
+                        "longName": "Tijd voor tijd"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 8,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "longName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workAssignmentID": "1",
+            "workerName": {
+                "familyName1": "Aroui"
+            },
+            "balanceAsOfDate": "2021-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "V",
+                        "longName": "Verlof"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 984.71,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "longName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "workAssignmentID": "1",
+            "workerName": {
+                "familyName1": "Aroui"
+            },
+            "balanceAsOfDate": "2021-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "V2",
+                        "longName": "Verlof"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 9.92,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "longName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "confirmMessage": {
+        "requestStatusCode": {
+            "codeValue": "succeeded",
+            "longName": "succeeded"
+        }
+    }
+}
