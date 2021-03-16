@@ -1,0 +1,168 @@
+{
+    "payDistributions": [
+        {
+            "payrollFileNumber": "0000061",
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "B00",
+                        "shortName": "Hoofdbetaling",
+                        "longName": "Hoofdbetaling"
+                    }
+                },
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "shortName": "Bank",
+                        "longName": "Bank"
+                    }
+                },
+                {
+                    "depositAccount": {
+                        "IBAN": "NL89ABNA0506166589",
+                        "accountID": {
+                            "idValue": "506166589"
+                        },
+                        "financialParty": {
+                            "SWIFTCode": "ABNANL2A",
+                            "nameCode": {
+                                "shortName": "PN Hamers"
+                            },
+                            "address": {
+                                "cityName": "Werkendam"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "payrollFileNumber": "0000061",
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "B01",
+                        "shortName": "1e deeloverboeking",
+                        "longName": "1e deeloverboeking"
+                    }
+                },
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "shortName": "Bank",
+                        "longName": "Bank"
+                    }
+                },
+                {
+                    "depositAccount": {
+                        "IBAN": "NL89ABNA0506166589",
+                        "financialParty": {
+                            "nameCode": {
+                                "shortName": "AN06-BANK"
+                            },
+                            "address": {
+                                "cityName": "R06-BANK"
+                            }
+                        }
+                    }
+                },
+                {
+                    "distributionAmount": {
+                        "amountValue": 2.1,
+                        "currencyCode": "EUR"
+                    }
+                },
+                {
+                    "prenote": {
+                        "prenoteDescription": "D06-BANK"
+                    }
+                }
+            ]
+        },
+        {
+            "payrollFileNumber": "0000061",
+            "distributionPurposeCode": {
+                "codeValue": "6439",
+                "shortName": "Langdurig-Verlof-Sparen",
+                "longName": "Langdurig-Verlof-Sparen"
+            },
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "B02",
+                        "shortName": "2e deeloverboeking",
+                        "longName": "2e deeloverboeking"
+                    }
+                },
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "shortName": "Bank",
+                        "longName": "Bank"
+                    }
+                },
+                {
+                    "depositAccount": {
+                        "IBAN": "NL89ABNA0506166589",
+                        "financialParty": {
+                            "nameCode": {
+                                "shortName": "AN06-BANK"
+                            },
+                            "address": {
+                                "cityName": "R06-BANK"
+                            }
+                        }
+                    }
+                },
+                {
+                    "prenote": {
+                        "prenoteDescription": "D06-BANK"
+                    }
+                }
+            ]
+        },
+        {
+            "payrollFileNumber": "0000061",
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "B03",
+                        "shortName": "3e deeloverboeking",
+                        "longName": "3e deeloverboeking"
+                    }
+                },
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "shortName": "Bank",
+                        "longName": "Bank"
+                    }
+                },
+                {
+                    "depositAccount": {
+                        "IBAN": "NL89ABNA0506166589",
+                        "financialParty": {
+                            "nameCode": {
+                                "shortName": "AC06-Bank"
+                            },
+                            "address": {
+                                "cityName": "R06-Bank"
+                            }
+                        }
+                    }
+                },
+                {
+                    "distributionAmount": {
+                        "amountValue": 20.01,
+                        "currencyCode": "EUR"
+                    }
+                },
+                {
+                    "prenote": {
+                        "prenoteDescription": "D06-Bank"
+                    }
+                }
+            ]
+        }
+    ]
+}
