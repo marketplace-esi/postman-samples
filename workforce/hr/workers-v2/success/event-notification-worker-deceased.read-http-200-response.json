@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-03-11T17:06:11.442Z",
+            "effectiveDateTime": "2021-03-11T00:00:00Z",
+            "eventID": "29f23efa-b535-4d21-ad13-ecf153cb3be7",
+            "eventNameCode": {
+                "codeValue": "worker.deceased"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "ADPNL00000010",
+                        "workerID": {
+                            "idValue": "000010"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "deceasedIndicator": true,
+                            "deathDate": "2021-03-09"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
