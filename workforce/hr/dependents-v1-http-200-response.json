@@ -1,0 +1,127 @@
+{
+    "dependents": [
+        {
+            "itemID": "K-001",
+            "person": {
+                "legalName": {
+                    "familyName1": "Dalhôf",
+                    "familyName1Prefix": "",
+                    "initials": "E",
+                    "givenName": "",
+                    "nickName": "Edward",
+                    "formattedName": "E Dalhôf"
+                },
+                "genderCode": {
+                    "codeValue": "MALE",
+                    "longName": "Male"
+                }
+            },
+            "relationshipTypeCode": {
+                "codeValue": "K",
+                "shortName": "Kind"
+            }
+        },
+        {
+            "itemID": "K-002",
+            "person": {
+                "legalName": {
+                    "familyName1": "Dalhôf",
+                    "familyName1Prefix": "",
+                    "initials": "DC",
+                    "givenName": "Dependant child",
+                    "nickName": "Depi",
+                    "formattedName": "DC Dalhôf"
+                },
+                "genderCode": {
+                    "codeValue": "MALE",
+                    "longName": "Male"
+                }
+            },
+            "relationshipTypeCode": {
+                "codeValue": "K",
+                "shortName": "Kind"
+            }
+        },
+        {
+            "itemID": "K-003",
+            "person": {
+                "legalName": {
+                    "familyName1": "Dalhôf",
+                    "familyName1Prefix": "New child",
+                    "initials": "CN3",
+                    "givenName": "Child number 3",
+                    "nickName": "Child",
+                    "formattedName": "dr. CN3 New child Dalhôf arts",
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": "arts"
+                            }
+                        }
+                    ],
+                    "titlePrefixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": "dr"
+                            }
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "buildingNumber": "93",
+                    "cityName": "",
+                    "countryCode": "AD",
+                    "postalCode": "500",
+                    "streetName": "carrer",
+                    "unit": "B A"
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "45611"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "emailUri": "mail@mail.com"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "FEMALE",
+                    "longName": "Female"
+                }
+            },
+            "relationshipTypeCode": {
+                "codeValue": "K",
+                "shortName": "Kind"
+            }
+        },
+        {
+            "itemID": "K-004",
+            "person": {
+                "legalName": {
+                    "familyName1": "Dalhôf",
+                    "familyName1Prefix": "",
+                    "initials": "ssd",
+                    "givenName": "second son",
+                    "nickName": "",
+                    "formattedName": "ssd Dalhôf RA",
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": "RA"
+                            }
+                        }
+                    ]
+                }
+            },
+            "relationshipTypeCode": {
+                "codeValue": "K",
+                "shortName": "Kind"
+            }
+        }
+    ]
+}
