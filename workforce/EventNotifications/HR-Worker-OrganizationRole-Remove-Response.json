@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-29T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "d24f13e2-41a8-4457-9eba-55a17526523f",
+            "eventNameCode": {
+                "codeValue": "organizationRole.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "000028"
+                },
+                "output": {
+                    "organizationRole": {
+                        "workerID": {
+                            "idValue": "000028",
+                            "schemeCode": {
+                                "codeValue": "WF",
+                                "longName": "Workforce"
+                            }
+                        },
+                        "roleCode": {
+                            "codeValue": "HOOFD"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

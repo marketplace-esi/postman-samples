@@ -1,0 +1,67 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "HIRE GIVENNAME",
+                                "familyName1": "HIRE NAME",
+								"preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME"
+                                        }
+                                    }
+    							]
+							},								
+                            "genderCode": {
+                                "codeValue": "F"
+                            }
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "01"
+                            },
+                            "jobCode": {
+                                "codeValue": "EMPLO1"
+                            },
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+								   {
+									  "codeValue":"SAL",
+									  "itemID":"typeCollab"
+								   },
+                                    {
+                                        "codeValue": "CU2",
+                                        "itemID": "typeContrat"
+                                    },
+                                    {
+                                        "codeValue": "50",
+                                        "itemID": "recoursReason"
+                                    }
+                                ],
+                                "dateFields": [
+								   {
+									  "dateValue":"2020-01-30",
+									  "itemID":"initialCddTerminationDate"
+								   }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

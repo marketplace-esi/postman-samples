@@ -1,0 +1,47 @@
+{
+    "payDistributions": [
+        {
+            "payrollFileNumber": "0000061",
+            "distributionInstructions": [
+                {
+                    "precedenceCode": {
+                        "codeValue": "B01",
+                        "shortName": "1e deeloverboeking",
+                        "longName": "1e deeloverboeking"
+                    }
+                },
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "shortName": "Bank",
+                        "longName": "Bank"
+                    }
+                },
+                {
+                    "depositAccount": {
+                        "IBAN": "NL89ABNA0506166589",
+                        "financialParty": {
+                            "nameCode": {
+                                "shortName": "AN06-BANK"
+                            },
+                            "address": {
+                                "cityName": "R06-BANK"
+                            }
+                        }
+                    }
+                },
+                {
+                    "distributionAmount": {
+                        "amountValue": 2.1,
+                        "currencyCode": "EUR"
+                    }
+                },
+                {
+                    "prenote": {
+                        "prenoteDescription": "D06-BANK"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "effectiveDateTime": "2019-04-28",
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "V"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

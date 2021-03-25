@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "eventNameCode": {
+                "codeValue": "worker.birthdate.change"
+            },
+            "actor": {
+                "associateOID": "employee-abc"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "birthDate": "1983-04-19"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

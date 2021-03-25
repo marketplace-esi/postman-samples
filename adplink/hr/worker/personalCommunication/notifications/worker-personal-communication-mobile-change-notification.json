@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d84647749ee8e1",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.mobile.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "communication": {
+                                "mobile": {
+                                    "formattedNumber": "0601020304",
+                                    "itemID": "Mobile"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

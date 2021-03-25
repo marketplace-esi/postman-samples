@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "29a3599a-34ae-470d-9d6d-74b870e15027",
+		"name": "MarketPlace-workers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Workers List With Count",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E11Q932K5FPEK0HF",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/hr/v2/workers?$count=true",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"hr",
+						"v2",
+						"workers"
+					],
+					"query": [
+						{
+							"key": "$count",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Workers List With email Filter",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E11Q932K5FPEK0HF",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/hr/v2/workers?$filter=/workers/person/communication/emails/emailUri eq 'madhuraj.soudathikar@adp.com'",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"hr",
+						"v2",
+						"workers"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "/workers/person/communication/emails/emailUri eq 'madhuraj.soudathikar@adp.com'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Workers demographic detail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E11Q932K5FPEK0HF",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/hr/v2/worker-demographics/E1C6643B03DAF04V",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"hr",
+						"v2",
+						"worker-demographics",
+						"E1C6643B03DAF04V"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Workers demographic detail list with Select",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E11Q932K5FPEK0HF",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/hr/v2/worker-demographics?$select=associateOID",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"hr",
+						"v2",
+						"worker-demographics"
+					],
+					"query": [
+						{
+							"key": "$select",
+							"value": "associateOID"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Worker Details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "G52QRWV9JZCT2W62",
+						"type": "text"
+					},
+					{
+						"key": "associateoid",
+						"value": "E11Q932K5FPEK0HF",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "PORTAL",
+						"type": "text"
+					},
+					{
+						"key": "realm",
+						"value": "NEXO",
+						"type": "text"
+					},
+					{
+						"key": "roleCode",
+						"value": "employee",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://ft1adm.ehc.adp.com/mncportalapi/hr/v2/workers/E1Q72437SXDX9054",
+					"protocol": "https",
+					"host": [
+						"ft1adm",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"mncportalapi",
+						"hr",
+						"v2",
+						"workers",
+						"E1Q72437SXDX9054"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

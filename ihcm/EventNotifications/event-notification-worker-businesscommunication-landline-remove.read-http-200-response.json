@@ -1,0 +1,79 @@
+{
+    "events": [
+        {
+            "eventID": "12758730-9241-4905-8fc9-79cc8d559c17",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.remove",
+                "shortName": "worker.businessCommunication.landline.remove"
+            },
+            "eventTitle": "Remove Worker Business landline",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T13:50:30Z",
+            "creationDateTime": "2020-09-18T13:50:30Z",
+            "effectiveDateTime": "2020-09-18T13:50:30Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "12758730-9241-4905-8fc9-79cc8d559c17",
+                "eventNameCode": {
+                    "codeValue": "worker.businessCommunication.landline.remove",
+                    "shortName": "worker.businessCommunication.landline.remove",
+                    "longName": "worker.businessCommunication.landline.remove"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "businessCommunication": {
+                            "landline": {
+                                "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86"
+                            }
+                        }
+                    }
+                },
+                "transform": {},
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "businessCommunication": {
+                            "landline": {
+                                "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86",
+                                "nameCode": {
+                                    "codeValue": "WORK",
+                                    "shortName": "Work Telephone"
+                                },
+                                "extension": "1234",
+                                "formattedNumber": "01234 565656"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

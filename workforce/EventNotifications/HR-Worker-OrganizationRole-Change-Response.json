@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-30T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "b7fdfad9-3f5a-444b-ac21-e8a0b88f643b",
+            "eventNameCode": {
+                "codeValue": "organizationRole.change"
+            },
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "000001"
+                },
+                "output": {
+                    "organizationRole": {
+                        "workerID": {
+                            "idValue": "000001",
+                            "schemeCode": {
+                                "codeValue": "WF",
+                                "longName": "Workforce"
+                            }
+                        },
+                        "roleCode": {
+                            "codeValue": "HOOFD"
+                        },
+                        "workerName": {
+                            "formattedName": "NDS Burghout"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

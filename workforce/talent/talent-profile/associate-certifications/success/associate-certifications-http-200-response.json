@@ -11,9 +11,6 @@
             },
             "expirationDate": "2019-12-09",
             "lastIssueDate": "2019-09-09",
-            "workerID": {
-                "idValue": "000005"
-            },
             "itemID": "000005-001"
         },
         {
@@ -27,9 +24,6 @@
             },
             "expirationDate": "2019-09-13",
             "lastIssueDate": "2019-09-09",
-            "workerID": {
-                "idValue": "000005"
-            },
             "itemID": "000005-002"
         },
         {
@@ -43,9 +37,6 @@
             },
             "expirationDate": "2024-07-01",
             "lastIssueDate": "2020-07-01",
-            "workerID": {
-                "idValue": "000005"
-            },
             "itemID": "000005-003"
         }
     ]

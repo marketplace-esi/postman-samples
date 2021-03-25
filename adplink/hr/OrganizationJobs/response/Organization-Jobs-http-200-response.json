@@ -1,0 +1,273 @@
+{
+    "jobs": [
+        {
+            "jobCode": {
+                "code": "101"
+            },
+            "jobTitle": "CONTRÔLE DE GESTION SOCIALES COM",
+            "jobFunctionCode": {
+                "code": "101"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "CONTRÔLE GESTION SOCIALE",
+            "jobFunctionCode": {
+                "code": "101"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "102"
+            },
+            "jobTitle": "RESPONSABLE FORMATION DÉVELOPPEM",
+            "jobFunctionCode": {
+                "code": "102"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "RESPONSABLE FORMATION & DÉVELOPP",
+            "jobFunctionCode": {
+                "code": "102"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "103"
+            },
+            "jobTitle": "DIRECTEUR RESSOURCES HUMAINES EU",
+            "jobFunctionCode": {
+                "code": "103"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "DIRECTEUR RESSOURCES HUMAINES",
+            "jobFunctionCode": {
+                "code": "103"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "104"
+            },
+            "jobTitle": "RESPONSABLE RH SUPPORTS",
+            "jobFunctionCode": {
+                "code": "104"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "RESPONSABLE RH",
+            "jobFunctionCode": {
+                "code": "104"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "105"
+            },
+            "jobTitle": "RESPONSABLE QUALITÉ FRANCE",
+            "jobFunctionCode": {
+                "code": "105"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "RESPONSABLE QUALITÉ",
+            "jobFunctionCode": {
+                "code": "105"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "106"
+            },
+            "jobTitle": "RESPONSABLE ADMINISTRATION FORMA",
+            "jobFunctionCode": {
+                "code": "106"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "RESPONSABLE ADMINISTRATION FORMA",
+            "jobFunctionCode": {
+                "code": "106"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "107"
+            },
+            "jobTitle": "RESPONSABLE RSE EUROPE",
+            "jobFunctionCode": {
+                "code": "107"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "RESPONSABLE RSE",
+            "jobFunctionCode": {
+                "code": "107"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "108"
+            },
+            "jobTitle": "ASSISTANT RH PRIMES & NOTES DE F",
+            "jobFunctionCode": {
+                "code": "108"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "ASSISTANT RH",
+            "jobFunctionCode": {
+                "code": "108"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobCode": {
+                "code": "109"
+            },
+            "jobTitle": "GESTIONNAIRE FORMATION INTERNE",
+            "jobFunctionCode": {
+                "code": "109"
+            },
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "code": "10"
+                    }
+                }
+            ],
+            "jobLevelID": "01"
+        },
+        {
+            "jobTitle": "SUPPORT TRANSVERSE",
+            "jobLevelID": "01"
+        }
+     ]     
+}

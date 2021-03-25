@@ -2,14 +2,33 @@
     "organizationCostCenters": [
         {
             "costCenterCode": {
+                "codeValue": "00012",
+                "shortName": "TCS",
+                "longName": "Test Cost Center"
+            },
+            "costCenterDescription": {
+                "longLabelName": "Test Cost Center"
+            },
+            "activeIndicator": true,
+            "costCenterEffectivePeriod": {
+                "startDate": "2021-01-01",
+                "endDate": "2099-12-31"
+            }
+        },
+        {
+            "costCenterCode": {
                 "codeValue": "01225",
                 "shortName": "Kostenplaats 01225",
                 "longName": "Kostenplaats 01225"
             },
-            "costCenterDescription": "Kostenplaats 01225",
+            "costCenterDescription": {
+                "longLabelName": "Kostenplaats 01225"
+            },
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01",
-            "endDate": "2099-12-31"
+            "costCenterEffectivePeriod": {
+                "startDate": "1950-01-01",
+                "endDate": "2099-12-31"
+            }
         },
         {
             "costCenterCode": {
@@ -17,10 +36,14 @@
                 "shortName": "Kostenplaats 01250",
                 "longName": "Kostenplaats 01250"
             },
-            "costCenterDescription": "Kostenplaats 01250",
+            "costCenterDescription": {
+                "longLabelName": "Kostenplaats 01250"
+            },
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01",
-            "endDate": "2099-12-31"
+            "costCenterEffectivePeriod": {
+                "startDate": "1950-01-01",
+                "endDate": "2099-12-31"
+            }
         },
         {
             "costCenterCode": {
@@ -28,10 +51,14 @@
                 "shortName": "Kostenplaats 01255",
                 "longName": "Kostenplaats 01255"
             },
-            "costCenterDescription": "Kostenplaats 01255",
+            "costCenterDescription": {
+                "longLabelName": "Kostenplaats 01255"
+            },
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01",
-            "endDate": "2099-12-31"
+            "costCenterEffectivePeriod": {
+                "startDate": "1950-01-01",
+                "endDate": "2099-12-31"
+            }
         },
         {
             "costCenterCode": {
@@ -39,21 +66,29 @@
                 "shortName": "Kostenplaats 01260",
                 "longName": "Kostenplaats 01260"
             },
-            "costCenterDescription": "Kostenplaats 01260",
+            "costCenterDescription": {
+                "longLabelName": "Kostenplaats 01260"
+            },
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01",
-            "endDate": "2099-12-31"
+            "costCenterEffectivePeriod": {
+                "startDate": "1950-01-01",
+                "endDate": "2099-12-31"
+            }
         },
         {
             "costCenterCode": {
                 "codeValue": "01275",
-                "shortName": "Kostenplaats 01275",
+                "shortName": "Kostenplaats 012756",
                 "longName": "Kostenplaats 01275"
             },
-            "costCenterDescription": "Kostenplaats 01275",
+            "costCenterDescription": {
+                "longLabelName": "Kostenplaats 01275"
+            },
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01",
-            "endDate": "2099-12-31"
+            "costCenterEffectivePeriod": {
+                "startDate": "1950-01-01",
+                "endDate": "2099-12-31"
+            }
         }
     ]
 }

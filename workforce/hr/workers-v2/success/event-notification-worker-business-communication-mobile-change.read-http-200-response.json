@@ -1,0 +1,41 @@
+{
+    "events": [
+        {
+            "eventStatusCode": {
+                "codeValue": "submitted",
+                "shortName": "submitted"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "000011",
+                        "workerID": {
+                            "idValue": "000011"
+                        },
+                        "businessCommunication": {
+                            "mobile": {
+                                "itemID": "1"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "000011",
+                        "workerID": {
+                            "idValue": "000011"
+                        },
+                        "businessCommunication": {
+                            "mobile": {
+                                "countryDialing": "1",
+                                "areaDialing": "973",
+                                "dialNumber": "7133851",
+                                "formattedNumber": "1 (973) 713-3851"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

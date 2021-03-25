@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-30T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "c60f6f5e-5473-41e5-a9dd-b5447e40de97",
+            "eventNameCode": {
+                "codeValue": "worker-termination.cancel"
+            },
+            "data": {
+                "eventContext": {
+                    "workerID": {
+                        "idValue": "000032"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000032"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

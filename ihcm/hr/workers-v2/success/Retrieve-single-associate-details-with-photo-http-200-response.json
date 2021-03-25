@@ -1,0 +1,140 @@
+{
+    "associateOID": "UK0L24A0601II4KD",
+    "workerID": {
+        "idValue": "N538",
+        "schemeCode": {
+            "codeValue": "REFERENCE",
+            "shortName": "Employee Reference Number"
+        }
+    },
+    "person": {
+        "legalName": {
+            "preferredSalutations": [
+                {
+                    "salutationCode": {
+                        "codeValue": "Mr",
+                        "shortName": "Mr."
+                    },
+                    "typeCode": {
+                        "codeValue": "SOCIAL",
+                        "shortName": "Social"
+                    },
+                    "sequenceNumber": 1
+                }
+            ],
+            "nickName": "Deepika",
+            "givenName": "Deepika",
+            "familyName1": "Sarav",
+            "formattedName": "Deepika Sarav"
+        },
+        "birthDate": "1993-12-29",
+        "genderCode": {
+            "codeValue": "Female",
+            "shortName": "Female"
+        },
+        "disabledIndicator": false,
+        "otherPersonalAddresses": [
+            {
+                "typeCode": {
+                    "codeValue": "HOME",
+                    "shortName": "Home Address"
+                },
+                "nameCode": {
+                    "codeValue": "HOME",
+                    "shortName": "Home Address"
+                },
+                "lineOne": "Shelling Road",
+                "deliveryPoint": "False",
+                "cityName": "London",
+                "countryCode": "GBR"
+            }
+        ]
+    },
+    "workerDates": {
+        "adjustedServiceDate": "2013-02-04"
+    },
+    "workerStatus": {
+        "statusCode": {
+            "codeValue": "Current",
+            "shortName": "Active"
+        }
+    },
+    "photos": [
+        {
+            "links": [
+                {
+                    "href": "/hr/v2/workers/UK0L24A0601II4KD/worker-images/photo",
+                    "rel": "/adp/image",
+                    "mediaType": "image/jpeg",
+                    "method": "GET",
+                    "encType": "application/json"
+                }
+            ]
+        }
+    ],
+    "businessCommunication": {
+        "emails": [
+            {
+                "nameCode": {
+                    "codeValue": "WORKEMAIL",
+                    "shortName": "Work Email"
+                },
+                "emailUri": "test@test.mail"
+            }
+        ]
+    },
+    "workAssignments": [
+        {
+            "primaryIndicator": true,
+            "hireDate": "2013-02-24",
+            "assignmentStatus": {
+                "statusCode": {
+                    "codeValue": "Current",
+                    "shortName": "Active"
+                }
+            },
+            "workerTypeCode": {
+                "shortName": "Permanent",
+                "longName": "Permanent"
+            },
+            "workLevelCode": {
+                "codeValue": "Full_Time",
+                "shortName": "Full Time"
+            },
+            "jobCode": {
+                "effectiveDate": "2013-02-24",
+                "codeValue": "0030",
+                "shortName": "HR Business Partner"
+            },
+            "jobTitle": "HR Business Partner",
+            "fullTimeEquivalenceRatio": 1.0,
+            "homeWorkLocation": {
+                "address": {
+                    "countryCode": "GB"
+                }
+            },
+            "reportsTo": [
+                {
+                    "associateOID": "UK0L24A044163ZAQ",
+                    "workerID": {
+                        "idValue": "N537",
+                        "schemeCode": {
+                            "codeValue": "REFERENCENUMBER",
+                            "shortName": "REFERENCE NUMBER"
+                        }
+                    },
+                    "reportsToWorkerName": {
+                        "givenName": "Shamira",
+                        "familyName1": "Mohammad",
+                        "formattedName": "Shamira Mohammad"
+                    },
+                    "reportsToRelationshipCode": {
+                        "codeValue": "REPORTSTO",
+                        "shortName": "REPORTS TO"
+                    }
+                }
+            ],
+            "payrollFileNumber": "N538"
+        }
+    ]
+}

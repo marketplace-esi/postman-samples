@@ -2,14 +2,18 @@
     "organizationCostCenters": [
         {
             "costCenterCode": {
-                "codeValue": "01225",
-                "shortName": "Kostenplaats 01225",
-                "longName": "Kostenplaats 01225"
+                "codeValue": "00012",
+                "shortName": "TCS",
+                "longName": "Test Cost Center"
             },
-            "costCenterDescription": "Kostenplaats 01225",
+            "costCenterDescription": {
+                "longLabelName": "Test Cost Center"
+            },
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01",
-            "endDate": "2099-12-31"
+            "costCenterEffectivePeriod": {
+                "startDate": "2021-01-01",
+                "endDate": "2099-12-31"
+            }
         }
     ]
 }

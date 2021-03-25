@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "eventID": "TestRehireDateChange",
+            "eventNameCode": {
+                "codeValue": "worker.workerRehireDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "rehireDate": "2020-05-10"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

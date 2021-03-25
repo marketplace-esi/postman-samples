@@ -1,0 +1,105 @@
+{
+    "workers": [
+        {
+            "associateOID": "employee-xyz",
+            "workerID": {
+                "idValue": "0002345"
+            },
+            "person": {
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "formattedNumber": "",
+                            "itemID": "Mobile"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "emailUri": "MAIL@YAHOO.FR",
+                            "itemID": "MailPerso"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Masculin",
+                    "longName": "Masculin"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "S",
+                    "shortName": "SEPARE(E)",
+                    "longName": "SEPARE(E)",
+                    "effectiveDate": "1988-08-13"
+                },
+                "birthPlace": {
+                    "cityName": "BAIN DE BRETAGNE",
+                    "countryCode": "100"
+                }
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "formattedNumber": "0112345678",
+                        "itemID": "businessLandline"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "formattedNumber": "0612345678",
+                        "itemID": "businessMobile"
+                    }
+                ],
+                "emails": [
+                    {
+                        "emailUri": "mobile.pro@adp.com",
+                        "itemID": "businessEmail"
+                    }
+                ],
+                "faxes": [
+                    {
+                        "formattedNumber": "0112345678",
+                        "itemID": "businessFax"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "jobCode": {
+                        "codeValue": "203",
+                        "shortName": "INGÉNIEUR D'EXPLOITATION SERVICE",
+                        "longName": "INGÉNIEUR D'EXPLOITATION SERVICE"
+                    },
+                    "jobTitle": "SALES MANAGER PME-PMI",
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "A2232"
+                            },
+                            "address": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "31"
+                                },
+                                "countryCode": "100",
+                                "postalCode": "31700",
+                                "buildingNumberExtension": "B",
+                                "streetName": "DES PRUNES",
+                                "unit": "",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "31069",
+                                    "longName": ""
+                                }
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "00000000"
+                }
+            ]
+        }
+    ]
+}

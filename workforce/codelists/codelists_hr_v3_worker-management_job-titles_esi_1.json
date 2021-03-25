@@ -1,0 +1,2109 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "Job Titles List",
+            "listItems": [
+                {
+                    "codeValue": "000001",
+                    "shortName": "Tester",
+                    "longName": "Tester Daniel reupdated ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000002",
+                    "shortName": "Secretaresse",
+                    "longName": "Secretaresse",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000003",
+                    "shortName": "Medew 36 uur",
+                    "longName": "Medewerker 36 uur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000004",
+                    "shortName": "MW Algemeen",
+                    "longName": "Medewerker Algemeen",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000005",
+                    "shortName": "Com Adviseur",
+                    "longName": "Communicatie Adviseur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000006",
+                    "shortName": "HRM medewerker",
+                    "longName": "HRM medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000007",
+                    "shortName": "Systeembeheerder",
+                    "longName": "Systeembeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000008",
+                    "shortName": "Oproepkracht",
+                    "longName": "Oproepkracht",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000010",
+                    "shortName": "Archivaris Senior",
+                    "longName": "Archivaris Senior",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000011",
+                    "shortName": "Teamhoofd",
+                    "longName": "Teamhoofd",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000012",
+                    "shortName": "Admin Medewerker",
+                    "longName": "Administratief Medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000013",
+                    "shortName": "Coordinator",
+                    "longName": "Coordinator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000014",
+                    "shortName": "Catering Manager",
+                    "longName": "Catering Manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000015",
+                    "shortName": "MW schoonmaak",
+                    "longName": "Medewerker schoonmaak",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000031",
+                    "shortName": "Administrateur",
+                    "longName": "Administrateur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000032",
+                    "shortName": "Accountant",
+                    "longName": "Accountant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000064",
+                    "shortName": "Hoofd communicatie",
+                    "longName": "Hoofd communicatie",
+                    "inactiveIndicator": true
+                },
+                {
+                    "codeValue": "000081",
+                    "shortName": "Teamhoofd I",
+                    "longName": "Teamhoofd I",
+                    "inactiveIndicator": true
+                },
+                {
+                    "codeValue": "000083",
+                    "shortName": "Teamhoofd III",
+                    "longName": "Teamhoofd III",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000091",
+                    "shortName": "Consulent Algemeen",
+                    "longName": "Consulent Algemeen",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000092",
+                    "shortName": "Consulent Senior",
+                    "longName": "Consulent Senior",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000093",
+                    "shortName": "Consulent Medior",
+                    "longName": "Consulent Medior",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000094",
+                    "shortName": "Directeur",
+                    "longName": "Algemeen Directeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000100",
+                    "shortName": "Aankomend elektromon",
+                    "longName": "Aankomend elektromonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000101",
+                    "shortName": "Account executive",
+                    "longName": "Account executive",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000102",
+                    "shortName": "Accountmanager",
+                    "longName": "Accountmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000103",
+                    "shortName": "Administrateur",
+                    "longName": "Administrateur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000104",
+                    "shortName": "Administratief assis",
+                    "longName": "Administratief assistent",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000105",
+                    "shortName": "Administratief medew",
+                    "longName": "Administratief medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000106",
+                    "shortName": "Adviseur",
+                    "longName": "Adviseur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000107",
+                    "shortName": "Adviseur financiën (",
+                    "longName": "Adviseur financiën (extern)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000108",
+                    "shortName": "Adviseur HRM (extern",
+                    "longName": "Adviseur HRM (extern)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000109",
+                    "shortName": "Adviseur ICT (extern",
+                    "longName": "Adviseur ICT (extern)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000110",
+                    "shortName": "Afdelingsassistente",
+                    "longName": "Afdelingsassistente",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000111",
+                    "shortName": "Afdelingschef",
+                    "longName": "Afdelingschef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000112",
+                    "shortName": "Afdelingshoofd",
+                    "longName": "Afdelingshoofd",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000113",
+                    "shortName": "Afdelingsmanager (di",
+                    "longName": "Afdelingsmanager (dienstverlening)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000114",
+                    "shortName": "Ambtelijk secretari",
+                    "longName": "Ambtelijk secretaris OR",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000115",
+                    "shortName": "Analist",
+                    "longName": "Analist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000116",
+                    "shortName": "Arbeidsdeskundige",
+                    "longName": "Arbeidsdeskundige",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000117",
+                    "shortName": "ARBO-coördinator",
+                    "longName": "ARBO-coördinator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000118",
+                    "shortName": "ARBO-functionaris",
+                    "longName": "ARBO-functionaris",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000119",
+                    "shortName": "Archief medewerker",
+                    "longName": "Archief medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000120",
+                    "shortName": "Archivaris",
+                    "longName": "Archivaris",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000121",
+                    "shortName": "Assistent bedrijfsle",
+                    "longName": "Assistent bedrijfsleider ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000122",
+                    "shortName": "Baliemedewerker Bark",
+                    "longName": "Baliemedewerker Barkeeper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000123",
+                    "shortName": "Bedienings(vak)man",
+                    "longName": "Bedienings(vak)man",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000124",
+                    "shortName": "Bedrijfsjurist",
+                    "longName": "Bedrijfsjurist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000125",
+                    "shortName": "Bedrijfsleider",
+                    "longName": "Bedrijfsleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000126",
+                    "shortName": "Bedrijfsmaatschappel",
+                    "longName": "Bedrijfsmaatschappelijk werker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000127",
+                    "shortName": "Begeleider PC-gebrui",
+                    "longName": "Begeleider PC-gebruik",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000128",
+                    "shortName": "Beheerder archief",
+                    "longName": "Beheerder archief",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000129",
+                    "shortName": "Beleidsadviseur",
+                    "longName": "Beleidsadviseur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000130",
+                    "shortName": "Beleidsmedewerker",
+                    "longName": "Beleidsmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000131",
+                    "shortName": "Besteller pakketten",
+                    "longName": "Besteller pakketten",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000132",
+                    "shortName": "Besturingsmonteur",
+                    "longName": "Besturingsmonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000133",
+                    "shortName": "Beveiligingsmedewerk",
+                    "longName": "Beveiligingsmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000134",
+                    "shortName": "Bewakingsmedewerker",
+                    "longName": "Bewakingsmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000135",
+                    "shortName": "Bibliothecaris",
+                    "longName": "Bibliothecaris",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000136",
+                    "shortName": "Bibliotheek medewerk",
+                    "longName": "Bibliotheek medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000137",
+                    "shortName": "Binnendienstmedewerk",
+                    "longName": "Binnendienstmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000138",
+                    "shortName": "Boekhouder",
+                    "longName": "Boekhouder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000139",
+                    "shortName": "Boekhoudkundig medew",
+                    "longName": "Boekhoudkundig medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000140",
+                    "shortName": "Bouwkundig vakman",
+                    "longName": "Bouwkundig vakman",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000141",
+                    "shortName": "Bureauredacteur",
+                    "longName": "Bureauredacteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000142",
+                    "shortName": "Business (segment) m",
+                    "longName": "Business (segment) manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000143",
+                    "shortName": "Buyer ",
+                    "longName": "Buyer ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000144",
+                    "shortName": "CAD-tekenaar",
+                    "longName": "CAD-tekenaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000145",
+                    "shortName": "Call center agent",
+                    "longName": "Call center agent",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000146",
+                    "shortName": "Cashmanager",
+                    "longName": "Cashmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000147",
+                    "shortName": "Category manager",
+                    "longName": "Category manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000148",
+                    "shortName": "Chauffeur",
+                    "longName": "Chauffeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000149",
+                    "shortName": "Chauffeur extern tra",
+                    "longName": "Chauffeur extern transport",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000150",
+                    "shortName": "Testcoördinator",
+                    "longName": "Testcoördinator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000151",
+                    "shortName": "Chef administratie",
+                    "longName": "Chef administratie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000152",
+                    "shortName": "Chef applicatiebehee",
+                    "longName": "Chef applicatiebeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000153",
+                    "shortName": "Chef bewaking",
+                    "longName": "Chef bewaking",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000154",
+                    "shortName": "Chef bewaking en vei",
+                    "longName": "Chef bewaking en veiligheid",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000155",
+                    "shortName": "Chef expeditie- en d",
+                    "longName": "Chef expeditie- en douanezaken",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000156",
+                    "shortName": "Chef facilitaire die",
+                    "longName": "Chef facilitaire dienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000157",
+                    "shortName": "Chef logistiek",
+                    "longName": "Chef logistiek",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000158",
+                    "shortName": "Chef magazijn",
+                    "longName": "Chef magazijn",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000159",
+                    "shortName": "Chef operations",
+                    "longName": "Chef operations",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000160",
+                    "shortName": "Chef salarisadminist",
+                    "longName": "Chef salarisadministratie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000161",
+                    "shortName": "Chef systeemontwikke",
+                    "longName": "Chef systeemontwikkeling",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000162",
+                    "shortName": "Chef techniek",
+                    "longName": "Chef techniek",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000163",
+                    "shortName": "Chefkok",
+                    "longName": "Chefkok",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000164",
+                    "shortName": "Commercieel manager",
+                    "longName": "Commercieel manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000165",
+                    "shortName": "Communicatieadviseur",
+                    "longName": "Communicatieadviseur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000166",
+                    "shortName": "Communicatiespeciali",
+                    "longName": "Communicatiespecialist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000167",
+                    "shortName": "Computeroperator",
+                    "longName": "Computeroperator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000168",
+                    "shortName": "Concerncontroller",
+                    "longName": "Concerncontroller",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000169",
+                    "shortName": "Constructeur",
+                    "longName": "Constructeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000170",
+                    "shortName": "(Constructie)Bankwer",
+                    "longName": "(Constructie)Bankwerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000171",
+                    "shortName": "Consultant",
+                    "longName": "Consultant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000172",
+                    "shortName": "Consultant HRM",
+                    "longName": "Consultant HRM",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000173",
+                    "shortName": "Consultant onderzoek",
+                    "longName": "Consultant onderzoek",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000174",
+                    "shortName": "Controller",
+                    "longName": "Controller",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000175",
+                    "shortName": "Corveeër",
+                    "longName": "Corveeër",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000176",
+                    "shortName": "Crediteurenadministr",
+                    "longName": "Crediteurenadministrateur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000177",
+                    "shortName": "Cursusleider ",
+                    "longName": "Cursusleider ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000178",
+                    "shortName": "Data-analist",
+                    "longName": "Data-analist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000179",
+                    "shortName": "Datacommunicatiespec",
+                    "longName": "Datacommunicatiespecialist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000180",
+                    "shortName": "Dataprocessor",
+                    "longName": "Dataprocessor",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000181",
+                    "shortName": "Debiteuren-/Crediteu",
+                    "longName": "Debiteuren-/Crediteurenadministrateur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000182",
+                    "shortName": "Deskmanager",
+                    "longName": "Deskmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000183",
+                    "shortName": "Dierenverzorger",
+                    "longName": "Dierenverzorger",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000184",
+                    "shortName": "Directiesecretaresse",
+                    "longName": "Directiesecretaresse",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000185",
+                    "shortName": "Directeur marketing ",
+                    "longName": "Directeur marketing en verkoop",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000186",
+                    "shortName": "Divisiecontroller",
+                    "longName": "Divisiecontroller",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000187",
+                    "shortName": "Documentalist",
+                    "longName": "Documentalist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000188",
+                    "shortName": "Draaier/Frezer",
+                    "longName": "Draaier/Frezer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000189",
+                    "shortName": "DTP-er/Grafisch vorm",
+                    "longName": "DTP-er/Grafisch vormgever/ontwerper ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000190",
+                    "shortName": "Educatief medewerker",
+                    "longName": "Educatief medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000191",
+                    "shortName": "Eerste elektromonteu",
+                    "longName": "Eerste elektromonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000192",
+                    "shortName": "Eerste monteur",
+                    "longName": "Eerste monteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000193",
+                    "shortName": "Elektricien",
+                    "longName": "Elektricien",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000194",
+                    "shortName": "Elektromonteur",
+                    "longName": "Elektromonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000195",
+                    "shortName": "Elektronicamonteur",
+                    "longName": "Elektronicamonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000196",
+                    "shortName": "Engineer",
+                    "longName": "Engineer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000197",
+                    "shortName": "Expediënt ",
+                    "longName": "Expediënt ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000198",
+                    "shortName": "Fabriekslaborant",
+                    "longName": "Fabriekslaborant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000199",
+                    "shortName": "Financieel adviseur",
+                    "longName": "Financieel adviseur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000200",
+                    "shortName": "Financieel consultan",
+                    "longName": "Financieel consultant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000201",
+                    "shortName": "Financieel manager",
+                    "longName": "Financieel manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000202",
+                    "shortName": "Functioneel applicat",
+                    "longName": "Functioneel applicatiebeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000203",
+                    "shortName": "Grafisch vormgever",
+                    "longName": "Grafisch vormgever",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000204",
+                    "shortName": "Groepsleider",
+                    "longName": "Groepsleider",
+                    "inactiveIndicator": true
+                },
+                {
+                    "codeValue": "000205",
+                    "shortName": "Groepsleider adminis",
+                    "longName": "Groepsleider administratie ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000206",
+                    "shortName": "Heftruckchauffeur",
+                    "longName": "Heftruckchauffeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000207",
+                    "shortName": "Herstelcoach",
+                    "longName": "Herstelcoach",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000208",
+                    "shortName": "Hoofd administratie",
+                    "longName": "Hoofd administratie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000209",
+                    "shortName": "Hoofd automatisering",
+                    "longName": "Hoofd automatisering",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000210",
+                    "shortName": "Hoofd bedrijfsbureau",
+                    "longName": "Hoofd bedrijfsbureau",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000211",
+                    "shortName": "Hoofd commerciële za",
+                    "longName": "Hoofd commerciële zaken",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000212",
+                    "shortName": "Hoofd facilitaire di",
+                    "longName": "Hoofd facilitaire dienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000213",
+                    "shortName": "Hoofd informatiserin",
+                    "longName": "Hoofd informatisering",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000214",
+                    "shortName": "Hoofd communicatie",
+                    "longName": "Hoofd communicatie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000215",
+                    "shortName": "Hoofd international",
+                    "longName": "Hoofd international",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000216",
+                    "shortName": "Hoofd marketing",
+                    "longName": "Hoofd marketing",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000217",
+                    "shortName": "Hoofd marketing en v",
+                    "longName": "Hoofd marketing en verkoop",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000218",
+                    "shortName": "Hoofd onderzoek en o",
+                    "longName": "Hoofd onderzoek en ontwikkeling",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000219",
+                    "shortName": "Hoofd consultancy",
+                    "longName": "Hoofd consultancy",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000220",
+                    "shortName": "Hoofd PnO",
+                    "longName": "Hoofd PnO",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000221",
+                    "shortName": "Hoofd HRM",
+                    "longName": "Hoofd HRM",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000222",
+                    "shortName": "Hoofd service",
+                    "longName": "Hoofd service",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000223",
+                    "shortName": "Hoofd technische die",
+                    "longName": "Hoofd technische dienst (HTD)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000224",
+                    "shortName": "Hoofd finance",
+                    "longName": "Hoofd finance",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000225",
+                    "shortName": "Hoofd veiligheid en ",
+                    "longName": "Hoofd veiligheid en milieu",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000226",
+                    "shortName": "Hoofd verwerking",
+                    "longName": "Hoofd verwerking",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000227",
+                    "shortName": "HR-manager",
+                    "longName": "HR-manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000228",
+                    "shortName": "Hulp bediening",
+                    "longName": "Hulp bediening",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000229",
+                    "shortName": "Hulpkok",
+                    "longName": "Hulpkok",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000230",
+                    "shortName": "Hulpoperator ",
+                    "longName": "Hulpoperator ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000231",
+                    "shortName": "ICT-consultant",
+                    "longName": "ICT-consultant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000232",
+                    "shortName": "ICT-engineer",
+                    "longName": "ICT-engineer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000233",
+                    "shortName": "Informatieanalist/sy",
+                    "longName": "Informatieanalist/systeemontwerper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000234",
+                    "shortName": "Informatrice",
+                    "longName": "Informatrice",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000235",
+                    "shortName": "Inkoper",
+                    "longName": "Inkoper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000236",
+                    "shortName": "Installatiespecialis",
+                    "longName": "Installatiespecialist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000237",
+                    "shortName": "Intern transporteur",
+                    "longName": "Intern transporteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000238",
+                    "shortName": "IT-specialist ",
+                    "longName": "IT-specialist ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000239",
+                    "shortName": "Jobcoach",
+                    "longName": "Jobcoach",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000240",
+                    "shortName": "Junior applicatiebeh",
+                    "longName": "Junior applicatiebeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000241",
+                    "shortName": "Junior dataprocessor",
+                    "longName": "Junior dataprocessor",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000242",
+                    "shortName": "Junior marktonderzoe",
+                    "longName": "Junior marktonderzoeker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000243",
+                    "shortName": "Juridisch medewerker",
+                    "longName": "Juridisch medewerker ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000244",
+                    "shortName": "Kantinechef",
+                    "longName": "Kantinechef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000245",
+                    "shortName": "Keurder",
+                    "longName": "Keurder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000246",
+                    "shortName": "Klantenservicemedewe",
+                    "longName": "Klantenservicemedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000247",
+                    "shortName": "Kok",
+                    "longName": "Kok",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000248",
+                    "shortName": "Kwaliteitscontroleur",
+                    "longName": "Kwaliteitscontroleur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000249",
+                    "shortName": "Kwaliteitsinspecteur",
+                    "longName": "Kwaliteitsinspecteur ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000250",
+                    "shortName": "Laborant",
+                    "longName": "Laborant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000251",
+                    "shortName": "Laboratoriummedewerk",
+                    "longName": "Laboratoriummedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000252",
+                    "shortName": "Lasser",
+                    "longName": "Lasser",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000253",
+                    "shortName": "Logistiek manager",
+                    "longName": "Logistiek manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000254",
+                    "shortName": "Logistiek medewerker",
+                    "longName": "Logistiek medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000255",
+                    "shortName": "Logistiek planner",
+                    "longName": "Logistiek planner",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000256",
+                    "shortName": "Manager klantenservi",
+                    "longName": "Manager klantenservice",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000257",
+                    "shortName": "Machineleider",
+                    "longName": "Machineleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000258",
+                    "shortName": "Magazijnbeheerder",
+                    "longName": "Magazijnbeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000259",
+                    "shortName": "Magazijnchef",
+                    "longName": "Magazijnchef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000260",
+                    "shortName": "Magazijnmedewerker",
+                    "longName": "Magazijnmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000261",
+                    "shortName": "Magazijnmeester",
+                    "longName": "Magazijnmeester",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000262",
+                    "shortName": "Managementassistente",
+                    "longName": "Managementassistente",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000263",
+                    "shortName": "Manager consultancy",
+                    "longName": "Manager consultancy",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000264",
+                    "shortName": "Manager financieel-e",
+                    "longName": "Manager financieel-economische zaken",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000265",
+                    "shortName": "Manager m en S",
+                    "longName": "Manager marketing en sales",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000266",
+                    "shortName": "Manager ICT",
+                    "longName": "Manager ICT",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000267",
+                    "shortName": "Manager kwaliteit",
+                    "longName": "Manager kwaliteit",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000268",
+                    "shortName": "Manager marketing",
+                    "longName": "Manager marketing",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000269",
+                    "shortName": "Manager beheer",
+                    "longName": "Manager beheer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000270",
+                    "shortName": "Manager office",
+                    "longName": "Manager office",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000271",
+                    "shortName": "Manager PnO",
+                    "longName": "Manager PnO",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000272",
+                    "shortName": "Manager Internationa",
+                    "longName": "Manager International",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000273",
+                    "shortName": "Manager RnD",
+                    "longName": "Manager RnD",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000274",
+                    "shortName": "Manager techniek",
+                    "longName": "Manager techniek",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000275",
+                    "shortName": "Manager verkoopbinne",
+                    "longName": "Manager verkoopbinnendienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000276",
+                    "shortName": "Marketeer",
+                    "longName": "Marketeer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000277",
+                    "shortName": "Marketing director",
+                    "longName": "Marketing director",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000278",
+                    "shortName": "Marketing manager",
+                    "longName": "Marketing manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000279",
+                    "shortName": "Marketingmedewerker",
+                    "longName": "Marketingmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000280",
+                    "shortName": "Marktonderzoeker",
+                    "longName": "Marktonderzoeker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000281",
+                    "shortName": "Materials manager",
+                    "longName": "Materials manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000282",
+                    "shortName": "Medewerker agrarisch",
+                    "longName": "Medewerker agrarische sector",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000283",
+                    "shortName": "Medewerker archief",
+                    "longName": "Medewerker archief",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000284",
+                    "shortName": "Medewerker bedrijfsa",
+                    "longName": "Medewerker bedrijfsadministratie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000285",
+                    "shortName": "Medewerker call cent",
+                    "longName": "Medewerker call centre",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000286",
+                    "shortName": "Medewerker commercië",
+                    "longName": "Medewerker commerciële binnendienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000287",
+                    "shortName": "Medewerker communica",
+                    "longName": "Medewerker communicatie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000288",
+                    "shortName": "Medewerker controlli",
+                    "longName": "Medewerker controlling",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000289",
+                    "shortName": "Medewerker facilitai",
+                    "longName": "Medewerker facilitaire dienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000290",
+                    "shortName": "Medewerker financiël",
+                    "longName": "Medewerker financiële administratie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000291",
+                    "shortName": "Medewerker HRM",
+                    "longName": "Medewerker HRM",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000292",
+                    "shortName": "Medewerker intern tr",
+                    "longName": "Medewerker intern transport ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000293",
+                    "shortName": "Medewerker kantine",
+                    "longName": "Medewerker kantine",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000294",
+                    "shortName": "Medewerker keuken",
+                    "longName": "Medewerker keuken",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000295",
+                    "shortName": "Medewerker logistiek",
+                    "longName": "Medewerker logistiek",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000296",
+                    "shortName": "Medewerker marketing",
+                    "longName": "Medewerker marketing",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000297",
+                    "shortName": "Medewerker opmaak",
+                    "longName": "Medewerker opmaak",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000298",
+                    "shortName": "Medewerker PNO",
+                    "longName": "Medewerker PNO",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000299",
+                    "shortName": "Medewerker restauran",
+                    "longName": "Medewerker restaurant",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000300",
+                    "shortName": "Medewerker salarisad",
+                    "longName": "Medewerker salarisadministratie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000301",
+                    "shortName": "Medewerker schoonmaa",
+                    "longName": "Medewerker schoonmaakdienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000302",
+                    "shortName": "Medewerker service d",
+                    "longName": "Medewerker service desk",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000303",
+                    "shortName": "Meet- en regelmonteu",
+                    "longName": "Meet- en regelmonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000304",
+                    "shortName": "Metselaar",
+                    "longName": "Metselaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000305",
+                    "shortName": "Monteur",
+                    "longName": "Monteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000306",
+                    "shortName": "Monteur EnI",
+                    "longName": "Monteur EnI",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000307",
+                    "shortName": "Monteur werktuigbouw",
+                    "longName": "Monteur werktuigbouwkunde ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000308",
+                    "shortName": "Netwerkbeheerder ",
+                    "longName": "Netwerkbeheerder ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000309",
+                    "shortName": "Ober",
+                    "longName": "Ober",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000310",
+                    "shortName": "Octrooigemachtigde",
+                    "longName": "Octrooigemachtigde",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000311",
+                    "shortName": "Onderhoudsmonteur",
+                    "longName": "Onderhoudsmonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000312",
+                    "shortName": "Onderzoeksdirecteur",
+                    "longName": "Onderzoeksdirecteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000313",
+                    "shortName": "Ontwerper",
+                    "longName": "Ontwerper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000314",
+                    "shortName": "Oogstleider",
+                    "longName": "Oogstleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000315",
+                    "shortName": "Operator (ICT)",
+                    "longName": "Operator (ICT)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000316",
+                    "shortName": "Operator basisindust",
+                    "longName": "Operator basisindustrie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000317",
+                    "shortName": "Operator proeffabrie",
+                    "longName": "Operator proeffabriek",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000318",
+                    "shortName": "Orderpicker",
+                    "longName": "Orderpicker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000319",
+                    "shortName": "Orderverwerker",
+                    "longName": "Orderverwerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000320",
+                    "shortName": "Orderverzamelaar ",
+                    "longName": "Orderverzamelaar ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000321",
+                    "shortName": "PnO-er",
+                    "longName": "PnO-er",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000322",
+                    "shortName": "PnO-manager",
+                    "longName": "PnO-manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000323",
+                    "shortName": "Paneeloperator",
+                    "longName": "Paneeloperator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000324",
+                    "shortName": "Personeelsconsulent",
+                    "longName": "Personeelsconsulent",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000325",
+                    "shortName": "Personeelsfunctionar",
+                    "longName": "Personeelsfunctionaris",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000326",
+                    "shortName": "Persvoorlichter",
+                    "longName": "Persvoorlichter",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000327",
+                    "shortName": "Planner",
+                    "longName": "Planner",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000328",
+                    "shortName": "Planner/scheduler",
+                    "longName": "Planner/scheduler",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000329",
+                    "shortName": "Planner/werkvoorbere",
+                    "longName": "Planner/werkvoorbereider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000330",
+                    "shortName": "Plantmanager",
+                    "longName": "Plantmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000331",
+                    "shortName": "Ploegchef",
+                    "longName": "Ploegchef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000332",
+                    "shortName": "Portier",
+                    "longName": "Portier",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000333",
+                    "shortName": "Postkamer/archiefmed",
+                    "longName": "Postkamer/archiefmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000334",
+                    "shortName": "Procesoperator",
+                    "longName": "Procesoperator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000335",
+                    "shortName": "Procestechnoloog",
+                    "longName": "Procestechnoloog",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000336",
+                    "shortName": "Productgroepmanager",
+                    "longName": "Productgroepmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000337",
+                    "shortName": "Productiekok",
+                    "longName": "Productiekok",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000338",
+                    "shortName": "Productieleider",
+                    "longName": "Productieleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000339",
+                    "shortName": "Productiemedewerker",
+                    "longName": "Productiemedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000340",
+                    "shortName": "Productmanager",
+                    "longName": "Productmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000341",
+                    "shortName": "Programmeur",
+                    "longName": "Programmeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000342",
+                    "shortName": "Projectcoördinator",
+                    "longName": "Projectcoördinator",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000343",
+                    "shortName": "Projectleider",
+                    "longName": "Projectleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000344",
+                    "shortName": "Projectleider engine",
+                    "longName": "Projectleider engineering",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000345",
+                    "shortName": "Projectmanager",
+                    "longName": "Projectmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000346",
+                    "shortName": "Purchaser ",
+                    "longName": "Purchaser ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000347",
+                    "shortName": "RnD-technicus",
+                    "longName": "RnD-technicus",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000348",
+                    "shortName": "Receptionist",
+                    "longName": "Receptionist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000349",
+                    "shortName": "Redacteur",
+                    "longName": "Redacteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000350",
+                    "shortName": "Reïntegratieconsulen",
+                    "longName": "Reïntegratieconsulent",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000351",
+                    "shortName": "Researchleider",
+                    "longName": "Researchleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000352",
+                    "shortName": "Researchmedewerker",
+                    "longName": "Researchmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000353",
+                    "shortName": "Rondleider ",
+                    "longName": "Rondleider ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000354",
+                    "shortName": "Salarisadministrateu",
+                    "longName": "Salarisadministrateur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000355",
+                    "shortName": "Salesmanager",
+                    "longName": "Salesmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000356",
+                    "shortName": "Salesmedewerker",
+                    "longName": "Salesmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000357",
+                    "shortName": "Salesmedewerker",
+                    "longName": "Salesmedewerker international",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000358",
+                    "shortName": "Schoonmaker",
+                    "longName": "Schoonmaker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000359",
+                    "shortName": "Scientist",
+                    "longName": "Scientist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000360",
+                    "shortName": "Secretaresse",
+                    "longName": "Secretaresse",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000361",
+                    "shortName": "Secretaris ondernemi",
+                    "longName": "Secretaris ondernemingsraad",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000362",
+                    "shortName": "Sectorchef",
+                    "longName": "Sectorchef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000363",
+                    "shortName": "Senior applicatiebeh",
+                    "longName": "Senior applicatiebeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000364",
+                    "shortName": "Senior dataprocessor",
+                    "longName": "Senior dataprocessor",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000365",
+                    "shortName": "Senior engineer",
+                    "longName": "Senior engineer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000366",
+                    "shortName": "Senior marktonderzoe",
+                    "longName": "Senior marktonderzoeker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000367",
+                    "shortName": "Senior Programmeur",
+                    "longName": "Senior Programmeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000368",
+                    "shortName": "Senior systeembeheer",
+                    "longName": "Senior systeembeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000369",
+                    "shortName": "Serveerster",
+                    "longName": "Serveerster",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000370",
+                    "shortName": "Service medewerker",
+                    "longName": "Service medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000371",
+                    "shortName": "Softwareontwikkelaar",
+                    "longName": "Softwareontwikkelaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000372",
+                    "shortName": "Specialist PnO",
+                    "longName": "Specialist PnO",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000373",
+                    "shortName": "Staffunctionaris arb",
+                    "longName": "Staffunctionaris arbeidsvoorwaarden",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000374",
+                    "shortName": "Stafmedewerker techn",
+                    "longName": "Stafmedewerker technologie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000375",
+                    "shortName": "Storingsmonteur",
+                    "longName": "Storingsmonteur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000376",
+                    "shortName": "Supervisor",
+                    "longName": "Supervisor",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000377",
+                    "shortName": "Supervisor TD",
+                    "longName": "Supervisor TD",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000378",
+                    "shortName": "Systeembeheerder",
+                    "longName": "Systeembeheerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000379",
+                    "shortName": "Systeemontwerper",
+                    "longName": "Systeemontwerper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000380",
+                    "shortName": "Systeemontwikkelaar",
+                    "longName": "Systeemontwikkelaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000381",
+                    "shortName": "Systeemprogrammeur ",
+                    "longName": "Systeemprogrammeur ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000382",
+                    "shortName": "Taxateur",
+                    "longName": "Taxateur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000383",
+                    "shortName": "Teamleider",
+                    "longName": "Teamleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000384",
+                    "shortName": "Technician",
+                    "longName": "Technician",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000385",
+                    "shortName": "Technisch adviseur (",
+                    "longName": "Technisch adviseur (ingenieursbureau)",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000386",
+                    "shortName": "Technisch manager",
+                    "longName": "Technisch manager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000387",
+                    "shortName": "Technisch-commerciee",
+                    "longName": "Technisch-commercieel medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000388",
+                    "shortName": "Technologisch medewe",
+                    "longName": "Technologisch medewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000389",
+                    "shortName": "Teeltmedewerker",
+                    "longName": "Teeltmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000390",
+                    "shortName": "Tekenaar",
+                    "longName": "Tekenaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000391",
+                    "shortName": "Tekenaar/constructeu",
+                    "longName": "Tekenaar/constructeur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000392",
+                    "shortName": "Telefonist/reception",
+                    "longName": "Telefonist/receptionist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000393",
+                    "shortName": "Telematica engineer",
+                    "longName": "Telematica engineer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000394",
+                    "shortName": "Timmerman/metselaar",
+                    "longName": "Timmerman/metselaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000395",
+                    "shortName": "Trainer / docent",
+                    "longName": "Trainer / docent",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000396",
+                    "shortName": "Treasurer",
+                    "longName": "Treasurer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000397",
+                    "shortName": "Trouble shooter",
+                    "longName": "Trouble shooter",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000398",
+                    "shortName": "Truckchauffeur ",
+                    "longName": "Truckchauffeur ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000399",
+                    "shortName": "Vakreferent",
+                    "longName": "Vakreferent",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000400",
+                    "shortName": "Verkoopadviseur",
+                    "longName": "Verkoopadviseur",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000401",
+                    "shortName": "Verkoopleider",
+                    "longName": "Verkoopleider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000402",
+                    "shortName": "Verkoopmedewerker",
+                    "longName": "Verkoopmedewerker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000403",
+                    "shortName": "Verkoper",
+                    "longName": "Verkoper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000404",
+                    "shortName": "Verspaner",
+                    "longName": "Verspaner",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000405",
+                    "shortName": "Vervoersplanner",
+                    "longName": "Vervoersplanner",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000406",
+                    "shortName": "Voorman schoonmaakdi",
+                    "longName": "Voorman schoonmaakdienst",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000407",
+                    "shortName": "Vrachtwagenchauffeur",
+                    "longName": "Vrachtwagenchauffeur ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000408",
+                    "shortName": "Wachtchef",
+                    "longName": "Wachtchef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000409",
+                    "shortName": "Webdesigner",
+                    "longName": "Webdesigner",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000410",
+                    "shortName": "Webdeveloper",
+                    "longName": "Webdeveloper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000411",
+                    "shortName": "Webengineer",
+                    "longName": "Webengineer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000412",
+                    "shortName": "Webontwikkelaar",
+                    "longName": "Webontwikkelaar",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000413",
+                    "shortName": "Werktuigbouwkundig v",
+                    "longName": "Werktuigbouwkundig vakman",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000414",
+                    "shortName": "Werkvoorbereider",
+                    "longName": "Werkvoorbereider",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000415",
+                    "shortName": "Wetenschappelijk ond",
+                    "longName": "Wetenschappelijk onderzoeker",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000416",
+                    "shortName": "Wetenschapper",
+                    "longName": "Wetenschapper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000417",
+                    "shortName": "Winkelbediende",
+                    "longName": "Winkelbediende",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000418",
+                    "shortName": "Winkelchef",
+                    "longName": "Winkelchef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000419",
+                    "shortName": "Winkelier",
+                    "longName": "Winkelier",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000420",
+                    "shortName": "Winkelmanager",
+                    "longName": "Winkelmanager",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000421",
+                    "shortName": "Winkelverkoper",
+                    "longName": "Winkelverkoper",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000422",
+                    "shortName": "Woordvoerder",
+                    "longName": "Woordvoerder",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000423",
+                    "shortName": "Zaalchef",
+                    "longName": "Zaalchef",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000424",
+                    "shortName": "Zelfstandig teeltmed",
+                    "longName": "Zelfstandig teeltmedewerker ",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000425",
+                    "shortName": "Sales secretaresse",
+                    "longName": "Sales secretaresse",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "576853",
+                    "shortName": "this is a test ",
+                    "longName": "David Test",
+                    "inactiveIndicator": false
+                }
+            ]
+        }
+    ]
+}

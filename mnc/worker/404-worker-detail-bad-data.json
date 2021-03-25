@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-12-08T06:47:18.128Z",
+        "protocolStatusCode": {
+            "codeValue": "404"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "requestLink": {
+            "href": "/hr/v2/workers/GGN3MVXEWF03WVR",
+            "rel": "RELATED",
+            "method": "GET"
+        },
+        "processingStatusCode": {
+            "codeValue": "received"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "Error"
+                },
+                "userMessage": {
+                    "codeValue": "Error",
+                    "messageTxt": "User with AOID GGN3MVXEWF03WVR not found "
+                }
+            }
+        ]
+    }
+}

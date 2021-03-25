@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "RehireCancel_eventID",
+            "eventNameCode": {
+                "codeValue": "workerRehire.cancel"
+            },
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "0011317",
+                        "workerID": {
+                            "idValue": "0011317"
+                        },
+                        "workerDates": {
+                            "rehireDate": "2020-08-28"
+                        },
+                        "workAssignment": {
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": ""
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

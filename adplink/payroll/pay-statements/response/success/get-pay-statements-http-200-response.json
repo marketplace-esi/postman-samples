@@ -1,0 +1,90 @@
+{
+    "retirementPlanIndicator": false,
+    "payStatements": [
+        {
+            "grossPayAmount": {
+                "amountValue": 8430.16,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 7430.16,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-08",
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wOA"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wOA/images/alpcrypt_-13,87,-12,82.pdf"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.07,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.07,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-07",
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNw"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNw/images/alpcrypt_-13,87,-12,82.pdf"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.06,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.06,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-06",
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNg"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNg/images/alpcrypt_-33,67,-92,32.pdf"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.11,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.11,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-05",
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNQ"
+             },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNQ/images/alpcrypt_-55,87,-92,55.pdf"
+            }
+        },
+        {
+            "grossPayAmount": {
+                "amountValue": 4215.11,
+                "currencyCode": "EUR"
+            },
+            "netPayAmount": {
+                "amountValue": 3715.11,
+                "currencyCode": "EUR"
+            },
+            "payDate": "2015-04",
+            "payDetailUri": {
+                "href": "/payroll/v1/workers/employee-xyz/pay-statements/MjAxNS0wNA"
+            },
+            "statementImageUri": {
+                "href": "/payroll/v1/associates/employee-xyz/pay-statements/MjAxNS0wNA/images/alpcrypt_-55,87,-92,55.pdf"
+            }
+        }
+    ]
+}

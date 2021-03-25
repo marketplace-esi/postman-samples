@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-02T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "9c74cf32-16b1-4308-a164-f0afd2c4bf7e",
+            "eventNameCode": {
+                "codeValue": "worker.birthDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000100"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "birthDate": "19801221"
+                        },
+                        "workerID": {
+                            "idValue": "000100"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

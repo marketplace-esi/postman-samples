@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-01T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "2f2e8e5a-80e9-450f-8d64-e770c4fe0b3b",
+            "eventNameCode": {
+                "codeValue": "worker.birthPlace.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000003"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "",
+                                "countryCode": "BD"
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000003"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
