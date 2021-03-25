@@ -4,10 +4,10 @@
             "data": {
                 "transform": {
                     "worker": {
-						"associateOID": "abelluccia-mp5",
+						"associateOID": "rgrehirefami-mp1",
                         "person":			{
                             "legalName": {
-                                "givenName": "REHIRE  GIVEN",
+                                "givenName": "REHIRE GIVEN",
                                 "familyName1": "REHIRE FAMILY",
                                 "familyName2": "REHIRE FAMILY2",
                                 "middleName": "REHIRE MIDDLE",
@@ -72,15 +72,6 @@
 									}
 								}
 							],
-                            "socialInsurancePrograms": [
-                                {
-                                    "programServiceCenter": {
-                                        "nameCode": {
-                                            "codeValue": "53"
-                                        }
-                                    }
-                                }
-                            ],
                             "communication": {
                                    "emails": [
                                        {
@@ -203,23 +194,23 @@
                                 "codeFields": [
                                     {
                                         "codeValue": "SAL",
-                                        "itemID": "typeCollab"
+                                        "itemID": "collaborationType"
                                     },
                                     {
                                         "codeValue": "00",
-                                        "itemID": "typeContrat"
+                                        "itemID": "contractType"
                                     },
                                     {
                                         "codeValue": "01",
-                                        "itemID": "activite"
+                                        "itemID": "activity"
                                     },
                                     {
                                         "codeValue": "B",
-                                        "itemID": "classeRemun"
+                                        "itemID": "remunerationType"
                                     },
                                     {
                                         "codeValue": "101",
-                                        "itemID": "classeHoraireRemun"
+                                        "itemID": "workSchedule"
                                     }
                                 ]
                             }

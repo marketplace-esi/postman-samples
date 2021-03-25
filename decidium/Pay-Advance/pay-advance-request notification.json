@@ -1,0 +1,36 @@
+{
+    "events": [
+        {
+            "eventID": "699a80f5-af75-4ddf-8ece-4056d42877b4",
+            "eventNameCode": {
+                "codeValue": "payAdvance.request"
+            },
+            "recordDateTime": "2020-11-09T12:08:08+01:00",
+            "effectiveDateTime": "2020-11-09T12:08:08+01:00",
+            "data": {
+                "eventContext": {
+                    "associateOID": "levangelist-mp6"
+                },
+                "output": {
+                    "payAdvanceRequest": {
+                        "requestDate": "2020-11-09",
+                        "amount": {
+                            "amountValue": 200.0,
+                            "currencyCode": "EUR"
+                        },
+                        "paymentMethodCode": {
+                            "codeValue": "1"
+                        },
+                        "notificationIndicator": false,
+                        "itemID": "7079650000365660000",
+                        "statusCode": {
+                            "codeValue": "PENDING",
+                            "shortName": "En cours",
+                            "effectiveDate": "2020-11-09"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

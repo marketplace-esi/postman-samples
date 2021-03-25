@@ -4,7 +4,7 @@
             "data": {
                 "transform": {
                     "worker": {
-						"associateOID": "abelluccia-mp5",
+						"associateOID": "rgrehirefami-mp1",
                         "workerID": {
                             "idValue": "99994149"
                         },
@@ -28,11 +28,11 @@
                                 "codeFields": [
 								   {
 									  "codeValue":"SAL",
-									  "itemID":"typeCollab"
+									  "itemID":"collaborationType"
 								   },
                                     {
                                         "codeValue": "00",
-                                        "itemID": "typeContrat"
+                                        "itemID": "contractType"
                                     }
                                 ]
                             }

@@ -1,84 +1,25 @@
 {
     "events": [
         {
-            "eventID": "53a2cb45-5362-48db-9de2-396d5508137f",
+            "eventID": "15",
             "eventNameCode": {
-                "codeValue": "worker.workAssignment.modify"
+                "codeValue": "worker.workAssignment.terminate"
             },
-            "recordDateTime": "2020-09-22T12:56:37+02:00",
-            "effectiveDateTime": "2020-09-09T00:00:00+02:00",
+            "recordDateTime": "2021-03-18T17:36:12+01:00",
+            "effectiveDateTime": "2021-03-02T00:00:00+01:00",
             "data": {
                 "eventContext": {
-                    "associateOID": "dabt-mp2",
-                    "workerID": {
-                        "idValue": "00000223"
+                    "worker": {
+                        "associateOID": "ppedroa-mp2"
                     }
                 },
                 "output": {
                     "worker": {
                         "workAssignment": {
-                            "hireDate": "2020-09-05",
-                            "actualStartDate": "2020-09-05",
-                            "terminationDate": "2020-09-09",
-                            "jobCode": {
-                                "codeValue": "EMPLO1",
-                                "shortName": "Emploi 1",
-                                "longName": "Emploi 1"
-                            },
-                            "assignedOrganizationalUnits": [
-                                {
-                                    "nameCode": {
-                                        "shortName": "MANAGEMENT",
-                                        "longName": "MANAGEMENT"
-                                    }
-                                }
-                            ],
-                            "assignedWorkLocations": [
-                                {
-                                    "nameCode": {
-                                        "codeValue": "01001",
-                                        "shortName": "ORION SIEGE LEVALLOIS",
-                                        "longName": "ORION SIEGE LEVALLOIS"
-                                    },
-                                    "address": {
-                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
-                                        "cityName": "SAINT DIDIER MONT D OR",
-                                        "countryCode": "FR",
-                                        "postalCode": "69370",
-                                        "countrySubdivisionLevel2": {
-                                            "codeValue": "SAINT DIDIER MONT D OR",
-                                            "shortName": "SAINT DIDIER MONT D OR",
-                                            "longName": "SAINT DIDIER MONT D OR",
-                                            "subdivisionType": "INSEE"
-                                        }
-                                    }
-                                }
-                            ],
-                            "remunerationBasisCode": {
-                                "codeValue": "S",
-                                "shortName": "S"
-                            },
-                            "baseRemuneration": {
-                                "annualRateAmount": {
-                                    "nameCode": {
-                                        "codeValue": "MSATH",
-                                        "shortName": "Salaire annuel théorique"
-                                    },
-                                    "amountValue": 0.0,
-                                    "currencyCode": "EUR"
-                                }
-                            },
-                            "reportsTo": [
-                                {
-                                    "associateOID": "levangelist-mp2",
-                                    "reportsToWorkerName": {
-                                        "givenName": "LINDA",
-                                        "familyName1": "EVANGELIST"
-                                    }
-                                }
-                            ],
-                            "payrollFileNumber": "A0001127",
-                            "itemID": "A0001127"
+                            "terminationDate": "2021-03-02"
+                        },
+                        "workerDates": {
+                            "terminationDate": "2021-03-02"
                         }
                     }
                 }
