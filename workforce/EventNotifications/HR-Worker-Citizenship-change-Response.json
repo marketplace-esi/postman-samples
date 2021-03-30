@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-02T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "50eb11f5-993a-4f32-5555-9422758286db",
+            "eventNameCode": {
+                "codeValue": "worker.citizenship.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "ADPNL00000004",
+                        "workerID": {
+                            "idValue": "000004"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "citizenshipCountryCode": {
+                                "codeValue": "0001"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
