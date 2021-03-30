@@ -4,9 +4,9 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "hghirename-jxk",
+                        "associateOID": "hghirename-ths",
                         "workerID": {
-                            "idValue": "00000406"
+                            "idValue": "00000451"
                         },
                         "person": {
                             "legalName": {
@@ -54,9 +54,21 @@
                             "maritalStatusCode": {
                                 "codeValue": ""
                             },
-                            "identityDocuments": [],
+                            "socialInsurancePrograms": [],
+                            "identityDocuments": [
+                                {
+                                    "documentID": "2631293314684",
+                                    "typeCode": {
+                                        "codeValue": "SSN",
+                                        "shortName": "Numéro de sécurité sociale"
+                                    }
+                                }
+                            ],
                             "immigrationDocuments": [],
-                            "birthPlace": {}
+                            "birthPlace": {
+                                "cityName": "PARIS",
+                                "postalCode": "75000"
+                            }
                         },
                         "workerDates": {
                             "originalHireDate": "2020-01-01"
@@ -70,13 +82,24 @@
                                 "longName": "CDD"
                             },
                             "jobCode": {
-                                "codeValue": "EMPLO1"
+                                "codeValue": "EMPLO1",
+                                "shortName": "Emploi 1",
+                                "longName": "Emploi 1"
                             },
                             "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
                             "jobFunctionCode": {},
                             "assignedOrganizationalUnits": [
                                 {
-                                    "nameCode": {}
+                                    "nameCode": {},
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "itemID": "strucAffectationId"
                                 }
                             ],
                             "assignedWorkLocations": [
@@ -117,20 +140,20 @@
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp5",
+                                    "associateOID": "levangelist-mp1",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "00000406",
+                            "payrollFileNumber": "00000451",
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
                                         "codeValue": "SAL",
                                         "longName": "Salarié",
-                                        "itemID": "typeCollab"
+                                        "itemID": "collaborationType"
                                     },
                                     {
                                         "codeValue": "50",
@@ -140,22 +163,22 @@
                                     {
                                         "codeValue": "CU2",
                                         "longName": "CUI-CAE-PEC CDD",
-                                        "itemID": "typeContrat"
+                                        "itemID": "contractType"
                                     },
                                     {
                                         "codeValue": "01",
                                         "longName": "ORION",
-                                        "itemID": "activite"
+                                        "itemID": "activity"
                                     }
                                 ],
                                 "dateFields": [
                                     {
                                         "dateValue": "2020-01-30",
-                                        "itemID": "initialCddTerminationDate"
+                                        "itemID": "contractEndDate"
                                     }
                                 ]
                             },
-                            "itemID": "00000406"
+                            "itemID": "00000451"
                         }
                     }
                 }

@@ -1,7 +1,7 @@
 {
     "workers": [
         {
-            "associateOID": "nfiolot1-mp2",
+            "associateOID": "nfiolot0-mp8",
             "workerID": {
                 "idValue": "00000001"
             },
@@ -91,6 +91,7 @@
                     "shortName": "CELIBATAIRE",
                     "longName": "CELIBATAIRE"
                 },
+                "socialInsurancePrograms": [],
                 "identityDocuments": [
                     {
                         "documentID": "1631293314684",
@@ -121,7 +122,7 @@
                 {
                     "links": [
                         {
-                            "href": "/hr/v2/workers/nfiolot1-mp2/worker-images/photo"
+                            "href": "/hr/v2/workers/nfiolot0-mp8/worker-images/photo"
                         }
                     ],
                     "itemID": "1"
@@ -135,7 +136,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ]
@@ -143,6 +144,7 @@
             "workAssignments": [
                 {
                     "hireDate": "2019-12-01",
+                    "seniorityDate": "2019-12-01",
                     "actualStartDate": "2019-12-01",
                     "jobTitle": "CHEF PROJET",
                     "assignedOrganizationalUnits": [
@@ -151,7 +153,16 @@
                                 "codeValue": "222221",
                                 "shortName": "TRESORERIE ACHATS",
                                 "longName": "TRESORERIE ACHATS"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202004222221",
+                                "shortName": "TRESORERIE ACHATS",
+                                "longName": "ORION CONSEIL/ORION CONSEIL STRASBOURG/ADMIN-FINANCIERE/FINANCIERE/TRESORERIE ACHATS"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -183,13 +194,13 @@
                                 "codeValue": "MSATH",
                                 "shortName": "Salaire annuel théorique"
                             },
-                            "amountValue": 0.0,
+                            "amountValue": 2300.0,
                             "currencyCode": "EUR"
                         }
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "jlmoureau-mp2",
+                            "associateOID": "jlmoureau-mp8",
                             "reportsToWorkerName": {
                                 "givenName": "JEAN-LUCAFESTN",
                                 "familyName1": "MOUREAU"
@@ -197,19 +208,49 @@
                         }
                     ],
                     "payrollFileNumber": "A0000808",
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "codeValue": "SAL",
+                                "longName": "Salarié",
+                                "itemID": "collaborationType"
+                            },
+                            {
+                                "codeValue": "00",
+                                "longName": "CDI",
+                                "itemID": "contractType"
+                            },
+                            {
+                                "codeValue": "B",
+                                "longName": "Base mensuelle",
+                                "itemID": "remunerationType"
+                            },
+                            {
+                                "codeValue": "001",
+                                "longName": "HORAIRE 35 HEURES",
+                                "itemID": "workSchedule"
+                            }
+                        ],
+                        "numberFields": [
+                            {
+                                "numberValue": 151.67,
+                                "itemID": "monthlyHours"
+                            }
+                        ]
+                    },
                     "itemID": "A0000808"
                 }
             ],
             "links": [
                 {
-                    "href": "/hr/v2/workers/nfiolot1-mp2/worker-data-image",
+                    "href": "/hr/v2/workers/nfiolot0-mp8/worker-data-image",
                     "rel": "/adp/image",
                     "mediaType": "application/pdf"
                 }
             ]
         },
         {
-            "associateOID": "pmassina-mp2",
+            "associateOID": "pmassina-mp8",
             "workerID": {
                 "idValue": "00000002"
             },
@@ -263,7 +304,7 @@
                 "communication": {
                     "mobiles": [
                         {
-                            "formattedNumber": "03 33 33 33 34",
+                            "formattedNumber": "03 33 33 33 66",
                             "itemID": "Personnel"
                         }
                     ],
@@ -296,6 +337,21 @@
                     "longName": "CELIBATAIRE",
                     "effectiveDate": "2020-01-27"
                 },
+                "socialInsurancePrograms": [
+                    {
+                        "programServiceCenter": {
+                            "nameCode": {
+                                "codeValue": "00011",
+                                "shortName": "CPAM DE L AIN"
+                            },
+                            "address": {
+                                "lineOne": "Place de la Grenouillere",
+                                "cityName": "BOURG EN BRESSE",
+                                "postalCode": "01015"
+                            }
+                        }
+                    }
+                ],
                 "identityDocuments": [
                     {
                         "documentID": "1640399278129",
@@ -370,10 +426,22 @@
                     }
                 ],
                 "birthPlace": {
-                    "cityName": "ROME",
+                    "cityName": "ROMA",
                     "postalCode": "A",
                     "countryCode": "VA"
                 },
+                "otherPersonalAddresses": [
+                    {
+                        "cityName": "NORT SUR ERDRE",
+                        "postalCode": "44390",
+                        "lineFive": "LES",
+                        "buildingNumber": "12",
+                        "buildingNumberExtension": "B",
+                        "buildingName": "B",
+                        "countrySubdivisionLevel2": {},
+                        "itemID": "AdrPerso"
+                    }
+                ],
                 "citizenshipCountryCodes": [
                     {
                         "codeValue": "FR",
@@ -389,7 +457,7 @@
                 {
                     "links": [
                         {
-                            "href": "/hr/v2/workers/pmassina-mp2/worker-images/photo"
+                            "href": "/hr/v2/workers/pmassina-mp8/worker-images/photo"
                         }
                     ],
                     "itemID": "1"
@@ -415,7 +483,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "change@adp.com",
                         "itemID": "Travail"
                     }
                 ],
@@ -435,7 +503,8 @@
             "workAssignments": [
                 {
                     "hireDate": "2012-01-02",
-                    "actualStartDate": "2019-05-23",
+                    "seniorityDate": "2012-01-02",
+                    "actualStartDate": "2021-03-17",
                     "jobCode": {
                         "codeValue": "120",
                         "shortName": "INGENIEUR",
@@ -445,10 +514,19 @@
                     "assignedOrganizationalUnits": [
                         {
                             "nameCode": {
-                                "codeValue": "332322",
-                                "shortName": "VTE SERVICES",
-                                "longName": "VTE SERVICES"
-                            }
+                                "codeValue": "112122",
+                                "shortName": "QUALITE",
+                                "longName": "QUALITE"
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202010112122",
+                                "shortName": "QUALITE",
+                                "longName": "ORION CONSEIL/ORION CONSEIL PARIS/GENERALE/RECHERCHE ET DEV/QUALITE"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -490,27 +568,57 @@
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "amarc-mp2",
+                            "associateOID": "agallois-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "ANTOINE",
-                                "familyName1": "MARC"
+                                "givenName": "AYMERIC",
+                                "familyName1": "GALLOIS"
                             }
                         }
                     ],
                     "payrollFileNumber": "00000002",
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "codeValue": "SAL",
+                                "longName": "Salarié",
+                                "itemID": "collaborationType"
+                            },
+                            {
+                                "codeValue": "00",
+                                "longName": "CDI",
+                                "itemID": "contractType"
+                            },
+                            {
+                                "codeValue": "P",
+                                "longName": "Rémunération en points",
+                                "itemID": "remunerationType"
+                            },
+                            {
+                                "codeValue": "001",
+                                "longName": "HORAIRE 35 HEURES",
+                                "itemID": "workSchedule"
+                            }
+                        ],
+                        "numberFields": [
+                            {
+                                "numberValue": 151.67,
+                                "itemID": "monthlyHours"
+                            }
+                        ]
+                    },
                     "itemID": "00000002"
                 }
             ],
             "links": [
                 {
-                    "href": "/hr/v2/workers/pmassina-mp2/worker-data-image",
+                    "href": "/hr/v2/workers/pmassina-mp8/worker-data-image",
                     "rel": "/adp/image",
                     "mediaType": "application/pdf"
                 }
             ]
         },
         {
-            "associateOID": "msanson-mp2",
+            "associateOID": "msanson-mp8",
             "workerID": {
                 "idValue": "00000003"
             },
@@ -570,6 +678,7 @@
                     "shortName": "CELIBATAIRE",
                     "longName": "CELIBATAIRE"
                 },
+                "socialInsurancePrograms": [],
                 "identityDocuments": [
                     {
                         "documentID": "2760533021034",
@@ -605,7 +714,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ]
@@ -613,6 +722,7 @@
             "workAssignments": [
                 {
                     "hireDate": "2003-06-04",
+                    "seniorityDate": "2003-06-04",
                     "actualStartDate": "2012-01-01",
                     "terminationDate": "2020-12-31",
                     "jobCode": {
@@ -627,7 +737,16 @@
                                 "codeValue": "441411",
                                 "shortName": "ROBOTIQUE",
                                 "longName": "ROBOTIQUE"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0101001441411",
+                                "shortName": "ROBOTIQUE",
+                                "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/OPERATIONNELLE/INDUSTRIE/ROBOTIQUE"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -662,33 +781,74 @@
                                 "codeValue": "MSATH",
                                 "shortName": "Salaire annuel théorique"
                             },
-                            "amountValue": 34558.6,
+                            "amountValue": 3451.0,
                             "currencyCode": "EUR"
                         }
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "levangelist-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "LINDA-ODETTE",
+                                "familyName1": "EVANGEL"
                             }
                         }
                     ],
                     "payrollFileNumber": "00000003",
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "codeValue": "SAL",
+                                "longName": "Salarié",
+                                "itemID": "collaborationType"
+                            },
+                            {
+                                "codeValue": "99",
+                                "longName": "Non défini",
+                                "itemID": "recoursReason"
+                            },
+                            {
+                                "codeValue": "01",
+                                "longName": "CDD",
+                                "itemID": "contractType"
+                            },
+                            {
+                                "codeValue": "B",
+                                "longName": "Base mensuelle",
+                                "itemID": "remunerationType"
+                            },
+                            {
+                                "codeValue": "101",
+                                "longName": "TPS PART: 80% - LuMa JeVe",
+                                "itemID": "workSchedule"
+                            }
+                        ],
+                        "dateFields": [
+                            {
+                                "dateValue": "2020-12-31",
+                                "itemID": "contractEndDate"
+                            }
+                        ],
+                        "numberFields": [
+                            {
+                                "numberValue": 121.33,
+                                "itemID": "monthlyHours"
+                            }
+                        ]
+                    },
                     "itemID": "00000003"
                 }
             ],
             "links": [
                 {
-                    "href": "/hr/v2/workers/msanson-mp2/worker-data-image",
+                    "href": "/hr/v2/workers/msanson-mp8/worker-data-image",
                     "rel": "/adp/image",
                     "mediaType": "application/pdf"
                 }
             ]
         },
         {
-            "associateOID": "jhouvil-mp2",
+            "associateOID": "jhouvil-mp8",
             "workerID": {
                 "idValue": "00000004"
             },
@@ -743,6 +903,7 @@
                     "shortName": "MARIE",
                     "longName": "MARIE"
                 },
+                "socialInsurancePrograms": [],
                 "identityDocuments": [
                     {
                         "documentID": "155123302126427",
@@ -777,7 +938,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ],
@@ -791,6 +952,7 @@
             "workAssignments": [
                 {
                     "hireDate": "1991-11-01",
+                    "seniorityDate": "1991-11-01",
                     "actualStartDate": "2012-01-01",
                     "jobCode": {
                         "codeValue": "400",
@@ -802,7 +964,16 @@
                         {
                             "nameCode": {
                                 "codeValue": "441411"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0101001441411",
+                                "shortName": "ROBOTIQUE",
+                                "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/OPERATIONNELLE/INDUSTRIE/ROBOTIQUE"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -837,33 +1008,63 @@
                                 "codeValue": "MSATH",
                                 "shortName": "Salaire annuel théorique"
                             },
-                            "amountValue": 26707.0,
+                            "amountValue": 4250.0,
                             "currencyCode": "EUR"
                         }
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "levangelist-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "LINDA-ODETTE",
+                                "familyName1": "EVANGEL"
                             }
                         }
                     ],
                     "payrollFileNumber": "00000004",
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "codeValue": "SAL",
+                                "longName": "Salarié",
+                                "itemID": "collaborationType"
+                            },
+                            {
+                                "codeValue": "00",
+                                "longName": "CDI",
+                                "itemID": "contractType"
+                            },
+                            {
+                                "codeValue": "B",
+                                "longName": "Base mensuelle",
+                                "itemID": "remunerationType"
+                            },
+                            {
+                                "codeValue": "001",
+                                "longName": "HORAIRE 35 HEURES",
+                                "itemID": "workSchedule"
+                            }
+                        ],
+                        "numberFields": [
+                            {
+                                "numberValue": 151.67,
+                                "itemID": "monthlyHours"
+                            }
+                        ]
+                    },
                     "itemID": "00000004"
                 }
             ],
             "links": [
                 {
-                    "href": "/hr/v2/workers/jhouvil-mp2/worker-data-image",
+                    "href": "/hr/v2/workers/jhouvil-mp8/worker-data-image",
                     "rel": "/adp/image",
                     "mediaType": "application/pdf"
                 }
             ]
         },
         {
-            "associateOID": "dberthe-mp2",
+            "associateOID": "dberthe-mp8",
             "workerID": {
                 "idValue": "00000005"
             },
@@ -921,6 +1122,7 @@
                     "shortName": "CELIBATAIRE",
                     "longName": "CELIBATAIRE"
                 },
+                "socialInsurancePrograms": [],
                 "identityDocuments": [
                     {
                         "documentID": "1750627229098",
@@ -967,7 +1169,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ],
@@ -987,6 +1189,7 @@
             "workAssignments": [
                 {
                     "hireDate": "2013-10-21",
+                    "seniorityDate": "1991-12-01",
                     "actualStartDate": "2013-10-21",
                     "jobCode": {
                         "codeValue": "100",
@@ -998,7 +1201,16 @@
                         {
                             "nameCode": {
                                 "codeValue": "111111"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202003111111",
+                                "shortName": "MANAGEMENT",
+                                "longName": "ORION CONSEIL/ORION CONSEIL LEVALLOIS/GENERALE/STRATEGIE/MANAGEMENT"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -1033,26 +1245,56 @@
                                 "codeValue": "MSATH",
                                 "shortName": "Salaire annuel théorique"
                             },
-                            "amountValue": 600.0,
+                            "amountValue": 2900.0,
                             "currencyCode": "EUR"
                         }
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "eafe21-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "EQUIPEB",
+                                "familyName1": "AFE2"
                             }
                         }
                     ],
                     "payrollFileNumber": "A0000759",
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "codeValue": "SAL",
+                                "longName": "Salarié",
+                                "itemID": "collaborationType"
+                            },
+                            {
+                                "codeValue": "00",
+                                "longName": "CDI",
+                                "itemID": "contractType"
+                            },
+                            {
+                                "codeValue": "F",
+                                "longName": "Appointements forfaitaires",
+                                "itemID": "remunerationType"
+                            },
+                            {
+                                "codeValue": "001",
+                                "longName": "HORAIRE 35 HEURES",
+                                "itemID": "workSchedule"
+                            }
+                        ],
+                        "numberFields": [
+                            {
+                                "numberValue": 151.67,
+                                "itemID": "monthlyHours"
+                            }
+                        ]
+                    },
                     "itemID": "A0000759"
                 }
             ],
             "links": [
                 {
-                    "href": "/hr/v2/workers/dberthe-mp2/worker-data-image",
+                    "href": "/hr/v2/workers/dberthe-mp8/worker-data-image",
                     "rel": "/adp/image",
                     "mediaType": "application/pdf"
                 }

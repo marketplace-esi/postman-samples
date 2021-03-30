@@ -1,7 +1,7 @@
 {
     "workers": [
         {
-            "associateOID": "nfiolot1-mp2",
+            "associateOID": "nfiolot0-mp8",
             "workerID": {
                 "idValue": "00000001"
             },
@@ -111,7 +111,7 @@
                 {
                     "links": [
                         {
-                            "href": "/hr/v2/workers/nfiolot1-mp2/worker-images/photo"
+                            "href": "/hr/v2/workers/nfiolot0-mp8/worker-images/photo"
                         }
                     ],
                     "itemID": "1"
@@ -125,7 +125,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ]
@@ -141,7 +141,16 @@
                                 "codeValue": "222221",
                                 "shortName": "TRESORERIE ACHATS",
                                 "longName": "TRESORERIE ACHATS"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202004222221",
+                                "shortName": "TRESORERIE ACHATS",
+                                "longName": "ORION CONSEIL/ORION CONSEIL STRASBOURG/ADMIN-FINANCIERE/FINANCIERE/TRESORERIE ACHATS"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -165,12 +174,11 @@
                     ],
                     "remunerationBasisCode": {
                         "codeValue": "S",
-                        "shortName": "Salarié",
-                        "longName": "Salarié"
+                        "shortName": "S"
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "jlmoureau-mp2",
+                            "associateOID": "jlmoureau-mp8",
                             "reportsToWorkerName": {
                                 "givenName": "JEAN-LUCAFESTN",
                                 "familyName1": "MOUREAU"
@@ -183,7 +191,7 @@
             ]
         },
         {
-            "associateOID": "pmassina-mp2",
+            "associateOID": "pmassina-mp8",
             "workerID": {
                 "idValue": "00000002"
             },
@@ -236,7 +244,7 @@
                 "communication": {
                     "mobiles": [
                         {
-                            "formattedNumber": "03 33 33 33 34",
+                            "formattedNumber": "03 33 33 33 66",
                             "itemID": "Personnel"
                         }
                     ],
@@ -269,12 +277,39 @@
                     "longName": "CELIBATAIRE",
                     "effectiveDate": "2020-01-27"
                 },
+                "socialInsurancePrograms": [
+                    {
+                        "programServiceCenter": {
+                            "nameCode": {
+                                "codeValue": "00011",
+                                "shortName": "CPAM DE L AIN"
+                            },
+                            "address": {
+                                "lineOne": "Place de la Grenouillere",
+                                "cityName": "BOURG EN BRESSE",
+                                "postalCode": "01015"
+                            }
+                        }
+                    }
+                ],
                 "disabilityIdentificationDeclinedIndicator": true,
                 "birthPlace": {
-                    "cityName": "ROME",
+                    "cityName": "ROMA",
                     "postalCode": "A",
                     "countryCode": "VA"
                 },
+                "otherPersonalAddresses": [
+                    {
+                        "cityName": "NORT SUR ERDRE",
+                        "postalCode": "44390",
+                        "lineFive": "LES",
+                        "buildingNumber": "12",
+                        "buildingNumberExtension": "B",
+                        "buildingName": "B",
+                        "countrySubdivisionLevel2": {},
+                        "itemID": "AdrPerso"
+                    }
+                ],
                 "citizenshipCountryCodes": [
                     {
                         "codeValue": "FR",
@@ -290,7 +325,7 @@
                 {
                     "links": [
                         {
-                            "href": "/hr/v2/workers/pmassina-mp2/worker-images/photo"
+                            "href": "/hr/v2/workers/pmassina-mp8/worker-images/photo"
                         }
                     ],
                     "itemID": "1"
@@ -316,7 +351,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "change@adp.com",
                         "itemID": "Travail"
                     }
                 ],
@@ -336,7 +371,7 @@
             "workAssignments": [
                 {
                     "hireDate": "2012-01-02",
-                    "actualStartDate": "2019-05-23",
+                    "actualStartDate": "2021-03-17",
                     "jobCode": {
                         "codeValue": "120",
                         "shortName": "INGENIEUR",
@@ -346,10 +381,19 @@
                     "assignedOrganizationalUnits": [
                         {
                             "nameCode": {
-                                "codeValue": "332322",
-                                "shortName": "VTE SERVICES",
-                                "longName": "VTE SERVICES"
-                            }
+                                "codeValue": "112122",
+                                "shortName": "QUALITE",
+                                "longName": "QUALITE"
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202010112122",
+                                "shortName": "QUALITE",
+                                "longName": "ORION CONSEIL/ORION CONSEIL PARIS/GENERALE/RECHERCHE ET DEV/QUALITE"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -377,15 +421,14 @@
                     ],
                     "remunerationBasisCode": {
                         "codeValue": "S",
-                        "shortName": "Salarié",
-                        "longName": "Salarié"
+                        "shortName": "S"
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "amarc-mp2",
+                            "associateOID": "agallois-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "ANTOINE",
-                                "familyName1": "MARC"
+                                "givenName": "AYMERIC",
+                                "familyName1": "GALLOIS"
                             }
                         }
                     ],
@@ -395,7 +438,7 @@
             ]
         },
         {
-            "associateOID": "msanson-mp2",
+            "associateOID": "msanson-mp8",
             "workerID": {
                 "idValue": "00000003"
             },
@@ -480,7 +523,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ]
@@ -502,7 +545,16 @@
                                 "codeValue": "441411",
                                 "shortName": "ROBOTIQUE",
                                 "longName": "ROBOTIQUE"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0101001441411",
+                                "shortName": "ROBOTIQUE",
+                                "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/OPERATIONNELLE/INDUSTRIE/ROBOTIQUE"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -529,15 +581,14 @@
                     ],
                     "remunerationBasisCode": {
                         "codeValue": "S",
-                        "shortName": "Salarié",
-                        "longName": "Salarié"
+                        "shortName": "S"
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "levangelist-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "LINDA-ODETTE",
+                                "familyName1": "EVANGEL"
                             }
                         }
                     ],
@@ -547,7 +598,7 @@
             ]
         },
         {
-            "associateOID": "jhouvil-mp2",
+            "associateOID": "jhouvil-mp8",
             "workerID": {
                 "idValue": "00000004"
             },
@@ -626,7 +677,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ],
@@ -651,7 +702,16 @@
                         {
                             "nameCode": {
                                 "codeValue": "441411"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0101001441411",
+                                "shortName": "ROBOTIQUE",
+                                "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/OPERATIONNELLE/INDUSTRIE/ROBOTIQUE"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -678,15 +738,14 @@
                     ],
                     "remunerationBasisCode": {
                         "codeValue": "S",
-                        "shortName": "Salarié",
-                        "longName": "Salarié"
+                        "shortName": "S"
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "levangelist-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "LINDA-ODETTE",
+                                "familyName1": "EVANGEL"
                             }
                         }
                     ],
@@ -696,7 +755,7 @@
             ]
         },
         {
-            "associateOID": "dberthe-mp2",
+            "associateOID": "dberthe-mp8",
             "workerID": {
                 "idValue": "00000005"
             },
@@ -790,7 +849,7 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ],
@@ -821,7 +880,16 @@
                         {
                             "nameCode": {
                                 "codeValue": "111111"
-                            }
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202003111111",
+                                "shortName": "MANAGEMENT",
+                                "longName": "ORION CONSEIL/ORION CONSEIL LEVALLOIS/GENERALE/STRATEGIE/MANAGEMENT"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
@@ -848,15 +916,14 @@
                     ],
                     "remunerationBasisCode": {
                         "codeValue": "S",
-                        "shortName": "Salarié",
-                        "longName": "Salarié"
+                        "shortName": "S"
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "eafe21-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "EQUIPEB",
+                                "familyName1": "AFE2"
                             }
                         }
                     ],

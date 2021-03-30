@@ -1,28 +1,28 @@
 {
     "events": [
         {
-            "eventID": "9241f3f5-1c26-442a-aab9-5a9dasaekr3",
+            "eventID": "604f66045872d4e519f8f6d7",
             "eventNameCode": {
                 "codeValue": "worker.rehire"
             },
-            "recordDateTime": "2020-09-22T09:53:14+02:00",
-            "effectiveDateTime": "2020-09-11T00:00:00+02:00",
+            "recordDateTime": "2021-03-15T14:46:34+01:00",
+            "effectiveDateTime": "2020-07-03T00:00:00+02:00",
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "dabt-mp2",
+                        "associateOID": "pnom2-mp1",
                         "workerID": {
-                            "idValue": "00000223",
+                            "idValue": "99999999",
                             "schemeCode": {
                                 "shortName": "Employee ID"
                             }
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "DANIEL",
+                                "givenName": "PREN2",
                                 "middleName": "",
-                                "familyName1": "ABT",
-                                "formattedName": "DANIEL ABT",
+                                "familyName1": "NOM2",
+                                "formattedName": "PREN2 NOM2",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
@@ -44,9 +44,9 @@
                                     }
                                 ]
                             },
-                            "birthDate": "1985-05-05",
+                            "birthDate": "1990-02-15",
                             "legalAddress": {
-                                "cityName": "SUCE SUR ERDRE",
+                                "cityName": "LA FLECHE",
                                 "buildingNumber": "0",
                                 "buildingNumberExtension": " ",
                                 "buildingName": " ",
@@ -56,62 +56,177 @@
                                     "subdivisionType": ""
                                 }
                             },
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "formattedNumber": "01.20.23.25.78",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "06.88.68.25.78",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Personnel",
+                                            "shortName": "Personnel",
+                                            "longName": "Personnel"
+                                        },
+                                        "emailUri": "aude.faure.test@adp.com"
+                                    }
+                                ]
+                            },
                             "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "F",
+                                "shortName": "Femme",
+                                "longName": "Femme"
+                            },
                             "maritalStatusCode": {
                                 "codeValue": ""
                             },
-                            "socialInsurancePrograms": [
-                                {
-                                    "programServiceCenter": {
-                                        "address": {
-                                            "lineOne": "Place de la Grenouillere",
-                                            "cityName": "BOURG EN BRESSE",
-                                            "postalCode": "01015"
-                                        }
-                                    }
-                                }
-                            ],
+                            "socialInsurancePrograms": [],
                             "identityDocuments": [
                                 {
-                                    "documentID": "2850535672169",
+                                    "documentID": "2900299999899",
                                     "typeCode": {
                                         "codeValue": "SSN",
                                         "shortName": "Numéro de sécurité sociale"
                                     }
                                 }
                             ],
-                            "immigrationDocuments": [],
+                            "immigrationDocuments": [
+                                {
+                                    "documentID": "1111",
+                                    "typeCode": {
+                                        "codeValue": "visa",
+                                        "shortName": " Visa"
+                                    },
+                                    "issuingParty": {
+                                        "nameCode": {
+                                            "codeValue": "111"
+                                        }
+                                    },
+                                    "issueDate": "2020-06-01",
+                                    "expirationDate": "2020-06-16"
+                                },
+                                {
+                                    "documentID": "1234",
+                                    "typeCode": {
+                                        "codeValue": "workPermit",
+                                        "shortName": "Work Permit"
+                                    },
+                                    "issuingParty": {
+                                        "nameCode": {
+                                            "codeValue": "ZSDF"
+                                        }
+                                    },
+                                    "issueDate": "2020-06-18",
+                                    "expirationDate": "2020-06-26"
+                                }
+                            ],
                             "birthPlace": {
-                                "cityName": "REDON",
-                                "postalCode": "35600",
+                                "cityName": "NANTES",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "23"
+                                },
+                                "postalCode": "44000",
                                 "countryCode": "FR"
-                            }
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "DK",
+                                    "shortName": "DANEMARK",
+                                    "longName": "DANEMARK"
+                                }
+                            ]
                         },
                         "workerDates": {
-                            "originalHireDate": "2020-09-11"
+                            "originalHireDate": "2020-07-03",
+                            "terminationDate": "2020-07-02"
                         },
                         "workerStatus": {
                             "statusCode": {
                                 "codeValue": "PENDING"
                             },
-                            "effectiveDate": "2020-09-11"
+                            "effectiveDate": "2020-07-03"
+                        },
+                        "businessCommunication": {
+                            "emails": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Travail",
+                                        "shortName": "Travail",
+                                        "longName": "Travail"
+                                    },
+                                    "emailUri": "testmail.lsprh@fr.adp.com",
+                                    "itemID": "Travail"
+                                }
+                            ]
                         },
                         "workAssignment": {
-                            "hireDate": "2020-09-11",
-                            "actualStartDate": "2020-09-11",
+                            "hireDate": "2020-06-03",
+                            "actualStartDate": "2020-06-03",
+                            "terminationDate": "2020-07-02",
+                            "workerTypeCode": {
+                                "codeValue": "01",
+                                "shortName": "CDD",
+                                "longName": "CDD"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00",
+                                        "shortName": "METALL I&C NAT  3025",
+                                        "longName": "METALL I&C NAT  3025"
+                                    }
+                                }
+                            ],
                             "jobCode": {
                                 "codeValue": "EMPLO1",
                                 "shortName": "Emploi 1",
                                 "longName": "Emploi 1"
                             },
                             "jobTitle": "Emploi 1",
+                            "jobFunctionCode": {
+                                "codeValue": "13",
+                                "shortName": "CADRE ART 4",
+                                "longName": "CADRE ART 4"
+                            },
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA1",
+                                        "shortName": "CADRE POSITION I",
+                                        "longName": "CADRE POSITION I"
+                                    }
+                                }
+                            ],
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "shortName": "HORAIRE = 35H",
+                                "longName": "HORAIRE = 35H"
+                            },
                             "assignedOrganizationalUnits": [
                                 {
                                     "nameCode": {
                                         "codeValue": "111111",
                                         "shortName": "MANAGEMENT",
                                         "longName": "MANAGEMENT"
-                                    }
+                                    },
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/GENERALE/STRATEGIE/MANAGEMENT"
+                                    },
+                                    "itemID": "strucAffectationId"
                                 }
                             ],
                             "assignedWorkLocations": [
@@ -146,21 +261,61 @@
                                         "codeValue": "MSATH",
                                         "shortName": "Salaire annuel théorique"
                                     },
-                                    "amountValue": 0.0,
+                                    "amountValue": 3600.0,
                                     "currencyCode": "EUR"
                                 }
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp2",
+                                    "associateOID": "levangelist-mp1",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "A0001150",
-                            "itemID": "A0001150"
+                            "payrollFileNumber": "A0001174",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "longName": "Salarié",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "RB",
+                                        "longName": "Remplacement maternité(CDD)",
+                                        "itemID": "recoursReason"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "CDD",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "B",
+                                        "longName": "Base mensuelle",
+                                        "itemID": "remunerationType"
+                                    },
+                                    {
+                                        "codeValue": "001",
+                                        "longName": "HORAIRE 35 HEURES",
+                                        "itemID": "workSchedule"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2020-07-02",
+                                        "itemID": "contractEndDate"
+                                    }
+                                ]
+                            },
+                            "itemID": "A0001174"
                         }
                     }
                 }

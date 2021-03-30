@@ -2,11 +2,10 @@
     "organizationDepartments": [
         {
             "departmentCode": {
-                "codeValue": "orgadmin",
+                "codeValue": "",
                 "shortName": "Organisation hiérarchique",
                 "longName": "Organisation hiérarchique"
-            },
-            "organizationName": "Organisation hiérarchique"
+            }
         },
         {
             "departmentCode": {
@@ -15,12 +14,9 @@
                 "longName": "ORION CONSEIL"
             },
             "parentDepartmentCode": {
-                "codeValue": "orgadmin",
-                "shortName": "Organisation hiérarchique",
-                "longName": "Organisation hiérarchique"
+                "codeValue": ""
             },
-            "effectiveDate": "2011-02-01",
-            "organizationName": "Organisation hiérarchique"
+            "effectiveDate": "2011-02-01"
         },
         {
             "departmentCode": {
@@ -29,12 +25,9 @@
                 "longName": "ORION CONSEIL PARIS"
             },
             "parentDepartmentCode": {
-                "codeValue": "02",
-                "shortName": "ORION CONSEIL",
-                "longName": "ORION CONSEIL"
+                "codeValue": "02"
             },
-            "effectiveDate": "2011-02-01",
-            "organizationName": "Organisation hiérarchique"
+            "effectiveDate": "2011-02-01"
         },
         {
             "departmentCode": {
@@ -43,12 +36,9 @@
                 "longName": "GENERALE"
             },
             "parentDepartmentCode": {
-                "codeValue": "0202010",
-                "shortName": "ORION CONSEIL PARIS",
-                "longName": "ORION CONSEIL PARIS"
+                "codeValue": "0202010"
             },
-            "effectiveDate": "2011-02-01",
-            "organizationName": "Organisation hiérarchique"
+            "effectiveDate": "2011-02-01"
         },
         {
             "departmentCode": {
@@ -57,12 +47,2726 @@
                 "longName": "STRATEGIE"
             },
             "parentDepartmentCode": {
-                "codeValue": "02020101",
+                "codeValue": "02020101"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020101"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010141",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020101"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010141412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010141"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010141411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010141"
+            },
+            "effectiveDate": "2020-03-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020103",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010331",
+                "shortName": "MARKETING",
+                "longName": "MARKETING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020103"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010331311",
+                "shortName": "MTG PRODUITS",
+                "longName": "MTG PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010331"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020103"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010332322",
+                "shortName": "VTE SERVICES",
+                "longName": "VTE SERVICES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020102",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020102"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020102"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010222"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010222"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020104",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010441",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020104"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010441412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010441"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010441411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010441"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010442",
+                "shortName": "CONSEIL",
+                "longName": "CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020104"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010442421",
+                "shortName": "METHODE",
+                "longName": "METHODE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010442"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003",
+                "shortName": "ORION CONSEIL LEVALLOIS",
+                "longName": "ORION CONSEIL LEVALLOIS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020034",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003442",
+                "shortName": "CONSEIL",
+                "longName": "CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020034"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003442422",
+                "shortName": "MISE EN OEUVRE",
+                "longName": "MISE EN OEUVRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003442"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003442421",
+                "shortName": "METHODE",
+                "longName": "METHODE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003442"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003441",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020034"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003441411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003441"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020033",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020033"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003332322",
+                "shortName": "VTE SERVICES",
+                "longName": "VTE SERVICES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003332"
+            },
+            "effectiveDate": "2019-02-04"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020031",
                 "shortName": "GENERALE",
                 "longName": "GENERALE"
             },
-            "effectiveDate": "2011-02-01",
-            "organizationName": "Organisation hiérarchique"
+            "parentDepartmentCode": {
+                "codeValue": "0202003"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020031"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020031"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003141",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020031"
+            },
+            "effectiveDate": "2011-03-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003141412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003141"
+            },
+            "effectiveDate": "2011-03-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020032",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020032"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020032"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202003222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202003222"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004",
+                "shortName": "ORION CONSEIL STRASBOURG",
+                "longName": "ORION CONSEIL STRASBOURG"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020042",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020042"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020042"
+            },
+            "effectiveDate": "2016-04-10"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004222"
+            },
+            "effectiveDate": "2016-04-10"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004222"
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020044",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004442",
+                "shortName": "CONSEIL",
+                "longName": "CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020044"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004442422",
+                "shortName": "MISE EN OEUVRE",
+                "longName": "MISE EN OEUVRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004442"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004442421",
+                "shortName": "METHODE",
+                "longName": "METHODE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004442"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004441",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020044"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004441411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004441"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020041",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020041"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004111"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020041"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004112"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020043",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020043"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004332322",
+                "shortName": "VTE SERVICES",
+                "longName": "VTE SERVICES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004331",
+                "shortName": "MARKETING",
+                "longName": "MARKETING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02020043"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202004331311",
+                "shortName": "MTG PRODUITS",
+                "longName": "MTG PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202004331"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04",
+                "shortName": "ORION USINES",
+                "longName": "ORION USINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": ""
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006",
+                "shortName": "ORION USINE ROUEN",
+                "longName": "ORION USINE ROUEN"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04040064",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006441",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040064"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006441412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006441"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006441411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006441"
+            },
+            "effectiveDate": "2020-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006442",
+                "shortName": "CONSEIL",
+                "longName": "CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040064"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006442422",
+                "shortName": "MISE EN OEUVRE",
+                "longName": "MISE EN OEUVRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006442"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006442421",
+                "shortName": "METHODE",
+                "longName": "METHODE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006442"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006443",
+                "shortName": "PDTS FINANCIERS",
+                "longName": "PDTS FINANCIERS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040064"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006443431",
+                "shortName": "LEASING",
+                "longName": "LEASING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006443"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04040062",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040062"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006222"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006222"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040062"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04040063",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040063"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006332322",
+                "shortName": "VTE SERVICES",
+                "longName": "VTE SERVICES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006332"
+            },
+            "effectiveDate": "2012-10-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006331",
+                "shortName": "MARKETING",
+                "longName": "MARKETING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040063"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006331311",
+                "shortName": "MTG PRODUITS",
+                "longName": "MTG PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006331"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04040061",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040061"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040061"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006141",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04040061"
+            },
+            "effectiveDate": "2018-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0404006141111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0404006141"
+            },
+            "effectiveDate": "2018-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002",
+                "shortName": "ORION USINE LYON",
+                "longName": "ORION USINE LYON"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04010022",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010022"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010022"
+            },
+            "effectiveDate": "2011-05-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002222"
+            },
+            "effectiveDate": "2011-05-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002222"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04010024",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002441",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010024"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002441412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002441"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002441411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002441"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002443",
+                "shortName": "PDTS FINANCIERS",
+                "longName": "PDTS FINANCIERS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010024"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002443431",
+                "shortName": "LEASING",
+                "longName": "LEASING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002443"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04010021",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010021"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010021"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002141",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010021"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002141412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002141"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04010023",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04010023"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0401002332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0401002332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0499005",
+                "shortName": "VESINET",
+                "longName": "VESINET"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "04"
+            },
+            "effectiveDate": "2018-08-31"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "04990051",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0499005"
+            },
+            "effectiveDate": "2018-09-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "03",
+                "shortName": "ORION BANQUE",
+                "longName": "ORION BANQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": ""
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005",
+                "shortName": "ORION BANQUE",
+                "longName": "ORION BANQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "03030052",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030052"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005222"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005222"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030052"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "03030054",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005443",
+                "shortName": "PDTS FINANCIERS",
+                "longName": "PDTS FINANCIERS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030054"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005443431",
+                "shortName": "LEASING",
+                "longName": "LEASING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005443"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "03030051",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030051"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030051"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005141",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030051"
+            },
+            "effectiveDate": "2016-07-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005141412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005141"
+            },
+            "effectiveDate": "2016-07-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005141111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005141"
+            },
+            "effectiveDate": "2019-03-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "03030053",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "03030053"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005332322",
+                "shortName": "VTE SERVICES",
+                "longName": "VTE SERVICES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0303005332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0303005332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01",
+                "shortName": "ORIONB",
+                "longName": "ORIONB"
+            },
+            "parentDepartmentCode": {
+                "codeValue": ""
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001",
+                "shortName": "ORION SIEGE LEVALLOIS AFE",
+                "longName": "ORION SIEGE LEVALLOIS AFE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010011",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010011"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010011"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001112"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001141",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010011"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001141412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001141"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001141111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001141"
+            },
+            "effectiveDate": "2021-01-15"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010013",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010013"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001332"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001332322",
+                "shortName": "VTE SERVICES",
+                "longName": "VTE SERVICES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001332"
+            },
+            "effectiveDate": "2018-09-15"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001331",
+                "shortName": "MARKETING",
+                "longName": "MARKETING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010013"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001331311",
+                "shortName": "MTG PRODUITS",
+                "longName": "MTG PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001331"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010012",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010012"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001221"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001221"
+            },
+            "effectiveDate": "2014-09-22"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010012"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001222"
+            },
+            "effectiveDate": "2011-11-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001222"
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001241",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010012"
+            },
+            "effectiveDate": "2019-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001241555",
+                "shortName": "Service pentests",
+                "longName": "Service pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001241"
+            },
+            "effectiveDate": "2019-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010014",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001441",
+                "shortName": "INDUSTRIE",
+                "longName": "INDUSTRIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010014"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001441412",
+                "shortName": "MACHINES OUTILS",
+                "longName": "MACHINES OUTILS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001441"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001441411",
+                "shortName": "ROBOTIQUE",
+                "longName": "ROBOTIQUE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001441"
+            },
+            "effectiveDate": "2011-03-25"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001443",
+                "shortName": "PDTS FINANCIERS",
+                "longName": "PDTS FINANCIERS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010014"
+            },
+            "effectiveDate": "2018-04-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001443431",
+                "shortName": "LEASING",
+                "longName": "LEASING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001443"
+            },
+            "effectiveDate": "2018-04-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001442",
+                "shortName": "CONSEIL",
+                "longName": "CONSEIL"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010014"
+            },
+            "effectiveDate": "2018-07-31"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001442422",
+                "shortName": "MISE EN OEUVRE",
+                "longName": "MISE EN OEUVRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001442"
+            },
+            "effectiveDate": "2018-07-31"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010015",
+                "shortName": "Direction pentests",
+                "longName": "Direction pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2016-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001555",
+                "shortName": "Département pentests",
+                "longName": "Département pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010015"
+            },
+            "effectiveDate": "2016-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001555555",
+                "shortName": "Service pentests",
+                "longName": "Service pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001555"
+            },
+            "effectiveDate": "2016-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001TIC",
+                "shortName": "Techn. Informatique",
+                "longName": "Techn. Informatique"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2018-08-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001TICR&D",
+                "shortName": "Recherches et dével.",
+                "longName": "Recherches et dével."
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001TIC"
+            },
+            "effectiveDate": "2018-08-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101001TICR&DCOMPTA",
+                "shortName": "Comptabilité",
+                "longName": "Comptabilité"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001TICR&D"
+            },
+            "effectiveDate": "2018-08-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010016",
+                "shortName": "Direction Test UX",
+                "longName": "Direction Test UX"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101001"
+            },
+            "effectiveDate": "2018-09-03"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002",
+                "shortName": "ORION USINE LYON",
+                "longName": "ORION USINE LYON"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010021",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010021"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002111"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002112",
+                "shortName": "RECHERCHE ET DEV",
+                "longName": "RECHERCHE ET DEV"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010021"
+            },
+            "effectiveDate": "2018-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002112121",
+                "shortName": "OFFRE",
+                "longName": "OFFRE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002112"
+            },
+            "effectiveDate": "2018-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002112122",
+                "shortName": "QUALITE",
+                "longName": "QUALITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002112"
+            },
+            "effectiveDate": "2018-09-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010024",
+                "shortName": "OPERATIONNELLE",
+                "longName": "OPERATIONNELLE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002443",
+                "shortName": "PDTS FINANCIERS",
+                "longName": "PDTS FINANCIERS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010024"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002443431",
+                "shortName": "LEASING",
+                "longName": "LEASING"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002443"
+            },
+            "effectiveDate": "2011-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010023",
+                "shortName": "COMMERCIALE",
+                "longName": "COMMERCIALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002"
+            },
+            "effectiveDate": "2012-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002332",
+                "shortName": "VENTES",
+                "longName": "VENTES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010023"
+            },
+            "effectiveDate": "2012-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002332321",
+                "shortName": "VTE PRODUITS",
+                "longName": "VTE PRODUITS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002332"
+            },
+            "effectiveDate": "2012-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01010022",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002"
+            },
+            "effectiveDate": "2018-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010022"
+            },
+            "effectiveDate": "2018-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002221212",
+                "shortName": "RESSOURCES HUMAINES",
+                "longName": "RESSOURCES HUMAINES"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002221"
+            },
+            "effectiveDate": "2018-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002221"
+            },
+            "effectiveDate": "2018-02-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010022"
+            },
+            "effectiveDate": "2019-01-09"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002222221",
+                "shortName": "TRESORERIE ACHATS",
+                "longName": "TRESORERIE ACHATS"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002222"
+            },
+            "effectiveDate": "2019-01-09"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002211",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01010022"
+            },
+            "effectiveDate": "2019-01-20"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0101002211111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0101002211"
+            },
+            "effectiveDate": "2019-01-20"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005",
+                "shortName": "VESINET",
+                "longName": "VESINET"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01"
+            },
+            "effectiveDate": "2018-10-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01990052",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0199005"
+            },
+            "effectiveDate": "2018-10-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005221",
+                "shortName": "ADMINISTRATIVE",
+                "longName": "ADMINISTRATIVE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01990052"
+            },
+            "effectiveDate": "2018-10-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005221211",
+                "shortName": "COMPTABILITE",
+                "longName": "COMPTABILITE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0199005221"
+            },
+            "effectiveDate": "2018-10-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01990051",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0199005"
+            },
+            "effectiveDate": "2019-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01990051"
+            },
+            "effectiveDate": "2019-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0199005111"
+            },
+            "effectiveDate": "2019-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01990055",
+                "shortName": "Direction pentests",
+                "longName": "Direction pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0199005"
+            },
+            "effectiveDate": "2020-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005555",
+                "shortName": "Département pentests",
+                "longName": "Département pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01990055"
+            },
+            "effectiveDate": "2020-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0199005555555",
+                "shortName": "Service pentests",
+                "longName": "Service pentests"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0199005555"
+            },
+            "effectiveDate": "2020-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "66",
+                "shortName": "TEST OLC",
+                "longName": "TEST OLC"
+            },
+            "parentDepartmentCode": {
+                "codeValue": ""
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "6622222",
+                "shortName": "TEST OLC 1",
+                "longName": "TEST OLC 1"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "66"
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "66222222",
+                "shortName": "ADMIN-FINANCIERE",
+                "longName": "ADMIN-FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "6622222"
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "6622222222",
+                "shortName": "FINANCIERE",
+                "longName": "FINANCIERE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "66222222"
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "6622222222222",
+                "shortName": "CONTROLE DE GESTION",
+                "longName": "CONTROLE DE GESTION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "6622222222"
+            },
+            "effectiveDate": "2017-12-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "66222221",
+                "shortName": "GENERALE",
+                "longName": "GENERALE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "6622222"
+            },
+            "effectiveDate": "2019-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "6622222111",
+                "shortName": "STRATEGIE",
+                "longName": "STRATEGIE"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "66222221"
+            },
+            "effectiveDate": "2019-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "6622222111111",
+                "shortName": "MANAGEMENT",
+                "longName": "MANAGEMENT"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "6622222111"
+            },
+            "effectiveDate": "2019-01-01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "6622222111112",
+                "shortName": "COMMUNICATION",
+                "longName": "COMMUNICATION"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "6622222111"
+            },
+            "effectiveDate": "2019-02-12"
         }
     ]
 }

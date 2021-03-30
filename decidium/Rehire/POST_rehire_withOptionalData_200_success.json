@@ -4,7 +4,7 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "abelluccia-mp5",
+                        "associateOID": "rgrehirefami-mp1",
                         "workerID": {
                             "idValue": "99994149"
                         },
@@ -237,7 +237,9 @@
                                 }
                             ],
                             "jobCode": {
-                                "codeValue": "EMPLO1"
+                                "codeValue": "EMPLO1",
+                                "shortName": "Emploi 1",
+                                "longName": "Emploi 1"
                             },
                             "jobTitle": "AAA CODE AAA",
                             "jobFunctionCode": {
@@ -265,7 +267,16 @@
                                         "codeValue": "111111",
                                         "shortName": "MANAGEMENT",
                                         "longName": "MANAGEMENT"
-                                    }
+                                    },
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/GENERALE/STRATEGIE/MANAGEMENT"
+                                    },
+                                    "itemID": "strucAffectationId"
                                 }
                             ],
                             "assignedWorkLocations": [
@@ -306,44 +317,44 @@
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp5",
+                                    "associateOID": "levangelist-mp1",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "A0001188",
+                            "payrollFileNumber": "A0001224",
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
                                         "codeValue": "SAL",
                                         "longName": "Salarié",
-                                        "itemID": "typeCollab"
+                                        "itemID": "collaborationType"
                                     },
                                     {
                                         "codeValue": "00",
                                         "longName": "CDI",
-                                        "itemID": "typeContrat"
+                                        "itemID": "contractType"
                                     },
                                     {
                                         "codeValue": "01",
                                         "longName": "ORION",
-                                        "itemID": "activite"
+                                        "itemID": "activity"
                                     },
                                     {
                                         "codeValue": "B",
                                         "longName": "Base mensuelle",
-                                        "itemID": "classeRemun"
+                                        "itemID": "remunerationType"
                                     },
                                     {
                                         "codeValue": "101",
                                         "longName": "TPS PART: 80% - LuMa JeVe",
-                                        "itemID": "classeHoraireRemun"
+                                        "itemID": "workSchedule"
                                     }
                                 ]
                             },
-                            "itemID": "A0001188"
+                            "itemID": "A0001224"
                         }
                     }
                 }

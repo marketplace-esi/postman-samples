@@ -1,39 +1,39 @@
 {
     "events": [
         {
-            "eventID": "0b0f0555-ea48-4eb2-bb37-36b75a3fcc9c",
+            "eventID": "60506a6f5872d443d5f8f6e7",
             "eventNameCode": {
                 "codeValue": "worker.hire"
             },
-            "recordDateTime": "2020-09-10T14:05:00+02:00",
-            "effectiveDateTime": "2020-09-30T00:00:00+02:00",
+            "recordDateTime": "2021-03-16T09:42:26+01:00",
+            "effectiveDateTime": "2021-03-02T00:00:00+01:00",
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "jembauchean-cgs"
+                        "associateOID": "nafe-5jk"
                     }
                 },
                 "output": {
                     "worker": {
-                        "associateOID": "jembauchean-cgs",
+                        "associateOID": "nafe-5jk",
                         "workerID": {
-                            "idValue": "00000376",
+                            "idValue": "00000445",
                             "schemeCode": {
                                 "shortName": "Employee ID"
                             }
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "JSZ",
+                                "givenName": "NONREDAYOROG",
                                 "middleName": "",
-                                "familyName1": "EMBAUCHE-ANTICIPEE",
-                                "formattedName": "JSZ EMBAUCHE-ANTICIPEE",
+                                "familyName1": "AFE",
+                                "formattedName": "NONREDAYOROG AFE",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "M",
-                                            "shortName": "M",
-                                            "longName": "Monsieur"
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
                                         },
                                         "sequenceNumber": 1
                                     }
@@ -41,17 +41,17 @@
                                 "titleAffixCodes": [
                                     {
                                         "affixCode": {
-                                            "codeValue": "M",
-                                            "shortName": "M",
-                                            "longName": "Monsieur"
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
                                         },
                                         "sequenceNumber": 1
                                     }
                                 ]
                             },
-                            "birthDate": "1963-08-09",
+                            "birthDate": "1979-09-19",
                             "legalAddress": {
-                                "cityName": "COLOMBES",
+                                "cityName": "NANTES",
                                 "buildingNumber": "0",
                                 "buildingNumberExtension": " ",
                                 "buildingName": " ",
@@ -62,12 +62,18 @@
                                 }
                             },
                             "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "F",
+                                "shortName": "Femme",
+                                "longName": "Femme"
+                            },
                             "maritalStatusCode": {
                                 "codeValue": ""
                             },
+                            "socialInsurancePrograms": [],
                             "identityDocuments": [
                                 {
-                                    "documentID": "1630899999999",
+                                    "documentID": "2790991999888",
                                     "typeCode": {
                                         "codeValue": "SSN",
                                         "shortName": "Numéro de sécurité sociale"
@@ -76,8 +82,8 @@
                             ],
                             "immigrationDocuments": [],
                             "birthPlace": {
-                                "cityName": "PARIS",
-                                "postalCode": "75",
+                                "cityName": "DOURDAN",
+                                "postalCode": "91000",
                                 "countryCode": "FR"
                             },
                             "citizenshipCountryCodes": [
@@ -89,28 +95,67 @@
                             ]
                         },
                         "workerDates": {
-                            "originalHireDate": "2020-09-30",
-                            "terminationDate": "2020-10-10"
+                            "originalHireDate": "2021-03-02"
                         },
                         "workerStatus": {
                             "statusCode": {
-                                "codeValue": "ACTIVE"
+                                "codeValue": "PENDING"
                             },
-                            "effectiveDate": "2020-09-30"
+                            "effectiveDate": "2021-03-02"
                         },
                         "workAssignment": {
-                            "hireDate": "2020-09-30",
-                            "actualStartDate": "2020-09-30",
-                            "terminationDate": "2020-10-10",
-                            "jobCode": {
-                                "codeValue": "EMPLO1",
-                                "shortName": "Emploi 1",
-                                "longName": "Emploi 1"
+                            "hireDate": "2021-03-02",
+                            "actualStartDate": "2021-03-02",
+                            "workerTypeCode": {
+                                "codeValue": "00",
+                                "shortName": "CDI",
+                                "longName": "CDI"
                             },
-                            "jobTitle": "Emploi 1",
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00",
+                                        "shortName": "METALL I&C NAT  3025",
+                                        "longName": "METALL I&C NAT  3025"
+                                    }
+                                }
+                            ],
+                            "jobTitle": "00",
+                            "jobFunctionCode": {
+                                "codeValue": "10",
+                                "shortName": "PDG,DG (ADMINIST)",
+                                "longName": "PDG,DG (ADMINIST)"
+                            },
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA1",
+                                        "shortName": "CADRE POSITION I",
+                                        "longName": "CADRE POSITION I"
+                                    }
+                                }
+                            ],
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "shortName": "HORAIRE = 35H",
+                                "longName": "HORAIRE = 35H"
+                            },
                             "assignedOrganizationalUnits": [
                                 {
-                                    "nameCode": {}
+                                    "nameCode": {
+                                        "codeValue": "111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "MANAGEMENT"
+                                    },
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/GENERALE/STRATEGIE/MANAGEMENT"
+                                    },
+                                    "itemID": "strucAffectationId"
                                 }
                             ],
                             "assignedWorkLocations": [
@@ -151,15 +196,44 @@
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp2",
+                                    "associateOID": "levangelist-mp1",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "A0001134",
-                            "itemID": "A0001134"
+                            "payrollFileNumber": "A0001221",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "longName": "Salarié",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "00",
+                                        "longName": "CDI",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "B",
+                                        "longName": "Base mensuelle",
+                                        "itemID": "remunerationType"
+                                    },
+                                    {
+                                        "codeValue": "001",
+                                        "longName": "HORAIRE 35 HEURES",
+                                        "itemID": "workSchedule"
+                                    }
+                                ]
+                            },
+                            "itemID": "A0001221"
                         }
                     }
                 }
