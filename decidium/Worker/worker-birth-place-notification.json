@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "eventID": "602e0a12a2a7dc54d8f630i9",
+            "eventNameCode": {
+                "codeValue": "worker.birthPlace.change"
+            },
+            "recordDateTime": "2021-04-13T11:27:32+02:00",
+            "effectiveDateTime": "2021-04-13T11:27:32+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "PARIS",
+                                "postalCode": "75000",
+                                "countryCode": "FR"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
