@@ -2,6 +2,7 @@
     "payDistributions": [
         {
             "payrollFileNumber": "0000061",
+			"itemID":"B00",
             "distributionInstructions": [
                 {
                     "precedenceCode": {
@@ -38,6 +39,7 @@
         },
         {
             "payrollFileNumber": "0000061",
+			"itemID":"B01",
             "distributionInstructions": [
                 {
                     "precedenceCode": {
@@ -81,6 +83,7 @@
         },
         {
             "payrollFileNumber": "0000061",
+			"itemID":"B02",
             "distributionPurposeCode": {
                 "codeValue": "6439",
                 "shortName": "Langdurig-Verlof-Sparen",
@@ -123,6 +126,7 @@
         },
         {
             "payrollFileNumber": "0000061",
+			"itemID":"B03",
             "distributionInstructions": [
                 {
                     "precedenceCode": {
