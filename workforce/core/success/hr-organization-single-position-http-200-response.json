@@ -2,8 +2,11 @@
     "organizationPositions": [
         {
             "positionID": "000001-000001",
-            "positionTitle": "Corporate Headquarter - Tester Daniel updated",
+            "positionTitle": "Corporate Headquarter - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -23,6 +26,12 @@
                         }
                     }
                 ]
+            },
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         }
     ]
