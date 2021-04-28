@@ -1,23 +1,26 @@
 {
     "events": [
         {
-            "creationDateTime": "2021-01-11T00:00:00Z",
+            "creationDateTime": "2020-12-03T00:00:00Z",
             "effectiveDateTime": "2020-01-01T00:00:00Z",
-            "eventID": "c9b858c5-359e-4590-807a-b6b9e3b68172",
+            "eventID": "5858693c-c492-4bfc-8f54-2370dcace55a",
             "eventNameCode": {
                 "codeValue": "organizationPosition.change"
             },
             "data": {
                 "eventContext": {
-                    "contextExpressionID": "000030-000202"
+                    "contextExpressionID": "000095-000001"
                 },
                 "output": {
                     "organizationPosition": {
-                        "positionID": "000030-000202",
-                        "positionTitle": "Functioneel applicatiebeheerder (000030)",
-                        "sharedPositionMaximumHeadcount": 4.10,
+                        "positionID": "000095-000001",
+                        "positionTitle": "Communicatie - Tester Daniel updated",
+                        "sharedPositionMaximumHeadcount": 0.00,
+                        "positionStatusCode": {
+                            "effectiveDate": "1950-01-01"
+                        },
                         "budgetedAmount": {
-                            "amountValue": 281713.26,
+                            "amountValue": 0.00,
                             "currencyCode": "EUR"
                         },
                         "workAssignment": {
@@ -31,14 +34,16 @@
                             "wageLawCoverages": [
                                 {
                                     "wageLawNameCode": {
-                                        "codeValue": "65"
+                                        "codeValue": "64"
                                     }
                                 }
                             ]
                         },
-                        "payrollGroupCode": {
-                            "codeValue": "8",
-                            "shortName": "65-8"
+                        "compensationData": {
+                            "remunerationBasisCode": {
+                                "codeValue": "6",
+                                "shortName": "64-6"
+                            }
                         }
                     }
                 }

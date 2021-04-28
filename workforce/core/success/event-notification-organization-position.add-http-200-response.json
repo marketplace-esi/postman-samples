@@ -16,6 +16,9 @@
                         "positionID": "000091-000007",
                         "positionTitle": "Finance - Systeembeheerder",
                         "sharedPositionMaximumHeadcount": 0,
+                        "positionStatusCode": {
+                            "effectiveDate": "2021-01-11"
+                        },
                         "budgetedAmount": {
                             "amountValue": 0.00,
                             "currencyCode": "EUR"
@@ -36,9 +39,11 @@
                                 }
                             ]
                         },
-                        "payrollGroupCode": {
-                            "codeValue": "8",
-                            "shortName": "64-8"
+                        "compensationData": {
+                            "remunerationBasisCode": {
+                                "codeValue": "8",
+                                "shortName": "64-8"
+                            }
                         }
                     }
                 }
