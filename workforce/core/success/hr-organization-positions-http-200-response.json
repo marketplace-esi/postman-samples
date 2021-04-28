@@ -2,8 +2,11 @@
     "organizationPositions": [
         {
             "positionID": "000001-000001",
-            "positionTitle": "Corporate Headquarter - Tester Daniel updated",
+            "positionTitle": "Corporate Headquarter - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -24,15 +27,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000001-000002",
-            "positionTitle": "Secretaresse (000001)",
+            "positionTitle": "Corporate Headquarter - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 54105.93,
                 "currencyCode": "EUR"
@@ -53,15 +61,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000001-000004",
             "positionTitle": "MW Algemeen (000001)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -82,15 +95,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000001-000006",
             "positionTitle": "HRM medewerker (000001)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -111,15 +129,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000001-000094",
             "positionTitle": "Directeur (000001)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 236701.96,
                 "currencyCode": "EUR"
@@ -140,15 +163,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "13",
-                "shortName": "64-13"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "13",
+                    "shortName": "64-13"
+                }
             }
         },
         {
             "positionID": "000001-000130",
             "positionTitle": "Beleidsmedewerker (000001)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 135402.45,
                 "currencyCode": "EUR"
@@ -169,15 +197,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000001-000361",
             "positionTitle": "Secretaris ondernemingsraad (000001)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 60590.07,
                 "currencyCode": "EUR"
@@ -198,15 +231,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000010-000002",
-            "positionTitle": "Secretaresse (000010)",
+            "positionTitle": "ICT- 2 - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -227,15 +265,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000010-000004",
             "positionTitle": "MW Algemeen (000010)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -256,15 +299,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000010-000006",
             "positionTitle": "HRM medewerker (000010)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -285,15 +333,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000010-000007",
             "positionTitle": "Systeembeheerder (000010)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 121180.15,
                 "currencyCode": "EUR"
@@ -314,15 +367,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000010-000115",
             "positionTitle": "Analist (000010)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -343,15 +401,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000010-000150",
             "positionTitle": "Testcoördinator (000010)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -372,15 +435,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000010-000238",
             "positionTitle": "IT-specialist   (000010)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 135402.45,
                 "currencyCode": "EUR"
@@ -401,15 +469,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000010-000266",
             "positionTitle": "ICT - Manager ICT",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 211652.35,
                 "currencyCode": "EUR"
@@ -430,15 +503,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "12",
-                "shortName": "64-12"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "12",
+                    "shortName": "64-12"
+                }
             }
         },
         {
             "positionID": "000020-000001",
-            "positionTitle": "Marketing - Tester Daniel updated",
+            "positionTitle": "Marketing - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -459,15 +537,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000020-000002",
-            "positionTitle": "Secretaresse (000020)",
+            "positionTitle": "Marketing - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -488,15 +571,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000020-000004",
             "positionTitle": "MW Algemeen (000020)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -517,15 +605,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000020-000269",
             "positionTitle": "Manager marketing  (000020)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 94616.55,
                 "currencyCode": "EUR"
@@ -546,15 +639,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000020-000271",
             "positionTitle": "Manager marketing en sales  (000020)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -575,15 +673,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000020-000276",
             "positionTitle": "Marketeer (000020)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 169199.54,
                 "currencyCode": "EUR"
@@ -604,15 +707,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "10",
-                "shortName": "64-10"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "10",
+                    "shortName": "64-10"
+                }
             }
         },
         {
             "positionID": "000020-000279",
             "positionTitle": "Marketingmedewerker (000020)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 121180.15,
                 "currencyCode": "EUR"
@@ -633,15 +741,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000021-000004",
             "positionTitle": "Marketing en Sales - Medewerker Algemeen",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "2000-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -662,15 +775,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000021-000271",
             "positionTitle": "Manager marketing en sales  (000021)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 94616.55,
                 "currencyCode": "EUR"
@@ -691,15 +809,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000021-000360",
             "positionTitle": "Secretaresse (000021)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -720,15 +843,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000022-000004",
             "positionTitle": "S-a-l-e-s - Medewerker Algemeen",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "2000-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -749,15 +877,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000025-000002",
-            "positionTitle": "Secretaresse (000025)",
+            "positionTitle": "Klantenservice - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -778,15 +911,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000025-000004",
             "positionTitle": "MW Algemeen (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -807,15 +945,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000025-000102",
             "positionTitle": "Accountmanager (000025)",
             "sharedPositionMaximumHeadcount": 1E+1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 677012.26,
                 "currencyCode": "EUR"
@@ -836,15 +979,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000025-000211",
             "positionTitle": "Hoofd comm zaken  (000025)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -865,15 +1013,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000214",
             "positionTitle": "Hoofd communicatie  (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -894,15 +1047,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000215",
             "positionTitle": "Hoofd consultancy  (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -923,15 +1081,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000219",
             "positionTitle": "Klantenservice - Hoofd consultancy",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -952,15 +1115,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000220",
             "positionTitle": "Hoofd HRM  (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -981,15 +1149,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000221",
             "positionTitle": "Hoofd international  (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1010,15 +1183,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000224",
             "positionTitle": "Hoofd PnO  (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1039,15 +1217,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000227",
             "positionTitle": "HR-manager  (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1068,15 +1251,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000025-000238",
             "positionTitle": "IT-specialist   (000025)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1097,15 +1285,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000025-000246",
             "positionTitle": "Klantenservicemedewerker  (000025)",
             "sharedPositionMaximumHeadcount": 1E+1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 541059.26,
                 "currencyCode": "EUR"
@@ -1126,15 +1319,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000025-000256",
             "positionTitle": "Klantenservice - Manager klantenservice",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 189233.11,
                 "currencyCode": "EUR"
@@ -1155,15 +1353,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000025-000302",
             "positionTitle": "Medewerker service desk (000025)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -1184,15 +1387,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000030-000001",
-            "positionTitle": "Beheer - Tester Daniel updated",
+            "positionTitle": "Beheer - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1213,15 +1421,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000030-000002",
-            "positionTitle": "Secretaresse (000030)",
+            "positionTitle": "Beheer - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1242,15 +1455,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000030-000004",
             "positionTitle": "MW Algemeen (000030)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1271,15 +1489,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000030-000202",
             "positionTitle": "Functioneel applicatiebeheerder (000030)",
             "sharedPositionMaximumHeadcount": 4.1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 281713.26,
                 "currencyCode": "EUR"
@@ -1300,15 +1523,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "65-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "65-8"
+                }
             }
         },
         {
             "positionID": "000030-000256",
             "positionTitle": "Manager beheer  (000030)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 189233.11,
                 "currencyCode": "EUR"
@@ -1329,15 +1557,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000030-000269",
             "positionTitle": "Manager marketing  (000030)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1358,15 +1591,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000030-000348",
             "positionTitle": "Receptionist (000030)",
             "sharedPositionMaximumHeadcount": 5,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 270529.63,
                 "currencyCode": "EUR"
@@ -1387,15 +1625,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000040-000001",
-            "positionTitle": "Kwaliteit - Tester Daniel updated",
+            "positionTitle": "Kwaliteit - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 14,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 757482.97,
                 "currencyCode": "EUR"
@@ -1416,15 +1659,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000040-000002",
-            "positionTitle": "Secretaresse (000040)",
+            "positionTitle": "Kwaliteit - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1445,15 +1693,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000040-000004",
             "positionTitle": "MW Algemeen (000040)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -1474,15 +1727,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000040-000012",
             "positionTitle": "Admin Medewerker (000040)",
             "sharedPositionMaximumHeadcount": 2E+1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 1082118.53,
                 "currencyCode": "EUR"
@@ -1503,15 +1761,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000040-000115",
             "positionTitle": "Analist (000040)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 135402.45,
                 "currencyCode": "EUR"
@@ -1532,15 +1795,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000040-000150",
             "positionTitle": "Kwaliteit - Testcoördinator",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -1561,15 +1829,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000040-000248",
             "positionTitle": "Klantenservicemedewerker  (000040)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 54105.93,
                 "currencyCode": "EUR"
@@ -1590,15 +1863,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000040-000256",
             "positionTitle": "Kwaliteitscontroleur (000040)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 189233.11,
                 "currencyCode": "EUR"
@@ -1619,15 +1897,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000040-000267",
             "positionTitle": "Manager International  (000040)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1648,15 +1931,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000040-000268",
             "positionTitle": "Manager klantenservice  (000040)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1677,15 +1965,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000040-000269",
             "positionTitle": "Manager kwaliteit  (000040)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 189233.11,
                 "currencyCode": "EUR"
@@ -1706,15 +1999,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000040-000360",
             "positionTitle": "Secretaresse (000040)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 121180.15,
                 "currencyCode": "EUR"
@@ -1735,15 +2033,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000050-000001",
-            "positionTitle": "Internal Systems - Tester Daniel updated",
+            "positionTitle": "Internal Systems - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1764,15 +2067,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000050-000002",
-            "positionTitle": "Secretaresse (000050)",
+            "positionTitle": "Internal Systems - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1793,15 +2101,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000050-000004",
             "positionTitle": "MW Algemeen (000050)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1822,15 +2135,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000050-000007",
             "positionTitle": "Systeembeheerder (000050)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1851,15 +2169,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000050-000125",
             "positionTitle": "Bedrijfsleider (000050)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 169199.54,
                 "currencyCode": "EUR"
@@ -1880,15 +2203,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "10",
-                "shortName": "64-10"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "10",
+                    "shortName": "64-10"
+                }
             }
         },
         {
             "positionID": "000050-000274",
             "positionTitle": "Manager techniek  (000050)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 94616.55,
                 "currencyCode": "EUR"
@@ -1909,15 +2237,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000060-000001",
-            "positionTitle": "Sales - Tester Daniel updated",
+            "positionTitle": "Sales - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1938,15 +2271,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000060-000002",
-            "positionTitle": "Secretaresse (000060)",
+            "positionTitle": "Sales - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -1967,15 +2305,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000060-000003",
             "positionTitle": "Sales - Medewerker 36 uur",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "2015-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 68710.55,
                 "currencyCode": "EUR"
@@ -1996,15 +2339,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "215-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "215-8"
+                }
             }
         },
         {
             "positionID": "000060-000004",
             "positionTitle": "MW Algemeen (000060)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2025,15 +2373,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000060-000012",
             "positionTitle": "Sales - Administratief Medewerker",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 40694.14,
                 "currencyCode": "EUR"
@@ -2054,15 +2407,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "3",
-                "shortName": "64-3"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "3",
+                    "shortName": "64-3"
+                }
             }
         },
         {
             "positionID": "000060-000102",
             "positionTitle": "Accountmanager (000060)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2083,15 +2441,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000060-000221",
             "positionTitle": "Hoofd international  (000060)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -2112,15 +2475,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000060-000266",
             "positionTitle": "Manager International  (000060)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 211652.35,
                 "currencyCode": "EUR"
@@ -2141,15 +2509,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "12",
-                "shortName": "64-12"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "12",
+                    "shortName": "64-12"
+                }
             }
         },
         {
             "positionID": "000060-000355",
             "positionTitle": "Salesmanager (000060)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 94616.55,
                 "currencyCode": "EUR"
@@ -2170,15 +2543,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000060-000356",
             "positionTitle": "Salesmedewerker (000060)",
             "sharedPositionMaximumHeadcount": 33,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 1999472.43,
                 "currencyCode": "EUR"
@@ -2199,15 +2577,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000060-000357",
             "positionTitle": "Salesmedewerker international (000060)",
             "sharedPositionMaximumHeadcount": 18,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 1218622.06,
                 "currencyCode": "EUR"
@@ -2228,15 +2611,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000060-000425",
             "positionTitle": "Sales secretaresse",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "2014-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 68710.55,
                 "currencyCode": "EUR"
@@ -2257,15 +2645,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "65-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "65-8"
+                }
             }
         },
         {
             "positionID": "000070-000001",
-            "positionTitle": "International - Tester Daniel updated",
+            "positionTitle": "International - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2286,15 +2679,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000070-000002",
-            "positionTitle": "International - Secretaresse",
+            "positionTitle": "International - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2315,15 +2713,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000070-000004",
             "positionTitle": "International - Medewerker Algemeen",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2344,15 +2747,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000070-000221",
             "positionTitle": "International - Hoofd HRM",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2373,15 +2781,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000070-000266",
             "positionTitle": "International - Manager ICT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2402,15 +2815,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "12",
-                "shortName": "64-12"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "12",
+                    "shortName": "64-12"
+                }
             }
         },
         {
             "positionID": "000070-000355",
             "positionTitle": "International - Salesmanager",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2431,15 +2849,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000070-000356",
             "positionTitle": "International - Salesmedewerker",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2460,15 +2883,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000070-000357",
             "positionTitle": "International - Salesmedewerker international",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2489,15 +2917,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000071-000004",
             "positionTitle": "International 2 - Medewerker Algemeen",
             "sharedPositionMaximumHeadcount": 5E+1,
+            "positionStatusCode": {
+                "effectiveDate": "2000-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 2705296.32,
                 "currencyCode": "EUR"
@@ -2518,15 +2951,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000090-000001",
-            "positionTitle": "HRM - Tester Daniel updated",
+            "positionTitle": "HRM - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2547,15 +2985,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000090-000002",
-            "positionTitle": "Secretaresse (000090)",
+            "positionTitle": "HRM - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2576,15 +3019,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000090-000004",
             "positionTitle": "MW Algemeen (000090)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2605,15 +3053,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000090-000006",
             "positionTitle": "HRM medewerker (000090)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2634,15 +3087,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000090-000012",
             "positionTitle": "Admin Medewerker (000090)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2663,15 +3121,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000090-000172",
             "positionTitle": "Consultant HRM (000090)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -2692,15 +3155,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000090-000220",
             "positionTitle": "Hoofd HRM  (000090)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -2721,15 +3189,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000090-000227",
             "positionTitle": "HR-manager  (000090)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 151337.55,
                 "currencyCode": "EUR"
@@ -2750,15 +3223,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000090-000291",
             "positionTitle": "Medewerker HRM (000090)",
             "sharedPositionMaximumHeadcount": 5,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 302950.37,
                 "currencyCode": "EUR"
@@ -2779,15 +3257,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000091-000001",
-            "positionTitle": "Finance - Tester Daniel updated",
+            "positionTitle": "Finance - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2808,15 +3291,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "2",
-                "shortName": "65-2"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "2",
+                    "shortName": "65-2"
+                }
             }
         },
         {
             "positionID": "000091-000002",
-            "positionTitle": "Secretaresse (000091)",
+            "positionTitle": "Finance - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -2837,15 +3325,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000091-000004",
             "positionTitle": "MW Algemeen (000091)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -2866,15 +3359,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000091-000032",
             "positionTitle": "Accountant (000091)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 211652.35,
                 "currencyCode": "EUR"
@@ -2895,17 +3393,22 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "12",
-                "shortName": "64-12"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "12",
+                    "shortName": "64-12"
+                }
             }
         },
         {
             "positionID": "000091-000186",
             "positionTitle": "Divisiecontroller (000091)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
-                "amountValue": 189233.11,
+                "amountValue": 73986.57,
                 "currencyCode": "EUR"
             },
             "workAssignment": {
@@ -2924,15 +3427,54 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "2",
+                    "shortName": "64-2"
+                }
+            }
+        },
+        {
+            "positionID": "000091-000210",
+            "positionTitle": "Finance - Hoofd bedrijfsbureau",
+            "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "2021-03-22"
+            },
+            "budgetedAmount": {
+                "amountValue": 0,
+                "currencyCode": "EUR"
+            },
+            "workAssignment": {
+                "standardHours": {
+                    "hoursQuantity": 4E+1,
+                    "unitCode": {
+                        "codeValue": "W",
+                        "longName": "Week"
+                    }
+                },
+                "wageLawCoverages": [
+                    {
+                        "wageLawNameCode": {
+                            "codeValue": "64"
+                        }
+                    }
+                ]
+            },
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000091-000219",
             "positionTitle": "Hoofd consultancy (000091)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 151337.55,
                 "currencyCode": "EUR"
@@ -2953,15 +3495,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000091-000264",
             "positionTitle": "Manager financieel-economische zaken  (000091)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 94616.55,
                 "currencyCode": "EUR"
@@ -2982,15 +3529,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000091-000290",
             "positionTitle": "Medewerker financiële administratie (000091)",
             "sharedPositionMaximumHeadcount": 3,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 181770.22,
                 "currencyCode": "EUR"
@@ -3011,15 +3563,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000091-000350",
             "positionTitle": "Finance - Reïntegratieconsulent",
             "sharedPositionMaximumHeadcount": 1E+1,
+            "positionStatusCode": {
+                "effectiveDate": "2021-02-08"
+            },
             "budgetedAmount": {
                 "amountValue": 541059.26,
                 "currencyCode": "EUR"
@@ -3040,15 +3597,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000091-000357",
             "positionTitle": "Salesmedewerker international (000091)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3069,15 +3631,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000091-000359",
-            "positionTitle": "Finance - Scientist",
+            "positionTitle": "Finance - Scientist.",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "2021-02-08"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3098,15 +3665,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000091-000360",
             "positionTitle": "Secretaresse (000091)",
             "sharedPositionMaximumHeadcount": 3,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 181770.22,
                 "currencyCode": "EUR"
@@ -3127,15 +3699,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000092-000001",
-            "positionTitle": "Facilitair - Tester Daniel updated",
+            "positionTitle": "Facilitair - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3156,15 +3733,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000092-000002",
-            "positionTitle": "Secretaresse (000092)",
+            "positionTitle": "Facilitair - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3185,15 +3767,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000092-000004",
             "positionTitle": "MW Algemeen (000092)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3214,15 +3801,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000092-000008",
             "positionTitle": "Facilitair - Oproepkracht",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "2016-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 98424.46,
                 "currencyCode": "EUR"
@@ -3243,15 +3835,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "5",
-                "shortName": "64-5"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "5",
+                    "shortName": "64-5"
+                }
             }
         },
         {
             "positionID": "000092-000289",
             "positionTitle": "Medewerker facilitaire dienst (000092)",
             "sharedPositionMaximumHeadcount": 3,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 162317.78,
                 "currencyCode": "EUR"
@@ -3272,15 +3869,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000093-000001",
-            "positionTitle": "Office management - Tester Daniel updated",
+            "positionTitle": "Office management - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3301,15 +3903,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000093-000002",
-            "positionTitle": "Secretaresse (000093)",
+            "positionTitle": "Office management - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3330,15 +3937,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000093-000004",
             "positionTitle": "MW Algemeen (000093)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3359,15 +3971,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000093-000121",
             "positionTitle": "Assistent bedrijfsleider (000093)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 135402.45,
                 "currencyCode": "EUR"
@@ -3388,15 +4005,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000093-000128",
             "positionTitle": "Beheerder archief (000093)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 54105.93,
                 "currencyCode": "EUR"
@@ -3417,15 +4039,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000093-000386",
             "positionTitle": "Technisch manager (000093)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 189233.11,
                 "currencyCode": "EUR"
@@ -3446,15 +4073,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000094-000001",
-            "positionTitle": "Consultancy - Tester Daniel updated",
+            "positionTitle": "Consultancy - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3475,15 +4107,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000094-000002",
-            "positionTitle": "Secretaresse (000094)",
+            "positionTitle": "Consultancy - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3504,15 +4141,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000094-000004",
             "positionTitle": "MW Algemeen (000094)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3533,15 +4175,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000094-000130",
             "positionTitle": "Beleidsmedewerker (000094)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3562,15 +4209,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "8",
-                "shortName": "64-8"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "8",
+                    "shortName": "64-8"
+                }
             }
         },
         {
             "positionID": "000094-000171",
             "positionTitle": "Consultant (000094)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 151337.55,
                 "currencyCode": "EUR"
@@ -3591,15 +4243,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000094-000215",
             "positionTitle": "Hoofd consultancy  (000094)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 151337.55,
                 "currencyCode": "EUR"
@@ -3620,15 +4277,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000094-000263",
             "positionTitle": "Manager consultancy  (000094)",
             "sharedPositionMaximumHeadcount": 3,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 283849.66,
                 "currencyCode": "EUR"
@@ -3649,15 +4311,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000094-000360",
             "positionTitle": "Secretaresse (000094)",
             "sharedPositionMaximumHeadcount": 3,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 181770.22,
                 "currencyCode": "EUR"
@@ -3678,15 +4345,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000095-000001",
-            "positionTitle": "Communicatie - Tester Daniel updated",
+            "positionTitle": "Communicatie - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3707,15 +4379,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000002",
-            "positionTitle": "Secretaresse (000095)",
+            "positionTitle": "Communicatie - Fit Test XXX",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3736,15 +4413,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000004",
             "positionTitle": "MW Algemeen (000095)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3765,15 +4447,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000005",
             "positionTitle": "Com Adviseur (000095)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3794,15 +4481,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000091",
             "positionTitle": "Consulent Algemeen (000095)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3823,15 +4515,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000092",
             "positionTitle": "Consulent Senior (000095)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 54105.93,
                 "currencyCode": "EUR"
@@ -3852,15 +4549,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000093",
             "positionTitle": "Consulent Medior (000095)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3881,15 +4583,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000095-000165",
             "positionTitle": "Communicatieadviseur (000095)",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 151337.55,
                 "currencyCode": "EUR"
@@ -3910,15 +4617,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000095-000172",
             "positionTitle": "Consultant HRM (000095)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -3939,15 +4651,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000095-000214",
             "positionTitle": "Hoofd communicatie  (000095)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -3968,15 +4685,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000095-000272",
             "positionTitle": "Manager PnO  (000095)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -3997,15 +4719,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000095-000291",
             "positionTitle": "Medewerker HRM (000095)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -4026,15 +4753,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000096-000004",
             "positionTitle": "Personeel en Organisatie - Medewerker Algemeen",
             "sharedPositionMaximumHeadcount": 2,
+            "positionStatusCode": {
+                "effectiveDate": "2000-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 108211.85,
                 "currencyCode": "EUR"
@@ -4055,15 +4787,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "6",
-                "shortName": "64-6"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
             }
         },
         {
             "positionID": "000096-000220",
             "positionTitle": "Hoofd HRM  (000096)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -4084,15 +4821,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000096-000224",
             "positionTitle": "Hoofd PnO  (000096)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 75668.77,
                 "currencyCode": "EUR"
@@ -4113,15 +4855,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000096-000227",
             "positionTitle": "HR-manager  (000096)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -4142,15 +4889,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "9",
-                "shortName": "64-9"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "9",
+                    "shortName": "64-9"
+                }
             }
         },
         {
             "positionID": "000096-000272",
             "positionTitle": "Manager PnO  (000096)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 94616.55,
                 "currencyCode": "EUR"
@@ -4171,15 +4923,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "11",
-                "shortName": "64-11"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "11",
+                    "shortName": "64-11"
+                }
             }
         },
         {
             "positionID": "000096-000291",
             "positionTitle": "Medewerker HRM (000096)",
             "sharedPositionMaximumHeadcount": 0,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 0,
                 "currencyCode": "EUR"
@@ -4200,15 +4957,20 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         },
         {
             "positionID": "000096-000298",
             "positionTitle": "Medewerker PNO (000096)",
             "sharedPositionMaximumHeadcount": 1,
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
             "budgetedAmount": {
                 "amountValue": 60590.07,
                 "currencyCode": "EUR"
@@ -4229,9 +4991,11 @@
                     }
                 ]
             },
-            "payrollGroupCode": {
-                "codeValue": "7",
-                "shortName": "64-7"
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "7",
+                    "shortName": "64-7"
+                }
             }
         }
     ]
