@@ -1,0 +1,202 @@
+{
+    "events": [
+        {
+            "eventID": "59d2d3d2-7faf-49cc-8e15-93117adfcece",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.modify",
+                "shortName": "worker.workAssignment.modify"
+            },
+            "eventTitle": "Change Work Assignment",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T14:02:35Z",
+            "creationDateTime": "2020-09-18T14:02:36Z",
+            "effectiveDateTime": "2020-09-18T14:02:36Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "59d2d3d2-7faf-49cc-8e15-93117adfcece",
+                "eventNameCode": {
+                    "codeValue": "worker.workAssignment.modify",
+                    "shortName": "worker.workAssignment.modify",
+                    "longName": "worker.workAssignment.modify"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "workAssignmentID": "96825c1c-40fd-4bd9-8649-07893bec6763"
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-21T00:00:00",
+                    "workAssignment": {
+                        "workerTypeCode": {
+                            "codeValue": "Permanent",
+                            "shortName": "Permanent"
+                        },
+                        "workLevelCode": {
+                            "codeValue": "Full_Time",
+                            "shortName": "Full Time"
+                        },
+                        "legalEntityID": "COMP1",
+                        "jobCode": {
+                            "codeValue": "P004",
+                            "shortName": "Operations Director"
+                        },
+                        "jobTitle": "Operations Director",
+                        "fullTimeEquivalenceRatio": 1.0,
+                        "assignedOrganizationalUnits": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "DEP2",
+                                    "shortName": "Department 2"
+                                },
+                                "typeCode": {
+                                    "codeValue": "Department",
+                                    "shortName": "Organisational"
+                                }
+                            },
+                            {
+                                "nameCode": {
+                                    "codeValue": "DIV2",
+                                    "shortName": "Division 2"
+                                },
+                                "typeCode": {
+                                    "codeValue": "Division",
+                                    "shortName": "Organisational"
+                                }
+                            },
+                            {
+                                "nameCode": {
+                                    "codeValue": "COMP1",
+                                    "shortName": "Company 1"
+                                },
+                                "typeCode": {
+                                    "codeValue": "Company",
+                                    "shortName": "Organisational"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "workAssignment": {
+                            "primaryIndicator": true,
+                            "hireDate": "2020-09-18",
+                            "assignmentStatus": {
+                                "statusCode": {
+                                    "codeValue": "Current",
+                                    "shortName": "Current"
+                                }
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "Permanent",
+                                "shortName": "Permanent"
+                            },
+                            "workLevelCode": {
+                                "codeValue": "Full_Time",
+                                "shortName": "Full Time"
+                            },
+                            "legalEntityID": "COMP1",
+                            "jobCode": {
+                                "codeValue": "P004",
+                                "shortName": "Operations Director"
+                            },
+                            "jobTitle": "Operations Director",
+                            "fullTimeEquivalenceRatio": 1.0,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "DEP2",
+                                        "shortName": "Department 2"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Department",
+                                        "shortName": "Organisational"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "DIV2",
+                                        "shortName": "Division 2"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Division",
+                                        "shortName": "Organisational"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "COMP1",
+                                        "shortName": "Company 1"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Company",
+                                        "shortName": "Organisational"
+                                    }
+                                }
+                            ],
+                            "reportsTo": [
+                                {
+                                    "itemID": "3c2a2d11-099b-450a-8dea-fdc74c24c924",
+                                    "workerID": {
+                                        "idValue": "100"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "asd dsa"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "codeValue": "REPORTSTO",
+                                        "shortName": "REPORTSTO"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "333878",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "Current",
+                                        "shortName": "Current",
+                                        "longName": "Current",
+                                        "nameCode": {
+                                            "codeValue": "STATUS",
+                                            "shortName": "Status"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

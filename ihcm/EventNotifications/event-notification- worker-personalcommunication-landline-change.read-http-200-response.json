@@ -1,0 +1,100 @@
+{
+    "events": [
+        {
+            "eventID": "22a5cf99-4c4d-4f84-aba9-1859734be1af",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.change",
+                "shortName": "worker.personalCommunication.landline.change"
+            },
+            "eventTitle": "Change Worker Personal Landline",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T13:24:05Z",
+            "creationDateTime": "2020-09-18T13:24:06Z",
+            "effectiveDateTime": "2020-09-18T13:24:06Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "22a5cf99-4c4d-4f84-aba9-1859734be1af",
+                "eventNameCode": {
+                    "codeValue": "worker.personalCommunication.landline.change",
+                    "shortName": "worker.personalCommunication.landline.change",
+                    "longName": "worker.personalCommunication.landline.change"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86"
+                                }
+                            }
+                        }
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-18T13:24:05Z",
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "nameCode": {
+                                        "codeValue": "HOME",
+                                        "shortName": "Home Telephone"
+                                    },
+                                    "formattedNumber": "1234 568564"
+                                }
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86",
+                                    "nameCode": {
+                                        "codeValue": "HOME",
+                                        "shortName": "Home Telephone"
+                                    },
+                                    "formattedNumber": "1234 568564"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+  "events": [
+    {
+      "eventID": "1dde849b-52c8-41ac-ae6c-f8ac95b59714",
+      "serviceCategoryCode": {
+        "codeValue": "HR",
+        "shortName": "HR"
+      },
+      "eventNameCode": {
+        "codeValue": "worker.personalAddress.remove",
+        "shortName": "worker.personalAddress.remove"
+      },
+      "eventTitle": "Remove Worker Personal Address",
+      "eventStatusCode": {
+        "codeValue": "Complete"
+      },
+      "recordDateTime": "2020-08-03T15:16:34Z",
+      "creationDateTime": "2020-08-03T15:16:34Z",
+      "effectiveDateTime": "2020-08-03T15:16:34Z",
+      "originator": {
+        "applicationID": {
+          "idValue": "iHCM"
+        },
+        "associateOID": "UK0K4QE20467CX13",
+        "personOID": "",
+        "formattedName": "Olivia Johansson",
+        "deviceID": "iHCM",
+        "eventID": "1dde849b-52c8-41ac-ae6c-f8ac95b59714",
+        "eventNameCode": {
+          "codeValue": "worker.personalAddress.remove",
+          "shortName": "worker.personalAddress.remove",
+          "longName": "worker.personalAddress.remove"
+        }
+      },
+      "actor": {
+        "applicationID": {
+          "idValue": "iHCM"
+        },
+        "associateOID": "UK0K4QE20467CX13",
+        "formattedName": "Olivia Johansson",
+        "deviceID": "iHCM",
+        "geoCoordinate": {
+          "latitude": 0.0,
+          "longitude": 0.0
+        }
+      },
+      "links": [
+        {
+          "href": "http://ind324.ad.esi.adp.com:92/events/hr/v1.0/worker/worker.personalAddress.remove/1dde849b-52c8-41ac-ae6c-f8ac95b59714",
+          "rel": "full",
+          "mediaType": "application/json",
+          "method": "GET",
+          "encType": "application/json"
+        },
+        {
+          "href": "http://ind324.ad.esi.adp.com:92/events/hr/v1.0/worker/worker.personalAddress.remove/1dde849b-52c8-41ac-ae6c-f8ac95b59714",
+          "rel": "full",
+          "mediaType": "application/json",
+          "method": "GET",
+          "encType": "application/json"
+        }
+      ],
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "AOK7UC0I0O2IIDX",
+            "person": {
+              "personalAddress": {
+                "itemID": "d13b1d56-3f8d-402b-ac85-27aba6868cf7"
+              }
+            }
+          }
+        },
+        "transform": {},
+        "output": {
+          "worker": {
+            "associateOID": "AOK7UC0I0O2IIDX",
+            "workerID": {
+              "idValue": "LI12345"
+            },
+            "person": {
+              "personalAddress": {
+                "itemID": "d13b1d56-3f8d-402b-ac85-27aba6868cf7",
+                "nameCode": {
+                  "codeValue": "Home",
+                  "shortName": "Home",
+                  "longName": "Home"
+                },
+                "lineOne": "Address Line 1",
+                "lineTwo": "Address line 2",
+                "lineThree": "address line 3",
+                "deliveryPoint": "False",
+                "cityName": "Milan",
+                "countryCode": "IT",
+                "postalCode": "123456"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+
+

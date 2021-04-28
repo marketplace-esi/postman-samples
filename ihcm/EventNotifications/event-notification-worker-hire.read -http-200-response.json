@@ -1,0 +1,531 @@
+{
+    "events": [
+        {
+            "eventID": "d8ed2f84-b465-4669-a96c-b0a01074b4b8",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.hire",
+                "shortName": "worker.hire"
+            },
+            "eventTitle": "Hire Worker",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-25T13:57:01Z",
+            "creationDateTime": "2020-09-25T13:57:02Z",
+            "effectiveDateTime": "2020-09-25T13:57:02Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "d8ed2f84-b465-4669-a96c-b0a01074b4b8",
+                "eventNameCode": {
+                    "codeValue": "worker.hire",
+                    "shortName": "worker.hire",
+                    "longName": "worker.hire"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {},
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-25T00:00:00",
+                    "worker": {
+                        "workerID": {
+                            "idValue": "65434567"
+                        },
+                        "person": {
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "Dr",
+                                            "shortName": "Dr.",
+                                            "longName": "Dr."
+                                        },
+                                        "typeCode": {
+                                            "codeValue": "SOCIAL",
+                                            "shortName": "Social"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ],
+                                "nickName": "Jon",
+                                "givenName": "Jonathan",
+                                "middleName": "Smith",
+                                "familyName1": "Daniel",
+                                "formattedName": "Jonathan Daniel"
+                            },
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                        "nameCode": {
+                                            "codeValue": "HOME",
+                                            "shortName": "Home Telephone"
+                                        },
+                                        "formattedNumber": "01242 530987"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                        "nameCode": {
+                                            "codeValue": "PERMOBILE",
+                                            "shortName": "Personal Mobile Telephone"
+                                        },
+                                        "formattedNumber": "0784374326"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                        "nameCode": {
+                                            "codeValue": "PERSONALEMAIL",
+                                            "shortName": "Personal Email"
+                                        },
+                                        "emailUri": "Jon.Daniel@gmail.com"
+                                    }
+                                ]
+                            },
+                            "birthDate": "1920-09-21",
+                            "genderCode": {
+                                "codeValue": "Male",
+                                "shortName": "Male"
+                            },
+                            "maritalStatusCode": {
+                                "effectiveDate": "2020-09-25",
+                                "codeValue": "M",
+                                "shortName": "Married"
+                            },
+                            "governmentIDs": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "2",
+                                        "shortName": "Passport"
+                                    },
+                                    "idValue": "AA978676"
+                                }
+                            ],
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "Burmese",
+                                    "shortName": "Burmese"
+                                }
+                            ]
+                        },
+                        "workerDates": {
+                            "adjustedServiceDate": "2020-09-25"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "Current",
+                                "shortName": "Current",
+                                "longName": "Current"
+                            }
+                        },
+                        "businessCommunication": {
+                            "landlines": [
+                                {
+                                    "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                    "nameCode": {
+                                        "codeValue": "WORK",
+                                        "shortName": "Work Telephone"
+                                    },
+                                    "formattedNumber": "0112 654545"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                    "nameCode": {
+                                        "codeValue": "WORKEMAIL",
+                                        "shortName": "Work Email"
+                                    },
+                                    "emailUri": "Jon.Daniel@adp.com"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "primaryIndicator": true,
+                            "hireDate": "2020-09-25",
+                            "assignmentStatus": {
+                                "statusCode": {
+                                    "codeValue": "Current",
+                                    "shortName": "Current"
+                                }
+                            },
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "123",
+                                    "costCenterName": "RnD"
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "Permanent",
+                                "shortName": "Permanent"
+                            },
+                            "workLevelCode": {
+                                "codeValue": "Full_Time",
+                                "shortName": "Full Time"
+                            },
+                            "legalEntityID": "GB CMP001",
+                            "jobCode": {
+                                "codeValue": "P009",
+                                "shortName": "Chief Accountant"
+                            },
+                            "jobTitle": "Chief Accountant",
+                            "fullTimeEquivalenceRatio": 1.0,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Dia Tm",
+                                        "shortName": "Dia Team"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Team",
+                                        "shortName": "DIAGEO"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Dia Dept",
+                                        "shortName": "Dia Department"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Department",
+                                        "shortName": "DIAGEO"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Dia Div",
+                                        "shortName": "Dia Division"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Division",
+                                        "shortName": "DIAGEO"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "COMP001",
+                                        "shortName": "DIAGEO LTD"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Company",
+                                        "shortName": "DIAGEO"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "CORP",
+                                    "shortName": "Corporate Office"
+                                }
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "amountValue": 0.0
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "e6400852-a73e-4964-b2e1-2f2ad3d49f45",
+                                    "workerID": {
+                                        "idValue": "1014"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "Leonold Susai"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "codeValue": "REPORTSTO",
+                                        "shortName": "REPORTSTO"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "65434567",
+                            "customFieldGroup": {
+                                "amountFields": [
+                                    {
+                                        "amountValue": 0.0
+                                    }
+                                ],
+                                "codeFields": [
+                                    {
+                                        "codeValue": "Current",
+                                        "shortName": "Current",
+                                        "longName": "Current",
+                                        "nameCode": {
+                                            "codeValue": "STATUS",
+                                            "shortName": "Status"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "UK0K9PD56587A6WV",
+                        "workerID": {
+                            "idValue": "65434567"
+                        },
+                        "person": {
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "Dr",
+                                            "shortName": "Dr.",
+                                            "longName": "Dr."
+                                        },
+                                        "typeCode": {
+                                            "codeValue": "SOCIAL",
+                                            "shortName": "Social"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ],
+                                "nickName": "Jon",
+                                "givenName": "Jonathan",
+                                "middleName": "Smith",
+                                "familyName1": "Daniel",
+                                "formattedName": "Jonathan Daniel"
+                            },
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                        "nameCode": {
+                                            "codeValue": "HOME",
+                                            "shortName": "Home Telephone"
+                                        },
+                                        "formattedNumber": "01242 530987"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                        "nameCode": {
+                                            "codeValue": "PERMOBILE",
+                                            "shortName": "Personal Mobile Telephone"
+                                        },
+                                        "formattedNumber": "0784374326"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                        "nameCode": {
+                                            "codeValue": "PERSONALEMAIL",
+                                            "shortName": "Personal Email"
+                                        },
+                                        "emailUri": "Jon.Daniel@gmail.com"
+                                    }
+                                ]
+                            },
+                            "birthDate": "1920-09-21",
+                            "genderCode": {
+                                "codeValue": "Male",
+                                "shortName": "Male"
+                            },
+                            "maritalStatusCode": {
+                                "effectiveDate": "2020-09-25",
+                                "codeValue": "M",
+                                "shortName": "Married"
+                            },
+                            "governmentIDs": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "2",
+                                        "shortName": "Passport"
+                                    },
+                                    "idValue": "AA978676"
+                                }
+                            ],
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "Burmese",
+                                    "shortName": "Burmese"
+                                }
+                            ]
+                        },
+                        "workerDates": {
+                            "adjustedServiceDate": "2020-09-25"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "Current",
+                                "shortName": "Current",
+                                "longName": "Current"
+                            }
+                        },
+                        "businessCommunication": {
+                            "landlines": [
+                                {
+                                    "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                    "nameCode": {
+                                        "codeValue": "WORK",
+                                        "shortName": "Work Telephone"
+                                    },
+                                    "formattedNumber": "0112 654545"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "itemID": "5db42872-c121-4a6c-a76d-cb6e7494db47",
+                                    "nameCode": {
+                                        "codeValue": "WORKEMAIL",
+                                        "shortName": "Work Email"
+                                    },
+                                    "emailUri": "Jon.Daniel@adp.com"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "primaryIndicator": true,
+                            "hireDate": "2020-09-25",
+                            "assignmentStatus": {
+                                "statusCode": {
+                                    "codeValue": "Current",
+                                    "shortName": "Current"
+                                }
+                            },
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "123",
+                                    "costCenterName": "RnD"
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "Permanent",
+                                "shortName": "Permanent"
+                            },
+                            "workLevelCode": {
+                                "codeValue": "Full_Time",
+                                "shortName": "Full Time"
+                            },
+                            "legalEntityID": "GB CMP001",
+                            "jobCode": {
+                                "codeValue": "P009",
+                                "shortName": "Chief Accountant"
+                            },
+                            "jobTitle": "Chief Accountant",
+                            "fullTimeEquivalenceRatio": 1.0,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Dia Tm",
+                                        "shortName": "Dia Team"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Team",
+                                        "shortName": "DIAGEO"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Dia Dept",
+                                        "shortName": "Dia Department"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Department",
+                                        "shortName": "DIAGEO"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Dia Div",
+                                        "shortName": "Dia Division"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Division",
+                                        "shortName": "DIAGEO"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "COMP001",
+                                        "shortName": "DIAGEO LTD"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Company",
+                                        "shortName": "DIAGEO"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "CORP",
+                                    "shortName": "Corporate Office"
+                                }
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "amountValue": 0.0
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "e6400852-a73e-4964-b2e1-2f2ad3d49f45",
+                                    "workerID": {
+                                        "idValue": "1014"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "Leonold Susai"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "codeValue": "REPORTSTO",
+                                        "shortName": "REPORTSTO"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "65434567",
+                            "customFieldGroup": {
+                                "amountFields": [
+                                    {
+                                        "amountValue": 0.0
+                                    }
+                                ],
+                                "codeFields": [
+                                    {
+                                        "codeValue": "Current",
+                                        "shortName": "Current",
+                                        "longName": "Current",
+                                        "nameCode": {
+                                            "codeValue": "STATUS",
+                                            "shortName": "Status"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

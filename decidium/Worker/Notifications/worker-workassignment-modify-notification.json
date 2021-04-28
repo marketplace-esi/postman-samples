@@ -1,44 +1,49 @@
 {
     "events": [
         {
-            "eventID": "53a2cb45-5362-48db-9de2-396d5508137f",
+            "eventID": "60506cc85872d44e9ff8f6ee",
             "eventNameCode": {
                 "codeValue": "worker.workAssignment.modify"
             },
-            "recordDateTime": "2020-09-22T12:56:37+02:00",
-            "effectiveDateTime": "2020-09-09T00:00:00+02:00",
+            "recordDateTime": "2021-03-16T09:25:10+01:00",
+            "effectiveDateTime": "2021-03-02T00:00:00+01:00",
             "data": {
                 "eventContext": {
-                    "associateOID": "dabt-mp2",
+                    "associateOID": "nafe-5jk",
                     "workerID": {
-                        "idValue": "00000223"
+                        "idValue": "00000445"
                     }
                 },
                 "output": {
                     "worker": {
                         "workAssignment": {
-                            "hireDate": "2020-09-05",
-                            "actualStartDate": "2020-09-05",
-                            "terminationDate": "2020-09-09",
-                            "jobCode": {
-                                "codeValue": "EMPLO1",
-                                "shortName": "Emploi 1",
-                                "longName": "Emploi 1"
-                            },
+                            "hireDate": "2021-03-02",
+                            "actualStartDate": "2021-03-02",
+                            "jobTitle": "00",
                             "assignedOrganizationalUnits": [
                                 {
                                     "nameCode": {
+                                        "codeValue": "111111",
                                         "shortName": "MANAGEMENT",
                                         "longName": "MANAGEMENT"
-                                    }
+                                    },
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/GENERALE/STRATEGIE/MANAGEMENT"
+                                    },
+                                    "itemID": "strucAffectationId"
                                 }
                             ],
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
                                         "codeValue": "01001",
-                                        "shortName": "ORION SIEGE LEVALLOIS",
-                                        "longName": "ORION SIEGE LEVALLOIS"
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFE"
                                     },
                                     "address": {
                                         "lineTwo": "14 RUE DE LA VOIE LACTEE",
@@ -70,15 +75,15 @@
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp2",
+                                    "associateOID": "levangelist-mp1",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "A0001127",
-                            "itemID": "A0001127"
+                            "payrollFileNumber": "A0001221",
+                            "itemID": "A0001221"
                         }
                     }
                 }

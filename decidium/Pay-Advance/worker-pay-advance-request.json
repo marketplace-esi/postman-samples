@@ -1,0 +1,44 @@
+{
+    "payAdvanceRequests": [
+        {
+            "requestDate": "2021-03-23",
+            "amount": {
+                "amountValue": 200.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "1"
+            },
+            "notificationIndicator": false,
+            "itemID": "7079650000395370055",
+            "statusCode": {
+                "codeValue": "ACCEPTED",
+                "shortName": "Acceptée",
+                "effectiveDate": "2021-03-23"
+            },
+            "comment": {
+                "textValue": ""
+            }
+        },
+        {
+            "requestDate": "2021-03-23",
+            "amount": {
+                "amountValue": 300.0,
+                "currencyCode": "EUR"
+            },
+            "paymentMethodCode": {
+                "codeValue": "1"
+            },
+            "notificationIndicator": false,
+            "itemID": "7079650000395370062",
+            "statusCode": {
+                "codeValue": "PENDING",
+                "shortName": "En cours",
+                "effectiveDate": "2021-03-23"
+            },
+            "comment": {
+                "textValue": ""
+            }
+        }
+    ]
+}

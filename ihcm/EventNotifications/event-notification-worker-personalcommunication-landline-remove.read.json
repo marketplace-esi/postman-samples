@@ -1,0 +1,82 @@
+{
+    "events": [
+        {
+            "eventID": "ca17d09f-8fc6-46b0-a05e-dd65720b0f0f",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.remove",
+                "shortName": "worker.personalCommunication.landline.remove"
+            },
+            "eventTitle": "Remove Worker Personal Landline",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T13:25:27Z",
+            "creationDateTime": "2020-09-18T13:25:27Z",
+            "effectiveDateTime": "2020-09-18T13:25:27Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "ca17d09f-8fc6-46b0-a05e-dd65720b0f0f",
+                "eventNameCode": {
+                    "codeValue": "worker.personalCommunication.landline.remove",
+                    "shortName": "worker.personalCommunication.landline.remove",
+                    "longName": "worker.personalCommunication.landline.remove"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86"
+                                }
+                            }
+                        }
+                    }
+                },
+                "transform": {},
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86",
+                                    "nameCode": {
+                                        "codeValue": "HOME",
+                                        "shortName": "Home Telephone"
+                                    },
+                                    "formattedNumber": "1234 568564"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

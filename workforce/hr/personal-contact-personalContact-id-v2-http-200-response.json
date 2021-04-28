@@ -1,0 +1,41 @@
+{
+    "personalContacts": [
+        {
+            "itemID": "W",
+            "personName": {
+                "familyName1": "De Groot",
+                "familyName1Prefix": "",
+                "initials": "K",
+                "givenName": "Karel",
+                "nickName": "Carlem",
+                "formattedName": "dr. K De Groot RA"
+            },
+            "address": {
+                "buildingNumber": "12344",
+                "cityName": "",
+                "countryCode": "AE",
+                "postalCode": "",
+                "streetName": "man",
+                "unit": "3 2"
+            },
+            "communication": {
+                "landlines": [
+                    {
+                        "itemID": "1",
+                        "formattedNumber": "0634060998"
+                    }
+                ],
+                "emails": [
+                    {
+                        "itemID": "1",
+                        "emailUri": "davidzamd9@gmail.com"
+                    }
+                ]
+            },
+            "contactTypeCode": {
+                "codeValue": "E",
+                "shortName": "Emergency"
+            }
+        }
+    ]
+}

@@ -1,22 +1,22 @@
 {
     "workers": [
         {
-            "associateOID": "dafe9-mp2",
+            "associateOID": "nfiolot0-mp8",
             "workerID": {
-                "idValue": "00000282"
+                "idValue": "00000001"
             },
             "person": {
                 "legalName": {
-                    "givenName": "DATAINOUTPUT1",
+                    "givenName": "NOEL",
                     "middleName": "",
-                    "familyName1": "AFE",
-                    "formattedName": "DATAINOUTPUT1 AFE",
+                    "familyName1": "FIOLOT",
+                    "formattedName": "NOEL FIOLOT",
                     "preferredSalutations": [
                         {
                             "salutationCode": {
-                                "codeValue": "MME",
-                                "shortName": "MME",
-                                "longName": "Madame"
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
                             },
                             "sequenceNumber": 1
                         }
@@ -24,9 +24,9 @@
                     "titleAffixCodes": [
                         {
                             "affixCode": {
-                                "codeValue": "MME",
-                                "shortName": "MME",
-                                "longName": "Madame"
+                                "codeValue": "M",
+                                "shortName": "M",
+                                "longName": "Monsieur"
                             },
                             "sequenceNumber": 1
                         }
@@ -34,33 +34,66 @@
                 },
                 "legalAddress": {
                     "countrySubdivisionLevel1": {
-                        "codeValue": "NORT SUR ERDRE",
-                        "subdivisionType": "NORT SUR ERDRE"
+                        "codeValue": "NANTES",
+                        "subdivisionType": "NANTES"
                     },
                     "countryCode": "FR",
-                    "postalCode": "44390",
-                    "buildingNumber": "0",
+                    "postalCode": "44000",
+                    "buildingNumber": "97",
                     "buildingNumberExtension": " ",
                     "buildingName": " ",
+                    "streetName": "RUE SAINT PIERRE",
                     "countrySubdivisionLevel2": {
                         "codeValue": "",
                         "longName": "",
                         "subdivisionType": ""
                     }
                 },
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "123456",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "formattedNumber": "12333",
+                            "itemID": "Personnel"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "Personnel",
+                                "shortName": "Personnel",
+                                "longName": "Personnel"
+                            },
+                            "emailUri": "fiolot@test.com"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "formattedNumber": "1234",
+                            "itemID": "Personnel"
+                        }
+                    ]
+                },
                 "deceasedIndicator": false,
                 "genderCode": {
-                    "codeValue": "F",
-                    "shortName": "Femme",
-                    "longName": "Femme"
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
                 },
                 "maritalStatusCode": {
-                    "codeValue": ""
+                    "codeValue": "C",
+                    "shortName": "CELIBATAIRE",
+                    "longName": "CELIBATAIRE"
                 },
                 "disabilityIdentificationDeclinedIndicator": true,
                 "birthPlace": {
-                    "cityName": "DOURDAN",
-                    "postalCode": "91000",
+                    "cityName": "PARIS",
+                    "postalCode": "93",
                     "countryCode": "FR"
                 },
                 "citizenshipCountryCodes": [
@@ -72,8 +105,18 @@
                 ]
             },
             "workerDates": {
-                "originalHireDate": "2020-01-15"
+                "originalHireDate": "2019-12-01"
             },
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "href": "/hr/v2/workers/nfiolot0-mp8/worker-images/photo"
+                        }
+                    ],
+                    "itemID": "1"
+                }
+            ],
             "businessCommunication": {
                 "emails": [
                     {
@@ -82,47 +125,48 @@
                             "shortName": "Travail",
                             "longName": "Travail"
                         },
-                        "emailUri": "testmail.lsprh@fr.adp.com",
+                        "emailUri": "lsprh.mail@adp.com",
                         "itemID": "Travail"
                     }
                 ]
             },
             "workAssignments": [
                 {
-                    "hireDate": "2020-01-15",
-                    "actualStartDate": "2020-01-15",
-                    "jobCode": {
-                        "codeValue": "EMPLO1",
-                        "shortName": "Emploi 1",
-                        "longName": "Emploi 1"
-                    },
-                    "jobTitle": "Emploi 1",
+                    "hireDate": "2019-12-01",
+                    "actualStartDate": "2019-12-01",
+                    "jobTitle": "CHEF PROJET",
                     "assignedOrganizationalUnits": [
                         {
                             "nameCode": {
-                                "codeValue": "111111",
-                                "shortName": "MANAGEMENT",
-                                "longName": "MANAGEMENT"
-                            }
+                                "codeValue": "222221",
+                                "shortName": "TRESORERIE ACHATS",
+                                "longName": "TRESORERIE ACHATS"
+                            },
+                            "itemID": "departmentId"
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "0202004222221",
+                                "shortName": "TRESORERIE ACHATS",
+                                "longName": "ORION CONSEIL/ORION CONSEIL STRASBOURG/ADMIN-FINANCIERE/FINANCIERE/TRESORERIE ACHATS"
+                            },
+                            "itemID": "strucAffectationId"
                         }
                     ],
                     "assignedWorkLocations": [
                         {
                             "nameCode": {
-                                "codeValue": "01001",
-                                "shortName": "ORION SIEGE LEVALLOIS",
-                                "longName": "ORION SIEGE LEVALLOIS"
+                                "codeValue": "02004",
+                                "shortName": "ORION CONSEIL STRASBOURG",
+                                "longName": "ORION CONSEIL STRASBOURG"
                             },
                             "address": {
-                                "lineOne": "",
-                                "lineTwo": "14 RUE DE LA VOIE LACTEE",
-                                "cityName": "SAINT DIDIER MONT D OR",
+                                "lineOne": "BP 23",
+                                "lineTwo": "15 Rue Jacobe Mayer",
+                                "cityName": "STRASBOURG",
                                 "countryCode": "FR",
-                                "postalCode": "69370",
+                                "postalCode": "67037",
                                 "countrySubdivisionLevel2": {
-                                    "codeValue": "SAINT DIDIER MONT D OR",
-                                    "shortName": "SAINT DIDIER MONT D OR",
-                                    "longName": "SAINT DIDIER MONT D OR",
                                     "subdivisionType": "INSEE"
                                 }
                             }
@@ -130,20 +174,19 @@
                     ],
                     "remunerationBasisCode": {
                         "codeValue": "S",
-                        "shortName": "Salarié",
-                        "longName": "Salarié"
+                        "shortName": "S"
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "levangelist-mp2",
+                            "associateOID": "jlmoureau-mp8",
                             "reportsToWorkerName": {
-                                "givenName": "LINDA",
-                                "familyName1": "EVANGELIST"
+                                "givenName": "JEAN-LUCAFESTN",
+                                "familyName1": "MOUREAU"
                             }
                         }
                     ],
-                    "payrollFileNumber": "A0000986",
-                    "itemID": "A0000986"
+                    "payrollFileNumber": "A0000808",
+                    "itemID": "A0000808"
                 }
             ]
         }

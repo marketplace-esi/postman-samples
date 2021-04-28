@@ -18,6 +18,15 @@
 							},								
                             "genderCode": {
                                 "codeValue": "F"
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "2631293314684"
+                                }
+                            ],
+                            "birthPlace":{
+                                "cityName": "PARIS",
+                                "postalCode": "75000"
                             }
                         },
                         "workAssignment": {
@@ -40,11 +49,11 @@
                                 "codeFields": [
 								   {
 									  "codeValue":"SAL",
-									  "itemID":"typeCollab"
+									  "itemID":"collaborationType"
 								   },
                                     {
                                         "codeValue": "CU2",
-                                        "itemID": "typeContrat"
+                                        "itemID": "contractType"
                                     },
                                     {
                                         "codeValue": "50",
@@ -54,7 +63,7 @@
                                 "dateFields": [
 								   {
 									  "dateValue":"2020-01-30",
-									  "itemID":"initialCddTerminationDate"
+									  "itemID":"contractEndDate"
 								   }
                                 ]
                             }

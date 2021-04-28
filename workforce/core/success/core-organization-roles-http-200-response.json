@@ -8,19 +8,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "NDS Burghout",
-            "departmentCode": {
-                "codeValue": "000001",
-                "shortName": "Head",
-                "longName": "Corporate Headquarter"
+            "workerName": {
+                "formattedName": "NDS Burghout"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000001",
+                    "shortName": "Head",
+                    "longName": "Corporate Headquarter"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "000077",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "R Davis"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000001",
+                    "shortName": "Head",
+                    "longName": "Corporate Headquarter"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-09"
+            }
         },
         {
             "workerID": {
@@ -30,19 +64,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "D Koren",
-            "departmentCode": {
-                "codeValue": "000001",
-                "shortName": "Head",
-                "longName": "Corporate Headquarter"
+            "workerName": {
+                "formattedName": "D Koren"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000001",
+                    "shortName": "Head",
+                    "longName": "Corporate Headquarter"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "696969",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "H Aroui"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000001",
+                    "shortName": "Head",
+                    "longName": "Corporate Headquarter"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD2",
+                "longName": "Tweede Leidinggevende"
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -52,19 +120,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "W Grijns",
-            "departmentCode": {
-                "codeValue": "000010",
-                "shortName": "ICT",
-                "longName": "ICT"
+            "workerName": {
+                "formattedName": "W Grijns"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000010",
+                    "shortName": "ICT",
+                    "longName": "ICT- 2"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-04"
+            }
         },
         {
             "workerID": {
@@ -74,41 +148,81 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "GRAK Smits",
-            "departmentCode": {
-                "codeValue": "000010",
-                "shortName": "ICT",
-                "longName": "ICT"
+            "workerName": {
+                "formattedName": "GRAK Smits"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000010",
+                    "shortName": "ICT",
+                    "longName": "ICT- 2"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-04"
+            }
         },
         {
             "workerID": {
-                "idValue": "000016",
+                "idValue": "696969",
                 "schemeCode": {
                     "codeValue": "WF",
                     "longName": "Workforce"
                 }
             },
-            "workerName": "BVTD Alberts",
-            "departmentCode": {
-                "codeValue": "000020",
-                "shortName": "Marketing",
-                "longName": "Marketing"
+            "workerName": {
+                "formattedName": "H Aroui"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000010",
+                    "shortName": "ICT",
+                    "longName": "ICT- 2"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-05"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "000001",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "NDS Burghout"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000020",
+                    "shortName": "Marketing",
+                    "longName": "Marketing"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2020-12-28"
+            }
         },
         {
             "workerID": {
@@ -118,41 +232,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "HQ Metselaar",
-            "departmentCode": {
-                "codeValue": "000020",
-                "shortName": "Marketing",
-                "longName": "Marketing"
+            "workerName": {
+                "formattedName": "HQ Metselaar"
             },
-            "roleCode": {
-                "codeValue": "PNO",
-                "longName": "PNO"
-            },
-            "managementPositionIndicator": false,
-            "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
-        },
-        {
-            "workerID": {
-                "idValue": "000028",
-                "schemeCode": {
-                    "codeValue": "WF",
-                    "longName": "Workforce"
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000020",
+                    "shortName": "Marketing",
+                    "longName": "Marketing"
                 }
-            },
-            "workerName": "GGQK den Bakker",
-            "departmentCode": {
-                "codeValue": "000021",
-                "shortName": "Marketing/Sales",
-                "longName": "Marketing en Sales"
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2020-12-28"
+            }
         },
         {
             "workerID": {
@@ -162,41 +260,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "NR Klaster",
-            "departmentCode": {
-                "codeValue": "000021",
-                "shortName": "Marketing/Sales",
-                "longName": "Marketing en Sales"
+            "workerName": {
+                "formattedName": "NR Klaster"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000021",
+                    "shortName": "Marketing/Sales",
+                    "longName": "Marketing en Sales"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
-                "idValue": "",
+                "idValue": "696969",
                 "schemeCode": {
                     "codeValue": "WF",
                     "longName": "Workforce"
                 }
             },
-            "workerName": "",
-            "departmentCode": {
-                "codeValue": "000022",
-                "shortName": "S-a-l-e-s",
-                "longName": "S-a-l-e-s"
+            "workerName": {
+                "formattedName": "H Aroui"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000022",
+                    "shortName": "S-a-l-e-s",
+                    "longName": "S-a-l-e-s"
+                }
             },
             "roleCode": {
-                "codeValue": "",
-                "longName": ""
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-12"
+            }
         },
         {
             "workerID": {
@@ -206,19 +316,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "P van Consten",
-            "departmentCode": {
-                "codeValue": "000025",
-                "shortName": "Klantenservice",
-                "longName": "Klantenservice"
+            "workerName": {
+                "formattedName": "P van Consten"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000025",
+                    "shortName": "Klantenservice",
+                    "longName": "Klantenservice"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -228,19 +344,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "MCJ Jeuneville",
-            "departmentCode": {
-                "codeValue": "000025",
-                "shortName": "Klantenservice",
-                "longName": "Klantenservice"
+            "workerName": {
+                "formattedName": "MCJ Jeuneville"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000025",
+                    "shortName": "Klantenservice",
+                    "longName": "Klantenservice"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -250,19 +372,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "NDC de Jong",
-            "departmentCode": {
-                "codeValue": "000030",
-                "shortName": "Beheer",
-                "longName": "Beheer"
+            "workerName": {
+                "formattedName": "NDC de Jong"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000030",
+                    "shortName": "Beheer",
+                    "longName": "Beheer"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -272,19 +400,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "D Fongers van Avezaet van Amerongen - Bijl",
-            "departmentCode": {
-                "codeValue": "000030",
-                "shortName": "Beheer",
-                "longName": "Beheer"
+            "workerName": {
+                "formattedName": "D Bijl"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000030",
+                    "shortName": "Beheer",
+                    "longName": "Beheer"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -294,19 +428,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "PDLT Hollander",
-            "departmentCode": {
-                "codeValue": "000040",
-                "shortName": "Archief",
-                "longName": "Kwaliteit"
+            "workerName": {
+                "formattedName": "PDLT Hollander"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000040",
+                    "shortName": "Archief",
+                    "longName": "Kwaliteit"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -316,19 +456,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "AY Matze",
-            "departmentCode": {
-                "codeValue": "000040",
-                "shortName": "Archief",
-                "longName": "Kwaliteit"
+            "workerName": {
+                "formattedName": "AY Matze"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000040",
+                    "shortName": "Archief",
+                    "longName": "Kwaliteit"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "696969",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "H Aroui"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000040",
+                    "shortName": "Archief",
+                    "longName": "Kwaliteit"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD2",
+                "longName": "Tweede Leidinggevende"
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-11"
+            }
         },
         {
             "workerID": {
@@ -338,19 +512,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "VFMA de Prelange",
-            "departmentCode": {
-                "codeValue": "000050",
-                "shortName": "Internal Systems",
-                "longName": "Internal Systems"
+            "workerName": {
+                "formattedName": "VFMA de Prelange"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000050",
+                    "shortName": "Internal Systems",
+                    "longName": "Internal Systems"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -360,19 +540,81 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "JDNT Thibeau",
-            "departmentCode": {
-                "codeValue": "000050",
-                "shortName": "Internal Systems",
-                "longName": "Internal Systems"
+            "workerName": {
+                "formattedName": "JDNT Thibeau"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000050",
+                    "shortName": "Internal Systems",
+                    "longName": "Internal Systems"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "696969",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "H Aroui"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000050",
+                    "shortName": "Internal Systems",
+                    "longName": "Internal Systems"
+                }
+            },
+            "roleCode": {
+                "codeValue": "CONS",
+                "longName": "Personeelsconsulent"
+            },
+            "managementIndicator": false,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-11"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "000002",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "DK Boogaert"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000060",
+                    "shortName": "Sales",
+                    "longName": "Sales"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -382,19 +624,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "SEA Hölscher",
-            "departmentCode": {
-                "codeValue": "000060",
-                "shortName": "Sales",
-                "longName": "Sales"
+            "workerName": {
+                "formattedName": "SEA Hölscher"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000060",
+                    "shortName": "Sales",
+                    "longName": "Sales"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -404,19 +652,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "DDIM Cornelissen",
-            "departmentCode": {
-                "codeValue": "000060",
-                "shortName": "Sales",
-                "longName": "Sales"
+            "workerName": {
+                "formattedName": "DDIM Cornelissen"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000060",
+                    "shortName": "Sales",
+                    "longName": "Sales"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -426,19 +680,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "",
-            "departmentCode": {
-                "codeValue": "000070",
-                "shortName": "|nt#rn@tion&l",
-                "longName": "|nt#rn@tion&l (<> use / C%%p€r)"
+            "workerName": {
+                "formattedName": ""
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000070",
+                    "shortName": "|nt#rn@tion&l",
+                    "longName": "International"
+                }
             },
             "roleCode": {
                 "codeValue": "",
                 "longName": ""
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "1950-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": ""
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000071",
+                    "shortName": "INT2",
+                    "longName": "International 2"
+                }
+            },
+            "roleCode": {
+                "codeValue": "",
+                "longName": ""
+            },
+            "managementIndicator": false,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "1950-01-01"
+            }
         },
         {
             "workerID": {
@@ -448,41 +736,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "V de Waal",
-            "departmentCode": {
-                "codeValue": "000090",
-                "shortName": "HRM",
-                "longName": "HRM"
+            "workerName": {
+                "formattedName": "V de Waal"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000090",
+                    "shortName": "HRM",
+                    "longName": "HRM"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
-                "idValue": "000074",
+                "idValue": "696969",
                 "schemeCode": {
                     "codeValue": "WF",
                     "longName": "Workforce"
                 }
             },
-            "workerName": "AYDK Maurer",
-            "departmentCode": {
-                "codeValue": "000090",
-                "shortName": "HRM",
-                "longName": "HRM"
+            "workerName": {
+                "formattedName": "H Aroui"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000090",
+                    "shortName": "HRM",
+                    "longName": "HRM"
+                }
             },
             "roleCode": {
-                "codeValue": "PNO",
-                "longName": "PNO"
+                "codeValue": "STEUN",
+                "longName": "Ondersteuner"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-11"
+            }
         },
         {
             "workerID": {
@@ -492,19 +792,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "DGFV Cortland - Over de Donk in 't Veld van Ridderkerk",
-            "departmentCode": {
-                "codeValue": "000091",
-                "shortName": "Finance",
-                "longName": "Finance"
+            "workerName": {
+                "formattedName": "DGFV Cortland"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000091",
+                    "shortName": "Finance Department",
+                    "longName": "Finance"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -514,19 +820,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "FL Shanda",
-            "departmentCode": {
-                "codeValue": "000091",
-                "shortName": "Finance",
-                "longName": "Finance"
+            "workerName": {
+                "formattedName": "FL Shanda"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000091",
+                    "shortName": "Finance Department",
+                    "longName": "Finance"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -536,19 +848,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "",
-            "departmentCode": {
-                "codeValue": "000092",
-                "shortName": "Facilitair",
-                "longName": "Facilitair"
+            "workerName": {
+                "formattedName": ""
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000092",
+                    "shortName": "Facilitair",
+                    "longName": "Facilitair"
+                }
             },
             "roleCode": {
                 "codeValue": "",
                 "longName": ""
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": false,
             "activeIndicator": true,
-            "effectiveDate": "1950-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "1950-01-01"
+            }
         },
         {
             "workerID": {
@@ -558,19 +876,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "V Dalhôf",
-            "departmentCode": {
-                "codeValue": "000093",
-                "shortName": "Office management",
-                "longName": "Office management"
+            "workerName": {
+                "formattedName": "V Dalhof"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000093",
+                    "shortName": "Office management",
+                    "longName": "Office management"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -580,19 +904,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "FMAD Duif",
-            "departmentCode": {
-                "codeValue": "000093",
-                "shortName": "Office management",
-                "longName": "Office management"
+            "workerName": {
+                "formattedName": "FMAD Duif"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000093",
+                    "shortName": "Office management",
+                    "longName": "Office management"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -602,19 +932,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "LLSH Terweij",
-            "departmentCode": {
-                "codeValue": "000094",
-                "shortName": "ICT2",
-                "longName": "Consultancy"
+            "workerName": {
+                "formattedName": "LLSH Terweij"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000094",
+                    "shortName": "ICT2",
+                    "longName": "Consultancy"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -624,19 +960,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "WL Wimersma",
-            "departmentCode": {
-                "codeValue": "000094",
-                "shortName": "ICT2",
-                "longName": "Consultancy"
+            "workerName": {
+                "formattedName": "WL Wimersma"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000094",
+                    "shortName": "ICT2",
+                    "longName": "Consultancy"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "000001",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "NDS Burghout"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000095",
+                    "shortName": "Communicatie",
+                    "longName": "Communicatie"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
+            },
+            "managementIndicator": false,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -646,19 +1016,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "RTMH Deters",
-            "departmentCode": {
-                "codeValue": "000095",
-                "shortName": "Communicatie",
-                "longName": "Communicatie"
+            "workerName": {
+                "formattedName": "RTMH Deters"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000095",
+                    "shortName": "Communicatie",
+                    "longName": "Communicatie"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -668,19 +1044,53 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "DNN de Jonge",
-            "departmentCode": {
-                "codeValue": "000095",
-                "shortName": "Communicatie",
-                "longName": "Communicatie"
+            "workerName": {
+                "formattedName": "DNN de Jonge"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000095",
+                    "shortName": "Communicatie",
+                    "longName": "Communicatie"
+                }
             },
             "roleCode": {
-                "codeValue": "PNO",
-                "longName": "PNO"
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": false,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "workerID": {
+                "idValue": "000001",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "NDS Burghout"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000096",
+                    "shortName": "PnO",
+                    "longName": "Personeel en Organisatie"
+                }
+            },
+            "roleCode": {
+                "codeValue": "HOOFD",
+                "longName": "Leidinggevende"
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -690,19 +1100,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "SAMJ Hessel",
-            "departmentCode": {
-                "codeValue": "000096",
-                "shortName": "PnO",
-                "longName": "Personeel en Organisatie"
+            "workerName": {
+                "formattedName": "SAMJ Hessel"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000096",
+                    "shortName": "PnO",
+                    "longName": "Personeel en Organisatie"
+                }
             },
             "roleCode": {
                 "codeValue": "HOOFD",
                 "longName": "Leidinggevende"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         },
         {
             "workerID": {
@@ -712,19 +1128,25 @@
                     "longName": "Workforce"
                 }
             },
-            "workerName": "AC Besemer",
-            "departmentCode": {
-                "codeValue": "000096",
-                "shortName": "PnO",
-                "longName": "Personeel en Organisatie"
+            "workerName": {
+                "formattedName": "AC Besemer"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000096",
+                    "shortName": "PnO",
+                    "longName": "Personeel en Organisatie"
+                }
             },
             "roleCode": {
                 "codeValue": "PNO",
                 "longName": "PNO"
             },
-            "managementPositionIndicator": true,
+            "managementIndicator": true,
             "activeIndicator": true,
-            "effectiveDate": "2000-01-01"
+            "roleEffectivePeriod": {
+                "startDate": "2000-01-01"
+            }
         }
     ]
 }

@@ -1,0 +1,100 @@
+{
+    "events": [
+        {
+            "eventID": "942a46c3-5097-4816-b0c1-b8ac95f8fd1d",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.email.change",
+                "shortName": "worker.personalCommunication.email.change"
+            },
+            "eventTitle": "Change Worker Personal Email",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T12:56:01Z",
+            "creationDateTime": "2020-09-18T12:56:02Z",
+            "effectiveDateTime": "2020-09-18T12:56:02Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "942a46c3-5097-4816-b0c1-b8ac95f8fd1d",
+                "eventNameCode": {
+                    "codeValue": "worker.personalCommunication.email.change",
+                    "shortName": "worker.personalCommunication.email.change",
+                    "longName": "worker.personalCommunication.email.change"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86"
+                                }
+                            }
+                        }
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-18T12:56:01Z",
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "nameCode": {
+                                        "codeValue": "PERSONALEMAIL",
+                                        "shortName": "Personal Email"
+                                    },
+                                    "emailUri": "john.smith@smith.co.uk"
+                                }
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "itemID": "729e9486-acd8-4592-bbf1-6cc0dfef9e86",
+                                    "nameCode": {
+                                        "codeValue": "PERSONALEMAIL",
+                                        "shortName": "Personal Email"
+                                    },
+                                    "emailUri": "john.smith@smith.co.uk"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

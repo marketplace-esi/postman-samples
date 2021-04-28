@@ -7,10 +7,9 @@
                 "longName": "ORION CONSEIL"
             },
             "parentDepartmentCode": {
-                "codeValue": "orgadmin"
+                "codeValue": ""
             },
-            "effectiveDate": "2011-02-01",
-            "organizationName": "Organisation hiérarchique"
+            "effectiveDate": "2011-02-01"
         }
     ]
 }
