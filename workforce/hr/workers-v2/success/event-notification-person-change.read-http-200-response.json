@@ -1,93 +1,84 @@
 {
     "events": [
         {
-            "creationDateTime": "2018-11-29T00:00:00Z",
-            "effectiveDateTime": "2018-11-28T00:00:00Z",
-            "eventID": "4f2bd9a8-fed8-44e9-8cc4-7f8a899e36d9",
+            "creationDateTime": "2021-01-01T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "86b2881e-43fe-4584-b0f8-4964bf93a762",
             "eventNameCode": {
                 "codeValue": "worker.person.change"
             },
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "",
                         "workerID": {
-                            "idValue": "000037"
+                            "idValue": "000011"
                         }
                     }
                 },
                 "output": {
                     "worker": {
-                        "associateOID": "",
-                        "businessCommunication": {
-                            "emails": [
-                                {
-                                    "emailUri": "000037@adp.com"
-                                }
-                            ],
-                            "landlines": [
-                                {
-                                    "formattedNumber": "P037",
-                                    "itemID": "1",
-                                    "nameCode": {
-                                        "shortName": "business landline"
-                                    }
-                                }
-                            ],
-                            "mobiles": [
-                                {
-                                    "formattedNumber": "",
-                                    "itemID": "1",
-                                    "nameCode": {
-                                        "shortName": "business mobile"
-                                    }
-                                }
-                            ]
-                        },
-                        "customFieldGroup": {
-                            "stringFields": [
-                                {
-                                    "nameCode": {
-                                        "codeValue": "partnerFamilyName1"
-                                    },
-                                    "stringValue": "Hunger"
-                                },
-                                {
-                                    "nameCode": {
-                                        "codeValue": "partnerFamilyName1Prefix"
-                                    },
-                                    "stringValue": ""
-                                },
-                                {
-                                    "nameCode": {
-                                        "codeValue": "partnerInitials"
-                                    },
-                                    "stringValue": "RS"
-                                },
-                                {
-                                    "nameCode": {
-                                        "codeValue": "naamSamenstelling"
-                                    },
-                                    "stringValue": "tiva"
-                                },
-                                {
-                                    "nameCode": {
-                                        "codeValue": "samengesteldeNaam"
-                                    },
-                                    "stringValue": "HKNT Mulder"
-                                },
-                                {
-                                    "nameCode": {
-                                        "codeValue": "loginName"
-                                    },
-                                    "stringValue": ""
-                                }
-                            ]
-                        },
                         "person": {
-                            "birthDate": "1968-07-11",
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "partnerFamilyName1"
+                                        },
+                                        "stringValue": "Spooner"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "partnerFamilyName1Prefix"
+                                        },
+                                        "stringValue": ""
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "partnerInitials"
+                                        },
+                                        "stringValue": "MMBJ"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "naamSamenstelling"
+                                        },
+                                        "stringValue": "tiva"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "samengesteldeNaam"
+                                        },
+                                        "stringValue": "PSJD de Villanueva"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "loginName"
+                                        },
+                                        "stringValue": ""
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "verwijzendWerknemernummer"
+                                        },
+                                        "stringValue": "P011"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "leefvormCode"
+                                        },
+                                        "stringValue": ""
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "leefvorm"
+                                        },
+                                        "stringValue": ""
+                                    }
+                                ]
+                            },
+                            "birthDate": "1961-07-28",
                             "birthPlace": {
-                                "cityName": "Maasdonk",
+                                "cityName": "Boskoop",
                                 "countryCode": ""
                             },
                             "citizenshipCountryCodes": [
@@ -98,7 +89,7 @@
                             "governmentIDs": [
                                 {
                                     "itemID": "1",
-                                    "idValue": "410236627",
+                                    "idValue": "204363950",
                                     "nameCode": {
                                         "codeValue": "BSN",
                                         "longName": "Burgerservicenummer"
@@ -107,10 +98,10 @@
                             ],
                             "identityDocuments": [
                                 {
-                                    "documentID": "",
+                                    "documentID": "123456799",
                                     "typeCode": {
-                                        "codeValue": "",
-                                        "shortName": ""
+                                        "codeValue": "1",
+                                        "shortName": "Codelijst is leeg!"
                                     }
                                 }
                             ],
@@ -130,57 +121,33 @@
                                     }
                                 ]
                             },
-                            "communication": {
-                                "emails": [
-                                    {
-                                        "emailUri": ""
-                                    }
-                                ],
-                                "landlines": [
-                                    {
-                                        "formattedNumber": "",
-                                        "itemID": "1",
-                                        "nameCode": {
-                                            "shortName": "home phone"
-                                        }
-                                    }
-                                ],
-                                "mobiles": [
-                                    {
-                                        "formattedNumber": "",
-                                        "itemID": "1",
-                                        "nameCode": {
-                                            "shortName": "private mobile"
-                                        }
-                                    }
-                                ]
-                            },
                             "genderCode": {
-                                "codeValue": "M"
+                                "codeValue": "FEMALE",
+                                "longName": "Female"
                             },
                             "legalName": {
-                                "familyName1": "Mulder",
-                                "familyName1Prefix": "",
-                                "formattedName": "HKNT Mulder",
-                                "givenName": "Harm",
-                                "initials": "HKNT",
-                                "nickName": "Harm",
+                                "familyName1": "Villanueva",
+                                "familyName1Prefix": "de",
+                                "formattedName": "PSJD de Villanueva",
+                                "givenName": "Paola",
+                                "initials": "PSJD",
+                                "nickName": "Paola",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "1M",
-                                            "longName": "De heer"
+                                            "codeValue": "1V",
+                                            "longName": "Mevrouw"
                                         }
                                     }
                                 ]
                             },
                             "maritalStatusCode": {
-                                "codeValue": "1",
-                                "shortName": "Ongehuwd"
+                                "codeValue": "M",
+                                "shortName": "Married"
                             }
                         },
                         "workerID": {
-                            "idValue": "000037"
+                            "idValue": "000011"
                         }
                     }
                 }
