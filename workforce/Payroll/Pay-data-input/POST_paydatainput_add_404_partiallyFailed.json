@@ -4,7 +4,7 @@
             "codeValue": "404"
         },
         "reasonStatusCode": {
-            "codeValue": "partially successful"
+            "codeValue": "partially Failed"
         },
         "createDateTime": "2021-05-03T16:52:13.913+02:00",
         "processMessages": [
