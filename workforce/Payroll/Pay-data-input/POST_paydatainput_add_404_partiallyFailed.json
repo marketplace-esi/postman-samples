@@ -1,7 +1,7 @@
 {
     "confirmMessage": {
         "protocolStatusCode": {
-            "codeValue": "404"
+            "codeValue": "400"
         },
         "reasonStatusCode": {
             "codeValue": "partially Failed"
