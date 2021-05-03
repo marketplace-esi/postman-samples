@@ -1,73 +1,12 @@
 {
-  "events": [
-    {
-      "eventID": "whatever",
-      "eventNameCode": {
-        "codeValue": ""
-      },
-      "eventStatusCode": {
-        "codeValue": "I"
-      },
-      "originator": {
-        "applicationID": {
-          "idValue": "",
-          "schemeCode": {
-            "codeValue": ""
-          }
+    "confirmMessage": {
+        "protocolStatusCode": {
+            "codeValue": "200"
         },
-        "associateOID": "",
-        "personOID": "",
-        "formattedName": "",
-        "eventID": "",
-        "eventNameCode": {
-          "codeValue": ""
-        }
-      },
-      "data": {
-        "eventContext": {
-          "payrollGroupCode": {
-            "codeValue": "2572"
-          },
-          "payrollWeekNumber": "201901"
+        "requestStatusCode": {
+            "codeValue": "succeeded"
         },
-        "transform": {
-          "eventReasonCode": {
-            "codeValue": "I"
-          },
-          "eventStatusCode": {
-            "codeValue": ""
-          },
-          "effectiveDateTime": "2020-12-01T00:00:00Z",
-          "payDataInput": {
-            "payeePayInputs": [
-              {
-                "associateOID": "ADPNL0000001111",
-                "payeeID": {
-                  "idValue": "0001011"
-                },
-                "payrollProfilePayInputs": [
-                  {                    
-                    "payInputs": [
-                      {                                               
-                        "calculationFactorInputs": [                       	
-                        	{
-                        		"calculationFactorCode" : {
-                              		"codeValue" : "E19"
-                            	},                          
-								"calculationFactorRate": {
-									"rateValue": 2
-								}
-                        	}
-                        ]                       
-                      }                                
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        }       
-      }
+        "createDateTime": "2021-05-03T17:35:46.396+02:00",
+        "processMessages": []
     }
-  ]
 }
