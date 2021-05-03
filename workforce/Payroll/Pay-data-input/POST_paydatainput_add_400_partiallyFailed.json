@@ -4,7 +4,7 @@
             "codeValue": "400"
         },
         "reasonStatusCode": {
-            "codeValue": "partially Failed"
+            "codeValue": "partiallyFailed"
         },
         "createDateTime": "2021-05-03T16:52:13.913+02:00",
         "processMessages": [
