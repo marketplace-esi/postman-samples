@@ -1,0 +1,135 @@
+{
+    "events": [
+        {
+            "eventStatusCode": {
+                "codeValue": "submitted",
+                "shortName": "submitted"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "ADPNL000001114",
+                    "workerID": {
+                        "idValue": "001114"
+                    },
+                    "workAssignmentID": "1"
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "001114"
+                        },
+                        "workAssignment": {
+                            "actualStartDate": "2015-05-02",
+                            "baseRemuneration": {
+                                "effectiveDate": "2015-05-02",
+                                "payPeriodRateAmount": {
+                                    "amountValue": 3847,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "10"
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "itemID": "1",
+                                    "nameCode": {
+                                        "codeValue": "000060"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "",
+                                    "longName": ""
+                                }
+                            },
+                            "payrollGroupCode": "2572",
+                            "payrollFileNumber": "0011141",
+                            "jobCode": {
+                                "codeValue": "000356",
+                                "longName": "Salesmedewerker"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "001.00"
+                            },
+                            "payScaleCode": {
+                                "codeValue": "8"
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 40,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": 100,
+                            "terminationDate": "2099-12-31",
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "64",
+                                    "longName": "ADP CAO 64"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "1"
+                                },
+                                {
+                                    "workerID": {
+                                        "idValue": "000054"
+                                    }
+                                },
+                                {
+                                    "reportsToWorkerName": {
+                                        "formattedName": "SEA Hölscher"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenter"
+                                        },
+                                        "stringValue": "01225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenterName"
+                                        },
+                                        "stringValue": "Kostenplaats 01225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "040.00"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "flexibleHours"
+                                        },
+                                        "stringValue": ""
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "dateEndOfProbation"
+                                        },
+                                        "stringValue": ""
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "mut_status"
+                                        },
+                                        "stringValue": ""
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
