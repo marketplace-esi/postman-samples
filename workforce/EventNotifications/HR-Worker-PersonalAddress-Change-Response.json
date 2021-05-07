@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-02-25T00:00:00Z",
+            "effectiveDateTime": "2021-01-04T00:00:00Z",
+            "eventID": "72919233-cc31-470c-ba98-b1c39896ee85",
+            "eventNameCode": {
+                "codeValue": "worker.personalAddress.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000103"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "buildingNumber": "32",
+                                "cityName": "E",
+                                "countryCode": "NL",
+                                "postalCode": "9999 AA",
+                                "streetName": "Calle Sevilla",
+                                "unit": "B "
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000103"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
