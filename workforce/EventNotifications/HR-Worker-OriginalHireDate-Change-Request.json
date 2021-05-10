@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-03-03T00:00:00Z",
+            "effectiveDateTime": "2021-03-03T00:00:00Z",
+            "eventID": "2d436fea-db03-445b-8449-54c064145cc9",
+            "eventNameCode": {
+                "codeValue": "worker.workerOriginalHireDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "696969"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "originalHireDate": "2021-01-07"
+                        },
+                        "workerID": {
+                            "idValue": "696969"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
