@@ -11,9 +11,7 @@
                     "associateOID": "ADPNL00000002"
                 },
                 "output": {
-                    "worker": {
-                        "associateOID2": "ADPNL00000002",
-                        "workerID2": "000002",
+                    "associateCertification": {
                         "certificationID": {
                             "idValue": "9992284"
                         },
@@ -21,7 +19,7 @@
                             "codeValue": "RBB",
                             "longName": "Autorijbewijs B"
                         },
-                        "certificationDescription": "poh",
+                        "certificationDescription": "heeeeeeeeee",
                         "lastIssueDate": "2020-02-02",
                         "expirationDate": "2021-11-12"
                     }
