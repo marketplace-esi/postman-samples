@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-03-05T00:00:00Z",
+            "effectiveDateTime": "2021-03-01T00:00:00Z",
+            "eventID": "422d6c26-3a41-4e11-98f0-b1451821f7d0",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.email.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000109"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "emailUri": "RonaldOzcelik@armyspy.com"
+                                }
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000109"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
