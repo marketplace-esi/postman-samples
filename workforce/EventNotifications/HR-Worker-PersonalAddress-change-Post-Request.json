@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker":{
+                      "workerID": {
+                            "idValue":"000001"
+                        }
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "buildingNumber":"",
+                                "cityName": "Prueba2",
+                                "countryCode": "US",
+                                "postalCode": "1080",
+                                "streetName":"xxx",
+                                "unit":"unit"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
