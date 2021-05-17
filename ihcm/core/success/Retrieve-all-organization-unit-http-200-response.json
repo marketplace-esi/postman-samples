@@ -1,0 +1,68 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "departments",
+            "listItems": [
+                {
+                    "codeValue": "1000",
+                    "shortName": "ADP IT Company",
+                    "valueDescription": "1000 - ADP IT Company"
+                },
+                {
+                    "codeValue": "1001",
+                    "foreignKey": "1000",
+                    "shortName": "ADP IT Division",
+                    "valueDescription": "1001 - ADP IT Division"
+                },
+                {
+                    "codeValue": "1003",
+                    "foreignKey": "1001",
+                    "shortName": "ADP IT Department",
+                    "valueDescription": "1003 - ADP IT Department"
+                },
+                {
+                    "codeValue": "1004",
+                    "foreignKey": "1003",
+                    "shortName": "ADP IT Team",
+                    "valueDescription": "1004 - ADP IT Team"
+                },
+                {
+                    "codeValue": "1005",
+                    "foreignKey": "1004",
+                    "shortName": "ADP IT SubTeam",
+                    "valueDescription": "1005 - ADP IT SubTeam"
+                },
+                {
+                    "codeValue": "188",
+                    "shortName": "ADP UK",
+                    "valueDescription": "188 - ADP UK"
+                },
+                {
+                    "codeValue": "DECOMP",
+                    "shortName": "DE Comp",
+                    "valueDescription": "DECOMP - DE Comp"
+                },
+                {
+                    "codeValue": "ESCOMP",
+                    "shortName": "Spain Company",
+                    "valueDescription": "ESCOMP - Spain Company"
+                },
+                {
+                    "codeValue": "IECOMP",
+                    "shortName": "IE Comp",
+                    "valueDescription": "IECOMP - IE Comp"
+                },
+                {
+                    "codeValue": "ESComp",
+                    "shortName": "Comp",
+                    "valueDescription": "ESComp - Comp"
+                },
+                {
+                    "codeValue": "ukcomp",
+                    "shortName": "uk company",
+                    "valueDescription": "ukcomp - uk company"
+                }
+            ]
+        }
+    ]
+}
