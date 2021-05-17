@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker":{
+                      "workerID": {
+                            "idValue":"000001"
+                        }
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalAddress": {
+                                "buildingNumber":"",
+                                "cityName": "Millburn",
+                                "countryCode": "US",
+                                "postalCode": "07041",
+                                "streetName":"xxx",
+                                "unit":"unit"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

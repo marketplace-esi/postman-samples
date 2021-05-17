@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "eventStatusCode": {
+                "codeValue": "submitted",
+                "shortName": "submitted"
+            },
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "000002",
+                    "associateOID": "ADPNL00000002"
+                },
+                "output": {
+                    "associateCertification": {
+                        "certificationID": {
+                            "idValue": "9992284"
+                        },
+                        "certificationNameCode": {
+                            "codeValue": "RBB",
+                            "longName": "Autorijbewijs B"
+                        },
+                        "certificationDescription": "heeeeeeeeee",
+                        "lastIssueDate": "2020-02-02",
+                        "expirationDate": "2021-11-12"
+                    }
+                }
+            }
+        }
+    ]
+}
