@@ -1,0 +1,30 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "business-units",
+            "listItems": [
+                {
+                    "codeValue": "1001",
+                    "shortName": "ADP IT Division",
+                    "valueDescription": "1001 - ADP IT Division"
+                },
+                {
+                    "codeValue": "UKD",
+                    "shortName": "UK-Division",
+                    "valueDescription": "UKD - UK-Division"
+                },
+                {
+                    "codeValue": "CustomTeam",
+                    "shortName": "Custom Org Team",
+                    "valueDescription": "CustomTeam - Custom Org Team"
+                },
+                {
+                    "codeValue": "ESDiv",
+                    "shortName": "ES Division",
+                    "valueDescription": "ESDiv - ES Division"
+                }
+            ]
+        }
+    ]
+}
+

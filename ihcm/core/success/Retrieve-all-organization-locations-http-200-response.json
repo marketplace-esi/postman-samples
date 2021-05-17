@@ -1,0 +1,30 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "locations",
+            "listItems": [
+                {
+                    "codeValue": "1000",
+                    "shortName": "Madrid",
+                    "valueDescription": "1000 - Madrid"
+                },
+                {
+                    "codeValue": "ADPPOST",
+                    "shortName": "Post to home address",
+                    "valueDescription": "ADPPOST - Post to home address"
+                },
+                {
+                    "codeValue": "ADPPOST_E",
+                    "shortName": "Envelope and post to home address",
+                    "valueDescription": "ADPPOST_E - Envelope and post to home address"
+                },
+                {
+                    "codeValue": "RM",
+                    "shortName": "ROMA",
+                    "valueDescription": "RM - ROMA"
+                }
+            ]
+        }
+    ]
+}
+
