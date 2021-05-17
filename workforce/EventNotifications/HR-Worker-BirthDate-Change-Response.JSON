@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "eventStatusCode": {
+        "codeValue": "submitted",
+        "shortName": "submitted"
+      },
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "ADPNL00000001",
+            "workerID": {
+              "idValue": "000001"
+            }
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "ADPNL00000001",
+            "workerID": {
+              "idValue": "000001"
+            },
+            "person": {
+              "birthDate": "1984-04-22"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

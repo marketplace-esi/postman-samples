@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-30T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "8d837fa2-c6f0-498f-a6b0-9a134dac172d",
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000011"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "formattedNumber": "+34685035618"
+                                }
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000011"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
