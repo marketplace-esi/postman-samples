@@ -1,0 +1,206 @@
+{
+    "payrollOutputs": [
+        {
+            "associatePayments": [
+                {
+                    "payrollID": {
+                        "idValue": "6969691"
+                    },
+                    "payments": [
+                        {
+                            "paymentSummary": {
+                                "earnings": {
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7114"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 1E+2
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7120"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 3E+1
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "ADPNL00000011",
+                    "payrollID": {
+                        "idValue": "0000111"
+                    },
+                    "payments": [
+                        {
+                            "paymentSummary": {
+                                "earnings": {
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6432"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 2E+1
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6480"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 3E+1
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7114"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 1E+2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "payrollID": {
+                        "idValue": "0010001"
+                    },
+                    "payments": [
+                        {
+                            "paymentSummary": {
+                                "earnings": {
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6432"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 2.3E+2
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6434"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 23
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6439"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 12
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6480"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 111
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7114"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 75
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7120"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 2.5E+2
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7125"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 25
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7130"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 23
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "ADPNL00000061",
+                    "payrollID": {
+                        "idValue": "0000611"
+                    },
+                    "payments": [
+                        {
+                            "paymentSummary": {
+                                "earnings": {
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "6439"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 2E+1
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "7507"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 1E+2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
