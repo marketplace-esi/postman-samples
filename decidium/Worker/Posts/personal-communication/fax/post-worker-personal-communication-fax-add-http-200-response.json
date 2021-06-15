@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2",
+                        "person": {
+                            "communication": {
+                                "fax": {
+                                    "formattedNumber": "0444444444",
+                                    "itemID": "Personnel"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
