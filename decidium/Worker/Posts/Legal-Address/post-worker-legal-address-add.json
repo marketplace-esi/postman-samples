@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { 
+                        "associateOID" : "pmassina-mp2"
+					}
+                },
+				"transform": {
+					"worker": {
+						"person": {
+                            "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "NANTES"
+                                },
+                                "countryCode": "FR",
+                                "postalCode": "44300",
+                                "lineFive": "LIEU DIT",
+                                "buildingNumber": "21",
+                                "buildingNumberExtension": "B",
+                                "streetName": "Legal address add ",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "69266",
+                                    "longName": "VILLEURBANNE"
+                                }
+                            }
+						}
+					}
+				}
+			}
+        }
+    ]
+}

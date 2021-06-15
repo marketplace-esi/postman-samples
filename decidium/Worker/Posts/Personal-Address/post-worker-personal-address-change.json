@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { 
+						"associateOID" : "pmassina-mp2"
+					}
+                },
+                "transform": {
+                    "worker": {
+						"person": {
+                            "personalAddress": {
+                                "countryCode": "FI",
+                                "cityName": "Helsinski",
+                                "postalCode": "44300",
+                                "lineFive": "LIEU DIT",
+                                "buildingNumber": "21",
+                                "buildingNumberExtension": "B",
+                                "streetName": "Personal address change",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "69266",
+                                    "longName": "VILLEURBANNE"
+                                }
+                            }
+					   }
+                    } 
+                }
+            }
+        }
+    ]
+}
