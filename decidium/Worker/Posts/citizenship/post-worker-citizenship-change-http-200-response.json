@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2",
+                        "person": {
+                            "citizenshipCountryCode": {
+                                "codeValue": "ES"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
