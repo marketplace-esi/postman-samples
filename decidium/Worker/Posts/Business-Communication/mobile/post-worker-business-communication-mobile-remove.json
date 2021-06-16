@@ -1,0 +1,11 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "adahan-mp6"}
+                }
+            }
+        }
+    ]
+}
