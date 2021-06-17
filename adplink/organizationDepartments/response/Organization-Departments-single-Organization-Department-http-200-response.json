@@ -2,13 +2,13 @@
     "organizationDepartments": [
         {
             "departmentCode": {
-                "codeValue": "02"
+                "codeValue": "0202010"
             },
             "parentDepartmentCode": {
-                "codeValue": "orgadmin"
+                "codeValue": "02"
             },
             "effectiveDate": "2011-02-01",
-            "departmentDescription": "Organisation hiérarchique"
+            "departmentDescription": "Entité 0202010"
         }
     ]
 }

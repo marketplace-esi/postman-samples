@@ -12,6 +12,9 @@
 								"timeOffPolicyCode": {
 									"codeValue": "CP"
 								},
+                                "payCode": {
+                                    "codeValue": "CP"
+                                },
 								"durationTypeCode": {
 									"codeValue": "dayPeriodEntry"
 								},
