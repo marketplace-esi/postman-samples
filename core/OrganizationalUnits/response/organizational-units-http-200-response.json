@@ -36,10 +36,10 @@
                         "shortName": "MEP"
                     },
                     "typeCode": {
-                        "codeValue": "4"
+                        "codeValue": "2"
                     },
                     "effectiveDateTime": "2000-01-01T00:00:00+01:00",
-                    "hasChildrenIndicator": true
+                    "hasChildrenIndicator": false
                 }
             ]
         },
@@ -81,7 +81,7 @@
                 "shortName": "MEP"
             },
             "typeCode": {
-                "codeValue": "4"
+                "codeValue": "2"
             },
             "effectiveDateTime": "2000-01-01T00:00:00+01:00",
             "parentOrganizationalUnit": {
@@ -90,33 +90,9 @@
                     "shortName": "PROCESSING"
                 },
                 "typeCode": {
-                    "codeValue": "4"
+                    "codeValue": "2"
                 }
-            },
-            "childOrganizationalUnits": [
-                {
-                    "nameCode": {
-                        "codeValue": "SEC_EST",
-                        "shortName": "EST"
-                    },
-                    "typeCode": {
-                        "codeValue": "2"
-                    },
-                    "effectiveDateTime": "1950-01-01T00:00:00+01:00",
-                    "hasChildrenIndicator": true
-                },
-                {
-                    "nameCode": {
-                        "codeValue": "SEC_NORD",
-                        "shortName": "NORD"
-                    },
-                    "typeCode": {
-                        "codeValue": "2"
-                    },
-                    "effectiveDateTime": "1950-01-01T00:00:00+01:00",
-                    "hasChildrenIndicator": true
-                }
-            ]
+            }
         }
     ]
 }

@@ -8,7 +8,7 @@
 			},
 			"transform": {
                 "dependent": {
-                    "itemID": "C;01;1980-01-01",
+                    "itemID": "C;01",
                     "relationshipTypeCode": {
                         "codeValue": "C",
                         "shortName": "Conjoint",

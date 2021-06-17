@@ -1,5 +1,6 @@
 {
     "workers": [
+        {
             "associateOID": "00000005",
             "workerID": {
                 "idValue": "00000005"

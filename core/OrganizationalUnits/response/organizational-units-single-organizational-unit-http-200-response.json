@@ -25,7 +25,7 @@
                         "shortName": "SERVICE RH"
                     },
                     "typeCode": {
-                        "codeValue": "2"
+                        "codeValue": "4"
                     },
                     "effectiveDateTime": "1950-01-01T00:00:00+01:00",
                     "hasChildrenIndicator": true
