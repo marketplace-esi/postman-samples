@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "{{workerMPPOSTApi}}"}
+                },
+                "transform": {
+                    "worker": {
+						"person": {
+							"communication": {
+                                "fax": {
+                                    "formattedNumber": "0444444444"
+                                }
+                            }
+					   }
+                    } 
+                }
+            }
+        }
+    ]
+}

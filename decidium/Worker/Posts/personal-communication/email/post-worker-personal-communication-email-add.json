@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "pmassina-mp2"}
+                },
+				"transform": {
+					"worker": {
+						"person": {
+							"communication": {
+								"email": {
+									"emailUri": "add@adp.com"
+								}
+							}
+						}
+					}
+				}
+			}
+        }
+    ]
+}
