@@ -1,0 +1,68 @@
+{
+    "organizationDepartments": [
+        {
+            "departmentCode": {
+                "codeValue": "01"
+            },
+            "effectiveDate": "2008-07-01",
+            "departmentDescription": "Entité 01"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01002"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01"
+            },
+            "effectiveDate": "2008-07-01",
+            "departmentDescription": "Entité 01002"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "01003"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01"
+            },
+            "effectiveDate": "2010-05-01",
+            "departmentDescription": "Entité 01003"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0100201"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "01002"
+            },
+            "effectiveDate": "2009-01-01",
+            "departmentDescription": "Entité 0100201"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02"
+            },
+            "effectiveDate": "2011-02-01",
+            "departmentDescription": "Entité 02"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "0202010"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "02"
+            },
+            "effectiveDate": "2011-02-01",
+            "departmentDescription": "Entité 0202010"
+        },
+        {
+            "departmentCode": {
+                "codeValue": "02020101"
+            },
+            "parentDepartmentCode": {
+                "codeValue": "0202010"
+            },
+            "effectiveDate": "2011-02-01",
+            "departmentDescription": "Entité 02020101"
+        }
+    ]
+}
