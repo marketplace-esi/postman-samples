@@ -1,0 +1,20 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "adahan-mp6"}
+                },
+                "transform": {
+                    "worker": {
+						"businessCommunication": {
+                            "landline": {
+                                "formattedNumber": "0251000000"
+                            }
+					   }
+                    } 
+                }
+            }
+        }
+    ]
+}
