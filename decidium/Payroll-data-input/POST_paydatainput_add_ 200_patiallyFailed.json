@@ -1,0 +1,126 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "ldupuy-mp2",
+                                "payPeriodStartDate": "2020-10-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "calculationFactorInputs": [
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T698"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "12345"
+                                                            }
+                                                        },
+                                                        "configurationTags": [
+                                                            {
+                                                                "tagCode": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T712"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "15.20"
+                                                            }
+                                                        },
+                                                        "configurationTags": [
+                                                            {
+                                                                "tagCode": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T727"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "12"
+                                                            }
+                                                        },
+                                                        "configurationTags": [
+                                                            {
+                                                                "tagCode": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T729"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "ABC"
+                                                            }
+                                                        },
+                                                        "configurationTags": [
+                                                            {
+                                                                "tagCode": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T789"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "X"
+                                                            }
+                                                        },
+                                                        "configurationTags": [
+                                                            {
+                                                                "tagCode": ""
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-05-04T09:49:25.662+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: lfonseca-mp5, Date d'effet: 01102020, Période: 201903 - Collaborateur non trouvé"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: lfonseca-mp5, Date d'effet: 01102020, Période: 201903 - Collaborateur non trouvé"
+                }
+            }
+        ]
+    }
+}
