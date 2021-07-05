@@ -1,0 +1,9 @@
+{
+    "requestStatus": "success",
+    "messages": [
+        {
+            "messageTypeCode": "success",
+            "messageText": "Document toegevoegd"
+        }
+    ]
+}
