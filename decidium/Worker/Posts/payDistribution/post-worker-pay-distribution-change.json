@@ -1,0 +1,96 @@
+{
+   "events":[
+      {
+         "data":{
+            "eventContext":{
+               "worker":{
+                  "associateOID":"pmassina-mp3"
+               }
+            },
+            "transform":{
+               "effectiveDateTime":"2015-03-05T00:00:00Z",
+               "payDistribution":{
+                  "requestedStartDate":"2015-03-15",
+                  "distributionInstructions":[
+                     {
+                        "precedenceCode":{
+                           "codeValue":"primary",
+                           "shortName":"Compte principal",
+                           "longName":"Compte principal"
+                        },
+                        "paymentMethodCode":{
+                           "codeValue":"V",
+                           "shortName":"Virement",
+                           "longName":"Virement"
+                        },
+                        "itemID":"1",
+                        "depositAccount":{
+                           "IBAN":"FR7610107001630031163105548",
+                           "financialAccount":{
+                              "accountName":"COMPTE PRIMAIRE"
+                           },
+                           "financialParty":{
+                              "SWIFTCode":"BREDFRPPXXX",
+                              "nameCode":{
+                                 "shortName":"BRED PARIS MONTORGUEIL"
+                              }
+                           }
+                        }
+                     },
+                     {
+                        "precedenceCode":{
+                           "codeValue":"secondary",
+                           "shortName":"Compte secondaire",
+                           "longName":"Compte secondaire"
+                        },
+                        "paymentMethodCode":{
+                           "codeValue":"V",
+                           "shortName":"Virement",
+                           "longName":"Virement"
+                        },
+                        "itemID":"2",
+                        "depositAccount":{
+                           "IBAN":"FR7630002032531234567890168",
+                           "financialAccount":{
+                              "accountName":"COMPTE SECONDAIRE"
+                           },
+                           "financialParty":{
+                              "SWIFTCode":"CRLYFRPP",
+                              "nameCode":{
+                                 "shortName":"Credit Lyonnais"
+                              }
+                           }
+                        }
+                     },
+                     {
+                        "precedenceCode":{
+                           "codeValue":"expenses",
+                           "shortName":"Compte frais",
+                           "longName":"Compte frais"
+                        },
+                        "paymentMethodCode":{
+                           "codeValue":"V",
+                           "shortName":"Virement",
+                           "longName":"Virement"
+                        },
+                        "itemID":"3",
+                        "depositAccount":{
+                           "IBAN":"FR7614410000011234567890163",
+                           "financialAccount":{
+                              "accountName":"COMPTE FRAIS"
+                           },
+                           "financialParty":{
+                              "SWIFTCode":"CMCIFR2A",
+                              "nameCode":{
+                                 "shortName":"Credit Mutuel"
+                              }
+                           }
+                        }
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   ]
+}

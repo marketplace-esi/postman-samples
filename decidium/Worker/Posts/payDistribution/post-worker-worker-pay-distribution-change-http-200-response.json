@@ -1,0 +1,59 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp3"
+                    }
+                },
+                "output": {
+                    "payDistribution": {
+                        "distributionInstructions": [
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "V",
+                                    "shortName": "Virement",
+                                    "longName": "Virement"
+                                },
+                                "depositAccount": {
+                                    "financialParty": {
+                                        "nameCode": {
+                                            "shortName": "BRED PARIS MONTORGUEIL"
+                                        },
+                                        "SWIFTCode": "BREDFRPPXXX"
+                                    },
+                                    "financialAccount": {
+                                        "accountName": "COMPTE PRIMAIRE"
+                                    },
+                                    "IBAN": "FR7610107001630031163105548"
+                                },
+                                "itemID": "1"
+                            },
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "V",
+                                    "shortName": "Virement",
+                                    "longName": "Virement"
+                                },
+                                "depositAccount": {
+                                    "financialParty": {
+                                        "nameCode": {
+                                            "shortName": "Credit Mutuel"
+                                        },
+                                        "SWIFTCode": "CMCIFR2A"
+                                    },
+                                    "financialAccount": {
+                                        "accountName": "COMPTE FRAIS"
+                                    },
+                                    "IBAN": "FR7614410000011234567890163"
+                                },
+                                "itemID": "3"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
