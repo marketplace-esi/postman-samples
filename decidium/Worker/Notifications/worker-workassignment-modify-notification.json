@@ -1,25 +1,33 @@
 {
     "events": [
         {
-            "eventID": "60506cc85872d44e9ff8f6ee",
+            "eventID": "6109463466fb720c5f77f19b",
             "eventNameCode": {
                 "codeValue": "worker.workAssignment.modify"
             },
-            "recordDateTime": "2021-03-16T09:25:10+01:00",
-            "effectiveDateTime": "2021-03-02T00:00:00+01:00",
+            "recordDateTime": "2021-08-03T15:28:24+02:00",
+            "effectiveDateTime": "2018-12-01T00:00:00+01:00",
             "data": {
                 "eventContext": {
-                    "associateOID": "nafe-5jk",
+                    "associateOID": "js9115b1-323",
                     "workerID": {
-                        "idValue": "00000445"
+                        "idValue": "00000512"
                     }
                 },
                 "output": {
                     "worker": {
                         "workAssignment": {
-                            "hireDate": "2021-03-02",
-                            "actualStartDate": "2021-03-02",
-                            "jobTitle": "00",
+                            "hireDate": "2018-12-01",
+                            "seniorityDate": "2019-01-01",
+                            "actualStartDate": "2018-12-01",
+                            "terminationDate": "2018-12-15",
+                            "legalEntityID": "01",
+                            "jobCode": {
+                                "codeValue": "EMPLO1",
+                                "shortName": "Emploi 1",
+                                "longName": "Emploi 1"
+                            },
+                            "jobTitle": "Emploi 1",
                             "assignedOrganizationalUnits": [
                                 {
                                     "nameCode": {
@@ -61,7 +69,8 @@
                             ],
                             "remunerationBasisCode": {
                                 "codeValue": "S",
-                                "shortName": "S"
+                                "shortName": "S",
+                                "longName": "S"
                             },
                             "baseRemuneration": {
                                 "annualRateAmount": {
@@ -73,17 +82,49 @@
                                     "currencyCode": "EUR"
                                 }
                             },
-                            "reportsTo": [
-                                {
-                                    "associateOID": "levangelist-mp1",
-                                    "reportsToWorkerName": {
-                                        "givenName": "LINDA",
-                                        "familyName1": "EVANGELIST"
+                            "payrollFileNumber": "00000512",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "longName": "Salarié",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "00",
+                                        "longName": "CDI",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "1",
+                                        "longName": "Salaire mensuel(Réservé CCN FHP",
+                                        "itemID": "remunerationType"
+                                    },
+                                    {
+                                        "codeValue": "001",
+                                        "longName": "HORAIRE 35 HEURES",
+                                        "itemID": "workSchedule"
                                     }
-                                }
-                            ],
-                            "payrollFileNumber": "A0001221",
-                            "itemID": "A0001221"
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2018-12-15",
+                                        "itemID": "contractEndDate"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "numberValue": 151.67,
+                                        "itemID": "monthlyHours"
+                                    }
+                                ]
+                            },
+                            "itemID": "00000512"
                         }
                     }
                 }
