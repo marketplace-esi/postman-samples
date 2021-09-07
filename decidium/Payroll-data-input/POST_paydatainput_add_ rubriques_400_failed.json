@@ -1,0 +1,25 @@
+{
+	"confirmMessage": {
+		"createDateTime": "2021-09-07T11:34:15.736+02:00",
+		"protocolStatusCode": {
+			"codeValue": "400"
+		},
+		"protocolCode": {},
+		"requestStatusCode": {
+			"codeValue": "failed"
+		},
+		"processMessages": [
+			{
+				"messageTypeCode": {
+					"codeValue": "error"
+				},
+				"userMessage": {
+					"messageTxt": "Collaborateur: unkownuser, Date d'effet: 092020, Période: 201903 - Collaborateur non trouvé"
+				},
+				"developerMessage": {
+					"messageTxt": "Collaborateur: unkownuser, Date d'effet: 092020, Période: 201903 - Collaborateur non trouvé"
+				}
+			}
+		]
+	}
+}
