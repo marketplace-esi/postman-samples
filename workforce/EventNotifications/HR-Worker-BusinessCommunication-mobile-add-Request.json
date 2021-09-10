@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "ADPNL00000001",
+            "workerID": {
+              "idValue": "000001"
+            }
+          }
+        },
+        "transform": {
+          "worker": {
+            "businessCommunication": {
+              "mobile": {
+                "formattedNumber": "456465445644"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

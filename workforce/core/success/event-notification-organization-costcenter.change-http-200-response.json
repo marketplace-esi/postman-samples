@@ -1,27 +1,29 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-09-02T00:00:00Z",
-            "effectiveDateTime": "2020-09-01T00:00:00Z",
-            "eventID": "93f303f9-c7f2-44aa-9347-b046cf290c0d",
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "f6ecf220-2a85-405c-a1a7-7639ed249a3a",
             "eventNameCode": {
                 "codeValue": "organizationCostCenter.change"
             },
             "data": {
                 "eventContext": {
-                    "organizationCostCenter": {
-                        "costCenterCode": "01225"
-                    }
+                    "contextExpressionID": "01250"
                 },
                 "output": {
                     "organizationCostCenter": {
                         "costCenterCode": {
-                            "codeValue": "01225",
-                            "longName": "Bureauinrichting"
+                            "codeValue": "01250",
+                            "longName": "Kostenplaats 01250"
                         },
-                        "costCenterDescription": "Bureauinrichting",
+                        "costCenterDescription": {
+                            "longLabelName": "Kostenplaats 01250"
+                        },
                         "activeIndicator": false,
-                        "effectiveDate": "1950-01-01"
+                        "costCenterEffectivePeriod": {
+                            "startDate": "1950-01-01"
+                        }
                     }
                 }
             }

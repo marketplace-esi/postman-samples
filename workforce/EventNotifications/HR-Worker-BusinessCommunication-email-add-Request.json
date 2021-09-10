@@ -1,0 +1,24 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "workerID": {
+              "idValue": "000071"
+            }
+          }
+        },
+        "transform": {
+          "worker": {
+            "businessCommunication": {
+              "email": {
+                "emailUri": "testAddEmail@adp.com"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

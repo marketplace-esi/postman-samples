@@ -1,0 +1,11 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "pmassina-mp2"}
+                }
+            }
+        }
+    ]
+}

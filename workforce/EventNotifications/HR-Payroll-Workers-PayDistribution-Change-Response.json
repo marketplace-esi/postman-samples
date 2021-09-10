@@ -1,0 +1,56 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2018-10-29T00:00:00Z",
+            "effectiveDateTime": "2018-01-01T00:00:00Z",
+            "eventID": "4482fc1a-90b4-4736-b0d5-de69359c45cd",
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {}
+                },
+                "output": {
+                    "payDistribution": {
+                        "payrollFileNumber": "0000061",
+                        "itemID": "B00",
+                        "distributionInstructions": [
+                            {
+                                "precedenceCode": {
+                                    "codeValue": "B00",
+                                    "shortName": "Hoofdbetaling",
+                                    "longName": "Hoofdbetaling"
+                                }
+                            },
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "B",
+                                    "shortName": "Bank",
+                                    "longName": "Bank"
+                                }
+                            },
+                            {
+                                "depositAccount": {
+                                    "IBAN": "NL89ABNA0506166589",
+                                    "financialAccount": {
+                                        "accountNumber": "506166589"
+                                    },
+                                    "financialParty": {
+                                        "SWIFTCode": "ABNANL2A",
+                                        "nameCode": {
+                                            "shortName": "PN Hamers"
+                                        },
+                                        "address": {
+                                            "cityName": "Werkendam"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

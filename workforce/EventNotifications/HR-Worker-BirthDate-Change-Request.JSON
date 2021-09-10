@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "ADPNL00000001",
+            "workerID": {
+              "idValue": "000001"
+            }
+          }
+        },
+        "transform": {
+          "worker": {
+            "person": {
+              "birthDate": "1984-04-22"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

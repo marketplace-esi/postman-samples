@@ -1,0 +1,35 @@
+{
+    "confirmMessage": {
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "reasonStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "createDateTime": "2021-05-03T16:52:13.913+02:00",
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Medewerker: ADPNL0000001111, Periode: 201901, Code_Element: E19111, looncomponent is niet geautoriseerd"
+                },
+                "developerMessage": {
+                    "messageTxt": "Medewerker: ADPNL0000001111, Periode: 201901, Code_Element: E19111, looncomponent is niet geautoriseerd"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Medewerker: ADPNL0000001111, Periode: 201901, Code_Element: C6425, Fout: De inrichting van secundaire voorwaarde 6425 is niet correct, Voorwaarde bestaat (nog) niet bij klantnummer 2572."
+                },
+                "developerMessage": {
+                    "messageTxt": "Medewerker: ADPNL0000001111, Periode: 201901, Code_Element: C6425, Fout: De inrichting van secundaire voorwaarde 6425 is niet correct, Voorwaarde bestaat (nog) niet bij klantnummer 2572."
+                }
+            }
+        ]
+    }
+}

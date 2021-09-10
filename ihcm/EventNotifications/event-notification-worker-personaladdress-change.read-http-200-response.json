@@ -1,0 +1,110 @@
+{
+    "events": [
+        {
+            "eventID": "d8144566-a8c6-48f3-bac3-345a931563e4",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalAddress.change",
+                "shortName": "worker.personalAddress.change"
+            },
+            "eventTitle": "Change Worker Personal Address",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-16T13:19:13Z",
+            "creationDateTime": "2020-09-16T13:19:14Z",
+            "effectiveDateTime": "2020-09-16T13:19:14Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "crole-w99",
+                "personOID": "AUTODB_COE",
+                "formattedName": "COE ROLE",
+                "deviceID": "iHCM",
+                "eventID": "d8144566-a8c6-48f3-bac3-345a931563e4",
+                "eventNameCode": {
+                    "codeValue": "worker.personalAddress.change",
+                    "shortName": "worker.personalAddress.change",
+                    "longName": "worker.personalAddress.change"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "crole-w99",
+                "formattedName": "COE ROLE",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "itemID": "e2378b17-8948-40dc-a3f8-a0df0ae8997a"
+                            }
+                        }
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-01T00:00:00",
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "nameCode": {
+                                    "codeValue": "Home",
+                                    "shortName": "Home",
+                                    "longName": "Home"
+                                },
+                                "lineOne": "Pinky",
+                                "lineFive": "1703",
+                                "deliveryPoint": "False",
+                                "cityName": "a he qi xian",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": ""
+                                },
+                                "countryCode": "IT",
+                                "postalCode": "12346"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {},
+                        "person": {
+                            "personalAddress": {
+                                "itemID": "e2378b17-8948-40dc-a3f8-a0df0ae8997a",
+                                "nameCode": {
+                                    "codeValue": "Home",
+                                    "shortName": "Home",
+                                    "longName": "Home"
+                                },
+                                "lineOne": "Pinky",
+                                "lineFive": "1703",
+                                "deliveryPoint": "False",
+                                "cityName": "a he qi xian",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": ""
+                                },
+                                "countryCode": "IT",
+                                "postalCode": "12346"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp2",
+                        "person": {
+                            "personalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "NANTES",
+                                    "subdivisionType": "NANTES"
+                                },
+                                "countryCode": "FR",
+                                "postalCode": "44300",
+                                "lineFive": "LIEU DIT",
+                                "buildingNumber": "21",
+                                "buildingNumberExtension": "B",
+                                "streetName": "Personal address add",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "69266",
+                                    "subdivisionType": "VILLEURBANNE"
+                                },
+                                "itemID": "AdrPerso"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

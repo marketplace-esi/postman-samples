@@ -1,0 +1,82 @@
+{
+    "events": [
+        {
+            "eventID": "6b484427-bdf9-4239-ba46-02d933579d4f",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change",
+                "shortName": "worker.maritalStatus.change"
+            },
+            "eventTitle": "Change Worker Marital Status",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T12:51:13Z",
+            "creationDateTime": "2020-09-18T12:51:15Z",
+            "effectiveDateTime": "2020-09-18T12:51:15Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "6b484427-bdf9-4239-ba46-02d933579d4f",
+                "eventNameCode": {
+                    "codeValue": "worker.maritalStatus.change",
+                    "shortName": "worker.maritalStatus.change",
+                    "longName": "worker.maritalStatus.change"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {}
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-18T12:51:13Z",
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "M",
+                                "shortName": "Married"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "person": {
+                            "maritalStatusCode": {
+                                "effectiveDate": "2020-09-18",
+                                "codeValue": "M",
+                                "shortName": "Married"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,25 +1,21 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-05-28T00:00:00Z",
+            "creationDateTime": "2021-01-05T00:00:00Z",
             "effectiveDateTime": "2020-01-01T00:00:00Z",
-            "eventID": "7c9d2d7f-cb07-4ea9-a13b-11140f86b4bc",
+            "eventID": "4318eee7-c461-4fa5-b9d8-8e09635b6760",
             "eventNameCode": {
                 "codeValue": "organizationDepartment.remove"
             },
             "data": {
                 "eventContext": {
-                    "organizationDepartment": {
-                        "departmentCode": {
-                            "codeValue": "061100"
-                        }
-                    }
+                    "contextExpressionID": "000123"
                 },
                 "output": {
                     "organizationDepartment": {
                         "parentDepartmentCode": {},
                         "departmentCode": {
-                            "codeValue": "061100"
+                            "codeValue": "000123"
                         }
                     }
                 }

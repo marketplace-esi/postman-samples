@@ -1,0 +1,117 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "Department Code List",
+            "listItems": [
+                {
+                    "codeValue": "000010",
+                    "shortName": "ICT",
+                    "longName": "ICT- 2",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000020",
+                    "shortName": "Marketing",
+                    "longName": "Marketing",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000021",
+                    "shortName": "Marketing/Sales",
+                    "longName": "Marketing en Sales",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000022",
+                    "shortName": "S-a-l-e-s",
+                    "longName": "S-a-l-e-s",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000025",
+                    "shortName": "Klantenservice",
+                    "longName": "Klantenservice",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000030",
+                    "shortName": "Beheer",
+                    "longName": "Beheer",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000040",
+                    "shortName": "Archief",
+                    "longName": "Kwaliteit",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000050",
+                    "shortName": "Internal Systems",
+                    "longName": "Internal Systems",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000060",
+                    "shortName": "Sales",
+                    "longName": "Sales",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000070",
+                    "shortName": "|nt#rn@tion&l",
+                    "longName": "International",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000071",
+                    "shortName": "INT2",
+                    "longName": "International 2",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000090",
+                    "shortName": "HRM",
+                    "longName": "HRM",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000091",
+                    "shortName": "Finance Department",
+                    "longName": "Finance",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000092",
+                    "shortName": "Facilitair",
+                    "longName": "Facilitair",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000093",
+                    "shortName": "Office management",
+                    "longName": "Office management",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000094",
+                    "shortName": "ICT2",
+                    "longName": "Consultancy",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000095",
+                    "shortName": "Communicatie",
+                    "longName": "Communicatie",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "000096",
+                    "shortName": "PnO",
+                    "longName": "Personeel en Organisatie",
+                    "inactiveIndicator": false
+                }
+            ]
+        }
+    ]
+}

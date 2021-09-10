@@ -1,0 +1,208 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "Pay Grades List",
+            "listItems": [
+                {
+                    "codeValue": "215-8",
+                    "shortName": "215-8",
+                    "longName": "215-8 Test Codelist",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "215-9",
+                    "shortName": "215-9",
+                    "longName": "215-9",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-1",
+                    "shortName": "64-1",
+                    "longName": "64-1",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-10",
+                    "shortName": "64-10",
+                    "longName": "64-10",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-11",
+                    "shortName": "64-11",
+                    "longName": "64-11",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-12",
+                    "shortName": "64-12",
+                    "longName": "64-12",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-13",
+                    "shortName": "64-13",
+                    "longName": "64-13",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-2",
+                    "shortName": "64-2",
+                    "longName": "64-2",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-3",
+                    "shortName": "64-3",
+                    "longName": "64-3",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-4",
+                    "shortName": "64-4",
+                    "longName": "64-4",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-5",
+                    "shortName": "64-5",
+                    "longName": "64-5",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-6",
+                    "shortName": "64-6",
+                    "longName": "64-6",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-7",
+                    "shortName": "64-7",
+                    "longName": "64-7",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-8",
+                    "shortName": "64-8",
+                    "longName": "64-8",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "64-9",
+                    "shortName": "64-9",
+                    "longName": "64-9",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-1",
+                    "shortName": "65-1",
+                    "longName": "65-1",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-10",
+                    "shortName": "65-10",
+                    "longName": "65-10",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-11",
+                    "shortName": "65-11",
+                    "longName": "65-11",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-12",
+                    "shortName": "65-12",
+                    "longName": "65-12",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-13",
+                    "shortName": "65-13",
+                    "longName": "65-13",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-2",
+                    "shortName": "65-2",
+                    "longName": "65-2",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-3",
+                    "shortName": "65-3",
+                    "longName": "65-3",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-4",
+                    "shortName": "65-4",
+                    "longName": "65-4",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-5",
+                    "shortName": "65-5",
+                    "longName": "65-5",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-6",
+                    "shortName": "65-6",
+                    "longName": "65-6",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-7",
+                    "shortName": "65-7",
+                    "longName": "65-7",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-8",
+                    "shortName": "65-8",
+                    "longName": "65-8",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "65-9",
+                    "shortName": "65-9",
+                    "longName": "65-9",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "66-1",
+                    "shortName": "66-1",
+                    "longName": "Salarisschaal 1 bij CAO 66",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "67-8",
+                    "shortName": "67-8",
+                    "longName": "67-8",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "67-9",
+                    "shortName": "67-9",
+                    "longName": "67-9",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "69-8",
+                    "shortName": "69-8",
+                    "longName": "69-8",
+                    "inactiveIndicator": false
+                },
+                {
+                    "codeValue": "9999-1",
+                    "shortName": "9999-1",
+                    "longName": "9999-1",
+                    "inactiveIndicator": false
+                }
+            ]
+        }
+    ]
+}
+}

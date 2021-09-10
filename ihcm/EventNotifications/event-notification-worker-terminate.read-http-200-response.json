@@ -1,0 +1,92 @@
+{
+    "events": [
+        {
+            "eventID": "bdf58ed3-7836-48b5-bb6c-36b5a8c30215",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.terminate",
+                "shortName": "worker.terminate"
+            },
+            "eventTitle": "Terminate Worker",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T12:31:36Z",
+            "creationDateTime": "2020-09-18T12:31:37Z",
+            "effectiveDateTime": "2020-09-18T12:31:37Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "bdf58ed3-7836-48b5-bb6c-36b5a8c30215",
+                "eventNameCode": {
+                    "codeValue": "worker.terminate",
+                    "shortName": "worker.terminate",
+                    "longName": "worker.terminate"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {}
+                    }
+                },
+                "transform": {
+                    "eventReasonCode": {
+                        "codeValue": "L5",
+                        "shortName": "Improved working conditions"
+                    },
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-18T12:31:36Z",
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2020-09-30",
+                            "expectedTerminationDate": "2020-09-30"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {},
+                        "workerDates": {
+                            "terminationDate": "2020-09-30",
+                            "expectedTerminationDate": "2020-09-30"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "Current",
+                                "shortName": "Current"
+                            },
+                            "effectiveDate": "2020-09-30",
+                            "reasonCode": {
+                                "codeValue": "L5",
+                                "shortName": "Improved working conditions"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

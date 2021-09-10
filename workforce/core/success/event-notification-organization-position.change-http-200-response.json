@@ -1,35 +1,26 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-09-02T00:00:00Z",
-            "effectiveDateTime": "2020-10-01T00:00:00Z",
-            "eventID": "6f71e85c-5626-41df-9e99-151d0af748b3",
+            "creationDateTime": "2020-12-03T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "5858693c-c492-4bfc-8f54-2370dcace55a",
             "eventNameCode": {
                 "codeValue": "organizationPosition.change"
             },
             "data": {
                 "eventContext": {
-                    "organizationPosition": {
-                        "positionID": "000020-000002"
-                    }
+                    "contextExpressionID": "000095-000001"
                 },
                 "output": {
                     "organizationPosition": {
-                        "positionID": "000020-000002",
-                        "positionTitle": "Marketing - Secretaresse",
-                        "sharedPositionMaximumHeadcount": 2.00,
-                        "activePeriod": {
-                            "effectiveDate": "1950-01-01",
-                            "end": {
-                                "endDate": "",
-                                "reasonCode": {
-                                    "codeValue": "",
-                                    "longName": ""
-                                }
-                            }
+                        "positionID": "000095-000001",
+                        "positionTitle": "Communicatie - Tester Daniel updated",
+                        "sharedPositionMaximumHeadcount": 0.00,
+                        "positionStatusCode": {
+                            "effectiveDate": "1950-01-01"
                         },
                         "budgetedAmount": {
-                            "amountValue": 108211.85,
+                            "amountValue": 0.00,
                             "currencyCode": "EUR"
                         },
                         "workAssignment": {
@@ -49,11 +40,9 @@
                             ]
                         },
                         "compensationData": {
-                            "baseRemuneration": {
-                                "payScaleCode": {
-                                    "codeValue": "6",
-                                    "shortName": "64-6"
-                                }
+                            "remunerationBasisCode": {
+                                "codeValue": "6",
+                                "shortName": "64-6"
                             }
                         }
                     }

@@ -1,0 +1,91 @@
+{
+    "events": [
+        {
+            "eventID": "14b2f594-c58a-48e8-94c7-2ab4ba523bbb",
+            "eventNameCode": {
+                "codeValue": "worker.personalContact.change"
+            },
+            "recordDateTime": "2020-07-31T12:59:47+02:00",
+            "effectiveDateTime": "2020-07-31T12:59:47+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pnom2-mp2"
+                    }
+                },
+                "output": {
+                    "personalContact": {
+                        "personName": {
+                            "givenName": "TESTINGPRENOM_PC2",
+                            "familyName1": "TESTINGNOM_PC2",
+                            "formattedName": "TESTINGNOM_PC2,TESTINGPRENOM_PC2",
+                            "preferredSalutations": [
+                                {
+                                    "salutationCode": {
+                                        "codeValue": "MME",
+                                        "shortName": "Madame",
+                                        "longName": "Madame"
+                                    },
+                                    "sequenceNumber": 0
+                                }
+                            ],
+                            "titleAffixCodes": [
+                                {
+                                    "affixCode": {
+                                        "codeValue": "MME",
+                                        "shortName": "Madame",
+                                        "longName": "Madame"
+                                    },
+                                    "sequenceNumber": 0
+                                }
+                            ]
+                        },
+                        "communication": {
+                            "landlines": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Work Phone"
+                                    },
+                                    "formattedNumber": "987 765 222"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Home Phone"
+                                    },
+                                    "formattedNumber": "987 766 222"
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Mobile Phone"
+                                    },
+                                    "formattedNumber": "987 767 222"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Travail",
+                                        "shortName": "Travail",
+                                        "longName": "Travail"
+                                    },
+                                    "emailUri": "TESTINGNOM_PC2@adp.com"
+                                }
+                            ]
+                        },
+                        "relationshipTypeCode": {
+                            "codeValue": "P",
+                            "shortName": "PARENT",
+                            "longName": "PARENT"
+                        },
+                        "precedenceCode": {
+                            "codeValue": "N"
+                        },
+                        "itemID": "2"
+                    }
+                }
+            }
+        }
+    ]
+}

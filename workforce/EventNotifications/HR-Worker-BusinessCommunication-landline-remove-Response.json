@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "3cc8bbf0-f043-47a6-94e2-54ef52a3473e",
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000069"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "businessCommunication": {
+                            "landline": {
+                                "formattedNumber": "P069"
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000069"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

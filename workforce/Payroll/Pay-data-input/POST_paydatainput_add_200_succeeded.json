@@ -1,0 +1,12 @@
+{
+    "confirmMessage": {
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2021-05-03T17:35:46.396+02:00",
+        "processMessages": []
+    }
+}

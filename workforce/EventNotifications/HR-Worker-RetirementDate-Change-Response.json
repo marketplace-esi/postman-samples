@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-04-20T00:00:00Z",
+            "effectiveDateTime": "2021-03-01T00:00:00Z",
+            "eventID": "0e382851-1ca3-42b7-827c-bd7aa2e070de",
+            "eventNameCode": {
+                "codeValue": "worker.workerRetirementDate.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000109"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerDates": {
+                            "retirementDate": "2021-04-19"
+                        },
+                        "workerID": {
+                            "idValue": "000109"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

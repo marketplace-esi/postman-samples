@@ -1,0 +1,74 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "01006000015"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Gaëtan",
+                    "familyName": "Berthier",
+                    "formattedName": "Gaëtan Berthier"
+                },
+                "genderCode": {
+                    "shortName": "Male",
+                    "codeValue": "M"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "itemID": "1",
+                            "nameCode": {
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "kadari.praneeth@adp.com"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "itemID": "1",
+                            "formattedNumber": "+33 673645441",
+                            "access": "",
+                            "nameCode": {
+                                "shortName": "Phone",
+                                "codeValue": "Phone"
+                            },
+                            "areaDialing": "6",
+                            "countryDialing": "33",
+                            "dialNumber": "73645441"
+                        }
+                    ]
+                },
+                "birthDate": "1985-02-01",
+                "legalAddress": {
+                    "lineTwo": "",
+                    "cityName": "Bordeaux",
+                    "nameCode": {
+                        "shortName": "Address",
+                        "codeValue": "Address"
+                    },
+                    "countryCode": "FR",
+                    "postalCode": "33000",
+                    "lineOne": "47 Rue Parlement Sainte-Cather",
+                    "countrySubdivisionLevel": {
+                        "shortName": "33",
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "33"
+                    }
+                }
+            },
+            "associateOID": "E1C6643B03DAF04V",
+            "photos": [
+                {
+                    "links": [
+                        {
+                            "method": "GET",
+                            "mediaType": "image/jpg",
+                            "href": "/GV/GV/v1_0/O/corporateContactPhoto/01004000010.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

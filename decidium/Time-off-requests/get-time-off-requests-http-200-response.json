@@ -1,0 +1,145 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "D997880|6573730000358350016",
+            "requestDateTime": "2021-01-14T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "pending",
+                "shortName": "En cours"
+            },
+            "requestorName": {
+                "givenName": "P01I4006",
+                "familyName1": "COL01I4006",
+                "formattedName": "P01I4006, COL01I4006"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CP",
+                        "shortName": "CONGES PAYES"
+                    },
+                    "dateTimePeriod": {
+                        "startDateTime": "2021-01-15T00:00:00+01:00",
+                        "endDateTime": "2021-01-15T00:00:00+01:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "fullday",
+                        "shortName": "Journée entière"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CP"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "1",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "2",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "actions": [],
+            "associateOID": "pcol01i4006-zsc",
+            "comments": [
+                {
+                    "textValue": "AFE commentaire",
+                    "entryDateTime": "2021-01-14T00:00:00+01:00",
+                    "author": {
+                        "associateOID": "",
+                        "formattedName": ""
+                    }
+                }
+            ],
+            "reviewRequest": {
+                "reviewDetails": [
+                    {
+                        "reviewer": {
+                            "associateOID": "padm01a3000-8p7",
+                            "formattedName": "M P01A3000 ADM01A3000"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "timeOffRequestID": "6573730000358350031",
+            "requestDateTime": "2021-01-14T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Acceptée"
+            },
+            "requestorName": {
+                "givenName": "P01I4006",
+                "familyName1": "COL01I4006",
+                "formattedName": "P01I4006, COL01I4006"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "AE",
+                        "shortName": "ENFANT MALADE"
+                    },
+                    "dateTimePeriod": {
+                        "startDateTime": "2021-01-18T00:00:00+01:00",
+                        "endDateTime": "2021-01-18T00:00:00+01:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "fullday",
+                        "shortName": "Journée entière"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "AE"
+                    }
+                }
+            ],
+            "actions": [],
+            "associateOID": "pcol01i4006-zsc"
+        },
+        {
+            "timeOffRequestID": "6573730000358350024",
+            "requestDateTime": "2021-01-14T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Acceptée"
+            },
+            "requestorName": {
+                "givenName": "P01I4006",
+                "familyName1": "COL01I4006",
+                "formattedName": "P01I4006, COL01I4006"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "JD",
+                        "shortName": "JOUR SUPPL.RTT 1/2J"
+                    },
+                    "dateTimePeriod": {
+                        "startDateTime": "2021-01-25T00:00:00+01:00",
+                        "endDateTime": "2021-01-25T00:00:00+01:00"
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "dayPeriodEntry",
+                        "shortName": "Plage horaire"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "JD"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "1",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "1",
+                        "shortName": "Matin"
+                    }
+                }
+            ],
+            "actions": [],
+            "associateOID": "pcol01i4006-zsc"
+        }
+    ],
+    "meta": {
+        "totalNumber": 3
+    }
+}

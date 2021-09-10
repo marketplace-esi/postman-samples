@@ -1,0 +1,71 @@
+{
+    "events": [
+        {
+            "eventID": "030209b5-9938-470a-becb-ae2ce0b40ae8",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.mobile.remove",
+                "shortName": "worker.businessCommunication.mobile.remove"
+            },
+            "eventTitle": "Remove Worker Business Mobile",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T13:53:07Z",
+            "creationDateTime": "2020-09-18T13:53:07Z",
+            "effectiveDateTime": "2020-09-18T13:53:07Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "030209b5-9938-470a-becb-ae2ce0b40ae8",
+                "eventNameCode": {
+                    "codeValue": "worker.businessCommunication.mobile.remove",
+                    "shortName": "worker.businessCommunication.mobile.remove",
+                    "longName": "worker.businessCommunication.mobile.remove"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {}
+                },
+                "transform": {},
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "businessCommunication": {
+                            "mobile": {
+                                "nameCode": {
+                                    "codeValue": "WORKMOBILE",
+                                    "shortName": "Work Mobile Telephone"
+                                },
+                                "formattedNumber": "078954545"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

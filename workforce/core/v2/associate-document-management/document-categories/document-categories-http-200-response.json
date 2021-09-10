@@ -1,0 +1,2334 @@
+{
+    "categories": [
+        {
+            "categoryDetails": {
+                "categoryTitle": "CV",
+                "categoryDescription": "Curriculum Vitae (CV)",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "POSTCODE_INITIEEL",
+                "categoryDescription": "Postcode initieel inleesbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "PERIODE"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "WFINT_LOGGING",
+                "categoryDescription": "Template tbv overhalen bestanden naar Digitaal Dossier (WF interface)",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "SUBFOLDER",
+                    "NAAM_SUBDOSSIER",
+                    "NAAM_DOCUMENT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_7",
+                "categoryDescription": "INSTROOM_DOC_7",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UITSTROOM_LOG",
+                "categoryDescription": "Logfile uitstroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_27",
+                "categoryDescription": "INSTROOM_DOC_27",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "BEWAARTERMIJNEN_LOG",
+                "categoryDescription": "Bewaartermijnen logbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "#RETAINID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PARDON_DATA",
+                "categoryDescription": "CSV-bestand van de Pardon koppeling",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "NAAM_BESTAND"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_3",
+                "categoryDescription": "Curriculum Vitae Instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ROL_BIJLAGE",
+                "categoryDescription": "Functionele rollen",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#REVISIONLIMIT",
+                    "#FILETYPE",
+                    "ROL"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_DOCUMENTEN_UITDIENST",
+                "categoryDescription": "Brondocument voor werknemer uitdienst",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#FTMAXFILES",
+                    "#FTMAXUPLOAD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_PAB",
+                "categoryDescription": "Bijstelling Probleemanalyse",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "STARTDATUM",
+                    "DOCGROUP",
+                    "INTERVIEW",
+                    "GESPREKSDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DEX_FILE",
+                "categoryDescription": "Dex bestanden",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "INTERFACE",
+                    "FILENAME",
+                    "#REVISIONLIMIT",
+                    "#RETAINPERIOD",
+                    "#RETAINUNIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "GRATIFICATIE_DOCUMENT",
+                "categoryDescription": "Gratificatie aanvraag",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "MD_LOONSTROOK",
+                "categoryDescription": "MultiDocuments Loonstrook",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#STORAGE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "JAAR",
+                    "PERIODE",
+                    "KLANTNUMMER",
+                    "PERSOONNUMMER",
+                    "VERWERKINGSCODE",
+                    "LOONHEFFINGENNUMMER",
+                    "PUBLICATIEDATUM",
+                    "#REVISIONLIMIT",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_3",
+                "categoryDescription": "Curriculum Vitae Doorstroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_16",
+                "categoryDescription": "INSTROOM_DOC_16",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_6",
+                "categoryDescription": "DOORSTROOM_DOC_6",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_BRIEF_EENVOUDIG",
+                "categoryDescription": "Eenvoudige aanbiedingsbrief instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "KND",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "AANVRAAG_WAZO",
+                "categoryDescription": "Aanvraag WAZO uitkering",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "STARTDATUM",
+                    "DOCGROUP",
+                    "INTERVIEW",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CONNEXYS_LOG",
+                "categoryDescription": "Logfile interface connexys",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "FILENAME"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_EEVA",
+                "categoryDescription": "Eindevaluatie Plan van Aanpak",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "STAP",
+                    "INTERVIEW",
+                    "DOCGROUP",
+                    "#MEDEWERKERID",
+                    "STARTDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_MEMO",
+                "categoryDescription": "Doorstroom_memo",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ROUTINGID",
+                    "ROUTINGNAAM",
+                    "MUTATIEDATUM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_2",
+                "categoryDescription": "Diploma Instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "OPL_DOCUMENTATIE",
+                "categoryDescription": "OPL_DOCUMENTATIE",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#DESCRIPTION",
+                    "OPL_ID",
+                    "OPL_NAAM",
+                    "OPL_DOC_FILETYPE_OMS",
+                    "OPL_DOC_OMS"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "SEPA_CONVERSIE",
+                "categoryDescription": "Controle bestand SEPA conversie",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FILENAME",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_9",
+                "categoryDescription": "DOORSTROOM_DOC_9",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_ALZ",
+                "categoryDescription": "Aangifte van langdurige ziekte UWV",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "STAP",
+                    "INTERVIEW",
+                    "DOCGROUP",
+                    "#MEDEWERKERID",
+                    "STARTDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UITDIENST_LOG",
+                "categoryDescription": "Logfile einde dienstverband",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DD_HICHAM",
+                "categoryDescription": "Hicham",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FILETYPE"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_24",
+                "categoryDescription": "INSTROOM_DOC_24",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_11",
+                "categoryDescription": "INSTROOM_DOC_11",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PORTAL_DOCUMENT",
+                "categoryDescription": "Portaal document",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FOLDERSPECIAL",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "SAMENVOEG_DATABRON",
+                "categoryDescription": "Samenvoeg databron",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_22",
+                "categoryDescription": "INSTROOM_DOC_22",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CM_FORM_BIJLAGE",
+                "categoryDescription": "Bijlagen bij het gespreksformulier",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#MEDEWERKERID",
+                    "DOCGROUP",
+                    "JAAR",
+                    "FORM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_DOCUMENT",
+                "categoryDescription": "Merge document voor mutaties dienstverband",
+                "labels": [
+                    "#CATEGORY",
+                    "#CTR",
+                    "#DOCTYPE",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#REVISIONLIMIT",
+                    "WORKFLOWID",
+                    "WORKFLOWNAAM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CM_POP",
+                "categoryDescription": "POP-formulier",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "JAAR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_21",
+                "categoryDescription": "INSTROOM_DOC_21",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PARDON_LOGGING",
+                "categoryDescription": "Log-bestand van de Pardon koppeling",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "NAAM_BESTAND"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_13",
+                "categoryDescription": "INSTROOM_DOC_13",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CM_BEO_BASIC",
+                "categoryDescription": "Gespreksdocument Basic jaargesprekken",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "DOCGROUP",
+                    "JAAR",
+                    "GESPREK",
+                    "GESPREKOMS",
+                    "GESPREKNR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "REK_BEWIJSSTUK_CTR",
+                "categoryDescription": "REK_BEWIJSSTUK_CTR",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "#FTMAXFILES",
+                    "#FTMAXUPLOAD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CODELIJSTIMPORT_BRON",
+                "categoryDescription": "CodelijstImport bronbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "CODELIJSTIMPORTNAAM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_7",
+                "categoryDescription": "DOORSTROOM_DOC_7",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ERGO_ARB_HYG_GEVAARLIJKE_STOFFEN",
+                "categoryDescription": "Ergonomie en Arbeidshygiene: Gevaarlijke Stoffen",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_8",
+                "categoryDescription": "INSTROOM_DOC_8",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_17",
+                "categoryDescription": "INSTROOM_DOC_17",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_ANNULEREN",
+                "categoryDescription": "Annuleringsbrief stroomprocessen",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "KND",
+                    "INTERVIEW",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CONVERSIEBESTAND",
+                "categoryDescription": "Bestand tbv conversies",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "CONVERSIEBESTAND",
+                    "#RETAINPERIOD",
+                    "#RETAINUNIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DATAIMPORT_LOG",
+                "categoryDescription": "DataImport logbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "DATAIMPORTNAAM",
+                    "DATAIMPORTJOB",
+                    "DATAIMPORTSCHERM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UITSTROOM_OPZEGGING_WNR",
+                "categoryDescription": "Opzeggingsbrief werknemer",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_ZIEKMELDING",
+                "categoryDescription": "Ziekmeldingsformulier UWV",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "DATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_PVA",
+                "categoryDescription": "Plan van Aanpak",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "STAP",
+                    "INTERVIEW",
+                    "DOCGROUP",
+                    "#MEDEWERKERID",
+                    "STARTDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_2",
+                "categoryDescription": "Diploma Doorstroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_10",
+                "categoryDescription": "INSTROOM_DOC_10",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "_KERNEL_DROPZONE",
+                "categoryDescription": "_KERNEL_DROPZONE",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#WORKID",
+                    "DROPZONE_NAME"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DECLARATIES",
+                "categoryDescription": "Declaraties",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "DECLDATUM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_DOCUMENTEN_INDIENST",
+                "categoryDescription": "Brondocument voor nieuwe werknemer",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#FTMAXFILES",
+                    "#FTMAXUPLOAD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "FLEX_ARBVW_AANVRAAG",
+                "categoryDescription": "Aanvraag flexibele arbeidsvoorwaarden",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "FLAV_DOEL",
+                    "FLAV_PERIO",
+                    "FLAV_VNR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_28",
+                "categoryDescription": "INSTROOM_DOC_28",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ERGO_ARB_HYG_BIOLOGISCHE_AGENTIA",
+                "categoryDescription": "Ergonomie en Arbeidshygiene: Biologische Agentia",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DIENSTVERBAND",
+                "categoryDescription": "Dienstverband gegevens",
+                "labels": [
+                    "#CATEGORY",
+                    "#CTR",
+                    "#DOCTYPE",
+                    "#FILENAME",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_DOCUMENT_UITDIENST",
+                "categoryDescription": "Merge document voor werknemer uitdienst",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#REVISIONLIMIT",
+                    "#CTR",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UITSTROOM_GETUIGSCHRIFT",
+                "categoryDescription": "Getuigschrift",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ITF_UITVOER",
+                "categoryDescription": "Interface uitvoer",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FOLDERSPECIAL",
+                    "BESTAND",
+                    "KOPPELING",
+                    "KLANTNUMMER",
+                    "RUN",
+                    "PERIODE"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "WP_CERTIFICAAT",
+                "categoryDescription": "Certificaat",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#REVISIONLIMIT",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "CERT_ID",
+                    "CERT_OMS",
+                    "WP_VNR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PRISAL_SSC_BESTAND",
+                "categoryDescription": "Inleesbestanden van het salaris service concept",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FILETYPE",
+                    "#FILENAME",
+                    "SOORT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ETL_LOG",
+                "categoryDescription": "ETL logbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "PROCEDURE",
+                    "#RETAINPERIOD",
+                    "#RETAINUNIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "VEILIGHEID_ONVEILIGE_SITUATIE",
+                "categoryDescription": "Veiligheid: Onveilige Situatie",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "POSTCODE_LOG",
+                "categoryDescription": "Postcode logging",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "PERIODE",
+                    "#RETAINPERIOD",
+                    "#RETAINUNIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PR_MIDDENMAAND_LOG",
+                "categoryDescription": "Log file pr_middenmaand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "FILENAME",
+                    "KOP_BDNR",
+                    "KOP_PERIODE"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_5",
+                "categoryDescription": "INSTROOM_DOC_5",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UITSTROOM_BEVESTIGING",
+                "categoryDescription": "Bevestigingsbrief",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_20",
+                "categoryDescription": "INSTROOM_DOC_20",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "REK_BEWIJSSTUK",
+                "categoryDescription": "REK_BEWIJSSTUK",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#FTMAXFILES",
+                    "#FTMAXUPLOAD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_DOCUMENT_INDIENST",
+                "categoryDescription": "Merge document voor nieuwe werknemer",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#REVISIONLIMIT",
+                    "#CTR",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "MD_SYNC_LOG",
+                "categoryDescription": "Logbestanden MultiDocuments synchronisatie",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "NAAM_BESTAND"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PSYCHO_SIGN_AGRESSIE_WERK",
+                "categoryDescription": "Psychosociale Signalering: Melding Agressie",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "TRAJ_DOCUMENTEN",
+                "categoryDescription": "Traject Documenten",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FTMAXUPLOAD",
+                    "#FTMAXFILES",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "TRAJ_SOORT",
+                    "TRAJ_START",
+                    "TRAJ_DOCSOORT",
+                    "TRAJ_DOCDATE",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "OVERIG_AFDELING",
+                "categoryDescription": "OVERIG_AFDELING",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "AFDELING"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_BRIEF_UITGEBREID",
+                "categoryDescription": "Uitgebreide aanbiedingsbrief instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "KND",
+                    "INTERVIEW",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_ZKA_VNG",
+                "categoryDescription": "Ziekteaangifte bij vangnet",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "INTERVIEW",
+                    "#MEDEWERKERID",
+                    "DATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DATAIMPORT_BRON",
+                "categoryDescription": "DataImport bronbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "DATAIMPORTNAAM",
+                    "DATAIMPORTJOB",
+                    "DATAIMPORTSCHERM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_EJE",
+                "categoryDescription": "Eerstejaarsevaluatie",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "STAP",
+                    "INTERVIEW",
+                    "DOCGROUP",
+                    "#MEDEWERKERID",
+                    "STARTDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UITSTROOM_OPZEGGING",
+                "categoryDescription": "Opzeggingsbrief",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "SSE_OVERIG",
+                "categoryDescription": "SSE_OVERIG",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "BEREKEN_VERLOFBLOKKADE",
+                "categoryDescription": "Berekende verlofblokkades",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "NAAM_BESTAND",
+                    "DATUM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_1",
+                "categoryDescription": "Identiteitsbewijs Doorstroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_9",
+                "categoryDescription": "INSTROOM_DOC_9",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "TEMPLATE",
+                "categoryDescription": "Template",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "SUBFOLDER",
+                    "NAAM_TEMPLATE",
+                    "KLANTNR",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_29",
+                "categoryDescription": "INSTROOM_DOC_29",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "OPL_AFKEURING",
+                "categoryDescription": "Opleiding afkeuring",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "OPLEIDING",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "COLL_PROX_LOGGING",
+                "categoryDescription": "Logging collectieve procedures",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "NAAM_BESTAND"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_PVAB",
+                "categoryDescription": "Invullen evaluatie",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#REVISIONLIMIT",
+                    "DOCGROUP",
+                    "STARTDATUM",
+                    "INTERVIEW",
+                    "GESPREKSDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ERGO_ARB_HYG_WERKPLEK_ONDERZOEK",
+                "categoryDescription": "Ergonomie en Arbeidshygiene: Werkplekonderzoek",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "WP_CER_LOG",
+                "categoryDescription": "Logfile inlezen certificaten",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#FILENAME"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_30",
+                "categoryDescription": "INSTROOM_DOC_30",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "VEILIGHEID_ONGEVALREGISTRATIE",
+                "categoryDescription": "Veiligheid: ongeval registratie",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED",
+                    "VOLGNUMMER"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_CONTRACT",
+                "categoryDescription": "Contract mutaties dienstverband",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "INTERVIEW",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "SITEMINDER_LOG",
+                "categoryDescription": "Siteminder_log",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#FILENAME"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_1",
+                "categoryDescription": "Identiteitsbewijs Instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "BULKUPLOAD_LOG",
+                "categoryDescription": "BulkUpload logbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "ENV_ID",
+                    "USER_ID",
+                    "INDEX_URI",
+                    "#BULKUPLOAD_ID"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ZWANGER_VERKLARING_PARTNER",
+                "categoryDescription": "Zwangerschapsverklaring partner",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "STARTDATUM",
+                    "#MEDEWERKERID"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "POSTCODE_MUTATIE",
+                "categoryDescription": "Postcode mutatiebestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "PERIODE",
+                    "#RETAINPERIOD",
+                    "#RETAINUNIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_18",
+                "categoryDescription": "INSTROOM_DOC_18",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DATAIMPORT_REDO",
+                "categoryDescription": "DataImport redo",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "DATAIMPORTNAAM",
+                    "DATAIMPORTJOB",
+                    "DATAIMPORTSCHERM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_DOCUMENTEN",
+                "categoryDescription": "Brondocument voor mutaties dienstverband",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#FTMAXFILES",
+                    "#FTMAXUPLOAD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "LOONBESLAG_DOCUMENT",
+                "categoryDescription": "Document loonbeslag",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "SCHULDEISER",
+                    "STARTPERIODE"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "FLEX_ARBVW_AANVRAAG_FLOW",
+                "categoryDescription": "Flexibele arbeidsvoorwaarden bewijsstuk",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "FLAV_DOEL",
+                    "FLAV_PERIO",
+                    "FLAV_VNR",
+                    "#FTMAXUPLOAD",
+                    "#REVISIONLIMIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "UWV_WIA_PA",
+                "categoryDescription": "Probleemanalyse",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "STAP",
+                    "INTERVIEW",
+                    "DOCGROUP",
+                    "#MEDEWERKERID",
+                    "STARTDATUM",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "MD_JAAROPGAVE",
+                "categoryDescription": "MultiDocuments Jaaropgave",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#STORAGE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "JAAR",
+                    "KLANTNUMMER",
+                    "PERSOONNUMMER",
+                    "VERWERKINGSCODE",
+                    "LOONHEFFINGENNUMMER",
+                    "PUBLICATIEDATUM",
+                    "#REVISIONLIMIT",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "POSTCODE_UITVAL",
+                "categoryDescription": "Postcode uitval",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "PERIODE",
+                    "#RETAINPERIOD",
+                    "#RETAINUNIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ZWANGER_VERKLARING",
+                "categoryDescription": "Zwangerschapsverklaring",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "STARTDATUM",
+                    "#MEDEWERKERID",
+                    "#CTR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "AANSTELLING",
+                "categoryDescription": "Aanstelling",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_4",
+                "categoryDescription": "Ondertekend Contract Instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOCUMENTGENERATOR_LOG",
+                "categoryDescription": "Document Generator log bestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#REVISIONLIMIT",
+                    "#FILETYPE",
+                    "#FILENAME"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "OPL_GOEDKEURING",
+                "categoryDescription": "Opleiding goedkeuring",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "OPLEIDING",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PRISAL_BESTAND",
+                "categoryDescription": "Prisal bestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "NAAM",
+                    "SOORT",
+                    "PRISAL_STATUS"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DECLARATIES_REISKOSTEN",
+                "categoryDescription": "Declaratie reiskosten",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "DECLDATUM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_26",
+                "categoryDescription": "INSTROOM_DOC_26",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "EINDE_CTR_LOG",
+                "categoryDescription": "Logfile einde contract",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_6",
+                "categoryDescription": "INSTROOM_DOC_6",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_19",
+                "categoryDescription": "INSTROOM_DOC_19",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "OPL_DOCUMENTEN",
+                "categoryDescription": "Opleidingsdocumenten",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#DESCRIPTION",
+                    "OPL_ID",
+                    "OPL_STR_DATUM",
+                    "OPL_DOC_FILETYPE_OMS",
+                    "OPL_NAAM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ADV_LANGZIEK_LOG",
+                "categoryDescription": "LOGFILE Herbereken verlofrechten ADV bij ziekte",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_8",
+                "categoryDescription": "DOORSTROOM_DOC_8",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOCUMENT",
+                "categoryDescription": "Document",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "FOLDER"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PSYCHO_SIGN_ONGEWENST_GEDRAG",
+                "categoryDescription": "Psychosociale Signalering: Ongewenst Gedrag",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "AANDACHTGEBIED"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_AANVULLING",
+                "categoryDescription": "Aanvulling mutaties dienstverband",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "INTERVIEW",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_5",
+                "categoryDescription": "DOORSTROOM_DOC_5",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_CONTRACT",
+                "categoryDescription": "Contractbrief instroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "KND",
+                    "INTERVIEW",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_15",
+                "categoryDescription": "INSTROOM_DOC_15",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_MEMO",
+                "categoryDescription": "INSTROOM_MEMO",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ROUTINGID",
+                    "ROUTINGNAAM",
+                    "MUTATIEDATUM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_ANNU_DOOR",
+                "categoryDescription": "Annuleringsbrief doorstroom proces",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "INTERVIEW",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "#RETAINPERIOD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "CM_GESPREK_DOCUMENT",
+                "categoryDescription": "Gespreksdocument competentiemanagement",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#REVISIONLIMIT",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "DOCGROUP",
+                    "JAAR",
+                    "GESPREK",
+                    "GESPREKOMS",
+                    "GESPREKNR",
+                    "AFSPRAAKNR",
+                    "FUNCTIE",
+                    "HANDTEKENING_1",
+                    "HANDTEKENING_2",
+                    "HANDTEKENING_3",
+                    "ESS_ACCOORD",
+                    ""
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_14",
+                "categoryDescription": "INSTROOM_DOC_14",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_25",
+                "categoryDescription": "INSTROOM_DOC_25",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ADOPTIE_VERKLARING",
+                "categoryDescription": "Verklaring",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "STARTDATUM",
+                    "#MEDEWERKERID",
+                    "#CTR"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "FORMATIEPLAATS_GROOTTE",
+                "categoryDescription": "Aanvraag aanpassing formatieplaats grootte",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DOORSTROOM_DOC_4",
+                "categoryDescription": "Ondertekend Contract Doorstroom",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "WP_BIJLAGE",
+                "categoryDescription": "Bijlage bij het werknemerprofiel item",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#REVISIONLIMIT",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "WP_KENMERK",
+                    "WP_VNR",
+                    "WP_KENMERK_OMS"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_12",
+                "categoryDescription": "INSTROOM_DOC_12",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "ADRES_BEWIJSSTUK",
+                "categoryDescription": "ADRES_BEWIJSSTUK",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#FTMAXFILES",
+                    "#FTMAXUPLOAD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "SELFSERVICE_LOG",
+                "categoryDescription": "Selfservice log bestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#REVISIONLIMIT",
+                    "#FILETYPE",
+                    "#FILENAME"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "STROOM_MEMO",
+                "categoryDescription": "Memos stroomprocessen",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#CTR",
+                    "WORKFLOWID",
+                    "WORKFLOWNAAM",
+                    "MUTATIEDATUM"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "DD_PERSOON",
+                "categoryDescription": "01 Persoonlijke gegevens",
+                "labels": [
+                    "#CATEGORY",
+                    "#DOCTYPE",
+                    "#FILETYPE",
+                    "DOCSOORT"
+                ]
+            },
+            "subcategories": [
+                {
+                    "categoryTitle": "CV",
+                    "categoryDescription": "01 Persoonlijke gegevens"
+                },
+                {
+                    "categoryTitle": "LON",
+                    "categoryDescription": "01 Persoonlijke gegevens"
+                }
+            ]
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "AANST_BIJLAGE",
+                "categoryDescription": "Aanstelling",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MEDEWERKERID",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "INSTROOM_DOC_23",
+                "categoryDescription": "INSTROOM_DOC_23",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#MAP_DISPLAY_ID",
+                    "#MAP_DISPLAY_DESCR",
+                    "ACTIEF",
+                    "DOC_VERPLICHT",
+                    "KND",
+                    "NATIVE_DOCTYPE",
+                    "#RETAINPERIOD"
+                ]
+            }
+        },
+        {
+            "categoryDetails": {
+                "categoryTitle": "PRISAL_LOG",
+                "categoryDescription": "Prisal logbestand",
+                "labels": [
+                    "#DOCTYPE",
+                    "#CATEGORY",
+                    "#FILETYPE",
+                    "#FILENAME",
+                    "SOORT"
+                ]
+            }
+        }
+    ]
+}

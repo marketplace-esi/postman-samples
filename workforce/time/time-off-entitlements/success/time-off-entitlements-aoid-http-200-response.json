@@ -1,0 +1,32 @@
+{
+    "workerTimeOffEntitlements": [
+        {
+            "associateOID": "000011",
+            "workAssignmentID": "1",
+            "entitlementPeriod": {
+                "periodName": "2021"
+            },
+            "timeOffEntitlements": [
+                {
+                    "timeOffPolicyCode": {
+                        "code": "V"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 1
+                    },
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 1
+                            },
+                            "entitlementTypeCode": {
+                                "code": "E"
+                            },
+                            "expirationDateTime": "2027-01-01T00:00:00+01:00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

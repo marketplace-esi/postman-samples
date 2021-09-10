@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "ADPNL00000001",
+            "workerID": {
+              "idValue": "000001"
+            }
+          }
+        },
+        "transform": {
+          "worker": {
+            "workerDates": {
+              "terminationDate": "2021-04-22"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

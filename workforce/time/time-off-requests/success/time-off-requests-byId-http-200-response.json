@@ -1,0 +1,37 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "V-2021-01-25",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 5,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2021-01-25",
+                        "endDate": "2021-01-25"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "V",
+                        "longName": "Verlof"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 5,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

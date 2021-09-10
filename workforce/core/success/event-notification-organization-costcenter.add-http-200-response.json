@@ -1,27 +1,29 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-09-02T00:00:00Z",
-            "effectiveDateTime": "2020-09-01T00:00:00Z",
-            "eventID": "75580211-fd42-4b8d-934d-60b0259ad887",
+            "creationDateTime": "2021-01-05T00:00:00Z",
+            "effectiveDateTime": "2021-01-01T00:00:00Z",
+            "eventID": "4087e60f-a131-4a0f-87b0-6995914d4194",
             "eventNameCode": {
                 "codeValue": "organizationCostCenter.add"
             },
             "data": {
                 "eventContext": {
-                    "organizationCostCenter": {
-                        "costCenterCode": "01230"
-                    }
+                    "contextExpressionID": "00012"
                 },
                 "output": {
                     "organizationCostCenter": {
                         "costCenterCode": {
-                            "codeValue": "01230",
-                            "longName": "Test"
+                            "codeValue": "00012",
+                            "longName": "Test Cost Center"
                         },
-                        "costCenterDescription": "Test",
+                        "costCenterDescription": {
+                            "longLabelName": "Test Cost Center"
+                        },
                         "activeIndicator": false,
-                        "effectiveDate": "2020-09-01"
+                        "costCenterEffectivePeriod": {
+                            "startDate": "2021-01-01"
+                        }
                     }
                 }
             }

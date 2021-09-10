@@ -1,0 +1,111 @@
+{
+    "events": [
+        {
+            "eventID": "0991a8fb-eb77-4107-8a3b-941391a17cf3",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.legalName.change",
+                "shortName": "worker.legalName.change"
+            },
+            "eventTitle": "Change Legal Name",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2020-09-18T12:27:38Z",
+            "creationDateTime": "2020-09-18T12:27:38Z",
+            "effectiveDateTime": "2020-09-18T12:27:38Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "personOID": "COE_AKDB",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "eventID": "0991a8fb-eb77-4107-8a3b-941391a17cf3",
+                "eventNameCode": {
+                    "codeValue": "worker.legalName.change",
+                    "shortName": "worker.legalName.change",
+                    "longName": "worker.legalName.change"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "UK0K7RA1125LQKC3",
+                "formattedName": "COE AKDB",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {}
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2020-09-18T12:27:38Z",
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "Mr",
+                                            "shortName": "Mr.",
+                                            "longName": "Mr."
+                                        },
+                                        "typeCode": {
+                                            "codeValue": "SOCIAL",
+                                            "shortName": "Social"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "333878"
+                        },
+                        "person": {
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "Mr",
+                                            "shortName": "Mr.",
+                                            "longName": "Mr."
+                                        },
+                                        "typeCode": {
+                                            "codeValue": "SOCIAL",
+                                            "shortName": "Social"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ],
+                                "nickName": "Jon",
+                                "givenName": "Smith",
+                                "middleName": "Aaron",
+                                "familyName1": "John",
+                                "familyName2": "Spencer",
+                                "formattedName": "Smith John"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

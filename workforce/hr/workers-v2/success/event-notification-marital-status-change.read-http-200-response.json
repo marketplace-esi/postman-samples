@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2020-12-17T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "2af84dd6-c496-4edf-88fd-2989ed121e8f",
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000100"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "3",
+                                "shortName": "Duurzaam gescheiden"
+                            }
+                        },
+                        "workerID": {
+                            "idValue": "000100"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

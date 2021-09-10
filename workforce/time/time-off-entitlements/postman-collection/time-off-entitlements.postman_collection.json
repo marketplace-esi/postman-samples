@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "be0bcaa9-cc23-4b51-9987-ac1f3c1718e0",
+		"name": "time-off-entitlements",
+		"description": "Collection of request for the time off entitlements of Workforce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get the time off entitlements of a specific worker (AOID)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "ninjavas_sql_onz",
+						"type": "text"
+					},
+					{
+						"key": "displayCustomFields",
+						"value": "false",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "rolecode",
+						"value": "practitioner",
+						"type": "text"
+					},
+					{
+						"key": "associateOID",
+						"value": "ADPNL1234567",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "workforce",
+						"type": "text"
+					},
+					{
+						"key": "consumerappoid",
+						"value": "DEX123456",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://time-off-entitlement.process.nl.nld090.nl.ehc.adp.com/time/v2/workers/696969/time-off-entitlements",
+					"protocol": "http",
+					"host": [
+						"time-off-entitlement",
+						"process",
+						"nl",
+						"nld090",
+						"nl",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"time",
+						"v2",
+						"workers",
+						"696969",
+						"time-off-entitlements"
+					],
+					"query": [
+						{
+							"key": "displayCustomFields",
+							"value": "false",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get all the time off entitlements of a worker establishing its workerID"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all the time off entitlements of an organization ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "orgoid",
+						"value": "ninjavas_sql_onz",
+						"type": "text"
+					},
+					{
+						"key": "displayCustomFields",
+						"value": "false",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "rolecode",
+						"value": "practitioner",
+						"type": "text"
+					},
+					{
+						"key": "associateOID",
+						"value": "ADPNL1234567",
+						"type": "text"
+					},
+					{
+						"key": "SOR",
+						"value": "workforce",
+						"type": "text"
+					},
+					{
+						"key": "consumerappoid",
+						"value": "DEX123456",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://time-off-entitlement.process.nl.nld090.nl.ehc.adp.com/time/v2/worker-time-off-entitlements",
+					"protocol": "http",
+					"host": [
+						"time-off-entitlement",
+						"process",
+						"nl",
+						"nld090",
+						"nl",
+						"ehc",
+						"adp",
+						"com"
+					],
+					"path": [
+						"time",
+						"v2",
+						"worker-time-off-entitlements"
+					],
+					"query": [
+						{
+							"key": "displayCustomFields",
+							"value": "false",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

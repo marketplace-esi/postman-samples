@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "adahan-mp6"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "adahan-mp6",
+                        "businessCommunication": {
+                            "landline": {
+                                "formattedNumber": "0251000000",
+                                "itemID": "Travail"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

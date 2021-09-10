@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "creationDateTime": "2021-05-17T16:26:11.766Z",
+            "eventID": "8041aad8-7943-4340-8b5b-d4ca5d33d09d",
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "ADPNL00000001",
+                        "workerID": {
+                            "idValue": "000001"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "L",
+                                "shortName": "Legally Separated"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

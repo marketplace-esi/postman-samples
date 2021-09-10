@@ -2,17 +2,10 @@
     "organizationPositions": [
         {
             "positionID": "000001-000001",
-            "positionTitle": "Tester (000001)",
+            "positionTitle": "Corporate Headquarter - Tester Daniel reupdated FIT",
             "sharedPositionMaximumHeadcount": 0,
-            "activePeriod": {
-                "effectiveDate": "1950-01-01",
-                "end": {
-                    "endDate": "2099-12-31",
-                    "reasonCode": {
-                        "codeValue": "",
-                        "longName": ""
-                    }
-                }
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
             },
             "budgetedAmount": {
                 "amountValue": 0,
@@ -35,11 +28,9 @@
                 ]
             },
             "compensationData": {
-                "baseRemuneration": {
-                    "payScaleCode": {
-                        "codeValue": "6",
-                        "shortName": "64-6"
-                    }
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
                 }
             }
         }

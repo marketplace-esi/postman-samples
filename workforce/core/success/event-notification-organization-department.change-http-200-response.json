@@ -1,33 +1,27 @@
 {
     "events": [
         {
-            "creationDateTime": "2020-05-28T00:00:00Z",
-            "effectiveDateTime": "2020-05-01T00:00:00Z",
-            "eventID": "4a944954-a9c3-41be-aa8d-cc02dbe4ecb8",
+            "creationDateTime": "2021-01-04T00:00:00Z",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
+            "eventID": "f2bd0e59-3ef0-46f2-9e8c-dc1b6309d303",
             "eventNameCode": {
                 "codeValue": "organizationDepartment.change"
             },
             "data": {
                 "eventContext": {
-                    "organizationDepartment": {
-                        "departmentCode": {
-                            "codeValue": "061100",
-                            "shortName": "Omsch2",
-                            "longName": "Omschrijving2"
-                        }
-                    }
+                    "contextExpressionID": "000091"
                 },
                 "output": {
                     "organizationDepartment": {
                         "parentDepartmentCode": {
-                            "codeValue": ""
+                            "codeValue": "000001"
                         },
                         "departmentCode": {
-                            "codeValue": "061100",
-                            "shortName": "Omsch2",
-                            "longName": "Omschrijving2"
+                            "codeValue": "000091",
+                            "shortName": "Finance Department",
+                            "longName": "Finance"
                         },
-                        "departmentDescription": "Omschrijving2",
+                        "departmentDescription": "Finance",
                         "activeIndicator": false,
                         "auxilliaryFields": [
                             {

@@ -1,0 +1,23 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "job-titles",
+            "listItems": [
+                {
+                    "codeValue": "Director",
+                    "shortName": "100 - Director/Senior Management",
+                    "valueDescription": "Director - 100 - Director/Senior Management"
+                },
+                {
+                    "codeValue": "Support",
+                    "shortName": "200 - Support",
+                    "valueDescription": "Support - 200 - Support"
+                },
+                {},
+                {}
+            ]
+        }
+    ]
+}
+
+

@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2020-12-07T08:35:23.380Z",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "requestLink": {
+            "href": "/hr/v2/workers",
+            "rel": "RELATED",
+            "method": "GET"
+        },
+        "processingStatusCode": {
+            "codeValue": "received"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "Error"
+                },
+                "userMessage": {
+                    "codeValue": "Error",
+                    "messageTxt": "Bad data found for Query param $count"
+                }
+            }
+        ]
+    }
+}

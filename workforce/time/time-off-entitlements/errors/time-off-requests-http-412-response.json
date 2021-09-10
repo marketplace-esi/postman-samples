@@ -1,0 +1,28 @@
+{
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "ee2c9cb2-8985-45ac-9691-4addfb45b9d1",
+            "schemeName": "DEX_CORRELATION_ID",
+            "schemeAgencyName": "DEX"
+        },
+        "createDateTime": "2021-02-22T17:52:42.125+01:00",
+        "requestReceiptDateTime": "2021-02-22T17:52:42.109+01:00",
+        "protocolStatusCode": {
+            "codeValue": "412",
+            "shortName": "Proxy Exception Handling"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "developerMessage": {
+                    "messageTxt": "Inbound proxy request did not contain a 'orgoid' header. All process apis need to be called with a 'orgoid' header. (DEX_PROXY_HEADER)  (java.lang.Exception). (org.mule.api.transformer.TransformerMessagingException)."
+                }
+            }
+        ]
+    }
+}

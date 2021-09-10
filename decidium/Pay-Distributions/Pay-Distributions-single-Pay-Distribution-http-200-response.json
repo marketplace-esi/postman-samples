@@ -4,6 +4,19 @@
             "distributionInstructions": [
                 {
                     "precedenceCode": {
+                        "codeValue": "primary",
+                        "shortName": "Compte principal",
+                        "longName": "Compte principal"
+                    },
+                    "paymentMethodCode": {
+                        "codeValue": "check",
+                        "shortName": "Chèque",
+                        "longName": "Chèque"
+                    },
+                    "itemID": "1"
+                },
+                {
+                    "precedenceCode": {
                         "codeValue": "secondary",
                         "shortName": "Compte secondaire",
                         "longName": "Compte secondaire"
@@ -27,7 +40,8 @@
                     },
                     "itemID": "2"
                 }
-            ]
+            ],
+			"itemID": "1"
         }
     ]
 }

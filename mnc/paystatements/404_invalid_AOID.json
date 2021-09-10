@@ -1,0 +1,14 @@
+{
+    "response": {
+        "resourceUri": {
+            "href": "/v1_0/G52QRWV9JZCT2W62/G52QRWV9JZCT2W62/payStatement/3535373C3D3536353539353535353635"
+        },
+        "applicationCode": {
+            "code": "100-001",
+            "message": "User AOID NOT FOUND",
+            "typeCode": "error"
+        },
+        "methodCode": "GET",
+        "responseCode": "404"
+    }
+}

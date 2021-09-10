@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue":"000001"
+                        },
+                        "associateOID":"ADPNL00000001"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "familyName1":"Test Family ",
+                                "familyName1Prefix":"TF",
+                                "formattedName":"Test Family",
+                                "initials":"TF",
+                                "nickName":"TF001"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
