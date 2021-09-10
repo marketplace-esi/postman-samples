@@ -28,16 +28,6 @@
                                     },
                                     "sequenceNumber": 0
                                 }
-                            ],
-                            "titleAffixCodes": [
-                                {
-                                    "affixCode": {
-                                        "codeValue": "MLE",
-                                        "shortName": "Mademoiselle",
-                                        "longName": "Mademoiselle"
-                                    },
-                                    "sequenceNumber": 0
-                                }
                             ]
                         },
                         "communication": {

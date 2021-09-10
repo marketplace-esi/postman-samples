@@ -8,19 +8,9 @@
                 "preferredSalutations": [
                     {
                         "salutationCode": {
-                            "codeValue": "M",
-                            "shortName": "Monsieur",
-                            "longName": "Monsieur"
-                        },
-                        "sequenceNumber": 0
-                    }
-                ],
-                "titleAffixCodes": [
-                    {
-                        "affixCode": {
-                            "codeValue": "M",
-                            "shortName": "Monsieur",
-                            "longName": "Monsieur"
+                            "codeValue": "MME",
+                            "shortName": "Madame",
+                            "longName": "Madame"
                         },
                         "sequenceNumber": 0
                     }
@@ -71,7 +61,7 @@
             "itemID": "1",
             "links": [
                 {
-                    "href": "/hr/v2/associates/dandreevui-mp2/personal-contacts/1",
+                    "href": "/hr/v2/associates/nfiolot2-mp3/personal-contacts/1",
                     "rel": "self"
                 }
             ]
@@ -84,19 +74,9 @@
                 "preferredSalutations": [
                     {
                         "salutationCode": {
-                            "codeValue": "MLE",
-                            "shortName": "Mademoiselle",
-                            "longName": "Mademoiselle"
-                        },
-                        "sequenceNumber": 0
-                    }
-                ],
-                "titleAffixCodes": [
-                    {
-                        "affixCode": {
-                            "codeValue": "MLE",
-                            "shortName": "Mademoiselle",
-                            "longName": "Mademoiselle"
+                            "codeValue": "M",
+                            "shortName": "Monsieur",
+                            "longName": "Monsieur"
                         },
                         "sequenceNumber": 0
                     }
@@ -137,9 +117,9 @@
                 ]
             },
             "relationshipTypeCode": {
-                "codeValue": "C",
-                "shortName": "CONJOINT",
-                "longName": "CONJOINT"
+                "codeValue": "E",
+                "shortName": "ENFANT",
+                "longName": "ENFANT"
             },
             "precedenceCode": {
                 "codeValue": "N"
@@ -147,7 +127,7 @@
             "itemID": "2",
             "links": [
                 {
-                    "href": "/hr/v2/associates/dandreevui-mp2/personal-contacts/2",
+                    "href": "/hr/v2/associates/nfiolot2-mp3/personal-contacts/2",
                     "rel": "self"
                 }
             ]

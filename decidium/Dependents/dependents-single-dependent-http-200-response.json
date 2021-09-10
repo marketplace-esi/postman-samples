@@ -21,16 +21,6 @@
                             },
                             "sequenceNumber": 0
                         }
-                    ],
-                    "titleAffixCodes": [
-                        {
-                            "affixCode": {
-                                "codeValue": "M",
-                                "shortName": "Monsieur",
-                                "longName": "Monsieur"
-                            },
-                            "sequenceNumber": 0
-                        }
                     ]
                 },
                 "birthDate": "2018-07-05",
