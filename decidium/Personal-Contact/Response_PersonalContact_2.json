@@ -8,19 +8,9 @@
                 "preferredSalutations": [
                     {
                         "salutationCode": {
-                            "codeValue": "MLE",
-                            "shortName": "Mademoiselle",
-                            "longName": "Mademoiselle"
-                        },
-                        "sequenceNumber": 0
-                    }
-                ],
-                "titleAffixCodes": [
-                    {
-                        "affixCode": {
-                            "codeValue": "MLE",
-                            "shortName": "Mademoiselle",
-                            "longName": "Mademoiselle"
+                            "codeValue": "M",
+                            "shortName": "Monsieur",
+                            "longName": "Monsieur"
                         },
                         "sequenceNumber": 0
                     }
@@ -61,9 +51,9 @@
                 ]
             },
             "relationshipTypeCode": {
-                "codeValue": "C",
-                "shortName": "CONJOINT",
-                "longName": "CONJOINT"
+                "codeValue": "E",
+                "shortName": "ENFANT",
+                "longName": "ENFANT"
             },
             "precedenceCode": {
                 "codeValue": "N"

@@ -34,16 +34,6 @@
                                         },
                                         "sequenceNumber": 0
                                     }
-                                ],
-                                "titleAffixCodes": [
-                                    {
-                                        "affixCode": {
-                                            "codeValue": "MME",
-                                            "shortName": "Madame",
-                                            "longName": "Madame"
-                                        },
-                                        "sequenceNumber": 0
-                                    }
                                 ]
                             },
                             "birthDate": "2018-06-02",

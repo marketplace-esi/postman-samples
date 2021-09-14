@@ -8,19 +8,9 @@
                 "preferredSalutations": [
                     {
                         "salutationCode": {
-                            "codeValue": "M",
-                            "shortName": "Monsieur",
-                            "longName": "Monsieur"
-                        },
-                        "sequenceNumber": 0
-                    }
-                ],
-                "titleAffixCodes": [
-                    {
-                        "affixCode": {
-                            "codeValue": "M",
-                            "shortName": "Monsieur",
-                            "longName": "Monsieur"
+                            "codeValue": "MME",
+                            "shortName": "Madame",
+                            "longName": "Madame"
                         },
                         "sequenceNumber": 0
                     }

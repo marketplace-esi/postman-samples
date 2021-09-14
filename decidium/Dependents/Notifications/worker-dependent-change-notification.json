@@ -34,16 +34,6 @@
                                         },
                                         "sequenceNumber": 0
                                     }
-                                ],
-                                "titleAffixCodes": [
-                                    {
-                                        "affixCode": {
-                                            "codeValue": "M",
-                                            "shortName": "Monsieur",
-                                            "longName": "Monsieur"
-                                        },
-                                        "sequenceNumber": 0
-                                    }
                                 ]
                             },
                             "birthDate": "1989-05-18",
