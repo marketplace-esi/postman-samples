@@ -1,0 +1,64 @@
+{
+	"events": [
+		{
+			"data": {
+				"output": {
+					"payDataInput": {
+						"payeePayInputs": [
+							{
+								"associateOID": "ldupuy-mp3",
+								"payPeriodStartDate": "2020-09-01",
+								"payrollProfilePayInputs": [
+									{
+										"payInputs": [
+											{
+												"payAllocation": {
+													"allocationID": "S0001"
+												},
+												"earningInputs": [
+													{
+														"earningCode": {
+															"codeValue": "0345"
+														},
+														"rate": {
+															"baseMultiplierValue": 66.0
+														}
+													}
+												]
+											},
+											{
+												"payAllocation": {
+													"allocationID": ""
+												},
+												"earningInputs": [
+													{
+														"earningCode": {
+															"codeValue": "0345"
+														},
+														"rate": {
+															"baseMultiplierValue": 20.0
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"confirmMessage": {
+		"createDateTime": "2021-09-07T11:22:46.306+02:00",
+		"protocolStatusCode": {
+			"codeValue": "200"
+		},
+		"protocolCode": {},
+		"requestStatusCode": {
+			"codeValue": "succeeded"
+		}
+	}
+}

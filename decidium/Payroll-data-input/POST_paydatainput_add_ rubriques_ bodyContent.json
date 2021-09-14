@@ -1,0 +1,58 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "ldupuy-mp3",
+                                "payPeriodStartDate": "2020-09-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "0345"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": 66
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": ""
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "0345"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": 20
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											}
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
