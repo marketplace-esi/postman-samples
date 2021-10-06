@@ -1,68 +1,174 @@
 {
-	"events": [
-		{
-			"data": {
-				"output": {
-					"payDataInput": {
-						"payeePayInputs": [
-							{
-								"associateOID": "ldupuy-mp3",
-								"payPeriodStartDate": "2020-09-01",
-								"payrollProfilePayInputs": [
-									{
-										"payInputs": [
-											{
-												"payAllocation": {
-													"allocationID": "S0001"
-												},
-												"earningInputs": [
-													{
-														"earningCode": {
-															"codeValue": "0345"
-														},
-														"rate": {
-															"baseMultiplierValue": 66.0
-														}
-													}
-												]
-											},
-											{
-												"payAllocation": {
-													"allocationID": ""
-												},
-												"earningInputs": []
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				}
-			}
-		}
-	],
-	"confirmMessage": {
-		"createDateTime": "2021-09-07T11:31:33.081+02:00",
-		"protocolStatusCode": {
-			"codeValue": "200"
-		},
-		"protocolCode": {},
-		"requestStatusCode": {
-			"codeValue": "partiallyFailed"
-		},
-		"processMessages": [
-			{
-				"messageTypeCode": {
-					"codeValue": "error"
-				},
-				"userMessage": {
-					"messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 092020, Identifiant RH: 00000124, Période: 201903, Code Rubrique: UNKOWNCODE - Rubrique de paie inconnue"
-				},
-				"developerMessage": {
-					"messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 092020, Identifiant RH: 00000124, Période: 201903, Code Rubrique: UNKOWNCODE - Rubrique de paie inconnue"
-				}
-			}
-		]
-	}
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "ldupuy-mp3",
+                                "payPeriodStartDate": "2020-09-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "PayAdvanceAmount"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePackageDSN"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePackagePayroll"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePECH"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": []
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": []
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvanceRefoundDSN"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvanceRefoundPayroll"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "MealVoucher"
+                                                        },
+                                                        "rate": {},
+                                                        "numberOfHours": 10.0
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-10-04T10:46:12.851+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 092020, Identifiant RH: 00000124, Période: 201909, Code : DailyMealAllowance - Rubrique de paie inconnue"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 092020, Identifiant RH: 00000124, Période: 201909, Code : DailyMealAllowance - Rubrique de paie inconnue"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 092020, Identifiant RH: 00000124, Période: 201909, Code : NightyMealAllowance - Rubrique de paie inconnue"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 092020, Identifiant RH: 00000124, Période: 201909, Code : NightyMealAllowance - Rubrique de paie inconnue"
+                }
+            }
+        ]
+    }
 }
