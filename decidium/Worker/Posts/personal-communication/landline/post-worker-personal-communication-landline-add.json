@@ -3,15 +3,15 @@
         {
             "data": {
                 "eventContext" : {
-                    "worker" : { "associateOID" : "pmassina-mp2"}
+                    "worker" : { "associateOID" : "pmassina-mp5"}
                 },
                 "transform": {
                     "worker": {
 						"person": {
-                                "citizenshipCountryCode": {
-                                    "codeValue": "ES",
-                                    "shortName": "ESPAGNE",
-                                    "longName": "ESPAGNE"
+							"communication": {
+                                "landline": {
+                                    "formattedNumber": "0000000000"
+                                }
                             }
 					   }
                     } 

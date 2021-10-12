@@ -3,18 +3,7 @@
         {
             "data": {
                 "eventContext" : {
-                    "worker" : { "associateOID" : "pmassina-mp2"}
-                },
-                "transform": {
-                    "worker": {
-						"person": {
-                                "citizenshipCountryCode": {
-                                    "codeValue": "ES",
-                                    "shortName": "ESPAGNE",
-                                    "longName": "ESPAGNE"
-                            }
-					   }
-                    } 
+                    "worker" : { "associateOID" : "pmassina-mp5"}
                 }
             }
         }

@@ -4,15 +4,18 @@
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "pmassina-mp2"
+                        "associateOID": "pmassina-mp5"
                     }
                 },
                 "output": {
                     "worker": {
-                        "associateOID": "pmassina-mp2",
+                        "associateOID": "pmassina-mp5",
                         "person": {
-                            "citizenshipCountryCode": {
-                                "codeValue": "ES"
+                            "communication": {
+                                "landline": {
+                                    "formattedNumber": "",
+                                    "itemID": "Personnel"
+                                }
                             }
                         }
                     }
