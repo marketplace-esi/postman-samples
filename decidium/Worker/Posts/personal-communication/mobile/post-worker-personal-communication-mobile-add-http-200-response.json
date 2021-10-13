@@ -4,16 +4,16 @@
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "pmassina-mp2"
+                        "associateOID": "pmassina-mp5"
                     }
                 },
                 "output": {
                     "worker": {
-                        "associateOID": "pmassina-mp2",
+                        "associateOID": "pmassina-mp5",
                         "person": {
                             "communication": {
-                                "landline": {
-                                    "formattedNumber": "0000000000",
+                                "mobile": {
+                                    "formattedNumber": "0622222222",
                                     "itemID": "Personnel"
                                 }
                             }

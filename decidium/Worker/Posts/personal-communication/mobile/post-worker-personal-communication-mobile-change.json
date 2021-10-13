@@ -3,14 +3,14 @@
         {
             "data": {
                 "eventContext" : {
-                    "worker" : { "associateOID" : "pmassina-mp2"}
+                    "worker" : { "associateOID" : "pmassina-mp5"}
                 },
                 "transform": {
                     "worker": {
 						"person": {
 							"communication": {
-							    "landline": {
-                                    "formattedNumber": "0533333333"
+							    "mobile": {
+                                    "formattedNumber": "0633333333"
                                 }
                             }
 					   }
