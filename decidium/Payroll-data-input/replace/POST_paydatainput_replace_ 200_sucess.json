@@ -1,0 +1,99 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "ldupuy-mp5",
+                                "payPeriodStartDate": "2020-03-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "PayAdvanceAmount"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "calculationFactorInputs": [
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T698"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "12345"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "associateOID": "dafe0-mp5",
+                                "payPeriodStartDate": "2020-09-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePackageDSN"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "calculationFactorInputs": [
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T727"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "11"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-10-19T14:37:00.767+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}

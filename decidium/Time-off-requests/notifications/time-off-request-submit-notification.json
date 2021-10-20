@@ -9,7 +9,8 @@
             "effectiveDateTime": "2021-08-24T09:37:35+02:00",
             "data": {
                 "eventContext": {
-                    "associateOID": "kraikkonen-mp3"
+                    "associateOID": "kraikkonen-mp3",
+                    "workAssignmentID": "78748567"
                 },
                 "output": {
                     "timeOffRequest": {

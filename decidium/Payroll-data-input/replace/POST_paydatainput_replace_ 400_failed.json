@@ -1,0 +1,25 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2021-10-19T14:49:20.013+02:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 032020, Période: 201903 - Collaborateur non trouvé"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp3, Date d'effet: 032020, Période: 201903 - Collaborateur non trouvé"
+                }
+            }
+        ]
+    }
+}

@@ -11,6 +11,9 @@
                 "eventContext": {
                     "worker": {
                         "associateOID": "rvirenqueap-mp2"
+                    },
+                    "payDistribution": {
+                        "itemID": "1"
                     }
                 },
                 "output": {
@@ -41,7 +44,8 @@
                                 },
                                 "itemID": "1"
                             }
-                        ]
+                        ],
+                        "itemID": "1"
                     }
                 }
             }

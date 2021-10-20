@@ -1,0 +1,97 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "ldupuy-mp5",
+                                "payPeriodStartDate": "2020-03-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "calculationFactorInputs": [
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T698"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "12345"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "associateOID": "dafe0-mp5",
+                                "payPeriodStartDate": "2020-09-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePackageDSN"
+                                                        },
+                                                        "rate": {
+                                                            "baseMultiplierValue": 66.0
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "calculationFactorInputs": [
+                                                    {
+                                                        "calculationFactorCode": {
+                                                            "codeValue": "T727"
+                                                        },
+                                                        "calculationFactorRate": {
+                                                            "baseUnitCode": {
+                                                                "codeValue": "11"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-10-19T14:43:11.78+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp5, Date d'effet: 202003, Période: 201903, Code : PayAdvanceAmountAFE - La donnée de paie n'existe pas"
+                },
+                "developerMessage": {
+                    "messageTxt": "Collaborateur: ldupuy-mp5, Date d'effet: 202003, Période: 201903, Code : PayAdvanceAmountAFE - La donnée de paie n'existe pas"
+                }
+            }
+        ]
+    }
+}
