@@ -41,6 +41,7 @@
             ],
             "actions": [],
             "associateOID": "pcol01i4006-zsc",
+            "workAssignmentID": "00000010",
             "comments": [
                 {
                     "textValue": "AFE commentaire",

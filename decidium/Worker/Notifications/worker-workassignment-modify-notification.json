@@ -12,7 +12,8 @@
                     "associateOID": "js9115b1-323",
                     "workerID": {
                         "idValue": "00000512"
-                    }
+                    },
+                    "workAssignmentID": "A1234616"
                 },
                 "output": {
                     "worker": {
