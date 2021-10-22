@@ -4,13 +4,13 @@
             "data": {
                 "transform": {
                     "worker": {
-						"associateOID": "rgrehirefami-mp1",
+						"associateOID": "eafe21-mp5",
                         "person":			{
                             "legalName": {
-                                "givenName": "REHIRE GIVEN",
-                                "familyName1": "REHIRE FAMILY",
-                                "familyName2": "REHIRE FAMILY2",
-                                "middleName": "REHIRE MIDDLE",
+                                "givenName": "HIRE AFE GIVEN OPT",
+                                "familyName1": "HIRE AFE FAMILY",
+                                "familyName2": "HIRE AFE FAMILY2",
+                                "middleName": "HIRE AFE MIDDLE",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
@@ -37,7 +37,7 @@
                             "birthDate": "1979-09-19",
 							"citizenshipCountryCodes": [
 								{
-									"codeValue": "F100"
+									"codeValue": "FR"
 								}
 							],
 							"legalAddress": {
@@ -72,6 +72,15 @@
 									}
 								}
 							],
+                            "socialInsurancePrograms": [
+                                {
+                                    "programServiceCenter": {
+                                        "nameCode": {
+                                            "codeValue": "53"
+                                        }
+                                    }
+                                }
+                            ],
                             "communication": {
                                    "emails": [
                                        {
@@ -80,16 +89,16 @@
                                     ],
                                     "landlines": [
                                         {
-                                        "formattedNumber": "0684053518"
+                                        "formattedNumber": 684053518
                                         }
                                     ],
                                     "mobiles": [{
-                                        "formattedNumber": "0684053518"
+                                        "formattedNumber": 684053518
                                     }]
                             },
 							"identityDocuments": [
 								{
-									"documentID": "1790975200032"
+									"documentID": "123"
 								}
 							],
                             "immigrationDocuments": [
@@ -142,7 +151,7 @@
 							]
 						},
                         "workAssignment": {
-                            "hireDate": "2020-11-15",
+                            "hireDate": "2021-10-15",
 							"assignmentStatus":
 							{
 								"reasonCode": {
@@ -153,7 +162,7 @@
                                 "codeValue": "00"
                             },
                              "jobCode": {
-                                "codeValue": "EMPLO1"
+                                "codeValue": "EMPL1"
                             },
                             "jobTitle": "AAA CODE AAA",
                             "jobFunctionCode": {
