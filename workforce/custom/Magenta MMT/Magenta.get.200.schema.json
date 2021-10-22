@@ -1,0 +1,2850 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "hr.v2.workers.workers_schema_v02_00_rev016#",
+	"title": "Workers",
+	"description": "The list of workers.  A worker is someone who performs duties and has responsibilities for an organization",
+	"type": "object",
+	"properties": {
+		"workers": {
+			"id": "workers",
+			"type": "array",
+			"items": {
+				"description": "A worker is someone who performs duties and has responsibilities for an organization",
+				"type": "object",
+				"properties": {
+					"workerID": {
+						"description": "An identifier for a worker, e.g. an Employee ID",
+						"type": "object",
+						"properties": {
+							"idValue": {
+								"description": "An actual ID value",
+								"type": "string"
+							}
+						},
+						"additionalProperties": false
+					},
+					"person": {
+						"description": "An associate is a person with a relationship to an organization",
+						"type": "object",
+						"properties": {
+							"legalName": {
+								"description": "The current legal name of the person in the associated context. For example, if the context is set to Germany, this equates to the legal name of the person in Germany.",
+								"type": "object",
+								"properties": {
+									"givenName": {
+										"description": "The first name of the person",
+										"type": "string"
+									},
+									"familyName1": {
+										"description": "Person family name 1",
+										"type": "string"
+									},
+									"formattedName": {
+										"description": "A formatted version of the person name",
+										"type": "string"
+									},
+									"nickName": {
+										"description": "A preferred name, e.g. a nickname",
+										"type": "string"
+									},
+									"familyName1Prefix": {
+										"description": "Person family name pre-fix",
+										"type": "string"
+									},
+									"initials": {
+										"description": "Person initials",
+										"type": "string"
+									}
+								},
+								"additionalProperties": false
+							},
+							"legalAddressHistory": {
+								"description": "This is the primary residential address that  is used by an organization for payroll, taxation, and benefit program eligibility",
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"buildingNumber": {
+											"description": "The number of a building in the context of a physical address, e.g. House Number",
+											"type": "string"
+										},
+										"streetName": {
+											"description": "The name of the street",
+											"type": "string"
+										},
+										"unit": {
+											"description": "A unit in the context of an address, e.g. an Apartment Number or an Office",
+											"type": "string"
+										},
+										"cityName": {
+											"description": "A city in the context of an address",
+											"type": "string"
+										},
+										"countryCode": {
+											"description": "A simple (string) code.  Can have a code list reference",
+											"type": "string"
+										},
+										"postalCode": {
+											"description": "The string of characters used to identify the postal code",
+											"type": "string"
+										},
+										"endDate": {
+											"description": "enddate of this block of legal address information"
+										},
+										"effectiveDate": {
+											"description": "effective date of this block of legal address information",
+											"type": "string"
+										}
+									},
+									"additionalProperties": false
+								}
+							},
+							"communication": {
+								"description": "A container of communication mechanisms",
+								"type": "object",
+								"properties": {
+									"landlines": {
+										"description": "A list of land-line telephone numbers",
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"formattedNumber": {
+													"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										}
+									},
+									"mobiles": {
+										"description": "A list of mobile telephone numbers",
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"formattedNumber": {
+													"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										}
+									},
+									"emails": {
+										"description": "A list of email addresses",
+										"type": "array",
+										"items": {
+											"title": "EmailContactCommunicationType",
+											"type": "object",
+											"properties": {
+												"emailUri": {
+													"description": "The URI of the associated email address",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										}
+									}
+								},
+								"additionalProperties": false
+							},
+							"birthDate": {
+								"description": "The birth date of the person. Follows the ISO-8601:2000 format",
+								"type": "string",
+								"format": "date"
+							},
+							"genderCode": {
+								"description": "The gender of a person, e.g. Male, Female",
+								"type": "object",
+								"properties": {
+									"codeValue": {
+										"description": "The code for the related entity",
+										"type": "string"
+									}
+								},
+								"additionalProperties": false
+							},
+							"birthPlace": {
+								"description": "The place a person was born. This can have taxation impacts",
+								"type": "object",
+								"properties": {
+									"cityName": {
+										"description": "A city in the context of an address",
+										"type": "string"
+									}
+								},
+								"additionalProperties": false
+							}
+						},
+						"additionalProperties": false
+					},
+					"workerDates": {
+						"description": "These dates are related to the highest level legal relationship that a person has with the organization. If a given worker has multiple relationships with the organization, these are the dates associated with the primary relationship.",
+						"type": "object",
+						"properties": {
+							"adjustedServiceDate": {
+								"description": "A date related to the length of time a worker works in a given work assignment which usually factors into eligibility for various types of benefits. It is generally adjusted for workers that leave the organization and are later rehired. Follows the ISO-8601:2000 format",
+								"type": "string",
+								"format": "date"
+							}
+						},
+						"additionalProperties": false
+					},
+					"customFieldGroup": {
+						"description": "A container of custom fields. The category within each custom object allows for the categorizing or grouping of the associated custom field for the purpose of data mining. For example, the typeCode on a custom string object might be valued as SIZE and the correlating name codes might be t-shirt, pants, jacket, etc.",
+						"type": "object",
+						"properties": {
+							"stringFields": {
+								"description": "A list of custom strings",
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"stringValue": {
+											"description": "A custom string",
+											"type": "string"
+										},
+										"nameCode": {
+											"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+											"type": "object",
+											"properties": {
+												"codeValue": {
+													"description": "The code for the related entity",
+													"type": "string",
+													"enum": [
+														"partnerFamilyName1",
+														"partnerFamilyName1Prefix",
+														"naamSamenstelling"
+													]
+												}
+											},
+											"additionalProperties": false
+										}
+									},
+									"additionalProperties": false
+								}
+							}
+						},
+						"additionalProperties": false
+					},
+					"businessCommunication": {
+						"description": "A container of communication mechanisms.",
+						"type": "object",
+						"properties": {
+							"landlines": {
+								"description": "A list of land-line telephone numbers",
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"formattedNumber": {
+											"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+											"type": "string"
+										}
+									},
+									"additionalProperties": false
+								}
+							},
+							"mobiles": {
+								"description": "A list of mobile telephone numbers",
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"formattedNumber": {
+											"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+											"type": "string"
+										}
+									},
+									"additionalProperties": false
+								}
+							},
+							"emails": {
+								"description": "A list of email addresses",
+								"type": "array",
+								"items": {
+									"title": "EmailContactCommunicationType",
+									"type": "object",
+									"properties": {
+										"emailUri": {
+											"description": "The URI of the associated email address",
+											"type": "string"
+										}
+									},
+									"additionalProperties": false
+								}
+							}
+						},
+						"additionalProperties": false
+					},
+					"workAssignments": {
+						"type": "array",
+						"items": {
+							"description": "An object describing the details of a work assignment. A work assignment pertains to the duties and responsibilities that should be performed by the worker",
+							"type": "object",
+							"properties": {
+								"payrollFileNumber": {
+									"description": "The payroll file number",
+									"type": "string"
+								},
+								"primaryIndicator": {
+									"description": "Indicates the primary work assignment",
+									"type": "boolean"
+								},
+								"homeWorkLocation": {
+									"description": "The home work location is the location out of which the work assignment is based. It does not necessarily mean that the worker is physically located in that location. This data becomes relevant for affirmative action reasons. In the US for example, if a worker works from home or a location where there is not an EEO-1 form/location, then the worker is accounted for based on the location of the reports to manager or work unit. Additionally, other things like market salaries, taxes, etc. would be aligned to home office location",
+									"type": "object",
+									"properties": {
+										"nameCode": {
+											"description": "The location type code and description, e.g. HDQ, headquarters",
+											"type": "object",
+											"properties": {
+												"codeValue": {
+													"description": "The code for the related entity",
+													"type": "string"
+												},
+												"shortName": {
+													"description": "Short description of the related code",
+													"type": "string"
+												},
+												"longName": {
+													"description": "Long description of the related code",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										},
+										"communication": {
+											"description": "Communication objects to include various communication mechanisms, e,g, phone, email, etc.",
+											"type": "object",
+											"properties": {
+												"landlines": {
+													"description": "A list of land-line telephone numbers",
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"countryDialing": {
+																"description": "The country dialing code is the national prefix to be used when dialing TO that particular country FROM another country.  ",
+																"type": "string"
+															},
+															"areaDialing": {
+																"description": "The local area dialing code for a telephone number.",
+																"type": "string"
+															},
+															"dialNumber": {
+																"description": "The local communication number, not including country dialing or area dialing codes.   If component parts of the telephone number are being communicated then the dialNumber is required.",
+																"type": "string"
+															},
+															"extension": {
+																"description": "The extension of the local communication number.  In the case of a Telephone Number accessing a Pager Network, the extension may be the Pager Identification Number required to leave a message for the Pager Number (i.e. Pager Pin).  These are mutually exclusive.",
+																"type": "string"
+															},
+															"access": {
+																"description": "National Direct Dialing Prefix.  Also known as the trunk prefix or National Prefix.  It is the number to be dialed in a domestic telephone call, preceding any necessary area code and subscriber number (i.e. dial number).  When calling from outside of the country, the national direct dial prefix is omitted by the caller.  In Australia, Germany, and United Kingdom the trunk prefix is 0.  In the US and Canada it is 1.",
+																"type": "string"
+															},
+															"formattedNumber": {
+																"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+																"type": "string"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"mobiles": {
+													"description": "A list of mobile telephone numbers",
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"countryDialing": {
+																"description": "The country dialing code is the national prefix to be used when dialing TO that particular country FROM another country.  ",
+																"type": "string"
+															},
+															"areaDialing": {
+																"description": "The local area dialing code for a telephone number.",
+																"type": "string"
+															},
+															"dialNumber": {
+																"description": "The local communication number, not including country dialing or area dialing codes.   If component parts of the telephone number are being communicated then the dialNumber is required.",
+																"type": "string"
+															},
+															"extension": {
+																"description": "The extension of the local communication number.  In the case of a Telephone Number accessing a Pager Network, the extension may be the Pager Identification Number required to leave a message for the Pager Number (i.e. Pager Pin).  These are mutually exclusive.",
+																"type": "string"
+															},
+															"access": {
+																"description": "National Direct Dialing Prefix.  Also known as the trunk prefix or National Prefix.  It is the number to be dialed in a domestic telephone call, preceding any necessary area code and subscriber number (i.e. dial number).  When calling from outside of the country, the national direct dial prefix is omitted by the caller.  In Australia, Germany, and United Kingdom the trunk prefix is 0.  In the US and Canada it is 1.",
+																"type": "string"
+															},
+															"formattedNumber": {
+																"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+																"type": "string"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"emails": {
+													"description": "A list of email addresses",
+													"type": "array",
+													"items": {
+														"title": "EmailContactCommunicationType",
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"emailUri": {
+																"description": "The URI of the associated email address",
+																"type": "string"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"socialNetworks": {
+													"description": "A list of social networks addresses",
+													"type": "array",
+													"items": {
+														"title": "SocialNetworkContactCommunicationType",
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"uri": {
+																"description": "The URI of the associated email address",
+																"type": "string",
+																"format": "uri"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"faxes": {
+													"description": "A list of fax telephone numbers",
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"countryDialing": {
+																"description": "The country dialing code is the national prefix to be used when dialing TO that particular country FROM another country.  ",
+																"type": "string"
+															},
+															"areaDialing": {
+																"description": "The local area dialing code for a telephone number.",
+																"type": "string"
+															},
+															"dialNumber": {
+																"description": "The local communication number, not including country dialing or area dialing codes.   If component parts of the telephone number are being communicated then the dialNumber is required.",
+																"type": "string"
+															},
+															"extension": {
+																"description": "The extension of the local communication number.  In the case of a Telephone Number accessing a Pager Network, the extension may be the Pager Identification Number required to leave a message for the Pager Number (i.e. Pager Pin).  These are mutually exclusive.",
+																"type": "string"
+															},
+															"access": {
+																"description": "National Direct Dialing Prefix.  Also known as the trunk prefix or National Prefix.  It is the number to be dialed in a domestic telephone call, preceding any necessary area code and subscriber number (i.e. dial number).  When calling from outside of the country, the national direct dial prefix is omitted by the caller.  In Australia, Germany, and United Kingdom the trunk prefix is 0.  In the US and Canada it is 1.",
+																"type": "string"
+															},
+															"formattedNumber": {
+																"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+																"type": "string"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"pagers": {
+													"description": "A list of pager telephone numbers",
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"countryDialing": {
+																"description": "The country dialing code is the national prefix to be used when dialing TO that particular country FROM another country.  ",
+																"type": "string"
+															},
+															"areaDialing": {
+																"description": "The local area dialing code for a telephone number.",
+																"type": "string"
+															},
+															"dialNumber": {
+																"description": "The local communication number, not including country dialing or area dialing codes.   If component parts of the telephone number are being communicated then the dialNumber is required.",
+																"type": "string"
+															},
+															"extension": {
+																"description": "The extension of the local communication number.  In the case of a Telephone Number accessing a Pager Network, the extension may be the Pager Identification Number required to leave a message for the Pager Number (i.e. Pager Pin).  These are mutually exclusive.",
+																"type": "string"
+															},
+															"access": {
+																"description": "National Direct Dialing Prefix.  Also known as the trunk prefix or National Prefix.  It is the number to be dialed in a domestic telephone call, preceding any necessary area code and subscriber number (i.e. dial number).  When calling from outside of the country, the national direct dial prefix is omitted by the caller.  In Australia, Germany, and United Kingdom the trunk prefix is 0.  In the US and Canada it is 1.",
+																"type": "string"
+															},
+															"formattedNumber": {
+																"description": "The formatted telephone number.  The component parts of the telephone are put together into a presentation pattern as defined by the regex format specified.  Please note that \\ is used as an escape character in regex, but a double \\ is needed to escape within the json schema.  The regex will accept +CC NNNNNNNNNNNNNN where + is the symbol indicating the caller to enter their country specific code to call from outside the country.  CC is the country code for an international number (optional), and the area code and dial number.  The local access code (i.e. 1 (201) 333 4444. 1 is the access code in US) is not passed.  The UI will present the phone number following its own presentation convention",
+																"type": "string"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"internetAddresses": {
+													"description": "A list of internet URIs",
+													"type": "array",
+													"items": {
+														"title": "InternetAddressWithItemID",
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"uri": {
+																"description": "The URI of the associated email address",
+																"type": "string",
+																"format": "uri"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												},
+												"instantMessages": {
+													"description": "A list of instant messages URIs",
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"nameCode": {
+																"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																"type": "object",
+																"properties": {
+																	"codeValue": {
+																		"description": "The code for the related entity",
+																		"type": "string"
+																	},
+																	"shortName": {
+																		"description": "Short description of the related code",
+																		"type": "string"
+																	},
+																	"longName": {
+																		"description": "Long description of the related code",
+																		"type": "string"
+																	}
+																},
+																"additionalProperties": false
+															},
+															"uri": {
+																"description": "The URI of the associated email address",
+																"type": "string",
+																"format": "uri"
+															},
+															"itemID": {
+																"description": "The unique identifier of the object in a collection",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												}
+											},
+											"additionalProperties": false
+										},
+										"address": {
+											"description": "An address related to the associated entity",
+											"type": "object",
+											"properties": {
+												"scriptCode": {
+													"description": "The type of script the in which the associated entity is represented. Associated codelist is ISO15924-A. Use the alpha-4 representation versus the single digit numeric representation. Format is lowercase with initial letter capitalized. For example, Cyrillic is Cyrl",
+													"type": "object",
+													"properties": {
+														"codeValue": {
+															"description": "The code for the related entity",
+															"type": "string"
+														},
+														"shortName": {
+															"description": "Short description of the related code",
+															"type": "string"
+														},
+														"longName": {
+															"description": "Long description of the related code",
+															"type": "string"
+														}
+													},
+													"additionalProperties": false
+												},
+												"lineFour": {
+													"description": "Line Four of Street Address Information",
+													"type": "string"
+												},
+												"lineFive": {
+													"description": "Line Five of Street Address Information",
+													"type": "string"
+												},
+												"buildingNumber": {
+													"description": "The number of a building in the context of a physical address, e.g. House Number",
+													"type": "string"
+												},
+												"buildingName": {
+													"description": "The name of a building in the context of a physical address, e.g. Rockefeller Center",
+													"type": "string"
+												},
+												"blockName": {
+													"description": "The name the block",
+													"type": "string"
+												},
+												"streetName": {
+													"description": "The name of the street",
+													"type": "string"
+												},
+												"streetTypeCode": {
+													"description": "The type of street, e.g. Lane, Passage, Way",
+													"type": "object",
+													"properties": {
+														"codeValue": {
+															"description": "The code for the related entity",
+															"type": "string"
+														},
+														"shortName": {
+															"description": "Short description of the related code",
+															"type": "string"
+														},
+														"longName": {
+															"description": "Long description of the related code",
+															"type": "string"
+														}
+													},
+													"additionalProperties": false
+												},
+												"unit": {
+													"description": "A unit in the context of an address, e.g. an Apartment Number or an Office",
+													"type": "string"
+												},
+												"floor": {
+													"description": "A floor in the context of an address",
+													"type": "string"
+												},
+												"stairCase": {
+													"description": "A reference to a particular staircase in the context of an address",
+													"type": "string"
+												},
+												"door": {
+													"description": "A reference to a particular door in the context of an address. e.g. Apartment Number",
+													"type": "string"
+												},
+												"postOfficeBox": {
+													"description": "A post office box",
+													"type": "string"
+												},
+												"deliveryPoint": {
+													"description": "A way to identify a specific delivery location, e.g. a mail-stop",
+													"type": "string"
+												},
+												"plotID": {
+													"description": "A way to identify a building plot, e.g. a specific building construction site",
+													"type": "string"
+												},
+												"countrySubdivisionLevel2": {
+													"description": "A country subdivision correlating to a administrative level two levels below country. For example, in the United States, this might be a county",
+													"type": "object",
+													"properties": {
+														"codeValue": {
+															"description": "The code for the related entity",
+															"type": "string"
+														},
+														"shortName": {
+															"description": "Short description of the related code",
+															"type": "string"
+														},
+														"longName": {
+															"description": "Long description of the related code",
+															"type": "string"
+														},
+														"subdivisionType": {
+															"description": "The type of a country sub-division, e.g. state, county",
+															"type": "string"
+														}
+													},
+													"additionalProperties": false
+												},
+												"nameCode": {
+													"description": "A descriptive coded name of the address",
+													"type": "object",
+													"properties": {
+														"codeValue": {
+															"description": "The code for the related entity",
+															"type": "string"
+														},
+														"shortName": {
+															"description": "Short description of the related code",
+															"type": "string"
+														},
+														"longName": {
+															"description": "Long description of the related code",
+															"type": "string"
+														}
+													},
+													"additionalProperties": false
+												},
+												"attentionOfName": {
+													"description": "Attention of Name",
+													"type": "string"
+												},
+												"careOfName": {
+													"description": "Care Of Name",
+													"type": "string"
+												},
+												"lineOne": {
+													"description": "Line One of Street Address Information",
+													"type": "string"
+												},
+												"lineTwo": {
+													"description": "Line Two of Street Address Information",
+													"type": "string"
+												},
+												"lineThree": {
+													"description": "Line Three of Street Address Information",
+													"type": "string"
+												},
+												"cityName": {
+													"description": "A city in the context of an address",
+													"type": "string"
+												},
+												"countrySubdivisionLevel1": {
+													"description": "A country subdivision correlating to a administrative level one level below country. For example, in the United States, this would be a state",
+													"type": "object",
+													"properties": {
+														"codeValue": {
+															"description": "The code for the related entity",
+															"type": "string"
+														},
+														"shortName": {
+															"description": "Short description of the related code",
+															"type": "string"
+														},
+														"longName": {
+															"description": "Long description of the related code",
+															"type": "string"
+														},
+														"subdivisionType": {
+															"description": "The type of a country sub-division, e.g. state, county",
+															"type": "string"
+														}
+													},
+													"additionalProperties": false
+												},
+												"countryCode": {
+													"description": "A simple (string) code.  Can have a code list reference",
+													"type": "string"
+												},
+												"postalCode": {
+													"description": "The string of characters used to identify the postal code",
+													"type": "string"
+												},
+												"geoCoordinate": {
+													"description": "The coordinates of the location of the address",
+													"type": "object",
+													"properties": {
+														"latitude": {
+															"description": "The angle, in degrees, of a position on Earth above the equator. (Latitude is negative for a place below the equator.) specified in decimal degrees",
+															"type": "number"
+														},
+														"longitude": {
+															"description": "The angle, in degrees, of a position on Earth around the equator from the Greenwich Meridian specified in decimal degrees",
+															"type": "number"
+														}
+													},
+													"additionalProperties": false
+												}
+											},
+											"additionalProperties": false
+										}
+									},
+									"additionalProperties": false
+								},
+								"homeOrganizationalUnits": {
+									"description": "A list of the various types of home organizational units",
+									"type": "array",
+									"items": {
+										"title": "HomeOrganizationalUnitItem",
+										"description": "The HOME organizational unit defines the work assignment and perhaps funds it. The should only be one home organizational unit for a given type, e.g. only one home department.",
+										"type": "object",
+										"properties": {
+											"nameCode": {
+												"description": "A coded name or descriptive label of the associated organizational unit entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary",
+												"type": "object",
+												"properties": {
+													"codeValue": {
+														"description": "The code for the related entity",
+														"type": "string"
+													}
+												},
+												"additionalProperties": false
+											}
+										},
+										"additionalProperties": false
+									}
+								},
+								"contractHistory": {
+									"type": "array",
+									"items": {
+										"properties": {
+											"actualStartDate": {
+												"description": "The date the worker actually shows up for work. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"terminationDate": {
+												"description": "The date the worker stops working in a given work assignment. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"expectedTerminationDate": {
+												"description": "The date the work assignment is supposed to end. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"effectiveDate": {
+												"description": "Effective date of this block of data. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"endDate": {
+												"description": "End date of this block of data.. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"itemID": {
+												"description": "A unique identifier of a work assignment",
+												"type": "string"
+											},
+											"workerTypeCode": {
+												"description": "This describes the type of the worker in a given work assignment, e.g. permanent employee, fixed term employee, apprentice, vendor employee, volunteer, apprentice, independent contractor, etc.",
+												"type": "object",
+												"properties": {
+													"codeValue": {
+														"description": "The code for the related entity",
+														"type": "string"
+													},
+													"longName": {
+														"description": "The long description for the realted code",
+														"type": "string"
+													}
+												},
+												"additionalProperties": false
+											},
+											"customFieldGroup": {
+												"description": "A container of custom fields. The category within each custom object allows for the categorizing or grouping of the associated custom field for the purpose of data mining. For example, the typeCode on a custom string object might be valued as SIZE and the correlating name codes might be t-shirt, pants, jacket, etc.",
+												"type": "object",
+												"properties": {
+													"stringFields": {
+														"description": "A list of custom strings",
+														"type": "array",
+														"items": {
+															"type": "object",
+															"properties": {
+																"stringValue": {
+																	"description": "A custom string",
+																	"type": "string"
+																},
+																"nameCode": {
+																	"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																	"type": "object",
+																	"properties": {
+																		"codeValue": {
+																			"description": "The code for the related entity",
+																			"type": "string",
+																			"enum": [
+																				"employmentType"
+																			]
+																		}
+																	},
+																	"additionalProperties": false
+																}
+															},
+															"additionalProperties": false
+														}
+													}
+												},
+												"additionalProperties": false
+											}
+										},
+										"additionalProperties": false
+									}
+								},
+								"jobHistory": {
+									"type": "array",
+									"items": {
+										"properties": {
+											"effectiveDate": {
+												"description": "Effective date of this block of data. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"endDate": {
+												"description": "End date of this block of data.. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"jobCode": {
+												"description": "The job code",
+												"type": "object",
+												"properties": {
+													"codeValue": {
+														"description": "The code for the related entity",
+														"type": "string"
+													},
+													"longName": {
+														"description": "Long description of the related code",
+														"type": "string"
+													}
+												},
+												"additionalProperties": false
+											}
+										},
+										"additionalProperties": false
+									}
+								},
+								"financialHistory": {
+									"type": "array",
+									"items": {
+										"properties": {
+											"effectiveDate": {
+												"description": "Effective date of this block of data. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"endDate": {
+												"description": "End date of this block of data.. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"payScaleCode": {
+												"description": "A pay scale is a graded compensation system that determines how much a worker is to be paid as a wage or salary, e.g. the General Schedule used to pay US civil servants, the U.S. uniformed services pay grades and the salary grades by which United States military personnel are paid are paid",
+												"type": "object",
+												"properties": {
+													"codeValue": {
+														"description": "The code for the related entity",
+														"type": "string"
+													}
+												},
+												"additionalProperties": false
+											}
+										},
+										"additionalProperties": false
+									}
+								},
+								"customFieldGroup": {
+									"type": "array",
+									"items": {
+										"properties": {
+											"effectiveDate": {
+												"description": "Effective date of this block of data. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"endDate": {
+												"description": "End date of this block of data.. Follows the ISO-8601:2000 format",
+												"type": "string",
+												"format": "date"
+											},
+											"itemID": {
+												"description": "The unique identifier of the object in a collection",
+												"type": "string"
+											},											
+											
+													"stringFields": {
+														"description": "A list of custom strings",
+														"type": "object",
+														"items": {
+															"type": "object",
+															"properties": {
+																"stringValue": {
+																	"description": "A custom string",
+																	"type": "string"
+																},
+																"nameCode": {
+																	"description": "A coded name or descriptive label of the associated entity. If this is a coded value, codeValue and shortName should be used. If this is just a string value, only shortName is necessary ",
+																	"type": "object",
+																	"properties": {
+																		"codeValue": {
+																			"description": "The code for the related entity",
+																			"type": "string",
+																			"enum": [
+																				"employmentSpec","employmentSpecDesc" 
+																			]
+																		}
+																	},
+																	"additionalProperties": false
+																}
+															},
+															"additionalProperties": false
+														}
+													}
+												
+										},
+										"additionalProperties": false
+									}
+								}
+							},
+							"additionalProperties": false
+						}
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"meta": {
+			"description": "Meta contains the metadata associated with a response.  A GET response may include metadata to support pagination",
+			"type": "object",
+			"properties": {
+				"startSequence": {
+					"description": "The instance resource sequence (number) identifying the first resource returned in the response. The server generates this sequence.  It is used by the client to determine the start sequence of the subsequent Get request",
+					"type": "integer"
+				},
+				"completeIndicator": {
+					"description": "Indicates whether the response completes the return of all of the resources of the instance resource set to the requesting system",
+					"type": "boolean"
+				},
+				"totalNumber": {
+					"description": "Number of total instance resources in an instance resource set. Note: An instance resource set is a set of instance resources that is determined by a server to satisfy the sets membership criteria (i.e., selection, filter, expansion and search criteria) of a resource management operation (e.g. GET request) upon a collection resource",
+					"type": "integer"
+				},
+				"resourceSetID": {
+					"description": "Unique identifier of the instance resource set.  It is generated by the server as a result of the original Get request",
+					"type": "string"
+				},
+				"links": {
+					"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+					"type": "array",
+					"items": {
+						"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+						"type": "object",
+						"properties": {
+							"href": {
+								"description": "The URI of the related entity",
+								"type": "string",
+								"format": "uri"
+							},
+							"rel": {
+								"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+								"type": "string",
+								"enum": [
+									"alternate",
+									"create",
+									"canonical",
+									"describedby",
+									"edit-form",
+									"enclosure",
+									"full",
+									"related",
+									"root",
+									"self",
+									"up",
+									"search",
+									"first",
+									"last",
+									"next",
+									"previous",
+									"/adp/invoke",
+									"/adp/image",
+									"/adp/confirm-message",
+									"/adp/canonical",
+									"/adp/status-monitor",
+									"/adp/codelist",
+									"/adp/template",
+									"/adp/externalLink",
+									"/adp/validation"
+								]
+							},
+							"title": {
+								"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+								"type": "string"
+							},
+							"targetSchema": {
+								"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+								"type": "string"
+							},
+							"mediaType": {
+								"description": "The media type that the linked resource will return (Response)",
+								"type": "string",
+								"enum": [
+									"application/gzip",
+									"application/json",
+									"application/msword",
+									"application/pdf",
+									"application/postscript",
+									"application/vnd.ms-excel",
+									"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+									"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+									"application/x-www-form-urlencoded",
+									"image/gif",
+									"image/jpeg",
+									"image/png",
+									"image/tiff",
+									"multipart/mixed",
+									"text/html",
+									"text/plain",
+									"application/vnd.visio",
+									"image/bmp",
+									"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+									"application/vnd.ms-powerpoint",
+									"video/mp4",
+									"audio/mpeg",
+									"video/x-msvideo",
+									"video/x-ms-wmv",
+									"application/rtf",
+									"application/vnd.ms-outlook",
+									"text/csv",
+									"video/quicktime",
+									"application/zip",
+									"application/illustrator",
+									"text/xml"
+								]
+							},
+							"method": {
+								"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+								"type": "string",
+								"enum": [
+									"GET",
+									"POST",
+									"DELETE",
+									"PUT"
+								]
+							},
+							"encType": {
+								"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+								"type": "string",
+								"enum": [
+									"application/json",
+									"application/x-www-form-urlencoded"
+								]
+							},
+							"schema": {
+								"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+								"type": "string"
+							},
+							"payLoadArguments": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"argumentPath": {
+											"description": "Code value (typically a key field) of the code list item",
+											"type": "string"
+										},
+										"argumentValue": {
+											"description": "Code value (typically a key field) of the code list item",
+											"type": "string"
+										}
+									},
+									"additionalProperties": false
+								}
+							}
+						},
+						"additionalProperties": false
+					}
+				}
+			},
+			"additionalProperties": false
+		},
+		"confirmMessage": {
+			"description": "The ConfirmMessage contains the processing results for the corresponding request.  A request may have its processing reported as: succeeded, partially failed, or failed.",
+			"type": "object",
+			"properties": {
+				"confirmMessageID": {
+					"description": "An identifier for the instance of the confirm message.",
+					"type": "object",
+					"properties": {
+						"idValue": {
+							"description": "An ID",
+							"type": "string"
+						},
+						"schemeName": {
+							"description": "The type of ID",
+							"type": "string"
+						},
+						"schemeAgencyName": {
+							"description": "The agency that issues the ID",
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				},
+				"createDateTime": {
+					"description": "The date & time that the message instance was generated.; follows the ISO-8601:2000 format: 2008-05-11T15:30:00-06:00.",
+					"type": "string",
+					"format": "date-time"
+				},
+				"requestReceiptDateTime": {
+					"description": "The date & time that the request submitted by the client was received. Note, this timestamp may not be the same as the time the client actually submitted the request if there is a queuing mechanism between the client and server processing the request; it follows the ISO-8601:2000 format: 2008-05-11T15:30:00-06:00.",
+					"type": "string",
+					"format": "date-time"
+				},
+				"protocolStatusCode": {
+					"description": "Protocol-specific response status code.",
+					"type": "object",
+					"properties": {
+						"codeValue": {
+							"description": "The code for the related entity.",
+							"type": "string"
+						},
+						"shortName": {
+							"description": "Short description of the related code not to exceed 25 characters",
+							"type": "string"
+						},
+						"longName": {
+							"description": "Long description of the related code",
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				},
+				"protocolCode": {
+					"description": "Code that identifies the protocol used for the request.",
+					"type": "object",
+					"properties": {
+						"codeValue": {
+							"description": "The code for the related entity.",
+							"type": "string"
+						},
+						"shortName": {
+							"description": "Short description of the related code not to exceed 25 characters",
+							"type": "string"
+						},
+						"longName": {
+							"description": "Long description of the related code",
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				},
+				"requestID": {
+					"description": "The identifier of the request that generated this response.",
+					"type": "object",
+					"properties": {
+						"idValue": {
+							"description": "An ID",
+							"type": "string"
+						},
+						"schemeName": {
+							"description": "The type of ID",
+							"type": "string"
+						},
+						"schemeAgencyName": {
+							"description": "The agency that issues the ID",
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				},
+				"requestStatusCode": {
+					"description": "The process results status code for the request.",
+					"type": "object",
+					"properties": {
+						"shortName": {
+							"description": "Short description of the related code",
+							"type": "string"
+						},
+						"longName": {
+							"description": "Long description of the related code",
+							"type": "string"
+						},
+						"codeValue": {
+							"description": "The code for the related entity.",
+							"type": "string",
+							"enum": [
+								"succeeded",
+								"partiallyFailed",
+								"failed"
+							]
+						}
+					},
+					"additionalProperties": false
+				},
+				"requestMethodCode": {
+					"description": "The method that was used on the request corresponding to this message instance.",
+					"type": "object",
+					"properties": {
+						"shortName": {
+							"description": "Short description of the related code",
+							"type": "string"
+						},
+						"longName": {
+							"description": "Long description of the related code",
+							"type": "string"
+						},
+						"codeValue": {
+							"description": "The code for the related entity.",
+							"type": "string",
+							"enum": [
+								"GET",
+								"PUT",
+								"POST",
+								"PATCH",
+								"DELETE"
+							]
+						}
+					},
+					"additionalProperties": false
+				},
+				"sessionID": {
+					"description": "A session identifier if one is available.",
+					"type": "object",
+					"properties": {
+						"idValue": {
+							"description": "An ID",
+							"type": "string"
+						},
+						"schemeName": {
+							"description": "The type of ID",
+							"type": "string"
+						},
+						"schemeAgencyName": {
+							"description": "The agency that issues the ID",
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				},
+				"requestETag": {
+					"description": "The entity tag of the entity in the request.",
+					"type": "string"
+				},
+				"requestLink": {
+					"description": "The link of the request that generated this response.",
+					"type": "object",
+					"properties": {
+						"href": {
+							"description": "The URI of the related entity",
+							"type": "string",
+							"format": "uri"
+						},
+						"rel": {
+							"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+							"type": "string",
+							"enum": [
+								"alternate",
+								"create",
+								"canonical",
+								"describedby",
+								"edit-form",
+								"enclosure",
+								"full",
+								"related",
+								"root",
+								"self",
+								"up",
+								"search",
+								"first",
+								"last",
+								"next",
+								"previous",
+								"/adp/invoke",
+								"/adp/image",
+								"/adp/confirm-message",
+								"/adp/canonical",
+								"/adp/status-monitor",
+								"/adp/codelist",
+								"/adp/template",
+								"/adp/externalLink",
+								"/adp/validation"
+							]
+						},
+						"title": {
+							"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+							"type": "string"
+						},
+						"targetSchema": {
+							"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+							"type": "string"
+						},
+						"mediaType": {
+							"description": "The media type that the linked resource will return (Response)",
+							"type": "string",
+							"enum": [
+								"application/gzip",
+								"application/json",
+								"application/msword",
+								"application/pdf",
+								"application/postscript",
+								"application/vnd.ms-excel",
+								"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+								"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+								"application/x-www-form-urlencoded",
+								"image/gif",
+								"image/jpeg",
+								"image/png",
+								"image/tiff",
+								"multipart/mixed",
+								"text/html",
+								"text/plain",
+								"application/vnd.visio",
+								"image/bmp",
+								"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+								"application/vnd.ms-powerpoint",
+								"video/mp4",
+								"audio/mpeg",
+								"video/x-msvideo",
+								"video/x-ms-wmv",
+								"application/rtf",
+								"application/vnd.ms-outlook",
+								"text/csv",
+								"video/quicktime",
+								"application/zip",
+								"application/illustrator",
+								"text/xml"
+							]
+						},
+						"method": {
+							"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+							"type": "string",
+							"enum": [
+								"GET",
+								"POST",
+								"DELETE",
+								"PUT"
+							]
+						},
+						"encType": {
+							"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+							"type": "string",
+							"enum": [
+								"application/json",
+								"application/x-www-form-urlencoded"
+							]
+						},
+						"schema": {
+							"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+							"type": "string"
+						},
+						"payLoadArguments": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"argumentPath": {
+										"description": "Code value (typically a key field) of the code list item",
+										"type": "string"
+									},
+									"argumentValue": {
+										"description": "Code value (typically a key field) of the code list item",
+										"type": "string"
+									}
+								},
+								"additionalProperties": false
+							}
+						}
+					},
+					"additionalProperties": false
+				},
+				"processingStatusCode": {
+					"description": "Processing status of the related request message.",
+					"type": "object",
+					"properties": {
+						"shortName": {
+							"description": "Short description of the related code",
+							"type": "string"
+						},
+						"longName": {
+							"description": "Long description of the related code",
+							"type": "string"
+						},
+						"codeValue": {
+							"description": "The code for the related entity.",
+							"type": "string",
+							"enum": [
+								"received",
+								"validated",
+								"started",
+								"completed"
+							]
+						}
+					},
+					"additionalProperties": false
+				},
+				"processMessages": {
+					"description": "processMessage is optional and contains processing information for either the request (at the ConfirmMessage level) or a resource being managed in the request (at the ResourceMessage level).  Most often there will be a single instance for an associated request or resource, but this structure allows for more than one if needed, for example, if multiple errors exist for a single resource. ",
+					"type": "array",
+					"items": {
+						"description": "Each object contains processing information for either the request (at the ConfirmMessage level) or a resource being managed in the request (at the ResourceMessage level).",
+						"type": "object",
+						"properties": {
+							"processMessageID": {
+								"description": "An identifier for the instance of the process message.",
+								"type": "object",
+								"properties": {
+									"idValue": {
+										"description": "An ID",
+										"type": "string"
+									},
+									"schemeName": {
+										"description": "The type of ID",
+										"type": "string"
+									},
+									"schemeAgencyName": {
+										"description": "The agency that issues the ID",
+										"type": "string"
+									}
+								},
+								"additionalProperties": false
+							},
+							"messageTypeCode": {
+								"description": "Process Message instances may be of type: success, warning, error, or info.",
+								"type": "object",
+								"properties": {
+									"shortName": {
+										"description": "Short description of the related code",
+										"type": "string"
+									},
+									"longName": {
+										"description": "Long description of the related code",
+										"type": "string"
+									},
+									"codeValue": {
+										"description": "The code for the related entity.",
+										"type": "string",
+										"enum": [
+											"success",
+											"warning",
+											"error",
+											"info"
+										]
+									}
+								},
+								"additionalProperties": false
+							},
+							"sourceLocationExpression": {
+								"description": "Expression that provides the location (or source) of content in a message instance that is associated with a process message. Examples of expression languages include: XPath, XQuery, JSON Pointer.",
+								"type": "string"
+							},
+							"expressionLanguageCode": {
+								"description": "Identifies the language used for expressions communicated in this message.",
+								"type": "object",
+								"properties": {
+									"shortName": {
+										"description": "Short description of the related code",
+										"type": "string"
+									},
+									"longName": {
+										"description": "Long description of the related code",
+										"type": "string"
+									},
+									"codeValue": {
+										"description": "The code for the related entity.",
+										"type": "string",
+										"enum": [
+											"jPath"
+										]
+									}
+								},
+								"additionalProperties": false
+							},
+							"links": {
+								"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links.",
+								"type": "array",
+								"items": {
+									"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+									"type": "object",
+									"properties": {
+										"href": {
+											"description": "The URI of the related entity",
+											"type": "string",
+											"format": "uri"
+										},
+										"rel": {
+											"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+											"type": "string",
+											"enum": [
+												"alternate",
+												"create",
+												"canonical",
+												"describedby",
+												"edit-form",
+												"enclosure",
+												"full",
+												"related",
+												"root",
+												"self",
+												"up",
+												"search",
+												"first",
+												"last",
+												"next",
+												"previous",
+												"/adp/invoke",
+												"/adp/image",
+												"/adp/confirm-message",
+												"/adp/canonical",
+												"/adp/status-monitor",
+												"/adp/codelist",
+												"/adp/template",
+												"/adp/externalLink",
+												"/adp/validation"
+											]
+										},
+										"title": {
+											"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+											"type": "string"
+										},
+										"targetSchema": {
+											"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+											"type": "string"
+										},
+										"mediaType": {
+											"description": "The media type that the linked resource will return (Response)",
+											"type": "string",
+											"enum": [
+												"application/gzip",
+												"application/json",
+												"application/msword",
+												"application/pdf",
+												"application/postscript",
+												"application/vnd.ms-excel",
+												"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+												"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+												"application/x-www-form-urlencoded",
+												"image/gif",
+												"image/jpeg",
+												"image/png",
+												"image/tiff",
+												"multipart/mixed",
+												"text/html",
+												"text/plain",
+												"application/vnd.visio",
+												"image/bmp",
+												"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+												"application/vnd.ms-powerpoint",
+												"video/mp4",
+												"audio/mpeg",
+												"video/x-msvideo",
+												"video/x-ms-wmv",
+												"application/rtf",
+												"application/vnd.ms-outlook",
+												"text/csv",
+												"video/quicktime",
+												"application/zip",
+												"application/illustrator",
+												"text/xml"
+											]
+										},
+										"method": {
+											"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+											"type": "string",
+											"enum": [
+												"GET",
+												"POST",
+												"DELETE",
+												"PUT"
+											]
+										},
+										"encType": {
+											"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+											"type": "string",
+											"enum": [
+												"application/json",
+												"application/x-www-form-urlencoded"
+											]
+										},
+										"schema": {
+											"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+											"type": "string"
+										},
+										"payLoadArguments": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"argumentPath": {
+														"description": "Code value (typically a key field) of the code list item",
+														"type": "string"
+													},
+													"argumentValue": {
+														"description": "Code value (typically a key field) of the code list item",
+														"type": "string"
+													}
+												},
+												"additionalProperties": false
+											}
+										}
+									},
+									"additionalProperties": false
+								}
+							},
+							"userMessage": {
+								"description": "Message returned to the user",
+								"type": "object",
+								"properties": {
+									"codeValue": {
+										"description": "The code associated with the message description.",
+										"type": "string"
+									},
+									"title": {
+										"description": "Title of the message description.",
+										"type": "string"
+									},
+									"messageTxt": {
+										"description": "The value/content of the message description.",
+										"type": "string"
+									},
+									"links": {
+										"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links.",
+										"type": "array",
+										"items": {
+											"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+											"type": "object",
+											"properties": {
+												"href": {
+													"description": "The URI of the related entity",
+													"type": "string",
+													"format": "uri"
+												},
+												"rel": {
+													"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+													"type": "string",
+													"enum": [
+														"alternate",
+														"create",
+														"canonical",
+														"describedby",
+														"edit-form",
+														"enclosure",
+														"full",
+														"related",
+														"root",
+														"self",
+														"up",
+														"search",
+														"first",
+														"last",
+														"next",
+														"previous",
+														"/adp/invoke",
+														"/adp/image",
+														"/adp/confirm-message",
+														"/adp/canonical",
+														"/adp/status-monitor",
+														"/adp/codelist",
+														"/adp/template",
+														"/adp/externalLink",
+														"/adp/validation"
+													]
+												},
+												"title": {
+													"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+													"type": "string"
+												},
+												"targetSchema": {
+													"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+													"type": "string"
+												},
+												"mediaType": {
+													"description": "The media type that the linked resource will return (Response)",
+													"type": "string",
+													"enum": [
+														"application/gzip",
+														"application/json",
+														"application/msword",
+														"application/pdf",
+														"application/postscript",
+														"application/vnd.ms-excel",
+														"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+														"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+														"application/x-www-form-urlencoded",
+														"image/gif",
+														"image/jpeg",
+														"image/png",
+														"image/tiff",
+														"multipart/mixed",
+														"text/html",
+														"text/plain",
+														"application/vnd.visio",
+														"image/bmp",
+														"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+														"application/vnd.ms-powerpoint",
+														"video/mp4",
+														"audio/mpeg",
+														"video/x-msvideo",
+														"video/x-ms-wmv",
+														"application/rtf",
+														"application/vnd.ms-outlook",
+														"text/csv",
+														"video/quicktime",
+														"application/zip",
+														"application/illustrator",
+														"text/xml"
+													]
+												},
+												"method": {
+													"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+													"type": "string",
+													"enum": [
+														"GET",
+														"POST",
+														"DELETE",
+														"PUT"
+													]
+												},
+												"encType": {
+													"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+													"type": "string",
+													"enum": [
+														"application/json",
+														"application/x-www-form-urlencoded"
+													]
+												},
+												"schema": {
+													"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+													"type": "string"
+												},
+												"payLoadArguments": {
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"argumentPath": {
+																"description": "Code value (typically a key field) of the code list item",
+																"type": "string"
+															},
+															"argumentValue": {
+																"description": "Code value (typically a key field) of the code list item",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												}
+											},
+											"additionalProperties": false
+										}
+									}
+								},
+								"additionalProperties": false
+							},
+							"developerMessage": {
+								"description": "Message returned to the user",
+								"type": "object",
+								"properties": {
+									"codeValue": {
+										"description": "The code associated with the message description.",
+										"type": "string"
+									},
+									"title": {
+										"description": "Title of the message description.",
+										"type": "string"
+									},
+									"messageTxt": {
+										"description": "The value/content of the message description.",
+										"type": "string"
+									},
+									"links": {
+										"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links.",
+										"type": "array",
+										"items": {
+											"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+											"type": "object",
+											"properties": {
+												"href": {
+													"description": "The URI of the related entity",
+													"type": "string",
+													"format": "uri"
+												},
+												"rel": {
+													"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+													"type": "string",
+													"enum": [
+														"alternate",
+														"create",
+														"canonical",
+														"describedby",
+														"edit-form",
+														"enclosure",
+														"full",
+														"related",
+														"root",
+														"self",
+														"up",
+														"search",
+														"first",
+														"last",
+														"next",
+														"previous",
+														"/adp/invoke",
+														"/adp/image",
+														"/adp/confirm-message",
+														"/adp/canonical",
+														"/adp/status-monitor",
+														"/adp/codelist",
+														"/adp/template",
+														"/adp/externalLink",
+														"/adp/validation"
+													]
+												},
+												"title": {
+													"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+													"type": "string"
+												},
+												"targetSchema": {
+													"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+													"type": "string"
+												},
+												"mediaType": {
+													"description": "The media type that the linked resource will return (Response)",
+													"type": "string",
+													"enum": [
+														"application/gzip",
+														"application/json",
+														"application/msword",
+														"application/pdf",
+														"application/postscript",
+														"application/vnd.ms-excel",
+														"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+														"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+														"application/x-www-form-urlencoded",
+														"image/gif",
+														"image/jpeg",
+														"image/png",
+														"image/tiff",
+														"multipart/mixed",
+														"text/html",
+														"text/plain",
+														"application/vnd.visio",
+														"image/bmp",
+														"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+														"application/vnd.ms-powerpoint",
+														"video/mp4",
+														"audio/mpeg",
+														"video/x-msvideo",
+														"video/x-ms-wmv",
+														"application/rtf",
+														"application/vnd.ms-outlook",
+														"text/csv",
+														"video/quicktime",
+														"application/zip",
+														"application/illustrator",
+														"text/xml"
+													]
+												},
+												"method": {
+													"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+													"type": "string",
+													"enum": [
+														"GET",
+														"POST",
+														"DELETE",
+														"PUT"
+													]
+												},
+												"encType": {
+													"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+													"type": "string",
+													"enum": [
+														"application/json",
+														"application/x-www-form-urlencoded"
+													]
+												},
+												"schema": {
+													"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+													"type": "string"
+												},
+												"payLoadArguments": {
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"argumentPath": {
+																"description": "Code value (typically a key field) of the code list item",
+																"type": "string"
+															},
+															"argumentValue": {
+																"description": "Code value (typically a key field) of the code list item",
+																"type": "string"
+															}
+														},
+														"additionalProperties": false
+													}
+												}
+											},
+											"additionalProperties": false
+										}
+									}
+								},
+								"additionalProperties": false
+							}
+						},
+						"additionalProperties": false
+					}
+				},
+				"resourceMessages": {
+					"description": "resource Message contains the resource-specific processing results for resources being managed in the request.  A resource may have its processing reported as:  succeeded or failed.  It must be used to represent resource-specific messages.  In the case of a request managing multiple resources and resource-specific messages are to be returned, then this array will contain one object for each such resource of the request.",
+					"type": "array",
+					"items": {
+						"description": "Each object contains detailed information for a resource referenced in the original request.",
+						"type": "object",
+						"properties": {
+							"resourceMessageID": {
+								"description": "An identifier for the instance of the resource message.",
+								"type": "object",
+								"properties": {
+									"idValue": {
+										"description": "An ID",
+										"type": "string"
+									},
+									"schemeName": {
+										"description": "The type of ID",
+										"type": "string"
+									},
+									"schemeAgencyName": {
+										"description": "The agency that issues the ID",
+										"type": "string"
+									}
+								},
+								"additionalProperties": false
+							},
+							"resourceStatusCode": {
+								"title": "ResourceMessageResourceStatus",
+								"description": "The processing results status code of the resource of the request.",
+								"type": "object",
+								"properties": {
+									"shortName": {
+										"description": "Short description of the related code",
+										"type": "string"
+									},
+									"longName": {
+										"description": "Long description of the related code",
+										"type": "string"
+									},
+									"codeValue": {
+										"description": "The code for the related entity.",
+										"type": "string",
+										"enum": [
+											"succeeded",
+											"failed",
+											"warning"
+										]
+									}
+								},
+								"additionalProperties": false
+							},
+							"resourceLink": {
+								"description": "The link of the request that generated this response.",
+								"type": "object",
+								"properties": {
+									"href": {
+										"description": "The URI of the related entity",
+										"type": "string",
+										"format": "uri"
+									},
+									"rel": {
+										"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+										"type": "string",
+										"enum": [
+											"alternate",
+											"create",
+											"canonical",
+											"describedby",
+											"edit-form",
+											"enclosure",
+											"full",
+											"related",
+											"root",
+											"self",
+											"up",
+											"search",
+											"first",
+											"last",
+											"next",
+											"previous",
+											"/adp/invoke",
+											"/adp/image",
+											"/adp/confirm-message",
+											"/adp/canonical",
+											"/adp/status-monitor",
+											"/adp/codelist",
+											"/adp/template",
+											"/adp/externalLink",
+											"/adp/validation"
+										]
+									},
+									"title": {
+										"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+										"type": "string"
+									},
+									"targetSchema": {
+										"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+										"type": "string"
+									},
+									"mediaType": {
+										"description": "The media type that the linked resource will return (Response)",
+										"type": "string",
+										"enum": [
+											"application/gzip",
+											"application/json",
+											"application/msword",
+											"application/pdf",
+											"application/postscript",
+											"application/vnd.ms-excel",
+											"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+											"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+											"application/x-www-form-urlencoded",
+											"image/gif",
+											"image/jpeg",
+											"image/png",
+											"image/tiff",
+											"multipart/mixed",
+											"text/html",
+											"text/plain",
+											"application/vnd.visio",
+											"image/bmp",
+											"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+											"application/vnd.ms-powerpoint",
+											"video/mp4",
+											"audio/mpeg",
+											"video/x-msvideo",
+											"video/x-ms-wmv",
+											"application/rtf",
+											"application/vnd.ms-outlook",
+											"text/csv",
+											"video/quicktime",
+											"application/zip",
+											"application/illustrator",
+											"text/xml"
+										]
+									},
+									"method": {
+										"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+										"type": "string",
+										"enum": [
+											"GET",
+											"POST",
+											"DELETE",
+											"PUT"
+										]
+									},
+									"encType": {
+										"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+										"type": "string",
+										"enum": [
+											"application/json",
+											"application/x-www-form-urlencoded"
+										]
+									},
+									"schema": {
+										"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+										"type": "string"
+									},
+									"payLoadArguments": {
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"argumentPath": {
+													"description": "Code value (typically a key field) of the code list item",
+													"type": "string"
+												},
+												"argumentValue": {
+													"description": "Code value (typically a key field) of the code list item",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										}
+									}
+								},
+								"additionalProperties": false
+							},
+							"processMessages": {
+								"description": "processMessage is optional and contains processing information for either the request (at the ConfirmMessage level) or a resource being managed in the request (at the ResourceMessage level).  Most often there will be a single instance for an associated request or resource, but this structure allows for more than one if needed, for example, if multiple errors exist for a single resource. ",
+								"type": "array",
+								"items": {
+									"title": "ProcessMessageWithResourceStatusCode",
+									"description": "Each object contains processing information for either the request (at the ConfirmMessage level) or a resource being managed in the request (at the ResourceMessage level).",
+									"type": "object",
+									"properties": {
+										"processMessageID": {
+											"description": "An identifier for the instance of the process message.",
+											"type": "object",
+											"properties": {
+												"idValue": {
+													"description": "An ID",
+													"type": "string"
+												},
+												"schemeName": {
+													"description": "The type of ID",
+													"type": "string"
+												},
+												"schemeAgencyName": {
+													"description": "The agency that issues the ID",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										},
+										"messageTypeCode": {
+											"description": "Process Message instances may be of type: success, warning, error, or info.",
+											"type": "object",
+											"properties": {
+												"shortName": {
+													"description": "Short description of the related code",
+													"type": "string"
+												},
+												"longName": {
+													"description": "Long description of the related code",
+													"type": "string"
+												},
+												"codeValue": {
+													"description": "The code for the related entity.",
+													"type": "string",
+													"enum": [
+														"success",
+														"warning",
+														"error",
+														"info"
+													]
+												}
+											},
+											"additionalProperties": false
+										},
+										"sourceLocationExpression": {
+											"description": "Expression that provides the location (or source) of content in a message instance that is associated with a process message. Examples of expression languages include: XPath, XQuery, JSON Pointer.",
+											"type": "string"
+										},
+										"expressionLanguageCode": {
+											"description": "Identifies the language used for expressions communicated in this message.",
+											"type": "object",
+											"properties": {
+												"shortName": {
+													"description": "Short description of the related code",
+													"type": "string"
+												},
+												"longName": {
+													"description": "Long description of the related code",
+													"type": "string"
+												},
+												"codeValue": {
+													"description": "The code for the related entity.",
+													"type": "string",
+													"enum": [
+														"jPath"
+													]
+												}
+											},
+											"additionalProperties": false
+										},
+										"links": {
+											"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links.",
+											"type": "array",
+											"items": {
+												"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+												"type": "object",
+												"properties": {
+													"href": {
+														"description": "The URI of the related entity",
+														"type": "string",
+														"format": "uri"
+													},
+													"rel": {
+														"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+														"type": "string",
+														"enum": [
+															"alternate",
+															"create",
+															"canonical",
+															"describedby",
+															"edit-form",
+															"enclosure",
+															"full",
+															"related",
+															"root",
+															"self",
+															"up",
+															"search",
+															"first",
+															"last",
+															"next",
+															"previous",
+															"/adp/invoke",
+															"/adp/image",
+															"/adp/confirm-message",
+															"/adp/canonical",
+															"/adp/status-monitor",
+															"/adp/codelist",
+															"/adp/template",
+															"/adp/externalLink",
+															"/adp/validation"
+														]
+													},
+													"title": {
+														"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+														"type": "string"
+													},
+													"targetSchema": {
+														"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+														"type": "string"
+													},
+													"mediaType": {
+														"description": "The media type that the linked resource will return (Response)",
+														"type": "string",
+														"enum": [
+															"application/gzip",
+															"application/json",
+															"application/msword",
+															"application/pdf",
+															"application/postscript",
+															"application/vnd.ms-excel",
+															"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+															"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+															"application/x-www-form-urlencoded",
+															"image/gif",
+															"image/jpeg",
+															"image/png",
+															"image/tiff",
+															"multipart/mixed",
+															"text/html",
+															"text/plain",
+															"application/vnd.visio",
+															"image/bmp",
+															"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+															"application/vnd.ms-powerpoint",
+															"video/mp4",
+															"audio/mpeg",
+															"video/x-msvideo",
+															"video/x-ms-wmv",
+															"application/rtf",
+															"application/vnd.ms-outlook",
+															"text/csv",
+															"video/quicktime",
+															"application/zip",
+															"application/illustrator",
+															"text/xml"
+														]
+													},
+													"method": {
+														"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+														"type": "string",
+														"enum": [
+															"GET",
+															"POST",
+															"DELETE",
+															"PUT"
+														]
+													},
+													"encType": {
+														"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+														"type": "string",
+														"enum": [
+															"application/json",
+															"application/x-www-form-urlencoded"
+														]
+													},
+													"schema": {
+														"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+														"type": "string"
+													},
+													"payLoadArguments": {
+														"type": "array",
+														"items": {
+															"type": "object",
+															"properties": {
+																"argumentPath": {
+																	"description": "Code value (typically a key field) of the code list item",
+																	"type": "string"
+																},
+																"argumentValue": {
+																	"description": "Code value (typically a key field) of the code list item",
+																	"type": "string"
+																}
+															},
+															"additionalProperties": false
+														}
+													}
+												},
+												"additionalProperties": false
+											}
+										},
+										"userMessage": {
+											"description": "Message returned to the user",
+											"type": "object",
+											"properties": {
+												"codeValue": {
+													"description": "The code associated with the message description.",
+													"type": "string"
+												},
+												"title": {
+													"description": "Title of the message description.",
+													"type": "string"
+												},
+												"messageTxt": {
+													"description": "The value/content of the message description.",
+													"type": "string"
+												},
+												"links": {
+													"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links.",
+													"type": "array",
+													"items": {
+														"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+														"type": "object",
+														"properties": {
+															"href": {
+																"description": "The URI of the related entity",
+																"type": "string",
+																"format": "uri"
+															},
+															"rel": {
+																"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+																"type": "string",
+																"enum": [
+																	"alternate",
+																	"create",
+																	"canonical",
+																	"describedby",
+																	"edit-form",
+																	"enclosure",
+																	"full",
+																	"related",
+																	"root",
+																	"self",
+																	"up",
+																	"search",
+																	"first",
+																	"last",
+																	"next",
+																	"previous",
+																	"/adp/invoke",
+																	"/adp/image",
+																	"/adp/confirm-message",
+																	"/adp/canonical",
+																	"/adp/status-monitor",
+																	"/adp/codelist",
+																	"/adp/template",
+																	"/adp/externalLink",
+																	"/adp/validation"
+																]
+															},
+															"title": {
+																"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+																"type": "string"
+															},
+															"targetSchema": {
+																"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+																"type": "string"
+															},
+															"mediaType": {
+																"description": "The media type that the linked resource will return (Response)",
+																"type": "string",
+																"enum": [
+																	"application/gzip",
+																	"application/json",
+																	"application/msword",
+																	"application/pdf",
+																	"application/postscript",
+																	"application/vnd.ms-excel",
+																	"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+																	"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+																	"application/x-www-form-urlencoded",
+																	"image/gif",
+																	"image/jpeg",
+																	"image/png",
+																	"image/tiff",
+																	"multipart/mixed",
+																	"text/html",
+																	"text/plain",
+																	"application/vnd.visio",
+																	"image/bmp",
+																	"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+																	"application/vnd.ms-powerpoint",
+																	"video/mp4",
+																	"audio/mpeg",
+																	"video/x-msvideo",
+																	"video/x-ms-wmv",
+																	"application/rtf",
+																	"application/vnd.ms-outlook",
+																	"text/csv",
+																	"video/quicktime",
+																	"application/zip",
+																	"application/illustrator",
+																	"text/xml"
+																]
+															},
+															"method": {
+																"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+																"type": "string",
+																"enum": [
+																	"GET",
+																	"POST",
+																	"DELETE",
+																	"PUT"
+																]
+															},
+															"encType": {
+																"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+																"type": "string",
+																"enum": [
+																	"application/json",
+																	"application/x-www-form-urlencoded"
+																]
+															},
+															"schema": {
+																"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+																"type": "string"
+															},
+															"payLoadArguments": {
+																"type": "array",
+																"items": {
+																	"type": "object",
+																	"properties": {
+																		"argumentPath": {
+																			"description": "Code value (typically a key field) of the code list item",
+																			"type": "string"
+																		},
+																		"argumentValue": {
+																			"description": "Code value (typically a key field) of the code list item",
+																			"type": "string"
+																		}
+																	},
+																	"additionalProperties": false
+																}
+															}
+														},
+														"additionalProperties": false
+													}
+												}
+											},
+											"additionalProperties": false
+										},
+										"developerMessage": {
+											"description": "Message returned to the user",
+											"type": "object",
+											"properties": {
+												"codeValue": {
+													"description": "The code associated with the message description.",
+													"type": "string"
+												},
+												"title": {
+													"description": "Title of the message description.",
+													"type": "string"
+												},
+												"messageTxt": {
+													"description": "The value/content of the message description.",
+													"type": "string"
+												},
+												"links": {
+													"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links.",
+													"type": "array",
+													"items": {
+														"description": "A link description object is used to describe link relations.  In the context of a schema, it defines the link relations of the instances of the schema, and can be parameterized by the instance values.  The link description format can be used on its own in regular (non-schema documents), and use of this format can be declared by referencing the normative link description schema as the the schema for the data structure that uses the links",
+														"type": "object",
+														"properties": {
+															"href": {
+																"description": "The URI of the related entity",
+																"type": "string",
+																"format": "uri"
+															},
+															"rel": {
+																"description": "Indicates the nature of the relationship of the related resource to the resource that generated this representation",
+																"type": "string",
+																"enum": [
+																	"alternate",
+																	"create",
+																	"canonical",
+																	"describedby",
+																	"edit-form",
+																	"enclosure",
+																	"full",
+																	"related",
+																	"root",
+																	"self",
+																	"up",
+																	"search",
+																	"first",
+																	"last",
+																	"next",
+																	"previous",
+																	"/adp/invoke",
+																	"/adp/image",
+																	"/adp/confirm-message",
+																	"/adp/canonical",
+																	"/adp/status-monitor",
+																	"/adp/codelist",
+																	"/adp/template",
+																	"/adp/externalLink",
+																	"/adp/validation"
+																]
+															},
+															"title": {
+																"description": "This property defines a title for the link.  The value must be a string. User agents MAY use this title when presenting the link to the user.",
+																"type": "string"
+															},
+															"targetSchema": {
+																"description": "This property is a schema that defines the expected structure of the JSON representation of the target of the link, if the target of the link is returned using JSON representation.",
+																"type": "string"
+															},
+															"mediaType": {
+																"description": "The media type that the linked resource will return (Response)",
+																"type": "string",
+																"enum": [
+																	"application/gzip",
+																	"application/json",
+																	"application/msword",
+																	"application/pdf",
+																	"application/postscript",
+																	"application/vnd.ms-excel",
+																	"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+																	"application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+																	"application/x-www-form-urlencoded",
+																	"image/gif",
+																	"image/jpeg",
+																	"image/png",
+																	"image/tiff",
+																	"multipart/mixed",
+																	"text/html",
+																	"text/plain",
+																	"application/vnd.visio",
+																	"image/bmp",
+																	"application/vnd.openxmlformats-officedocument.presentationml.presentation",
+																	"application/vnd.ms-powerpoint",
+																	"video/mp4",
+																	"audio/mpeg",
+																	"video/x-msvideo",
+																	"video/x-ms-wmv",
+																	"application/rtf",
+																	"application/vnd.ms-outlook",
+																	"text/csv",
+																	"video/quicktime",
+																	"application/zip",
+																	"application/illustrator",
+																	"text/xml"
+																]
+															},
+															"method": {
+																"description": "The HTTP method code (HTTP Verb) traverse the link (GET, POST, PUT or DELETE)",
+																"type": "string",
+																"enum": [
+																	"GET",
+																	"POST",
+																	"DELETE",
+																	"PUT"
+																]
+															},
+															"encType": {
+																"description": "If present, this property indicates a query media type format that the server supports for querying or posting to the collection of instances at the target resource.  The query can be suffixed to the target URI to query the collection with property-based constraints on the resources that SHOULD be returned from the server or used to post data to the resource (depending on the method). (Request)",
+																"type": "string",
+																"enum": [
+																	"application/json",
+																	"application/x-www-form-urlencoded"
+																]
+															},
+															"schema": {
+																"description": "This property contains a schema which defines the acceptable structure of the submitted request.  For a GET request, this schema would define the properties for the query string and for a POST request, this would define the body.",
+																"type": "string"
+															},
+															"payLoadArguments": {
+																"type": "array",
+																"items": {
+																	"type": "object",
+																	"properties": {
+																		"argumentPath": {
+																			"description": "Code value (typically a key field) of the code list item",
+																			"type": "string"
+																		},
+																		"argumentValue": {
+																			"description": "Code value (typically a key field) of the code list item",
+																			"type": "string"
+																		}
+																	},
+																	"additionalProperties": false
+																}
+															}
+														},
+														"additionalProperties": false
+													}
+												}
+											},
+											"additionalProperties": false
+										},
+										"resourceStatusCode": {
+											"description": "DEPRECATED - Use messageTypeCode instead. The processing results status code of the resource of the request.",
+											"type": "object",
+											"properties": {
+												"codeValue": {
+													"description": "The code for the related entity.",
+													"type": "string"
+												},
+												"shortName": {
+													"description": "Short description of the related code not to exceed 25 characters",
+													"type": "string"
+												},
+												"longName": {
+													"description": "Long description of the related code",
+													"type": "string"
+												}
+											},
+											"additionalProperties": false
+										}
+									},
+									"additionalProperties": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"additionalProperties": false
+		}
+	},
+	"additionalProperties": false
+}
