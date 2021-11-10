@@ -1,0 +1,42 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+						"associateOID": "eafe20-mp5",
+                        "workAssignment": {
+                            "hireDate": "2021-11-01",
+                            "workerTypeCode": {
+                                "codeValue": "00"
+                            },
+                            "jobCode": {
+                                "codeValue": "EMPL2"
+                            },
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES AFE",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01002"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+								   {
+									  "codeValue":"SAL",
+									  "itemID":"collaborationType"
+								   },
+                                    {
+                                        "codeValue": "00",
+                                        "itemID": "contractType"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

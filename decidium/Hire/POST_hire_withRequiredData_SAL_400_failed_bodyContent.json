@@ -1,0 +1,62 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "TEST CC",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "F"
+                            }
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "01"
+                            },
+                            "jobCode": {
+                                "codeValue": "EMPL1"
+                            },
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "CU2",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "50",
+                                        "itemID": "recoursReason"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2020-01-30",
+                                        "itemID": "contractEndDate"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

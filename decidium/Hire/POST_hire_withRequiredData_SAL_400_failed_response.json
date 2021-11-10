@@ -1,6 +1,6 @@
 {
     "confirmMessage": {
-        "createDateTime": "2020-12-04T14:39:04.7+01:00",
+        "createDateTime": "2021-11-09T14:53:29.162+01:00",
         "protocolStatusCode": {
             "codeValue": "400"
         },
@@ -14,10 +14,10 @@
                     "codeValue": "error"
                 },
                 "userMessage": {
-                    "messageTxt": "La valeur de la donnée « Prénom » est erronée : les caractères accentués et autres caractères spéciaux, ne sont pas autorisés (normes déclaratives)."
+                    "messageTxt": "La donnée Type de collaboration est obligatoire"
                 },
                 "developerMessage": {
-                    "messageTxt": "La valeur de la donnée « Prénom » est erronée : les caractères accentués et autres caractères spéciaux, ne sont pas autorisés (normes déclaratives)."
+                    "messageTxt": "La donnée workers/workAssignment/customFieldGroup/codeFields[itemID='collaborationType']/codeValue est obligatoire"
                 }
             },
             {
@@ -25,10 +25,10 @@
                     "codeValue": "error"
                 },
                 "userMessage": {
-                    "messageTxt": "L'adresse électronique 'test mail.lsprh@adp.com' ne respecte pas la norme RFC5322"
+                    "messageTxt": "La donnée Nom est obligatoire"
                 },
                 "developerMessage": {
-                    "messageTxt": "L'adresse électronique 'test mail.lsprh@adp.com' ne respecte pas la norme RFC5322"
+                    "messageTxt": "La donnée workers/person/legalName/familyName1 est obligatoire"
                 }
             }
         ]

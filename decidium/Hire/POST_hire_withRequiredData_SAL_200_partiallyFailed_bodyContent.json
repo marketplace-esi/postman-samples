@@ -6,27 +6,18 @@
                     "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "HIRE GIVENNAME",
-                                "familyName1": "HIRE NAME",
-								"preferredSalutations": [
+                                "givenName": "MINIMAL REQUIRED DATA",
+                                "familyName1": "HIRE",
+                                "preferredSalutations": [
                                     {
                                         "salutationCode": {
                                             "codeValue": "MME"
                                         }
                                     }
-    							]
-							},								
+                                ]
+                            },
                             "genderCode": {
                                 "codeValue": "F"
-                            },
-                            "identityDocuments": [
-                                {
-                                    "documentID": "2631293314684"
-                                }
-                            ],
-                            "birthPlace":{
-                                "cityName": "PARIS",
-                                "postalCode": "75000"
                             }
                         },
                         "workAssignment": {
@@ -35,7 +26,7 @@
                                 "codeValue": "01"
                             },
                             "jobCode": {
-                                "codeValue": "EMPLO1"
+                                "codeValue": "EMPL1"
                             },
                             "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
                             "assignedWorkLocations": [
@@ -47,10 +38,10 @@
                             ],
                             "customFieldGroup": {
                                 "codeFields": [
-								   {
-									  "codeValue":"SAL",
-									  "itemID":"collaborationType"
-								   },
+                                    {
+                                        "codeValue": "SAL",
+                                        "itemID": "collaborationType"
+                                    },
                                     {
                                         "codeValue": "CU2",
                                         "itemID": "contractType"
@@ -61,10 +52,10 @@
                                     }
                                 ],
                                 "dateFields": [
-								   {
-									  "dateValue":"2020-01-30",
-									  "itemID":"contractEndDate"
-								   }
+                                    {
+                                        "dateValue": "2020-01-30",
+                                        "itemID": "contractEndDate"
+                                    }
                                 ]
                             }
                         }

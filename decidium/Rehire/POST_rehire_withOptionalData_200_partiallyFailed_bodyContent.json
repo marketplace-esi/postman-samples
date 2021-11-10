@@ -4,17 +4,24 @@
             "data": {
                 "transform": {
                     "worker": {
-						"associateOID": "rgrehirefami-mp1",
-                        "workerID": {
-                            "idValue": "99994149"
-                        },
+						"associateOID": "eafe20-mp5",
+                        "person": {
+                            "legalName": {
+                                "familyName1": "NEW REHIRE FAMILY NAME"
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "2790991"
+                                }
+                            ]						
+						},						
                         "workAssignment": {
-                            "hireDate": "2021-01-01",
+                            "hireDate": "2021-11-01",
                             "workerTypeCode": {
                                 "codeValue": "00"
                             },
                             "jobCode": {
-                                "codeValue": "EMPLO2"
+                                "codeValue": "EMPL2"
                             },
                             "jobTitle": "CONTRÔLE DE GESTION SOCIALES AFE",
                             "assignedWorkLocations": [

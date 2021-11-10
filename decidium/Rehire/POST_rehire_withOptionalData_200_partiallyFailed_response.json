@@ -4,16 +4,16 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "hghirename-ths",
+                        "associateOID": "eafe20-mp5",
                         "workerID": {
-                            "idValue": "00000451"
+                            "idValue": "99994260"
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "HIRE GIVENNAME",
+                                "givenName": "EQUIPA",
                                 "middleName": "",
-                                "familyName1": "HIRE NAME",
-                                "formattedName": "HIRE GIVENNAME HIRE NAME",
+                                "familyName1": "NEW REHIRE FAMILY NAME",
+                                "formattedName": "EQUIPA NEW REHIRE FAMILY NAME",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
@@ -23,27 +23,42 @@
                                         },
                                         "sequenceNumber": 1
                                     }
-                                ],
-                                "titleAffixCodes": [
-                                    {
-                                        "affixCode": {
-                                            "codeValue": "MME",
-                                            "shortName": "MME",
-                                            "longName": "Madame"
-                                        },
-                                        "sequenceNumber": 1
-                                    }
                                 ]
                             },
+                            "birthDate": "1979-09-19",
                             "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "NANTES",
+                                    "subdivisionType": "NANTES"
+                                },
+                                "countryCode": "FR",
+                                "postalCode": "44000",
                                 "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
+                                "buildingNumberExtension": "",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "",
                                     "longName": "",
                                     "subdivisionType": ""
                                 }
+                            },
+                            "communication": {
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "0688682578",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Personnel",
+                                            "shortName": "Personnel",
+                                            "longName": "Personnel"
+                                        },
+                                        "emailUri": "aude.faure@adp.com",
+                                        "itemID": "Personnel"
+                                    }
+                                ]
                             },
                             "deceasedIndicator": false,
                             "genderCode": {
@@ -57,7 +72,7 @@
                             "socialInsurancePrograms": [],
                             "identityDocuments": [
                                 {
-                                    "documentID": "2631293314684",
+                                    "documentID": "2790991",
                                     "typeCode": {
                                         "codeValue": "SSN",
                                         "shortName": "Numéro de sécurité sociale"
@@ -66,27 +81,43 @@
                             ],
                             "immigrationDocuments": [],
                             "birthPlace": {
-                                "cityName": "PARIS",
-                                "postalCode": "75000"
+                                "cityName": "DOURDAN",
+                                "postalCode": "91000",
+                                "countryCode": "FR"
                             }
                         },
                         "workerDates": {
-                            "originalHireDate": "2020-01-01"
+                            "originalHireDate": "2021-11-01"
+                        },
+                        "businessCommunication": {
+                            "emails": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Travail",
+                                        "shortName": "Travail",
+                                        "longName": "Travail"
+                                    },
+                                    "emailUri": "testmail.lsprh@fr.adp.com",
+                                    "itemID": "Travail"
+                                }
+                            ]
                         },
                         "workAssignment": {
-                            "hireDate": "2020-01-01",
-                            "actualStartDate": "2020-01-01",
+                            "hireDate": "2021-11-01",
+                            "seniorityDate": "2021-11-01",
+                            "actualStartDate": "2021-11-01",
                             "workerTypeCode": {
-                                "codeValue": "01",
-                                "shortName": "CDD",
-                                "longName": "CDD"
+                                "codeValue": "00",
+                                "shortName": "CDI",
+                                "longName": "CDI"
                             },
+                            "legalEntityID": "01",
                             "jobCode": {
-                                "codeValue": "EMPLO1",
-                                "shortName": "Emploi 1",
-                                "longName": "Emploi 1"
+                                "codeValue": "EMPL2",
+                                "shortName": "Emploi (en cours)",
+                                "longName": "Emploi (en cours)"
                             },
-                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
+                            "jobTitle": "CONTROLE DE GESTION SOCIALES AFE",
                             "jobFunctionCode": {},
                             "assignedOrganizationalUnits": [
                                 {
@@ -95,9 +126,9 @@
                                 },
                                 {
                                     "nameCode": {
-                                        "codeValue": "0101001",
-                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
-                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE"
+                                        "codeValue": "0101002",
+                                        "shortName": "ORION USINE LYON",
+                                        "longName": "ORIONB/ORION USINE LYON"
                                     },
                                     "itemID": "strucAffectationId"
                                 }
@@ -105,9 +136,9 @@
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
-                                        "codeValue": "01001",
-                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
-                                        "longName": "ORION SIEGE LEVALLOIS AFE"
+                                        "codeValue": "01002",
+                                        "shortName": "ORION USINE LYON",
+                                        "longName": "ORION USINE LYON"
                                     },
                                     "address": {
                                         "lineOne": "",
@@ -115,6 +146,7 @@
                                         "cityName": "SAINT DIDIER MONT D OR",
                                         "countryCode": "FR",
                                         "postalCode": "69370",
+                                        "unit": "AFE",
                                         "countrySubdivisionLevel2": {
                                             "codeValue": "SAINT DIDIER MONT D OR",
                                             "shortName": "SAINT DIDIER MONT D OR",
@@ -140,49 +172,42 @@
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp1",
+                                    "associateOID": "levangelist-mp5",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "00000451",
-                            "customFieldGroup": {
-                                "codeFields": [
-                                    {
-                                        "codeValue": "SAL",
-                                        "longName": "Salarié",
-                                        "itemID": "collaborationType"
-                                    },
-                                    {
-                                        "codeValue": "50",
-                                        "longName": "Politique de l'emploi",
-                                        "itemID": "recoursReason"
-                                    },
-                                    {
-                                        "codeValue": "CU2",
-                                        "longName": "CUI-CAE-PEC CDD",
-                                        "itemID": "contractType"
-                                    },
-                                    {
-                                        "codeValue": "01",
-                                        "longName": "ORION",
-                                        "itemID": "activity"
-                                    }
-                                ],
-                                "dateFields": [
-                                    {
-                                        "dateValue": "2020-01-30",
-                                        "itemID": "contractEndDate"
-                                    }
-                                ]
-                            },
-                            "itemID": "00000451"
+                            "payrollFileNumber": "99994260",
+                            "itemID": "A1234646"
                         }
                     }
                 }
             }
         }
-    ]
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-09T17:48:58.964+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "warning"
+                },
+                "userMessage": {
+                    "messageTxt": "S'il est renseigné, le numéro de sécurité sociale doit comporter au moins 13 caractères valides."
+                },
+                "developerMessage": {
+                    "messageTxt": "S'il est renseigné, le numéro de sécurité sociale doit comporter au moins 13 caractères valides."
+                }
+            }
+        ]
+    }
 }

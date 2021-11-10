@@ -1,0 +1,151 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "mrhiresta-drd",
+                        "workerID": {
+                            "idValue": "00000573"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "MINIMAL REQUIRED DATA",
+                                "middleName": "",
+                                "familyName1": "HIRE STA",
+                                "formattedName": "MINIMAL REQUIRED DATA HIRE STA",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "F",
+                                "shortName": "Femme",
+                                "longName": "Femme"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            },
+                            "identityDocuments": [],
+                            "immigrationDocuments": [],
+                            "birthPlace": {}
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2020-01-01"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-01-01",
+                            "seniorityDate": "2020-01-01",
+                            "actualStartDate": "2020-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "20",
+                                "shortName": "Stagiaire contr.stag",
+                                "longName": "Stagiaire contr.stag"
+                            },
+                            "legalEntityID": "01",
+                            "jobFunctionCode": {},
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {},
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "address": {
+                                        "lineOne": "",
+                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "countryCode": "FR",
+                                        "postalCode": "69370",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "SAINT DIDIER MONT D OR",
+                                            "shortName": "SAINT DIDIER MONT D OR",
+                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-mp5",
+                                    "reportsToWorkerName": {
+                                        "givenName": "LINDA",
+                                        "familyName1": "EVANGELIST"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "00000573",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "STA",
+                                        "longName": "Stagiaire",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "S7",
+                                        "longName": "Stagiaire soumis impos.",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activity"
+                                    }
+                                ]
+                            },
+                            "itemID": "A1234642"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-09T15:15:18.074+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}
