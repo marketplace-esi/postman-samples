@@ -1,0 +1,20 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "birthDate": "1985-02-11"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
