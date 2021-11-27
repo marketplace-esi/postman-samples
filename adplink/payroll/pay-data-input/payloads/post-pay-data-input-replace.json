@@ -14,7 +14,7 @@
                     "payDataInput": {
                         "payeePayInputs": [
                             {
-                                "associateOID": "aoiduser-3mk",
+                                "associateOID": "employee-abc",
                                 "payeeID": {
                                     "idValue": "",
                                     "schemeCode": {

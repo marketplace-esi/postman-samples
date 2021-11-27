@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254547d846f8f59ee8eb",
+            "eventID": "5ef3254547d846f8f59ee89f",
             "eventNameCode": {
                 "codeValue": "worker.legalAddress.remove"
             },
@@ -19,18 +19,12 @@
                         },
                         "person": {
                             "legalAddress": {
-                                "countrySubdivisionLevel1": {
-                                    "codeValue": "POISSY"
-                                },
-                                "countryCode": "",
-                                "postalCode": "78300",
-                                "lineFive": "",
-                                "buildingNumber": "1",
-                                "buildingNumberExtension": "",
-                                "streetName": "RUE PRINCIPALE",
-                                "countrySubdivisionLevel2": {
-                                    "longName": "POISSY"
-                                }
+		                        "countryCode": "",
+		                        "postalCode": "",
+		                        "lineFive": "",
+		                        "buildingNumber": "",
+		                        "buildingNumberExtension": "",
+		                        "streetName": ""
                             }
                         }
                     }

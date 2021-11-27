@@ -19,6 +19,7 @@
                         },
                         "businessCommunication": {
                             "fax": {
+                                "countryDialing": "+33",
                                 "formattedNumber": "0501020305",
                                 "itemID": "businessFax"
                             }

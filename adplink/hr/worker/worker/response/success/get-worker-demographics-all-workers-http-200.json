@@ -1,7 +1,7 @@
 {
     "workers": [
         {
-            "associateOID": "00000005",
+            "associateOID": "employee-def",
             "workerID": {
                 "idValue": "00000005"
             },
@@ -129,8 +129,6 @@
                         }
                     ]
                 },
-                "deceasedIndicator": true,
-                "deathDate": "1980-01-01",
                 "genderCode": {
                     "codeValue": "F",
                     "shortName": "Féminin",

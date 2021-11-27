@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254447d846cdb09ee8dc",
+            "eventID": "5ef3254447d846cdb09ee8cc",
             "eventNameCode": {
                 "codeValue": "worker.businessCommunication.mobile.remove"
             },
@@ -19,7 +19,8 @@
                         },
                         "businessCommunication": {
                             "mobile": {
-                                "formattedNumber": "0601020304",
+                                "countryDialing": "+33",
+                                "formattedNumber": "",
                                 "itemID": "businessMobile"
                             }
                         }

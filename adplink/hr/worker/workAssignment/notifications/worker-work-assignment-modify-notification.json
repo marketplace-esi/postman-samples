@@ -7,13 +7,11 @@
 			},
 			"data": {
 				"eventContext": {
-					"worker": {
-						"associateOID": "collab-xyz"
-					}
+					"associateOID": "employee-xyz"
 				},
 				"output": {
 					"worker": {
-						"associateOID": "collab-xyz",
+						"associateOID": "employee-xyz",
 						"workerID": {
 							"idValue": "0011574"
 						},

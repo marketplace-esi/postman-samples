@@ -1,12 +1,6 @@
 {
     "events": [
         {
-            "eventNameCode": {
-                "codeValue": "worker.businessCommunication.fax.add"
-            },
-            "actor": {
-                "associateOID": "employee-abc"
-            },
             "data": {
                 "eventContext": {
                     "worker": {

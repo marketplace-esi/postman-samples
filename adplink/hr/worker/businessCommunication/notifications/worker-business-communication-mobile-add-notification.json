@@ -19,6 +19,7 @@
                         },
                         "businessCommunication": {
                             "mobile": {
+                                "countryDialing": "+33",
                                 "formattedNumber": "0601020304",
                                 "itemID": "businessMobile"
                             }
