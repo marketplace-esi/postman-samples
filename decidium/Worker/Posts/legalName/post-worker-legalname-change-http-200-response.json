@@ -1,0 +1,46 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1",
+                        "person": {
+                            "legalName": {
+                                "givenName": "PHILIPPE",
+                                "middleName": "SECPRENOMTEST,TROISPRENOMTEST,QUATPRENOMTEST",
+                                "familyName1": "MASSINA",
+                                "familyName2": "NAISSTEST",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-30T10:39:56.565+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}
