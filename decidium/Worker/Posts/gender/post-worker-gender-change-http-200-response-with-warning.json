@@ -1,0 +1,46 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1",
+                        "person": {
+                            "genderCode": {
+                                "codeValue": "F"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-30T15:11:53.272+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "warning"
+                },
+                "userMessage": {
+                    "messageTxt": "Le premier caractère du champ N° Sécurité Sociale (1640399278129) ne correspond pas au sexe fourni (F)."
+                },
+                "developerMessage": {
+                    "messageTxt": "Le premier caractère du champ N° Sécurité Sociale (1640399278129) ne correspond pas au sexe fourni (F)."
+                }
+            }
+        ]
+    }
+}
