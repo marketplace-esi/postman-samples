@@ -118,6 +118,13 @@
             "workerDates": {
                 "originalHireDate": "2019-12-01"
             },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "ACTIVE",
+                    "shortName": "ACTIVE"
+                },
+                "effectiveDate": "2021-12-03"
+            },
             "photos": [
                 {
                     "links": [
@@ -453,6 +460,13 @@
             "workerDates": {
                 "originalHireDate": "2012-01-02"
             },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "ACTIVE",
+                    "shortName": "ACTIVE"
+                },
+                "effectiveDate": "2021-12-03"
+            },
             "photos": [
                 {
                     "links": [
@@ -706,6 +720,13 @@
                 "originalHireDate": "2003-06-04",
                 "terminationDate": "2020-12-31"
             },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "INACTIVE",
+                    "shortName": "INACTIVE"
+                },
+                "effectiveDate": "2021-12-03"
+            },
             "businessCommunication": {
                 "emails": [
                     {
@@ -930,6 +951,13 @@
             "workerDates": {
                 "originalHireDate": "1991-11-01"
             },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "ACTIVE",
+                    "shortName": "ACTIVE"
+                },
+                "effectiveDate": "2021-12-03"
+            },
             "businessCommunication": {
                 "emails": [
                     {
@@ -1148,6 +1176,13 @@
             },
             "workerDates": {
                 "originalHireDate": "2013-10-21"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "ACTIVE",
+                    "shortName": "ACTIVE"
+                },
+                "effectiveDate": "2021-12-03"
             },
             "businessCommunication": {
                 "landlines": [
