@@ -118,6 +118,13 @@
             "workerDates": {
                 "originalHireDate": "2019-12-01"
             },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "ACTIVE",
+                    "shortName": "ACTIVE"
+                },
+                "effectiveDate": "2021-12-03"
+            },
             "photos": [
                 {
                     "links": [
