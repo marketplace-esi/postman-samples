@@ -1,0 +1,17 @@
+{
+  "actionID": "test123",
+  "actionMessage": {
+    "messageText": "complete",
+    "messageArguments": [
+      {
+        "argumentName": "Packageid",
+        "argumentValue": "0F77B2BC-61CF-4A43-9492-9899769151CE"
+      }
+    ]
+  },
+  "links": [
+    {
+      "href": "/core/v1/document-signature-processing/associate-document-packages?package-id=0F77B2BC-61CF-4A43-9492-9899769151CE"
+    }
+  ]
+}
