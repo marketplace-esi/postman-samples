@@ -10,7 +10,13 @@
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "ppedroa-mp2"
+                        "associateOID": "ppedroa-mp2",
+                        "workerID": {
+                            "idValue": "99999999"
+                        },
+                        "workAssignment": {
+                            "itemID": "A0001299"
+                        }
                     }
                 },
                 "output": {
