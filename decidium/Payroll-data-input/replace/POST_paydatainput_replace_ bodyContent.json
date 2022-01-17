@@ -2,7 +2,7 @@
     "events": [
         {
             "data": {
-                "transform": {
+                "output": {
                     "payDataInput": {
                         "payeePayInputs": [
                             {
