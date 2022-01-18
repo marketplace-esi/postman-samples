@@ -8,6 +8,11 @@
             "recordDateTime": "2021-03-16T09:42:26+01:00",
             "effectiveDateTime": "2021-03-02T00:00:00+01:00",
             "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "nafe-5jk"
+                    }
+                },
                 "output": {
                     "worker": {
                         "associateOID": "nafe-5jk",

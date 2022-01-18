@@ -2,9 +2,8 @@
     "events": [
         {
             "data": {
-                "output": {
-                    "payDataInput": [
-                        {
+                "transform": {
+                    "payDataInput": {
                         "payeePayInputs": [
                             {
                                 "associateOID": "ldupuy-mp5",

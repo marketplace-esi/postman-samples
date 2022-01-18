@@ -2,15 +2,6 @@
     "events": [
         {
             "data": {
-                "eventContext": {
-                    "associateOID": "rgrehirefami-mp1",
-                    "workerID": {
-                        "idValue": "99994149"
-                    },
-                    "workAssignment": {
-                        "itemID": "A0001224"
-                    }
-                },
                 "output": {
                     "worker": {
                         "associateOID": "rgrehirefami-mp1",
