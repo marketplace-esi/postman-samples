@@ -6,7 +6,7 @@
                     "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "HIRE GIVENNAME",
+                                "givenName": "OPTIONAL DATA",
                                 "familyName1": "HIRE NAME",
                                 "familyName2": "HIRE NAME FAMILY2",
                                 "middleName": "HIRE NAME MIDDLE",
@@ -98,7 +98,7 @@
                             },
                             "identityDocuments": [
                                 {
-                                    "documentID": "1790975200032"
+                                    "documentID": "17909752"
                                 }
                             ],
                             "immigrationDocuments": [

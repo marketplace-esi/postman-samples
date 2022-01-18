@@ -1,0 +1,168 @@
+{
+  "documentPackage": {
+    "packageId": {
+      "id": "0f77b2bc-61cf-4a43-9492-9899769151ce"
+    },
+    "eSignatureRequester": {
+      "associateOID": "ADPNL00050386",
+      "roleCode": {
+        "code": "practitioner",
+        "name": "practitioner"
+      },
+      "formattedName": "Sankar Sudhakar"
+    },
+    "eSignatureRequestedDate": "2021-10-12T00:00:00.0000000",
+    "reminder": {
+      "actionTypeCode": {
+        "code": "EMAIL",
+        "name": "EMAIL"
+      },
+      "recurrenceIndicator": false,
+      "recurrencePattern": {
+        "recurrenceCycleCode": "daily",
+        "dayOfMonthNumber": 0,
+        "interval": 0.0
+      }
+    },
+    "documents": [
+      {
+        "documentID": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0",
+        "documentName": "Login",
+        "documentTitle": "Login",
+        "categoryCode": {
+          "code": "ihcm-ec-expenses",
+          "name": "ihcm-ec-expenses"
+        },
+        "subCategoryCode": {
+          "code": "ec-exp-expenses",
+          "name": "ec-exp-expenses"
+        },
+        "documentRanking": 1,
+        "eSignatures": [
+          {
+            "signatureTypeCode": {
+              "code": "SIMPLE",
+              "name": "SIMPLE"
+            },
+            "signatory": {
+              "associateOID": "ADPNL00050378",
+              "person": {
+                "personName": {
+                  "givenName": "Manish",
+                  "familyName": "Vadgama"
+                },
+                "communication": {
+                  "mobiles": [
+                    {
+                      "formattedNumber": "09878372829"
+                    }
+                  ],
+                  "emails": [
+                    {
+                      "emailUri": "shaila.mohammed@adp.com"
+                    }
+                  ]
+                }
+              }
+            },
+            "signatureRanking": 1
+          }
+        ],
+        "links": [
+          {
+            "linkID": "ORIGINAL",
+            "href": "/core/v2/associate-document-management/associates/ADPNL00050378/documents/addcbef6-b1ad-4d08-9156-5944b9b7bbf0",
+            "canonicalUri": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0",
+            "title": "Login",
+            "payloadArguments": [
+              {
+                "argumentName": "documentName",
+                "argumentValue": "Login.xlsx"
+              },
+              {
+                "argumentName": "categoryCode",
+                "argumentValue": "ihcm-ec-expenses"
+              },
+              {
+                "argumentName": "subCategoryCode",
+                "argumentValue": "ec-exp-expenses"
+              },
+              {
+                "argumentName": "documentTitle",
+                "argumentValue": "Login"
+              },
+              {
+                "argumentName": "documentId",
+                "argumentValue": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0"
+              }
+            ]
+          },
+          {
+            "linkID": "SIGNED",
+            "href": "/core/v2/associate-document-management/associates/ADPNL00050378/document-uploads",
+            "canonicalUri": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0",
+            "title": "Login",
+            "payloadArguments": [
+              {
+                "argumentName": "documentName",
+                "argumentValue": "Login.xlsx"
+              },
+              {
+                "argumentName": "categoryCode",
+                "argumentValue": "ihcm-ec-expenses"
+              },
+              {
+                "argumentName": "subCategoryCode",
+                "argumentValue": "ec-exp-expenses"
+              },
+              {
+                "argumentName": "documentTitle",
+                "argumentValue": "Login"
+              },
+              {
+                "argumentName": "documentId",
+                "argumentValue": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0"
+              }
+            ]
+          },
+          {
+            "linkID": "PROOF ",
+            "href": "/core/v2/associate-document-management/associates/ADPNL00050378/document-uploads",
+            "canonicalUri": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0",
+            "title": "Login",
+            "payloadArguments": [
+              {
+                "argumentName": "documentName",
+                "argumentValue": "Login.xlsx"
+              },
+              {
+                "argumentName": "categoryCode",
+                "argumentValue": "ihcm-ec-expenses"
+              },
+              {
+                "argumentName": "subCategoryCode",
+                "argumentValue": "ec-exp-expenses"
+              },
+              {
+                "argumentName": "documentTitle",
+                "argumentValue": "Login"
+              },
+              {
+                "argumentName": "documentId",
+                "argumentValue": "addcbef6-b1ad-4d08-9156-5944b9b7bbf0"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "_confirmMessage": {
+    "messageID": {
+      "id": "01e9222b-97c9-474a-a370-0bf44d117d4d"
+    },
+    "messageDateTime": "2022-01-03T15:58:48.1421992+00:00",
+    "requestProcessingStatusCode": "completed",
+    "requestResultStatusCode": "succeeded"
+  }
+}

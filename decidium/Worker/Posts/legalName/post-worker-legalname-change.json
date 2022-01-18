@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ],
+                                "givenName": "PHILIPPE",
+                                "middleName": "SECPRENOMTEST,TROISPRENOMTEST, QUATPRENOMTEST",
+                                "familyName1": "MASSINA",
+                                "familyName2": "NAISSTEST"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

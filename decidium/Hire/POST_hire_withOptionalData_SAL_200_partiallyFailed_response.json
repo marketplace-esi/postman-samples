@@ -4,30 +4,20 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "hghirename-ctf",
+                        "associateOID": "odhirename-34c",
                         "workerID": {
-                            "idValue": "09100405"
+                            "idValue": "00000577"
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "HIRE GIVENNAME",
+                                "givenName": "OPTIONAL DATA",
                                 "middleName": "HIRE NAME MIDDLE",
                                 "familyName1": "HIRE NAME",
                                 "familyName2": "HIRE NAME FAMILY2",
-                                "formattedName": "HIRE GIVENNAME HIRE NAME",
+                                "formattedName": "OPTIONAL DATA HIRE NAME",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "M",
-                                            "shortName": "M",
-                                            "longName": "Monsieur"
-                                        },
-                                        "sequenceNumber": 1
-                                    }
-                                ],
-                                "titleAffixCodes": [
-                                    {
-                                        "affixCode": {
                                             "codeValue": "M",
                                             "shortName": "M",
                                             "longName": "Monsieur"
@@ -47,7 +37,6 @@
                                 "lineFive": "PORT JEAN",
                                 "buildingNumber": "1",
                                 "buildingNumberExtension": "B",
-                                "buildingName": "B",
                                 "streetName": "RUE AUGUSTIN FRESNEL",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "44204",
@@ -75,7 +64,8 @@
                                             "shortName": "Personnel",
                                             "longName": "Personnel"
                                         },
-                                        "emailUri": "testmail@adp.com"
+                                        "emailUri": "testmail@adp.com",
+                                        "itemID": "Personnel"
                                     }
                                 ]
                             },
@@ -108,7 +98,7 @@
                             ],
                             "identityDocuments": [
                                 {
-                                    "documentID": "1790975200032",
+                                    "documentID": "17909752",
                                     "typeCode": {
                                         "codeValue": "SSN",
                                         "shortName": "Numéro de sécurité sociale"
@@ -138,7 +128,7 @@
                                     },
                                     "issuingParty": {
                                         "nameCode": {
-                                            "codeValue": "DELIVRÉ PAR DEUX"
+                                            "codeValue": "Delivré par deux"
                                         }
                                     },
                                     "issueDate": "2009-01-01",
@@ -160,7 +150,6 @@
                                     "lineFive": "PORT JEAN",
                                     "buildingNumber": "1",
                                     "buildingNumberExtension": "B",
-                                    "buildingName": "B",
                                     "streetName": "RUE AUGUSTIN FRESNEL",
                                     "countrySubdivisionLevel2": {
                                         "codeValue": "44204",
@@ -213,6 +202,7 @@
                         },
                         "workAssignment": {
                             "hireDate": "2019-08-01",
+                            "seniorityDate": "2019-08-01",
                             "actualStartDate": "2019-08-01",
                             "assignmentStatus": {
                                 "reasonCode": {
@@ -226,6 +216,7 @@
                                 "shortName": "CDI",
                                 "longName": "CDI"
                             },
+                            "legalEntityID": "01",
                             "workerGroups": [
                                 {
                                     "groupCode": {
@@ -236,9 +227,9 @@
                                 }
                             ],
                             "jobCode": {
-                                "codeValue": "EMPLO1",
-                                "shortName": "Emploi 1",
-                                "longName": "Emploi 1"
+                                "codeValue": "EMPL1",
+                                "shortName": "Emploi (en cours)",
+                                "longName": "Emploi (en cours)"
                             },
                             "jobTitle": "AAA CODE AAA",
                             "jobFunctionCode": {
@@ -252,7 +243,8 @@
                                         "codeValue": "CA1",
                                         "shortName": "CADRE POSITION I",
                                         "longName": "CADRE POSITION I"
-                                    }
+                                    },
+                                    "itemID": "default"
                                 }
                             ],
                             "workArrangementCode": {
@@ -316,14 +308,14 @@
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp1",
+                                    "associateOID": "levangelist-mp5",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "09100405",
+                            "payrollFileNumber": "00000577",
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
@@ -353,11 +345,34 @@
                                     }
                                 ]
                             },
-                            "itemID": "09100405"
+                            "itemID": "A1234644"
                         }
                     }
                 }
             }
         }
-    ]
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-09T15:24:59.048+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "warning"
+                },
+                "userMessage": {
+                    "messageTxt": "S'il est renseigné, le numéro de sécurité sociale doit comporter au moins 13 caractères valides."
+                },
+                "developerMessage": {
+                    "messageTxt": "S'il est renseigné, le numéro de sécurité sociale doit comporter au moins 13 caractères valides."
+                }
+            }
+        ]
+    }
 }
