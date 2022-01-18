@@ -2,6 +2,15 @@
     "events": [
         {
             "data": {
+                "eventContext": {
+                    "associateOID": "eafe20-mp5",
+                    "workerID": {
+                        "idValue": "99994260"
+                    },
+                    "workAssignment": {
+                        "itemID": "A1234648"
+                    }
+                },
                 "output": {
                     "worker": {
                         "associateOID": "eafe20-mp5",
