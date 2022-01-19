@@ -7,6 +7,15 @@
             },
             "recordDateTime": "2021-03-15T14:46:34+01:00",
             "effectiveDateTime": "2020-07-03T00:00:00+02:00",
+            "eventContext": {
+                "associateOID": "pnom2-mp1",
+                "workerID": {
+                    "idValue": "99999999"
+                },
+                "workAssignment": {
+                    "itemID": "A0001174"
+                }
+            },
             "data": {
                 "output": {
                     "worker": {
