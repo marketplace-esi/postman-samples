@@ -8,7 +8,7 @@
                             "earningsSummaryItems": [
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALFIX"
+                                        "idValue": "MDSalFix"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -16,7 +16,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALNET"
+                                        "idValue": "MDSalNet"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.9
@@ -24,7 +24,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAT"
+                                        "idValue": "MDPat"
                                     },
                                     "earningAmount": {
                                         "amountValue": 2.0
@@ -32,7 +32,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_IDENTIFIANT"
+                                        "idValue": "MDIdentifiant"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "id2"
@@ -40,7 +40,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAYEUR"
+                                        "idValue": "MDPayeur"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -48,7 +48,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_EKEY"
+                                        "idValue": "MDEkey"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "key2"
@@ -84,7 +84,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALFIX"
+                                        "idValue": "MDSalFix"
                                     },
                                     "earningAmount": {
                                         "amountValue": 1.0
@@ -92,7 +92,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALNET"
+                                        "idValue": "MDSalnet"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -100,7 +100,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAT"
+                                        "idValue": "MDPat"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.5
@@ -108,7 +108,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_IDENTIFIANT"
+                                        "idValue": "MDIdentifiant"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "id2"
@@ -116,7 +116,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAYEUR"
+                                        "idValue": "MDPayeur"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -124,7 +124,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_EKEY"
+                                        "idValue": "MDEKey"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "key2"
@@ -152,7 +152,7 @@
                             "earningsSummaryItems": [
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALFIX"
+                                        "idValue": "MDSalFix"
                                     },
                                     "earningAmount": {
                                         "amountValue": 10.0
@@ -160,7 +160,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALNET"
+                                        "idValue": "MDSalnet"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.56
@@ -168,7 +168,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAT"
+                                        "idValue": "MDPat"
                                     },
                                     "earningAmount": {
                                         "amountValue": 20.0
@@ -176,7 +176,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_IDENTIFIANT"
+                                        "idValue": "MDIdentifiant"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "id3"
@@ -184,7 +184,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAYEUR"
+                                        "idValue": "MDPayeur"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "filiale3"
@@ -192,7 +192,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_EKEY"
+                                        "idValue": "MDEKey"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "key3"
@@ -220,7 +220,7 @@
                             "earningsSummaryItems": [
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALFIX"
+                                        "idValue": "MDSalFix"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -228,7 +228,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALNET"
+                                        "idValue": "MDSalnet"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -236,7 +236,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAT"
+                                        "idValue": "MDPat"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -244,7 +244,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_IDENTIFIANT"
+                                        "idValue": "MDIdentifiant"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -252,7 +252,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAYEUR"
+                                        "idValue": "MDPayeur"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -260,7 +260,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_EKEY"
+                                        "idValue": "MDEKey"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -296,7 +296,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALFIX"
+                                        "idValue": "MDSalFix"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -304,7 +304,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALNET"
+                                        "idValue": "MDSalnet"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -312,7 +312,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAT"
+                                        "idValue": "MDPat"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -320,7 +320,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_IDENTIFIANT"
+                                        "idValue": "MDIdentifiant"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -328,7 +328,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAYEUR"
+                                        "idValue": "MDPayeur"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": "filiale4"
@@ -336,7 +336,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_EKEY"
+                                        "idValue": "MDEKey"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
