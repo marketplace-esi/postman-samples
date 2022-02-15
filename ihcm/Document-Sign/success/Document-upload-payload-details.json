@@ -1,8 +1,8 @@
 {
-  "documentName": "test",
-  "documentTitle": "test",
+  "documentName": "DocumentFileName.pdf",
+  "documentTitle": "DocumentDisplayName",
   "documentTypeCode": {
-    "code": "ihcm-ec-ed"
+    "code": "Employee"
   },
   "categoryCode": {
     "code": "ihcm-ec-ed"
