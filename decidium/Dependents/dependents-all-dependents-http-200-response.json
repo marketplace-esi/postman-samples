@@ -1,17 +1,17 @@
 {
     "dependents": [
         {
-            "associateOID": "dandreevui-mp2",
+            "associateOID": "jdupont-mp2",
             "relationshipTypeCode": {
-                "codeValue": "E",
-                "shortName": "ENFANT",
-                "longName": "ENFANT"
+                "codeValue": "C",
+                "shortName": "CONJOINT",
+                "longName": "CONJOINT"
             },
             "person": {
                 "legalName": {
-                    "givenName": "DIMITAR JUNIOR",
-                    "familyName1": "ANDREEV UI",
-                    "familyName2": "NOM NAISSANCE",
+                    "givenName": "JEAN",
+                    "familyName1": "DUPONT",
+                    "familyName2": "MARTIN",
                     "preferredSalutations": [
                         {
                             "salutationCode": {
@@ -23,19 +23,117 @@
                         }
                     ]
                 },
-                "birthDate": "2018-07-05",
+                "birthDate": "1967-12-10",
                 "legalAddress": {
-                    "cityName": "LIEU DE NAISSANCE",
-                    "postalCode": "08905",
-                    "streetName": "NOM",
-                    "streetTypeCode": {
-                        "codeValue": "53"
+                    "cityName": "LE PECQ",
+                    "countryCode": "FR",
+                    "postalCode": "78230",
+                    "lineFive": "LE CAPITOLE",
+                    "buildingNumber": "15",
+                    "buildingNumberExtension": "Q",
+                    "streetName": "RUE DE PARIS",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "LE PECQ",
+                        "longName": "12345"
                     }
                 },
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "0101010101",
+                            "itemID": "Personal"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "formattedNumber": "0202020202",
+                            "itemID": "Personal"
+                        }
+                    ]
+                },
+                "deathDate": "2022-02-01",
                 "genderCode": {
                     "codeValue": "M",
                     "shortName": "Homme",
                     "longName": "Homme"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "W",
+                    "shortName": "VIE MARITALE",
+                    "longName": "VIE MARITALE"
+                },
+                "socialInsurancePrograms": [
+                    {
+                        "coveredIndicator": true,
+                        "itemID": "healthInsurance"
+                    }
+                ],
+                "disabledIndicator": true,
+                "birthOrder": 2,
+                "taxDependentIndicator": true
+            },
+            "itemID": "7",
+            "links": [
+                {
+                    "href": "/hr/v1/associates/jdupont-mp2/dependents/7",
+                    "rel": "self"
+                }
+            ]
+        },
+        {
+            "associateOID": "jdupont-mp2",
+            "relationshipTypeCode": {
+                "codeValue": "E",
+                "shortName": "ENFANT",
+                "longName": "ENFANT"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "ANABELLE",
+                    "familyName1": "DUPONT",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "MLE",
+                                "shortName": "MLE",
+                                "longName": "Mademoiselle"
+                            },
+                            "sequenceNumber": 0
+                        }
+                    ]
+                },
+                "birthDate": "2015-12-31",
+                "legalAddress": {
+                    "cityName": "LE PECQ",
+                    "countryCode": "FR",
+                    "postalCode": "78230",
+                    "lineFive": "LE CAPITOLE",
+                    "buildingNumber": "15",
+                    "buildingNumberExtension": "Q",
+                    "streetName": "RUE DE PARIS",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "LE PECQ",
+                        "longName": "12345"
+                    }
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "0606060606",
+                            "itemID": "Personal"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "formattedNumber": "0909090909",
+                            "itemID": "Personal"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Femme",
+                    "longName": "Femme"
                 },
                 "maritalStatusCode": {
                     "codeValue": "C",
@@ -44,149 +142,17 @@
                 },
                 "socialInsurancePrograms": [
                     {
-                        "coveredIndicator": false
-                    },
-                    {
-                        "coveredIndicator": true
+                        "coveredIndicator": true,
+                        "itemID": "healthInsurance"
                     }
                 ],
-                "birthOrder": 1,
+                "disabledIndicator": true,
                 "taxDependentIndicator": true
             },
-            "itemID": "1",
+            "itemID": "9",
             "links": [
                 {
-                    "href": "/hr/v1/associates/dandreevui-mp2/dependents/1",
-                    "rel": "self"
-                }
-            ]
-        },
-        {
-            "associateOID": "dandreevui-mp2",
-            "relationshipTypeCode": {
-                "codeValue": "C",
-                "shortName": "CONJOINT",
-                "longName": "CONJOINT"
-            },
-            "person": {
-                "legalName": {
-                    "givenName": "DEADONE",
-                    "familyName1": "ANDREEV UI",
-                    "familyName2": "NOM NAISSANCE",
-                    "preferredSalutations": [
-                        {
-                            "salutationCode": {
-                                "codeValue": "MME",
-                                "shortName": "MME",
-                                "longName": "Madame"
-                            },
-                            "sequenceNumber": 0
-                        }
-                    ]
-                },
-                "birthDate": "2018-06-02",
-                "legalAddress": {
-                    "cityName": "SHEPA",
-                    "postalCode": "8813",
-                    "streetName": "VOIE",
-                    "streetTypeCode": {
-                        "codeValue": "23"
-                    }
-                },
-                "deathDate": "2019-09-29",
-                "genderCode": {
-                    "codeValue": "M",
-                    "shortName": "Homme",
-                    "longName": "Homme"
-                },
-                "maritalStatusCode": {
-                    "codeValue": "V",
-                    "shortName": "VEUF(VE)",
-                    "longName": "VEUF(VE)"
-                },
-                "socialInsurancePrograms": [
-                    {
-                        "coveredIndicator": false
-                    },
-                    {
-                        "coveredIndicator": true
-                    }
-                ],
-                "taxDependentIndicator": true
-            },
-            "itemID": "2",
-            "links": [
-                {
-                    "href": "/hr/v1/associates/dandreevui-mp2/dependents/2",
-                    "rel": "self"
-                }
-            ]
-        },
-        {
-            "associateOID": "dandreevui-mp2",
-            "relationshipTypeCode": {
-                "codeValue": "E",
-                "shortName": "ENFANT",
-                "longName": "ENFANT"
-            },
-            "person": {
-                "legalName": {
-                    "givenName": "HIJOOLE",
-                    "familyName1": "MINI DIMI",
-                    "familyName2": "DIMITRINO LITTLEE",
-                    "preferredSalutations": [
-                        {
-                            "salutationCode": {
-                                "codeValue": "M",
-                                "shortName": "M",
-                                "longName": "Monsieur"
-                            },
-                            "sequenceNumber": 0
-                        }
-                    ],
-                    "titleAffixCodes": [
-                        {
-                            "affixCode": {
-                                "codeValue": "M",
-                                "shortName": "Monsieur",
-                                "longName": "Monsieur"
-                            },
-                            "sequenceNumber": 0
-                        }
-                    ]
-                },
-                "birthDate": "2020-09-01",
-                "legalAddress": {
-                    "cityName": "BARCELONA",
-                    "postalCode": "08026",
-                    "streetName": "",
-                    "streetTypeCode": {}
-                },
-                "deathDate": "2020-09-02",
-                "genderCode": {
-                    "codeValue": "M",
-                    "shortName": "Homme",
-                    "longName": "Homme"
-                },
-                "maritalStatusCode": {
-                    "codeValue": "M",
-                    "shortName": "MARIE(E)",
-                    "longName": "MARIE(E)"
-                },
-                "socialInsurancePrograms": [
-                    {
-                        "coveredIndicator": false
-                    },
-                    {
-                        "coveredIndicator": true
-                    }
-                ],
-                "taxDependentIndicator": true
-            },
-            "itemID": "3",
-            "links": [
-                {
-                    "href": "/hr/v1/associates/dandreevui-mp2/dependents/3",
+                    "href": "/hr/v1/associates/jdupont-mp2/dependents/9",
                     "rel": "self"
                 }
             ]
