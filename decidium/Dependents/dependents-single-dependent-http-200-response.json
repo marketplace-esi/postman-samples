@@ -1,17 +1,17 @@
 {
     "dependents": [
         {
-            "associateOID": "dandreevui-mp2",
+            "associateOID": "jdupont-mp2",
             "relationshipTypeCode": {
-                "codeValue": "E",
-                "shortName": "ENFANT",
-                "longName": "ENFANT"
+                "codeValue": "C",
+                "shortName": "CONJOINT",
+                "longName": "CONJOINT"
             },
             "person": {
                 "legalName": {
-                    "givenName": "DIMITAR JUNIOR",
-                    "familyName1": "ANDREEV UI",
-                    "familyName2": "NOM NAISSANCE",
+                    "givenName": "JEAN",
+                    "familyName1": "DUPONT",
+                    "familyName2": "MARTIN",
                     "preferredSalutations": [
                         {
                             "salutationCode": {
@@ -23,40 +23,59 @@
                         }
                     ]
                 },
-                "birthDate": "2018-07-05",
+                "birthDate": "1967-12-10",
                 "legalAddress": {
-                    "cityName": "LIEU DE NAISSANCE",
-                    "postalCode": "08905",
-                    "streetName": "NOM",
-                    "streetTypeCode": {
-                        "codeValue": "53"
+                    "cityName": "LE PECQ",
+                    "countryCode": "FR",
+                    "postalCode": "78230",
+                    "lineFive": "LE CAPITOLE",
+                    "buildingNumber": "15",
+                    "buildingNumberExtension": "Q",
+                    "streetName": "RUE DE PARIS",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "LE PECQ",
+                        "longName": "12345"
                     }
                 },
+                "communication": {
+                    "landlines": [
+                        {
+                            "formattedNumber": "0101010101",
+                            "itemID": "Personal"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "formattedNumber": "0202020202",
+                            "itemID": "Personal"
+                        }
+                    ]
+                },
+                "deathDate": "2022-02-01",
                 "genderCode": {
                     "codeValue": "M",
                     "shortName": "Homme",
                     "longName": "Homme"
                 },
                 "maritalStatusCode": {
-                    "codeValue": "C",
-                    "shortName": "CELIBATAIRE",
-                    "longName": "CELIBATAIRE"
+                    "codeValue": "W",
+                    "shortName": "VIE MARITALE",
+                    "longName": "VIE MARITALE"
                 },
                 "socialInsurancePrograms": [
                     {
-                        "coveredIndicator": false
-                    },
-                    {
-                        "coveredIndicator": true
+                        "coveredIndicator": true,
+                        "itemID": "healthInsurance"
                     }
                 ],
-                "birthOrder": 1,
+                "disabledIndicator": true,
+                "birthOrder": 2,
                 "taxDependentIndicator": true
             },
-            "itemID": "1",
+            "itemID": "7",
             "links": [
                 {
-                    "href": "/hr/v1/associates/dandreevui-mp2/dependents/1",
+                    "href": "/hr/v1/associates/jdupont-mp2/dependents/7",
                     "rel": "self"
                 }
             ]
