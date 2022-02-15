@@ -1,0 +1,94 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2"
+                    }
+                },
+                "output": {
+                    "dependent": {
+                        "itemID": "7",
+                        "person": {
+                            "deathDate": "2022-02-01",
+                            "maritalStatusCode": {
+                                "codeValue": "W",
+                                "shortName": "VIE MARITALE",
+                                "longName": "VIE MARITALE"
+                            },
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
+                            },
+                            "socialInsurancePrograms": [
+                                {
+                                    "itemID": "healthInsurance",
+                                    "coveredIndicator": true
+                                }
+                            ],
+                            "disabledIndicator": true,
+                            "birthOrder": 2,
+                            "taxDependentIndicator": true,
+                            "communication": {
+                                "faxes": [
+                                    {
+                                        "itemID": "Personal",
+                                        "formattedNumber": "0202020202"
+                                    }
+                                ],
+                                "landlines": [
+                                    {
+                                        "itemID": "Personal",
+                                        "formattedNumber": "0101010101"
+                                    }
+                                ]
+                            },
+                            "legalAddress": {
+                                "lineFive": "LE CAPITOLE",
+                                "buildingNumber": "15",
+                                "buildingNumberExtension": "Q",
+                                "streetName": "RUE DE PARIS",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "LE PECQ",
+                                    "longName": "12345"
+                                },
+                                "countryCode": "FR",
+                                "cityName": "LE PECQ",
+                                "postalCode": "78230"
+                            },
+                            "birthDate": "1967-12-10",
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 0
+                                    }
+                                ],
+                                "givenName": "JEAN",
+                                "familyName1": "DUPONT",
+                                "familyName2": "MARTIN"
+                            }
+                        },
+                        "relationshipTypeCode": {
+                            "codeValue": "C",
+                            "shortName": "CONJOINT",
+                            "longName": "CONJOINT"
+                        }
+                    }
+                }
+            },
+            "eventID": "2",
+            "eventNameCode": {
+                "codeValue": "dependent.change"
+            },
+            "recordDateTime": "2022-02-14T19:38:53+01:00",
+            "effectiveDateTime": "2022-02-14T19:38:53+01:00"
+        }
+    ]
+}
