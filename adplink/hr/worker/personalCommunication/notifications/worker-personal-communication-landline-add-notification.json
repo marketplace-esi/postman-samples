@@ -20,6 +20,7 @@
                         "person": {
                             "communication": {
                                 "landline": {
+                                    "countryDialing": "+33",
                                     "formattedNumber": "0501020304",
                                     "itemID": "Personnel"
                                 }

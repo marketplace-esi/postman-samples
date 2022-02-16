@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254447d8460f5f9ee8db",
+            "eventID": "5ef3254447d8460f5f9ee85f",
             "eventNameCode": {
                 "codeValue": "worker.businessCommunication.email.remove"
             },
@@ -19,7 +19,6 @@
                         },
                         "businessCommunication": {
                             "email": {
-                                "emailUri": "EMAIL.PRO@EMAIL.COM",
                                 "itemID": "businessEmail"
                             }
                         }

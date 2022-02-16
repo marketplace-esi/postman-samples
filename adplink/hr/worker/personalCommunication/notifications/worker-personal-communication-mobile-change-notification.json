@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254447d84647749ee8e1",
+            "eventID": "5ef3254447d84647749ee8a1",
             "eventNameCode": {
                 "codeValue": "worker.personalCommunication.mobile.change"
             },
@@ -20,6 +20,7 @@
                         "person": {
                             "communication": {
                                 "mobile": {
+                                    "countryDialing": "+33",
                                     "formattedNumber": "0601020304",
                                     "itemID": "Mobile"
                                 }

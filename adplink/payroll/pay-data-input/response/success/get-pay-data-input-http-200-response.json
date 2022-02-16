@@ -3,7 +3,7 @@
         {
             "payeePayInputs": [
                 {
-                    "associateOID": "aoiduser-3mk",
+                    "associateOID": "employee-abc",
                     "payPeriodStartDate": "2020-04-01",
                     "payPeriodEndDate": "2020-04-01",
                     "payrollProfilePayInputs": [
@@ -31,7 +31,7 @@
                     ]
                 },
                 {
-                    "associateOID": "aoiduser-3mk",
+                    "associateOID": "employee-def",
                     "payPeriodStartDate": "2020-01-01",
                     "payPeriodEndDate": "2020-01-01",
                     "payrollProfilePayInputs": [
@@ -76,7 +76,7 @@
                     ]
                 },
                 {
-                    "associateOID": "aoiduser-8hv",
+                    "associateOID": "employee-ghi",
                     "payPeriodStartDate": "2019-01-01",
                     "payPeriodEndDate": "2019-01-01",
                     "payrollProfilePayInputs": [
@@ -108,7 +108,7 @@
         {
             "payeePayInputs": [
                 {
-                    "associateOID": "aoiduser-8hv",
+                    "associateOID": "employee-abc",
                     "payPeriodStartDate": "2018-10-01",
                     "payPeriodEndDate": "2018-10-01",
                     "payrollProfilePayInputs": [
@@ -157,7 +157,7 @@
                     ]
                 },
                 {
-                    "associateOID": "aoiduser-3mk",
+                    "associateOID": "employee-def",
                     "payPeriodStartDate": "2020-03-01",
                     "payPeriodEndDate": "2020-03-01",
                     "payrollProfilePayInputs": [

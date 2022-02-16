@@ -1,6 +1,6 @@
 {
 	"events": [{
-			"eventID": "TestDeceased",
+			"eventID": "5ef3291747d8462c0a9ee8c2",
 			"eventNameCode": {
 				"codeValue": "worker.deceased"
 			},

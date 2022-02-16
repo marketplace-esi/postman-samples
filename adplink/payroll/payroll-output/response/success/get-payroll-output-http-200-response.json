@@ -85,7 +85,7 @@
             },
             "associatePayments": [
                 {
-                    "associateOID": "aoiduser-alp",
+                    "associateOID": "employee-abc",
                     "payrollID": {
                         "idValue": "00000001"
                     }
@@ -159,7 +159,7 @@
             },
             "associatePayments": [
                 {
-                    "associateOID": "aoiduser2-alp",
+                    "associateOID": "employee-def",
                     "payrollID": {
                         "idValue": "00000002"
                     }

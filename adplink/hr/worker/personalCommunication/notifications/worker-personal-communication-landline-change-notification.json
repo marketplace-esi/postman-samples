@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254447d846336a9ee8da",
+            "eventID": "5ef3254447d846336a9ee87b",
             "eventNameCode": {
                 "codeValue": "worker.personalCommunication.landline.change"
             },
@@ -20,6 +20,7 @@
                         "person": {
                             "communication": {
                                 "landline": {
+                                    "countryDialing": "+33",
                                     "formattedNumber": "0501020304",
                                     "itemID": "Personnel"
                                 }

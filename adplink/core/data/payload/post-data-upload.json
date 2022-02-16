@@ -1,0 +1,15 @@
+{
+	"events": [{
+		"data": {
+			"transform": {
+				"data": {
+					"tableName": "situationFamille",
+					"rows": [
+						["1","A","AUTRE"],
+						["1","Z","NON COMMUNIQUEE"]
+					]
+				}
+			}
+		}
+	}]
+}
