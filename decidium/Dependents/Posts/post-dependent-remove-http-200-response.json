@@ -1,0 +1,31 @@
+{
+    "confirmMessage": {
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2022-03-04T15:48:07.032+01:00"
+    },
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "dependent": {
+                        "itemID": "4"
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2"
+                    },
+                    "dependent": {
+                        "itemID": "4"
+                    }
+                }
+            }
+        }
+    ]
+}
