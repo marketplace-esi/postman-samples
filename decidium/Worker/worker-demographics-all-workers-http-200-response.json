@@ -903,6 +903,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "A0000759|2013-10-21",
                     "hireDate": "2013-10-21",
                     "actualStartDate": "2013-10-21",
                     "jobCode": {
@@ -963,7 +964,6 @@
                         }
                     ],
                     "payrollFileNumber": "A0000759",
-                    "itemID": "A0000759"
                 }
             ]
         }

@@ -13,11 +13,12 @@
                     "workerID": {
                         "idValue": "00000512"
                     },
-                    "workAssignmentID": "A1234616"
+                    "workAssignmentID": "A1234616|2018-12-01"
                 },
                 "output": {
                     "worker": {
                         "workAssignment": {
+							"itemID": "A1234616|2018-12-01",
                             "hireDate": "2018-12-01",
                             "seniorityDate": "2019-01-01",
                             "actualStartDate": "2018-12-01",
@@ -124,8 +125,7 @@
                                         "itemID": "monthlyHours"
                                     }
                                 ]
-                            },
-                            "itemID": "00000512"
+                            }                            
                         }
                     }
                 }
