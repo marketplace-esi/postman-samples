@@ -150,6 +150,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "A0000808|2019-12-01",
                     "hireDate": "2019-12-01",
                     "seniorityDate": "2019-12-01",
                     "actualStartDate": "2019-12-01",
@@ -245,7 +246,6 @@
                             }
                         ]
                     },
-                    "itemID": "A0000808"
                 }
             ],
             "links": [

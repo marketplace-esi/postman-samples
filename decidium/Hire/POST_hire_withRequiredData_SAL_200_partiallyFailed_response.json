@@ -43,6 +43,7 @@
                             "originalHireDate": "2020-01-01"
                         },
                         "workAssignment": {
+							"itemID": "A1234640|2020-01-01",
                             "hireDate": "2020-01-01",
                             "seniorityDate": "2020-01-01",
                             "actualStartDate": "2020-01-01",
@@ -142,8 +143,7 @@
                                         "itemID": "activity"
                                     }
                                 ]
-                            },
-                            "itemID": "A1234640"
+                            }
                         }
                     }
                 }

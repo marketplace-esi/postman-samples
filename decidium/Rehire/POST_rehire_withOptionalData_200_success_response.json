@@ -196,6 +196,7 @@
                             ]
                         },
                         "workAssignment": {
+							"itemID": "99994260|2021-11-01",
                             "hireDate": "2021-11-01",
                             "seniorityDate": "2021-11-01",
                             "actualStartDate": "2021-11-01",
@@ -311,8 +312,7 @@
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "99994260",
-                            "itemID": "A1234648"
+                            "payrollFileNumber": "99994260"
                         }
                     }
                 }

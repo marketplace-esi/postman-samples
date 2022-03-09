@@ -150,6 +150,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "00000001|2019-12-01",
                     "hireDate": "2019-12-01",
                     "seniorityDate": "2019-12-01",
                     "actualStartDate": "2019-12-01",
@@ -245,7 +246,6 @@
                             }
                         ]
                     },
-                    "itemID": "A0000808"
                 }
             ],
             "links": [
@@ -516,6 +516,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "00000002|2012-01-02",
                     "hireDate": "2012-01-02",
                     "seniorityDate": "2012-01-02",
                     "actualStartDate": "2021-03-17",
@@ -619,8 +620,7 @@
                                 "itemID": "monthlyHours"
                             }
                         ]
-                    },
-                    "itemID": "00000002"
+                    }                    
                 }
             ],
             "links": [
@@ -742,6 +742,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "00000003|2003-06-04",
                     "hireDate": "2003-06-04",
                     "seniorityDate": "2003-06-04",
                     "actualStartDate": "2012-01-01",
@@ -856,8 +857,7 @@
                                 "itemID": "monthlyHours"
                             }
                         ]
-                    },
-                    "itemID": "00000003"
+                    }                    
                 }
             ],
             "links": [
@@ -979,6 +979,7 @@
             },
             "workAssignments": [
                 {
+				    "itemID": "00000004|1991-11-01",
                     "hireDate": "1991-11-01",
                     "seniorityDate": "1991-11-01",
                     "actualStartDate": "2012-01-01",
@@ -1079,8 +1080,7 @@
                                 "itemID": "monthlyHours"
                             }
                         ]
-                    },
-                    "itemID": "00000004"
+                    }
                 }
             ],
             "links": [
@@ -1223,6 +1223,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "A0000759|2013-10-21",
                     "hireDate": "2013-10-21",
                     "seniorityDate": "1991-12-01",
                     "actualStartDate": "2013-10-21",
@@ -1323,8 +1324,7 @@
                                 "itemID": "monthlyHours"
                             }
                         ]
-                    },
-                    "itemID": "A0000759"
+                    }
                 }
             ],
             "links": [

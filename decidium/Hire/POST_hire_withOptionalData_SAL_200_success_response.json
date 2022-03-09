@@ -201,6 +201,7 @@
                             ]
                         },
                         "workAssignment": {
+							"itemID": "00000575|2019-08-01",
                             "hireDate": "2019-08-01",
                             "seniorityDate": "2019-08-01",
                             "actualStartDate": "2019-08-01",
@@ -344,8 +345,7 @@
                                         "itemID": "workSchedule"
                                     }
                                 ]
-                            },
-                            "itemID": "A1234645"
+                            }
                         }
                     }
                 }

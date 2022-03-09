@@ -99,6 +99,7 @@
                             "effectiveDate": "2021-03-02"
                         },
                         "workAssignment": {
+						    "itemID": "A0001221|2021-03-02",
                             "hireDate": "2021-03-02",
                             "actualStartDate": "2021-03-02",
                             "workerTypeCode": {
@@ -227,8 +228,7 @@
                                         "itemID": "workSchedule"
                                     }
                                 ]
-                            },
-                            "itemID": "A0001221"
+                            }
                         }
                     }
                 }

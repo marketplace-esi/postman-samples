@@ -13,7 +13,7 @@
                     "idValue": "99999999"
                 },
                 "workAssignment": {
-                    "itemID": "A0001174"
+                    "itemID": "A0001174|2020-06-03"
                 }
             },
             "data": {
@@ -178,6 +178,7 @@
                             ]
                         },
                         "workAssignment": {
+							"itemID": "A0001174|2020-06-03",
                             "hireDate": "2020-06-03",
                             "actualStartDate": "2020-06-03",
                             "terminationDate": "2020-07-02",
@@ -323,8 +324,7 @@
                                         "itemID": "contractEndDate"
                                     }
                                 ]
-                            },
-                            "itemID": "A0001174"
+                            }                            
                         }
                     }
                 }
