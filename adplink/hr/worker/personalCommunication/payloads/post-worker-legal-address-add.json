@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalAddress": {
+                                "countryCode": "100",
+                                "postalCode": "75002",
+                                "lineFive": "line five",
+                                "buildingNumber": "12",
+                                "buildingNumberExtension": "T",
+                                "streetName": "RUE DE LA ROQUETTE",
+                                "countrySubdivisionLevel2": {
+                                    "longName": "PARIS 02"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

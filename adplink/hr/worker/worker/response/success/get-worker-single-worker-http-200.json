@@ -200,7 +200,24 @@
                         }
                     ],
                     "payrollFileNumber": "00001066",
-                    "customFieldGroup": {}
+                    "customFieldGroup": {},
+            		"workerStatus": {
+                		"statusCode": {
+                    		"codeValue": "active",
+                    		"shortName": "active"
+                		}
+           			 },
+           			 "photos": [
+               			 {
+                   			 "links": [
+                        		{
+                          		  "href": "/hr/v2/workers/employee-xyz/worker-images/photo",
+                           		  "rel": "/adp/image"
+                        		}
+                    		]
+                		}
+           			 ] 
+                    
                 }
             ]
         }
