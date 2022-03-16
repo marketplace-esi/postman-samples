@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "15",
+            "eventID": "6221bc5be165220b395e1f1d",
             "eventNameCode": {
                 "codeValue": "worker.workAssignment.terminate"
             },
@@ -25,7 +25,35 @@
                             "terminationDate": "2021-03-02"
                         },
                         "workerDates": {
-                            "terminationDate": "2021-03-02"
+                            "terminationDate": "2021-03-02",
+                            "originalHireDate": "021-03-02"
+                        },
+                        "workAssignment": {
+                            "itemID": "A0001299|2020-02-13",
+                            "terminationReasonCode": {
+                                "shortName": "MU",
+                                "codeValue": "MU"
+                            },
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "itemID": "expectedRehireType",
+                                        "codeValue": "02"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "itemID": "lastPayedDay",
+                                        "dateValue": "2021-03-02"
+                                    },
+                                    {
+                                        "itemID": "terminationNotificationDate",
+                                        "dateValue": "2021-03-02"
+                                    }
+                                ]
+                            },
+                            "terminationDate": "2021-03-02",
+                            "expectedTerminationDate": "2021-03-02"
                         }
                     }
                 }
