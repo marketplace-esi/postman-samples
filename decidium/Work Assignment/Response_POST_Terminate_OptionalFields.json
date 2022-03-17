@@ -11,6 +11,10 @@
                     "worker": {
                         "workAssignment": {
                             "terminationDate": "2020-10-30",
+                            "terminationReasonCode": {
+                                "codeValue": "MU",
+                                "shortName": "MU"
+                            },
                             "customFieldGroup": {
                                 "dateFields": [
                                     {
@@ -43,10 +47,6 @@
                                     }
                                 ],
                                 "stringFields": [
-                                    {
-                                        "stringValue": "MU",
-                                        "itemID": "terminationReason"
-                                    },
                                     {
                                         "stringValue": "F",
                                         "itemID": "terminationReasonPE"
