@@ -1,0 +1,13 @@
+{
+	"events": [{
+		"data": {
+			"transform": {
+			},
+			"eventContext": {
+				"worker": {
+					"associateOID": "employee-abc"
+				}
+			}
+		}
+	}]
+}

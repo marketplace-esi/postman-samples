@@ -86,7 +86,23 @@
 						}
 					]
 				}
-			]
+			],
+			"workerStatus": {
+                "statusCode": {
+                    "codeValue": "active",
+                    "shortName": "active"
+                }
+           	 },
+           	"photos": [
+               	{
+                   "links": [
+                        {
+                           "href": "/hr/v2/workers/employee-xyz/worker-images/photo",
+                           "rel": "/adp/image"
+                        }
+                    ]
+                }
+           	 ] 
 		}, {
 			"associateOID": "employee-abc",
 			"workerID": {
@@ -131,7 +147,8 @@
 				]
 			},
 			"workerDates": {
-				"originalHireDate": "2010-01-01"
+				"originalHireDate": "2010-01-01",
+                "terminationDate": "2014-07-02"
 			},
 			"businessCommunication": {
 				"landlines": [{
@@ -174,7 +191,23 @@
 						}
 					]
 				}
-			]
+			],
+			"workerStatus": {
+                "statusCode": {
+                    "codeValue": "inactive",
+                    "shortName": "inactive"
+                }
+           	 },
+           	"photos": [
+               	 {
+                   	 "links": [
+                        {
+                          	"href": "/hr/v2/workers/employee-abc/worker-images/photo",
+                           	"rel": "/adp/image"
+                        }
+                    ]
+                }
+           	] 
 		}
 	]
 }
