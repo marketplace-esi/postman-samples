@@ -1,0 +1,48 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3291747d846aa3e9ee8fe",
+            "eventNameCode": {
+                "codeValue": "timeOffRequest.cancel"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "employee-xyz"
+                },
+                "output": {
+                    "timeOffRequest": {
+                        "timeOffRequestID": "1054669",
+                        "requestDateTime": "2022-01-14T15:46:39+01:00",
+                        "requestStatusCode": {
+                            "codeValue": "cancelled"
+                        },
+                        "requestorName": {
+                            "givenName": "PRENOM",
+                            "familyName1": "NOM",
+                            "formattedName": "PRENOM NOM"
+                        },
+                        "timeOffEntries": [
+                            {
+                                "payCode": {
+                                    "codeValue": "CP",
+                        			"shortName": "CONGES PAYES"
+                                },
+                                "dateTimePeriod": {
+                                    "startDateTime": "2021-09-30T00:00:00+02:00",
+                                    "endDateTime": "2021-09-30T00:00:00+02:00"
+                                },
+                                "durationTypeCode": {
+                                    "codeValue": "fullday"
+                                },
+                                "timeOffPolicyCode": {
+                                    "codeValue": "CP",
+                        			"shortName": "CONGES PAYES"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

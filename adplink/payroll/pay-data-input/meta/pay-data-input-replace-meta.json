@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "/serviceCategoryCode/codeValue": "payroll",
+        "/eventNameCode/codeValue": "payDataInput.replace",
+        "/data/transforms": [
+            {
+                "/payDataInput/payeePayInputs/associateOID": {
+                    "readOnly": false,
+                    "optional": false,
+                    "longLabelName": "AssociateOid",
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payPeriodStartDate": {
+                    "readOnly": false,
+                    "optional": false,
+                    "longLabelName": "Date d'effet'",
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/payAllocation/allocationID": {
+                    "readOnly": false,
+                    "optional": true,
+                    "longLabelName": "Imputation",
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
+                    "codeList": {
+                        "listItems": []
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
+                    "readOnly": false,
+                    "optional": false,
+                    "longLabelName": "Code rubrique",
+                    "maxLength": 250,
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                    "readOnly": false,
+                    "optional": true,
+                    "longLabelName": "Taux",
+                    "dataType": "number"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/baseMultiplierValue": {
+                    "readOnly": false,
+                    "optional": true,
+                    "longLabelName": "Montant",
+                    "dataType": "number"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                    "readOnly": false,
+                    "optional": true,
+                    "longLabelName": "Nombre",
+                    "dataType": "number"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorCode": {
+                    "codeList": {
+                        "listItems": []
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorCode/codeValue": {
+                    "readOnly": false,
+                    "optional": false,
+                    "longLabelName": "Code élément",
+                    "maxLength": 250,
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/configurationTags/tagCode": {
+                    "readOnly": false,
+                    "optional": true,
+                    "longLabelName": "Indicatif",
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/taxInputs/taxRate/baseUnitCode/codeValue": {
+                    "readOnly": false,
+                    "optional": false,
+                    "longLabelName": "Valeur",
+                    "dataType": "string"
+                }
+            }
+        ]
+    }
+}
