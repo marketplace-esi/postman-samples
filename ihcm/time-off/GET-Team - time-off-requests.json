@@ -1,0 +1,589 @@
+{
+    "timeOffRequests": [
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-17",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-17",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-17T23:59:00Z",
+                        "startDateTime": "2022-01-17T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "df0a26b0-ea87-49bc-819e-cd29492eac88",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-11",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-05",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-11T23:59:00Z",
+                        "startDateTime": "2022-01-05T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Sickness",
+                        "shortName": "Sickness"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 37.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "fbc36074-9628-437f-b475-98e98802dd63",
+            "totalQuantity": {
+                "quantityValue": 37.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-03-02",
+                        "endTime": "23:59",
+                        "startDate": "2022-03-02",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-03-02T23:59:00Z",
+                        "startDateTime": "2022-03-02T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "8ecfa61a-dfc0-4222-b2bc-d03aee730f70",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-03-07",
+                        "endTime": "23:59",
+                        "startDate": "2022-03-07",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-03-07T23:59:00Z",
+                        "startDateTime": "2022-03-07T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Just wanted to see how manycharacters td",
+                        "shortName": "Just wanted to see how manycharacters td"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "eb71b51a-ebfd-4922-919f-354913068748",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3209ANYD",
+            "requestorName": {
+                "familyName1": "Abbott",
+                "formattedName": "Miss Aimee F Abbott",
+                "givenName": "Aimee",
+                "middleName": "F"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-18",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-18",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-18T23:59:00Z",
+                        "startDateTime": "2022-01-18T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "2f960c0b-4fe0-4c00-afc0-e9d7605ef16e",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1012"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3209ANYD",
+            "requestorName": {
+                "familyName1": "Abbott",
+                "formattedName": "Miss Aimee F Abbott",
+                "givenName": "Aimee",
+                "middleName": "F"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-02-28",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-25",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-02-28T23:59:00Z",
+                        "startDateTime": "2022-01-25T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Maternity Leave",
+                        "shortName": "Maternity Leave"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 187.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "7869402e-e76c-455d-9bc7-bf8426b810ea",
+            "totalQuantity": {
+                "quantityValue": 187.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1012"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3209ANYD",
+            "requestorName": {
+                "familyName1": "Abbott",
+                "formattedName": "Miss Aimee F Abbott",
+                "givenName": "Aimee",
+                "middleName": "F"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-19",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-19",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-19T23:59:00Z",
+                        "startDateTime": "2022-01-19T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Study Leave",
+                        "shortName": "Study Leave"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "35ff9938-b846-4c78-b8b9-1b34b43b958d",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1012"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3341QZ54",
+            "requestorName": {
+                "familyName1": "Howe",
+                "formattedName": "Ms Isabelle B Howe",
+                "givenName": "Isabelle",
+                "middleName": "B"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2021-11-22",
+                        "endTime": "23:59",
+                        "startDate": "2021-11-22",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2021-11-22T23:59:00Z",
+                        "startDateTime": "2021-11-22T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Unpaid Leave",
+                        "shortName": "Unpaid Leave"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "4abbfcb6-b47e-485a-ba65-a8c02c5b99ee",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1011"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3209ANYD",
+            "requestorName": {
+                "familyName1": "Abbott",
+                "formattedName": "Miss Aimee F Abbott",
+                "givenName": "Aimee",
+                "middleName": "F"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-21",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-21",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-21T23:59:00Z",
+                        "startDateTime": "2022-01-21T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual paid leave",
+                        "shortName": "Annual paid leave"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "69adb37d-3ce6-48f5-8b48-cb6c7b3c4788",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1012"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3341QZ54",
+            "requestorName": {
+                "familyName1": "Howe",
+                "formattedName": "Ms Isabelle B Howe",
+                "givenName": "Isabelle",
+                "middleName": "B"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-20",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-20",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-20T23:59:00Z",
+                        "startDateTime": "2022-01-20T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "5ae004e0-00e4-4bb0-99a6-30696994b365",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1011"
+            }
+        },
+        {
+            "associateOID": "UK0M1AD3209ANYD",
+            "requestorName": {
+                "familyName1": "Abbott",
+                "formattedName": "Miss Aimee F Abbott",
+                "givenName": "Aimee",
+                "middleName": "F"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-04-05",
+                        "endTime": "23:59",
+                        "startDate": "2022-04-05",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-04-05T23:59:00Z",
+                        "startDateTime": "2022-04-05T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "a54e8e62-bced-4dc1-a823-5bac76d1984c",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1012"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-01-24",
+                        "endTime": "23:59",
+                        "startDate": "2022-01-24",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-01-24T23:59:00Z",
+                        "startDateTime": "2022-01-24T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Study Leave",
+                        "shortName": "Study Leave"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "1414a876-592d-4038-a41a-2a1ea418fe07",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-02-16",
+                        "endTime": "23:59",
+                        "startDate": "2022-02-16",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-02-16T23:59:00Z",
+                        "startDateTime": "2022-02-16T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "0a36dde7-f1a8-4d8a-967d-c08e271959dc",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        }
+    ]
+}

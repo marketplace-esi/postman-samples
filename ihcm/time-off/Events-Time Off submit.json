@@ -1,0 +1,155 @@
+{
+    "events": [
+        {
+            "eventID": "f37e657b-e1cf-49f0-9dfd-4e50932e1f7e",
+            "serviceCategoryCode": {
+                "codeValue": "time",
+                "shortName": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "timeOffRequest.submit",
+                "shortName": "timeOffRequest.submit"
+            },
+            "eventTitle": "Timeoff request",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2022-03-04T11:49:33Z",
+            "creationDateTime": "2022-03-04T11:49:34Z",
+            "effectiveDateTime": "2022-03-04T11:49:34Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "bnewton-3pt",
+                "personOID": "BNEWTON_SD",
+                "formattedName": "Bruce Newton",
+                "deviceID": "iHCM",
+                "eventID": "f37e657b-e1cf-49f0-9dfd-4e50932e1f7e",
+                "eventNameCode": {
+                    "codeValue": "timeOffRequest.submit",
+                    "shortName": "timeOffRequest.submit",
+                    "longName": "timeOffRequest.submit"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "bnewton-3pt",
+                "formattedName": "Bruce Newton",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "links": [
+                {
+                    "href": "http://11.16.117.226:93/events/hr/v1.0/timeOffRequest/timeOffRequest.submit/f37e657b-e1cf-49f0-9dfd-4e50932e1f7e",
+                    "rel": "full",
+                    "mediaType": "application/json",
+                    "method": "GET",
+                    "encType": "application/json"
+                },
+                {
+                    "href": "http://11.16.117.226:93/events/hr/v1.0/timeOffRequest/timeOffRequest.submit/f37e657b-e1cf-49f0-9dfd-4e50932e1f7e",
+                    "rel": "full",
+                    "mediaType": "application/json",
+                    "method": "GET",
+                    "encType": "application/json"
+                }
+            ],
+            "data": {
+                "eventContext": {},
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2022-03-04T11:49:33Z",
+                    "timeOffRequest": {
+                        "totalQuantity": {
+                            "quantityValue": 8.0,
+                            "unitTimeCode": {
+                                "codeValue": "HOURS",
+                                "shortName": "HOURS",
+                                "longName": "HOURS"
+                            }
+                        },
+                        "timeOffEntries": [
+                            {
+                                "entryTypeCode": {
+                                    "codeValue": "Annual Leave",
+                                    "shortName": "Annual Leave"
+                                },
+                                "datePeriod": {
+                                    "startDate": "2022-03-04",
+                                    "startTime": "00:00",
+                                    "endDate": "2022-03-04",
+                                    "endTime": "23:59"
+                                },
+                                "dateTimePeriod": {
+                                    "startDateTime": "2022-03-04T00:00:00Z",
+                                    "endDateTime": "2022-03-04T23:59:00Z"
+                                },
+                                "totalQuantity": {
+                                    "quantityValue": 8.0,
+                                    "unitTimeCode": {
+                                        "codeValue": "HOURS",
+                                        "shortName": "HOURS",
+                                        "longName": "HOURS"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "output": {
+                    "associateOID": "gevans-z8x",
+                    "timeOffRequest": {
+                        "timeOffRequestID": "2313a92c-a34d-4ed7-b3c3-c3bee6753fe5",
+                        "requestorName": {
+                            "givenName": "Gary",
+                            "middleName": "David",
+                            "formattedName": "Mr Gary David Evans"
+                        },
+                        "totalQuantity": {
+                            "quantityValue": 8.0,
+                            "unitTimeCode": {
+                                "codeValue": "HOURS",
+                                "shortName": "HOURS",
+                                "longName": "HOURS"
+                            }
+                        },
+                        "timeOffEntries": [
+                            {
+                                "entryTypeCode": {
+                                    "codeValue": "Annual Leave",
+                                    "shortName": "Annual Leave"
+                                },
+                                "datePeriod": {
+                                    "startDate": "2022-03-04",
+                                    "startTime": "00:00",
+                                    "endDate": "2022-03-04",
+                                    "endTime": "23:59"
+                                },
+                                "dateTimePeriod": {
+                                    "startDateTime": "2022-03-04T00:00:00Z",
+                                    "endDateTime": "2022-03-04T23:59:00Z"
+                                },
+                                "totalQuantity": {
+                                    "quantityValue": 8.0,
+                                    "unitTimeCode": {
+                                        "codeValue": "HOURS",
+                                        "shortName": "HOURS",
+                                        "longName": "HOURS"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
