@@ -1,0 +1,416 @@
+{
+    "timeOffBalances": [
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "accrualBalances": [
+                                {
+                                    "accrualTypeCode": {
+                                        "codeValue": "Daily Entitlement",
+                                        "shortName": "Daily Entitlement"
+                                    },
+                                    "expireDateTime": "2023-01-31T23:59:00+00:00",
+                                    "expiringTotalQuantity": {
+                                        "quantityValue": 25.0,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 25.0,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    }
+                                },
+                                {
+                                    "expiringTotalQuantity": {
+                                        "quantityValue": 25.0
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 25.0
+                                    }
+                                }
+                            ],
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "longName": "available-Annual Leave",
+                                "shortName": "available"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 33.4308,
+                                "unitTimeCode": {
+                                    "codeValue": "Days",
+                                    "shortName": "Days"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "earned",
+                                "longName": "earned-Annual Leave",
+                                "shortName": "earned"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 36.4308
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "timeOffPolicyTypeCode": {
+                        "codeValue": "ACCRUING",
+                        "shortName": "ACCRUING"
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName1": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "accrualBalances": [
+                                {
+                                    "accrualTypeCode": {
+                                        "codeValue": "Daily Entitlement",
+                                        "shortName": "Daily Entitlement"
+                                    },
+                                    "expireDateTime": "2023-01-31T23:59:00+00:00",
+                                    "expiringTotalQuantity": {
+                                        "quantityValue": 25.0,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 25.0,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    }
+                                },
+                                {
+                                    "expiringTotalQuantity": {
+                                        "quantityValue": 25.0
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 25.0
+                                    }
+                                }
+                            ],
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "longName": "available-Annual Leave",
+                                "shortName": "available"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 33.4308,
+                                "unitTimeCode": {
+                                    "codeValue": "Days",
+                                    "shortName": "Days"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "earned",
+                                "longName": "earned-Annual Leave",
+                                "shortName": "earned"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 36.4308
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "timeOffPolicyTypeCode": {
+                        "codeValue": "ACCRUING",
+                        "shortName": "ACCRUING"
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName1": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "accrualBalances": [
+                                {
+                                    "accrualTypeCode": {
+                                        "codeValue": "Daily Entitlement",
+                                        "shortName": "Daily Entitlement"
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 0.4308,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    }
+                                },
+                                {
+                                    "totalQuantity": {
+                                        "quantityValue": 0.4308
+                                    }
+                                }
+                            ],
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "longName": "available-Annual Leave",
+                                "shortName": "available"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 33.4308,
+                                "unitTimeCode": {
+                                    "codeValue": "Days",
+                                    "shortName": "Days"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "earned",
+                                "longName": "earned-Annual Leave",
+                                "shortName": "earned"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 36.4308
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "timeOffPolicyTypeCode": {
+                        "codeValue": "ACCRUING",
+                        "shortName": "ACCRUING"
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName1": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "accrualBalances": [
+                                {
+                                    "accrualTypeCode": {
+                                        "codeValue": "Daily Entitlement",
+                                        "shortName": "Daily Entitlement"
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 0.4308,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    }
+                                },
+                                {
+                                    "totalQuantity": {
+                                        "quantityValue": 0.4308
+                                    }
+                                }
+                            ],
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "longName": "available-Annual Leave",
+                                "shortName": "available"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 33.4308,
+                                "unitTimeCode": {
+                                    "codeValue": "Days",
+                                    "shortName": "Days"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "earned",
+                                "longName": "earned-Annual Leave",
+                                "shortName": "earned"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 36.4308
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "timeOffPolicyTypeCode": {
+                        "codeValue": "ACCRUING",
+                        "shortName": "ACCRUING"
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName1": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "accrualBalances": [
+                                {
+                                    "accrualTypeCode": {
+                                        "codeValue": "Daily Entitlement",
+                                        "shortName": "Daily Entitlement"
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 8.0,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    }
+                                },
+                                {
+                                    "totalQuantity": {
+                                        "quantityValue": 8.0
+                                    }
+                                }
+                            ],
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "longName": "available-Annual Leave",
+                                "shortName": "available"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 33.4308,
+                                "unitTimeCode": {
+                                    "codeValue": "Days",
+                                    "shortName": "Days"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "earned",
+                                "longName": "earned-Annual Leave",
+                                "shortName": "earned"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 36.4308
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "timeOffPolicyTypeCode": {
+                        "codeValue": "ACCRUING",
+                        "shortName": "ACCRUING"
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName1": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "accrualBalances": [
+                                {
+                                    "accrualTypeCode": {
+                                        "codeValue": "Daily Entitlement",
+                                        "shortName": "Daily Entitlement"
+                                    },
+                                    "totalQuantity": {
+                                        "quantityValue": 8.0,
+                                        "unitTimeCode": {
+                                            "codeValue": "Days",
+                                            "shortName": "Days"
+                                        }
+                                    }
+                                },
+                                {
+                                    "totalQuantity": {
+                                        "quantityValue": 8.0
+                                    }
+                                }
+                            ],
+                            "balanceTypeCode": {
+                                "codeValue": "available",
+                                "longName": "available-Annual Leave",
+                                "shortName": "available"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 33.4308,
+                                "unitTimeCode": {
+                                    "codeValue": "Days",
+                                    "shortName": "Days"
+                                }
+                            }
+                        },
+                        {
+                            "balanceTypeCode": {
+                                "codeValue": "earned",
+                                "longName": "earned-Annual Leave",
+                                "shortName": "earned"
+                            },
+                            "totalQuantity": {
+                                "quantityValue": 36.4308
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "timeOffPolicyTypeCode": {
+                        "codeValue": "ACCRUING",
+                        "shortName": "ACCRUING"
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName1": "Mistry",
+                "givenName": "Jonathon"
+            }
+        }
+    ]
+}
