@@ -1,0 +1,36 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2",
+                        "workAssignment": {
+                            "itemID": "A1234798|2022-03-01",
+                            "expectedTerminationDate": "2022-10-18",
+                            "terminationDate": "2022-12-15"
+                        }
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2",
+                        "workAssignment": {
+                            "itemID": "A1234798|2022-03-01"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2022-04-08T15:17:02.14+02:00",
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {}
+    }
+}
