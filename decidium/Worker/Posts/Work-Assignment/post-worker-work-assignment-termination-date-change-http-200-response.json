@@ -7,7 +7,7 @@
                         "associateOID": "jdupont-mp2",
                         "workAssignment": {
                             "itemID": "A1234798|2022-03-01",
-                            "expectedTerminationDate": "2022-10-18",
+                            "expectedTerminationDate": "2022-12-18",
                             "terminationDate": "2022-12-15"
                         }
                     }
