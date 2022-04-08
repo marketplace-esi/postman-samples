@@ -1,0 +1,65 @@
+{
+  "payDistributions": [
+    {
+      "distributionInstructions": [
+        {
+          "depositAccount": {
+            "financialAccount": {
+              "accountName": "Elizabeeth Keane",
+              "accountNumber": "31510604"
+            },
+            "financialParty": {
+              "branchNameCode": {
+                "codeValue": "100000",
+                "shortName": "Banking Operations"
+              },
+              "nameCode": {
+                "shortName": "BANK OF ENGLAND"
+              }
+            }
+          },
+          "distributionPercentage": 100.0,
+          "payee": {
+            "payeeName": {
+              "familyName1": "Keane",
+              "givenName": "Elizabeeth"
+            }
+          },
+          "paymentMethodCode": {
+            "codeValue": "D",
+            "shortName": "BACS"
+          },
+          "precedenceCode": {
+            "codeValue": "1"
+          }
+        }
+      ],
+      "itemID": "329226d2-09a8-44e8-8d9b-4a3000a3f523",
+      "payrollFileNumber": "TLM54",
+      "requestedStartDate": "2022-01-02"
+    },
+    {
+      "distributionInstructions": [
+        {
+          "distributionPercentage": 100.0,
+          "payee": {
+            "payeeName": {
+              "familyName1": "Keane",
+              "givenName": "Elizabeeth"
+            }
+          },
+          "paymentMethodCode": {
+            "codeValue": "H",
+            "shortName": "CHAPS"
+          },
+          "precedenceCode": {
+            "codeValue": "99"
+          }
+        }
+      ],
+      "itemID": "7e022ae7-0caa-4a01-985a-530db0eb695e",
+      "payrollFileNumber": "TLM54",
+      "requestedStartDate": "2020-07-03"
+    }
+  ]
+}

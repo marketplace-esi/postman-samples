@@ -1,0 +1,81 @@
+{
+  "payDistributions": [
+    {
+      "distributionInstructions": [
+        {
+          "depositAccount": {
+            "financialAccount": {
+              "accountName": "Sophia Dilorenza",
+              "typeCode": {
+                "codeValue": "CURRENT",
+                "shortName": "CURRENT"
+              }
+            },
+            "financialParty": {
+              "nameCode": {
+                "shortName": "Bank of Italy"
+              },
+              "routingTransitID": {
+                "schemeCode": {
+                  "shortName": "Bank of Italy"
+                }
+              },
+              "SWIFTCode": "12345"
+            },
+            "IBAN": "IT60X0542811101000000123456"
+          },
+          "payee": {
+            "payeeName": {
+              "familyName1": "Dilorenza",
+              "givenName": "Sophia Dilorenza"
+            }
+          }
+        }
+      ],
+      "distributionStatusCode": {
+        "effectiveDate": "2022-04-07"
+      },
+      "payrollFileNumber": "5000"
+    },
+    {
+      "distributionInstructions": [
+        {
+          "depositAccount": {
+            "financialAccount": {
+              "accountName": "Ms Sophia Dilorenza",
+              "typeCode": {
+                "codeValue": "CURRENT",
+                "shortName": "CURRENT"
+              }
+            },
+            "financialParty": {
+              "nameCode": {
+                "shortName": "IT Bank"
+              },
+              "routingTransitID": {
+                "schemeCode": {
+                  "shortName": "IT Bank"
+                }
+              },
+              "SWIFTCode": "ABCOITMM"
+            },
+            "IBAN": "IT60X0542811101000000123456"
+          },
+          "distributionAmount": {
+            "currencyCode": "HKD"
+          },
+          "payee": {
+            "payeeName": {
+              "familyName1": "Dilorenza",
+              "givenName": "Sophia Dilorenza"
+            }
+          }
+        }
+      ],
+      "distributionStatusCode": {
+        "effectiveDate": "2022-04-07"
+      },
+      "payrollFileNumber": "5000"
+    }
+  ]
+}
