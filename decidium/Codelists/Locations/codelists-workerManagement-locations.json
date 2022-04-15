@@ -1,0 +1,54 @@
+{
+    "codeLists": [
+        {
+            "itemID": "locations",
+            "listItems": [
+                {
+                    "codeValue": "01002",
+                    "shortName": "ORION USINE LYON",
+                    "longName": "ORION USINE LYON"
+                },
+                {
+                    "codeValue": "01001",
+                    "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+                    "longName": "ORION SIEGE LEVALLOIS AFEAFE"
+                },
+                {
+                    "codeValue": "02003",
+                    "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                    "longName": "ORION CONSEIL LEVALLOIS TEST SUITE \" RAISON"
+                },
+                {
+                    "codeValue": "02004",
+                    "shortName": "ORION CONSEIL STRASBOURG",
+                    "longName": "ORION CONSEIL STRASBOURG"
+                },
+                {
+                    "codeValue": "02010",
+                    "shortName": "ORION CONSEIL PARIS",
+                    "longName": "ORION CONSEIL PARIS"
+                },
+                {
+                    "codeValue": "03005",
+                    "shortName": "ORION BANQUE",
+                    "longName": "ORION BANQUE"
+                },
+                {
+                    "codeValue": "04006",
+                    "shortName": "ORION USINE ROUEN",
+                    "longName": "ORION USINE ROUEN"
+                },
+                {
+                    "codeValue": "99005",
+                    "shortName": "VESINET",
+                    "longName": "VESINET"
+                },
+                {
+                    "codeValue": "22222",
+                    "shortName": "TEST OLC 1",
+                    "longName": "TEST OLC 1"
+                }
+            ]
+        }
+    ]
+}
