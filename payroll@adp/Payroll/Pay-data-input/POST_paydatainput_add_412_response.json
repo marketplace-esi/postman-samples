@@ -1,0 +1,35 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2022-04-05T09:23:09.437+02:00",
+        "protocolStatusCode": {
+            "codeValue": "412"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP/1.1"
+        },
+        "requestID": {
+            "idValue": "/events/payroll/v1/pay-data-input.add"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "sessionID": {
+            "idValue": "X-29e67e77-9f5f-4d50-9938-48657470985d"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "sourceLocationExpression": "com.adp.da.api.controllers.StandardArgumentsResolver.resolveArgument(StandardArgumentsResolver.java:55)",
+                "developerMessage": {
+                    "title": "PreconditionFailed",
+                    "messageTxt": "java.lang.IllegalStateException: roleCode header is required"
+                }
+            }
+        ]
+    }
+}
