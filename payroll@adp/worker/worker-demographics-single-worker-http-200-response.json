@@ -1,0 +1,112 @@
+{
+    "workers": [
+        {
+            "associateOID": "-2336373:17d7f650c16:-7ffb",
+            "workerID": {
+                "idValue": "00098"
+            },
+            "person": {
+                "foundPersonData": true,
+                "legalName": {
+                    "givenName": "BIANCHA",
+                    "familyName1": "ANGELA",
+                    "formattedName": "BIANCHA ANGELA",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "01",
+                                "longName": "ILLUSTRISSIMO"
+                            }
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "cityName": "SASSUOLO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "OPI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "41049"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "PERSONAL@EMAIL.CC"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "W",
+                    "shortName": "03",
+                    "longName": "VEDOVO/A"
+                },
+                "birthPlace": {
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "countryCode": "003"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2021-12-10",
+                "terminationDate": "2021-12-15"
+            },
+            "businessCommunication": {
+                "mobiles": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Mobile Phone"
+                        },
+                        "formattedNumber": "12346578915"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "PERSONAL@EMAIL.CC"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2021-12-10",
+                    "workerTypeCode": {
+                        "codeValue": "77",
+                        "longName": "LAV.MOB.T.D.TRASF."
+                    },
+                    "jobCode": {
+                        "codeValue": "416",
+                        "longName": "HELP DESK"
+                    },
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "451",
+                        "longName": "OPERAIO"
+                    }
+                }
+            ]
+        }
+    ]
+}
