@@ -1,0 +1,1936 @@
+{
+  "organizationJobs": [
+    {
+      "jobCode": {
+        "codeValue": "132"
+      },
+      "jobTitle": "SW DEVELOPER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "502"
+      },
+      "jobTitle": "LOG. IN COORD. AV"
+    },
+    {
+      "jobCode": {
+        "codeValue": "503"
+      },
+      "jobTitle": "ACCOUNTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "504"
+      },
+      "jobTitle": "FUNCTIONAL ANALYST"
+    },
+    {
+      "jobCode": {
+        "codeValue": "505"
+      },
+      "jobTitle": "ASS. MILL MAMAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "501"
+      },
+      "jobTitle": "MILL MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "101"
+      },
+      "jobTitle": "MGMT.ACCOUNTING SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "102"
+      },
+      "jobTitle": "CREDIT MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "103"
+      },
+      "jobTitle": "CREDIT COLLECTION CLERCK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "104"
+      },
+      "jobTitle": "CHIEF ACCOUNTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "105"
+      },
+      "jobTitle": "FINANCE & ADMIN. MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "106"
+      },
+      "jobTitle": "SR. BUYER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "107"
+      },
+      "jobTitle": "HR & LEGAL MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "108"
+      },
+      "jobTitle": "IT & ORG.MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "109"
+      },
+      "jobTitle": "SALES SUPPORT SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "110"
+      },
+      "jobTitle": "PRIVATE LABEL MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "111"
+      },
+      "jobTitle": "SALES ADMINISTRATION COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "112"
+      },
+      "jobTitle": "SALES MGR BRANDED"
+    },
+    {
+      "jobCode": {
+        "codeValue": "113"
+      },
+      "jobTitle": "SALES ADMIN CLERK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "114"
+      },
+      "jobTitle": "KEY ACCOUNT SR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "115"
+      },
+      "jobTitle": "NKAM"
+    },
+    {
+      "jobCode": {
+        "codeValue": "116"
+      },
+      "jobTitle": "BRAND MANAGER RETAIL"
+    },
+    {
+      "jobCode": {
+        "codeValue": "117"
+      },
+      "jobTitle": "AREA MANAGER RETAIL"
+    },
+    {
+      "jobCode": {
+        "codeValue": "118"
+      },
+      "jobTitle": "KEY ACCOUNT CONSUMER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "119"
+      },
+      "jobTitle": "AIR LAID SALES REPRES."
+    },
+    {
+      "jobCode": {
+        "codeValue": "11"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "120"
+      },
+      "jobTitle": "BRAND MANAGER AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "121"
+      },
+      "jobTitle": "SALES & MKTG RETAIL MGR."
+    },
+    {
+      "jobCode": {
+        "codeValue": "122"
+      },
+      "jobTitle": "AFH & AIR LAID MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "123"
+      },
+      "jobTitle": "TREASURY ACCOUNTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "124"
+      },
+      "jobTitle": "MD ASSISTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "125"
+      },
+      "jobTitle": "KEY ACCOUNT JR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "126"
+      },
+      "jobTitle": "JR BRAND MANAGER RETAIL"
+    },
+    {
+      "jobCode": {
+        "codeValue": "127"
+      },
+      "jobTitle": "AFH SALES ASSISTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "128"
+      },
+      "jobTitle": "AREA MANAGER AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "129"
+      },
+      "jobTitle": "KEY ACCOUNT AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "12"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "130"
+      },
+      "jobTitle": "JR NKAM"
+    },
+    {
+      "jobCode": {
+        "codeValue": "131"
+      },
+      "jobTitle": "GEN. SERVICES CLERCK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "133"
+      },
+      "jobTitle": "SALES ADMINISTRATION CLERK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "134"
+      },
+      "jobTitle": "INFR. & HELP DESK COORD"
+    },
+    {
+      "jobCode": {
+        "codeValue": "135"
+      },
+      "jobTitle": "MATERIAL MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "136"
+      },
+      "jobTitle": "JR BRAND MANAGER AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "13"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "15"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "16"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "201"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "203"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "204"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "206"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "208"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "210"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "2"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "301"
+      },
+      "jobTitle": "LAVORI VARI CONVERTING"
+    },
+    {
+      "jobCode": {
+        "codeValue": "302"
+      },
+      "jobTitle": "RIBOBINATRICE CELLI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "303"
+      },
+      "jobTitle": "LINEA TUTTO - CONFEZIONAMENTO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "304"
+      },
+      "jobTitle": "LINEA TUTTO - RIB. PERINI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "305"
+      },
+      "jobTitle": "RIBOBINATRICE GS 500"
+    },
+    {
+      "jobCode": {
+        "codeValue": "306"
+      },
+      "jobTitle": "RIBOBIN. GS500 - FORNO/ETICHETT."
+    },
+    {
+      "jobCode": {
+        "codeValue": "307"
+      },
+      "jobTitle": "OPERATORE TOVAGLIOLI CAS"
+    },
+    {
+      "jobCode": {
+        "codeValue": "308"
+      },
+      "jobTitle": "OPERATORE MULINI L.C."
+    },
+    {
+      "jobCode": {
+        "codeValue": "309"
+      },
+      "jobTitle": "LINEA TUTTO - ANIME"
+    },
+    {
+      "jobCode": {
+        "codeValue": "310"
+      },
+      "jobTitle": "GOFFRATORE"
+    },
+    {
+      "jobCode": {
+        "codeValue": "311"
+      },
+      "jobTitle": "POPE/CAB 2"
+    },
+    {
+      "jobCode": {
+        "codeValue": "312"
+      },
+      "jobTitle": "MATERIAL COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "313"
+      },
+      "jobTitle": "PAPERMAKING & CONV. COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "314"
+      },
+      "jobTitle": "PALLETTIZZATORE/ROBOT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "315"
+      },
+      "jobTitle": "MAGAZZINIERE IN/ACQUISTI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "316"
+      },
+      "jobTitle": "MAGAZZINIERE OUT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "317"
+      },
+      "jobTitle": "CARRELLISTA INTERNO LINEE/CELLI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "318"
+      },
+      "jobTitle": "MAINTENANCE COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "319"
+      },
+      "jobTitle": "PAYROLL & HR MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "320"
+      },
+      "jobTitle": "CAPO MACCHINA CONT."
+    },
+    {
+      "jobCode": {
+        "codeValue": "321"
+      },
+      "jobTitle": "RESP. LABOR. AVIG"
+    },
+    {
+      "jobCode": {
+        "codeValue": "322"
+      },
+      "jobTitle": "OPERAT."
+    },
+    {
+      "jobCode": {
+        "codeValue": "32"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "401"
+      },
+      "jobTitle": "MECH.MAINT.COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "402"
+      },
+      "jobTitle": "LOG.OUT COORD. CASTELNUOVO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "403"
+      },
+      "jobTitle": "ENGINEERING SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "404"
+      },
+      "jobTitle": "WAREHOUSE SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "405"
+      },
+      "jobTitle": "ASSISTANT CONVERTING MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "406"
+      },
+      "jobTitle": "CONVERTING MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "407"
+      },
+      "jobTitle": "HR MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "408"
+      },
+      "jobTitle": "ENGINEERING MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "409"
+      },
+      "jobTitle": "SAFETY MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "410"
+      },
+      "jobTitle": "PAPERMAKING COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "411"
+      },
+      "jobTitle": "ELECT. MAINT. COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "412"
+      },
+      "jobTitle": "ADD CAMBI FORMATO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "413"
+      },
+      "jobTitle": "PROD. PLANNER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "414"
+      },
+      "jobTitle": "LOGISTIC CLERK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "415"
+      },
+      "jobTitle": "CONTROLLER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "416"
+      },
+      "jobTitle": "HELP DESK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "417"
+      },
+      "jobTitle": "MACCHINISTA CONT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "418"
+      },
+      "jobTitle": "ADD. PULPER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "419"
+      },
+      "jobTitle": "AUSILIARIO CONT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "420"
+      },
+      "jobTitle": "RIBOBINA CONT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "421"
+      },
+      "jobTitle": "ADD. PULIZIE"
+    },
+    {
+      "jobCode": {
+        "codeValue": "422"
+      },
+      "jobTitle": "CONDUTTORE CONV"
+    },
+    {
+      "jobCode": {
+        "codeValue": "423"
+      },
+      "jobTitle": "CONF. CONV"
+    },
+    {
+      "jobCode": {
+        "codeValue": "424"
+      },
+      "jobTitle": "TUBIERISTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "425"
+      },
+      "jobTitle": "ADD. PALLETTIZZATORE"
+    },
+    {
+      "jobCode": {
+        "codeValue": "426"
+      },
+      "jobTitle": "ADD. LABORATORIO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "427"
+      },
+      "jobTitle": "PERSONNEL ADM. SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "450"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "451"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "452"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "453"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "454"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "455"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "456"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "457"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "458"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "459"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "508"
+      },
+      "jobTitle": "ELETTRICISTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "509"
+      },
+      "jobTitle": "ADD. MAG. RICAMBI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "50"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "510"
+      },
+      "jobTitle": "MECCANICO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "511"
+      },
+      "jobTitle": "CARRELLISTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "512"
+      },
+      "jobTitle": "ADD SERV GENERALI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "513"
+      },
+      "jobTitle": "ADD PORTINERIA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "53"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "54"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "55"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "58"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "59"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "602"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "603"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "604"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "606"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "60"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "61"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "62"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "63"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "64"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "65"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "701"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "808"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "811"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "821"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "506"
+      },
+      "jobTitle": "R. & D. MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "507"
+      },
+      "jobTitle": "TEAM LEADER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "822"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "823"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "824"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "825"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "826"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "827"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "828"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "829"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "830"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "831"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "852"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "912"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "921"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "931"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "951"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "952"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "961"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "981"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "998"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "999"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "506"
+      },
+      "jobTitle": "R. & D. MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "507"
+      },
+      "jobTitle": "TEAM LEADER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "508"
+      },
+      "jobTitle": "ELETTRICISTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "509"
+      },
+      "jobTitle": "ADD. MAG. RICAMBI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "50"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "510"
+      },
+      "jobTitle": "MECCANICO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "511"
+      },
+      "jobTitle": "CARRELLISTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "512"
+      },
+      "jobTitle": "ADD SERV GENERALI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "513"
+      },
+      "jobTitle": "ADD PORTINERIA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "53"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "54"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "55"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "58"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "59"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "602"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "603"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "604"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "606"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "60"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "61"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "62"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "63"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "64"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "65"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "701"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "808"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "811"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "821"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "822"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "823"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "824"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "825"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "826"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "827"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "828"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "829"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "830"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "831"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "852"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "912"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "921"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "931"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "951"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "952"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "961"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "981"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "998"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "999"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "133"
+      },
+      "jobTitle": "SALES ADMINISTRATION CLERK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "134"
+      },
+      "jobTitle": "INFR. & HELP DESK COORD"
+    },
+    {
+      "jobCode": {
+        "codeValue": "135"
+      },
+      "jobTitle": "MATERIAL MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "136"
+      },
+      "jobTitle": "JR BRAND MANAGER AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "13"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "15"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "16"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "201"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "203"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "204"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "206"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "208"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "210"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "2"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "301"
+      },
+      "jobTitle": "LAVORI VARI CONVERTING"
+    },
+    {
+      "jobCode": {
+        "codeValue": "302"
+      },
+      "jobTitle": "RIBOBINATRICE CELLI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "303"
+      },
+      "jobTitle": "LINEA TUTTO - CONFEZIONAMENTO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "304"
+      },
+      "jobTitle": "LINEA TUTTO - RIB. PERINI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "305"
+      },
+      "jobTitle": "RIBOBINATRICE GS 500"
+    },
+    {
+      "jobCode": {
+        "codeValue": "306"
+      },
+      "jobTitle": "RIBOBIN. GS500 - FORNO/ETICHETT."
+    },
+    {
+      "jobCode": {
+        "codeValue": "307"
+      },
+      "jobTitle": "OPERATORE TOVAGLIOLI CAS"
+    },
+    {
+      "jobCode": {
+        "codeValue": "308"
+      },
+      "jobTitle": "OPERATORE MULINI L.C."
+    },
+    {
+      "jobCode": {
+        "codeValue": "309"
+      },
+      "jobTitle": "LINEA TUTTO - ANIME"
+    },
+    {
+      "jobCode": {
+        "codeValue": "310"
+      },
+      "jobTitle": "GOFFRATORE"
+    },
+    {
+      "jobCode": {
+        "codeValue": "311"
+      },
+      "jobTitle": "POPE/CAB 2"
+    },
+    {
+      "jobCode": {
+        "codeValue": "312"
+      },
+      "jobTitle": "MATERIAL COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "313"
+      },
+      "jobTitle": "PAPERMAKING & CONV. COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "314"
+      },
+      "jobTitle": "PALLETTIZZATORE/ROBOT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "315"
+      },
+      "jobTitle": "MAGAZZINIERE IN/ACQUISTI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "316"
+      },
+      "jobTitle": "MAGAZZINIERE OUT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "317"
+      },
+      "jobTitle": "CARRELLISTA INTERNO LINEE/CELLI"
+    },
+    {
+      "jobCode": {
+        "codeValue": "318"
+      },
+      "jobTitle": "MAINTENANCE COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "319"
+      },
+      "jobTitle": "PAYROLL & HR MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "320"
+      },
+      "jobTitle": "CAPO MACCHINA CONT."
+    },
+    {
+      "jobCode": {
+        "codeValue": "321"
+      },
+      "jobTitle": "RESP. LABOR. AVIG"
+    },
+    {
+      "jobCode": {
+        "codeValue": "322"
+      },
+      "jobTitle": "OPERAT."
+    },
+    {
+      "jobCode": {
+        "codeValue": "32"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "401"
+      },
+      "jobTitle": "MECH.MAINT.COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "402"
+      },
+      "jobTitle": "LOG.OUT COORD. CASTELNUOVO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "403"
+      },
+      "jobTitle": "ENGINEERING SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "404"
+      },
+      "jobTitle": "WAREHOUSE SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "405"
+      },
+      "jobTitle": "ASSISTANT CONVERTING MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "406"
+      },
+      "jobTitle": "CONVERTING MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "407"
+      },
+      "jobTitle": "HR MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "408"
+      },
+      "jobTitle": "ENGINEERING MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "409"
+      },
+      "jobTitle": "SAFETY MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "410"
+      },
+      "jobTitle": "PAPERMAKING COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "411"
+      },
+      "jobTitle": "ELECT. MAINT. COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "412"
+      },
+      "jobTitle": "ADD CAMBI FORMATO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "413"
+      },
+      "jobTitle": "PROD. PLANNER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "414"
+      },
+      "jobTitle": "LOGISTIC CLERK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "415"
+      },
+      "jobTitle": "CONTROLLER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "416"
+      },
+      "jobTitle": "HELP DESK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "417"
+      },
+      "jobTitle": "MACCHINISTA CONT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "418"
+      },
+      "jobTitle": "ADD. PULPER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "419"
+      },
+      "jobTitle": "AUSILIARIO CONT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "420"
+      },
+      "jobTitle": "RIBOBINA CONT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "421"
+      },
+      "jobTitle": "ADD. PULIZIE"
+    },
+    {
+      "jobCode": {
+        "codeValue": "422"
+      },
+      "jobTitle": "CONDUTTORE CONV"
+    },
+    {
+      "jobCode": {
+        "codeValue": "423"
+      },
+      "jobTitle": "CONF. CONV"
+    },
+    {
+      "jobCode": {
+        "codeValue": "424"
+      },
+      "jobTitle": "TUBIERISTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "425"
+      },
+      "jobTitle": "ADD. PALLETTIZZATORE"
+    },
+    {
+      "jobCode": {
+        "codeValue": "426"
+      },
+      "jobTitle": "ADD. LABORATORIO"
+    },
+    {
+      "jobCode": {
+        "codeValue": "427"
+      },
+      "jobTitle": "PERSONNEL ADM. SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "450"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "451"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "452"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "453"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "454"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "455"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "456"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "457"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "458"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "459"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "501"
+      },
+      "jobTitle": "MILL MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "101"
+      },
+      "jobTitle": "MGMT.ACCOUNTING SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "102"
+      },
+      "jobTitle": "CREDIT MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "103"
+      },
+      "jobTitle": "CREDIT COLLECTION CLERCK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "104"
+      },
+      "jobTitle": "CHIEF ACCOUNTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "105"
+      },
+      "jobTitle": "FINANCE & ADMIN. MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "106"
+      },
+      "jobTitle": "SR. BUYER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "107"
+      },
+      "jobTitle": "HR & LEGAL MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "108"
+      },
+      "jobTitle": "IT & ORG.MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "109"
+      },
+      "jobTitle": "SALES SUPPORT SP."
+    },
+    {
+      "jobCode": {
+        "codeValue": "110"
+      },
+      "jobTitle": "PRIVATE LABEL MANAGER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "111"
+      },
+      "jobTitle": "SALES ADMINISTRATION COORD."
+    },
+    {
+      "jobCode": {
+        "codeValue": "112"
+      },
+      "jobTitle": "SALES MGR BRANDED"
+    },
+    {
+      "jobCode": {
+        "codeValue": "113"
+      },
+      "jobTitle": "SALES ADMIN CLERK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "114"
+      },
+      "jobTitle": "KEY ACCOUNT SR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "115"
+      },
+      "jobTitle": "NKAM"
+    },
+    {
+      "jobCode": {
+        "codeValue": "116"
+      },
+      "jobTitle": "BRAND MANAGER RETAIL"
+    },
+    {
+      "jobCode": {
+        "codeValue": "117"
+      },
+      "jobTitle": "AREA MANAGER RETAIL"
+    },
+    {
+      "jobCode": {
+        "codeValue": "118"
+      },
+      "jobTitle": "KEY ACCOUNT CONSUMER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "119"
+      },
+      "jobTitle": "AIR LAID SALES REPRES."
+    },
+    {
+      "jobCode": {
+        "codeValue": "11"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "120"
+      },
+      "jobTitle": "BRAND MANAGER AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "121"
+      },
+      "jobTitle": "SALES & MKTG RETAIL MGR."
+    },
+    {
+      "jobCode": {
+        "codeValue": "122"
+      },
+      "jobTitle": "AFH & AIR LAID MGR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "123"
+      },
+      "jobTitle": "TREASURY ACCOUNTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "124"
+      },
+      "jobTitle": "MD ASSISTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "125"
+      },
+      "jobTitle": "KEY ACCOUNT JR"
+    },
+    {
+      "jobCode": {
+        "codeValue": "126"
+      },
+      "jobTitle": "JR BRAND MANAGER RETAIL"
+    },
+    {
+      "jobCode": {
+        "codeValue": "127"
+      },
+      "jobTitle": "AFH SALES ASSISTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "128"
+      },
+      "jobTitle": "AREA MANAGER AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "129"
+      },
+      "jobTitle": "KEY ACCOUNT AFH"
+    },
+    {
+      "jobCode": {
+        "codeValue": "12"
+      },
+      "jobTitle": "VUOTA"
+    },
+    {
+      "jobCode": {
+        "codeValue": "130"
+      },
+      "jobTitle": "JR NKAM"
+    },
+    {
+      "jobCode": {
+        "codeValue": "131"
+      },
+      "jobTitle": "GEN. SERVICES CLERCK"
+    },
+    {
+      "jobCode": {
+        "codeValue": "132"
+      },
+      "jobTitle": "SW DEVELOPER"
+    },
+    {
+      "jobCode": {
+        "codeValue": "502"
+      },
+      "jobTitle": "LOG. IN COORD. AV"
+    },
+    {
+      "jobCode": {
+        "codeValue": "503"
+      },
+      "jobTitle": "ACCOUNTANT"
+    },
+    {
+      "jobCode": {
+        "codeValue": "504"
+      },
+      "jobTitle": "FUNCTIONAL ANALYST"
+    },
+    {
+      "jobCode": {
+        "codeValue": "505"
+      },
+      "jobTitle": "ASS. MILL MAMAGER"
+    }
+  ]
+}
