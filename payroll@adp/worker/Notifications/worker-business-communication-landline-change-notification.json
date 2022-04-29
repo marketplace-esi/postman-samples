@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "eventID": "61e1392d2cae7e225c493008",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.landline.change"
+      },
+      "recordDateTime": "2022-04-05T15:35:00Z",
+      "effectiveDateTime": "2022-04-05T15:34:59Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "18519b11:17dbea263ca:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "landline": {
+                "nameCode": {
+                  "longName": "Business Landline"
+                },
+                "formattedNumber": "08050237452"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

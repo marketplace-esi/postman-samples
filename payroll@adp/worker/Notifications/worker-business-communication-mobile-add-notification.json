@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "eventID": "6218d73de1652218375e1ce6",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.mobile.add"
+      },
+      "recordDateTime": "2022-03-16T09:27:37Z",
+      "effectiveDateTime": "2022-03-16T09:27:37Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-2336373:17d7f650c16:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "mobile": {
+                "nameCode": {
+                  "longName": "Business Communication"
+                },
+                "formattedNumber": "12346578915"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

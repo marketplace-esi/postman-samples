@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "eventID": "61dec4012cae7ee05a492f81",
+      "eventNameCode": {
+        "codeValue": "worker.terminate"
+      },
+      "recordDateTime": "2022-01-12T13:04:41Z",
+      "effectiveDateTime": "2022-01-12T13:04:40Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-5bc78c7c:17d9f8a4fe2:-7ff9"
+          }
+        },
+        "output": {
+          "worker": {
+            "workerDates": {
+              "terminationDate": "2022-01-28"
+            },
+            "workerStatus": {
+              "reasonCode": {
+                "codeValue": "DI",
+                "longName": "DIMISSIONI"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
