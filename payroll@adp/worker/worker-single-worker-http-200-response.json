@@ -1,0 +1,100 @@
+{
+  "workers": [
+    {
+      "associateOID": "ac4d3b:13c15815125:-7ffc",
+      "workerID": {
+        "idValue": "00088"
+      },
+      "person": {
+        "governmentIDs": [
+          {
+            "idValue": "MRSMRC71H30I441B",
+            "nameCode": {
+              "longName": "Codice Fiscale"
+            }
+          }
+        ],
+        "legalName": {
+          "givenName": "MARCO",
+          "familyName1": "MORASSUTTO",
+          "formattedName": "MARCO MORASSUTTO"
+        },
+        "birthDate": "1971-06-30",
+        "communication": {
+          "mobiles": [
+            {
+              "nameCode": {
+                "longName": "Personal Mobile"
+              },
+              "formattedNumber": "2314"
+            }
+          ],
+          "emails": [
+            {
+              "nameCode": {
+                "longName": "Personal Email"
+              },
+              "emailUri": "PERSONAL@EMAIL.CC"
+            }
+          ]
+        },
+        "genderCode": {
+          "codeValue": "Male",
+          "shortName": "M",
+          "longName": "MASCHIO"
+        },
+        "birthPlace": {
+          "cityName": "MRSMRC71H30I441G",
+          "countrySubdivisionLevel1": {
+            "codeValue": "VA",
+            "subdivisionType": "provincia"
+          }
+        },
+        "citizenshipCountryCodes": [
+          {
+            "codeValue": "000",
+            "longName": "ITALIA"
+          }
+        ]
+      },
+      "workerDates": {
+        "originalHireDate": "2011-07-01"
+      },
+      "workerStatus": {
+        "statusCode": {
+          "codeValue": "3",
+          "longName": "Attivo"
+        },
+        "reasonCode": {
+          "codeValue": "01",
+          "longName": "ASSUNZIONE"
+        }
+      },
+      "businessCommunication": {
+        "emails": [
+          {
+            "nameCode": {
+              "longName": "Business Email"
+            },
+            "emailUri": "TESTBUSINESS@ADP.COM"
+          }
+        ]
+      },
+      "workAssignments": [
+        {
+          "actualStartDate": "2011-07-01",
+          "homeWorkLocation": {
+            "nameCode": {
+              "codeValue": "001",
+              "longName": "DITTA  619"
+            }
+          },
+          "payScaleCode": {
+            "codeValue": "100",
+            "longName": "DIRIGENTE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+    "workers": [
+        {
+            "associateOID": "-102fbd22:160dfb760d9:-7ffb",
+            "workerID": {
+                "idValue": "06057"
+            },
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PLABNR93S10Z131P",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "BERNARDO",
+                    "familyName1": "PAOL",
+                    "formattedName": "BERNARDO PAOL"
+                },
+                "birthDate": "1993-11-10",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MADRID",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MAD",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-06-01"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-06-01",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "210",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13d4bd1d:17de11dffde:-7ffb",
+            "workerID": {
+                "idValue": "00885"
+            },
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "BQRGTV96H28L736U",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "GUSTAVO",
+                    "familyName1": "BEQUER",
+                    "formattedName": "GUSTAVO BEQUER"
+                },
+                "birthDate": "1996-06-28",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "VENEZIA"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2021-12-23",
+                "terminationDate": "2022-01-19"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "4",
+                    "longName": "In Cessazione"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2021-12-23",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "100",
+                        "longName": "DIRIGENTE"
+                    }
+                }
+            ]
+        }
+    ]
+}

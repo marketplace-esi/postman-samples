@@ -1,0 +1,172 @@
+{
+    "workers": [
+        {
+            "associateOID": "-102fbd22:160dfb760d9:-7ffb",
+            "workerID": {
+                "idValue": "06057"
+            },
+            "person": {
+                "foundPersonData": true,
+                "legalName": {
+                    "givenName": "BERNARDO",
+                    "familyName1": "PAOL",
+                    "formattedName": "BERNARDO PAOL"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "MADRID",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MAD",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-06-01"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-06-01",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "210",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13d4bd1d:17de11dffde:-7ffb",
+            "workerID": {
+                "idValue": "00885"
+            },
+            "person": {
+                "foundPersonData": true,
+                "legalName": {
+                    "givenName": "GUSTAVO",
+                    "familyName1": "BEQUER",
+                    "formattedName": "GUSTAVO BEQUER"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "VENEZIA"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2021-12-23",
+                "terminationDate": "2022-01-19"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2021-12-23",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "100",
+                        "longName": "DIRIGENTE"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-15349846:134611fce7d:-7ded",
+            "workerID": {
+                "idValue": "04137"
+            },
+            "person": {
+                "foundPersonData": true,
+                "legalName": {
+                    "givenName": "CHEVROLET",
+                    "familyName1": "BARBY",
+                    "formattedName": "CHEVROLET BARBY"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "YYYYYYA@IT.ADP.COM"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "TAVAZZANO CON VILLAVESCO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "LO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2011-06-22",
+                "terminationDate": "2013-04-20"
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "ADSA@ADP.COM"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2011-06-22",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        }
+    ]
+}
