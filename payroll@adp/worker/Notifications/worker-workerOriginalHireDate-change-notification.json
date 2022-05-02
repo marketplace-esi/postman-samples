@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "eventID": "61d5cbc82cae7e244b492dec",
+      "eventNameCode": {
+        "codeValue": "worker.workerOriginalHireDate.change"
+      },
+      "recordDateTime": "2021-12-14T12:29:26Z",
+      "effectiveDateTime": "2021-12-14T12:29:24Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-2336373:17d7f650c16:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "workerDates": {
+              "originalHireDate": "2021-12-10"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

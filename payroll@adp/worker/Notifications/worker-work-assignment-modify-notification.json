@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "eventID": "6220ee24e1652235535e1f04",
+      "eventNameCode": {
+        "codeValue": "worker.work-assignment.modify"
+      },
+      "recordDateTime": "2022-04-06T10:14:20Z",
+      "effectiveDateTime": "2022-04-06T10:14:20Z",
+      "data": {
+        "eventContext": {
+          "associateOID": "6f19d5:1307024ae4c:-7fdf"
+        },
+        "output": {
+          "worker": {
+            "workAssignment": {
+              "hireDate": "2008-01-01",
+              "actualStartDate": "2008-01-01",
+              "assignmentStatus": {
+                "statusCode": {
+                  "codeValue": "3",
+                  "shortName": "A",
+                  "longName": "Annullato"
+                },
+                "reasonCode": {
+                  "codeValue": "03",
+                  "longName": "SOSTITUZ. MATERNITA'"
+                }
+              },
+              "assignmentCostCenters": [
+                {
+                  "costCenterID": "CENTRO COSTO",
+                  "costCenterName": "TEST"
+                }
+              ],
+              "workerTypeCode": {
+                "codeValue": "51",
+                "longName": "LAV.USA NO IVS GAR"
+              },
+              "jobCode": {
+                "codeValue": "108",
+                "longName": "IT & ORG.MGR"
+              },
+              "homeOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "CODE ORG",
+                    "longName": "CODE ORG"
+                  },
+                  "itemID": "departmentId"
+                }
+              ],
+              "homeWorkLocation": {
+                "nameCode": {
+                  "codeValue": "001",
+                  "longName": "DITTA  619"
+                }
+              },
+              "payScaleCode": {
+                "codeValue": "210",
+                "longName": "IMPIEGATO AS NON SOGG. INAIL"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

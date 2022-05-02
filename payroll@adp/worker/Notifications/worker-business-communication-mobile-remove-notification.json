@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "eventID": "6220c58fe1652221085e1ecf",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.mobile.remove"
+      },
+      "recordDateTime": "2022-03-03T14:41:33Z",
+      "effectiveDateTime": "2022-03-03T14:41:33Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-232293d2:17e48ac218b:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "mobile": {}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

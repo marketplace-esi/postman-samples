@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "eventID": "61deb64c2cae7e53a5492f66",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.email.add"
+      },
+      "recordDateTime": "2022-04-29T15:45:20Z",
+      "effectiveDateTime": "2022-04-29T15:45:20Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-6ed8326d:17e4dbdff5a:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "email": {
+                "emailUri": "TEST@EMAIL.COM"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
