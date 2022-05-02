@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "eventID": "6216226ee1652278fc5e1bf7",
+      "eventNameCode": {
+        "codeValue": "worker.maritalStatus.change"
+      },
+      "recordDateTime": "2022-04-06T12:03:36Z",
+      "effectiveDateTime": "2022-04-06T12:03:36Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-2336373:17d7f650c16:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "maritalStatusCode": {
+                "codeValue": "W",
+                "shortName": "03",
+                "longName": "VEDOVO/A"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

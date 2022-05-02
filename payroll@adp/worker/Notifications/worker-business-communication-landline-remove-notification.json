@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "eventID": "6220c4b5e16522dd435e1ecb",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.landline.remove"
+      },
+      "recordDateTime": "2022-03-03T14:37:55Z",
+      "effectiveDateTime": "2022-03-03T14:37:54Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-232293d2:17e48ac218b:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "landline": {}
+            }
+          }
+        }
+      }
+    }
+  ]
+}
