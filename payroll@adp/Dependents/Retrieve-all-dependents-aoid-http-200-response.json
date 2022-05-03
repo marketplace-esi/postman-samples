@@ -1,1 +1,53 @@
-
+{
+    "dependents": [
+        {
+            "relationshipTypeCode": {
+                "codeValue": "AF",
+                "longName": "ALTRO FAMILIARE"
+            },
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "LZZGNN19A01A662X"
+                    }
+                ],
+                "birthDate": "2019-01-01",
+                "disabledIndicator": true
+            },
+            "benefitEligibilityPeriod": {
+                "startDateTime": "2021-12-15T00:00:00+01:00",
+                "endDateTime": "2023-04-20T00:00:00+02:00"
+            }
+        },
+        {
+            "relationshipTypeCode": {
+                "codeValue": "FG",
+                "longName": "FIGLIO"
+            },
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "LRNSPH20A41F205Y"
+                    }
+                ],
+                "birthDate": "2020-01-01",
+                "disabledIndicator": false
+            }
+        },
+        {
+            "relationshipTypeCode": {
+                "codeValue": "FG",
+                "longName": "FIGLIO"
+            },
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GRMNLN65M41F205P"
+                    }
+                ],
+                "birthDate": "1965-08-01",
+                "disabledIndicator": false
+            }
+        }
+    ]
+}
