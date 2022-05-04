@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "1cb5b18:13774ba5caf:-7ffe"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "legalAddress": {
+                "lineOne": "TEST STR",
+                "cityName": "CAGNO",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "TN",
+                  "subdivisionType": "provincia"
+                },
+                "postalCode": "38028",
+                "countrySubdivisionLevel2": {
+                  "codeValue": "B360",
+                  "subdivisionType": "comune"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
