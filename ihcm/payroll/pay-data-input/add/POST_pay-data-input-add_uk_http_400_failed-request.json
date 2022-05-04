@@ -1,0 +1,71 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext":{
+                    "payrollRegionCode": {
+                        "codeValue": "GB"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "PG9999"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs":[
+                            {
+                                "associateOID": "AOID001",
+                                "payPeriodStartDate": "2021-03-01",
+                                "payPeriodEndDate": "2021-03-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "OVT2_0"
+                                                        },
+                                                        "numberOfHours": 10.00,
+                                                        "rate": {
+                                                            "rateValue": 20.00
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2021-03-15"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "associateOID": "AOID002",
+                                "payPeriodStartDate": "2021-03-01",
+                                "payPeriodEndDate": "2021-03-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "RETENTION"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 2000.00
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2021-03-13"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
