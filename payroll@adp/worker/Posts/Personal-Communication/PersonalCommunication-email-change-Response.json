@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "ac4d3b:13c15815125:-7ffc"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "communication": {
+                "email": {
+                  "nameCode": {
+                    "longName": "Personal Email"
+                  },
+                  "emailUri": "personal@email.ac",
+                  "itemID": "1"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "associateOID": "6f19d5:1307024ae4c:-7fdf"
+        },
+        "output": {
+          "worker": {
+            "workAssignment": {
+              "hireDate": "2008-02-01",
+              "assignmentCostCenters": [
+                {
+                  "costCenterID": "CENTRO COSTO",
+                  "costCenterName": "TEST"
+                }
+              ],
+              "workerTypeCode": {
+                "codeValue": "51"
+              },
+              "jobCode": {
+                "codeValue": "104"
+              },
+              "homeOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "Code org",
+                    "longName": "Code org"
+                  }
+                }
+              ],
+              "homeWorkLocation": {
+                "nameCode": {
+                  "codeValue": "001"
+                }
+              },
+              "payScaleCode": {
+                "codeValue": "210"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
