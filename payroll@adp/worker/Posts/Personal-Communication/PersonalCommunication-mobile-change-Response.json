@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "6f19d5:1307024ae4c:-7fdf"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "communication": {
+                "mobile": {
+                  "nameCode": {
+                    "longName": "Personal Mobile"
+                  },
+                  "formattedNumber": "1234657893",
+                  "itemID": "1"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

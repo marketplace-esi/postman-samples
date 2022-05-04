@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "1cb5b18:13774ba5caf:-7ffe"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "personalAddress": {
+                "lineOne": "CHANGE PERSONAL ADDRESS STR",
+                "cityName": "CALLIANO",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "AT",
+                  "subdivisionType": "provincia"
+                },
+                "postalCode": "14031",
+                "countrySubdivisionLevel2": {
+                  "codeValue": "B418",
+                  "subdivisionType": "comune"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "6f19d5:1307024ae4c:-7fdf"
+          }
+        },
+        "transform": {
+          "worker": {
+            "businessCommunication": {
+              "landline": {
+                "formattedNumber": "0805027456"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

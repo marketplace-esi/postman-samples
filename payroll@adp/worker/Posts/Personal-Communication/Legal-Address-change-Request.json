@@ -1,0 +1,27 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "1cb5b18:13774ba5caf:-7ffe"
+          }
+        },
+        "transform": {
+          "worker": {
+            "person": {
+              "legalAddress": {
+                "lineOne": "Test Str",
+                "postalCode": "38028",
+                "cityName": "cagno",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "tn"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
