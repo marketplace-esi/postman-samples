@@ -1,63 +1,63 @@
 {
     "events": [
         {
-            "eventID": "6221bc5be165220b395e1f1d",
-            "eventNameCode": {
-                "codeValue": "worker.workAssignment.terminate"
-            },
-            "recordDateTime": "2021-03-18T17:36:12+01:00",
-            "effectiveDateTime": "2021-03-02T00:00:00+01:00",
             "data": {
-                "eventContext": {
-                    "worker": {
-                        "associateOID": "ppedroa-mp2",
-                        "workerID": {
-                            "idValue": "99999999"
-                        },
-                        "workAssignment": {
-                            "itemID": "A0001299|2020-02-13"
-                        }
-                    }
-                },
                 "output": {
                     "worker": {
-                        "workAssignment": {
-                            "terminationDate": "2021-03-02"
-                        },
-                        "workerDates": {
-                            "terminationDate": "2021-03-02",
-                            "originalHireDate": "021-03-02"
-                        },
-                        "workAssignment": {
-                            "itemID": "A0001299|2020-02-13",
-                            "terminationReasonCode": {
-                                "shortName": "MU",
-                                "codeValue": "MU"
+                        "workerStatus": {
+                            "statusCode": {
+                                "shortName": "INACTIVE",
+                                "codeValue": "INACTIVE"
                             },
+                            "effectiveDate": "2022-04-30"
+                        },
+                        "workAssignment": {
+                            "itemID": "A1234849|2022-04-28",
+                            "terminationReasonCode": {
+                                "shortName": "Fin de CDD",
+                                "codeValue": "FD"
+                            },
+                            "expectedTerminationDate": "2022-04-30",
+                            "terminationDate": "2022-04-30",
                             "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "itemID": "terminationReason",
+                                        "stringValue": "FD"
+                                    }
+                                ],
                                 "codeFields": [
                                     {
                                         "itemID": "expectedRehireType",
                                         "codeValue": "02"
                                     }
-                                ],
-                                "dateFields": [
-                                    {
-                                        "itemID": "lastPayedDay",
-                                        "dateValue": "2021-03-02"
-                                    },
-                                    {
-                                        "itemID": "terminationNotificationDate",
-                                        "dateValue": "2021-03-02"
-                                    }
                                 ]
-                            },
-                            "terminationDate": "2021-03-02",
-                            "expectedTerminationDate": "2021-03-02"
+                            }
+                        },
+                        "workerDates": {
+                            "terminationDate": "2022-04-30",
+                            "originalHireDate": "2022-04-28"
+                        }
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pppt4-3pj",
+                        "workerID": {
+                            "idValue": "99994557"
+                        },
+                        "workAssignment": {
+                            "itemID": "A1234849|2022-04-28"
                         }
                     }
                 }
-            }
+            },
+            "recordDateTime": "2022-04-28T15:11:19+02:00",
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.terminate"
+            },
+            "eventID": "626a94c12d04af3baf18f272",
+            "effectiveDateTime": "2022-04-30T00:00:00+02:00"
         }
     ]
 }
