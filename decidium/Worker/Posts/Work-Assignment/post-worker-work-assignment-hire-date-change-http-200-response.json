@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2",
+                        "workAssignment": {
+                            "itemID": "A1234803|2022-04-30",
+                            "hireDate": "2022-04-30"
+                        }
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2",
+                        "workAssignment": {
+                            "itemID": "A1234803|2022-04-25"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2022-05-11T15:33:51.075+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        }
+    }
+}
