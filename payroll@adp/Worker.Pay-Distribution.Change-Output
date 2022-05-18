@@ -1,0 +1,43 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "6f19d5:1307024ae4c:-7e87"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "6f19d5:1307024ae4c:-7e87"
+                    },
+                    "payDistribution": {
+                        "distributionInstructions": [
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "B",
+                                    "longName": "ASSEGNO BANCARIO"
+                                },
+                                "instructionStatusCode": {
+                                    "codeValue": "S"
+                                },
+                                "depositAccount": {
+                                    "accountID": {
+                                        "idValue": "DESCRIZIONE IN SOSTITUZIONE DATI"
+                                    },
+                                    "IBAN": "IT60X0542811101000000123456"
+                                },
+                                "payee": {
+                                    "payeeName": {
+                                        "formattedName": "000000123456"
+                                    }
+                                },
+                                "itemID": "1"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
