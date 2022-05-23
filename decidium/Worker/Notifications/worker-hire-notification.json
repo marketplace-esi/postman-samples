@@ -47,14 +47,8 @@
                             "birthDate": "1979-09-19",
                             "legalAddress": {
                                 "cityName": "NANTES",
-                                "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
-                                "countrySubdivisionLevel2": {
-                                    "codeValue": "",
-                                    "longName": "",
-                                    "subdivisionType": ""
-                                }
+                                "buildingNumber": "1",
+                                "buildingNumberExtension": "B"
                             },
                             "deceasedIndicator": false,
                             "genderCode": {
