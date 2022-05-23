@@ -1,0 +1,84 @@
+{
+    "events": [
+        {
+            "eventID": "18181818181818",
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "recordDateTime": "2022-05-05T00:00:00+02:00",
+            "effectiveDateTime": "2022-05-05T00:00:00+02:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "3df24a3a:17db994e85f:-7ffb"
+                    }
+                },
+                "output": {
+                    "payDistribution": {
+                        "distributionInstructions": [
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "B",
+                                    "longName": "ASSEGNO BANCARIO"
+                                },
+                                "instructionStatusCode": {
+                                    "codeValue": "S"
+                                },
+                                "depositAccount": {
+                                    "accountID": {
+                                        "idValue": "DESCRIZIONE IN SOSTITUZIONE DATI"
+                                    },
+                                    "IBAN": "IT60X0542811101000000123456"
+                                },
+                                "payee": {
+                                    "payeeName": {
+                                        "formattedName": "000000123456"
+                                    }
+                                },
+                                "itemID": "1"
+                            },
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "B",
+                                    "longName": "ASSEGNO BANCARIO"
+                                },
+                                "instructionStatusCode": {
+                                    "codeValue": "S"
+                                },
+                                "depositAccount": {
+                                    "accountID": {
+                                        "idValue": "DESCRIZIONE IN SOSTITUZIONE DATI"
+                                    },
+                                    "IBAN": "IT60X0542811101000000123456"
+                                },
+                                "payee": {
+                                    "payeeName": {
+                                        "formattedName": "000000123456"
+                                    }
+                                },
+                                "itemID": "2"
+                            },
+                            {
+                                "paymentMethodCode": {
+                                    "codeValue": "B",
+                                    "longName": "ASSEGNO BANCARIO"
+                                },
+                                "instructionStatusCode": {},
+                                "depositAccount": {
+                                    "accountID": {},
+                                    "IBAN": "IT60X0542811101000000123456"
+                                },
+                                "payee": {
+                                    "payeeName": {
+                                        "formattedName": "000000123456"
+                                    }
+                                },
+                                "itemID": "3"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
