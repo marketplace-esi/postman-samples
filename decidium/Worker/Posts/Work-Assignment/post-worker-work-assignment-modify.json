@@ -1,0 +1,74 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "effectiveDateTime": "2020-01-04T00:00:00Z",
+            "workAssignment": {
+                    "jobCode": {
+                            "codeValue": "EMPL1"
+                    },
+                    "workArrangementCode": {
+                        "codeValue": "900"
+                    },
+                    "assignedWorkLocations": [
+                        {
+                            "nameCode": {
+                                "codeValue": "02010"
+                            }
+                        }
+                    ],
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "itemID": "collaborationType",
+                                "longName": "Salarié",
+                                "codeValue": "SAL"
+                            },
+                            {
+                                "itemID": "contractType",
+                                "longName": "CDI",
+                                "codeValue": "00"
+                            },
+                            {
+                                "itemID": "activity",
+                                "longName": "ORION CONSEIL",
+                                "codeValue": "02"
+                            },
+                            {
+                                "itemID": "remunerationType",
+                                "longName": "Base mensuelle",
+                                "codeValue": "B"
+                            },
+                            {
+                                "itemID": "workSchedule",
+                                "longName": "Temps partiel 31.50H/5J",
+                                "codeValue": "412"
+                            }
+                        ]
+                    },
+                    "workerTypeCode": {
+                        "longName": "CDI",
+                        "codeValue": "00"
+                    },
+                    "legalEntityID": "02",
+                    "workerGroups": [
+                        {
+                            "groupCode": {
+                                "codeValue": "00"
+                            }
+                        }
+                    ]
+                }
+                },
+                "eventContext": {
+                    "workAssignmentID": "201904",
+                    "associateOID": "clemon-mp3",
+                        "workerID": {
+                            "idValue": "99990863"
+                        }
+                }
+            }
+        }
+    ]
+}
