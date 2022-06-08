@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "eventID": "623a0c55e16522ce4d5e2650",
+      "eventNameCode": {
+        "codeValue": "worker.personalCommunication.mobile.remove"
+      },
+      "recordDateTime": "2022-04-29T15:56:05Z",
+      "effectiveDateTime": "2022-04-29T15:56:05Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-2336373:17d7f650c16:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "communication": {
+                "mobile": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

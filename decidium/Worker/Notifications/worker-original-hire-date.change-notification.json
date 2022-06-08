@@ -1,0 +1,29 @@
+{
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "mnotifmp-9pc",
+						"workerID": {
+							"idValue": "A1234861|2022-04-30"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerDates": {
+							"originalHireDate": "2022-05-02"
+						}
+					}
+				}
+			},
+			"recordDateTime": "2022-05-10T17:32:33+02:00",
+			"effectiveDateTime": "2022-05-02T00:00:00+02:00",
+			"eventNameCode": {
+				"codeValue": "worker.workerOriginalHireDate.change"
+			},
+			"eventID": "627bc7672d04afb20018f6e2"
+		}
+	]
+}

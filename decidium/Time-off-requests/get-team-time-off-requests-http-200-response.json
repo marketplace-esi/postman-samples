@@ -40,7 +40,8 @@
                 }
             ],
             "actions": [],
-            "associateOID": "pcol01i4006-zsc"
+            "associateOID": "pcol01i4006-zsc",
+            "workAssignmentID": "00000010"
         },
         {
             "timeOffRequestID": "6573730000358350031",
@@ -74,7 +75,8 @@
                 }
             ],
             "actions": [],
-            "associateOID": "pcol01i4006-zsc"
+            "associateOID": "pcol01i4006-zsc",
+            "workAssignmentID": "00000010"
         },
         {
             "timeOffRequestID": "D997880|6573730000358350016",
@@ -117,6 +119,7 @@
             ],
             "actions": [],
             "associateOID": "pcol01i4006-zsc",
+            "workAssignmentID": "00000010",
             "comments": [
                 {
                     "textValue": "AFE commentaire",

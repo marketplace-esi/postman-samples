@@ -1,0 +1,39 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1",
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "REDON",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "35"
+                                },
+                                "postalCode": "35600",
+                                "countryCode": "FR",
+                                "formattedBirthPlace": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-18T15:52:21.382+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}

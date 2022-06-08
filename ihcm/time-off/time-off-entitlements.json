@@ -1,0 +1,176 @@
+{
+    "workerTimeOffEntitlements": [
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "balanceAsOfDate": "2022-03-09",
+            "entitlementPeriod": {
+                "endDate": "2022-12-31",
+                "startDate": "2022-01-01"
+            },
+            "itemID": "2be3e545-6901-4b16-b652-06d1562e29d6",
+            "timeOffEntitlements": [
+                {
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 25.0,
+                                "timeUnitCode": {
+                                    "code": "Days",
+                                    "name": "Days"
+                                }
+                            },
+                            "entitledQuantity": {
+                                "quantity": 25.0,
+                                "timeUnitCode": {
+                                    "code": "Days",
+                                    "name": "Days"
+                                }
+                            },
+                            "entitlementTypeCode": {
+                                "code": "Daily Entitlement",
+                                "name": "Daily Entitlement"
+                            },
+                            "expirationDateTime": "2023-01-31T23:59:00+00:00"
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "code": "Annual Leave Days",
+                        "name": "Annual Leave Days"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 33.4308,
+                        "timeUnitCode": {
+                            "code": "Days",
+                            "name": "Days"
+                        }
+                    },
+                    "totalEntitledQuantity": {
+                        "quantity": 36.4308,
+                        "timeUnitCode": {
+                            "code": "Days",
+                            "name": "Days"
+                        }
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "balanceAsOfDate": "2022-03-09",
+            "entitlementPeriod": {
+                "endDate": "2022-12-31",
+                "startDate": "2022-01-01"
+            },
+            "itemID": "2be3e545-6901-4b16-b652-06d1562e29d6",
+            "timeOffEntitlements": [
+                {
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 0.4308,
+                                "timeUnitCode": {
+                                    "code": "Days",
+                                    "name": "Days"
+                                }
+                            },
+                            "entitledQuantity": {
+                                "quantity": 0.4308,
+                                "timeUnitCode": {
+                                    "code": "Days",
+                                    "name": "Days"
+                                }
+                            },
+                            "entitlementTypeCode": {
+                                "code": "Daily Entitlement",
+                                "name": "Daily Entitlement"
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "code": "Annual Leave Days",
+                        "name": "Annual Leave Days"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 33.4308,
+                        "timeUnitCode": {
+                            "code": "Days",
+                            "name": "Days"
+                        }
+                    },
+                    "totalEntitledQuantity": {
+                        "quantity": 36.4308,
+                        "timeUnitCode": {
+                            "code": "Days",
+                            "name": "Days"
+                        }
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName": "Mistry",
+                "givenName": "Jonathon"
+            }
+        },
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "balanceAsOfDate": "2022-03-09",
+            "entitlementPeriod": {
+                "endDate": "2022-12-31",
+                "startDate": "2022-01-01"
+            },
+            "itemID": "2be3e545-6901-4b16-b652-06d1562e29d6",
+            "timeOffEntitlements": [
+                {
+                    "entitlements": [
+                        {
+                            "balanceQuantity": {
+                                "quantity": 8.0,
+                                "timeUnitCode": {
+                                    "code": "Days",
+                                    "name": "Days"
+                                }
+                            },
+                            "entitledQuantity": {
+                                "quantity": 8.0,
+                                "timeUnitCode": {
+                                    "code": "Days",
+                                    "name": "Days"
+                                }
+                            },
+                            "entitlementTypeCode": {
+                                "code": "Daily Entitlement",
+                                "name": "Daily Entitlement"
+                            }
+                        }
+                    ],
+                    "timeOffPolicyCode": {
+                        "code": "Annual Leave Days",
+                        "name": "Annual Leave Days"
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 33.4308,
+                        "timeUnitCode": {
+                            "code": "Days",
+                            "name": "Days"
+                        }
+                    },
+                    "totalEntitledQuantity": {
+                        "quantity": 36.4308,
+                        "timeUnitCode": {
+                            "code": "Days",
+                            "name": "Days"
+                        }
+                    }
+                }
+            ],
+            "workerName": {
+                "familyName": "Mistry",
+                "givenName": "Jonathon"
+            }
+        }
+    ]
+}

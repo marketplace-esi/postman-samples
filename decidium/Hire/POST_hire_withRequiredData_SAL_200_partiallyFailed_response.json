@@ -1,0 +1,187 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "mrhire-qz4",
+                        "workerID": {
+                            "idValue": "00000571"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "MINIMAL REQUIRED DATA",
+                                "middleName": "",
+                                "familyName1": "HIRE",
+                                "formattedName": "MINIMAL REQUIRED DATA HIRE",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME",
+                                            "shortName": "MME",
+                                            "longName": "Madame"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "F",
+                                "shortName": "Femme",
+                                "longName": "Femme"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            },
+                            "socialInsurancePrograms": [],
+                            "identityDocuments": [],
+                            "immigrationDocuments": [],
+                            "birthPlace": {}
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2020-01-01"
+                        },
+                        "workAssignment": {
+							"itemID": "A1234640|2020-01-01",
+                            "hireDate": "2020-01-01",
+                            "seniorityDate": "2020-01-01",
+                            "actualStartDate": "2020-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "01",
+                                "shortName": "CDD",
+                                "longName": "CDD"
+                            },
+                            "legalEntityID": "01",
+                            "jobCode": {
+                                "codeValue": "EMPL1",
+                                "shortName": "Emploi (en cours)",
+                                "longName": "Emploi (en cours)"
+                            },
+                            "jobTitle": "CONTROLE DE GESTION SOCIALES API",
+                            "jobFunctionCode": {},
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {},
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "address": {
+                                        "lineOne": "",
+                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "countryCode": "FR",
+                                        "postalCode": "69370",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "SAINT DIDIER MONT D OR",
+                                            "shortName": "SAINT DIDIER MONT D OR",
+                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-mp5",
+                                    "reportsToWorkerName": {
+                                        "givenName": "LINDA",
+                                        "familyName1": "EVANGELIST"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "00000571",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "longName": "Salarié",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "50",
+                                        "longName": "Politique de l'emploi",
+                                        "itemID": "recoursReason"
+                                    },
+                                    {
+                                        "codeValue": "CU2",
+                                        "longName": "CUI-CAE-PEC CDD (NON MARCHAND)",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activity"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-09T14:59:13.278+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "warning"
+                },
+                "userMessage": {
+                    "messageTxt": "La donnée N° Sécurité Sociale est obligatoire pour ce collaborateur."
+                },
+                "developerMessage": {
+                    "messageTxt": "La donnée N° Sécurité Sociale est obligatoire pour ce collaborateur."
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "warning"
+                },
+                "userMessage": {
+                    "messageTxt": "Le lieu de naissance est obligatoire pour ce type de collaborateur né en France."
+                },
+                "developerMessage": {
+                    "messageTxt": "Le lieu de naissance est obligatoire pour ce type de collaborateur né en France."
+                }
+            }
+        ]
+    }
+}

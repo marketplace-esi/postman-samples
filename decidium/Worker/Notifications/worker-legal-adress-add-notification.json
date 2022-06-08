@@ -24,13 +24,7 @@
                                 "countryCode": "FR",
                                 "postalCode": "34000",
                                 "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
-                                "countrySubdivisionLevel2": {
-                                    "codeValue": "",
-                                    "longName": "",
-                                    "subdivisionType": ""
-                                }
+                                "buildingNumberExtension": "B"
                             }
                         }
                     }

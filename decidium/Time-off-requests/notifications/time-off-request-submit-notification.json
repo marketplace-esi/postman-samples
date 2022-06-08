@@ -1,0 +1,60 @@
+{
+    "events": [
+        {
+            "eventID": "6124a3603046c022a51bd05b",
+            "eventNameCode": {
+                "codeValue": "timeOffRequest.submit"
+            },
+            "recordDateTime": "2021-08-24T09:37:35+02:00",
+            "effectiveDateTime": "2021-08-24T09:37:35+02:00",
+            "data": {
+                "eventContext": {
+                    "associateOID": "kraikkonen-mp3",
+                    "workAssignmentID": "78748567"
+                },
+                "output": {
+                    "timeOffRequest": {
+                        "timeOffRequestID": "7079650000433670047",
+                        "requestDateTime": "2021-08-24T00:00:00+02:00",
+                        "requestStatusCode": {
+                            "codeValue": "approved",
+                            "shortName": "Acceptée"
+                        },
+                        "requestorName": {
+                            "givenName": "KIMI",
+                            "familyName1": "RAIKKONEN",
+                            "formattedName": "KIMI, RAIKKONEN"
+                        },
+                        "timeOffEntries": [
+                            {
+                                "payCode": {
+                                    "codeValue": "AP",
+                                    "shortName": "PONT PAYE"
+                                },
+                                "dateTimePeriod": {
+                                    "startDateTime": "2021-09-09T00:00:00+02:00",
+                                    "endDateTime": "2021-09-09T00:00:00+02:00"
+                                },
+                                "durationTypeCode": {
+                                    "codeValue": "fullday",
+                                    "shortName": "Journée entière"
+                                },
+                                "timeOffPolicyCode": {
+                                    "codeValue": "AP"
+                                },
+                                "dayPeriodStartCode": {
+                                    "codeValue": "1",
+                                    "shortName": "Matin"
+                                },
+                                "dayPeriodEndCode": {
+                                    "codeValue": "2",
+                                    "shortName": "Après-midi"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

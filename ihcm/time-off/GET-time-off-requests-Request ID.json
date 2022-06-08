@@ -1,0 +1,49 @@
+{
+    "timeOffRequests": [
+        {
+            "associateOID": "UK0LBA64113NFK6",
+            "requestorName": {
+                "familyName1": "Mistry",
+                "formattedName": "Mr Jonathon N Mistry",
+                "givenName": "Jonathon",
+                "middleName": "N"
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "endDate": "2022-02-16",
+                        "endTime": "23:59",
+                        "startDate": "2022-02-16",
+                        "startTime": "00:00"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-02-16T23:59:00Z",
+                        "startDateTime": "2022-02-16T00:00:00Z"
+                    },
+                    "entryTypeCode": {
+                        "codeValue": "Annual Leave Days",
+                        "shortName": "Annual Leave Days"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 7.5,
+                        "unitTimeCode": {
+                            "codeValue": "HOURS",
+                            "shortName": "HOURS"
+                        }
+                    }
+                }
+            ],
+            "timeOffRequestID": "0a36dde7-f1a8-4d8a-967d-c08e271959dc",
+            "totalQuantity": {
+                "quantityValue": 7.5,
+                "unitTimeCode": {
+                    "codeValue": "HOURS",
+                    "shortName": "HOURS"
+                }
+            },
+            "workerID": {
+                "idValue": "ARP1019"
+            }
+        }
+    ]
+}

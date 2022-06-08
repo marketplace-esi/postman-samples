@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1",
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "C",
+                                "shortName": "CELIBATAIRE",
+                                "longName": "CELIBATAIRE",
+                                "effectiveDate": "2013-02-01"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "itemID": "99990863|2020-01-04",
+                            "payrollFileNumber": "99990863",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "itemID": "collaborationType",
+                                        "longName": "Salarié",
+                                        "codeValue": "SAL"
+                                    },
+                                    {
+                                        "itemID": "contractType",
+                                        "longName": "CDI",
+                                        "codeValue": "00"
+                                    },
+                                    {
+                                        "itemID": "activity",
+                                        "longName": "ORION CONSEIL",
+                                        "codeValue": "02"
+                                    },
+                                    {
+                                        "itemID": "remunerationType",
+                                        "longName": "Base mensuelle",
+                                        "codeValue": "B"
+                                    },
+                                    {
+                                        "itemID": "workSchedule",
+                                        "longName": "Temps partiel 31.50H/5J",
+                                        "codeValue": "412"
+                                    },
+                                    {
+                                        "itemID": "TLM",
+                                        "longName": "Pas de GTA",
+                                        "codeValue": "Z"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "itemID": "monthlyHours",
+                                        "numberValue": 151.67
+                                    }
+                                ]
+                            },
+                            "actualStartDate": "2020-01-04",
+                            "expectedStartDate": "2020-01-04",
+                            "hireDate": "2020-01-04",
+                            "seniorityDate": "2020-01-04",
+                            "reportsTo": [
+                                {
+                                    "reportsToWorkerName": {
+                                        "givenName": "JEAN",
+                                        "familyName1": "ESCAL"
+                                    },
+                                    "associateOID": "jescal-mp3"
+                                }
+                            ],
+                            "workArrangementCode": {
+                                "longName": "HORAIRE = 35H",
+                                "codeValue": "900",
+                                "shortName": "HORAIRE = 35H"
+                            },
+                            "workerTypeCode": {
+                                "longName": "CDI",
+                                "codeValue": "00",
+                                "shortName": "CDI"
+                            },
+                            "legalEntityID": "02",
+                            "assignedWorkLocations": [
+                                {
+                                    "address": {
+                                        "countrySubdivisionLevel2": {
+                                            "subdivisionType": "INSEE",
+                                            "longName": "LEVALLOIS PERRET",
+                                            "codeValue": "LEVALLOIS PERRET",
+                                            "shortName": "LEVALLOIS PERRET"
+                                        },
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "postalCode": "92688",
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "countryCode": "FR",
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE"
+                                    },
+                                    "nameCode": {
+                                        "longName": "ORION CONSEIL PARIS",
+                                        "codeValue": "02010",
+                                        "shortName": "ORION CONSEIL PARIS"
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "longName": "S",
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "longName": "METALL I&C NAT  3025",
+                                        "codeValue": "00",
+                                        "shortName": "METALL I&C NAT  3025"
+                                    }
+                                }
+                            ],
+                            "jobCode": {
+                                "longName": "Emploi (en cours)",
+                                "codeValue": "EMPL1",
+                                "shortName": "Emploi (en cours)"
+                            },
+                            "jobTitle": "Emploi (en cours)",
+                            "jobFunctionCode": {
+                                "longName": "ASS. CADRE 4BIS",
+                                "codeValue": "19",
+                                "shortName": "ASS. CADRE 4BIS"
+                            },
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "longName": "MACHINES OUTILS",
+                                        "codeValue": "441412",
+                                        "shortName": "MACHINES OUTILS"
+                                    }
+                                },
+                                {
+                                    "itemID": "strucAffectationId",
+                                    "nameCode": {
+                                        "longName": "ORION CONSEIL/ORION CONSEIL PARIS/OPERATIONNELLE/INDUSTRIE/MACHINES OUTILS",
+                                        "codeValue": "0202010441412",
+                                        "shortName": "MACHINES OUTILS"
+                                    }
+                                }
+                            ],
+                            "occupationalClassifications": [
+                                {
+                                    "itemID": "default",
+                                    "classificationCode": {
+                                        "longName": "CADRE CAT.A",
+                                        "codeValue": "CA",
+                                        "shortName": "CADRE CAT.A"
+                                    }
+                                }
+                            ],
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            }
+                        },
+                        "associateOID": "clemon-mp3"
+                    }
+                },
+                "eventContext": {
+                    "workerID": {
+                        "idValue": "99990863"
+                    },
+                    "workAssignmentID": "99990863|2020-01-04",
+                    "associateOID": "clemon-mp3"
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2022-06-03T15:20:09.894+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        }
+    }
+}

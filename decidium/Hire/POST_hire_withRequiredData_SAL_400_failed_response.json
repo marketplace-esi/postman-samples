@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2021-11-09T14:53:29.162+01:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "La donnée Type de collaboration est obligatoire"
+                },
+                "developerMessage": {
+                    "messageTxt": "La donnée workers/workAssignment/customFieldGroup/codeFields[itemID='collaborationType']/codeValue est obligatoire"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "La donnée Nom est obligatoire"
+                },
+                "developerMessage": {
+                    "messageTxt": "La donnée workers/person/legalName/familyName1 est obligatoire"
+                }
+            }
+        ]
+    }
+}

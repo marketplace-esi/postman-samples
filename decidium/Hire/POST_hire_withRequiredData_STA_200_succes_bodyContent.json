@@ -1,0 +1,59 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "MINIMAL REQUIRED DATA",
+                                "familyName1": "HIRE STA",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "F"
+                            }
+                        },
+                        "workAssignment": {
+                            "hireDate": "2020-01-01",
+                            "workerTypeCode": {
+                                "codeValue": "20"
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "STA",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "S7",
+                                        "itemID": "contractType"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2020-01-30",
+                                        "itemID": "contractEndDate"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

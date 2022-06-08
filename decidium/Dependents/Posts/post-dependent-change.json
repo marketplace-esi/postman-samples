@@ -1,0 +1,82 @@
+{
+    "events": [{
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "jdupont-mp2"
+                },
+                "dependent": {
+                    "itemID": "4"
+                }
+            },
+            "transform": {
+                "dependent": {
+                    "person": {
+                        "birthDate": "1967-12-10",
+                        "birthOrder": 2,
+                        "communication": {
+                            "faxes": [
+                                {
+                                    "formattedNumber": "3232323232",
+                                    "itemID": "Personal"
+                                }
+                            ],
+                            "landlines": [
+                                {
+                                    "formattedNumber": "2121212121",
+                                    "itemID": "Personal"
+                                }
+                            ]
+                        },
+                        "deathDate": "2022-02-01",
+                        "disabledIndicator": false,
+                        "genderCode": {
+                            "codeValue": "M"
+                        },
+                        "legalAddress": {
+                            "buildingNumber": "49",
+                            "buildingNumberExtension": "",
+                            "cityName": "LE PECQ",
+                            "countryCode": "FR",
+                                "countrySubdivisionLevel2": {
+                                "codeValue": "63250",
+                                "longName": "LE PECQ"
+                            },
+                            "lineFive": "LE BOYARD",
+                            "postalCode": "78230",
+                            "streetName": "RUE DE PARIS"
+                        },
+                        "legalName": {
+                            "familyName1": "DUPONT",
+                            "familyName2": "MARTIN",
+                            "givenName": "JEAN",
+                            "preferredSalutations": [{
+                                "salutationCode": {
+                                    "codeValue": "M"
+                                },
+                                "sequenceNumber": 0
+                            }]
+                        },
+                        "maritalStatusCode" : {
+                            "codeValue": "C"
+                        },
+                        "socialInsurancePrograms": [
+                            {
+                                "coveredIndicator": true,
+                                "itemID": "healthInsurance"
+                            },
+                            {
+                                "coveredIndicator": false,
+                                "itemID": "socialSecurity"
+                            }
+                        ],
+                        "taxDependentIndicator": false
+                    },
+                    "relationshipTypeCode": {
+                        "codeValue": "X"
+                    }
+                }
+            }
+        }
+    }]
+}

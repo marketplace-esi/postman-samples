@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "eventID": "622229dde1652255665e1f68",
+      "eventNameCode": {
+        "codeValue": "worker.birthPlace.change"
+      },
+      "recordDateTime": "2022-03-07T18:05:51Z",
+      "effectiveDateTime": "2022-03-07T18:05:51Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-2336373:17d7f650c16:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "birthPlace": {
+                "countrySubdivisionLevel1": {
+                  "codeValue": "MI",
+                  "subdivisionType": "Provincia di nascita"
+                },
+                "countryCode": "003"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

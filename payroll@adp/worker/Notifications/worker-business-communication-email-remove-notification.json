@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "eventID": "6220bb7ae165222d2d5e1ec7",
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.email.remove"
+      },
+      "recordDateTime": "2022-03-03T13:58:32Z",
+      "effectiveDateTime": "2022-03-03T13:58:32Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-232293d2:17e48ac218b:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "email": {}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

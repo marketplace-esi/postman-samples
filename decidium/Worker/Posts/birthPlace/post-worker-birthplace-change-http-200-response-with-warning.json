@@ -1,0 +1,52 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp1",
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "RÉDON",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "35"
+                                },
+                                "postalCode": "35600",
+                                "countryCode": "FR",
+                                "formattedBirthPlace": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-18T15:57:27.361+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "partiallyFailed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "warning"
+                },
+                "userMessage": {
+                    "messageTxt": "La valeur de la donnée « Lieu de naissance » est erronée : les caractères accentués et autres caractères spéciaux, ne sont pas autorisés (normes déclaratives)."
+                },
+                "developerMessage": {
+                    "messageTxt": "La valeur de la donnée « Lieu de naissance » est erronée : les caractères accentués et autres caractères spéciaux, ne sont pas autorisés (normes déclaratives)."
+                }
+            }
+        ]
+    }
+}

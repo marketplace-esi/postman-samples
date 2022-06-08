@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "eventID": "6124a3603046c0a1041bd05a",
+            "eventNameCode": {
+                "codeValue": "timeOffRequest.cancel"
+            },
+            "recordDateTime": "2021-08-24T09:37:35+02:00",
+            "effectiveDateTime": "2021-08-24T09:37:35+02:00",
+            "data": {
+                "eventContext": {
+                    "associateOID": "kraikkonen-mp3",
+                    "workAssignmentID": "78748567",
+                    "timeOffRequestID": "7079650000433670040"
+                },
+                "output": {
+                    "timeOffRequest": {
+                        "timeOffRequestID": "7079650000433670040"
+                    }
+                }
+            }
+        }
+    ]
+}

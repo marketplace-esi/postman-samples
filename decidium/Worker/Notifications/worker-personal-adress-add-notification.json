@@ -20,9 +20,7 @@
                                 "cityName": "MONTPELLIER",
                                 "postalCode": "34000",
                                 "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
-                                "countrySubdivisionLevel2": {}
+                                "buildingNumberExtension": "B"
                             }
                         }
                     }

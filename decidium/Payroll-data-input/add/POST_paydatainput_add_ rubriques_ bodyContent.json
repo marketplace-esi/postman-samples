@@ -1,0 +1,177 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "ldupuy-mp3",
+                                "payPeriodStartDate": "2020-09-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "PayAdvanceAmount"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": "66"
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePackageDSN"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": "66"
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePackagePayroll"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": "66"
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvancePECH"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": "66"
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "DailyMealAllowance"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": ""
+                                                        },
+                                                        "numberOfHours": "10"
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "NightyMealAllowance"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": ""
+                                                        },
+                                                        "numberOfHours": "10"
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvanceRefoundDSN"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": "66"
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "ExpensesAdvanceRefoundPayroll"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": "66"
+                                                        },
+                                                        "numberOfHours": ""
+                                                    }
+                                                ]
+											},
+                                            {
+                                                "payAllocation": {
+                                                    "allocationID": "S0001"
+                                                },
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "MealVoucher"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": "",
+                                                            "baseMultiplierValue": ""
+                                                        },
+                                                        "numberOfHours": "10"
+                                                    }
+                                                ]
+											}
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

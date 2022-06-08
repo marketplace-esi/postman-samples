@@ -19,6 +19,7 @@
                                 "buildingNumber": "21",
                                 "buildingNumberExtension": "B",
                                 "streetName": "Personal address change",
+								"lineOne": "21 B Personal address change",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "69266",
                                     "subdivisionType": "VILLEURBANNE"

@@ -1,0 +1,14 @@
+{
+    "events": [{
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "jdupont-mp2"
+                },
+                "dependent": {
+                    "itemID": "4"
+                }
+            }
+        }
+    }]
+}

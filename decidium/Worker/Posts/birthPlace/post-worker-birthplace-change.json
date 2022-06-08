@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "pmassina-mp2"}
+                },
+                "transform": {
+                    "worker": {
+						"person": {
+                            "birthPlace": {
+                                "cityName": "REDON",
+                                "countrySubdivisionLevel1": {
+                                "codeValue": "35",
+                                "shortName": "",
+                                "longName": "",
+                                "subdivisionType": ""
+                                },
+                                "postalCode": "35600",
+                                "countryCode": "FR",
+                                "formattedBirthPlace": ""
+                            }
+					   }
+                    } 
+                }
+            }
+        }
+    ]
+}

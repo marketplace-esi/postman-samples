@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "6f19d5:1307024ae4c:-7fdf"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "landline": {
+                "nameCode": {
+                  "longName": "Bussiness Landline"
+                },
+                "formattedNumber": "0805027458",
+                "itemID": "1"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -32,7 +32,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALFIX"
+                                        "idValue": "MDSalFix"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -40,7 +40,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_SALNET"
+                                        "idValue": "MDSalnet"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -48,7 +48,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAT"
+                                        "idValue": "MDPat"
                                     },
                                     "earningAmount": {
                                         "amountValue": 0.0
@@ -56,7 +56,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_IDENTIFIANT"
+                                        "idValue": "MDIdentifiant"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -64,7 +64,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_PAYEUR"
+                                        "idValue": "MDPayeur"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""
@@ -72,7 +72,7 @@
                                 },
                                 {
                                     "earningID": {
-                                        "idValue": "MD_EKEY"
+                                        "idValue": "MDEKey"
                                     },
                                     "earningClassificationCode": {
                                         "codeValue": ""

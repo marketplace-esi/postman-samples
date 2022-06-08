@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "18519b11:17dbea263ca:-7ffb"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "birthPlace": {
+                "cityName": "Milano",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "MI"
+                },
+                "countryCode": "008"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

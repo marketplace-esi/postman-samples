@@ -1,0 +1,334 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "eafe20-mp5",
+                    "workerID": {
+                        "idValue": "99994260"
+                    },
+                    "workAssignment": {
+                        "itemID": "A1234648"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "eafe20-mp5",
+                        "workerID": {
+                            "idValue": "99994260"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "REHIRE GIVEN",
+                                "middleName": "REHIRE MIDDLE",
+                                "familyName1": "REHIRE FAMILY",
+                                "familyName2": "REHIRE FAMILY2",
+                                "formattedName": "REHIRE GIVEN REHIRE FAMILY",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "birthDate": "1979-09-19",
+                            "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "THOUARE SUR LOIRE",
+                                    "subdivisionType": "THOUARE SUR LOIRE"
+                                },
+                                "countryCode": "FR",
+                                "postalCode": "44470",
+                                "lineFive": "PORT JEAN",
+                                "buildingNumber": "1",
+                                "buildingNumberExtension": "B",
+                                "streetName": "RUE AUGUSTIN FRESNEL",
+								"lineOne": "1 B RUE AUGUSTIN FRESNEL",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "44204",
+                                    "longName": "THOUARE SUR LOIRE",
+                                    "subdivisionType": "THOUARE SUR LOIRE"
+                                }
+                            },
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "formattedNumber": "0684053518",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "0684053518",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Personnel",
+                                            "shortName": "Personnel",
+                                            "longName": "Personnel"
+                                        },
+                                        "emailUri": "testespace@adp.com",
+                                        "itemID": "Personnel"
+                                    }
+                                ]
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": "M",
+                                "shortName": "MARIE(E)",
+                                "longName": "MARIE(E)",
+                                "effectiveDate": "2019-08-01"
+                            },
+                            "socialInsurancePrograms": [],
+                            "identityDocuments": [
+                                {
+                                    "documentID": "1790975200032",
+                                    "typeCode": {
+                                        "codeValue": "SSN",
+                                        "shortName": "Numéro de sécurité sociale"
+                                    }
+                                }
+                            ],
+                            "immigrationDocuments": [
+                                {
+                                    "documentID": "1",
+                                    "typeCode": {
+                                        "codeValue": "visa",
+                                        "shortName": " Visa"
+                                    },
+                                    "issuingParty": {
+                                        "nameCode": {
+                                            "codeValue": "DELIVRÉ PAR UN"
+                                        }
+                                    },
+                                    "issueDate": "2009-08-01",
+                                    "expirationDate": "2021-08-01"
+                                },
+                                {
+                                    "documentID": "2",
+                                    "typeCode": {
+                                        "codeValue": "workPermit",
+                                        "shortName": "Work Permit"
+                                    },
+                                    "issuingParty": {
+                                        "nameCode": {
+                                            "codeValue": "Delivré par deux"
+                                        }
+                                    },
+                                    "issueDate": "2009-01-01",
+                                    "expirationDate": "2021-01-01"
+                                }
+                            ],
+                            "birthPlace": {
+                                "cityName": "PARIS",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "100"
+                                },
+                                "postalCode": "75000",
+                                "countryCode": "FR"
+                            },
+                            "otherPersonalAddresses": [
+                                {
+                                    "cityName": "THOUARE SUR LOIRE",
+                                    "postalCode": "44470",
+                                    "lineFive": "PORT JEAN",
+                                    "buildingNumber": "1",
+                                    "buildingNumberExtension": "B",
+                                    "streetName": "RUE AUGUSTIN FRESNEL",
+									"lineOne": "1 B RUE AUGUSTIN FRESNEL",
+                                    "countrySubdivisionLevel2": {
+                                        "codeValue": "44204",
+                                        "subdivisionType": "THOUARE SUR LOIRE"
+                                    },
+                                    "itemID": "AdrPerso"
+                                }
+                            ],
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "FR",
+                                    "shortName": "FRANCE",
+                                    "longName": "FRANCE"
+                                }
+                            ]
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2021-11-01"
+                        },
+                        "businessCommunication": {
+                            "landlines": [
+                                {
+                                    "formattedNumber": "50 32",
+                                    "itemID": "Travail"
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "formattedNumber": "06 88 77 99 55",
+                                    "itemID": "Travail"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "Travail",
+                                        "shortName": "Travail",
+                                        "longName": "Travail"
+                                    },
+                                    "emailUri": "testmail.lsprh@adp.com",
+                                    "itemID": "Travail"
+                                }
+                            ],
+                            "faxes": [
+                                {
+                                    "formattedNumber": "02 51 13 96 63",
+                                    "itemID": "Travail"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+							"itemID": "99994260|2021-11-01",
+                            "hireDate": "2021-11-01",
+                            "seniorityDate": "2021-11-01",
+                            "actualStartDate": "2021-11-01",
+                            "assignmentStatus": {
+                                "reasonCode": {
+                                    "codeValue": "1",
+                                    "shortName": "Création de poste",
+                                    "longName": "Création de poste"
+                                }
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "00",
+                                "shortName": "CDI",
+                                "longName": "CDI"
+                            },
+                            "legalEntityID": "01",
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00",
+                                        "shortName": "METALL I&C NAT  3025",
+                                        "longName": "METALL I&C NAT  3025"
+                                    }
+                                }
+                            ],
+                            "jobCode": {
+                                "codeValue": "EMPL1",
+                                "shortName": "Emploi (en cours)",
+                                "longName": "Emploi (en cours)"
+                            },
+                            "jobTitle": "AAA CODE AAA",
+                            "jobFunctionCode": {
+                                "codeValue": "10",
+                                "shortName": "PDG,DG (ADMINIST)",
+                                "longName": "PDG,DG (ADMINIST)"
+                            },
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA1",
+                                        "shortName": "CADRE POSITION I",
+                                        "longName": "CADRE POSITION I"
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "shortName": "HORAIRE = 35H",
+                                "longName": "HORAIRE = 35H"
+                            },
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "MANAGEMENT"
+                                    },
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001111111",
+                                        "shortName": "MANAGEMENT",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE/GENERALE/STRATEGIE/MANAGEMENT"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFE"
+                                    },
+                                    "address": {
+                                        "lineOne": "",
+                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "countryCode": "FR",
+                                        "postalCode": "69370",
+                                        "unit": "AFE",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "SAINT DIDIER MONT D OR",
+                                            "shortName": "SAINT DIDIER MONT D OR",
+                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-mp5",
+                                    "reportsToWorkerName": {
+                                        "givenName": "LINDA",
+                                        "familyName1": "EVANGELIST"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "99994260"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-11-09T18:11:27.275+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}
