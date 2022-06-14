@@ -1,0 +1,37 @@
+{
+	"codeLists": [
+		{
+			"itemID": "business-units",
+			"listItems": [
+				{
+					"codeValue": "01001",
+					"shortName": "ORION SIEGE LEVALLOIS AFEAFE"
+				},
+				{
+					"codeValue": "01002",
+					"shortName": "ORION USINE LYON"
+				},
+				{
+					"codeValue": "02003",
+					"shortName": "ORION CONSEIL LEVALLOIS TEST"
+				},
+				{
+					"codeValue": "02004",
+					"shortName": "ORION CONSEIL STRASBOURG"
+				},
+				{
+					"codeValue": "02010",
+					"shortName": "ORION CONSEIL PARIS"
+				},
+				{
+					"codeValue": "03005",
+					"shortName": "ORION BANQUE"
+				},
+				{
+					"codeValue": "04006",
+					"shortName": "ORION USINE ROUEN"
+				}
+			]
+		}
+	]
+}
