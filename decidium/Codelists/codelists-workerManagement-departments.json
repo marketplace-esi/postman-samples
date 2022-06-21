@@ -1,0 +1,25 @@
+{
+	"codeLists": [
+		{
+			"itemID": "departments",
+			"listItems": [
+				{
+					"codeValue": "1",
+					"shortName": "GENERALE"
+				},
+				{
+					"codeValue": "2",
+					"shortName": "ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "3",
+					"shortName": "COMMERCIALE"
+				},
+				{
+					"codeValue": "4",
+					"shortName": "OPERATIONNELLE"
+				}
+			]
+		}
+	]
+}

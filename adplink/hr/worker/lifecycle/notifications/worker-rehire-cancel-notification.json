@@ -1,14 +1,17 @@
 {
     "events": [
         {
-            "eventID": "RehireCancel_eventID",
+            "eventID": "5ef3254447d84659379e22ba",
             "eventNameCode": {
                 "codeValue": "workerRehire.cancel"
             },
             "data": {
+                "eventContext": {
+                    "associateOID": "employee-abc"
+                },
                 "output": {
                     "worker": {
-                        "associateOID": "0011317",
+                        "associateOID": "employee-abc",
                         "workerID": {
                             "idValue": "0011317"
                         },

@@ -1,12 +1,6 @@
 {
     "events": [
         {
-            "eventNameCode": {
-                "codeValue": "worker.gender.change"
-            },
-            "actor": {
-                "associateOID": "employee-abc"
-            },
             "data": {
                 "eventContext": {
                     "worker": {

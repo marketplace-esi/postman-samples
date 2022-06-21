@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "18519b11:17dbea263ca:-7ffb"
+          }
+        },
+        "transform": {
+          "worker": {
+            "businessCommunication": {
+              "mobile": {
+                "formattedNumber": "12346578912"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

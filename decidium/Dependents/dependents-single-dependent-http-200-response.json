@@ -1,17 +1,73 @@
 {
     "dependents": [
         {
-            "associateOID": "dandreevui-mp2",
+            "itemID": "4",
+            "links": [
+                {
+                    "href": "/hr/v1/associates/jdupont-mp2/dependents/4",
+                    "rel": "self"
+                }
+            ],
             "relationshipTypeCode": {
-                "codeValue": "E",
-                "shortName": "ENFANT",
-                "longName": "ENFANT"
+                "codeValue": "C",
+                "shortName": "CONJOINT",
+                "longName": "CONJOINT"
             },
+            "associateOID": "jdupont-mp2",
             "person": {
+                "deathDate": "2022-02-01",
+                "birthOrder": 2,
+                "socialInsurancePrograms": [
+                    {
+                        "itemID": "socialSecurity",
+                        "coveredIndicator": true
+                    },
+                    {
+                        "itemID": "healthInsurance",
+                        "coveredIndicator": false
+                    }
+                ],
+                "maritalStatusCode": {
+                    "codeValue": "M",
+                    "shortName": "MARIE(E)",
+                    "longName": "MARIE(E)"
+                },
+                "taxDependentIndicator": true,
+                "disabledIndicator": true,
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Homme",
+                    "longName": "Homme"
+                },
+                "legalAddress": {
+                    "streetName": "RUE DE PARIS",
+                    "lineFive": "LE CAPITOLE",
+                    "buildingNumberExtension": "Q",
+                    "buildingNumber": "15",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "12345",
+                        "longName": "LE PECQ"
+                    },
+                    "postalCode": "78230",
+                    "cityName": "LE PECQ",
+                    "countryCode": "FR"
+                },
+                "communication": {
+                    "faxes": [
+                        {
+                            "itemID": "Personal",
+                            "formattedNumber": "0202020202"
+                        }
+                    ],
+                    "landlines": [
+                        {
+                            "itemID": "Personal",
+                            "formattedNumber": "0101010101"
+                        }
+                    ]
+                },
+                "birthDate": "1967-12-10",
                 "legalName": {
-                    "givenName": "DIMITAR JUNIOR",
-                    "familyName1": "ANDREEV UI",
-                    "familyName2": "NOM NAISSANCE",
                     "preferredSalutations": [
                         {
                             "salutationCode": {
@@ -21,45 +77,12 @@
                             },
                             "sequenceNumber": 0
                         }
-                    ]
-                },
-                "birthDate": "2018-07-05",
-                "legalAddress": {
-                    "cityName": "LIEU DE NAISSANCE",
-                    "postalCode": "08905",
-                    "streetName": "NOM",
-                    "streetTypeCode": {
-                        "codeValue": "53"
-                    }
-                },
-                "genderCode": {
-                    "codeValue": "M",
-                    "shortName": "Homme",
-                    "longName": "Homme"
-                },
-                "maritalStatusCode": {
-                    "codeValue": "C",
-                    "shortName": "CELIBATAIRE",
-                    "longName": "CELIBATAIRE"
-                },
-                "socialInsurancePrograms": [
-                    {
-                        "coveredIndicator": false
-                    },
-                    {
-                        "coveredIndicator": true
-                    }
-                ],
-                "birthOrder": 1,
-                "taxDependentIndicator": true
-            },
-            "itemID": "1",
-            "links": [
-                {
-                    "href": "/hr/v1/associates/dandreevui-mp2/dependents/1",
-                    "rel": "self"
+                    ],
+                    "familyName1": "DUPONT",
+                    "familyName2": "MARTIN",
+                    "givenName": "JEAN"
                 }
-            ]
+            }
         }
     ]
 }

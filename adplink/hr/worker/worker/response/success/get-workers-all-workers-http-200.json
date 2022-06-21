@@ -5,21 +5,21 @@
 				"idValue": "0000001"
 			},
 			"person": {
-				"birthDate": "1899-12-31",
+				"birthDate": "1989-12-17",
 				"communication": {
 					"landlines": [{
+                            "countryDialing": "+33",
 							"formattedNumber": "0112345678",
 							"itemID": "Personnel"
 						}
 					],
 					"mobiles": [{
+                            "countryDialing": "+33",
 							"formattedNumber": "0612345678",
 							"itemID": "Mobile"
 						}
 					]
 				},
-				"deceasedIndicator": true,
-				"deathDate": "1980-01-01",
 				"genderCode": {
 					"codeValue": "F",
 					"shortName": "Féminin",
@@ -29,7 +29,7 @@
 					"codeValue": "M",
 					"shortName": "MARIE(E)",
 					"longName": "MARIE(E)",
-					"effectiveDate": "2012-12-03"
+					"effectiveDate": "2021-11-03"
 				},
 				"birthPlace": {
 					"cityName": "AMBEYRAC",
@@ -47,6 +47,7 @@
 			},
 			"businessCommunication": {
 				"landlines": [{
+                        "countryDialing": "+33",
 						"formattedNumber": "014544845",
 						"itemID": "businessLandline"
 					}
@@ -85,28 +86,44 @@
 						}
 					]
 				}
-			]
+			],
+			"workerStatus": {
+                "statusCode": {
+                    "codeValue": "active",
+                    "shortName": "active"
+                }
+           	 },
+           	"photos": [
+               	{
+                   "links": [
+                        {
+                           "href": "/hr/v2/workers/employee-xyz/worker-images/photo",
+                           "rel": "/adp/image"
+                        }
+                    ]
+                }
+           	 ] 
 		}, {
 			"associateOID": "employee-abc",
 			"workerID": {
 				"idValue": "0000002"
 			},
 			"person": {
-				"birthDate": "1899-12-31",
+				"birthDate": "1968-07-12",
 				"communication": {
 					"landlines": [{
+                            "countryDialing": "+33",
 							"formattedNumber": "0112345678",
 							"itemID": "Personnel"
 						}
 					],
 					"mobiles": [{
+                            "countryDialing": "+33",
 							"formattedNumber": "0612345678",
 							"itemID": "Mobile"
 						}
 					]
 				},
-				"deceasedIndicator": true,
-				"deathDate": "1980-01-01",
 				"genderCode": {
 					"codeValue": "F",
 					"shortName": "Féminin",
@@ -116,7 +133,7 @@
 					"codeValue": "M",
 					"shortName": "MARIE(E)",
 					"longName": "MARIE(E)",
-					"effectiveDate": "2012-12-03"
+					"effectiveDate": "2002-12-03"
 				},
 				"birthPlace": {
 					"cityName": "AMBEYRAC",
@@ -130,10 +147,12 @@
 				]
 			},
 			"workerDates": {
-				"originalHireDate": "2010-01-01"
+				"originalHireDate": "2010-01-01",
+                "terminationDate": "2014-07-02"
 			},
 			"businessCommunication": {
 				"landlines": [{
+                        "countryDialing": "+33",
 						"formattedNumber": "014544845",
 						"itemID": "businessLandline"
 					}
@@ -172,7 +191,23 @@
 						}
 					]
 				}
-			]
+			],
+			"workerStatus": {
+                "statusCode": {
+                    "codeValue": "inactive",
+                    "shortName": "inactive"
+                }
+           	 },
+           	"photos": [
+               	 {
+                   	 "links": [
+                        {
+                          	"href": "/hr/v2/workers/employee-abc/worker-images/photo",
+                           	"rel": "/adp/image"
+                        }
+                    ]
+                }
+           	] 
 		}
 	]
 }

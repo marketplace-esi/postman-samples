@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254447d846b44b9ee8dd",
+            "eventID": "5ef3254447d846b44b9ee8f5",
             "eventNameCode": {
                 "codeValue": "worker.businessCommunication.fax.remove"
             },
@@ -19,7 +19,8 @@
                         },
                         "businessCommunication": {
                             "fax": {
-                                "formattedNumber": "0501020305",
+                                "countryDialing": "+33",
+                                "formattedNumber": "",
                                 "itemID": "businessFax"
                             }
                         }

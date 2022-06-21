@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "tableDescription": "Situation de famille",
+            "columns": [
+                {
+                    "columnName": "Code",
+                    "columnDataType": "TEXT",
+                    "primarykeyIndicator": true,
+                    "sequenceNumber": 1
+                },
+                {
+                    "columnName": "Libellé",
+                    "columnDataType": "TEXT",
+                    "primarykeyIndicator": false,
+                    "sequenceNumber": 2
+                }
+            ],
+            "rows": [
+                [
+                    "A",
+                    "AUTRE SITUATION"
+                ],
+                [
+                    "C",
+                    "CELIBATAIRE"
+                ],
+                [
+                    "D",
+                    "DIVORCE(E)"
+                ],
+                [
+                    "K",
+                    "VIE MARITALE"
+                ],
+                [
+                    "M",
+                    "MARIE(E)"
+                ],
+                [
+                    "N",
+                    "CONCUB. NOTOIRE"
+                ],
+                [
+                    "P",
+                    "PACS"
+                ],
+                [
+                    "S",
+                    "SEPARE(E)"
+                ],
+                [
+                    "U",
+                    "UNION LIBRE"
+                ],
+                [
+                    "V",
+                    "VEUF / VEUVE"
+                ],
+                [
+                    "W",
+                    "EN COUPLE"
+                ]
+            ]
+        }
+    ]
+}

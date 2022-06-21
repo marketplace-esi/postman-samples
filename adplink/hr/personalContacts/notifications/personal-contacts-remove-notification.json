@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "event-id",
+            "eventID": "5ef3254c27d84659379e8eb9",
             "eventNameCode": {
                 "codeValue": "worker.personalContact.remove"
             },

@@ -8,11 +8,6 @@
             "recordDateTime": "2021-03-16T09:42:26+01:00",
             "effectiveDateTime": "2021-03-02T00:00:00+01:00",
             "data": {
-                "eventContext": {
-                    "worker": {
-                        "associateOID": "nafe-5jk"
-                    }
-                },
                 "output": {
                     "worker": {
                         "associateOID": "nafe-5jk",
@@ -52,14 +47,8 @@
                             "birthDate": "1979-09-19",
                             "legalAddress": {
                                 "cityName": "NANTES",
-                                "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
-                                "countrySubdivisionLevel2": {
-                                    "codeValue": "",
-                                    "longName": "",
-                                    "subdivisionType": ""
-                                }
+                                "buildingNumber": "1",
+                                "buildingNumberExtension": "B"
                             },
                             "deceasedIndicator": false,
                             "genderCode": {
@@ -104,6 +93,7 @@
                             "effectiveDate": "2021-03-02"
                         },
                         "workAssignment": {
+						    "itemID": "A0001221|2021-03-02",
                             "hireDate": "2021-03-02",
                             "actualStartDate": "2021-03-02",
                             "workerTypeCode": {
@@ -232,8 +222,7 @@
                                         "itemID": "workSchedule"
                                     }
                                 ]
-                            },
-                            "itemID": "A0001221"
+                            }
                         }
                     }
                 }

@@ -1,0 +1,136 @@
+{
+  "events": [
+    {
+      "eventID": "f5b8128c-1a5a-4079-baeb-7974ffc299e1",
+      "serviceCategoryCode": {
+        "codeValue": "payroll",
+        "shortName": "payroll"
+      },
+      "eventNameCode": {
+        "codeValue": "worker.payDistribution.change",
+        "shortName": "worker.payDistribution.change"
+      },
+      "eventTitle": "Change BankDetails",
+      "eventStatusCode": {
+        "codeValue": "Complete"
+      },
+      "recordDateTime": "2022-04-06T15:30:32Z",
+      "creationDateTime": "2022-04-06T15:30:32Z",
+      "effectiveDateTime": "2022-04-06T15:30:32Z",
+      "originator": {
+        "applicationID": {
+          "idValue": "iHCM"
+        },
+        "associateOID": "PUK1ADPRESERVED",
+        "personOID": "PUK1ADPRESERVED",
+        "formattedName": "ADP Associate",
+        "deviceID": "iHCM",
+        "eventID": "f5b8128c-1a5a-4079-baeb-7974ffc299e1",
+        "eventNameCode": {
+          "codeValue": "worker.payDistribution.change",
+          "shortName": "worker.payDistribution.change",
+          "longName": "worker.payDistribution.change"
+        }
+      },
+      "actor": {
+        "applicationID": {
+          "idValue": "iHCM"
+        },
+        "associateOID": "PUK1ADPRESERVED",
+        "formattedName": "ADP Associate",
+        "deviceID": "iHCM",
+        "geoCoordinate": {
+          "latitude": 0.0,
+          "longitude": 0.0
+        }
+      },
+      "links": [
+        {
+          "href": "http://mbuprishreventsapi01dita-dc1.ad.esi.adp.com:2392/events/hr/v1.0/payDistribution/worker.payDistribution.change/f5b8128c-1a5a-4079-baeb-7974ffc299e1",
+          "rel": "full",
+          "mediaType": "application/json",
+          "method": "GET",
+          "encType": "application/json"
+        },
+        {
+          "href": "http://mbuprishreventsapi01dita-dc1.ad.esi.adp.com:2392/events/hr/v1.0/payDistribution/worker.payDistribution.change/f5b8128c-1a5a-4079-baeb-7974ffc299e1",
+          "rel": "full",
+          "mediaType": "application/json",
+          "method": "GET",
+          "encType": "application/json"
+        }
+      ],
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "PCAROLINE@ADP.COM"
+          },
+          "payDistribution": {
+            "payrollFileNumber": "TLM52",
+            "itemID": "94e68d7b-05be-42b4-9e6a-172a1466d15f"
+          }
+        },
+        "transform": {
+          "eventReasonCode": {
+            "codeValue": "change",
+            "shortName": "change"
+          },
+          "eventStatusCode": {
+            "codeValue": "Complete"
+          },
+          "effectiveDateTime": "2022-04-06T15:30:32Z",
+          "payDistribution": {
+            "distributionInstructions": [
+              {
+                "depositAccount": {
+                  "financialAccount": {
+                    "accountName": "Sweet"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "PCAROLINE@ADP.COM"
+          },
+          "payDistribution": {
+            "distributionInstructions": [
+              {
+                "precedenceCode": {
+                  "codeValue": "2"
+                },
+                "paymentMethodCode": {
+                  "codeValue": "D",
+                  "shortName": "BACS"
+                },
+                "depositAccount": {
+                  "financialParty": {
+                    "nameCode": {
+                      "shortName": "HSBC BANK PLC"
+                    },
+                    "branchNameCode": {
+                      "codeValue": "400515",
+                      "shortName": "HSBC International Branch"
+                    }
+                  },
+                  "financialAccount": {
+                    "accountNumber": "12345674",
+                    "accountName": "Sweet"
+                  }
+                }
+              }
+            ],
+            "requestedStartDate": "2022-04-06",
+            "distributionStatusCode": {
+              "effectiveDate": "2022-04-06"
+            },
+            "payrollFileNumber": "TLM52",
+            "itemID": "94e68d7b-05be-42b4-9e6a-172a1466d15f"
+          }
+        }
+      }
+    }
+  ]
+}

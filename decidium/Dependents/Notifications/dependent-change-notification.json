@@ -1,0 +1,97 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2"
+                    }
+                },
+                "output": {
+                    "dependent": {
+                        "itemID": "4",
+                        "relationshipTypeCode": {
+                            "codeValue": "X",
+                            "shortName": "AUTRE",
+                            "longName": "AUTRE"
+                        },
+                        "person": {
+                            "deathDate": "2022-02-01",
+                            "birthOrder": 2,
+                            "socialInsurancePrograms": [
+                                {
+                                    "itemID": "socialSecurity",
+                                    "coveredIndicator": false
+                                },
+                                {
+                                    "itemID": "healthInsurance",
+                                    "coveredIndicator": true
+                                }
+                            ],
+                            "maritalStatusCode": {
+                                "codeValue": "C",
+                                "shortName": "CELIBATAIRE",
+                                "longName": "CELIBATAIRE"
+                            },
+                            "taxDependentIndicator": false,
+                            "disabledIndicator": false,
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
+                            },
+                            "legalAddress": {
+                                "streetName": "RUE DE PARIS",
+                                "lineFive": "LE BOYARD",
+                                "buildingNumber": "49",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "63250",
+                                    "longName": "LE PECQ"
+                                },
+                                "postalCode": "78230",
+                                "cityName": "LE PECQ",
+                                "countryCode": "FR"
+                            },
+                            "communication": {
+                                "faxes": [
+                                    {
+                                        "itemID": "Personal",
+                                        "formattedNumber": "3232323232"
+                                    }
+                                ],
+                                "landlines": [
+                                    {
+                                        "itemID": "Personal",
+                                        "formattedNumber": "2121212121"
+                                    }
+                                ]
+                            },
+                            "birthDate": "1967-12-10",
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 0
+                                    }
+                                ],
+                                "familyName1": "DUPONT",
+                                "familyName2": "MARTIN",
+                                "givenName": "JEAN"
+                            }
+                        }
+                    }
+                }
+            },
+            "effectiveDateTime": "2022-03-07T10:46:00+01:00",
+            "recordDateTime": "2022-03-07T10:46:00+01:00",
+            "eventNameCode": {
+                "codeValue": "dependent.change"
+            },
+            "eventID": "2"
+        }
+    ]
+}

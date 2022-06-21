@@ -1,0 +1,118 @@
+{
+  "events": [
+    {
+      "eventID": "61deae9c2cae7e0366492f5d",
+      "eventNameCode": {
+        "codeValue": "worker.hire"
+      },
+      "recordDateTime": "2022-01-12T11:31:37Z",
+      "effectiveDateTime": "2022-01-12T11:31:35Z",
+      "data": {
+        "eventContext": {
+          "contextExpressionID": "-6ed8326d:17e4dbdff5a:-7ffb"
+        },
+        "output": {
+          "worker": {
+            "workerID": {
+              "idValue": "00014"
+            },
+            "person": {
+              "governmentIDs": [
+                {
+                  "idValue": "PRZMRN96H28L736F"
+                }
+              ],
+              "legalName": {
+                "givenName": "MARIANO",
+                "familyName1": "PEREZ",
+                "formattedName": "MARIANO PEREZ"
+              },
+              "birthDate": "1996-06-28",
+              "genderCode": {
+                "codeValue": "M",
+                "longName": "MASCHIO"
+              },
+              "birthPlace": {
+                "cityName": "VENEZIA",
+                "countrySubdivisionLevel1": {}
+              },
+              "citizenshipCountryCodes": [
+                {
+                  "codeValue": "000",
+                  "longName": "ITALIA"
+                }
+              ]
+            },
+            "workerStatus": {
+              "statusCode": {
+                "codeValue": "2"
+              },
+              "reasonCode": {
+                "codeValue": "01",
+                "longName": "ASSUNZIONE"
+              }
+            },
+            "workAssignment": {
+              "workAgreementRef": {
+                "workAgreementType": {
+                  "codeValue": "1",
+                  "longName": "ASSUNZIONE"
+                }
+              },
+              "actualStartDate": "2022-01-12",
+              "assignmentCostCenters": [
+                {
+                  "costCenterID": "AB20"
+                }
+              ],
+              "workerTypeCode": {
+                "codeValue": "17",
+                "longName": "IM/QU COOP L240/84"
+              },
+              "workLevelCode": {
+                "codeValue": "05",
+                "longName": "MISTO"
+              },
+              "nationalityContextCode": {
+                "codeValue": "01",
+                "longName": "DIP.COMUNITARIO"
+              },
+              "wageLawCoverage": {
+                "coverageCode": {
+                  "codeValue": "06",
+                  "longName": "0723"
+                }
+              },
+              "fullTimeEquivalenceRatio": 0.5,
+              "homeOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "001",
+                    "longName": "DITTA  619"
+                  }
+                }
+              ],
+              "payScaleCode": {
+                "codeValue": "951",
+                "longName": "COLL.CO.CONT COLL SOGG. INAIL"
+              },
+              "customFieldGroup": {
+                "stringFields": [
+                  {
+                    "nameCode": {
+                      "shortName": "Codice Collaboratore"
+                    },
+                    "categoryCode": {
+                      "codeValue": "LA",
+                      "longName": "LAVORATORI AUTONOMI OCCASIONALI"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

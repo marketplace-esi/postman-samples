@@ -1,14 +1,14 @@
 {
     "events": [
         {
-            "eventID": "Rehire_eventID",
+            "eventID": "5ef3254447d84659379e2261",
             "eventNameCode": {
                 "codeValue": "worker.rehire"
             },
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "testmp",
+                        "associateOID": "employee-abc",
                         "workerID": {
                             "idValue": "0011542"
                         },
@@ -65,8 +65,8 @@
                             },
                             "genderCode": {
                                 "codeValue": "F",
-                                "shortName": "Féminin",
-                                "longName": "Féminin"
+                                "shortName": "Fï¿½minin",
+                                "longName": "Fï¿½minin"
                             },
                             "maritalStatusCode": {
                                 "codeValue": "C",
@@ -143,10 +143,10 @@
                             ],
                             "jobCode": {
                                 "codeValue": "101",
-                                "shortName": "CONTRÔLE DE GESTION SOCIALES COM",
-                                "longName": "CONTRÔLE DE GESTION SOCIALES COM"
+                                "shortName": "CONTRï¿½LE DE GESTION SOCIALES COM",
+                                "longName": "CONTRï¿½LE DE GESTION SOCIALES COM"
                             },
-                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES COM",
+                            "jobTitle": "CONTRï¿½LE DE GESTION SOCIALES COM",
                             "occupationalClassifications": [
                                 {
                                     "classificationCode": {
@@ -165,7 +165,7 @@
                                 {
                                     "classificationCode": {
                                         "codeValue": "101",
-                                        "shortName": "CONTRÔLE GESTION SOCIALE"
+                                        "shortName": "CONTRï¿½LE GESTION SOCIALE"
                                     },
                                     "itemID": "occupationalClassificationProfession"
                                 }

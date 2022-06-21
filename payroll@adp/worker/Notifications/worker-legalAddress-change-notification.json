@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "eventID": "61ddb7122cae7eca87492f19",
+      "eventNameCode": {
+        "codeValue": "worker.legalAddress.change"
+      },
+      "recordDateTime": "2022-04-19T07:38:36Z",
+      "effectiveDateTime": "2022-04-19T07:38:36Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "6f19d5:1307024ae4c:-7fdf"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "legalAddress": {
+                "lineOne": "VIA KIOI",
+                "cityName": "MILANO",
+                "postalCode": "20019"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

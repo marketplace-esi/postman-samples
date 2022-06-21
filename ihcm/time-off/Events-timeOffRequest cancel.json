@@ -1,0 +1,113 @@
+{
+    "events": [
+        {
+            "eventID": "603ca1a1-6232-4348-85ac-64fd2749363b",
+            "serviceCategoryCode": {
+                "codeValue": "time",
+                "shortName": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "timeOffRequest.cancel",
+                "shortName": "timeOffRequest.cancel"
+            },
+            "eventTitle": "Timeoff cancel",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2022-03-04T12:26:27Z",
+            "creationDateTime": "2022-03-04T12:26:27Z",
+            "effectiveDateTime": "2022-03-04T12:26:27Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "bnewton-3pt",
+                "personOID": "",
+                "formattedName": "Bruce Newton",
+                "deviceID": "iHCM",
+                "eventID": "603ca1a1-6232-4348-85ac-64fd2749363b",
+                "eventNameCode": {
+                    "codeValue": "timeOffRequest.cancel",
+                    "shortName": "timeOffRequest.cancel",
+                    "longName": "timeOffRequest.cancel"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "bnewton-3pt",
+                "formattedName": "Bruce Newton",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "links": [
+                {
+                    "href": "http://11.16.117.226:93/events/hr/v1.0/timeOffRequest/timeOffRequest.cancel/603ca1a1-6232-4348-85ac-64fd2749363b",
+                    "rel": "full",
+                    "mediaType": "application/json",
+                    "method": "GET",
+                    "encType": "application/json"
+                },
+                {
+                    "href": "http://11.16.117.226:93/events/hr/v1.0/timeOffRequest/timeOffRequest.cancel/603ca1a1-6232-4348-85ac-64fd2749363b",
+                    "rel": "full",
+                    "mediaType": "application/json",
+                    "method": "GET",
+                    "encType": "application/json"
+                }
+            ],
+            "data": {
+                "eventContext": {},
+                "transform": {},
+                "output": {
+                    "timeOffRequest": {
+                        "timeOffRequestID": "2313a92c-a34d-4ed7-b3c3-c3bee6753fe5",
+                        "requestorName": {
+                            "givenName": "Gary",
+                            "middleName": "David",
+                            "formattedName": "Mr Gary David Evans"
+                        },
+                        "totalQuantity": {
+                            "quantityValue": 4.0000,
+                            "unitTimeCode": {
+                                "codeValue": "HOURS",
+                                "shortName": "HOURS",
+                                "longName": "HOURS"
+                            }
+                        },
+                        "timeOffEntries": [
+                            {
+                                "entryTypeCode": {
+                                    "codeValue": "Annual Leave",
+                                    "shortName": "Annual Leave"
+                                },
+                                "datePeriod": {
+                                    "startDate": "2022-03-04",
+                                    "startTime": "12:30",
+                                    "endDate": "2022-03-04",
+                                    "endTime": "17:30"
+                                },
+                                "dateTimePeriod": {
+                                    "startDateTime": "2022-03-04T12:30:00Z",
+                                    "endDateTime": "2022-03-04T17:30:00Z"
+                                },
+                                "totalQuantity": {
+                                    "quantityValue": 4.0000,
+                                    "unitTimeCode": {
+                                        "codeValue": "HOURS",
+                                        "shortName": "HOURS",
+                                        "longName": "HOURS"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

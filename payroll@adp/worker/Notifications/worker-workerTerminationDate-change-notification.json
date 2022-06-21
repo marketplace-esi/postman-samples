@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "eventID": "61dec6282cae7e8d3d492f84",
+      "eventNameCode": {
+        "codeValue": "worker.workerTerminationDate.change"
+      },
+      "recordDateTime": "2022-01-12T13:14:24Z",
+      "effectiveDateTime": "2022-01-12T13:14:23Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "-5bc78c7c:17d9f8a4fe2:-7ff9"
+          }
+        },
+        "output": {
+          "worker": {
+            "workerDates": {
+              "terminationDate": "2022-01-28"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

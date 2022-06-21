@@ -7,6 +7,15 @@
             },
             "recordDateTime": "2021-03-15T14:46:34+01:00",
             "effectiveDateTime": "2020-07-03T00:00:00+02:00",
+            "eventContext": {
+                "associateOID": "pnom2-mp1",
+                "workerID": {
+                    "idValue": "99999999"
+                },
+                "workAssignment": {
+                    "itemID": "A0001174|2020-06-03"
+                }
+            },
             "data": {
                 "output": {
                     "worker": {
@@ -48,8 +57,7 @@
                             "legalAddress": {
                                 "cityName": "LA FLECHE",
                                 "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
+                                "buildingNumberExtension": "B",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "",
                                     "longName": "",
@@ -169,6 +177,7 @@
                             ]
                         },
                         "workAssignment": {
+							"itemID": "A0001174|2020-06-03",
                             "hireDate": "2020-06-03",
                             "actualStartDate": "2020-06-03",
                             "terminationDate": "2020-07-02",
@@ -314,8 +323,7 @@
                                         "itemID": "contractEndDate"
                                     }
                                 ]
-                            },
-                            "itemID": "A0001174"
+                            }                            
                         }
                     }
                 }

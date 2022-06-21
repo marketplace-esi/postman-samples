@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "eventID": "6220df1ce1652240945e1ef3",
+      "eventNameCode": {
+        "codeValue": "worker.personalAddress.change"
+      },
+      "recordDateTime": "2022-03-04T16:55:29Z",
+      "effectiveDateTime": "2022-03-04T16:55:28Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "6f19d5:1307024ae4c:-7f8a"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "personalAddress": {
+                "lineOne": "CALLE VALENCIA",
+                "cityName": "MILANO",
+                "postalCode": "20100"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

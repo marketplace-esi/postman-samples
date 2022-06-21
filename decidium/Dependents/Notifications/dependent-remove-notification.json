@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2"
+                    }
+                },
+                "output": {
+                    "dependent": {
+                        "itemID": "4"
+                    }
+                }
+            },
+            "effectiveDateTime": "2022-03-07T11:04:12+01:00",
+            "recordDateTime": "2022-03-07T11:04:12+01:00",
+            "eventNameCode": {
+                "codeValue": "dependent.remove"
+            },
+            "eventID": "3"
+        }
+    ]
+}

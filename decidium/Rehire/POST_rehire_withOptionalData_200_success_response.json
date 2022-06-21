@@ -2,6 +2,15 @@
     "events": [
         {
             "data": {
+                "eventContext": {
+                    "associateOID": "eafe20-mp5",
+                    "workerID": {
+                        "idValue": "99994260"
+                    },
+                    "workAssignment": {
+                        "itemID": "A1234648"
+                    }
+                },
                 "output": {
                     "worker": {
                         "associateOID": "eafe20-mp5",
@@ -38,6 +47,7 @@
                                 "buildingNumber": "1",
                                 "buildingNumberExtension": "B",
                                 "streetName": "RUE AUGUSTIN FRESNEL",
+								"lineOne": "1 B RUE AUGUSTIN FRESNEL",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "44204",
                                     "longName": "THOUARE SUR LOIRE",
@@ -137,6 +147,7 @@
                                     "buildingNumber": "1",
                                     "buildingNumberExtension": "B",
                                     "streetName": "RUE AUGUSTIN FRESNEL",
+									"lineOne": "1 B RUE AUGUSTIN FRESNEL",
                                     "countrySubdivisionLevel2": {
                                         "codeValue": "44204",
                                         "subdivisionType": "THOUARE SUR LOIRE"
@@ -187,6 +198,7 @@
                             ]
                         },
                         "workAssignment": {
+							"itemID": "99994260|2021-11-01",
                             "hireDate": "2021-11-01",
                             "seniorityDate": "2021-11-01",
                             "actualStartDate": "2021-11-01",
@@ -302,8 +314,7 @@
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "99994260",
-                            "itemID": "A1234648"
+                            "payrollFileNumber": "99994260"
                         }
                     }
                 }

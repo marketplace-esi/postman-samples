@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "1cb5b18:13774ba5caf:-7ffe"
+          }
+        },
+        "transform": {
+          "worker": {
+            "person": {
+              "personalAddress": {
+                "lineOne": "Change Personal Address Str",
+                "postalCode": "14031",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "at"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

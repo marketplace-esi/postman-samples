@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "5ef3254447d8463d4c9ee8e2",
+            "eventID": "5ef3254447d8463d4c9ee880",
             "eventNameCode": {
                 "codeValue": "worker.businessCommunication.landline.remove"
             },
@@ -19,7 +19,8 @@
                         },
                         "businessCommunication": {
                             "landline": {
-                                "formattedNumber": "0501020304",
+                                "countryDialing": "+33",
+                                "formattedNumber": "",
                                 "itemID": "businessLandline"
                             }
                         }

@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "countryCode": "100",
+                                "postalCode": "78231",
+                                "lineFive": "COMMENTAIRE",
+                                "buildingNumber": "10",
+                                "buildingNumberExtension": "B",
+                                "streetName": "RUE DE PARIS",
+                                "countrySubdivisionLevel2": {
+                                    "longName": "LE PECQ"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

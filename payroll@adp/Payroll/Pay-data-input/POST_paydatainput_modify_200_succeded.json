@@ -1,0 +1,73 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "contextExpressionID": "AAAAA"
+                },
+                "output": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "-102fbd22:160dfb760d9:-7ffb",
+                                "payeeID": {
+                                    "idValue": "12000345"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {}
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "associateOID": "-102fbd22:160dfb760d9:-7ffb",
+                                "payeeID": {
+                                    "idValue": "06057"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-02-01",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "0843",
+                                                            "longName": "DIVISORE HH MESE"
+                                                        },
+                                                        "modifierCode": {
+                                                            "codeValue": "10000033300006"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 160.0,
+                                                            "currencyCode": "EUR"
+                                                        }
+                                                    }
+                                                ],
+                                                "calculationFactorInputs": [
+                                                    {
+                                                        "calculationFactorRate": {
+                                                            "baseMultiplierValue": 2.0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2022-04-05T12:39:33.654+02:00"
+    }
+}

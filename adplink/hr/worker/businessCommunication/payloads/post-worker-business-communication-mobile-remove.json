@@ -7,10 +7,7 @@
 						"associateOID": "employee-xyz"
 					}
 				}
-			},
-            "eventNameCode": {
-                "codeValue": "worker.businessCommunication.mobile.remove"
-            }
+			}
         }
     ]
 }

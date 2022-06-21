@@ -1,0 +1,75 @@
+{
+    "payDistributions": [
+        {
+            "distributionInstructions": [
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "longName": "ASSEGNO BANCARIO"
+                    },
+                    "instructionStatusCode": {
+                        "codeValue": "S"
+                    },
+                    "depositAccount": {
+                        "accountID": {
+                            "idValue": "DESCRIZIONE IN SOSTITUZIONE DATI"
+                        },
+                        "IBAN": "IT60X0542811101000000123456"
+                    },
+                    "payee": {
+                        "payeeName": {
+                            "formattedName": "000000123456"
+                        }
+                    },
+                    "itemID": "1"
+                }
+            ]
+        },
+        {
+            "distributionInstructions": [
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "longName": "ASSEGNO BANCARIO"
+                    },
+                    "instructionStatusCode": {
+                        "codeValue": "S"
+                    },
+                    "depositAccount": {
+                        "accountID": {
+                            "idValue": "DESCRIZIONE IN SOSTITUZIONE DATI"
+                        },
+                        "IBAN": "IT60X0542811101000000123456"
+                    },
+                    "payee": {
+                        "payeeName": {
+                            "formattedName": "000000123456"
+                        }
+                    },
+                    "itemID": "2"
+                }
+            ]
+        },
+        {
+            "distributionInstructions": [
+                {
+                    "paymentMethodCode": {
+                        "codeValue": "B",
+                        "longName": "ASSEGNO BANCARIO"
+                    },
+                    "instructionStatusCode": {},
+                    "depositAccount": {
+                        "accountID": {},
+                        "IBAN": "IT60X0542811101000000123456"
+                    },
+                    "payee": {
+                        "payeeName": {
+                            "formattedName": "000000123456"
+                        }
+                    },
+                    "itemID": "3"
+                }
+            ]
+        }
+    ]
+}

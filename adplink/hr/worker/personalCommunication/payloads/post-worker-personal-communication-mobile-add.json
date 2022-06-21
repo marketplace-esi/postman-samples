@@ -1,12 +1,6 @@
 {
     "events": [
         {
-            "eventNameCode": {
-                "codeValue": "worker.personalCommunication.mobile.add"
-            },
-            "actor": {
-                "associateOID": "employee-abc"
-            },
             "data": {
                 "eventContext": {
                     "worker": {

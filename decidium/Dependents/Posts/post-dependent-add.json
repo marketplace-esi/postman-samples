@@ -1,0 +1,79 @@
+{
+    "events": [{
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "jdupont-mp2"
+                }
+            },
+            "transform": {
+                "dependent": {
+                    "person": {
+                        "birthDate": "1967-12-10",
+                        "birthOrder": 2,
+                        "communication": {
+                            "faxes": [
+                                {
+                                    "formattedNumber": "0202020202",
+                                    "itemID": "Personal"
+                                }
+                            ],
+                            "landlines": [
+                                {
+                                    "formattedNumber": "0101010101",
+                                    "itemID": "Personal"
+                                }
+                            ]
+                        },
+                        "deathDate": "2022-02-01",
+                        "disabledIndicator": true,
+                        "genderCode": {
+                            "codeValue": "M"
+                        },
+                        "legalAddress": {
+                            "buildingNumber": "15",
+                            "buildingNumberExtension": "Q",
+                            "cityName": "LE PECQ",
+                            "countryCode": "FR",
+                                "countrySubdivisionLevel2": {
+                                "codeValue": "12345",
+                                "longName": "LE PECQ"
+                            },
+                            "lineFive": "LE CAPITOLE",
+                            "postalCode": "78230",
+                            "streetName": "RUE DE PARIS"
+                        },
+                        "legalName": {
+                            "familyName1": "DUPONT",
+                            "familyName2": "MARTIN",
+                            "givenName": "JEAN",
+                            "preferredSalutations": [{
+                                "salutationCode": {
+                                    "codeValue": "M"
+                                },
+                                "sequenceNumber": 0
+                            }]
+                        },
+                        "maritalStatusCode" : {
+                            "codeValue": "M"
+                        },
+                        "socialInsurancePrograms": [
+                            {
+                                "coveredIndicator": false,
+                                "itemID": "healthInsurance"
+                            },
+                            {
+                                "coveredIndicator": true,
+                                "itemID": "socialSecurity"
+                            }
+                        ],
+                        "taxDependentIndicator": true
+                    },
+                    "relationshipTypeCode": {
+                        "codeValue": "C"
+                    }
+                }
+            }
+        }
+    }]
+}

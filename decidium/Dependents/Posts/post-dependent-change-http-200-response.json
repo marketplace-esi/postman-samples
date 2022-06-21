@@ -1,0 +1,104 @@
+{
+    "confirmMessage": {
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2022-03-04T15:41:40.134+01:00"
+    },
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "dependent": {
+                        "itemID": "4",
+                        "relationshipTypeCode": {
+                            "shortName": "AUTRE",
+                            "longName": "AUTRE",
+                            "codeValue": "X"
+                        },
+                        "person": {
+                            "genderCode": {
+                                "shortName": "Homme",
+                                "longName": "Homme",
+                                "codeValue": "M"
+                            },
+                            "deathDate": "2022-02-01",
+                            "birthOrder": 2,
+                            "maritalStatusCode": {
+                                "shortName": "CELIBATAIRE",
+                                "longName": "CELIBATAIRE",
+                                "codeValue": "C"
+                            },
+                            "taxDependentIndicator": false,
+                            "socialInsurancePrograms": [
+                                {
+                                    "itemID": "socialSecurity",
+                                    "coveredIndicator": false
+                                },
+                                {
+                                    "itemID": "healthInsurance",
+                                    "coveredIndicator": true
+                                }
+                            ],
+                            "disabledIndicator": false,
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "sequenceNumber": 0,
+                                        "salutationCode": {
+                                            "shortName": "M",
+                                            "longName": "Monsieur",
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ],
+                                "familyName2": "MARTIN",
+                                "familyName1": "DUPONT",
+                                "givenName": "JEAN"
+                            },
+                            "birthDate": "1967-12-10",
+                            "communication": {
+                                "faxes": [
+                                    {
+                                        "itemID": "Personal",
+                                        "formattedNumber": "3232323232"
+                                    }
+                                ],
+                                "landlines": [
+                                    {
+                                        "itemID": "Personal",
+                                        "formattedNumber": "2121212121"
+                                    }
+                                ]
+                            },
+                            "legalAddress": {
+                                "countrySubdivisionLevel2": {
+                                    "longName": "LE PECQ",
+                                    "codeValue": "63250"
+                                },
+                                "buildingNumber": "49",
+                                "lineFive": "LE BOYARD",
+                                "streetName": "RUE DE PARIS",
+                                "countryCode": "FR",
+                                "postalCode": "78230",
+                                "cityName": "LE PECQ"
+                            }
+                        }
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "jdupont-mp2"
+                    },
+                    "dependent": {
+                        "itemID": "4"
+                    }
+                }
+            }
+        }
+    ]
+}

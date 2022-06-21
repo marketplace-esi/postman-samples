@@ -1,163 +1,93 @@
 {
-    "events": [
-        {
-            "eventNameCode": {
-                "codeValue": "pay-data-input.replace"
-            },
-            "creationDateTime": "2020-11-12T13:50:44Z",
-            "data": {
-                "eventContext": {
-                    "contextExpressionID": ""
-                },
-                "transform": {
-                    "effectiveDateTime": "2014-01-01T00:00:00Z",
-                    "payDataInput": {
-                        "payeePayInputs": [
-                            {
-                                "associateOID": "aoiduser-3mk",
-                                "payeeID": {
-                                    "idValue": "",
-                                    "schemeCode": {
-                                        "codeValue": ""
-                                    }
-                                },
-                                "payPeriodStartDate": "2020-01-01",
-                                "payPeriodEndDate": "2020-01-01",
-                                "payNumber": "",
-                                "payTypeCode": {
-                                    "codeValue": ""
-                                },
-                                "payrollProfilePayInputs": [
-                                    {
-                                        "payInputs": [
-                                            {
-                                                "payAllocation": {
-                                                    "allocationID": "IMP01"
-                                                },
-                                                "earningInputs": [
-                                                    {
-                                                        "earningCode": {
-                                                            "codeValue": "0221"
-                                                        },
-                                                        "modifierCode": {
-                                                            "codeValue": ""
-                                                        },
-                                                        "rateCode": {
-                                                            "codeValue": ""
-                                                        },
-                                                        "rate": {
-                                                            "rateValue": 20.0,
-                                                            "currencyCode": "",
-                                                            "unitCode": {
-                                                                "codeValue": ""
-                                                            },
-                                                            "baseUnitCode": {
-                                                                "codeValue": ""
-                                                            },
-                                                            "baseMultiplierValue": 10.0
-                                                        },
-                                                        "numberOfHours": 450.0
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "payAllocation": {
-                                                    "allocationID": "IMP02"
-                                                },
-                                                "earningInputs": [
-                                                    {
-                                                        "earningCode": {
-                                                            "codeValue": "0220"
-                                                        },
-                                                        "modifierCode": {
-                                                            "codeValue": ""
-                                                        },
-                                                        "rateCode": {
-                                                            "codeValue": ""
-                                                        },
-                                                        "rate": {
-                                                            "rateValue": 20.0,
-                                                            "currencyCode": "",
-                                                            "unitCode": {
-                                                                "codeValue": ""
-                                                            },
-                                                            "baseUnitCode": {
-                                                                "codeValue": ""
-                                                            },
-                                                            "baseMultiplierValue": 10.0
-                                                        },
-                                                        "numberOfHours": 450.0
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "payAllocation": {
-                                                    "allocationID": "9"
-                                                },
-                                                "calculationFactorInputs": [
-                                                    {
-                                                        "calculationFactorCode": {
-                                                            "codeValue": "A117"
-                                                        },
-                                                        "calculationFactorRate": {
-                                                            "rateValue": 0.0,
-                                                            "currencyCode": "",
-                                                            "unitCode": {
-                                                                "codeValue": "",
-                                                                "shortName": "",
-                                                                "longName": ""
-                                                            },
-                                                            "baseUnitCode": {
-                                                                "codeValue": "8"
-                                                            },
-                                                            "baseMultiplierValue": 0.0
-                                                        },
-                                                        "configurationTags": [
-                                                            {
-                                                                "tagCode": "5"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "payAllocation": {
-                                                    "allocationID": "9"
-                                                },
-                                                "calculationFactorInputs": [
-                                                    {
-                                                        "calculationFactorCode": {
-                                                            "codeValue": "A117"
-                                                        },
-                                                        "calculationFactorRate": {
-                                                            "rateValue": 0.0,
-                                                            "currencyCode": "",
-                                                            "unitCode": {
-                                                                "codeValue": "",
-                                                                "shortName": "",
-                                                                "longName": ""
-                                                            },
-                                                            "baseUnitCode": {
-                                                                "codeValue": "8"
-                                                            },
-                                                            "baseMultiplierValue": 0.0
-                                                        },
-                                                        "configurationTags": [
-                                                            {
-                                                                "tagCode": "4"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
+  "events": [
+    {
+      "data": {
+        "transform": {
+          "payDataInput": {
+            "payeePayInputs": [
+              {
+                "associateOID": "employee-abc",
+                "payPeriodStartDate": "2020-01-01",
+                "payrollProfilePayInputs": [
+                  {
+                    "payInputs": [
+                      {
+                        "payAllocation": {
+                          "allocationID": "IMP01"
+                        },
+                        "earningInputs": [
+                          {
+                            "earningCode": {
+                              "codeValue": "0221"
+                            },
+                            "rate": {
+                              "rateValue": 20.0,
+                              "baseMultiplierValue": 10.0
+                            },
+                            "numberOfHours": 450.0
+                          }
                         ]
-                    }
-                }
-            }
+                      },{
+                        "payAllocation": {
+                          "allocationID": "IMP02"
+                        },
+                        "earningInputs": [
+                          {
+                            "earningCode": {
+                              "codeValue": "0220"
+                            },
+                            "rate": {
+                              "rateValue": 20.0,
+                              "baseMultiplierValue": 10.0
+                            },
+                            "numberOfHours": 450.0
+                          }
+                        ]
+                      },{
+                        "calculationFactorInputs": [
+                          {
+                            "calculationFactorCode": {
+                              "codeValue": "A117"
+                            },
+                            "calculationFactorRate": {
+                              "baseUnitCode": {
+                                "codeValue": "8"
+                              }
+                            },
+                            "configurationTags": [
+                              {
+                                "tagCode": "5"
+                              }
+                            ]
+                          }
+                        ]
+                      },{
+                        "calculationFactorInputs": [
+                          {
+                            "calculationFactorCode": {
+                              "codeValue": "A117"
+                            },
+                            "calculationFactorRate": {
+                              "baseUnitCode": {
+                                "codeValue": "8"
+                              }
+                            },
+                            "configurationTags": [
+                              {
+                                "tagCode": "4"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         }
-    ]
+      }
+    }
+  ]
 }

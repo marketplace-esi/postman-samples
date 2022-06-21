@@ -52,18 +52,11 @@
                     ],
                     "emails": [
                         {
-                            "nameCode": {
-                                "codeValue": "MailPerso",
-                                "shortName": "MailPerso",
-                                "longName": "MailPerso"
-                            },
                             "emailUri": "ALEXB@YAHOO.FR",
                             "itemID": "MailPerso"
                         }
                     ]
                 },
-                "deceasedIndicator": true,
-                "deathDate": "1969-02-13",
                 "genderCode": {
                     "codeValue": "M",
                     "shortName": "Masculin",
@@ -75,9 +68,6 @@
                     "longName": "VEUF / VEUVE",
                     "effectiveDate": "2019-04-28"
                 },
-                "immigrationDocuments": [
-                    {}
-                ],
                 "birthPlace": {
                     "cityName": "MONTPELLIER",
                     "countrySubdivisionLevel1": {
@@ -139,11 +129,6 @@
                 ],
                 "emails": [
                     {
-                        "nameCode": {
-                            "codeValue": "Travail",
-                            "shortName": "Travail",
-                            "longName": "Travail"
-                        },
                         "emailUri": "EMAIL.PRO@MAIL.COM",
                         "itemID": "businessEmail"
                     }
@@ -177,8 +162,7 @@
                                 "longName": "STRASBOURG INTRA"
                             },
                             "itemID": "departmentId"
-                        },
-                        null
+                        }
                     ],
                     "assignedWorkLocations": [
                         {
@@ -206,7 +190,7 @@
                     },
                     "reportsTo": [
                         {
-                            "associateOID": "0002331",
+                            "associateOID": "employee-abc",
                             "reportsToWorkerName": {
                                 "givenName": "LAURE",
                                 "familyName1": "DUPOND",
@@ -216,17 +200,26 @@
                         }
                     ],
                     "payrollFileNumber": "00001066",
-                    "customFieldGroup": {}
+                    "customFieldGroup": {},
+            		"workerStatus": {
+                		"statusCode": {
+                    		"codeValue": "active",
+                    		"shortName": "active"
+                		}
+           			 },
+           			 "photos": [
+               			 {
+                   			 "links": [
+                        		{
+                          		  "href": "/hr/v2/workers/employee-xyz/worker-images/photo",
+                           		  "rel": "/adp/image"
+                        		}
+                    		]
+                		}
+           			 ] 
+                    
                 }
-            ],
-            "customFieldGroup": {
-                "stringFields": [
-                    {
-                        "stringValue": "",
-                        "itemID": "workerCustomStringLibre"
-                    }
-                ]
-            }
+            ]
         }
     ]
 }

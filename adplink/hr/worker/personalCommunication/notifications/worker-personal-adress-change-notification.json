@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "TestRemovePersonalAddress",
+            "eventID": "5ef3254547d846f8f59eb4d6",
             "eventNameCode": {
                 "codeValue": "worker.personalAddress.change"
             },

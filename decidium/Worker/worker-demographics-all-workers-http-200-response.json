@@ -40,9 +40,9 @@
                     "countryCode": "FR",
                     "postalCode": "44000",
                     "buildingNumber": "97",
-                    "buildingNumberExtension": " ",
-                    "buildingName": " ",
+                    "buildingNumberExtension": "B",
                     "streetName": "RUE SAINT PIERRE",
+					"lineOne": "97 B RUE SAINT PIERRE",
                     "countrySubdivisionLevel2": {
                         "codeValue": "",
                         "longName": "",
@@ -240,8 +240,8 @@
                     "lineFive": "LIEU DIT",
                     "buildingNumber": "14",
                     "buildingNumberExtension": "B",
-                    "buildingName": "B",
                     "streetName": "RUE NOTRE DAME",
+					"lineOne": "14 B RUE NOTRE DAME",
                     "countrySubdivisionLevel2": {
                         "codeValue": "69266",
                         "longName": "VILLEURBANNE",
@@ -312,8 +312,6 @@
                         "lineFive": "LES",
                         "buildingNumber": "12",
                         "buildingNumberExtension": "B",
-                        "buildingName": "B",
-                        "countrySubdivisionLevel2": {},
                         "itemID": "AdrPerso"
                     }
                 ],
@@ -491,14 +489,9 @@
                     "countryCode": "FR",
                     "postalCode": "33100",
                     "buildingNumber": "10",
-                    "buildingNumberExtension": " ",
-                    "buildingName": " ",
+                    "buildingNumberExtension": "B",
                     "streetName": "RUE D ATHENES",
-                    "countrySubdivisionLevel2": {
-                        "codeValue": "",
-                        "longName": "",
-                        "subdivisionType": ""
-                    }
+					"lineOne": "10 B RUE D ATHENES"
                 },
                 "deceasedIndicator": false,
                 "genderCode": {
@@ -655,9 +648,9 @@
                     "cityName": "COLLONGES AU MONT D OR",
                     "lineFive": "DOMAINE MONPLAISIR",
                     "buildingNumber": "4",
-                    "buildingNumberExtension": " ",
-                    "buildingName": " ",
+                    "buildingNumberExtension": "B",
                     "streetName": "AVENUE MONPLAISIR",
+					"lineOne": "4 B AVENUE MONPLAISIR",
                     "countrySubdivisionLevel2": {
                         "codeValue": "00000"
                     }
@@ -822,9 +815,9 @@
                     "countryCode": "FR",
                     "postalCode": "75016",
                     "buildingNumber": "18",
-                    "buildingNumberExtension": " ",
-                    "buildingName": " ",
+                    "buildingNumberExtension": "B",
                     "streetName": "RUE DES JONQUILLES",
+					"lineOne": "18 B RUE DES JONQUILLES",
                     "countrySubdivisionLevel2": {
                         "codeValue": "00000"
                     }
@@ -903,6 +896,7 @@
             },
             "workAssignments": [
                 {
+					"itemID": "A0000759|2013-10-21",
                     "hireDate": "2013-10-21",
                     "actualStartDate": "2013-10-21",
                     "jobCode": {
@@ -963,7 +957,6 @@
                         }
                     ],
                     "payrollFileNumber": "A0000759",
-                    "itemID": "A0000759"
                 }
             ]
         }

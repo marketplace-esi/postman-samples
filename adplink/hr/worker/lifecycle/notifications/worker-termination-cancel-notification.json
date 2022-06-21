@@ -1,14 +1,17 @@
 {
     "events": [
         {
-            "eventID": "TerminationCancel_eventID",
+            "eventID": "5ef3254447d84659379e22a9",
             "eventNameCode": {
                 "codeValue": "workerTermination.cancel"
             },
             "data": {
+                "eventContext": {
+                    "associateOID": "employee-abc"
+                },
                 "output": {
                     "worker": {
-                        "associateOID": "0001525",
+                        "associateOID": "employee-abc",
                         "workerID": {
                             "idValue": "0001525"
                         },

@@ -38,6 +38,7 @@
                                 "buildingNumber": "1",
                                 "buildingNumberExtension": "B",
                                 "streetName": "RUE AUGUSTIN FRESNEL",
+								"lineOne": "1 B RUE AUGUSTIN FRESNEL",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "44204",
                                     "longName": "THOUARE SUR LOIRE",
@@ -151,6 +152,7 @@
                                     "buildingNumber": "1",
                                     "buildingNumberExtension": "B",
                                     "streetName": "RUE AUGUSTIN FRESNEL",
+									"legalName": "1 B RUE AUGUSTIN FRESNEL",
                                     "countrySubdivisionLevel2": {
                                         "codeValue": "44204",
                                         "subdivisionType": "THOUARE SUR LOIRE"

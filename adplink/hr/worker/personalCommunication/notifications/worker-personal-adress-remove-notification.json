@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "eventID": "TestRemovePersonalAddress",
+            "eventID": "5ef3254547d846f8f59eb423",
             "eventNameCode": {
                 "codeValue": "worker.personalAddress.remove"
             },
@@ -19,18 +19,12 @@
                         },
                         "person": {
                             "personalAddress": {
-                                "countrySubdivisionLevel1": {
-                                    "codeValue": "VERSAILLES"
-                                },
-                                "countryCode": "",
-                                "postalCode": "78000",
-                                "lineFive": "",
-                                "buildingNumber": "10",
-                                "buildingNumberExtension": "",
-                                "streetName": "RUE VOLTAIRE",
-                                "countrySubdivisionLevel2": {
-                                    "longName": "VERSAILLES"
-                                }
+		                        "countryCode": "",
+		                        "postalCode": "",
+		                        "lineFive": "",
+		                        "buildingNumber": "",
+		                        "buildingNumberExtension": "",
+		                        "streetName": ""
                             }
                         }
                     }
