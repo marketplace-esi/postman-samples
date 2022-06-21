@@ -10,13 +10,13 @@
                 },
                 {
                     "codeValue": "01001",
-                    "shortName": "ORION SIEGE LEVALLOIS",
-                    "longName": "ORION SIEGE LEVALLOIS"
+                    "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+                    "longName": "ORION SIEGE LEVALLOIS AFEAFE"
                 },
                 {
                     "codeValue": "02003",
-                    "shortName": "ORION CONSEIL LEVALLOIS",
-                    "longName": "ORION CONSEIL LEVALLOIS"
+                    "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                    "longName": "ORION CONSEIL LEVALLOIS TEST SUITE \" RAISON"
                 },
                 {
                     "codeValue": "02004",
@@ -42,6 +42,11 @@
                     "codeValue": "99005",
                     "shortName": "VESINET",
                     "longName": "VESINET"
+                },
+                {
+                    "codeValue": "22222",
+                    "shortName": "TEST OLC 1",
+                    "longName": "TEST OLC 1"
                 }
             ]
         }
