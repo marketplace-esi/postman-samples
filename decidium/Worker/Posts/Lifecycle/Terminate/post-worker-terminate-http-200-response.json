@@ -1,0 +1,42 @@
+{
+    "confirmMessage": {
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2022-06-21T15:54:29.325+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {}
+    },
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "tschulz-mp3",
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "INACTIVE",
+                                "shortName": "INACTIVE"
+                            }
+                        },
+                        "workerDates": {
+                            "terminationDate": "2022-03-31",
+                            "originalHireDate": "2021-11-01"
+                        },
+                        "terminationReasonCode": {
+                            "codeValue": "DM",
+                            "longName": "Démission"
+                        }
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "tschulz-mp3"
+                    }
+                }
+            }
+        }
+    ]
+}
