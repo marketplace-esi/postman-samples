@@ -1,0 +1,200 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "9512369",
+                "schemeCode": {
+                    "codeValue": "REFERENCE",
+                    "shortName": "Employee Reference Number"
+                }
+            },
+            "associateOID": "UK0JAPA5024O8DXJ",
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Current",
+                    "shortName": "Current"
+                },
+                "reasonCode": {
+                    "codeValue": "Hire",
+                    "shortName": "Hire"
+                }
+            },
+            "person": {
+                "legalName": {
+                    "familyName1": "Dunleavy",
+                    "givenName": "Charles",
+                    "nickName": "Charles",
+                    "formattedName": "Charles Dunleavy",
+                    "preferredSalutations": [
+                        {
+                            "sequenceNumber": 1,
+                            "salutationCode": {
+                                "codeValue": "Mr",
+                                "shortName": "Mr."
+                            },
+                            "typeCode": {
+                                "codeValue": "SOCIAL",
+                                "shortName": "Social"
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1982-12-25",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "Male"
+                },
+                "disabledIndicator": false,
+                "otherPersonalAddresses": [
+                    {
+                        "typeCode": {
+                            "codeValue": "HOME",
+                            "shortName": "Home Address"
+                        },
+                        "deliveryPoint": "True",
+                        "itemID": "c5adf08f-d628-4a0b-9c7e-693de74c6fd8",
+                        "nameCode": {
+                            "codeValue": "HOME",
+                            "shortName": "Home Address"
+                        },
+                        "lineOne": "123 High Street",
+                        "cityName": "Polkington",
+                        "countryCode": "GBR"
+                    }
+                ],
+                "legalAddress": {
+                    "nameCode": {
+                        "codeValue": "HOME",
+                        "shortName": "Home Address"
+                    },
+                    "deliveryPoint": "True",
+                    "itemID": "c5adf08f-d628-4a0b-9c7e-693de74c6fd8",
+                    "lineOne": "123 High Street",
+                    "cityName": "Polkington",
+                    "countryCode": "GBR"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "WORKEMAIL",
+                            "shortName": "Work Email"
+                        },
+                        "emailUri": "tricia.brogan@adp.com"
+                    }
+                ]
+            },
+            "workerDates": {
+                "adjustedServiceDate": "2017-11-01"
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Permanent",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "UAT Specialist",
+                    "jobCode": {
+                        "effectiveDate": "2017-12-21",
+                        "codeValue": "022",
+                        "shortName": "UAT Specialist"
+                    },
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "LON01",
+                            "shortName": "London"
+                        },
+                        "address": {
+                            "countryCode": "GB"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 37.5,
+                        "unitCode": {
+                            "codeValue": "V",
+                            "shortName": "Variable"
+                        }
+                    },
+                    "legalEntityID": "ADLM001 - Alliance Demo Limited",
+                    "reportsTo": [
+                        {
+                            "itemID": "e7bb9232-86f4-4195-90ec-4f44af9beb79",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTSTO"
+                            },
+                            "workerID": {
+                                "idValue": "ADL001",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "Bruce Newton",
+                                "givenName": "Bruce",
+                                "familyName1": "Newton",
+                                "middleName": "Peter"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "9512369",
+                    "hireDate": "2017-12-21",
+                    "workerProbationPeriod": {
+                        "endDate": "2018-02-01"
+                    },
+                    "itemID": "0e989907-2458-47a0-9a35-ccf53ed9aa8e",
+                    "payrollGroupCode": "AD002",
+                    "customFieldGroup": {
+                        "amountFields": [
+                            {
+                                "amountValue": 32500.0,
+                                "nameCode": {
+                                    "codeValue": "SALAMOUNT",
+                                    "shortName": "Salary Amount"
+                                }
+                            }
+                        ],
+                        "codeFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "SALFRQCODE",
+                                    "shortName": "Salary Pay Frequency Code"
+                                },
+                                "codeValue": "Annual",
+                                "shortName": "Annual"
+                            }
+                        ]
+                    },
+                    "baseRemuneration": {
+                        "annualRateAmount": {
+                            "amountValue": 32500.0,
+                            "nameCode": {
+                                "codeValue": "SALAMOUNT",
+                                "shortName": "Salary Amount"
+                            }
+                        },
+                        "effectiveDate": "2017-12-21",
+                        "recordingBasisCode": {
+                            "codeValue": "Annual",
+                            "shortName": "Annual"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
