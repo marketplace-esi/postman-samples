@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.email.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "b0a9494e-b383-47c5-ba59-42c3380c8b5f"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-07-07T16:02:44.597",
+                    "worker": {
+                        "businessCommunication": {
+                            "email": {
+                                "emailUri": "MyNewWorkemail@mycompany.com"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
