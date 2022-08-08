@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "UK0K8H95406PKZVF"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "maritalStatusCode": {
+                "codeValue": "Separated",
+                "shortName": "Separated"
+              }
+            },
+            "associateOID": "UK0K8H95406PKZVF"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.maritalStatus.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}

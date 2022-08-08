@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0K8H95406PKZVF"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2014-01-01T00:00:00Z",
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "Separated",
+                                "shortName": "Separated"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

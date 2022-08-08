@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "mobile": {
+                "formattedNumber": "9876544333"
+              }
+            },
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.mobile.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}

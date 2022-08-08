@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        },
+        "output": {
+          "worker": {
+            "businessCommunication": {
+              "email": {
+                "emailUri": "MyName@mycompany.com"
+              }
+            },
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.businessCommunication.email.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}
