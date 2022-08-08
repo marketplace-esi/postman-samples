@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "565656"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "email": {
+                                    "emailUri": "vignh@adp.com"
+                                }
+                            }
+                        },
+                        "associateOID": "565656"
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personal-communication.email.change"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}
