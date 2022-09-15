@@ -1,0 +1,27 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "AO0M9FB1048OFW8"
+                    }
+                },
+                "eventContext": {
+                    "associateOID": "AO0M9FB1048OFW8",
+                    "workAssignmentID": "A1234978|2022-09-10"
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "createDateTime": "2022-09-15T13:42:00.14+02:00"
+    }
+}
