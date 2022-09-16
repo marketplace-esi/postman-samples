@@ -1,0 +1,170 @@
+{
+	"organizationalUnits":[
+		{
+			"unitID": "E_001",
+			"alternateUnitIDs":{
+				"IDs":[
+					{
+						"id": "",
+						"scheme":{
+							"name": ""
+						}
+					}
+				]
+			},
+			"unitName": "ADP",
+			"nameCode":{
+				"name": "",
+			},
+			"typeCode":{
+				"code": "E",
+				"name": "Empresa"
+			},
+			"legalName": "Automated Data Processing Inc",
+			"governmentRegistrations":[
+				{
+					"registrationID": "",
+					"registrationTypeCode":{
+						"code": "RUT",
+						"name": "RUT"
+					}
+				}
+			],
+			"locations":[
+				{
+					"address":{
+						"lineOne": "Av. Apoquindo",
+						"cityName": "Santiago",
+						"subdivisionCode":{
+							"code": "1",
+							"name": "Tarapacá",
+							"subdivisionType": "Región"
+						},
+						"subdivisionCode2":{
+							"code": "1",
+							"name": "Arica",
+							"subdivisionType": "Comuna"
+						},
+						"countryCode": "CL",
+						"postalCode": "90000000",
+						"formattedAddres": "Av Apoquindo, 500 Las Condes Santiago",
+						"buildingNumber": "500",
+						"blockName": "Las Condes",
+						"streetName": "Av. Apoquindo",
+						"unit": "1",
+						"floor": "5°"
+					},
+					"communication":{
+						"landlines":[
+							{
+								"areaDialing": "56",
+								"dialNumber": "3434-3434",
+								"formattedNumber": "56 3434-3434"
+							}
+						],
+						"emails":[
+							{
+								"emailUri": "TEST@ADP.COM"
+							}
+						]
+					}
+				}
+			]				
+		},
+		{
+			"unitID": "U_001",
+			"alternateUnitIDs":{
+				"IDs":[
+					{
+						"id": "123",
+						"scheme":{
+							"name": "valor_1"
+						}
+					},
+					{
+						"id": "245",
+						"scheme":{
+							"name": "valor_2"
+						}
+					},
+					{
+						"id": "658",
+						"scheme":{
+							"name": "valor_3"
+						}
+					},
+					{
+						"id": "789",
+						"scheme":{
+							"name": "valor_4"
+						}
+					},
+					{
+						"id": "abc1",
+						"scheme":{
+							"name": "Código Alternativo"
+						}
+					}
+				]
+			},
+			"unitName": "ADP CHILE",
+			"nameCode":{
+				"name": "",
+			},
+			"typeCode":{
+				"code": "U",
+				"name": "Unidad"
+			},
+			"legalName": "",
+			"governmentRegistrations":[
+				{
+					"registrationID": "",
+					"registrationTypeCode":{
+						"code": "",
+						"name": "",
+					}
+				}
+			],
+			"locations":[
+				{
+					"addres":{
+						"lineOne": "",
+						"cityName": "",
+						"subdivisionCode":{
+							"code": "",
+							"name": "",
+							"subdivisionType": ""
+						},
+						"subdivisionCode2":{
+							"code": "",
+							"name": "",
+							"subdivisionType": ""
+						},
+						"countryCode": "",
+						"postalCode": "",
+						"formattedAddres": "",
+						"buildingNumber": "",
+						"blockName": "",
+						"streetName": "",
+						"unit": "",
+						"floor": ""
+					},
+					"communication":{
+						"landlines":[
+							{
+								"areaDialing": "",
+								"dialNumber": "",
+								"formattedNumber": ""
+							}
+						],
+						"emails":[
+							{
+								"emailUri": ""
+							}
+						]
+					}
+				}
+			]
+		}
+	]			
+}

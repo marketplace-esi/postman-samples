@@ -1,0 +1,95 @@
+{
+	"organizationalUnits" : [
+		{
+			"unitID": "E_001_001",
+			"alternateUnitIDs": {
+				"IDs" : [
+					{
+						"id": "001",
+						"scheme": {
+							"name": "Estabelecimento"
+						}
+					}
+				]
+			},
+			"unitName": "Estabelecimento 1",
+			"nameCode": {
+				"name": "nome fantasia estabelecimento 1"
+			},
+			"typeCode": {
+				"code": "B",
+				"name": "Branch"
+			},
+			"legalName": "Razão Social Estabelecimento 1",
+			"governmentRegistrations": [
+				{
+					"registrationID": "13277987854897",
+					"registrationTypeCode": {
+						"code": "CNPJ",
+						"name": "CNPJ"
+					},
+				"registrationStatus": {
+					"statusCode": {
+						"code": "A",
+						"name": "Active"
+					},
+				},
+				"issuanceDate": "2000-01-01",
+				"expirationDate": ""
+				}
+			]
+			"locations": {
+				"locationID": "ESTAB-001",
+				"nameCode": {
+					"code": "001",
+					"name": "Estabelecimento 1"
+				},
+				"address": {
+					"lineOne": "Av. Soledade 5º andar",
+					"lineTwo": "Três Figueiras, Porto Alegre, RS",
+					"lineThree": "90000000",
+					"cityName": "Porto Alegre",
+					"subdivisionCode": {
+						"code": "RS",
+						"name": "Rio Grande do Sul",
+						"subdivisionType": "STATE"
+					},
+					"countryCode": "BR",
+					"postalCode": "90000000",
+					"buildingNumber": "500",
+					"blockName": "Três Figueiras",
+					"streetName": "Soledade",
+					"streetTypeCode": {
+						"name": "Avenida"
+					},
+					"unit": "5º andar"
+				},
+				"communication": {
+					"landlines": [
+						{
+							"areaDialing": "51",
+							"dialNumber": "30000000",
+							"formattedNumber": "51 30000000"
+						}
+					],
+					"emails": [
+						{
+							"emailUri": "TEST@ADP.COM"
+						}
+					],
+					"faxes": [
+						{
+							"areaDialing": "51",
+							"dialNumber": "33000000",
+							"formattedNumber": "51 33000000"
+						}
+					]	
+				},
+			}
+			"effectiveDatePeriod": {
+				"startDate": "2000-01-01",
+				"endDate": ""
+			}
+		}
+	]
+}
