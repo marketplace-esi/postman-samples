@@ -10,9 +10,7 @@
                 "dependent": {
                     "itemID": "C;01",
                     "relationshipTypeCode": {
-                        "codeValue": "C",
-                        "shortName": "Conjoint",
-                        "longName": "Conjoint"
+                        "codeValue": "C"
                     },
                     "person": {
                         "legalName": {
@@ -35,15 +33,13 @@
                                 }
                             }
                         ],
-                        "disabledIndicator": "true"
-                    },
-                    "birthOrder": "01",
-                    "taxDependentIndicator": "true",
-                    "childSupportIndicator": "true",
-                    "professionTypeCode": {
-                        "codeValue": "4",
-                        "shortName": "SALARIE DANS LE GROUPE",
-                        "longName": "SALARIE DANS LE GROUPE"
+                        "disabledIndicator": "true",
+                        "birthOrder": "01",
+                        "taxDependentIndicator": "true",
+                        "childSupportIndicator": "true",
+                        "professionTypeCode": {
+                            "codeValue": "4"
+                        }
                     }
                 }
 			}
