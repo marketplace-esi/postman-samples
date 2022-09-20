@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+            "eventID": "5ef3254447d84659379e2218",
+            "eventNameCode": {
+                "codeValue": "worker.terminate"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-abc",
+                        "workerID": {
+                            "idValue": "0001525"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
