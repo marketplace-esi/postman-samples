@@ -1,0 +1,23 @@
+{
+	"events": [{
+		"data": {
+			"transform": {
+				"worker": {
+					"person": {
+						"citizenshipCountryCode": {
+                           "codeValue": "100",
+                           "shortName": "FRANCAISE",
+                           "longName": "FRANCAISE"
+                        }
+                        
+					}
+				}
+			},
+			"eventContext": {
+				"worker": {
+					"associateOID": "employee-abc"
+				}
+			}
+		}
+	}]
+}
