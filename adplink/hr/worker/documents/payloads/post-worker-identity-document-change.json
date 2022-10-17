@@ -6,7 +6,10 @@
                     "worker": {
                         "person": {
                             "identityDocument": {
-                                "documentID": "268099911010543"
+                                "documentID": "268099911010543",
+                                "typeCode": {
+                                    "codeValue": "SSN"
+                                }
                             }
                         }
                     }
