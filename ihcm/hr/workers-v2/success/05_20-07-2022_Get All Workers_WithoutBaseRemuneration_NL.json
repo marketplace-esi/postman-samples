@@ -1,0 +1,149 @@
+{
+  "workers": [
+    {
+      "workerID": {
+        "idValue": "93346-9203",
+        "schemeCode": {
+          "codeValue": "REFERENCE",
+          "shortName": "Employee Reference Number"
+        }
+      },
+      "workerStatus": {
+        "statusCode": {
+          "codeValue": "Current",
+          "shortName": "Current"
+        },
+        "reasonCode": {
+          "codeValue": "Hire",
+          "shortName": "Hire"
+        }
+      },
+      "person": {
+        "legalName": {
+          "familyName1": "Downey",
+          "givenName": "Robert",
+          "nickName": "Robert",
+          "formattedName": "Robert Downey",
+          "preferredSalutations": [
+            {
+              "sequenceNumber": 1,
+              "salutationCode": {
+                "codeValue": "Mr",
+                "shortName": "Mr."
+              },
+              "typeCode": {
+                "codeValue": "SOCIAL",
+                "shortName": "Social"
+              }
+            }
+          ],
+          "initials": "R"
+        },
+        "birthDate": "1981-01-22",
+        "genderCode": {
+          "codeValue": "Male",
+          "shortName": "Male"
+        },
+        "maritalStatusCode": {
+          "codeValue": "4",
+          "shortName": "Independent"
+        },
+        "citizenshipCountryCodes": [
+          {
+            "codeValue": "0001",
+            "shortName": "Dutch"
+          }
+        ],
+        "governmentIDs": [
+          {
+            "idValue": "076161018",
+            "nameCode": {
+              "codeValue": "SocialSecurityNumber",
+              "shortName": "Social Security Number"
+            },
+            "countryCode": "NL"
+          }
+        ],
+        "identityDocuments": [
+          {
+            "documentID": "076161018",
+            "typeCode": {
+              "codeValue": "SocialSecurityNumber",
+              "shortName": "Social Security Number"
+            },
+            "countryCode": "NL"
+          }
+        ]
+      },
+      "businessCommunication": {
+        "emails": [
+          {
+            "nameCode": {
+              "codeValue": "WORKEMAIL",
+              "shortName": "Work Email"
+            },
+            "emailUri": "Robert@emaildomaintest.com"
+          }
+        ]
+      },
+      "workerDates": {
+        "adjustedServiceDate": "2000-01-01"
+      },
+      "workAssignments": [
+        {
+          "primaryIndicator": true,
+          "assignmentStatus": {
+            "statusCode": {
+              "codeValue": "Current",
+              "shortName": "Current"
+            }
+          },
+          "workerTypeCode": {
+            "shortName": "Permanent",
+            "longName": "Permanent"
+          },
+          "fullTimeEquivalenceRatio": 1.0,
+          "workLevelCode": {
+            "codeValue": "Full_Time",
+            "shortName": "Full Time"
+          },
+          "jobTitle": "Tester",
+          "jobCode": {
+            "effectiveDate": "2000-01-01",
+            "codeValue": "933462",
+            "shortName": "Tester"
+          },
+          "homeWorkLocation": {
+            "address": {
+              "countryCode": "NL"
+            }
+          },
+          "standardHours": {
+            "unitCode": {
+              "codeValue": "C",
+              "shortName": "Casual Worker"
+            }
+          },
+          "legalEntityID": "93346 - NL Company 93346",
+          "payrollFileNumber": "9203",
+          "hireDate": "2000-01-01",
+          "itemID": "0dc230fb-88e2-4730-8f0a-36eb7e8d7193",
+          "payrollGroupCode": "93346",
+          "homeOrganizationalUnits": [
+            {
+              "nameCode": {
+                "codeValue": "933461",
+                "shortName": "Dep 1-93346"
+              },
+              "typeCode": {
+                "codeValue": "1",
+                "shortName": "Level 2",
+                "longName": "Organisation structure"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

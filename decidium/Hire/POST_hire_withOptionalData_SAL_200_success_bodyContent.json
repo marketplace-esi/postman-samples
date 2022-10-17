@@ -26,11 +26,11 @@
                                 "effectiveDate": "2006-08-01"
                             },
                             "birthPlace": {
-                                "countryCode": 100,
+                                "countryCode": "FR",
                                 "cityName": "PARIS",
                                 "postalCode": "75000",
                                 "countrySubdivisionLevel1": {
-                                    "codeValue": "100"
+                                    "codeValue": "FR"
                                 }
                             },
                             "birthDate": "1979-09-19",
@@ -43,7 +43,7 @@
                                 "countrySubdivisionLevel1": {
                                     "codeValue": "THOUARE SUR LOIRE"
                                 },
-                                "countryCode": "100",
+                                "countryCode": "FR",
                                 "postalCode": "44470",
                                 "lineFive": "PORT JEAN",
                                 "buildingNumber": "1",

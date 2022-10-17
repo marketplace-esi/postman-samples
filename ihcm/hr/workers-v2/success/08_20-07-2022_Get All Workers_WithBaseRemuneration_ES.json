@@ -1,0 +1,329 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "3455555",
+                "schemeCode": {
+                    "codeValue": "REFERENCE",
+                    "shortName": "Employee Reference Number"
+                }
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Current",
+                    "shortName": "Current"
+                },
+                "reasonCode": {
+                    "codeValue": "Hire",
+                    "shortName": "Hire"
+                }
+            },
+            "person": {
+                "legalName": {
+                    "familyName1": "MESA MARTINEZ",
+                    "givenName": "TANIA",
+                    "nickName": "TANIA",
+                    "formattedName": "TANIA MESA MARTINEZ",
+                    "preferredSalutations": [
+                        {
+                            "sequenceNumber": 1,
+                            "salutationCode": {
+                                "codeValue": "Mrs",
+                                "shortName": "Mrs."
+                            },
+                            "typeCode": {
+                                "codeValue": "SOCIAL",
+                                "shortName": "Social"
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1980-04-01",
+                "genderCode": {
+                    "codeValue": "Female",
+                    "shortName": "Female"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "S",
+                    "shortName": "Single"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "Spanish",
+                        "shortName": "Spanish"
+                    }
+                ],
+                "communication": {
+                    "landlines": [
+                        {
+                            "nameCode": {
+                                "codeValue": "HOME",
+                                "shortName": "Home Telephone"
+                            },
+                            "formattedNumber": "676981347"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "nameCode": {
+                                "codeValue": "PERMOBILE",
+                                "shortName": "Personal Mobile"
+                            },
+                            "formattedNumber": "676981347"
+                        }
+                    ]
+                },
+                "governmentIDs": [
+                    {
+                        "idValue": "384785053622",
+                        "nameCode": {
+                            "codeValue": "SocialInsuranceID",
+                            "shortName": "SocialInsuranceID"
+                        },
+                        "countryCode": "ES"
+                    },
+                    {
+                        "idValue": "97931443L",
+                        "countryCode": "ESP",
+                        "nameCode": {
+                            "codeValue": "1"
+                        }
+                    }
+                ],
+                "identityDocuments": [
+                    {
+                        "documentID": "384785053622",
+                        "typeCode": {
+                            "codeValue": "SocialInsuranceID",
+                            "shortName": "SocialInsuranceID"
+                        },
+                        "countryCode": "ES"
+                    },
+                    {
+                        "itemID": "b7449e81-2cc7-4497-85ad-e646c7cf57eb",
+                        "documentID": "97931443L",
+                        "countryCode": "ESP",
+                        "typeCode": {
+                            "codeValue": "1"
+                        }
+                    }
+                ],
+                "birthPlace": {
+                    "countryCode": "ESP"
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "Paseo Nueva, 7",
+                        "typeCode": {
+                            "codeValue": "Home",
+                            "shortName": "Home"
+                        },
+                        "countryCode": "ES",
+                        "postalCode": "15158",
+                        "deliveryPoint": true,
+                        "nameCode": {
+                            "codeValue": "Home",
+                            "shortName": "Home"
+                        }
+                    }
+                ],
+                "legalAddress": {
+                    "nameCode": {
+                        "codeValue": "Home",
+                        "shortName": "Home"
+                    },
+                    "lineOne": "Paseo Nueva, 7",
+                    "countryCode": "ES",
+                    "postalCode": "15158",
+                    "deliveryPoint": true
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "WORKEMAIL",
+                            "shortName": "Work Email"
+                        },
+                        "emailUri": "spainsalesteam@adp.com"
+                    }
+                ]
+            },
+            "workerDates": {
+                "adjustedServiceDate": "2019-04-01",
+                "originalHireDate": "2019-04-01",
+                "acquisitionDate": "2019-04-01"
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        },
+                        "reasonCode": {
+                            "codeValue": "04",
+                            "shortName": "New Hiring"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Permanent",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "Operaciones",
+                    "jobCode": {
+                        "effectiveDate": "2019-04-01",
+                        "codeValue": "004",
+                        "shortName": "AUXILIAR DE VUELO"
+                    },
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "080",
+                            "shortName": "AEROPUERTO BARCELONA"
+                        },
+                        "address": {
+                            "countryCode": "ES"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 40.0,
+                        "unitCode": {
+                            "codeValue": "F",
+                            "shortName": "Fixed"
+                        }
+                    },
+                    "assignmentCostCenters": [
+                        {
+                            "costCenterID": "001",
+                            "costCenterName": "Centro Coste 1"
+                        }
+                    ],
+                    "legalEntityID": "891900 - ADP PDO",
+                    "reportsTo": [
+                        {
+                            "itemID": "3c95bdb5-6510-48b4-85bc-458dde9b1098",
+                            "associateOID": "PSPAIN1ADPRESERVED",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTSTO"
+                            },
+                            "workerID": {
+                                "idValue": "8800024",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "#ESTHER SAAVEDRA LEON",
+                                "givenName": "#ESTHER",
+                                "familyName1": "SAAVEDRA LEON"
+                            }
+                        },
+                        {
+                            "itemID": "7e658b21-b062-4760-837b-37b2cbbd676b",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "SUPERVISOR",
+                                "shortName": "SUPERVISOR"
+                            },
+                            "workerID": {
+                                "idValue": "0000002",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "givenName": "VALENTINA",
+                                "familyName1": "LOPEZ",
+                                "formattedName": "VALENTINA LOPEZ"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "3455555",
+                    "hireDate": "2019-04-01",
+                    "itemID": "11e56c93-6032-47ad-ae4e-c1064afd99a0",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "AERBCN",
+                                "shortName": "Aeropuerto Barcelona"
+                            },
+                            "typeCode": {
+                                "codeValue": "3",
+                                "shortName": "Team",
+                                "longName": "ADP PDO Structure"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "DIROPE",
+                                "shortName": "Dirección Operaciones"
+                            },
+                            "typeCode": {
+                                "codeValue": "2",
+                                "shortName": "Department",
+                                "longName": "ADP PDO Structure"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "DIRGEN",
+                                "shortName": "Dirección General"
+                            },
+                            "typeCode": {
+                                "codeValue": "1",
+                                "shortName": "Division",
+                                "longName": "ADP PDO Structure"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "891",
+                                "shortName": "ADP PDO"
+                            },
+                            "typeCode": {
+                                "codeValue": "0",
+                                "shortName": "Company",
+                                "longName": "ADP PDO Structure"
+                            }
+                        }
+                    ],
+                    "customFieldGroup": {
+                        "amountFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "SALAMOUNT",
+                                    "shortName": "Salary Amount"
+                                }
+                            }
+                        ],
+                        "codeFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "SALFRQCODE",
+                                    "shortName": "Salary Pay Frequency Code"
+                                },
+                                "codeValue": "M",
+                                "shortName": "Monthly"
+                            }
+                        ]
+                    },
+                    "baseRemuneration": {
+                        "effectiveDate": "2019-04-01",
+                        "recordingBasisCode": {
+                            "codeValue": "M",
+                            "shortName": "Monthly"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

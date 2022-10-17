@@ -1,24 +1,247 @@
 {
-    "events": [
-        {
-            "eventID": "e05af160-0874-498d-ba0b-767c2254ba32",
-            "eventNameCode": {
-                "codeValue": "workerTermination.cancel"
-            },
-            "recordDateTime": "2020-09-24T16:30:19+02:00",
-            "effectiveDateTime": "2020-09-02T00:00:00+02:00",
-            "data": {
-                "eventContext": {
-                    "associateOID": "jseudeci218-w7q"
-                },
-                "output": {
-                    "worker": {
-                        "workAssignment": {
-                            "terminationDate": "2020-09-02"
-                        }
-                    }
-                }
-            }
-        }
-    ]
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"associateOID": "fstntestdro-7110mp5",
+					"workAssignmentID": "A1234914|2022-05-01"
+				},
+				"output": {
+					"worker": {
+						"workerStatus": {
+							"effectiveDate": "2022-05-01",
+							"statusCode": {
+								"shortName": "ACTIVE",
+								"codeValue": "ACTIVE"
+							}
+						},
+						"workAssignment": {
+							"payrollFileNumber": "99994622",
+							"legalEntityID": "01",
+							"workerGroups": [
+								{
+									"groupCode": {
+										"shortName": "METALL I&C NAT  3025",
+										"longName": "METALL I&C NAT  3025",
+										"codeValue": "00"
+									}
+								}
+							],
+							"jobCode": {
+								"shortName": "Emploi 1",
+								"longName": "Emploi 1",
+								"codeValue": "EMPLO1"
+							},
+							"jobTitle": "Emploi 1",
+							"jobFunctionCode": {
+								"shortName": "CADRE ART 4",
+								"longName": "CADRE ART 4",
+								"codeValue": "13"
+							},
+							"expectedStartDate": "2022-05-01",
+							"actualStartDate": "2022-05-01",
+							"assignedWorkLocations": [
+								{
+									"address": {
+										"countrySubdivisionLevel2": {
+											"subdivisionType": "INSEE",
+											"shortName": "SAINT DIDIER MONT D OR",
+											"longName": "SAINT DIDIER MONT D OR",
+											"codeValue": "SAINT DIDIER MONT D OR"
+										},
+										"lineTwo": "14 RUE DE LA VOIE LACTEE",
+										"cityName": "SAINT DIDIER MONT D OR",
+										"postalCode": "69370",
+										"lineOne": "",
+										"countryCode": "FR"
+									},
+									"nameCode": {
+										"shortName": "ORION SIEGE LEVALLOIS",
+										"longName": "ORION SIEGE LEVALLOIS",
+										"codeValue": "01001"
+									}
+								}
+							],
+							"remunerationBasisCode": {
+								"shortName": "S",
+								"codeValue": "S"
+							},
+							"reportsTo": [
+								{
+									"reportsToWorkerName": {
+										"givenName": "LINDA",
+										"familyName1": "EVANGELIST"
+									},
+									"associateOID": "levangelist-7110mp5"
+								}
+							],
+							"seniorityDate": "2022-05-01",
+							"workArrangementCode": {
+								"shortName": "HORAIRE = 35H",
+								"longName": "HORAIRE = 35H",
+								"codeValue": "900"
+							},
+							"hireDate": "2022-05-01",
+							"customFieldGroup": {
+								"codeFields": [
+									{
+										"itemID": "collaborationType",
+										"longName": "Salarié",
+										"codeValue": "SAL"
+									},
+									{
+										"itemID": "recoursReason",
+										"longName": "Politique de l'emploi",
+										"codeValue": "50"
+									},
+									{
+										"itemID": "contractType",
+										"longName": "CUI-CAE CDI",
+										"codeValue": "CU1"
+									},
+									{
+										"itemID": "activity",
+										"longName": "ORION",
+										"codeValue": "01"
+									},
+									{
+										"itemID": "remunerationType",
+										"longName": "Base mensuelle",
+										"codeValue": "B"
+									},
+									{
+										"itemID": "workSchedule",
+										"longName": "HORAIRE 35 HEURES",
+										"codeValue": "001"
+									},
+									{
+										"itemID": "TLM",
+										"longName": "Pas de GTA",
+										"codeValue": "Z"
+									}
+								]
+							},
+							"workerTypeCode": {
+								"shortName": "CDI",
+								"longName": "CDI",
+								"codeValue": "00"
+							},
+							"assignedOrganizationalUnits": [
+								{
+									"itemID": "departmentId",
+									"nameCode": {
+										"shortName": "MANAGEMENT",
+										"longName": "MANAGEMENT",
+										"codeValue": "111111"
+									}
+								},
+								{
+									"itemID": "strucAffectationId",
+									"nameCode": {
+										"shortName": "MANAGEMENT",
+										"longName": "ORIONB/ORION SIEGE LEVALLOIS AFEAFE/GENERALE/STRATEGIE/MANAGEMENT",
+										"codeValue": "0101001111111"
+									}
+								}
+							],
+							"occupationalClassifications": [
+								{
+									"itemID": "default",
+									"classificationCode": {
+										"shortName": "CADRE POSITION I",
+										"longName": "CADRE POSITION I",
+										"codeValue": "CA1"
+									}
+								}
+							],
+							"baseRemuneration": {
+								"annualRateAmount": {
+									"nameCode": {
+										"shortName": "Salaire annuel théorique",
+										"codeValue": "MSATH"
+									},
+									"amountValue": 0.0,
+									"currencyCode": "EUR"
+								}
+							}
+						},
+						"associateOID": "fstntestdro-7110mp5",
+						"businessCommunication": {
+							"emails": [
+								{
+									"itemID": "Travail",
+									"emailUri": "testmail.lsprh@fr.adp.com",
+									"nameCode": {
+										"shortName": "Travail",
+										"longName": "Travail",
+										"codeValue": "Travail"
+									}
+								}
+							]
+						},
+						"person": {
+							"citizenshipCountryCodes": [
+								{
+									"shortName": "FRANCE",
+									"longName": "FRANCE",
+									"codeValue": "FR"
+								}
+							],
+							"deceasedIndicator": false,
+							"maritalStatusCode": {
+								"shortName": "CELIBATAIRE",
+								"longName": "CELIBATAIRE",
+								"codeValue": "C"
+							},
+							"identityDocuments": [
+								{
+									"typeCode": {
+										"shortName": "Numéro de sécurité sociale",
+										"codeValue": "SSN"
+									},
+									"documentID": "1700179100100"
+								}
+							],
+							"birthPlace": {
+								"cityName": "NIORT",
+								"postalCode": "79000",
+								"countryCode": "FR"
+							},
+							"genderCode": {
+								"shortName": "Homme",
+								"longName": "Homme",
+								"codeValue": "M"
+							},
+							"legalAddress": {
+								"cityName": "LA CHAPELLE SUR ERDRE"
+							},
+							"legalName": {
+								"formattedName": "FXFERMEPROFILOUVERT STNTESTDROITS",
+								"middleName": "",
+								"givenName": "FXFERMEPROFILOUVERT",
+								"familyName1": "STNTESTDROITS",
+								"familyName2": "1"
+							},
+							"birthDate": "1970-01-01"
+						},
+						"workerDates": {
+							"originalHireDate": "2022-05-01"
+						},
+						"workerID": {
+							"schemeCode": {
+								"shortName": "Employee ID"
+							},
+							"idValue": "99994622"
+						}
+					}
+				}
+			},
+			"eventNameCode": {
+				"codeValue": "workerTermination"
+			},
+			"recordDateTime": "2022-09-30T16:03:49+02:00",
+			"effectiveDateTime": "2022-09-15T00:00:00+02:00",
+			"eventID": "6336f7def223ff35cd953f5a"
+		}
+	]
 }

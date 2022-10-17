@@ -1,0 +1,40 @@
+{
+    "organizationCostCenters": [
+		{
+			"costCenterCode"{
+				"codeValue" : "1234"
+			},
+			"costCenterDescription"{
+				"hidden": NO,
+				"longLabelName": "centro de costo 1",
+				"valueSet": {
+					"valueSetListItems":[
+							{
+								"idValue": "1",
+								"itemDescription": "Valor_1"
+							}
+							{
+								"idValue": "2",
+								"itemDescription": "Valor_2"
+							}
+							{
+								"idValue": "3",
+								"itemDescription": "Valor_3"
+							}
+							{
+								"idValue": "4",
+								"itemDescription": "Valor_4"
+							}
+							{
+								"idValue": "10000",
+								"itemDescription": "Código Alternativo"
+							}
+							{
+								"idValue": "ABC",
+								"itemDescription": "Valor_G"
+							}
+						],
+				},
+			}
+    ]
+}

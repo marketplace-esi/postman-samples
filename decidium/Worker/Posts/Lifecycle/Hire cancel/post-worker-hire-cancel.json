@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0M9FB1048OFW8",
+                    "workAssignmentID" : "A1234978|2022-09-10"
+                }
+            }
+        }
+    ]
+}

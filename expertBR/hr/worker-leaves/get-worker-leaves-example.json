@@ -1,0 +1,50 @@
+{
+    "workerLeaves": [
+        {
+            "associateOID": "10565025-00084820",
+            "workerID": {
+                "idValue": "04-00500007"
+            },
+            "leaves": [
+                {
+                    "itemID": "2013-04-08:BE:1",
+                    "effectiveDateTime": "2013-04-08",
+                    "leaveAbsence": {
+                        "leaveDuration": {
+                            "quantityValue": 1,
+                            "unitCode": {
+                                "shortName": "days"
+                            }
+                        },
+                        "leaveStatus": {
+                            "leaveStatusCode": {
+                                "shortName": "Closed"
+                            }
+                        },
+                        "leaveTypeCode": {
+                            "codeValue": "BE",
+                            "shortName": "Sickness Benefit"
+                        },
+                        "leaveSubTypeCode": {
+                            "shortName": null
+                        },
+                        "paymentStatusCode": {
+                            "shortName": "unpaid"
+                        },
+                        "comment": {
+                            "textValue": ""
+                        }
+                    },
+                    "leaveReturn": {
+                        "returnDateTime": "2013-04-09",
+                        "returnStatus": {
+                            "returnStatusCode": {
+                                "shortName": "Closed"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "workers": [
+        {
+            "associateOID": "",
+            "workerID": {
+                "idValue": "5655894"
+            },
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "5655894-2"
+                    }
+                ],
+                "legalName": {
+                    "givenName": "",
+                    "middleName": "",
+                    "familyName1": "",
+                    "familyName2": "",
+                    "formattedName": ""
+                },
+                "birthDate": "1949-06-21",
+                "legalAddress": {
+                    "lineOne": "",
+                    "lineTwo": "",
+                    "cityName": "",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "subdivisionType": "REGION"
+                    },
+                    "countryCode": "CL",
+                    "postalCode": "",
+                    "buildingNumber": "",
+                    "streetName": "",
+                    "unit": "",
+                    "floor": "",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "subdivisionType": "Comuna"
+                    }
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "nameCode": {
+                                "shortName": "TELEFONO"
+                            },
+                            "formattedNumber": ""
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "nameCode": {
+                                "shortName": "CELULAR"
+                            },
+                            "formattedNumber": ""
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "shortName": "CORREO"
+                            },
+                            "emailUri": "TEST@ADP.COM"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Masculino"
+                },
+                "maritalStatusCode": {
+                    "shortName": "Casado"
+                },
+                "socialInsurancePrograms": [
+                    {
+                        "nameCode": {
+                            "codeValue": "99",
+                            "shortName": "SIN AFP"
+                        },
+                        "itemID": "2"
+                    }
+                ],
+                "identityDocuments": [
+                    {
+                        "documentID": "",
+                        "typeCode": {
+                            "codeValue": "0",
+                            "shortName": "TIPO DE DOCUMENTO (21)"
+                        }
+                    }
+                ],
+                "birthPlace": {
+                    "countryCode": "CHILENO"
+                },
+                "highestEducationLevelCode": {
+                    "codeValue": "9999",
+                    "shortName": "SIN DEFINICION"
+                },
+                "customFieldGroup": {
+                    "codeFields": [
+                        {
+                            "nameCode": {
+                                "shortName": "S"
+                            },
+                            "codeValue": "TIPREM",
+                            "shortName": "Sueldo"
+                        },
+                        {
+                            "nameCode": {
+                                "shortName": "F"
+                            },
+                            "codeValue": "TICEN",
+                            "shortName": "Fijo"
+                        },
+                        {
+                            "nameCode": {
+                                "shortName": "900"
+                            },
+                            "codeValue": "COD_ISA",
+                            "shortName": "FONASA"
+                        }
+                    ],
+                    "dateFields": [
+                        {
+                            "nameCode": {
+                                "shortName": "FECHA_SEC"
+                            },
+                            "dateValue": "1900-01-01"
+                        },
+                        {
+                            "nameCode": {
+                                "shortName": "FECHA_VAC"
+                            },
+                            "dateValue": "1996-12-01"
+                        },
+                        {
+                            "nameCode": {
+                                "shortName": "FECHA_REA"
+                            },
+                            "dateValue": "1900-01-01"
+                        }
+                    ],
+                    "indicatorFields": [
+                        {
+                            "nameCode": {
+                                "shortName": "ESFPRI"
+                            },
+                            "indicatorValue": false
+                        },
+                        {
+                            "nameCode": {
+                                "shortName": "AUTFIRMAR"
+                            },
+                            "indicatorValue": false
+                        }
+                    ],
+                    "numberFields": [
+                        {
+                            "nameCode": {
+                                "shortName": "NUMERO FICHA"
+                            },
+                            "numberValue": 1
+                        }
+                    ],
+                    "stringFields": [
+                        {
+                            "nameCode": {
+                                "shortName": "CTA_CORR"
+                            },
+                            "stringValue": "55190046620"
+                        }
+                    ]
+                }
+            },
+            "workerDates": {
+                "firstHireDate": "1996-12-01",
+                "terminationDate": "2020-06-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "A",
+                    "shortName": "Activo"
+                },
+                "reasonCode": {
+                    "codeValue": "301",
+                    "shortName": "Art. 159 N°1: Mutuo Acuerdo"
+                }
+            },
+            "_languageCode": {
+                "shortName": "ESP"
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "shortName": "E-mail"
+                        },
+                        "emailUri": "TEST@ADP.COM"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "1996-12-01",
+                    "terminationDate": "2020-06-30",
+                    "assignmentCostCenters": [
+                        {
+                            "costCenterID": "",
+                            "costCenterName": "",
+                            "costCenterPercentage": 0.0
+                        }
+                    ],
+                    "workerTypeCode": {
+                        "codeValue": "I",
+                        "shortName": "Plazo Indefinido"
+                    },
+                    "workLevelCode": {
+                        "codeValue": "C",
+                        "shortName": "Completa"
+                    },
+                    "vipIndicator": false,
+                    "legalEntityID": "9",
+                    "workerGroups": [
+                        {
+                            "nameCode": {
+                                "shortName": "CLASE"
+                            },
+                            "groupCode": {
+                                "codeValue": "1",
+                                "shortName": ""
+                            }
+                        }
+                    ],
+                    "jobCode": {
+                        "codeValue": "1719942",
+                        "shortName": ""
+                    },
+                    "jobTitle": "",
+                    "occupationalClassifications": [
+                        {
+                            "nameCode": {
+                                "codeValue": "9",
+                                "shortName": "TRABAJADORES NO CALIFICADOS"
+                            }
+                        }
+                    ],
+                    "laborUnion": {
+                        "laborUnionCode": {
+                            "codeValue": "0",
+                            "shortName": "SINDICATOS (23)"
+                        }
+                    },
+                    "bargainingUnit": {
+                        "bargainingUnitCode": {
+                            "codeValue": "1",
+                            "shortName": "SEGURO COMPLEMENTARIO DE SALUD"
+                        }
+                    },
+                    "workShiftCode": {
+                        "codeValue": "2",
+                        "shortName": "Lunes a Sabado 45 horas"
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 180.00
+                    },
+                    "assignedOrganizationalUnits": [
+                        {
+                            "typeCode": {
+                                "shortName": "12"
+                            }
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "0",
+                            "shortName": "UBICACION/LUGAR DE PAGO (9)"
+                        }
+                    },
+                    "payGradeCode": {
+                        "codeValue": "814",
+                        "shortName": "Auxiliar de Servicio"
+                    },
+                    "customFieldGroup": {
+                        "codeFields": [
+                            {
+                                "nameCode": {
+                                    "shortName": "CATEGORIA"
+                                },
+                                "itemID": "0"
+                            },
+                            {
+                                "nameCode": {
+                                    "shortName": "DIVISION"
+                                },
+                                "itemID": "0"
+                            },
+                            {
+                                "nameCode": {
+                                    "shortName": "UNIDAD"
+                                },
+                                "itemID": "5"
+                            },
+                            {
+                                "nameCode": {
+                                    "shortName": "SECCION"
+                                },
+                                "itemID": "0"
+                            },
+                            {
+                                "nameCode": {
+                                    "shortName": "OCUPACION"
+                                },
+                                "itemID": "5502"
+                            },
+                            {
+                                "nameCode": {
+                                    "shortName": "SIT_LABORAL"
+                                },
+                                "itemID": "0"
+                            }
+                        ],
+                        "percentFields": [
+                            {
+                                "nameCode": {
+                                    "shortName": "AFP Fondo por Alto Riesgo"
+                                },
+                                "percentValue": 0.0
+                            }
+                        ],
+                        "stringFields": [
+                            {
+                                "nameCode": {
+                                    "shortName": "Tiene OT. Ingreso 5ta categ"
+                                },
+                                "stringValue": " "
+                            },
+                            {
+                                "nameCode": {
+                                    "shortName": "Remuneración Integral"
+                                },
+                                "stringValue": " "
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

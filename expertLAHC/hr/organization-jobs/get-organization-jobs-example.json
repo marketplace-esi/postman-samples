@@ -1,0 +1,60 @@
+{
+    "jobs": [
+		{
+            "jobCode": {
+                "code": "1234",
+            },
+            "jobTitle": "cargo 1",
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "name": "1234"
+                    },
+                    "typeCode": {
+                        "name": "Valor_1"
+                    }
+				},
+				{
+					"jobFamilyCode": {
+                        "name": "2"
+                    },
+                    "typeCode": {
+                        "name": "Valor_2"
+                    }
+				},
+				{
+					"jobFamilyCode": {
+                        "name": "3"
+                    },
+                    "typeCode": {
+                        "name": "Valor_3"
+                    }
+				},
+				{
+					"jobFamilyCode": {
+                        "name": "4"
+                    },
+                    "typeCode": {
+                        "name": "Valor_4"
+                    }
+                },
+				{
+					"jobFamilyCode": {
+                        "name": "10000"
+                    },
+                    "typeCode": {
+                        "name": "Código Alternativo"
+                    }
+                },
+				{
+					"jobFamilyCode": {
+                        "name": "ABCDE"
+                    },
+                    "typeCode": {
+                        "name": "Valor_G"
+                    }
+                }
+            ] 
+        }
+	]
+}
