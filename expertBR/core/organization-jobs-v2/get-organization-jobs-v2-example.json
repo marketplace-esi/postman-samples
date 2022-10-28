@@ -1,0 +1,95 @@
+{
+    "jobs": [
+		{
+            "jobCode": {
+                "code": "1234-1"
+            },
+            "jobTitle": "função 1",
+            "jobFamilies": [
+                {
+                    "jobFamilyCode": {
+                        "name": "1234"
+                    },
+                    "typeCode": {
+                        "name": "Cargo"
+                    }
+				}
+            ],
+			"occupationalClassifications": [
+				{
+					"classificationCode": {
+						"code": "1"
+					},
+					"classificationTitle: "Categoria A"
+				}
+			],
+			"industryClassifications": [
+				{
+					"classificationCode": {
+						"code": "0101-05"
+					},
+					"classificationTitle: "OFICIAL GENERAL DA AERONÁUTICA"
+				}
+			],
+			"laborUnionCode": {
+                "code": "1",
+				"name": "Categoria A"
+            },
+			"bargainingUnitCode": {
+                "code": "1",
+				"name": "Sindicato A"
+            },
+			"salaryPlan": {
+                "payGradeCode": {
+					"code": "1"
+				},
+				"payCycleCode": {
+					"code": "M"
+				},
+				"payGradeStepCode": {
+					"code": "1"
+				},
+				"payGradeSalaryRange": [
+					"salaryRangeTypeCode": {
+						"code": "M"
+					},
+					"minAmount": {
+						"amount": 1000.00,
+						"currencyCode": "BRL"
+					},
+					"maxAmount": {
+						"amount": 5000.00,
+						"currencyCode": "BRL"
+					},
+					"salaryRangeSegments": [
+						"segmentID": "1",
+						"segmentUpperBoundAmount": {
+							"amount": 1000.00,
+							"currencyCode": "BRL"
+						},
+						"segmentID": "2",
+						"segmentUpperBoundAmount": {
+							"amount": 2000.00,
+							"currencyCode": "BRL"
+						},
+						"segmentID": "3",
+						"segmentUpperBoundAmount": {
+							"amount": 3000.00,
+							"currencyCode": "BRL"
+						},
+						"segmentID": "4",
+						"segmentUpperBoundAmount": {
+							"amount": 4000.00,
+							"currencyCode": "BRL"
+						},
+						"segmentID": "5",
+						"segmentUpperBoundAmount": {
+							"amount": 5000.00,
+							"currencyCode": "BRL"
+						},
+					]
+				]
+            },
+        }
+	]
+}
