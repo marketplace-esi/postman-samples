@@ -1,0 +1,17 @@
+{
+	"codeLists": [
+		{
+			"itemID": "job-titles",
+			"listItems": [
+				{
+					"codeValue": "EMPL1",
+					"shortName": "Emploi 1"
+				},
+				{
+					"codeValue": "EMPL2",
+					"shortName": "Emploi 2"
+				}
+			]
+		}
+	]
+}

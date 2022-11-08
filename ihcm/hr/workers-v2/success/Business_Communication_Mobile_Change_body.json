@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.mobile.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0M7LE2917DJ62"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-04-29T16:02:44.597",
+                    "worker": {
+                        "businessCommunication": {
+                            "mobile": {
+                                "formattedNumber": "9876544333"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

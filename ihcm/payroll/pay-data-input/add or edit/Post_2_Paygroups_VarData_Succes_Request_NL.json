@@ -1,0 +1,128 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "NL"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "93346"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "5000041"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": -40.01
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-01"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 41
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-01"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": -42
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-02"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "NL"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "93348"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "5000520"
+                                },
+                                "payPeriodStartDate": "2022-06-20",
+                                "payPeriodEndDate": "2022-07-17",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 43
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-06-20"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 44
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-06-20"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 45.01
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-06-21"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

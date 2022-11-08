@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "genderCode": {
+                "codeValue": "Female",
+                "shortName": "Female"
+              }
+            },
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.gender.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}

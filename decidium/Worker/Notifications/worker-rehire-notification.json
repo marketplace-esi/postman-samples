@@ -57,8 +57,7 @@
                             "legalAddress": {
                                 "cityName": "LA FLECHE",
                                 "buildingNumber": "0",
-                                "buildingNumberExtension": " ",
-                                "buildingName": " ",
+                                "buildingNumberExtension": "B",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "",
                                     "longName": "",

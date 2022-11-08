@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "dprin-kdz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerStatus": {
+                            "effectiveDate": "2022-05-01",
+                            "statusCode": {
+                                "shortName": "INACTIVE",
+                                "codeValue": "INACTIVE"
+                            }
+                        },
+                        "terminationReasonCode": {
+                            "shortName": "Démission",
+                            "codeValue": "DM"
+                        },
+                        "workerDates": {
+                            "terminationDate": "2022-05-01",
+                            "originalHireDate": "2021-12-15"
+                        }
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.terminate"
+            },
+            "recordDateTime": "2022-05-05T16:14:11+02:00",
+            "eventID": "6273dc782d04afe63a18f458",
+            "effectiveDateTime": "2022-05-01T00:00:00+02:00"
+        }
+    ]
+}

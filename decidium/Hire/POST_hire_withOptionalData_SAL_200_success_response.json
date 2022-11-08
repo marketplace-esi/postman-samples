@@ -38,6 +38,7 @@
                                 "buildingNumber": "1",
                                 "buildingNumberExtension": "B",
                                 "streetName": "RUE AUGUSTIN FRESNEL",
+								"lineOne": "1 B RUE AUGUSTIN FRESNEL",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "44204",
                                     "longName": "THOUARE SUR LOIRE",
@@ -150,6 +151,7 @@
                                     "lineFive": "PORT JEAN",
                                     "buildingNumber": "1",
                                     "buildingNumberExtension": "B",
+									"legalName": "1 B RUE AUGUSTIN FRESNEL",
                                     "streetName": "RUE AUGUSTIN FRESNEL",
                                     "countrySubdivisionLevel2": {
                                         "codeValue": "44204",

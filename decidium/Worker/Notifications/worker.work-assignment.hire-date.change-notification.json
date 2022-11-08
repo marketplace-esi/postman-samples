@@ -1,0 +1,36 @@
+{
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "mnotifmp-9pc",
+						"workAssignment": {
+							"itemID": "A1234861|2022-04-30"
+						},
+						"workerID": {
+							"idValue": "99994589"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "mnotifmp-9pc",
+						"workAssignment": {
+							"hireDate": "2022-05-02"
+						},
+						"workerID": {
+							"idValue": "99994589"
+						}
+					}
+				}
+			},
+			"recordDateTime": "2022-05-10T17:32:30+02:00",
+			"effectiveDateTime": "2022-05-02T00:00:00+02:00",
+			"eventNameCode": {
+				"codeValue": "worker.workAssignmentHireDate.change"
+			},
+			"eventID": "627bcccd2d04af541e18f6e3"
+		}
+	]
+}

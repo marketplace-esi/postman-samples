@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "tschulz-mp3"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2022-03-31"
+                        },
+                        "terminationReasonCode": {
+                            "codeValue": "DM"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

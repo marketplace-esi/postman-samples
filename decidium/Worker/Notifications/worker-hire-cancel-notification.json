@@ -1,27 +1,31 @@
 {
     "events": [
         {
-            "eventID": "a5080aab-3e5a-452f-872e-5f192e488f6e",
-            "eventNameCode": {
-                "codeValue": "workerHire.cancel"
-            },
-            "recordDateTime": "2020-10-05T10:35:21+02:00",
-            "effectiveDateTime": "2020-09-01T00:00:00+02:00",
             "data": {
                 "eventContext": {
-                    "associateOID": "pafe-h6x"
+                    "associateOID": "pmassina-7110mp5"
                 },
                 "output": {
                     "worker": {
-                        "workerDates": {
-                            "originalHireDate": "2020-09-01"
-                        },
+                        "associateOID": "pmassina-7110mp5",
                         "workAssignment": {
-                            "hireDate": "2020-09-01"
+                            "hireDate": "2022-09-08"
+                        },
+                        "workerID": {
+                            "idValue": "99994658",
+                            "schemeCode": {
+                                "shortName": "Employee ID"
+                            }
                         }
                     }
                 }
-            }
+            },
+            "effectiveDateTime": "2022-09-08T00:00:00+02:00",
+            "eventID": "631b1258f223ff2ad99538d3",
+            "eventNameCode": {
+                "codeValue": "workerHire.cancel"
+            },
+            "recordDateTime": "2022-09-09T12:15:02+02:00"
         }
     ]
 }

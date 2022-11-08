@@ -40,14 +40,8 @@
                     "countryCode": "FR",
                     "postalCode": "44000",
                     "buildingNumber": "97",
-                    "buildingNumberExtension": " ",
-                    "buildingName": " ",
                     "streetName": "RUE SAINT PIERRE",
-                    "countrySubdivisionLevel2": {
-                        "codeValue": "",
-                        "longName": "",
-                        "subdivisionType": ""
-                    }
+					"lineone": "97 RUE SAINT PIERRE"
                 },
                 "communication": {
                     "landlines": [

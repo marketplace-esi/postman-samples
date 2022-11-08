@@ -1,0 +1,409 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2022-08-26T11:59:44.313+02:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "pmassina-7110mp5",
+                    "workAssignmentID": "00000002|2012-01-02"
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-7110mp5",
+                        "businessCommunication": {
+                            "emails": [
+                                {
+                                    "emailUri": "pmassina@xyz.com",
+                                    "itemID": "Travail",
+                                    "nameCode": {
+                                        "codeValue": "Travail",
+                                        "longName": "Travail",
+                                        "shortName": "Travail"
+                                    }
+                                }
+                            ],
+                            "faxes": [
+                                {
+                                    "formattedNumber": "0444444444",
+                                    "itemID": "Travail"
+                                }
+                            ],
+                            "landlines": [
+                                {
+                                    "formattedNumber": "0555555555",
+                                    "itemID": "Travail"
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "formattedNumber": "0666666666",
+                                    "itemID": "Travail"
+                                }
+                            ],
+                            "pagers": [
+                                {
+                                    "formattedNumber": "0111111111",
+                                    "itemID": "Travail"
+                                }
+                            ]
+                        },
+                        "person": {
+                            "birthDate": "1964-03-01",
+                            "birthPlace": {
+                                "cityName": "REDON",
+                                "countryCode": "FR",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "35"
+                                },
+                                "postalCode": "35600"
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "FR",
+                                    "longName": "FRANCE",
+                                    "shortName": "FRANCE"
+                                }
+                            ],
+                            "communication": {
+                                "emails": [
+                                    {
+                                        "emailUri": "pmassina@abc.com",
+                                        "itemID": "Personnel",
+                                        "nameCode": {
+                                            "codeValue": "Personnel",
+                                            "longName": "Personnel",
+                                            "shortName": "Personnel"
+                                        }
+                                    }
+                                ],
+                                "faxes": [
+                                    {
+                                        "formattedNumber": "0444444440",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "landlines": [
+                                    {
+                                        "formattedNumber": "0555555550",
+                                        "itemID": "Personnel"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "0666666660",
+                                        "itemID": "Personnel"
+                                    }
+                                ]
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "M",
+                                "longName": "Homme",
+                                "shortName": "Homme"
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "16403xxxxxxxx",
+                                    "typeCode": {
+                                        "codeValue": "SSN",
+                                        "shortName": "Numéro de sécurité sociale"
+                                    }
+                                },
+                                {
+                                    "documentID": "CARDID",
+                                    "expirationDate": "2035-07-31",
+                                    "issueDate": "2020-06-01",
+                                    "typeCode": {
+                                        "codeValue": "IDCard",
+                                        "shortName": "Carte d'identité"
+                                    }
+                                },
+                                {
+                                    "documentID": "PASSPORTID",
+                                    "expirationDate": "2020-06-18",
+                                    "issueDate": "2020-06-11",
+                                    "typeCode": {
+                                        "codeValue": "passport",
+                                        "shortName": "Passeport"
+                                    }
+                                },
+                                {
+                                    "documentID": "VISA1ID",
+                                    "expirationDate": "2020-06-12",
+                                    "issueDate": "2020-03-04",
+                                    "typeCode": {
+                                        "codeValue": "visa",
+                                        "shortName": " Visa"
+                                    }
+                                },
+                                {
+                                    "documentID": "VISA2ID",
+                                    "typeCode": {
+                                        "codeValue": "visa",
+                                        "shortName": " Visa"
+                                    }
+                                }
+                            ],
+                            "immigrationDocuments": [
+                                {
+                                    "documentID": "2",
+                                    "expirationDate": "2021-06-04",
+                                    "issueDate": "2020-06-03",
+                                    "issuingParty": {
+                                        "nameCode": {
+                                            "codeValue": "6"
+                                        }
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "visa",
+                                        "shortName": " Visa"
+                                    }
+                                },
+                                {
+                                    "documentID": "12",
+                                    "expirationDate": "2021-03-14",
+                                    "issueDate": "2020-03-13",
+                                    "issuingParty": {
+                                        "nameCode": {
+                                            "codeValue": "15"
+                                        }
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "workPermit",
+                                        "shortName": "Work Permit"
+                                    }
+                                }
+                            ],
+                            "legalAddress": {
+                                "buildingNumber": "21",
+                                "buildingNumberExtension": "B",
+                                "countryCode": "FR",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "NANTES",
+                                    "subdivisionType": "NANTES"
+                                },
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "44109",
+                                    "longName": "NANTES",
+                                    "subdivisionType": "NANTES"
+                                },
+                                "lineFive": "LE PETIT CAPITOLE",
+                                "lineOne": "21 B RUE MARTIN",
+                                "postalCode": "44300",
+                                "streetName": "RUE MARTIN"
+                            },
+                            "legalName": {
+                                "familyName1": "MASSINA",
+                                "familyName2": "MASSINAT",
+                                "formattedName": "PHILIPPE MASSINA",
+                                "givenName": "PHILIPPE",
+                                "middleName": "JEAN, CLAUDE, CHRISTOPHE"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": "C",
+                                "effectiveDate": "2013-02-01",
+                                "longName": "CELIBATAIRE",
+                                "shortName": "CELIBATAIRE"
+                            },
+                            "otherPersonalAddresses": [
+                                {
+                                    "buildingNumber": "1",
+                                    "buildingNumberExtension": "T",
+                                    "countryCode": "FR",
+                                    "countrySubdivisionLevel1": {
+                                        "codeValue": "ORLEANS",
+                                        "subdivisionType": "ORLEANS"
+                                    },
+                                    "countrySubdivisionLevel2": {
+                                        "codeValue": "45234",
+                                        "subdivisionType": "ORLEANS"
+                                    },
+                                    "itemID": "AdrPerso",
+                                    "lineFive": "LE GRAND LAC",
+                                    "lineOne": "1 T ALLEE DES ALOUETTES",
+                                    "postalCode": "45100",
+                                    "streetName": "ALLEE DES ALOUETTES"
+                                }
+                            ],
+                            "socialInsurancePrograms": [
+                                {
+                                    "programServiceCenter": {
+                                        "address": {
+                                            "cityName": "ORLEANS",
+                                            "lineOne": "Place De Gaulle",
+                                            "postalCode": "45021"
+                                        },
+                                        "nameCode": {
+                                            "codeValue": "45",
+                                            "shortName": "CPAM DU LOIRET"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "actualStartDate": "2012-01-02",
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "codeValue": "332322",
+                                        "longName": "VTE SERVICES",
+                                        "shortName": "VTE SERVICES"
+                                    }
+                                },
+                                {
+                                    "itemID": "strucAffectationId",
+                                    "nameCode": {
+                                        "codeValue": "0202010332322",
+                                        "longName": "ORION CONSEIL/ORION CONSEIL PARIS/COMMERCIALE/VENTES/VTE SERVICES",
+                                        "shortName": "VTE SERVICES"
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "address": {
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "countryCode": "FR",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "LEVALLOIS PERRET",
+                                            "longName": "LEVALLOIS PERRET",
+                                            "shortName": "LEVALLOIS PERRET",
+                                            "subdivisionType": "INSEE"
+                                        },
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE",
+                                        "postalCode": "92688",
+                                        "unit": "69"
+                                    },
+                                    "nameCode": {
+                                        "codeValue": "02010",
+                                        "longName": "ORION CONSEIL PARIS",
+                                        "shortName": "ORION CONSEIL PARIS"
+                                    }
+                                }
+                            ],
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "amountValue": 30000,
+                                    "currencyCode": "EUR",
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    }
+                                }
+                            },
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "itemID": "collaborationType",
+                                        "longName": "Salarié"
+                                    },
+                                    {
+                                        "codeValue": "99",
+                                        "itemID": "recoursReason",
+                                        "longName": "Non défini"
+                                    },
+                                    {
+                                        "codeValue": "00",
+                                        "itemID": "contractType",
+                                        "longName": "CDI"
+                                    },
+                                    {
+                                        "codeValue": "02",
+                                        "itemID": "activity",
+                                        "longName": "ORION CONSEIL"
+                                    },
+                                    {
+                                        "codeValue": "P",
+                                        "itemID": "remunerationType",
+                                        "longName": "Rémunération en points"
+                                    },
+                                    {
+                                        "codeValue": "001",
+                                        "itemID": "workSchedule",
+                                        "longName": "HORAIRE 35 HEURES"
+                                    },
+                                    {
+                                        "codeValue": "W",
+                                        "itemID": "TLM",
+                                        "longName": "GTA Web Gestil"
+                                    }
+                                ]
+                            },
+                            "expectedStartDate": "2012-01-02",
+                            "hireDate": "2012-01-02",
+                            "jobCode": {
+                                "codeValue": "120",
+                                "longName": "INGENIEUR",
+                                "shortName": "INGENIEUR"
+                            },
+                            "jobFunctionCode": {
+                                "codeValue": "13",
+                                "longName": "CADRE ART 4",
+                                "shortName": "CADRE ART 4"
+                            },
+                            "jobTitle": "INGENIEUR INDIVIDUALISE",
+                            "legalEntityID": "02",
+                            "payrollFileNumber": "00000002",
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-7110mp5",
+                                    "reportsToWorkerName": {
+                                        "familyName1": "EVANGELIST",
+                                        "givenName": "LINDA"
+                                    }
+                                }
+                            ],
+                            "seniorityDate": "2012-01-02",
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "longName": "HORAIRE = 35H",
+                                "shortName": "HORAIRE = 35H"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00",
+                                        "longName": "METALL I&C NAT  3025",
+                                        "shortName": "METALL I&C NAT  3025"
+                                    }
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "00",
+                                "longName": "CDI",
+                                "shortName": "CDI"
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2012-01-02"
+                        },
+                        "workerStatus": {
+                            "effectiveDate": "2012-01-02",
+                            "statusCode": {
+                                "codeValue": "ACTIVE",
+                                "shortName": "ACTIVE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "events": [{
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "jdupont-mp2",
+                    "workAssignment" : {
+                        "itemID" : "A1234803|2022-04-25"
+                    }
+                }
+            },
+            "transform": {
+                "workAssignment" : {
+                    "hireDate":"2022-04-30"
+                }
+            }
+        }
+    }]
+}

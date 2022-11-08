@@ -1,0 +1,133 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "NL"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "99999"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "5000041"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 1
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-01"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "NL"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "A9999"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "5000041"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V160"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 1
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-01"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}{
+    "events": [],
+    "confirmMessage": {
+        "createDateTime": "2022-10-20T16:06:41.1762464+02:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid payrollGroupCode '99999', not found"
+                },
+                "developerMessage": {
+                    "messageTxt": "events[0]::invalid"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid payrollGroupCode 'A9999', it should be an integer"
+                },
+                "developerMessage": {
+                    "messageTxt": "events[1]::invalid"
+                }
+            }
+        ]
+    }
+}

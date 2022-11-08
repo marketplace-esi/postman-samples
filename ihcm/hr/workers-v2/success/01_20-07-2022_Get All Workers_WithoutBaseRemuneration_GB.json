@@ -1,0 +1,378 @@
+{
+  "workers": [
+    {
+      "associateOID": "565656",
+      "businessCommunication": {
+        "emails": [
+          {
+            "emailUri": "paul.stewart@email.com",
+            "nameCode": {
+              "codeValue": "WORKEMAIL",
+              "shortName": "Work Email"
+            }
+          }
+        ],
+        "landlines": [
+          {
+            "extension": "5665",
+            "formattedNumber": "+34912345665",
+            "nameCode": {
+              "codeValue": "WORK",
+              "shortName": "Work Telephone"
+            }
+          }
+        ]
+      },
+      "person": {
+        "birthDate": "1980-01-01",
+        "birthPlace": {
+          "countryCode": "GBR"
+        },
+        "citizenshipCountryCodes": [
+          {
+            "codeValue": "British",
+            "shortName": "British"
+          }
+        ],
+        "communication": {
+          "emails": [
+            {
+              "emailUri": "Paul.personal@email.com",
+              "nameCode": {
+                "codeValue": "PERSONALEMAIL",
+                "shortName": "Personal Email"
+              }
+            }
+          ],
+          "landlines": [
+            {
+              "formattedNumber": "+34912345678",
+              "nameCode": {
+                "codeValue": "HOME",
+                "shortName": "Home Telephone"
+              }
+            }
+          ],
+          "mobiles": [
+            {
+              "formattedNumber": "+34912345679",
+              "nameCode": {
+                "codeValue": "PERMOBILE",
+                "shortName": "Personal Mobile"
+              }
+            }
+          ]
+        },
+        "disabledIndicator": false,
+        "ethnicityCode": {
+          "codeValue": "Not Disclosed",
+          "shortName": "Not Disclosed"
+        },
+        "genderCode": {
+          "codeValue": "Male",
+          "shortName": "Male"
+        },
+        "governmentIDs": [
+          {
+            "countryCode": "GB",
+            "idValue": "JT138760B",
+            "nameCode": {
+              "codeValue": "NINumber",
+              "shortName": "NI Number"
+            }
+          },
+          {
+            "countryCode": "GB",
+            "idValue": "DVLIC123",
+            "nameCode": {
+              "codeValue": "PC",
+              "shortName": "Provisional Car"
+            }
+          },
+          {
+            "countryCode": "GBR",
+            "expirationDate": "2040-05-31",
+            "idValue": "3D5108183",
+            "nameCode": {
+              "codeValue": "2",
+              "shortName": "Passport"
+            }
+          }
+        ],
+        "identityDocuments": [
+          {
+            "countryCode": "GB",
+            "documentID": "DVLIC123",
+            "typeCode": {
+              "codeValue": "PC",
+              "shortName": "Provisional Car"
+            }
+          },
+          {
+            "countryCode": "GB",
+            "documentID": "JT138760B",
+            "typeCode": {
+              "codeValue": "NINUMBER",
+              "shortName": "NI Number"
+            }
+          },
+          {
+            "countryCode": "GBR",
+            "documentID": "3D5108183",
+            "expirationDate": "2040-05-31",
+            "itemID": "1338b64d-15a3-472a-8779-784754deae1d",
+            "typeCode": {
+              "codeValue": "2",
+              "shortName": "Passport"
+            }
+          }
+        ],
+        "legalName": {
+          "familyName1": "Stewart",
+          "familyName2": "Stewie",
+          "formattedName": "Paul Stewart",
+          "givenName": "Paul",
+          "middleName": "Stewart",
+          "nickName": "Stew",
+          "preferredSalutations": [
+            {
+              "salutationCode": {
+                "codeValue": "Mr",
+                "shortName": "Mr."
+              },
+              "sequenceNumber": 1,
+              "typeCode": {
+                "codeValue": "SOCIAL",
+                "shortName": "Social"
+              }
+            }
+          ]
+        },
+        "maritalStatusCode": {
+          "codeValue": "M",
+          "shortName": "Married"
+        },
+        "religionCode": {
+          "codeValue": "Not Disclosed",
+          "shortName": "Not Disclosed"
+        },
+        "legalAddress": {
+          "cityName": "London",
+          "countryCode": "GBR",
+          "countrySubdivisionLevel1": {
+            "codeValue": "Wapping"
+          },
+          "deliveryPoint": "True",
+          "itemID": "c785908f-36dd-4064-9787-8ab3309b7611",
+          "lineOne": "E1W",
+          "lineThree": "St Katharines & Wapping",
+          "lineTwo": "St Katharines Way",
+          "nameCode": {
+            "codeValue": "HOME",
+            "shortName": "Home Address"
+          },
+          "postalCode": "E1W 1LD"
+        },
+        "otherPersonalAddresses": [
+          {
+            "cityName": "London",
+            "countryCode": "GBR",
+            "countrySubdivisionLevel1": {
+              "codeValue": "Wapping"
+            },
+            "deliveryPoint": "True",
+            "itemID": "c785908f-36dd-4064-9787-8ab3309b7611",
+            "lineOne": "E1W",
+            "lineThree": "St Katharines & Wapping",
+            "lineTwo": "St Katharines Way",
+            "nameCode": {
+              "codeValue": "HOME",
+              "shortName": "Home Address"
+            },
+            "postalCode": "E1W 1LD",
+            "typeCode": {
+              "codeValue": "HOME",
+              "shortName": "Home Address"
+            }
+          }
+        ]
+      },
+      "workerDates": {
+        "acquisitionDate": "2000-01-01",
+        "adjustedServiceDate": "2000-01-10",
+        "originalHireDate": "2000-01-01",
+        "retirementDate": "2050-12-17"
+      },
+      "workerID": {
+        "idValue": "RN4001",
+        "schemeCode": {
+          "codeValue": "REFERENCE",
+          "shortName": "Employee Reference Number"
+        }
+      },
+      "workerStatus": {
+        "reasonCode": {
+          "codeValue": "Hire",
+          "shortName": "Hire"
+        },
+        "statusCode": {
+          "codeValue": "Current",
+          "shortName": "Current"
+        }
+      },
+      "workAssignments": [
+        {
+          "assignmentCostCenters": [
+            {
+              "costCenterID": "GBC",
+              "costCenterName": "UK Center"
+            }
+          ],
+          "assignmentStatus": {
+            "reasonCode": {
+              "codeValue": "04",
+              "shortName": "New Hiring"
+            },
+            "statusCode": {
+              "codeValue": "Current",
+              "shortName": "Current"
+            }
+          },
+          "fullTimeEquivalenceRatio": 1.0,
+          "hireDate": "2000-01-10",
+          "homeWorkLocation": {
+            "address": {
+              "countryCode": "GB"
+            },
+            "nameCode": {
+              "codeValue": "ADPPOST",
+              "shortName": "Post to home address"
+            }
+          },
+          "itemID": "efe271a1-ca22-498d-8854-9f09682608c1",
+          "jobCode": {
+            "codeValue": "24127",
+            "effectiveDate": "2000-01-10",
+            "shortName": "Senior Executive for Getworker"
+          },
+          "jobTitle": "Vacancy",
+          "legalEntityID": "ukcomp - uk company",
+          "payrollFileNumber": "4001",
+          "primaryIndicator": true,
+          "reportsTo": [
+            {
+              "associateOID": "565656",
+              "itemID": "2c39903b-5af5-46d9-80cf-98fa46177b90",
+              "reportsToRelationshipCode": {
+                "codeValue": "REPORTSTO",
+                "shortName": "REPORTSTO"
+              },
+              "reportsToWorkerName": {
+                "familyName1": "Stewart",
+                "formattedName": "Paul Stewart",
+                "givenName": "Paul",
+                "middleName": "Stewart"
+              },
+              "workerID": {
+                "idValue": "RN4001",
+                "schemeCode": {
+                  "codeValue": "REFERENCENUMBER",
+                  "shortName": "REFERENCE NUMBER"
+                }
+              }
+            },
+            {
+              "associateOID": "565656",
+              "itemID": "2c39903b-5af5-46d9-80cf-98fa46177b90",
+              "reportsToRelationshipCode": {
+                "codeValue": "SUPERVISOR",
+                "shortName": "SUPERVISOR"
+              },
+              "reportsToWorkerName": {
+                "familyName1": "Stewart",
+                "formattedName": "Paul Stewart",
+                "givenName": "Paul",
+                "middleName": "Stewart"
+              },
+              "workerID": {
+                "idValue": "RN4001",
+                "schemeCode": {
+                  "codeValue": "REFERENCENUMBER",
+                  "shortName": "REFERENCE NUMBER"
+                }
+              }
+            }
+          ],
+          "standardHours": {
+            "hoursQuantity": 40.0,
+            "unitCode": {
+              "codeValue": "F",
+              "shortName": "Fixed"
+            }
+          },
+          "terminationDate": "2090-05-30",
+          "workerProbationPeriod": {
+            "endDate": "2030-05-30"
+          },
+          "workerTypeCode": {
+            "longName": "Permanent",
+            "shortName": "Permanent"
+          },
+          "workLevelCode": {
+            "codeValue": "Full_Time",
+            "shortName": "Full Time"
+          },
+          "payrollGroupCode": "Group1",
+          "homeOrganizationalUnits": [
+            {
+              "nameCode": {
+                "codeValue": "ukcomp",
+                "shortName": "uk company"
+              },
+              "typeCode": {
+                "codeValue": "0",
+                "longName": "ukstruct",
+                "shortName": "Company"
+              }
+            }
+          ],
+          "baseRemuneration": {
+            "annualRateAmount": {
+              "amountValue": 286.0,
+              "nameCode": {
+                "codeValue": "SALAMOUNT",
+                "shortName": "Salary Amount"
+              }
+            },
+            "effectiveDate": "2022-01-01",
+            "recordingBasisCode": {
+              "codeValue": "4 Weekly",
+              "shortName": "4 Weekly"
+            }
+          },
+          "customFieldGroup": {
+            "amountFields": [
+              {
+                "amountValue": 286.0,
+                "nameCode": {
+                  "codeValue": "SALAMOUNT",
+                  "shortName": "Salary Amount"
+                }
+              }
+            ],
+            "codeFields": [
+              {
+                "codeValue": "4 Weekly",
+                "nameCode": {
+                  "codeValue": "SALFRQCODE",
+                  "shortName": "Salary Pay Frequency Code"
+                },
+                "shortName": "4 Weekly"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

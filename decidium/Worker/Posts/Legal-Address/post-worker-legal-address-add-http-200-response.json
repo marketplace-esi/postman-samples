@@ -22,7 +22,8 @@
                                 "lineFive": "LIEU DIT",
                                 "buildingNumber": "21",
                                 "buildingNumberExtension": "B",
-                                "streetName": "LEGAL ADDRESS ADD",
+                                "streetName": "",
+								"lineOne": "21 B LEGAL ADDRESS ADD",
                                 "countrySubdivisionLevel2": {
                                     "codeValue": "69266",
                                     "longName": "VILLEURBANNE",
