@@ -1,0 +1,23 @@
+{
+  "events": [
+      {
+          "data": {
+              "eventContext": {
+                  "worker": {
+                      "associateOID": "-1446f6f5:161700a0e83:-7ff4"
+                  }
+              },
+              "output": {
+                  "worker": {
+                      "person": {
+                          "governmentID": {
+                              "idValue": "NTAGBL80B42F205E"
+                          },
+                          "birthDate": "1980-02-02"
+                      }
+                  }
+              }
+          }
+      }
+  ]
+}
