@@ -1,0 +1,35 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2022-11-08T09:09:51.955Z",
+        "protocolStatusCode": {
+            "codeValue": "404"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP/1.1"
+        },
+        "requestID": {
+            "idValue": "/hr/v2/worker-demographics/-1074d289:1790e260057:-7ff"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "sessionID": {
+            "idValue": "X-2706412d-ca9b-4668-adc4-b5b6b3ea6405"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "sourceLocationExpression": "com.adp.it.marketplaceitsharedcommon.service.ErrorService.throwNotFoundError(ErrorService.java:64)",
+                "developerMessage": {
+                    "title": "NotFound",
+                    "messageTxt": "No workers found with the following Aoid: -1074d289:1790e260057:-7ff"
+                }
+            }
+        ]
+    }
+}
