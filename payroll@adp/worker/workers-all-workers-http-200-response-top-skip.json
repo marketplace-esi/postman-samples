@@ -1,0 +1,519 @@
+{
+    "workers": [
+        {
+            "associateOID": "-28d0b74e:168b87d0035:-7ff6",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "BRMLNZ94D08F205J",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "LORENZO",
+                    "familyName1": "BRAMBILLA",
+                    "formattedName": "LORENZO BRAMBILLA"
+                },
+                "birthDate": "1994-04-08",
+                "legalAddress": {
+                    "lineOne": "VIA MONTE SAN PRIMO 4",
+                    "cityName": "CARATE BRIANZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20841"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "LORENZOBRAMBILLA_94@HOTMAIL.IT",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA MONTE SAN PRIMO 4",
+                        "cityName": "CARATE BRIANZA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MB",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20841",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "B729",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-02-05"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-02-05",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "053",
+                            "longName": "BC MILANO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-28d0b74e:168b87d0035:-7ff7",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "TRNNLS87P59C523J",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ANNALISA",
+                    "familyName1": "TORNABENE",
+                    "formattedName": "ANNALISA TORNABENE"
+                },
+                "birthDate": "1987-09-19",
+                "legalAddress": {
+                    "lineOne": "VIA LODIGIANA, 40",
+                    "cityName": "BRUGHERIO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20861"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "LISA.TORNABENE12@GMAIL.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Female",
+                    "shortName": "F",
+                    "longName": "FEMMINA"
+                },
+                "birthPlace": {
+                    "cityName": "CERNUSCO SUL NAVIGLIO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA LODIGIANA, 40",
+                        "cityName": "BRUGHERIO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MB",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20861",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "B212",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-02-01"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-02-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "004",
+                            "longName": "SPCS MILANO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "241",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-28f2d4e8:168024254e5:-7ff3",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MPPCRL96A59A269N",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "CAROLA",
+                    "familyName1": "MAPPONI PROIETTO",
+                    "formattedName": "CAROLA MAPPONI PROIETTO"
+                },
+                "birthDate": "1996-01-19",
+                "legalAddress": {
+                    "lineOne": "VIA CAVA SNC",
+                    "cityName": "PIGLIO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "FR",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "03010"
+                },
+                "genderCode": {
+                    "codeValue": "Female",
+                    "shortName": "F",
+                    "longName": "FEMMINA"
+                },
+                "birthPlace": {
+                    "cityName": "ANAGNI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA CAVA SNC",
+                        "cityName": "PIGLIO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "FR",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "03010",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "G659",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-01-02",
+                "terminationDate": "2019-01-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-01-02",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "008",
+                            "longName": "FO VALMONTONE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-28f2d4e8:168024254e5:-7ff4",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CCRLSE93S57C858P",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ELISA",
+                    "familyName1": "CICERCHIA",
+                    "formattedName": "ELISA CICERCHIA"
+                },
+                "birthDate": "1993-11-17",
+                "legalAddress": {
+                    "lineOne": "PIANO DEI COLLI SNC",
+                    "cityName": "PALIANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "FR",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "03018"
+                },
+                "genderCode": {
+                    "codeValue": "Female",
+                    "shortName": "F",
+                    "longName": "FEMMINA"
+                },
+                "birthPlace": {
+                    "cityName": "COLLEFERRO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "PIANO DEI COLLI SNC",
+                        "cityName": "PALIANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "FR",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "03018",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "G276",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-01-02",
+                "terminationDate": "2019-01-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-01-02",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "008",
+                            "longName": "FO VALMONTONE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-28f2d4e8:168024254e5:-7ff5",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PCRNMO92M45L719K",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "NOEMI",
+                    "familyName1": "PECORARI",
+                    "formattedName": "NOEMI PECORARI"
+                },
+                "birthDate": "1992-08-05",
+                "legalAddress": {
+                    "lineOne": "VIA FLEMING 63",
+                    "cityName": "ARTENA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "00031"
+                },
+                "genderCode": {
+                    "codeValue": "Female",
+                    "shortName": "F",
+                    "longName": "FEMMINA"
+                },
+                "birthPlace": {
+                    "cityName": "VELLETRI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA FLEMING 63",
+                        "cityName": "ARTENA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "RM",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "00031",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "A449",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-01-02",
+                "terminationDate": "2019-01-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-01-02",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "008",
+                            "longName": "FO VALMONTONE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        }
+    ]
+}
