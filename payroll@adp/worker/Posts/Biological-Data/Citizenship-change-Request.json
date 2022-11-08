@@ -1,0 +1,23 @@
+{
+  "events": [
+      {
+          "data": {
+              "eventContext": {
+                  "worker": {
+                      "associateOID": "-729adb4d:134d76a676a:-7ff6"
+                  }
+              },
+              "output": {
+                  "worker": {
+                      "person": {
+                          "citizenshipCountryCode": {
+                              "codeValue": "201",
+                              "longName": "ALBANIA"
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  ]
+}

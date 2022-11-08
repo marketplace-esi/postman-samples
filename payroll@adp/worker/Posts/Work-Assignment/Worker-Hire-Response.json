@@ -1,0 +1,100 @@
+{
+  "events": [
+      {
+          "data": {
+              "output": {
+                  "worker": {
+                      "workerID": {
+                          "idValue": "31112",
+                          "schemeCode": {
+                              "codeValue": "619"
+                          }
+                      },
+                      "person": {
+                          "governmentIDs": [
+                              {
+                                  "idValue": "LRNLTN96H28L736I"
+                              }
+                          ],
+                          "legalName": {
+                              "givenName": "Olaitan",
+                              "familyName1": "Alarana"
+                          },
+                          "birthDate": "1996-06-28",
+                          "genderCode": {
+                              "codeValue": "M"
+                          },
+                          "birthPlace": {
+                              "cityName": "VENEZIA",
+                              "countrySubdivisionLevel1": {
+                                  "codeValue": "VE"
+                              }
+                          },
+                          "citizenshipCountryCodes": [
+                              {
+                                  "codeValue": "000"
+                              }
+                          ]
+                      },
+                      "workerStatus": {
+                          "statusCode": {
+                              "codeValue": "2"
+                          },
+                          "reasonCode": {
+                              "codeValue": "01"
+                          }
+                      },
+                      "workAssignment": {
+                          "workAgreementRef": {
+                              "workAgreementType": {
+                                  "codeValue": "1"
+                              }
+                          },
+                          "actualStartDate": "2022-01-01",
+                          "assignmentCostCenters": [
+                              {
+                                  "costCenterID": "AB20"
+                              }
+                          ],
+                          "workerTypeCode": {
+                              "codeValue": "17"
+                          },
+                          "workLevelCode": {
+                              "codeValue": "05"
+                          },
+                          "nationalityContextCode": {
+                              "codeValue": "13"
+                          },
+                          "wageLawCoverage": {
+                              "coverageCode": {
+                                  "codeValue": "02"
+                              }
+                          },
+                          "fullTimeEquivalenceRatio": 0.5,
+                          "homeWorkLocation": {
+                              "nameCode": {
+                                  "codeValue": "001"
+                              }
+                          },
+                          "payScaleCode": {
+                              "codeValue": "951"
+                          },
+                          "customFieldGroup": {
+                              "stringFields": [
+                                  {
+                                      "nameCode": {
+                                          "shortName": "Codice Collaboratore"
+                                      },
+                                      "categoryCode": {
+                                          "codeValue": "LA"
+                                      }
+                                  }
+                              ]
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  ]
+}
