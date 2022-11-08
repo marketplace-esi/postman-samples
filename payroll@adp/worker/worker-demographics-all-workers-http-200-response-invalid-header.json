@@ -1,0 +1,35 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2022-11-08T09:10:28.096Z",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP/1.1"
+        },
+        "requestID": {
+            "idValue": "/hr/v2/worker-demographics/-1074d289:1790e260057:-7ffc"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "sessionID": {
+            "idValue": "X-0cab3542-280f-437d-bc37-94bb32fcbca0"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "sourceLocationExpression": "com.adp.it.marketplaceitsharedcommon.service.ErrorService.throwBadRequestError(ErrorService.java:150)",
+                "developerMessage": {
+                    "title": "BadRequest",
+                    "messageTxt": "AssociateOID invalidAOID not found"
+                }
+            }
+        ]
+    }
+}
