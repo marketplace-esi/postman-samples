@@ -1,0 +1,316 @@
+{
+    "workers": [
+        {
+            "associateOID": "-2583df9a:13a68b8a2ce:-7fce",
+            "workerID": {
+                "idValue": "85296"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "PROVA",
+                    "familyName1": "PROVA",
+                    "formattedName": "PROVA PROVA"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2011-07-25",
+                "terminationDate": "2015-05-05"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2011-07-25",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "101",
+                        "longName": "DIRIGENTE"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-273621f4:130fff336c9:-793c",
+            "workerID": {
+                "idValue": "96385"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "ASSISTENTE",
+                    "familyName1": "PROVA",
+                    "formattedName": "ASSISTENTE PROVA"
+                },
+                "legalAddress": {
+                    "lineOne": "VIA PUPPOLI",
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20125",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "F205",
+                        "subdivisionType": "comune"
+                    }
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2011-06-22"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2011-06-22",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA  619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "100",
+                        "longName": "DIRIGENTE"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-282bfd31:160e07e816f:-7ff8",
+            "workerID": {
+                "idValue": "85412"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "SHUAI",
+                    "familyName1": "WANG",
+                    "formattedName": "SHUAI WANG"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "TORINO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-07-01"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-07-01",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA TEST WAPS 619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "210",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-29930e0:16b73c1b947:-7ff8",
+            "workerID": {
+                "idValue": "54896"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "MASSIMO",
+                    "familyName1": "CHIARI",
+                    "formattedName": "MASSIMO CHIARI"
+                },
+                "legalAddress": {
+                    "lineOne": "VIA DEI 1049",
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20100",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "F205",
+                        "subdivisionType": "comune"
+                    }
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "TARANTO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TA",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA PRATO ALL'AIA - CORFINO 16",
+                        "cityName": "VILLA COLLEMANDINA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "LU",
+                            "subdivisionType": "provincia"
+                        },
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "L926",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-06-20"
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "DIEGO.APICELLA@ADP.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-06-20",
+                    "jobCode": {
+                        "codeValue": "822",
+                        "longName": "VUOTA"
+                    },
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "004",
+                            "longName": "DITTA TEST WAPS 619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "671",
+                        "longName": "OPERAIO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-29d643c1:17d0a239a4e:-7ffb",
+            "workerID": {
+                "idValue": "06015"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "ELISA",
+                    "familyName1": "SAGLIO ROSSINI",
+                    "formattedName": "ELISA SAGLIO ROSSINI"
+                }
+            },
+            "workerDates": {
+                "originalHireDate": "2021-11-15"
+            }
+        }
+    ]
+}

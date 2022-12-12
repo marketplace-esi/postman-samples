@@ -1,0 +1,275 @@
+{
+    "workers": [
+        {
+            "associateOID": "-1074d289:1790e260057:-7ffc",
+            "workerID": {
+                "idValue": "00000"
+            },
+            "person": {
+                "legalAddress": {
+                    "postalCode": "00000",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "A345",
+                        "subdivisionType": "comune"
+                    }
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "P.LE GIOVANNI DELLE BANDE NERE 2",
+                        "cityName": "L'AQUILA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "AQ",
+                            "subdivisionType": "provincia"
+                        },
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "A345",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-03-01"
+            }
+        },
+        {
+            "associateOID": "-11948158:16fa43bb4da:-8000",
+            "person": {
+                "legalName": {
+                    "givenName": "MARIO",
+                    "familyName1": "ROSSI",
+                    "formattedName": "MARIO ROSSI"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                }
+            },
+            "workerDates": {
+                "originalHireDate": "2019-11-27"
+            }
+        },
+        {
+            "associateOID": "-1446f6f5:161700a0e83:-7ff4",
+            "workerID": {
+                "idValue": "87453"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "ANITA",
+                    "familyName1": "GARIBALDI",
+                    "formattedName": "ANITA GARIBALDI"
+                },
+                "legalAddress": {
+                    "lineOne": "VIA LIBERA",
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20100",
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "F205",
+                        "subdivisionType": "comune"
+                    }
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA LIBERA",
+                        "cityName": "MILANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MI",
+                            "subdivisionType": "provincia"
+                        },
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F205",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-07-31",
+                "terminationDate": "2017-04-03"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-07-31",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA TEST WAPS 619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "211",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-15349846:134611fce7d:-7ded",
+            "workerID": {
+                "idValue": "04198"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "CHEVROLET",
+                    "familyName1": "BARBY",
+                    "formattedName": "CHEVROLET BARBY"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "TAVAZZANO CON VILLAVESCO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "LO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2011-06-22"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2011-06-22",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA TEST WAPS 619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-15349846:134611fce7d:-7df4",
+            "workerID": {
+                "idValue": "08739"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "PIPPO",
+                    "familyName1": "PIPPO",
+                    "formattedName": "PIPPO PIPPO"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": " ",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "MASCHIO",
+                    "longName": "male"
+                },
+                "birthPlace": {
+                    "cityName": "TAVAZZANO CON VILLAVESCO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "LO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2011-06-20"
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2011-06-20",
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "DITTA TEST WAPS 619"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "101",
+                        "longName": "DIRIGENTE"
+                    }
+                }
+            ]
+        }
+    ]
+}
