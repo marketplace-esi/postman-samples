@@ -1,0 +1,70 @@
+{
+	"events": [{
+		"eventNameCode": {
+			"codeValue": "timeOffRequest.change"
+		},
+		"data": {
+			"eventContext": {
+				"workerID": {
+					"idValue": "34391-133"
+				}
+			},
+			"output": {
+				"associateOID": "ADPNL00065287",
+				"workerID": {
+					"idValue": "34391-133"
+				},
+				"timeOffRequest": {
+					"timeOffRequestID": "5340c7e6-34d6-4737-bfae-7f7b1f1a6463",
+					"requestDateTime": "2022-12-07T13:12:52.3151975Z",
+					"requestorName": {
+						"givenName": "Jennifer",
+						"middleName": "",
+						"familyName1": "Anniston",
+						"formattedName": "Jennifer Anniston"
+					},
+					"totalQuantity": {
+						"quantityValue": 1.0
+					},
+					"totalTime": {
+						"timeValue": "06:00"
+					},
+					"timeOffEntries": [{
+						"timeOffEntryID": "ff78ac07-db08-4ea5-99f9-3765eb676a06",
+						"entryTypeCode": {
+							"codeValue": "Ziekte",
+							"shortName": "Parental",
+							"longName": "Bedrijfsverkeersongeval"
+						},
+						"datePeriod": {
+							"startDate": "2022-11-04",
+							"startTime": "00:00",
+							"endTime": "23:59"
+						},
+						"totalQuantity": {
+							"quantityValue": 1.0
+						},
+						"totalTime": {
+							"timeValue": "06:00"
+						},
+						"totalQuantityToMonetize": {
+							"quantityValue": 3.0
+						}
+					}],
+					"comments": [{
+						"textValue": "Parental leave, kindly approve",
+						"commentCode": {
+							"codeValue": "NOTE",
+							"shortName": "Note"
+						},
+						"entryDateTime": "2022-12-07T13:12:52.3151975Z",
+						"author": {
+							"associateOID": "de3ac1e5-bf02-4db7-87cf-7cc89f93b2d2",
+							"formattedName": ""
+						}
+					}]
+				}
+			}
+		}
+	}]
+}
