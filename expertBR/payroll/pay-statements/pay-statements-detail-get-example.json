@@ -1,0 +1,94 @@
+{
+	"payStatement": {
+		"payDate": "2022-09-30",
+		"payPeriod": {
+			"startDate": "2022-09-01",
+			"endDate": "2022-09-30",
+			"payPeriodLabelName": "MENSAL 09/2022"
+		},
+		"netPayAmount": {
+			"amountValue": 5000.0,
+			"currencyCode": "BRL"
+		},
+		"grossPayAmount": {
+			"amountValue": 7500.0,
+			"currencyCode": "BRL"
+		},
+		"totalHours": 200.0,
+		"earnings": [
+			{
+				"earningCodeName": "0010 - Salário Base",
+				"earningAmount": {
+					"amountValue": 7000.0,
+					"currencyCode": "BRL"
+				}
+			},
+			{
+				"earningCodeName": "0055 - Quinquênio",
+				"earningAmount": {
+					"amountValue": 500.0,
+					"currencyCode": "BRL"
+				}
+			}
+		],
+		"deductions": [
+			{
+				"codeName": "2821 - Adiantamento Quinzenal",
+				"deductionAmount": {
+					"amountValue": 1500.0,
+					"currencyCode": "BRL"
+				}
+			},
+			{
+				"codeName": "5500 - IR Retido",
+				"deductionAmount": {
+					"amountValue": 500.0,
+					"currencyCode": "BRL"
+				}
+			},
+			{
+				"codeName": "5560 - INSS",
+				"deductionAmount": {
+					"amountValue": 500.00,
+					"currencyCode": "BRL"
+				}
+			}
+		],
+		"memos": [
+			{
+				"nameCode": {
+					"codeValue": "5561",
+					"shortName": "Base INSS"
+				},
+				"memoCategoryCode" :{
+					"codeValue": "C",
+					"shortName": "Calculation Base"
+				},
+				"memoAmount": {
+					"amountValue": 7500.00,
+					"currencyCode": "BRL"
+				}
+			}
+		],
+		"employer": {
+			"employerName": "Estabelecimento 1",
+			"employerLocation": {
+				"labelName": "ESTAB-001"
+			}
+		},
+		"worker": {
+			"workerName": "Maria da Silva",
+			"workerDetails": [
+				{
+					"detailValues": [
+						{
+							"valueQuantity": {
+								"quantityValue": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}
