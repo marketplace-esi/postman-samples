@@ -2,13 +2,14 @@
 	"organizationDepartments" : [
 		{
 			"departmentCode": {
-				"codeValue" : "E_001_001_124579934",
+				"codeValue" : "E_1_001_001_124579934",
 				"shortName": "Centro de Resultado 1"
 			},
 			"departmentDescription": "descrição do Centro de resultado 1",
 			"parentDepartmentCode": {
-				"codeValue" : "U_01",
-				"shortName": "Unidade Organizacional 1"
+				"codeValue" : "U_1_01",
+				"shortName": "Unidade Organizacional 1",
+				"longName": "Organograma 1"
 			},
 			"activeIndicator": yes,
 			"effectiveDate": "2000-01-01",
@@ -80,16 +81,8 @@
 					]	
 				},
 			},
-			"auxiliaryFields": {
-				"nameCode": {
-					"codeValue" : "U_02",
-					"shortName": "Unidade Organizacional 2"
-				},
-				"categoryCode": {
-					"shortName": "Organograma 1"
-				}
-			},
-			"organizationName" : "Estabelecimento 1"
+			"itemID": "B_001_001_124579934",
+			"organizationName": "Estabelecimento 1"
 		}
 	]
 }
