@@ -1,0 +1,183 @@
+{
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "messages": [
+      {
+        "messageText": "Document Category List"
+      }
+    ],
+    "links": [],
+    "messageDateTime": "2023-01-03T02:32:44.849+0000",
+    "requestStatus": "success"
+  },
+  "categories": [
+    {
+      "categoryDetails": {
+        "accessPermissions": [
+          {
+            "operation": {
+              "operationCode": {
+                "code": "LIST",
+                "name": "LIST"
+              }
+            }
+          },
+          {
+            "operation": {
+              "operationCode": {
+                "code": "ADD_NOTES",
+                "name": "ADD_NOTES"
+              }
+            }
+          },
+          {
+            "operation": {
+              "operationCode": {
+                "code": "DELETE",
+                "name": "DELETE"
+              }
+            }
+          },
+          {
+            "operation": {
+              "operationCode": {
+                "code": "EDIT",
+                "name": "EDIT"
+              }
+            }
+          },
+          {
+            "operation": {
+              "operationCode": {
+                "code": "UPLOAD",
+                "name": "UPLOAD"
+              }
+            }
+          },
+          {
+            "operation": {
+              "operationCode": {
+                "code": "VIEW_NOTES",
+                "name": "VIEW_NOTES"
+              }
+            }
+          },
+          {
+            "operation": {
+              "operationCode": {
+                "code": "VIEW",
+                "name": "VIEW"
+              }
+            }
+          }
+        ],
+        "alternateIDs": [],
+        "categoryTitle": "Perforicmance",
+        "categoryCode": "ihcm-ec-performance",
+        "categoryDescription": "Perforicmance",
+        "labels": [
+          "Performance",
+          "Leistung",
+          "Performance",
+          "Performance",
+          "Rendimiento",
+          "Rendement",
+          "Performances",
+          "Prestazioni",
+          "Prestaties",
+          "Wydajnosc",
+          "Rendimiento",
+          "绩效",
+          "績效",
+          "Desempenho"
+        ]
+      },
+      "subcategories": [
+        {
+          "eSignatureTypeCode": {
+            "code": "standard"
+          },
+          "accessPermissions": [
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "LIST",
+                  "name": "LIST"
+                }
+              }
+            },
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "ADD_NOTES",
+                  "name": "ADD_NOTES"
+                }
+              }
+            },
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "DELETE",
+                  "name": "DELETE"
+                }
+              }
+            },
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "EDIT",
+                  "name": "EDIT"
+                }
+              }
+            },
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "UPLOAD",
+                  "name": "UPLOAD"
+                }
+              }
+            },
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "VIEW_NOTES",
+                  "name": "VIEW_NOTES"
+                }
+              }
+            },
+            {
+              "operation": {
+                "operationCode": {
+                  "code": "VIEW",
+                  "name": "VIEW"
+                }
+              }
+            }
+          ],
+          "eSignatureRequiredIndicator": false,
+          "alternateIDs": [],
+          "categoryTitle": "Supporting Documents",
+          "categoryCode": "ihcm-ec-performance",
+          "categoryDescription": "Supporting Documents",
+          "labels": [
+            "Supporting Documents",
+            "Hilfsdokumente",
+            "Supporting Documents",
+            "Supporting Documents",
+            "Documentos complementarios",
+            "Documents justificatifs",
+            "Pièces justificatives",
+            "Documenti di supporto",
+            "Ondersteunende documenten",
+            "Dokumenty uzupełniające",
+            "Documentos justificantes",
+            "附加文件",
+            "支持文件",
+            "Documentos comprobatórios"
+          ]
+        }
+      ]
+    }
+  ]
+}
