@@ -1,0 +1,62 @@
+{
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "messages": [
+      {
+        "messageText": "Document Metadata"
+      }
+    ],
+    "links": [
+    ],
+    "messageDateTime": "2021-12-01T06:20:04.761+0000",
+    "requestStatus": "success"
+  },
+  "document": {
+    "attachments": [
+    ],
+    "comments": [
+    ],
+    "customDateFields": [
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "payloadArguments": [
+        ],
+        "mediaType": "application/pdf",
+        "href": "core/v2/associate-document-management/associates/UK0I1V0000000LFU/documents/d747c510-8e30-4789-acc9-2d19034bf9ce",
+        "title": "PostmanTest-2021-11-18T033757Z.pdf",
+        "linkTags": [
+        ]
+      }
+    ],
+    "customStringFields": [
+    ],
+    "customIndicatorFields": [
+    ],
+    "keywords": "UPLOAD marketplace api v2",
+    "documentStatusCode": {
+      "code": "CLEAR"
+    },
+    "author": {
+      "associateOID": "UK0I1V0000000LFU"
+    },
+    "subCategoryCode": {
+      "code": "ec-ed-employee-details"
+    },
+    "mediaType": "application/pdf",
+    "documentName": "PostmanTest-2021-11-18T033757Z.pdf",
+    "categoryCode": {
+      "code": "ihcm-ec-ed"
+    },
+    "documentSize": 31212,
+    "uploadDateTime": "2021-11-18T03:37:58.800+0000",
+    "documentTypeCode": {
+      "code": "Employee"
+    },
+    "documentID": "d747c510-8e30-4789-acc9-2d19034bf9ce",
+    "documentSignatories": [
+    ],
+    "documentTitle": "PostmanTest"
+  }
+}
