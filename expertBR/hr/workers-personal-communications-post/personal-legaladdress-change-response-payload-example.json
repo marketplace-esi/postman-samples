@@ -1,0 +1,52 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.legal-address.change"
+			},
+			"eventTitle": "Worker Legal Address Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker" : {
+						"associateOID": "15-0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"person": {
+							"legalAddress": {
+								"lineOne": "Av. Soledade 5º andar",
+								"lineTwo": "Três Figueiras, Porto Alegre, RS",
+								"lineThree": "90000000",
+								"cityName": "Porto Alegre",
+								"countrySubdivisionLevel1": {
+									"codeValue": "RS",
+									"shortName": "Rio Grande do Sul",
+									"subdivisionType": "STATE"
+								},
+								"countryCode": "BR",
+								"postalCode": "90000000",
+								"buildingNumber": "500",
+								"blockName": "Três Figueiras",
+								"streetName": "Soledade",
+								"streetTypeCode": {
+									"shortName": "Avenida"
+								},
+								"unit": "5º andar"
+							}
+						}
+					}
+				}				 
+			}
+		}
+	]
+}
