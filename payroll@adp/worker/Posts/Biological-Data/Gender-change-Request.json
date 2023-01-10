@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "3df24a3a:17db994e85f:-7ffb"
+          }
+        },
+        "transform": {
+          "worker": {
+            "person": {
+              "genderCode": {
+                "codeValue": "M"
+              },
+              "governmentID": {
+                  "idValue": "SRRMLE97T07F205J"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

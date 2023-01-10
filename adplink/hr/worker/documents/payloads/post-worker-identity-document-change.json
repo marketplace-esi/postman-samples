@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "identityDocument": {
+                                "documentID": "268099911010543",
+                                "typeCode": {
+                                    "codeValue": "SSN"
+                                }
+                            }
+                        }
+                    }
+                },
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                }
+            }
+        }
+    ]
+}

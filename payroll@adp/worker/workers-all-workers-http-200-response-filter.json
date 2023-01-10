@@ -1,0 +1,4973 @@
+{
+    "workers": [
+        {
+            "associateOID": "-102d8e11:1550bb2f7d0:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "SNTFPP91R21F704V",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FILIPPO",
+                    "familyName1": "SANTAMBROGIO",
+                    "formattedName": "FILIPPO SANTAMBROGIO"
+                },
+                "birthDate": "1991-10-21",
+                "legalAddress": {
+                    "lineOne": "VIA AZIMONTI 20",
+                    "cityName": "CARATE BRIANZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20841"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "FILIPPO.SANTAMBROGIO@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA AZIMONTI 20",
+                        "cityName": "CARATE BRIANZA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MB",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20841",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "B729",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-06-01",
+                "terminationDate": "2016-09-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "FILIPPO.SANTAMBROGIO@ADIDAS.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-06-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "005",
+                                "longName": "MARKETING DEPT."
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1034d6e8:153c744869c:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GRCSMN86R20L219E",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "SIMONE",
+                    "familyName1": "GRECO",
+                    "formattedName": "SIMONE GRECO"
+                },
+                "birthDate": "1986-10-20",
+                "legalAddress": {
+                    "lineOne": "VIA FRATELLI GIORDANO, 21",
+                    "cityName": "CHIERI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "10023"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "SIMONE.GRECO@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "TORINO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA FRATELLI GIORDANO, 21",
+                        "cityName": "CHIERI",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "TO",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "10023",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "C627",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-04-01",
+                "terminationDate": "2016-09-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "SIMONE.GRECO@ADIDAS.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-04-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "005",
+                                "longName": "MARKETING DEPT."
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "047",
+                            "longName": "MI C.SO COMO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-10546c0f:142bc403e56:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CSSMNL90M22A662U",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MANUEL",
+                    "familyName1": "CASSOTTI",
+                    "formattedName": "MANUEL CASSOTTI"
+                },
+                "birthDate": "1990-08-22",
+                "legalAddress": {
+                    "lineOne": "VIA CARLO PISACANE 45",
+                    "cityName": "BARI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BA",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "70126"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "BARI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BA",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA CARLO PISACANE 45",
+                        "cityName": "BARI",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BA",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "70126",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "A662",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2013-12-09",
+                "terminationDate": "2014-02-09"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2013-12-09",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "009",
+                            "longName": "SPCS ROMA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-10546c0f:142bc403e56:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MSCMRC84H07F704V",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MARCO",
+                    "familyName1": "MISCHI",
+                    "formattedName": "MARCO MISCHI"
+                },
+                "birthDate": "1984-06-07",
+                "legalAddress": {
+                    "lineOne": "VIA GIUSEPPE FERRARI 47",
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20900"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA GIUSEPPE FERRARI 47",
+                        "cityName": "MONZA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MB",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20900",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F704",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2013-12-09",
+                "terminationDate": "2014-02-09"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2013-12-09",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "012",
+                            "longName": "FO MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-10ba6110:16fea25b04d:-7ff4",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "SRTGMR98L30M052O",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "GIAN MARCO",
+                    "familyName1": "SIRTORI",
+                    "formattedName": "GIAN MARCO SIRTORI"
+                },
+                "birthDate": "1998-07-30",
+                "legalAddress": {
+                    "lineOne": "CORSO EUROPA, 16",
+                    "cityName": "PESSANO CON BORNAGO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20060"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "MARCO19982011@GMAIL.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "VIMERCATE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "CORSO EUROPA, 16",
+                        "cityName": "PESSANO CON BORNAGO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20060",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "G502",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-02-01",
+                "terminationDate": "2020-05-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2020-02-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "012",
+                            "longName": "FO MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-10ba6110:16fea25b04d:-7ff5",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MBLFNC97S30I577J",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FRANCK",
+                    "familyName1": "MBELLA",
+                    "formattedName": "FRANCK MBELLA"
+                },
+                "birthDate": "1997-11-30",
+                "legalAddress": {
+                    "lineOne": "VIA BLOCH, 25/B",
+                    "cityName": "SPIRANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BG",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "24050"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "SEGRATE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA BLOCH, 25/B",
+                        "cityName": "SPIRANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BG",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "24050",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "I919",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-02-01",
+                "terminationDate": "2020-03-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2020-02-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "051",
+                            "longName": "BCS ORIO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-111a8fa8:16f11da8195:-7fee",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MBLFNC97S30I577J",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FRANCK",
+                    "familyName1": "MBELLA",
+                    "formattedName": "FRANCK MBELLA"
+                },
+                "birthDate": "1997-11-30",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "SEGRATE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-12-16"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-12-16",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "051",
+                            "longName": "BCS ORIO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1147f236:16e81a87da4:-7fea",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MCCNDR94C20G999W",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ANDREA",
+                    "familyName1": "MACCELLI",
+                    "formattedName": "ANDREA MACCELLI"
+                },
+                "birthDate": "1994-03-20",
+                "legalAddress": {
+                    "lineOne": "VIA LUNGOBISENZIO, 1",
+                    "cityName": "VAIANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PO",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "59021"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "PRATO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA LUNGOBISENZIO, 1",
+                        "cityName": "VAIANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "PO",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "59021",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "L537",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-11-22",
+                "terminationDate": "2020-01-19"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-11-22",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "011",
+                            "longName": "FO BARBERINO DI MUGE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7fef",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GRONDR92C14H501I",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ANDREA",
+                    "familyName1": "GORI",
+                    "formattedName": "ANDREA GORI"
+                },
+                "birthDate": "1992-03-14",
+                "legalAddress": {
+                    "lineOne": "VIA RENZO DA CERI, 57",
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "00176"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA RENZO DA CERI, 57",
+                        "cityName": "ROMA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "RM",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "00176",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "H501",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-07-14",
+                "terminationDate": "2020-09-13"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2020-07-14",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "013",
+                            "longName": "FO CASTEL ROMANO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7ff1",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "LVEDNL96T19G388P",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DANIELE",
+                    "familyName1": "LEVA",
+                    "formattedName": "DANIELE LEVA"
+                },
+                "birthDate": "1996-12-19",
+                "legalAddress": {
+                    "lineOne": "VIA VIVAI, 7",
+                    "cityName": "PAVIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PV",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "27100"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "PAVIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PV",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA VIVAI, 7",
+                        "cityName": "PAVIA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "PV",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "27100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "G388",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-07-14",
+                "terminationDate": "2020-07-26"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2020-07-14",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "048",
+                            "longName": "MBFO SCALO MI"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1368e467:1511e668dff:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MZZGRL88S02F205C",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "GABRIELE",
+                    "familyName1": "MAZZOCCHI",
+                    "formattedName": "GABRIELE MAZZOCCHI"
+                },
+                "birthDate": "1988-11-02",
+                "legalAddress": {
+                    "lineOne": "CORSO ITALIA 16",
+                    "cityName": "NOVARA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NO",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "28100"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "GABRIELE.MAZZOCCHI@ADIDAS-GROUP.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "CORSO ITALIA 16",
+                        "cityName": "NOVARA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "NO",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "28100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F952",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-11-20",
+                "terminationDate": "2016-02-29"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "GABRIELE.MAZZOCCHI@ADIDAS-GROUP.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-11-20",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "006",
+                                "longName": "OPERATIONS"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff6",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GNTGPP97L25E932Q",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "GIUSEPPE",
+                    "familyName1": "GIONTI",
+                    "formattedName": "GIUSEPPE GIONTI"
+                },
+                "birthDate": "1997-07-25",
+                "legalAddress": {
+                    "lineOne": "VIA MAZZINI,32",
+                    "cityName": "MARCIANISE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CE",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "81025"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MARCIANISE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CE",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA MAZZINI,32",
+                        "cityName": "MARCIANISE",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "CE",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "81025",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "E932",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-07-01",
+                "terminationDate": "2018-07-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-07-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "032",
+                            "longName": "RBK MARCIANISE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff7",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "BFFDNL94A15E791S",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DANILO",
+                    "familyName1": "BUFFOLINO",
+                    "formattedName": "DANILO BUFFOLINO"
+                },
+                "birthDate": "1994-01-15",
+                "legalAddress": {
+                    "lineOne": "CONTRADA CAPITONE SNC",
+                    "cityName": "SANT'AGATA DE' GOTI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BN",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "82019"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MADDALONI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CE",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "CONTRADA CAPITONE SNC",
+                        "cityName": "SANT'AGATA DE' GOTI",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BN",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "82019",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "I197",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-07-01",
+                "terminationDate": "2018-08-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-07-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "032",
+                            "longName": "RBK MARCIANISE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff9",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "FCCNCL92M14C618H",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "NICOLA",
+                    "familyName1": "FACCHI",
+                    "formattedName": "NICOLA FACCHI"
+                },
+                "birthDate": "1992-08-14",
+                "legalAddress": {
+                    "lineOne": "VIA REGINA ELENA, 118",
+                    "cityName": "CAZZAGO SAN MARTINO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BS",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "25046"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CHIARI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BS",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA REGINA ELENA, 118",
+                        "cityName": "CAZZAGO SAN MARTINO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BS",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "25046",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "C408",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-07-01",
+                "terminationDate": "2019-03-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-07-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "024",
+                            "longName": "FRANCIACORTA OUTLET"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ffa",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MRTBRN98C23E897H",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "BRUNO",
+                    "familyName1": "MORETTI",
+                    "formattedName": "BRUNO MORETTI"
+                },
+                "birthDate": "1998-03-23",
+                "legalAddress": {
+                    "lineOne": "VIA L.ARIOSTO, 7",
+                    "cityName": "MANTOVA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MN",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "46100"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MANTOVA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MN",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA L.ARIOSTO, 7",
+                        "cityName": "MANTOVA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MN",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "46100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "E897",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-07-01",
+                "terminationDate": "2018-08-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-07-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "007",
+                            "longName": "FO BAGNOLO SAN VITO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "SNFNGL96C31B428N",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ANGELO",
+                    "familyName1": "SANFILIPPO",
+                    "formattedName": "ANGELO SANFILIPPO"
+                },
+                "birthDate": "1996-03-31",
+                "legalAddress": {
+                    "lineOne": "VIA TEN.SALVATORE DI GREGORIO 2",
+                    "cityName": "RADDUSA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CT",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "95040"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CALTAGIRONE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CT",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA TEN.SALVATORE DI GREGORIO 2",
+                        "cityName": "RADDUSA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "CT",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "95040",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "H154",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-07-01",
+                "terminationDate": "2018-08-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-07-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "052",
+                            "longName": "FOC AGIRA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-141005c3:1662f5cd8a1:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GRDFBA87M31I470M",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FABIO",
+                    "familyName1": "GIORDANO",
+                    "formattedName": "FABIO GIORDANO"
+                },
+                "birthDate": "1987-08-31",
+                "legalAddress": {
+                    "lineOne": "VIA VIVALDI 8",
+                    "cityName": "BENE VAGIENNA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CN",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "12041"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "FABIO.GIORDANO@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "SAVIGLIANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CN",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA VIVALDI 8",
+                        "cityName": "BENE VAGIENNA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "CN",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "12041",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "A779",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-10-01",
+                "terminationDate": "2019-03-12"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-10-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "054",
+                            "longName": "FO MONDOVI"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "211",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-145f7701:163488d52ab:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PSDRLF89D04H501O",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "RODOLFO CRISTIANO",
+                    "familyName1": "PISA DI MONTEROSA",
+                    "formattedName": "RODOLFO CRISTIANO PISA DI MONTEROSA"
+                },
+                "birthDate": "1989-04-04",
+                "legalAddress": {
+                    "lineOne": "VIA DELLA FARNESINA, 269",
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "00135"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "RODOLFO.PISADIMONTEROSA@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA CARLO CRIVELLI, 6",
+                        "cityName": "MILANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20122",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F205",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-05-16",
+                "terminationDate": "2018-12-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-05-16",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "005",
+                                "longName": "MARKETING DEPT."
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-14642fe3:156795b6c16:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CPTLCU90E16A944U",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "LUCA",
+                    "familyName1": "CAPITANI",
+                    "formattedName": "LUCA CAPITANI"
+                },
+                "birthDate": "1990-05-16",
+                "legalAddress": {
+                    "lineOne": "VIA TOMMASO MARTELLI 35",
+                    "cityName": "BOLOGNA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BO",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "40138"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "BOLOGNA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA TOMMASO MARTELLI 35",
+                        "cityName": "BOLOGNA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BO",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "40138",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "A944",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-08-16",
+                "terminationDate": "2018-11-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-08-16",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "026",
+                            "longName": "FO CASTEL GUELFO DI"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "241",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-148dc467:16b31b45f98:-7ff7",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PLMGLC92C31B729M",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "GIANLUCA",
+                    "familyName1": "PALMA",
+                    "formattedName": "GIANLUCA PALMA"
+                },
+                "birthDate": "1992-03-31",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CARATE BRIANZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-06-01"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-06-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "012",
+                            "longName": "FO MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-16299668:14614368b19:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MSCMRC84H07F704V",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MARCO",
+                    "familyName1": "MISCHI",
+                    "formattedName": "MARCO MISCHI"
+                },
+                "birthDate": "1984-06-07",
+                "legalAddress": {
+                    "lineOne": "VIA GIUSEPPE FERRARI 47",
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20900"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA GIUSEPPE FERRARI 47",
+                        "cityName": "MONZA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MB",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20900",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F704",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2014-05-21",
+                "terminationDate": "2014-11-23"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2014-05-21",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "012",
+                            "longName": "FO MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CTZDVD92H17L020G",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DAVID",
+                    "familyName1": "CATOZZI",
+                    "formattedName": "DAVID CATOZZI"
+                },
+                "birthDate": "1992-06-17",
+                "legalAddress": {
+                    "lineOne": "CORSO TORINO, 15",
+                    "cityName": "NOVARA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NO",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "28100"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "SUZZARA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "CORSO TORINO, 15",
+                        "cityName": "NOVARA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "NO",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "28100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F952",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-06-14"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-06-14",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "007",
+                            "longName": "FO BAGNOLO SAN VITO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GVNNCL98C03L020L",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "NICOLA",
+                    "familyName1": "GIOVANNELLI",
+                    "formattedName": "NICOLA GIOVANNELLI"
+                },
+                "birthDate": "1998-03-03",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "SUZZARA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-06-15"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-06-15",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "007",
+                            "longName": "FO BAGNOLO SAN VITO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PNTDVD90P03G186C",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DAVIDE",
+                    "familyName1": "PENITENTI",
+                    "formattedName": "DAVIDE PENITENTI"
+                },
+                "birthDate": "1990-09-03",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "OSTIGLIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MN",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2018-06-15"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2018-06-15",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "007",
+                            "longName": "FO BAGNOLO SAN VITO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-166a72ad:1538341547e:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "BSSLCU87H11D325F",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "LUCA",
+                    "familyName1": "BASSETTO",
+                    "formattedName": "LUCA BASSETTO"
+                },
+                "birthDate": "1987-06-11",
+                "legalAddress": {
+                    "lineOne": "VIA NIEVO, 45",
+                    "cityName": "NOALE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "VE",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "30033"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "LUCA.BASSETTO@ADIDAS-GROUP.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "DOLO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "VE",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA NIEVO, 45",
+                        "cityName": "NOALE",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "VE",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "30033",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F904",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-03-21"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "LUCA.BASSETTO@ADIDAS-GROUP.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-03-21",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "007",
+                                "longName": "SALES"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "221",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1690d4cf:14e683f4a0f:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "RGGDNL82L04B157Q",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DANIEL",
+                    "familyName1": "RIGGIO",
+                    "formattedName": "DANIEL RIGGIO"
+                },
+                "birthDate": "1982-07-04",
+                "legalAddress": {
+                    "lineOne": "VIA FONTANE 54",
+                    "cityName": "VILLA CARCINA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BS",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "25069"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "BRESCIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BS",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA FONTANE 54",
+                        "cityName": "VILLA CARCINA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BS",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "25069",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "L919",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-07-08",
+                "terminationDate": "2016-05-03"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-07-08",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "024",
+                            "longName": "FRANCIACORTA OUTLET"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-175b265c:15bd1f2d525:-7ff5",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "LLLMTT91D10B036L",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MATTEO",
+                    "familyName1": "LELLI",
+                    "formattedName": "MATTEO LELLI"
+                },
+                "birthDate": "1991-04-10",
+                "legalAddress": {
+                    "lineOne": "VIA DON MINZONI 1",
+                    "cityName": "SCARPERIA E SAN PIERO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "FI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "50037"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "BORGO SAN LORENZO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "FI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA DON MINZONI 1",
+                        "cityName": "SCARPERIA E SAN PIERO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "FI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "50037",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "M326",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-05-04",
+                "terminationDate": "2017-09-11"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-05-04",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "011",
+                            "longName": "FO BARBERINO DI MUGE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-175b265c:15bd1f2d525:-7ff6",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MNDLSN92L25L750U",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ALESSANDRO",
+                    "familyName1": "MUNDA",
+                    "formattedName": "ALESSANDRO MUNDA"
+                },
+                "birthDate": "1992-07-25",
+                "legalAddress": {
+                    "lineOne": "VIA BIRAGO 16",
+                    "cityName": "VERCELLI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "VC",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "13100"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "VERCELLI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "VC",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA BIRAGO 16",
+                        "cityName": "VERCELLI",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "VC",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "13100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "L750",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-05-04",
+                "terminationDate": "2018-09-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-05-04",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "042",
+                            "longName": "MBFO VICOLUNGO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-175b265c:15bd1f2d525:-7ffb",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CLERCR91E19C665X",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "RICCARDO",
+                    "familyName1": "CELI",
+                    "formattedName": "RICCARDO CELI"
+                },
+                "birthDate": "1991-05-19",
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "RICCARDO.CELI@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CHIVASSO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-04-01"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-04-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "050",
+                            "longName": "SETTIMO TORINESE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-175b265c:15bd1f2d525:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "RSOFBA91A29C665U",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FABIO",
+                    "familyName1": "ROSA",
+                    "formattedName": "FABIO ROSA"
+                },
+                "birthDate": "1991-01-29",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CHIVASSO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-03-08"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-03-08",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "050",
+                            "longName": "SETTIMO TORINESE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-175b265c:15bd1f2d525:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "SPLGLC96R20L219P",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "GIANLUCA",
+                    "familyName1": "SPALANZINO",
+                    "formattedName": "GIANLUCA SPALANZINO"
+                },
+                "birthDate": "1996-10-20",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "TORINO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-03-07"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-03-07",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "050",
+                            "longName": "SETTIMO TORINESE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-17a07dda:14dd2e7c860:-7ff4",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "TGLMRC90E07G888P",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MARCO",
+                    "familyName1": "TAGLIARIOL",
+                    "formattedName": "MARCO TAGLIARIOL"
+                },
+                "birthDate": "1990-05-07",
+                "legalAddress": {
+                    "lineOne": "VIA POLA 1",
+                    "cityName": "PORCIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PN",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "33080"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "MARCO.TAGLIARIOL@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "PORDENONE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "PN",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA POLA 1",
+                        "cityName": "PORCIA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "PN",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "33080",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "G886",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-06-08",
+                "terminationDate": "2016-01-08"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-06-08",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "005",
+                                "longName": "MARKETING DEPT."
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-17a07dda:14dd2e7c860:-7ff5",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CRTRRT84R07F205V",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ROBERTO",
+                    "familyName1": "CORTI",
+                    "formattedName": "ROBERTO CORTI"
+                },
+                "birthDate": "1984-10-07",
+                "legalAddress": {
+                    "lineOne": "VIA VALLAZZE, 74",
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20131"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "ROBERTO.CORTI@ADIDAS-GROUP.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA VALLAZZE, 74",
+                        "cityName": "MILANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20131",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F205",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-06-04"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "ROBERTO.CORTI@ADIDAS-GROUP.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-06-04",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "001",
+                                "longName": "FINANCING & GS"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "211",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-17d2802d:15cee7066cb:-7fee",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "DMLSVR84E13L219Q",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "SAVERIO",
+                    "familyName1": "D'AMELIO",
+                    "formattedName": "SAVERIO D'AMELIO"
+                },
+                "birthDate": "1984-05-13",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "TORINO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TO",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-04-08"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-04-08",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "050",
+                            "longName": "SETTIMO TORINESE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-17d2802d:15cee7066cb:-7ff5",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "GRBFNC92L07F704E",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FRANCESCO",
+                    "familyName1": "GARIBOLDI",
+                    "formattedName": "FRANCESCO GARIBOLDI"
+                },
+                "birthDate": "1992-07-07",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-05-18"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-05-18",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "012",
+                            "longName": "FO MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-17d2802d:15cee7066cb:-7ff6",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PRTFNC91S01C351F",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FRANCESCO",
+                    "familyName1": "PORTO",
+                    "formattedName": "FRANCESCO PORTO"
+                },
+                "birthDate": "1991-11-01",
+                "legalAddress": {
+                    "lineOne": "P.ZZA BONACCORSO 12",
+                    "cityName": "SAN GIOVANNI LA PUNTA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CT",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "95037"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CATANIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CT",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA BOLZANO 50",
+                        "cityName": "SAN GIOVANNI AL NATISONE",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "UD",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "33048",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "H906",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-05-13"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-05-13",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "052",
+                            "longName": "FOC AGIRA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-17d2802d:15cee7066cb:-7ffd",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "DMRFRC88D22C342X",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "FEDERICO GIORGIO",
+                    "familyName1": "DI MARCO",
+                    "formattedName": "FEDERICO GIORGIO DI MARCO"
+                },
+                "birthDate": "1988-04-22",
+                "legalAddress": {
+                    "lineOne": "VIA XXIV MAGGIO 6",
+                    "cityName": "CATENANUOVA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "EN",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "94010"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "ENNA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "EN",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA XXIV MAGGIO 6",
+                        "cityName": "CATENANUOVA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "EN",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "94010",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "C353",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2017-05-06"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "9",
+                    "longName": "Extra Paghe"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2017-05-06",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "052",
+                            "longName": "FOC AGIRA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "250",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-180a6ac2:14b4f67a408:-7fe2",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "ZDDRRT76B12F704H",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ROBERTO",
+                    "familyName1": "ZEDDA",
+                    "formattedName": "ROBERTO ZEDDA"
+                },
+                "birthDate": "1976-02-12",
+                "legalAddress": {
+                    "lineOne": "VIA MARINA 10",
+                    "cityName": "LESMO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20855"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MONZA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MB",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA MARINA 10",
+                        "cityName": "LESMO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MB",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20855",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "E550",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-02-01",
+                "terminationDate": "2015-04-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-02-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "004",
+                            "longName": "SPCS MILANO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-180a6ac2:14b4f67a408:-7fe3",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PRCDNL83A06H501N",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DANIELE",
+                    "familyName1": "PIERUCCI",
+                    "formattedName": "DANIELE PIERUCCI"
+                },
+                "birthDate": "1983-01-06",
+                "legalAddress": {
+                    "lineOne": "VIA RIESI 48 INT 2",
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "00133"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA RIESI 48 INT 2",
+                        "cityName": "ROMA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "RM",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "00133",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "H501",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-02-01",
+                "terminationDate": "2015-04-09"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "DANIELE.PIERUCCI@ADIDAS-GROUP.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-02-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "013",
+                            "longName": "FO CASTEL ROMANO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-18550d6f:15471336be8:-7ff1",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CTNNCL96C30F965Y",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "NICOLO'",
+                    "familyName1": "CATENA",
+                    "formattedName": "NICOLO' CATENA"
+                },
+                "birthDate": "1996-03-30",
+                "legalAddress": {
+                    "lineOne": "VIA ALCIDE DE GASPERI 12",
+                    "cityName": "NOVI LIGURE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "AL",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "15067"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "NOVI LIGURE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "AL",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA ALCIDE DE GASPERI 12",
+                        "cityName": "NOVI LIGURE",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "AL",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "15067",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F965",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-05-03",
+                "terminationDate": "2017-11-28"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-05-03",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "005",
+                            "longName": "FO SERRAVALLE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1877921f:16c501c5aea:-7ff4",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MNIBLF94S30F205U",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "BOUEYELE FRANC ALA",
+                    "familyName1": "MIAN",
+                    "formattedName": "BOUEYELE FRANC ALA MIAN"
+                },
+                "birthDate": "1994-11-30",
+                "legalAddress": {
+                    "lineOne": "VIA LUIGI CAPUANA, 12",
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20157"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "BOUEYELE94@HOTMAIL.IT",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA LUIGI CAPUANA, 12",
+                        "cityName": "MILANO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20157",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "F205",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-08-06",
+                "terminationDate": "2020-07-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-08-06",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "012",
+                            "longName": "FO MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1877921f:16c501c5aea:-7ff5",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "LRODNL94L19A048L",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DANIELE",
+                    "familyName1": "LORE'",
+                    "formattedName": "DANIELE LORE'"
+                },
+                "birthDate": "1994-07-19",
+                "legalAddress": {
+                    "lineOne": "VIA ANNUNZIATA 50",
+                    "cityName": "ACQUAVIVA DELLE FONTI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BA",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "70021"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "DANIELE.LORE@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "ACQUAVIVA DELLE FONTI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BA",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "CORSO TRIESTE 291",
+                        "cityName": "CASERTA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "CE",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "81100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "B963",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-08-01"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-08-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "032",
+                            "longName": "RBK MARCIANISE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1877921f:16c501c5aea:-7ff6",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PRSNDR82M07C351J",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ANDREA",
+                    "familyName1": "PRESTIFILIPPO",
+                    "formattedName": "ANDREA PRESTIFILIPPO"
+                },
+                "birthDate": "1982-08-07",
+                "legalAddress": {
+                    "lineOne": "VIA ALESSANDRO ASPESI, 12",
+                    "cityName": "GALLIATE",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "NO",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "28066"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "ANDREA.PRESTIFILIPPO@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CATANIA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CT",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA ALESSANDRO ASPESI, 12",
+                        "cityName": "GALLIATE",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "NO",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "28066",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "D872",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2019-08-01",
+                "terminationDate": "2019-10-24"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2019-08-01",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "042",
+                            "longName": "MBFO VICOLUNGO"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "211",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1899f35b:14ca3112471:-7ff9",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "DFRMRC93R16H501G",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MARCO",
+                    "familyName1": "DI FRANCESCO",
+                    "formattedName": "MARCO DI FRANCESCO"
+                },
+                "birthDate": "1993-10-16",
+                "legalAddress": {
+                    "lineOne": "VIA ANAGNINA 412",
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "00118"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "ROMA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RM",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA ANAGNINA 412",
+                        "cityName": "ROMA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "RM",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "00118",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "H501",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-04-15",
+                "terminationDate": "2016-05-31"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-04-15",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "009",
+                            "longName": "SPCS ROMA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1899f35b:14ca3112471:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "PPADNC88L18B963A",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "DOMENICO",
+                    "familyName1": "PAPA",
+                    "formattedName": "DOMENICO PAPA"
+                },
+                "birthDate": "1988-07-18",
+                "legalAddress": {
+                    "lineOne": "S.S. 7 APPIA,3",
+                    "cityName": "CASERTA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CE",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "81100"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CASERTA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "CE",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "S.S. 7 APPIA, 3",
+                        "cityName": "CASERTA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "CE",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "81100",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "B963",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-04-13",
+                "terminationDate": "2016-04-18"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-04-13",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "032",
+                            "longName": "RBK MARCIANISE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1964e3ae:1734b1b15e0:-7ff4",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "KSARGN01T21C618R",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "REGAN",
+                    "familyName1": "KASA",
+                    "formattedName": "REGAN KASA"
+                },
+                "birthDate": "2001-12-21",
+                "legalAddress": {
+                    "lineOne": "VIA SAN BERNARDINO 8",
+                    "cityName": "CHIARI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BS",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "25032"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "CHIARI",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "BS",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA SAN BERNARDINO 8",
+                        "cityName": "CHIARI",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "BS",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "25032",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "C618",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2020-07-20",
+                "terminationDate": "2020-09-20"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2020-07-20",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "024",
+                            "longName": "FRANCIACORTA OUTLET"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "251",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1996696c:154c76893e1:-7ff8",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "MDSNDR93R16M089E",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "ANDREA",
+                    "familyName1": "AMADESI",
+                    "formattedName": "ANDREA AMADESI"
+                },
+                "birthDate": "1993-10-16",
+                "legalAddress": {
+                    "lineOne": "VIA FRA BENEDETTO TIEZZI, 29",
+                    "cityName": "FOIANO DELLA CHIANA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "AR",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "52045"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "ANDREA.AMADESI@OUTLOOK.IT",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "VITTORIO VENETO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "TV",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA FRA BENEDETTO TIEZZI, 29",
+                        "cityName": "FOIANO DELLA CHIANA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "AR",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "52045",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "D649",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2016-05-15"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2016-05-15",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "025",
+                            "longName": "VALDICHIANA OUTLET V"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "241",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-19e51b56:1502849395e:-7ffc",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "BZZSFN85C15F205C",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "STEFANO",
+                    "familyName1": "BOZZA",
+                    "formattedName": "STEFANO BOZZA"
+                },
+                "birthDate": "1985-03-15",
+                "legalAddress": {
+                    "lineOne": "VIA IV NOVEMBRE, 729",
+                    "cityName": "CARONNO PERTUSELLA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "VA",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "21042"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "STEFANO.BOZZA@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA IV NOVEMBRE, 729",
+                        "cityName": "CARONNO PERTUSELLA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "VA",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "21042",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "B805",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-10-05"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "longName": "Business Email"
+                        },
+                        "emailUri": "STEFANO.BOZZA@ADIDAS.COM",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-10-05",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "005",
+                                "longName": "MARKETING DEPT."
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "001",
+                            "longName": "SEDE MONZA"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "221",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1b889a23:15060ef0058:-7ff6",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "CNSWTR80A06F205L",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "WALTER A.P.",
+                    "familyName1": "CANESI",
+                    "formattedName": "WALTER A.P. CANESI"
+                },
+                "birthDate": "1980-01-06",
+                "legalAddress": {
+                    "lineOne": "VIA MILANO 16/C",
+                    "cityName": "CASSANO D'ADDA",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "20062"
+                },
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "longName": "Personal Email"
+                            },
+                            "emailUri": "WALTER.CANESI@ADIDAS.COM",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "MILANO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "MI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA MILANO 16/C",
+                        "cityName": "CASSANO D'ADDA",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "MI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "20062",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "C003",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-10-21"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "3",
+                    "longName": "Attivo"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-10-21",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "048",
+                            "longName": "MBFO SCALO MI"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "231",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "-1b889a23:15060ef0058:-7ff8",
+            "person": {
+                "governmentIDs": [
+                    {
+                        "idValue": "SCRMSM90L14B036J",
+                        "nameCode": {
+                            "longName": "Codice Fiscale"
+                        }
+                    }
+                ],
+                "legalName": {
+                    "givenName": "MASSIMO",
+                    "familyName1": "SCARPELLI",
+                    "formattedName": "MASSIMO SCARPELLI"
+                },
+                "birthDate": "1990-07-14",
+                "legalAddress": {
+                    "lineOne": "VIA FILIPPO LIPPI 13/B",
+                    "cityName": "SCARPERIA E SAN PIERO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "FI",
+                        "subdivisionType": "provincia"
+                    },
+                    "postalCode": "50038"
+                },
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "M",
+                    "longName": "MASCHIO"
+                },
+                "birthPlace": {
+                    "cityName": "BORGO SAN LORENZO",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "FI",
+                        "subdivisionType": "provincia"
+                    }
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "lineOne": "VIA FILIPPO LIPPI 13/B",
+                        "cityName": "SCARPERIA E SAN PIERO",
+                        "countrySubdivisionLevel1": {
+                            "codeValue": "FI",
+                            "subdivisionType": "provincia"
+                        },
+                        "postalCode": "50038",
+                        "countrySubdivisionLevel2": {
+                            "codeValue": "M326",
+                            "subdivisionType": "comune"
+                        }
+                    }
+                ],
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "000",
+                        "longName": "ITALIA"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "2015-10-18",
+                "terminationDate": "2017-12-30"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "7",
+                    "longName": "Liquidato"
+                },
+                "reasonCode": {
+                    "codeValue": "01",
+                    "longName": "ASSUNZIONE"
+                }
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "2015-10-18",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "008",
+                                "longName": "RETAIL"
+                            },
+                            "itemID": "departmentId"
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "nameCode": {
+                            "codeValue": "011",
+                            "longName": "FO BARBERINO DI MUGE"
+                        }
+                    },
+                    "payScaleCode": {
+                        "codeValue": "241",
+                        "longName": "IMPIEGATO"
+                    }
+                }
+            ]
+        }
+    ]
+}

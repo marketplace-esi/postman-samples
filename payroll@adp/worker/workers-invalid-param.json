@@ -1,0 +1,35 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2022-11-08T08:48:12.126Z",
+        "protocolStatusCode": {
+            "codeValue": "404"
+        },
+        "protocolCode": {
+            "codeValue": "HTTP/1.1"
+        },
+        "requestID": {
+            "idValue": "/hr/v2/workers/-11948158:16fa43bb4da:-800"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "sessionID": {
+            "idValue": "X-b56ee181-1857-482d-99f5-b1c35e5a15be"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "sourceLocationExpression": "com.adp.italy.workerssnapshot.helpers.WorkersHelper.getHrV2WorkersAoid(WorkersHelper.java:98)",
+                "developerMessage": {
+                    "title": "NotFound",
+                    "messageTxt": "No worker found with aoid: '-11948158:16fa43bb4da:-800'"
+                }
+            }
+        ]
+    }
+}

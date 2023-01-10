@@ -1,0 +1,454 @@
+{
+    "workers": [
+        {
+            "associateOID": "-102d8e11:1550bb2f7d0:-7ffb",
+            "person": {
+                "legalName": {
+                    "givenName": "FILIPPO",
+                    "familyName1": "SANTAMBROGIO"
+                }
+            }
+        },
+        {
+            "associateOID": "-1034d6e8:153c744869c:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "SIMONE",
+                    "familyName1": "GRECO"
+                }
+            }
+        },
+        {
+            "associateOID": "-10546c0f:142bc403e56:-7ffc",
+            "person": {
+                "legalName": {
+                    "givenName": "MANUEL",
+                    "familyName1": "CASSOTTI"
+                }
+            }
+        },
+        {
+            "associateOID": "-10546c0f:142bc403e56:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "MARCO",
+                    "familyName1": "MISCHI"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7fed",
+            "person": {
+                "legalName": {
+                    "givenName": "ALICE",
+                    "familyName1": "BELLANCA"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7fee",
+            "person": {
+                "legalName": {
+                    "givenName": "FEDERICA",
+                    "familyName1": "LETTINI"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7fef",
+            "person": {
+                "legalName": {
+                    "givenName": "LUCIA",
+                    "familyName1": "BRESSANIN"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7ff0",
+            "person": {
+                "legalName": {
+                    "givenName": "GIORGIA",
+                    "familyName1": "LEVATI"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7ff1",
+            "person": {
+                "legalName": {
+                    "givenName": "MARTINA",
+                    "familyName1": "GUERCIA"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7ff2",
+            "person": {
+                "legalName": {
+                    "givenName": "ARIANNA",
+                    "familyName1": "DI MAURO"
+                }
+            }
+        },
+        {
+            "associateOID": "-10660102:16e5d9c020a:-7ff3",
+            "person": {
+                "legalName": {
+                    "givenName": "MARTINA",
+                    "familyName1": "BOLDRINI"
+                }
+            }
+        },
+        {
+            "associateOID": "-10ba6110:16fea25b04d:-7ff4",
+            "person": {
+                "legalName": {
+                    "givenName": "GIAN MARCO",
+                    "familyName1": "SIRTORI"
+                }
+            }
+        },
+        {
+            "associateOID": "-10ba6110:16fea25b04d:-7ff5",
+            "person": {
+                "legalName": {
+                    "givenName": "FRANCK",
+                    "familyName1": "MBELLA"
+                }
+            }
+        },
+        {
+            "associateOID": "-10ba6110:16fea25b04d:-7ff6",
+            "person": {
+                "legalName": {
+                    "givenName": "JANNA MERCEDES",
+                    "familyName1": "GUTIERREZ SUAZO"
+                }
+            }
+        },
+        {
+            "associateOID": "-111a8fa8:16f11da8195:-7fee",
+            "person": {
+                "legalName": {
+                    "givenName": "FRANCK",
+                    "familyName1": "MBELLA"
+                }
+            }
+        },
+        {
+            "associateOID": "-111a8fa8:16f11da8195:-7fef",
+            "person": {
+                "legalName": {
+                    "givenName": "AICHA",
+                    "familyName1": "DIARRA"
+                }
+            }
+        },
+        {
+            "associateOID": "-1147f236:16e81a87da4:-7fe9",
+            "person": {
+                "legalName": {
+                    "givenName": "DEBORAH",
+                    "familyName1": "TORLAI"
+                }
+            }
+        },
+        {
+            "associateOID": "-1147f236:16e81a87da4:-7fea",
+            "person": {
+                "legalName": {
+                    "givenName": "ANDREA",
+                    "familyName1": "MACCELLI"
+                }
+            }
+        },
+        {
+            "associateOID": "-1147f236:16e81a87da4:-7feb",
+            "person": {
+                "legalName": {
+                    "givenName": "VANESSA",
+                    "familyName1": "SIMEONI"
+                }
+            }
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7fef",
+            "person": {
+                "legalName": {
+                    "givenName": "ANDREA",
+                    "familyName1": "GORI"
+                }
+            }
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7ff0",
+            "person": {
+                "legalName": {
+                    "givenName": "GIULIA",
+                    "familyName1": "TORCHIO"
+                }
+            }
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7ff1",
+            "person": {
+                "legalName": {
+                    "givenName": "DANIELE",
+                    "familyName1": "LEVA"
+                }
+            }
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7ff2",
+            "person": {
+                "legalName": {
+                    "givenName": "FEDERICA",
+                    "familyName1": "MAZZOLANI"
+                }
+            }
+        },
+        {
+            "associateOID": "-118395c8:17347d9e94a:-7ff4",
+            "person": {
+                "legalName": {
+                    "givenName": "VALERIA",
+                    "familyName1": "STICOZZI"
+                }
+            }
+        },
+        {
+            "associateOID": "-1227c6d0:1697a32927c:-7ff7",
+            "person": {
+                "legalName": {
+                    "givenName": "DILETTA",
+                    "familyName1": "PENAZZA"
+                }
+            }
+        },
+        {
+            "associateOID": "-128f0e0d:14fab8e0976:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "IRENE",
+                    "familyName1": "LARCHER"
+                }
+            }
+        },
+        {
+            "associateOID": "-1368e467:1511e668dff:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "GABRIELE",
+                    "familyName1": "MAZZOCCHI"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7fef",
+            "person": {
+                "legalName": {
+                    "givenName": "CAROLA",
+                    "familyName1": "FERRUGGIA"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff0",
+            "person": {
+                "legalName": {
+                    "givenName": "GIULIA",
+                    "familyName1": "PAOLETTA"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff1",
+            "person": {
+                "legalName": {
+                    "givenName": "GIORGIA",
+                    "familyName1": "LASEPO"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff2",
+            "person": {
+                "legalName": {
+                    "givenName": "VIRGINIA",
+                    "familyName1": "ZULLI"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff6",
+            "person": {
+                "legalName": {
+                    "givenName": "GIUSEPPE",
+                    "familyName1": "GIONTI"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff7",
+            "person": {
+                "legalName": {
+                    "givenName": "DANILO",
+                    "familyName1": "BUFFOLINO"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff8",
+            "person": {
+                "legalName": {
+                    "givenName": "VALENTINA",
+                    "familyName1": "COSTANTI"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ff9",
+            "person": {
+                "legalName": {
+                    "givenName": "NICOLA",
+                    "familyName1": "FACCHI"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ffa",
+            "person": {
+                "legalName": {
+                    "givenName": "BRUNO",
+                    "familyName1": "MORETTI"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ffb",
+            "person": {
+                "legalName": {
+                    "givenName": "ANGELO",
+                    "familyName1": "SANFILIPPO"
+                }
+            }
+        },
+        {
+            "associateOID": "-13bb91f0:1644a2931c2:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "MARTA",
+                    "familyName1": "MARASA'"
+                }
+            }
+        },
+        {
+            "associateOID": "-141005c3:1662f5cd8a1:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "FABIO",
+                    "familyName1": "GIORDANO"
+                }
+            }
+        },
+        {
+            "associateOID": "-145f7701:163488d52ab:-7ffb",
+            "person": {
+                "legalName": {
+                    "givenName": "RODOLFO CRISTIANO",
+                    "familyName1": "PISA DI MONTEROSA"
+                }
+            }
+        },
+        {
+            "associateOID": "-14642fe3:156795b6c16:-7ffc",
+            "person": {
+                "legalName": {
+                    "givenName": "LUCA",
+                    "familyName1": "CAPITANI"
+                }
+            }
+        },
+        {
+            "associateOID": "-14642fe3:156795b6c16:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "ALICE",
+                    "familyName1": "ORLANDO"
+                }
+            }
+        },
+        {
+            "associateOID": "-148dc467:16b31b45f98:-7ff7",
+            "person": {
+                "legalName": {
+                    "givenName": "GIANLUCA",
+                    "familyName1": "PALMA"
+                }
+            }
+        },
+        {
+            "associateOID": "-16164cb8:1466fad929b:-7ff9",
+            "person": {
+                "legalName": {
+                    "givenName": "ISABELLA",
+                    "familyName1": "DE CANDIA"
+                }
+            }
+        },
+        {
+            "associateOID": "-16299668:14614368b19:-7ffc",
+            "person": {
+                "legalName": {
+                    "givenName": "MARCO",
+                    "familyName1": "MISCHI"
+                }
+            }
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffa",
+            "person": {
+                "legalName": {
+                    "givenName": "ISABELLA",
+                    "familyName1": "SALVATORE"
+                }
+            }
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffb",
+            "person": {
+                "legalName": {
+                    "givenName": "DAVID",
+                    "familyName1": "CATOZZI"
+                }
+            }
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffc",
+            "person": {
+                "legalName": {
+                    "givenName": "NICOLA",
+                    "familyName1": "GIOVANNELLI"
+                }
+            }
+        },
+        {
+            "associateOID": "-1636d8a0:16420aea3cc:-7ffd",
+            "person": {
+                "legalName": {
+                    "givenName": "DAVIDE",
+                    "familyName1": "PENITENTI"
+                }
+            }
+        },
+        {
+            "associateOID": "-166a72ad:1538341547e:-7ffb",
+            "person": {
+                "legalName": {
+                    "givenName": "LUCA",
+                    "familyName1": "BASSETTO"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "events": [{
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc",
+                        "person": {
+                        "customFieldGroup": {
+                            "stringField": {
+                            "itemID": "hireTime"
+                            }
+                        }
+                        }
+                    }
+                 },
+				 "transform": {
+                    "worker": {
+                        "person": {
+                            "customFieldGroup": {
+                                "stringField": 
+                                    {
+                                        "stringValue": "08:00"
+                                       
+                                    }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

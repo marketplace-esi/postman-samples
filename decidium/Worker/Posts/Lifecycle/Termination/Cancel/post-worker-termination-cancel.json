@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "pmassina-7110mp5",
+                    "workAssignmentID": "00000002|2012-01-02"
+                }
+            }
+        }
+    ]
+}

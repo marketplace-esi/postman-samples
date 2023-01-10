@@ -1,0 +1,71 @@
+{
+	"dependents": [
+		{
+			"associateOID": "1010_555",
+			"relationshipTypeCode": {
+				"codeValue": "1",
+				"shortName": "sogro"
+			},
+			"person": {
+				"governmentIDs": [
+					{
+						"idValue": "000.000.000-00",
+						"nameCode": {
+							"shortName": ""
+						},
+						"statusCode": {
+							"effectiveDate": "2014-01-01"
+						}
+					}
+				],
+				"legalName": {
+					"givenName": "",
+					"middleName": "",
+					"familyName1": "",
+					"formattedName": ""
+				},
+				"birthDate": "2014-01-01",
+				"genderCode": {
+					"codeValue": "",
+					"shortName": ""
+				},
+				"maritalStatusCode": {
+					"codeValue": "",
+					"shortName": "",
+					"effectiveDate": "2014-01-01"
+				},
+				"disabledIndicator": true,
+				"disabilityTypeCodes": [
+					{
+						"codeValue": "",
+						"shortName": ""
+					}
+				],
+				"studentIndicator": true,
+				"studentStatusCode": {
+					"shortName": "",
+					"effectiveDate": "2014-01-01"
+				},
+				"taxDependentIndicator": true
+			},
+			"customFieldGroup": {
+				"indicatorFields": [
+					{
+						"indicatorValue": true,
+						"nameCode": {
+							"shortName": ""
+						}
+					}
+				]
+			},
+			"stringFields": [
+				{
+					"stringValue": "",
+					"nameCode": {
+						"shortName": ""
+					}
+				}
+			]
+		}
+	]
+}

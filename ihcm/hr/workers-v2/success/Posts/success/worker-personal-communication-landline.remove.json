@@ -1,0 +1,19 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "565656"
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.remove"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}

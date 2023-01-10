@@ -65,6 +65,10 @@
                             {
                                 "coveredIndicator": true,
                                 "itemID": "socialSecurity"
+                            },
+                            {
+                                "coveredIndicator": true,
+                                "itemID": "allocatee"
                             }
                         ],
                         "taxDependentIndicator": true
