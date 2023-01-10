@@ -1,0 +1,15 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {}
+      },
+      "eventNameCode": {
+        "codeValue": "organizationJob.remove"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}
