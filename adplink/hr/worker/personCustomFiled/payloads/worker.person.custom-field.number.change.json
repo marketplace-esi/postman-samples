@@ -1,0 +1,33 @@
+{
+    "events": [{
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc",
+                        "person": {
+                        "customFieldGroup": {
+                            "numberField": {
+                            "itemID": "coefficient"
+                            }
+                        }
+                        }
+                    }
+                 },
+				 "transform": {
+                    "worker": {
+                        "person": {
+                            "customFieldGroup": {
+                                "numberField": 
+                                    {
+                                        "numberValue": 432.0
+                                       
+                                    }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

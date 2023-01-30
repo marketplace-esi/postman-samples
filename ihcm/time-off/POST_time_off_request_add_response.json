@@ -1,0 +1,68 @@
+{
+	"events": [{
+		"eventNameCode": {
+			"codeValue": "timeOffRequest.submit"
+		},
+		"data": {
+			"eventContext": {
+				"workerID": {
+					"idValue": "PN111"
+				}
+			},
+			"output": {
+				"workerID": {
+					"idValue": "PN111"
+				},
+				"timeOffRequest": {
+					"timeOffRequestID": "5d184bc4-26d4-4920-97d4-2d0aeaa06372",
+					"requestDateTime": "2022-12-13T11:51:14.0996125Z",
+					"requestorName": {
+						"givenName": "John",
+						"middleName": "",
+						"familyName1": "Wick",
+						"formattedName": "John Wick"
+					},
+					"totalQuantity": {
+						"quantityValue": 1.0
+					},
+					"totalTime": {
+						"timeValue": "04:00"
+					},
+					"timeOffEntries": [{
+						"timeOffEntryID": "401b8e10-8b63-44ea-b0b3-a7f2ee2a8b2c",
+						"entryTypeCode": {
+							"codeValue": "Unpaid Leave",
+							"shortName": "",
+							"longName": ""
+						},
+						"datePeriod": {
+							"startDate": "2022-08-05",
+							"startTime": "00:00",
+							"endTime": "23:59"
+						},
+						"totalQuantity": {
+							"quantityValue": 1.0
+						},
+						"totalTime": {
+							"timeValue": "04:00"
+						},
+						"totalQuantityToMonetize": {
+							"quantityValue": 7.0
+						}
+					}],
+					"comments": [{
+						"textValue": "Planning a last minute vacation for 2 weeks and selling the remaining 5 vacation days.  Please approve.",
+						"commentCode": {
+							"codeValue": "NOTE",
+							"shortName": "Note"
+						},
+						"entryDateTime": "2022-12-13T11:51:14.0996125Z",
+						"author": {
+							"formattedName": "John Wick"
+						}
+					}]
+				}
+			}
+		}
+	}]
+}

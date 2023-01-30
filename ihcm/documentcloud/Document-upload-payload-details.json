@@ -1,0 +1,21 @@
+{
+  "documentName": "DocumentFileName.pdf",
+  "documentTitle": "DocumentDisplayName",
+  "documentTypeCode": {
+    "code": "Employee"
+  },
+  "categoryCode": {
+    "code": "ihcm-ec-ed"
+  },
+  "subCategoryCode": {
+    "code": "ec-ed-employee-details"
+  },
+  "keywords": "UPLOAD marketplace api v2",
+  "author": {
+    "associateOID": "UK0I1V0000000LFU",
+    "roleCode": {
+      "code": "Employee"
+    },
+    "formattedName": "TEST USER"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {},
+        "output": {
+          "organizationJob": {
+            "itemID": "abfb65f2-7473-4ad8-b26c-536f976ef893",
+            "jobCode": {
+              "codeValue": "C101"
+            },
+            "jobTitle": "Chef - Junior",
+            "jobFamilyCode": {
+              "codeValue": "Clerical",
+              "shortName": "170 - Clerical"
+            },
+            "standardHours": {
+              "hoursQuantity": 38.0
+            },
+            "effectiveDate": "2023-01-09T08:20:55.33"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "organizationJob.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}

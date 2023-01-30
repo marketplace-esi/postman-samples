@@ -1,0 +1,105 @@
+{
+	"organizations" : [
+		{
+			"organizationOID": "BR000000001",
+			"organizationID": {
+				"id": "001"
+			},
+			"organizationName": "Empresa Teste S.A.",
+			"alternateIDs": [
+				{
+					"id": "Celergo-001",
+					"scheme": {
+						"name": "Celergo Code"
+					}
+				}
+			],
+			"governmentRegistrations": [
+				{
+					"registrationNumber": {
+						"number": "12345678"
+					},
+					"registrationStatus": {
+						"statusCode": {
+							"code": "A",
+							"name": "Active"
+						},
+						"effectiveDateTime": "2000-01-01"
+					},
+					"registeredName": "Empresa Teste S.A.",
+					"registeredAddress": {
+						"lineOne": "Av. Soledade, 500 5º andar",
+						"lineTwo": "Três Figueiras, Porto Alegre, RS",
+						"lineThree": "90000000",
+						"cityName": "Porto Alegre",
+						"subdivisionCode": {
+							"code": "RS",
+							"name": "Rio Grande do Sul",
+							"subdivisionType": "STATE"
+						},
+						"countryCode": "BR",
+						"postalCode": "90000000",
+						"formattedAddress": "Av. Soledade, 500 5º andar, Três Figueiras, Porto Alegre, RS"
+					},
+					"registeredContact": {
+						"contactID": "eSocial Contact - Company 001",
+						"personName": {
+							"givenName": "Maria",
+							"middleName": "Oliveira",
+							"familyName": "Silva",
+							"formattedName": "Maria Oliveira Silva"
+						},
+						"communication": {
+							"telephones": [
+								{
+									"areaDialing": "51",
+									"dialNumber": "30000000",
+									"formattedNumber": "51 30000000"
+								},
+								{
+									"areaDialing": "51",
+									"dialNumber": "99999999",
+									"formattedNumber": "51 99999999"
+								}
+							],
+							"emails": [
+								{
+									"emailUri": "TEST@ADP.COM"
+								}
+							]
+						}
+					}
+				}
+			],
+			"industryClassifications": [
+				{
+					"schemeCode": {
+						"name": "Principal CNAE"
+					},
+					"classificationCode": {
+						"code": "7805-00",
+						"name": "Locação de mão de obra temporária"
+					}	
+				},
+				{
+					"schemeCode": {
+						"name": "Tax Classification"
+					},
+					"classificationCode": {
+						"code": "99",
+						"name": "Pessoas Jurídicas em Geral"
+					}
+				},
+				{
+					"schemeCode": {
+						"name": "Legal Nature"
+					},
+					"classificationCode": {
+						"code": "2062",
+						"name": "Sociedade Empresária Limitada"
+					}
+				}
+			]
+		}
+	]
+}	
