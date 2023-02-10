@@ -4,22 +4,22 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "AO0N2A92945468B",
+                        "associateOID": "AO0N2A93038C9MB",
                         "workerID": {
-                            "idValue": "99995008"
+                            "idValue": "99995009"
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "HIRE STA",
+                                "givenName": "HIRE CIT",
                                 "middleName": "",
                                 "familyName1": "MINIMAL REQUIRED DATA",
-                                "formattedName": "HIRE STA MINIMAL REQUIRED DATA",
+                                "formattedName": "HIRE CIT MINIMAL REQUIRED DATA",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "MME",
-                                            "shortName": "MME",
-                                            "longName": "Madame"
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
                                         },
                                         "sequenceNumber": 1
                                     }
@@ -27,9 +27,9 @@
                             },
                             "deceasedIndicator": false,
                             "genderCode": {
-                                "codeValue": "F",
-                                "shortName": "Femme",
-                                "longName": "Femme"
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
                             },
                             "maritalStatusCode": {
                                 "codeValue": ""
@@ -50,19 +50,8 @@
                             "seniorityDate": "2022-08-09",
                             "expectedStartDate": "2022-08-09",
                             "actualStartDate": "2022-08-09",
-                            "expectedTerminationDate": "2022-12-31",
-                            "workerTypeCode": {
-                                "codeValue": "20",
-                                "shortName": "Stagiaire contr.stag",
-                                "longName": "Stagiaire contr.stag"
-                            },
+                            "workerTypeCode": {},
                             "legalEntityID": "01",
-                            "jobCode": {
-                                "codeValue": "EMPL2",
-                                "shortName": "Emploi (en cours)",
-                                "longName": "Emploi (en cours)"
-                            },
-                            "jobTitle": "ASSISTANT BACK OFFICE",
                             "jobFunctionCode": {},
                             "assignedOrganizationalUnits": [
                                 {
@@ -123,27 +112,27 @@
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "99995008",
+                            "payrollFileNumber": "99995009",
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
-                                        "codeValue": "STA",
-                                        "longName": "Stagiaire",
+                                        "codeValue": "CIT",
+                                        "longName": "Collaborateur international",
                                         "itemID": "collaborationType"
-                                    },
-                                    {
-                                        "codeValue": "S7",
-                                        "longName": "Stagiaire soumis impos.",
-                                        "itemID": "contractType"
                                     },
                                     {
                                         "codeValue": "01",
                                         "longName": "ORION",
                                         "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "F",
+                                        "longName": "Appointement forfaitaire",
+                                        "itemID": "remunerationType"
                                     }
                                 ]
                             },
-                            "itemID": "99995008|2022-08-09"
+                            "itemID": "99995009|2022-08-09"
                         }
                     }
                 }
@@ -151,7 +140,7 @@
         }
     ],
     "confirmMessage": {
-        "createDateTime": "2023-02-10T10:30:52.154792705+01:00",
+        "createDateTime": "2023-02-10T10:42:06.815049915+01:00",
         "protocolStatusCode": {
             "codeValue": "200"
         },
