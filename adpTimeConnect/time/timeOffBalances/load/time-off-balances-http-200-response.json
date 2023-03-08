@@ -1,0 +1,94 @@
+{
+	"timeOffBalances": [{
+		"balanceAsOfDate": "2023-03-07",
+		"timeOffPolicyBalances": [{
+			"policyBalances": [{
+				"totalQuantity": {
+					"quantityValue": -31.0,
+					"unitTimeCode": {
+						"codeValue": "day"
+					}
+				},
+				"balanceTypeCode": {
+					"codeValue": "available",
+					"shortName": "CP Sol 31/05/23"
+				}
+			},
+			{
+				"totalQuantity": {
+					"quantityValue": 6.0,
+					"unitTimeCode": {
+						"codeValue": "day"
+					}
+				},
+				"balanceTypeCode": {
+					"codeValue": "earned",
+					"shortName": "CP Acq 31/05/23"
+				}
+			},
+			{
+				"totalQuantity": {
+					"quantityValue": 37.0,
+					"unitTimeCode": {
+						"codeValue": "day"
+					}
+				},
+				"balanceTypeCode": {
+					"codeValue": "taken",
+					"shortName": "Congés payés pris  CONGE"
+				}
+			}],
+			"timeOffPolicyCode": {
+				"codeValue": "MOB_CP",
+				"shortName": "CP Acquis",
+				"longName": "CP Acquis"
+			}
+		},
+		{
+			"policyBalances": [{
+				"totalTime": {
+					"nameCode": {
+						"codeValue": "hour"
+					},
+					"timeValue": "163:30"
+				},
+				"balanceTypeCode": {
+					"codeValue": "available",
+					"shortName": "Solde CSE"
+				}
+			},
+			{
+				"totalTime": {
+					"nameCode": {
+						"codeValue": "hour"
+					},
+					"timeValue": "163:30"
+				},
+				"balanceTypeCode": {
+					"codeValue": "earned",
+					"shortName": "Droit CSE"
+				}
+			},
+			{
+				"totalTime": {
+					"nameCode": {
+						"codeValue": "hour"
+					},
+					"timeValue": "00:00"
+				},
+				"balanceTypeCode": {
+					"codeValue": "taken",
+					"shortName": "Pris CSE"
+				}
+			}],
+			"timeOffPolicyCode": {
+				"codeValue": "MOB_RP",
+				"shortName": "D,P,S CSE",
+				"longName": "D,P,S CSE"
+			}
+		}],
+		"workerName": {
+			"formattedName": ""
+		}
+	}]
+}

@@ -1,0 +1,431 @@
+{
+	"timeOffRequests": [{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMS45OTYxODQ4LjIwMjIvMDMvMjkuMA",
+		"requestDateTime": "2022-03-04T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "approved",
+			"shortName": "Accepté",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "CP",
+				"shortName": "Congés payés"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2022-04-04T00:00:00+02:00",
+				"startDateTime": "2022-03-29T00:00:00+02:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "CP"
+			},
+			"dayPeriodStartCode": {
+				"codeValue": "M",
+				"shortName": "Matin"
+			},
+			"dayPeriodEndCode": {
+				"codeValue": "A",
+				"shortName": "Après-midi"
+			}
+		}],
+		"actions": [{
+			"operationID": "timeOffRequest.cancel"
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQl9FVlQxLjEuOTk2MjE2My4yMDIyLzA0LzA1LjA",
+		"requestDateTime": "2022-04-06T00:00:00+02:00",
+		"requestStatusCode": {
+			"codeValue": "approved",
+			"shortName": "Accepté",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "B_EVT1",
+				"shortName": "EVT 1 (facultatives)"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2022-04-05T00:00:00+02:00",
+				"startDateTime": "2022-04-05T00:00:00+02:00"
+			},
+			"totalQuantity": {
+				"quantityValue": 2.5,
+				"unitTimeCode": {
+					"codeValue": ""
+				}
+			},
+			"durationTypeCode": {
+				"codeValue": "dateQuantityEntry"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "B_EVT1"
+			}
+		}],
+		"actions": [{
+			"operationID": "timeOffRequest.cancel"
+		}],
+		"associateOID": "AO0N1KB0218MBI8",
+		"visibilityScope": {
+			"scopeCodes": [{
+				"codeValue": "DEFAULT_HIDDEN"
+			}]
+		}
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQl9DUDEuMS45OTYyMzQ2LjIwMjIvMDQvMTIuMA",
+		"requestDateTime": "2022-04-12T00:00:00+02:00",
+		"requestStatusCode": {
+			"codeValue": "approved",
+			"shortName": "Accepté",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Jacques -Manager-",
+			"familyName1": "Bordeaux",
+			"formattedName": "Jacques -Manager- Bordeaux"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "B_CP1",
+				"shortName": "Congé payé 1"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2022-04-12T12:00:00+02:00",
+				"startDateTime": "2022-04-12T08:00:00+02:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "B_CP1"
+			}
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuUVQxUVQyLjEuOTk2NDU5MC4yMDIyLzA3LzAxLjA",
+		"requestDateTime": "2022-06-30T00:00:00+02:00",
+		"requestStatusCode": {
+			"codeValue": "approved",
+			"shortName": "Accepté",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Jacques -Manager-",
+			"familyName1": "Bordeaux",
+			"formattedName": "Jacques -Manager- Bordeaux"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "QT1QT2",
+				"shortName": "Qté 1 ou Qt 2"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2022-07-01T00:00:00+02:00",
+				"startDateTime": "2022-07-01T00:00:00+02:00"
+			},
+			"totalQuantity": {
+				"quantityValue": 5.5,
+				"unitTimeCode": {
+					"codeValue": ""
+				}
+			},
+			"durationTypeCode": {
+				"codeValue": "dateQuantityEntry"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "QT1QT2"
+			}
+		}],
+		"associateOID": "AO0N1KB0218MBI8",
+		"visibilityScope": {
+			"scopeCodes": [{
+				"codeValue": "DEFAULT_HIDDEN"
+			}]
+		}
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuNC45OTczNzU2LjIwMjMvMDEvMDkuMA",
+		"requestDateTime": "2023-01-01T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "inprogress",
+			"shortName": "En cours",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "CP",
+				"shortName": "Congés payés"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-01-09T00:00:00+01:00",
+				"startDateTime": "2023-01-09T00:00:00+01:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "CP"
+			},
+			"dayPeriodStartCode": {
+				"codeValue": "M",
+				"shortName": "Matin"
+			},
+			"dayPeriodEndCode": {
+				"codeValue": "A",
+				"shortName": "Après-midi"
+			}
+		}],
+		"actions": [{
+			"operationID": "timeOffRequest.cancel"
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMC45OTczMzMxLjIwMjMvMDIvMDYuMA",
+		"requestDateTime": "2023-01-12T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "cancelled",
+			"shortName": "Annulation demandée",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "CP",
+				"shortName": "Congés payés"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-02-10T00:00:00+01:00",
+				"startDateTime": "2023-02-06T00:00:00+01:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "CP"
+			},
+			"dayPeriodStartCode": {
+				"codeValue": "M",
+				"shortName": "Matins"
+			}
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMC45OTczMzQzLjIwMjMvMDIvMTMuMA",
+		"requestDateTime": "2023-01-12T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "cancelled",
+			"shortName": "Annulation demandée",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "CP",
+				"shortName": "Congés payés"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-02-16T00:00:00+01:00",
+				"startDateTime": "2023-02-13T00:00:00+01:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "CP"
+			},
+			"dayPeriodStartCode": {
+				"codeValue": "M",
+				"shortName": "Matin"
+			},
+			"dayPeriodEndCode": {
+				"codeValue": "M",
+				"shortName": "Matin"
+			}
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMS45OTczNzQ0LjIwMjMvMDIvMTUuMA",
+		"requestDateTime": "2023-01-01T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "cancelsubmitted",
+			"shortName": "Annulation demandée",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "CP",
+				"shortName": "Congés payés"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-02-15T00:00:00+01:00",
+				"startDateTime": "2023-02-15T00:00:00+01:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "CP"
+			},
+			"dayPeriodStartCode": {
+				"codeValue": "M",
+				"shortName": "Matin"
+			},
+			"dayPeriodEndCode": {
+				"codeValue": "A",
+				"shortName": "Après-midi"
+			}
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMS45OTczOTgzLjIwMjMvMDIvMjcuMA",
+		"requestDateTime": "2023-02-16T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "inprogress",
+			"shortName": "En cours",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "CP",
+				"shortName": "Congés payés"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-03-02T00:00:00+01:00",
+				"startDateTime": "2023-02-27T00:00:00+01:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "CP"
+			},
+			"dayPeriodStartCode": {
+				"codeValue": "M",
+				"shortName": "Matin"
+			},
+			"dayPeriodEndCode": {
+				"codeValue": "A",
+				"shortName": "Après-midi"
+			}
+		}],
+		"actions": [{
+			"operationID": "timeOffRequest.cancel"
+		}],
+		"associateOID": "AO0N1KB0218MBI8"
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuSU5URVIzLjEuOTk3NDI1Mi4yMDIzLzAzLzAxLjA",
+		"requestDateTime": "2023-03-02T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "approved",
+			"shortName": "Accepté",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "INTER3",
+				"shortName": "Intervention 3"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-03-01T04:00:00+01:00",
+				"startDateTime": "2023-03-01T03:00:00+01:00"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "INTER3"
+			}
+		}],
+		"actions": [{
+			"operationID": "timeOffRequest.cancel"
+		}],
+		"associateOID": "AO0N1KB0218MBI8",
+		"visibilityScope": {
+			"scopeCodes": [{
+				"codeValue": "DEFAULT_HIDDEN"
+			}]
+		}
+	},
+	{
+		"timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuSU5URVIyLjEuOTk3NDI1OC4yMDIzLzAzLzAyLjA",
+		"requestDateTime": "2023-03-02T00:00:00+01:00",
+		"requestStatusCode": {
+			"codeValue": "approved",
+			"shortName": "Accepté",
+			"effectiveDate": "2023-03-07"
+		},
+		"requestorName": {
+			"givenName": "Olivier -plage direct-",
+			"familyName1": "Albi",
+			"formattedName": "Olivier -plage direct- Albi"
+		},
+		"timeOffEntries": [{
+			"payCode": {
+				"codeValue": "INTER2",
+				"shortName": "Intervention 2"
+			},
+			"dateTimePeriod": {
+				"endDateTime": "2023-03-02T00:00:00+01:00",
+				"startDateTime": "2023-03-02T00:00:00+01:00"
+			},
+			"durationTypeCode": {
+				"codeValue": "dailyQuantity"
+			},
+			"timeOffPolicyCode": {
+				"codeValue": "INTER2"
+			},
+			"dailyTimeDuration": "03:00"
+		}],
+		"actions": [{
+			"operationID": "timeOffRequest.cancel"
+		}],
+		"associateOID": "AO0N1KB0218MBI8",
+		"comments": [{
+			"commentCode": {
+				"codeValue": "COMU Collaborateur",
+				"shortName": "Commentaire"
+			},
+			"textValue": "Ceci est un commentaire",
+			"author": {
+				"roleCode": {
+					"codeValue": "U",
+					"shortName": "Collaborateur"
+				},
+				"formattedName": "Commentaire collaborateur"
+			}
+		}],
+		"visibilityScope": {
+			"scopeCodes": [{
+				"codeValue": "DEFAULT_HIDDEN"
+			}]
+		}
+	}],
+	"meta": {
+		"totalNumber": 11
+	}
+}
