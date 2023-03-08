@@ -1,3 +1,7 @@
+/*
+Review a time off request.
+reviewStatusCode takes the value <b>refused</b> or <b>approved</b>
+*/
 {
 	"events": [
 		{
