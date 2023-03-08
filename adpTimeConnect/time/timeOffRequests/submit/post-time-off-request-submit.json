@@ -23,10 +23,10 @@
 									"endDateTime": "2020-12-04"
 								},
 								"dayPeriodStartCode": {
-									"codeValue": "2"
+									"codeValue": "A"
 								},
 								"dayPeriodEndCode": {
-									"codeValue": "1"
+									"codeValue": "M"
 								}
 							}
 						],
