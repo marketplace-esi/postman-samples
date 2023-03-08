@@ -1,6 +1,6 @@
 /*
 Review a time off request.
-reviewStatusCode takes the value <b>refused</b> or <b>approved</b>
+reviewStatusCode takes the value 'refused' or 'approved'
 */
 {
 	"events": [
