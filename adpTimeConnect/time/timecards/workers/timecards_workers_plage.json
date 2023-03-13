@@ -1,0 +1,701 @@
+{
+	"timeCards": [{
+		"timeCardID": "AzErTyUiOpQsDfGhJkLmWxCvBn",
+		"associateOID": "AO0G5RR5856IGGG",
+		"actions": [{
+			"canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read",
+			"confirmationRequiredIndicator": false,
+			"actionTypeCode": "callback",
+			"operationID": "timeSheet.read",
+			"links": [{
+				"mediaType": "application/pdf",
+				"method": "GET",
+				"href": "/time/v2/workers/AO0G5RR5856IGGG/time-cards?$filter=timeCards/timePeriod/startDate%20eq%20'2023-01-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-01-15'",
+				"rel": "/adp/invoke"
+			}]
+		}],
+		"dayEntries": [{
+			"entryDate": "2023-01-01",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Non présent",
+					"codeValue": "N"
+				}
+			}],
+			"totalPeriodTimeDuration": "P0D"
+		},
+		{
+			"entryDate": "2023-01-02",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567892",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-03",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567893",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-04",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567894",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-05",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567895",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-06",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567896",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-07",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Non présent",
+					"codeValue": "N"
+				}
+			}],
+			"totalPeriodTimeDuration": "P0D"
+		},
+		{
+			"entryDate": "2023-01-08",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Non présent",
+					"codeValue": "N"
+				}
+			}],
+			"totalPeriodTimeDuration": "P0D"
+		},
+		{
+			"entryDate": "2023-01-09",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567897",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-10",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567898",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-11",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567899",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-12",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567900",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-13",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Journée",
+					"codeValue": "J"
+				}
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			},
+			{
+				"entryCode": {
+					"shortName": "Absence",
+					"codeValue": "ABSENT"
+				},
+				"entryID": "1234567901",
+				"laborAllocations": [{
+					"allocationCode": {
+						"shortName": "Lieu 1 Bench",
+						"codeValue": "84"
+					},
+					"allocationTypeCode": {
+						"shortName": "__LIEU__",
+						"codeValue": "Lieu"
+					}
+				}],
+				"entryTypeCode": {
+					"codeValue": "hoursEntry"
+				},
+				"timeDuration": "PT8H0M"
+			}],
+			"totalPeriodTimeDuration": "P0,00D"
+		},
+		{
+			"entryDate": "2023-01-14",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Non présent",
+					"codeValue": "N"
+				}
+			}],
+			"totalPeriodTimeDuration": "P0D"
+		},
+		{
+			"entryDate": "2023-01-15",
+			"dayStatusCode": {
+				"effectiveDate": "2023-03-08",
+				"shortName": "Journée hors dates limites de modification",
+				"codeValue": "locked"
+			},
+			"timeEntries": [{
+				"entryCode": {
+					"shortName": "Présence intranet",
+					"codeValue": "W_PRES"
+				},
+				"entryTypeCode": {
+					"codeValue": "dayPeriodEntry"
+				},
+				"dayPeriodCode": {
+					"shortName": "Non présent",
+					"codeValue": "N"
+				}
+			}],
+			"totalPeriodTimeDuration": "P0D"
+		}],
+		"timePeriod": {
+			"startDate": "2023-01-01",
+			"endDate": "2023-01-15"
+		},
+		"totalPeriodTimeDuration": "P0,00D",
+		"periodTotals": [{
+			"payCode": {
+				"shortName": "Présence intranet",
+				"codeValue": "W_PRES"
+			},
+			"timeDuration": "P0,00D"
+		},
+		{
+			"payCode": {
+				"shortName": "Absence",
+				"codeValue": "ABSENT"
+			},
+			"laborAllocations": [{
+				"allocationCode": {
+					"shortName": "Lieu 1 Bench",
+					"codeValue": "84"
+				},
+				"allocationTypeCode": {
+					"shortName": "__LIEU__",
+					"codeValue": "Lieu"
+				}
+			}],
+			"timeDuration": "PT80H0M"
+		}],
+		"links": [{
+			"method": "GET",
+			"href": "/time/v2/workers/AO0G5RR5856IGGG/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2022-12-17'%20and%20timeCards/timePeriod/endDate%20eq%20'2022-12-31'",
+			"rel": "previous"
+		},
+		{
+			"method": "GET",
+			"href": "/time/v2/workers/AO0G5RR5856IGGG/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-01-16'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-01-30'",
+			"rel": "next"
+		}]
+	}],
+	"meta": {
+		"timeDurationFormatCode": "hh:mm",
+		"timeNotationCode": "24h"
+	}
+}

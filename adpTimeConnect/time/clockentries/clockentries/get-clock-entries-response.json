@@ -1,0 +1,11 @@
+{
+    "clockEntries": [
+        {
+            "actionCode": {
+                "shortName": "Pointage saisi",
+                "codeValue": "punch"
+            },
+            "entryDateTime": "2023-03-08T17:31:00+01:00"
+        }
+    ]
+}

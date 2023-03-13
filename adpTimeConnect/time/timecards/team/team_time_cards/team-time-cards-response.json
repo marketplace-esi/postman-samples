@@ -1,0 +1,197 @@
+{
+    "teamTimeCards": [
+        {
+            "personLegalName": {
+                "formattedName": "user name n1"
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf01",
+                    "associateOID": "IYGEZIB684FGEA",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "IYGEZIB684FGEA"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n2"
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf02",
+                    "associateOID": "IUHYERZ654ZEV",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "IUHYERZ654ZEV"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n3"
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf03",
+                    "associateOID": "GERZ654ZSG3615",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "GERZ654ZSG3615"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n4"
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf04",
+                    "associateOID": "EZRG128196ZZGRE",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "EZRG128196ZZGRE"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n5"
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf05",
+                    "associateOID": "S6546854SQEGRQHG",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "S6546854SQEGRQHG"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n1"9
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf19",
+                    "exceptionCounts": [
+                        {
+                            "totalNumber": 2,
+                            "exceptionCode": {
+                                "codeValue": "ANOWAV"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "warning"
+                            }
+                        },
+                        {
+                            "totalNumber": 1,
+                            "exceptionCode": {
+                                "codeValue": "ANOCMO"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "warning"
+                            }
+                        },
+                        {
+                            "totalNumber": 1,
+                            "exceptionCode": {
+                                "codeValue": "ANOCDS"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "warning"
+                            }
+                        }
+                    ],
+                    "associateOID": "U00010013",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "U00010013"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n2"0
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf20",
+                    "associateOID": "AO0N1KA5933MNDV",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "PT8H0M"
+                }
+            ],
+            "associateOID": "AO0N1KA5933MNDV"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n2"1
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf21",
+                    "associateOID": "U00010016",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "PT8H0M"
+                }
+            ],
+            "associateOID": "U00010016"
+        },
+        {
+            "personLegalName": {
+                "formattedName": "user name n2"8
+            },
+            "timeCards": [
+                {
+                    "timeCardID": "IKJHVBjerzjhbIJHjbuFCoubuf28",
+                    "exceptionCounts": [
+                        {
+                            "totalNumber": 2,
+                            "exceptionCode": {
+                                "codeValue": "ANOWAV"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "warning"
+                            }
+                        }
+                    ],
+                    "associateOID": "U00010036",
+                    "timePeriod": {
+                        "startDate": "2023-03-06",
+                        "endDate": "2023-03-12"
+                    },
+                    "totalPeriodTimeDuration": "P1,00D"
+                }
+            ],
+            "associateOID": "U00010036"
+        }
+    ]
+}
