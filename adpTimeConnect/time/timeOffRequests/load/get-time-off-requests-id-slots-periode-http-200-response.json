@@ -1,0 +1,50 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMS45OTU3MzIxLjIwMjMvMDMvMjAuMA",
+            "requestDateTime": "2023-03-17T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "inprogress",
+                "shortName": "En cours",
+                "effectiveDate": "2023-03-17"
+            },
+            "requestorName": {
+                "givenName": "Olivier -plage direct-",
+                "familyName1": "Albi",
+                "formattedName": "Olivier -plage direct- Albi"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CP",
+                        "shortName": "Congés payés"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2023-03-23T00:00:00+01:00",
+                        "startDateTime": "2023-03-20T00:00:00+01:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CP"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "A",
+                        "shortName": "Après-midi"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "jlyluard-e71"
+        }
+    ],
+    "meta": {
+        "totalNumber": 1
+    }
+}
