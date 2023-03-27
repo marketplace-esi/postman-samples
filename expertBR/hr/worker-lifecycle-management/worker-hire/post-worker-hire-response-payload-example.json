@@ -1,0 +1,356 @@
+{
+  "events": [
+    {
+      "eventID": "comparando_resposta_200",
+      "serviceCategoryCode": {
+        "shortName": "HR"
+      },
+      "eventNameCode": {
+        "shortName": "worker.hire"
+      },
+      "eventTitle": "Worker Hire",
+      "recordDateTime": "2014-01-01T00:00:00Z",
+      "creationDateTime": "2014-01-01T00:00:00Z",
+      "effectiveDateTime": "2023-05-10T00:00:00Z",
+      "data": {
+        "output": {
+          "worker": {
+            "person": {
+              "governmentIDs": [
+                {
+                  "idValue": "1111111111",
+                  "nameCode": {
+                    "shortName": "CPF"
+                  }
+                },
+                {
+                  "idValue": "12345672345",
+                  "nameCode": {
+                    "codeValue": "C-DETRAN-RS",
+                    "shortName": "CNH"
+                  },
+                  "statusCode": {
+                    "effectiveDate": "2022-10-10"
+                  },
+                  "expirationDate": "2027-10-10"
+                },
+                {
+                  "idValue": "11111111111",
+                  "nameCode": {
+                    "shortName": "PIS"
+                  },
+                  "statusCode": {
+                    "effectiveDate": "2019-10-10"
+                  }
+                },
+                {
+                  "idValue": "12345678912345",
+                  "nameCode": {
+                    "codeValue": "TESTETESTETESTETESTE",
+                    "shortName": "RIC"
+                  },
+                  "statusCode": {
+                    "effectiveDate": "2022-01-01"
+                  }
+                },
+                {
+                  "idValue": "12345672345123456756",
+                  "nameCode": {
+                    "codeValue": "1234-12345-1234567",
+                    "shortName": "Titulo de Eleitor"
+                  }
+                },
+                {
+                  "idValue": "TESTE",
+                  "nameCode": {
+                    "shortName": "Certificado de Reservista"
+                  }
+                },
+                {
+                  "idValue": "111111111111111",
+                  "nameCode": {
+                    "codeValue": "codeValue",
+                    "shortName": "RNE"
+                  },
+                  "statusCode": {
+                    "effectiveDate": "2020-10-10",
+                    "expectedTerminationDate": "2020-10-10"
+                  },
+                  "expirationDate": "2025-10-10"
+                },
+                {
+                  "idValue": "1234567890",
+                  "nameCode": {
+                    "codeValue": "SSP - RS",
+                    "shortName": "RG"
+                  },
+                  "statusCode": {
+                    "effectiveDate": "2020-10-10"
+                  }
+                },
+                {
+                  "idValue": "0212635",
+                  "nameCode": {
+                    "codeValue": "00032 - PA",
+                    "shortName": "CTPS"
+                  },
+                  "statusCode": {
+                    "effectiveDate": "2020-10-10"
+                  },
+                  "expirationDate": "2020-10-10"
+                }
+              ],
+              "legalName": {
+                "givenName": "givenName",
+                "middleName": "middleName",
+                "familyName1": "familyName",
+                "formattedName": "givenName middleName familyName",
+                "nickName": "nickName"
+              },
+              "birthDate": "1985-11-27",
+              "communication": {
+                "mobiles": [
+                  {
+                    "areaDialing": "51",
+                    "dialNumber": "999999999",
+                    "formattedNumber": "51 999999999"
+                  }
+                ],
+                "faxes": [
+                  {
+                    "areaDialing": "52",
+                    "dialNumber": "99999999",
+                    "formattedNumber": "52 99999999"
+                  }
+                ],
+                "landlines": [
+                  {
+                    "areaDialing": "52",
+                    "dialNumber": "99999999",
+                    "formattedNumber": "52 99999999"
+                  }
+                ],
+                "emails": [
+                  {
+                    "emailUri": "email.pessoal@teste.com"
+                  }
+                ]
+              },
+              "maritalStatusCode": {
+                "codeValue": "SOL"
+              },
+              "preferredName": {
+                "givenName": "preferredName",
+                "middleName": "middleNameA middleNameB",
+                "familyName1": "familyName1 familyName10",
+                "formattedName": "preferredName middleNameA middleNameB familyName1 familyName10"
+              },
+              "highestEducationLevelCode": {
+                "codeValue": "4"
+              },
+              "studentIndicator": true,
+              "birthPlace": {
+                "countryCode": "BR"
+              },
+              "citizenshipCountryCodes": [
+                {
+                  "codeValue": "BR"
+                }
+              ],
+              "immigrationDocuments": [
+                {
+                  "documentID": "123456789"
+                }
+              ],
+              "genderCode": {
+                "codeValue": "F"
+              },
+              "legalAddress": {
+                "lineOne": "Av. Soledade 5 andar",
+                "lineTwo": "Tres Figueiras, Porto Alegre, RS",
+                "lineThree": "90470340",
+                "cityName": "Porto Alegre",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "RS",
+                  "shortName": "Rio Grande do Sul",
+                  "subdivisionType": "STATE"
+                },
+                "countryCode": "BR",
+                "postalCode": "90470340",
+                "buildingNumber": "500",
+                "blockName": "Tres Figueiras",
+                "streetName": "Soledade",
+                "streetTypeCode": {
+                  "shortName": "Avenida"
+                },
+                "unit": "5 andar"
+              },
+              "raceCode": {
+                "codeValue": "8"
+              },
+              "customFieldGroup": {
+                "stringFields": [
+                  {
+                    "nameCode": {
+                      "shortName": "Father's name"
+                    },
+                    "stringValue": "Nome do pai"
+                  },
+                  {
+                    "nameCode": {
+                      "shortName": "Mother's name"
+                    },
+                    "stringValue": "Nome da mãe"
+                  }
+                ]
+              },
+              "disabilityTypeCodes": [
+                {
+                  "shortName": "Auditiva",
+                  "longName": "Auditiva"
+                }
+              ]
+            },
+            "workerDates": {
+              "originalHireDate": "2023-05-10",
+              "adjustedServiceDate": "2020-04-01",
+              "expectedTerminationDate": "2023-06-10"
+            },
+            "businessCommunication": {
+              "emails": [
+                {
+                  "emailUri": "email.corporativo@teste.com"
+                }
+              ]
+            },
+            "workAssignment": {
+              "workAgreementRef": {
+                "workAgreementID": "12345678",
+                "workAgreementOrganizationalUnits": [
+                  {
+                    "governmentRegistrations": [
+                      {
+                        "registrationID": "12345678"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "alternateIDs": [
+                {
+                  "idValue": "000012345"
+                }
+              ],
+              "workAgreementType": {
+                "codeValue": "s"
+              },
+              "highlyCompensatedIndicator": true,
+              "executiveIndicator": false,
+              "workerTypeCode": {
+                "codeValue": "1"
+              },
+              "assignmentTermCode": {
+                "codeValue": "0"
+              },
+              "workerGroups": [
+                {
+                  "nameCode": {
+                    "shortName": "TLM Type"
+                  },
+                  "groupCode": {
+                    "codeValue": "1"
+                  }
+                }
+              ],
+              "payGradeCode": {
+                "codeValue": "1-1"
+              },
+              "jobCode": {
+                "codeValue": "123456-123456"
+              },
+              "laborUnion": {
+                "laborUnionCode": {
+                  "codeValue": "1"
+                }
+              },
+              "bargainingUnit": {
+                "bargainingUnitCode": {
+                  "codeValue": "1"
+                }
+              },
+              "workShiftCode": {
+                "codeValue": "1-1"
+              },
+              "standardHours": {
+                "hoursQuantity": 220
+              },
+              "remunerationBasisCode": {
+                "codeValue": "M"
+              },
+              "baseRemuneration": {
+                "hourlyRateAmount": {
+                  "amountValue": 50
+                }
+              },
+              "monthlyRateAmount": {
+                "amountValue": 11000
+              },
+              "homeOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "D_001_001_00001"
+                  }
+                }
+              ],
+              "workArrangementCode": {
+                "codeValue": "1"
+              },
+              "reportsTo": [
+                {
+                  "associateOID": "123456789-123456789",
+                  "workerID": {
+                    "idValue": "001-12345678"
+                  }
+                }
+              ],
+              "customFieldGroup": {
+                "indicatorFields": [
+                  {
+                    "indicatorValue": true,
+                    "itemID": "Disability Quota"
+                  }
+                ],
+                "stringFields": [
+                  {
+                    "nameCode": {
+                      "shortName": "Union Legal ID"
+                    },
+                    "stringValue": "12345678912345"
+                  },
+                  {
+                    "nameCode": {
+                      "shortName": "Hire origination legal proceding"
+                    },
+                    "stringValue": "11111111111111111111"
+                  },
+                  {
+                    "nameCode": {
+                      "shortName": "Legal authorization proceding"
+                    },
+                    "stringValue": "11111111111111111111"
+                  },
+                  {
+                    "nameCode": {
+                      "shortName": "Contract duration based on a fact"
+                    },
+                    "stringValue": "Contract duration based on a fact"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
