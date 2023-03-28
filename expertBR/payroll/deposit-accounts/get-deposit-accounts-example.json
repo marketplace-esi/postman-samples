@@ -1,0 +1,31 @@
+{
+	"workerDepositAccounts": [
+		{
+			"accountID": {
+				"idValue": "1",
+				"schemeCode": {
+					"codeValue": "1",
+					"shortName": "Direct Deposit - Checking Account"
+				}
+			},
+			"BBAN": "341",
+			"financialParty": {
+				"nameCode": {
+					"codeValue": "1",
+					"shortName": "João Silva"
+				},
+				"branchNameCode": {
+					"codeValue": "012548-7",
+					"shortName": "Agência do Centro"
+				}
+			},
+			"financialAccount": {
+				"accountNumber": "1234-5",
+				"typeCode": {
+					"shortName": "Checking"
+				},
+				"currencyCode": "BRL"
+			}
+		}
+	]
+}
