@@ -1,0 +1,172 @@
+{
+    "timeCards": [
+        {
+            "timeCardID": "iygIHYutfKUHGutfIKUHiyfOHG",
+            "associateOID": "OHBF5332E25255D",
+            "actions": [
+                {
+                    "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read",
+                    "confirmationRequiredIndicator": false,
+                    "actionTypeCode": "callback",
+                    "operationID": "timeSheet.read",
+                    "links": [
+                        {
+                            "mediaType": "application/pdf",
+                            "method": "GET",
+                            "href": "/time/v2/workers/OHBF5332E25255D/time-cards?$filter=timeCards/timePeriod/startDate%20eq%20'2023-03-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-03-08'",
+                            "rel": "/adp/invoke"
+                        }
+                    ]
+                }
+            ],
+            "dayEntries": [
+                {
+                    "exceptions": [
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOWP0"
+                            },
+                            "exceptionDescription": "Présence non saisie"
+                        }
+                    ],
+                    "entryDate": "2023-03-01",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "exceptions": [
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOWP0"
+                            },
+                            "exceptionDescription": "Présence non saisie"
+                        }
+                    ],
+                    "entryDate": "2023-03-02",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "exceptions": [
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOWP0"
+                            },
+                            "exceptionDescription": "Présence non saisie"
+                        }
+                    ],
+                    "entryDate": "2023-03-03",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2023-03-04",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2023-03-05",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2023-03-06",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2023-03-07",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2023-03-08",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT6H0M"
+                }
+            ],
+            "timePeriod": {
+                "startDate": "2023-03-01",
+                "endDate": "2023-03-08"
+            },
+            "totalPeriodTimeDuration": "PT6H0M",
+            "exceptionCounts": [
+                {
+                    "totalNumber": 3,
+                    "exceptionTypeCode": {
+                        "codeValue": "error"
+                    },
+                    "exceptionCode": {
+                        "codeValue": "ANOWP0"
+                    }
+                }
+            ],
+            "periodTotals": [
+                {
+                    "payCode": {
+                        "shortName": "Présence intranet",
+                        "codeValue": "W_PRES"
+                    },
+                    "timeDuration": "PT6H0M"
+                }
+            ],
+            "links": [
+                {
+                    "method": "GET",
+                    "href": "/time/v2/workers/OHBF5332E25255D/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-02-21'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-02-28'",
+                    "rel": "previous"
+                },
+                {
+                    "method": "GET",
+                    "href": "/time/v2/workers/OHBF5332E25255D/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-03-09'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-03-16'",
+                    "rel": "next"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "timeDurationFormatCode": "hh:mm",
+        "timeNotationCode": "24h"
+    }
+}

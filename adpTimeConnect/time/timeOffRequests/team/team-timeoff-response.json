@@ -1,0 +1,230 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQl9DUDEuMS4wLrzthyjIwMjMvMDIvMDYuMA",
+            "requestDateTime": "2023-02-02T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-13"
+            },
+            "requestorName": {
+                "givenName": "Olivier Dupuis",
+                "familyName1": "Albi",
+                "formattedName": "Olivier Dupuis, Albi"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "B_CP1",
+                        "shortName": "C1",
+                        "longName": "Congé payé 1"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2023-02-06T00:00:00+01:00",
+                        "startDateTime": "2023-02-06T00:00:00+01:00"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 4.0,
+                        "unitTimeCode": {
+                            "codeValue": "hour"
+                        }
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "dailyQuantity"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "B_CP1"
+                    },
+                    "dailyTimeDuration": "04:00"
+                }
+            ],
+            "associateOID": "IUHYBGRZ1555EZAF"
+        },
+        {
+            "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQVIzyerxwfhgxgfjC4yMDIyLzA5LzE3LjA",
+            "requestDateTime": "2022-09-15T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-13"
+            },
+            "requestorName": {
+                "givenName": "Olivier Dupuis",
+                "familyName1": "Albi",
+                "formattedName": "Olivier Dupuis, Albi"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "AR3",
+                        "shortName": "",
+                        "longName": "Astreinte WE complet"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-09-17T00:00:00+02:00",
+                        "startDateTime": "2022-09-17T00:00:00+02:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "AR3"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "A",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "associateOID": "IUHYBGRZ1555EZAF",
+            "visibilityScope": {
+                "scopeCodes": [
+                    {
+                        "codeValue": "DEFAULT_HIDDEN"
+                    }
+                ]
+            }
+        },
+        {
+            "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQdsgfrsgNJTlQuMS4wLjIwMjIvMDkvMTUuMA",
+            "requestDateTime": "2022-09-15T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-13"
+            },
+            "requestorName": {
+                "givenName": "Olivier Dupuis",
+                "familyName1": "Albi",
+                "formattedName": "Olivier Dupuis, Albi"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "ASINT",
+                        "shortName": "",
+                        "longName": "Intervention à payer"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-09-15T12:00:00+02:00",
+                        "startDateTime": "2022-09-15T10:00:00+02:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "ASINT"
+                    }
+                }
+            ],
+            "associateOID": "IUHYBGRZ1555EZAF",
+            "comments": [
+                {
+                    "commentCode": {
+                        "codeValue": "COMM Manager",
+                        "shortName": "Commentaire"
+                    },
+                    "textValue": "ADP FR",
+                    "author": {
+                        "roleCode": {
+                            "codeValue": "M",
+                            "shortName": "Manager"
+                        },
+                        "formattedName": "Commentaire manager"
+                    }
+                }
+            ],
+            "visibilityScope": {
+                "scopeCodes": [
+                    {
+                        "codeValue": "DEFAULT_HIDDEN"
+                    }
+                ]
+            }
+        },
+        {
+            "timeOffRequestID": "Mi4wMDAxMDAzNy5BREdfgxjhshtfrkuVFRQLjEuMC4yMDIyLzA1LzAzLjA",
+            "requestDateTime": "2022-04-05T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-13"
+            },
+            "requestorName": {
+                "givenName": "Olivier Dupuis",
+                "familyName1": "Albi",
+                "formattedName": "Olivier Dupuis, Albi"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "TTP",
+                        "shortName": "TP",
+                        "longName": "Télétravail planifié"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-05-03T00:00:00+02:00",
+                        "startDateTime": "2022-05-03T00:00:00+02:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "TTP"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "A",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "associateOID": "IUHYBGRZ1555EZAF",
+            "visibilityScope": {
+                "scopeCodes": [
+                    {
+                        "codeValue": "DEFAULT_HIDDEN"
+                    }
+                ]
+            }
+        },
+        {
+            "timeOffRequestID": "Mi4wMDAxMDrstuhdrujhtAzMi5BREkuQ1MuMS4wLjIwMjIvMDQvMjYuMA",
+            "requestDateTime": "2022-04-25T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-13"
+            },
+            "requestorName": {
+                "givenName": "Laurent Delon",
+                "familyName1": "Arles",
+                "formattedName": "Laurent Delon, Arles"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "CS",
+                        "shortName": "CS",
+                        "longName": "Congé sans solde"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-04-26T00:00:00+02:00",
+                        "startDateTime": "2022-04-26T00:00:00+02:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "CS"
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "A",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "associateOID": "G09910032"
+        }
+    ]
+}

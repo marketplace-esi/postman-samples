@@ -1,0 +1,273 @@
+{
+    "timeCards": [
+        {
+            "timeCardID": "MjAyMi8xMC8xMC0yMDIyLzE999T9",
+            "associateOID": "ATD55856654HGR",
+            "actions": [
+                {
+                    "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read",
+                    "confirmationRequiredIndicator": false,
+                    "actionTypeCode": "callback",
+                    "operationID": "timeSheet.read",
+                    "links": [
+                        {
+                            "mediaType": "application/pdf",
+                            "method": "GET",
+                            "href": "/time/v2/workers/ATD55856654HGR/time-cards?$filter=timeCards/timePeriod/startDate%20eq%20'2022-10-10'%20and%20timeCards/timePeriod/endDate%20eq%20'2022-10-16'",
+                            "rel": "/adp/invoke"
+                        }
+                    ]
+                }
+            ],
+            "dayEntries": [
+                {
+                    "exceptions": [
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOMRE"
+                            },
+                            "exceptionDescription": "Retard"
+                        }
+                    ],
+                    "entryDate": "2022-10-10",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "longName": "Votre manager a enregistré votre journée.",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMi8xMC8xMAlXX1B9999999999999999g6MzAqMjAyMi8xMC8xMCAxMjowMAkJ",
+                            "endPeriod": {
+                                "endDateTime": "2022-10-10T12:00:00+02:00"
+                            },
+                            "entryTypeCode": {
+                                "codeValue": "timePairEntry"
+                            },
+                            "startPeriod": {
+                                "startDateTime": "2022-10-10T08:30:00+02:00"
+                            }
+                        },
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMi8xMC8xMAlXX1BSRVMJCTIwMjIvMTAvMTAgMTM6NT99999999999999999AkJ",
+                            "endPeriod": {
+                                "endDateTime": "2022-10-10T16:30:00+02:00"
+                            },
+                            "entryTypeCode": {
+                                "codeValue": "timePairEntry"
+                            },
+                            "startPeriod": {
+                                "startDateTime": "2022-10-10T13:52:00+02:00"
+                            }
+                        }
+                    ],
+                    "totalPeriodTimeDuration": "PT6H8M"
+                },
+                {
+                    "exceptions": [
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOCDS"
+                            },
+                            "exceptionDescription": "Dépassement de sortie"
+                        },
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOMRE"
+                            },
+                            "exceptionDescription": "Retard"
+                        },
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOMRE"
+                            },
+                            "exceptionDescription": "Retard"
+                        }
+                    ],
+                    "entryDate": "2022-10-11",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "longName": "L'expert a enregistré la journée.",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAy99999999999999RVMJCTIwMjIvMTAvMTEgMDg6MzUqMjAyMi8xMC8xMSAxMjowMAkJ",
+                            "endPeriod": {
+                                "endDateTime": "2022-10-11T12:00:00+02:00"
+                            },
+                            "entryTypeCode": {
+                                "codeValue": "timePairEntry"
+                            },
+                            "startPeriod": {
+                                "startDateTime": "2022-10-11T08:35:00+02:00"
+                            }
+                        },
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMi8xMC8xM99999999999999999wMjIvMTAvMTEgMTM6MTUqMjAyMi8xMC8xMSAxNzowMAkJ",
+                            "endPeriod": {
+                                "endDateTime": "2022-10-11T17:00:00+02:00"
+                            },
+                            "entryTypeCode": {
+                                "codeValue": "timePairEntry"
+                            },
+                            "startPeriod": {
+                                "startDateTime": "2022-10-11T13:15:00+02:00"
+                            }
+                        }
+                    ],
+                    "totalPeriodTimeDuration": "PT6H40M"
+                },
+                {
+                    "entryDate": "2022-10-12",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2022-10-13",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2022-10-14",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "entryDate": "2022-10-15",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                },
+                {
+                    "exceptions": [
+                        {
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            },
+                            "exceptionCode": {
+                                "codeValue": "ANOCRE"
+                            },
+                            "exceptionDescription": "Ecart hebdo à corriger: - 00:42"
+                        }
+                    ],
+                    "entryDate": "2022-10-16",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-03-08",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "totalPeriodTimeDuration": "PT0H0M"
+                }
+            ],
+            "timePeriod": {
+                "startDate": "2022-10-10",
+                "endDate": "2022-10-16"
+            },
+            "totalPeriodTimeDuration": "PT12H48M",
+            "exceptionCounts": [
+                {
+                    "totalNumber": 3,
+                    "exceptionTypeCode": {
+                        "codeValue": "error"
+                    },
+                    "exceptionCode": {
+                        "codeValue": "ANOMRE"
+                    }
+                },
+                {
+                    "totalNumber": 1,
+                    "exceptionTypeCode": {
+                        "codeValue": "error"
+                    },
+                    "exceptionCode": {
+                        "codeValue": "ANOCDS"
+                    }
+                },
+                {
+                    "totalNumber": 1,
+                    "exceptionTypeCode": {
+                        "codeValue": "error"
+                    },
+                    "exceptionCode": {
+                        "codeValue": "ANOCRE"
+                    }
+                }
+            ],
+            "periodTotals": [
+                {
+                    "payCode": {
+                        "shortName": "Présence intranet",
+                        "codeValue": "W_PRES"
+                    },
+                    "timeDuration": "PT12H48M"
+                }
+            ],
+            "reviewStatusCode": {
+                "longName": "La fiche de présence a été approuvée en partie par le manager et l'expert jusqu'au 11/10/2022",
+                "codeValue": "approve"
+            },
+            "links": [
+                {
+                    "method": "GET",
+                    "href": "/time/v2/workers/ATD55856654HGR/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2022-10-03'%20and%20timeCards/timePeriod/endDate%20eq%20'2022-10-09'",
+                    "rel": "previous"
+                },
+                {
+                    "method": "GET",
+                    "href": "/time/v2/workers/ATD55856654HGR/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2022-10-17'%20and%20timeCards/timePeriod/endDate%20eq%20'2022-10-23'",
+                    "rel": "next"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "timeDurationFormatCode": "hh:mm",
+        "timeNotationCode": "24h"
+    }
+}
