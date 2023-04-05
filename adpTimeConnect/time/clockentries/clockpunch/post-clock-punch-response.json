@@ -1,0 +1,37 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "KJHE54GRFRZS884"
+                },
+                "transform": {
+                    "clockEntry": {
+                        "entryDateTime": "2023-01-02T01:53:19+03:00"
+                    }
+                },
+                "output": {
+                    "clockEntry": {
+                        "entryDateTime": "2023-01-02T01:53:19+03:00",
+                        "actionCode": {
+                            "codeValue": "pointage",
+                            "shortName": "Pointage"
+                        }
+                    }
+                }
+            },
+            "eventStatusCode": {
+                "codeValue": "complete"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "clock.punch"
+            },
+            "originator": {
+                "deviceID": "MyADP"
+            }
+        }
+    ]
+}

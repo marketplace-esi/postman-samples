@@ -7,7 +7,7 @@
                         "person": {
                             "legalName": {
                                 "familyName1": "MINIMAL REQUIRED DATA",
-                                "givenName": "HIRE STA",
+                                "givenName": "HIRE INT",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
@@ -21,15 +21,11 @@
                             }
                         },
                         "workAssignment": {
-                            "hireDate": "2022-08-09",
-                            "expectedTerminationDate": "2022-12-31",
-                            "workerTypeCode": {
-                                "codeValue": "20"
-                            },
+                            "hireDate": "2021-12-25",
                             "jobCode": {
-                                "codeValue": "EMPL2"
+                                "codeValue": "EMPLO1"
                             },
-                            "jobTitle": "ASSISTANT BACK OFFICE",
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
@@ -40,12 +36,8 @@
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
-                                        "codeValue": "STA",
+                                        "codeValue": "INT",
                                         "itemID": "collaborationType"
-                                    },
-                                    {
-                                        "codeValue": "S7",
-                                        "itemID": "contractType"
                                     }
                                 ]
                             }

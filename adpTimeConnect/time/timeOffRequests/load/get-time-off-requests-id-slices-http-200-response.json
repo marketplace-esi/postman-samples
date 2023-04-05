@@ -1,0 +1,42 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQl9FVlQzLjEuOTk1NzMzOS4yMDIzLzAzLzA2LjA",
+            "requestDateTime": "2023-03-17T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-17"
+            },
+            "requestorName": {
+                "givenName": "Olivier",
+                "familyName1": "Albi",
+                "formattedName": "Olivier Albi"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "B_EVT3",
+                        "shortName": "EVT 3 (unique tranche)"
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2023-03-06T13:00:00+01:00",
+                        "startDateTime": "2023-03-06T09:00:00+01:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "B_EVT3"
+                    }
+                }
+            ],
+            "actions": [
+                {
+                    "operationID": "timeOffRequest.cancel"
+                }
+            ],
+            "associateOID": "jlyluard-e71"
+        }
+    ],
+    "meta": {
+        "totalNumber": 1
+    }
+}

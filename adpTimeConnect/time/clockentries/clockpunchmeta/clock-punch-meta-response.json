@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "/data/eventContext": {
+            "/associateOID": {
+                "optional": false,
+                "default": "'IHBVRE544FZEG'"
+            }
+        },
+        "/data/transforms": [
+            {
+                "/clockEntry/entryDateTime": {
+                    "optional": false,
+                    "dataType": "string[date-time]"
+                }
+            }
+        ],
+        "/eventNameCode/codeValue": "clock.punch,clockOffline.punch,crewClock.punch",
+        "/serviceCategoryCode/codeValue": "time"
+    },
+    "data": {
+        "control": {
+            "clockPolicy": {
+                "actions": [
+                    {
+                        "operationID": "clock.punch",
+                        "links": [
+                            {
+                                "method": "POST",
+                                "title": "Pointage",
+                                "href": "/events/time/v1/clock.punch",
+                                "rel": "/adp/invoke"
+                            }
+                        ]
+                    }
+                ],
+                "clockReferenceDateTime": "2023-03-08T17:27:08.459+01:00",
+                "policyExpireDateTime": "2023-03-08T17:27:08.459+01:00"
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+	"workSchedules": [
+		{
+			"itemID": "Standard",
+			"scheduleID": "1-1_001-1234",
+			"scheduleName": "Turma Horário Padrão",
+			"associateOID": "9999-0123456789",
+			"schedulePeriod": {
+				"startDate": "2022-11-18",
+				"endDate": "2022-11-20"
+			},
+			"scheduleDays": [
+				{
+					"dayOfWeekCode": {
+						"name": "Friday"
+					},
+					"scheduleDayDate": "2022-11-18",
+					"workShifts": [
+						{
+							"workShiftID": "1",
+							"shiftDescription": "Horário padrão 1",
+							"shiftTypeCode": {
+								"name": "Work Day"
+							},
+							"shiftDateTimePeriod": {
+								"startDateTime": "2022-11-18T09:00:00-3",
+								"endDateTime": "2022-11-18T18:00:00-3"
+							},
+							"totalTime": {
+								"timeValue": "08:00"
+							},
+							"shiftSegments": [
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-18T09:00:00-3",
+										"endDateTime": "2022-11-18T13:00:00-3"
+									}
+								},
+								{
+									"segmentTypeCode" : "Break",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-18T13:00:00-3",
+										"endDateTime": "2022-11-18T14:00:00-3"
+									}
+								},
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-18T14:00:00-3",
+										"endDateTime": "2022-11-18T18:00:00-3"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"dayOfWeekCode": {
+						"name": "Saturday"
+					},
+					"scheduleDayDate": "2022-11-19",	
+					"workShifts": [
+						{
+							"workShiftID": "2",
+							"shiftDescription": "Horário noturno 1",
+							"shiftTypeCode": {
+								"name": "Work Day"
+							},
+							"shiftDateTimePeriod": {
+								"startDateTime": "2022-11-19T23:00:00-3",
+								"endDateTime": "2022-11-20T05:00:00-3"
+							},
+							"totalTime": {
+								"timeValue": "06:00"
+							},
+							"shiftSegments": [
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-19T23:00:00-3",
+										"endDateTime": "2022-11-20T02:00:00-3"
+									}
+								},
+								{
+									"segmentTypeCode" : "Break",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-20T02:00:00-3",
+										"endDateTime": "2022-11-20T03:00:00-3"
+									}
+								},
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-20T03:00:00-3",
+										"endDateTime": "2022-11-20T05:00:00-3"
+									}
+								}
+							]
+						}
+					]
+				},
+				{		
+					"dayOfWeekCode": {
+						"name": "Sunday"
+					},
+					"scheduleDayDate": "2022-11-20",	
+					"workShifts": [	
+						{
+							"workShiftID": "998",
+							"shiftDescription": "Folga",
+							"shiftTypeCode": {
+								"name": "Day off"
+							}
+						}
+					]
+				}
+			],
+			"periodTotals": {
+				"totalTime": {
+					"timeValue": "14:00"
+				}
+			}
+		},
+		{
+			"itemID": "On notice",
+			"scheduleID": "SA1_001-1234",
+			"scheduleName": "Sobre aviso 1",
+			"associateOID": "9999-0123456789",
+			"schedulePeriod": {
+				"startDate": "2022-11-19",
+				"endDate": "2022-11-20"
+			},
+			"scheduleDays": [
+				{
+					"dayOfWeekCode": {
+						"name": "Saturday"
+					},
+					"scheduleDayDate": "2022-11-19",	
+					"workShifts": [
+						{
+							"workShiftID": "3",
+							"shiftDescription": "Horário noturno 2",
+							"shiftTypeCode": {
+								"name": "Work Day"
+							},
+							"shiftDateTimePeriod": {
+								"startDateTime": "2022-11-19T20:00:00-3",
+								"endDateTime": "2022-11-20T23:00:00-3"
+							},
+							"totalTime": {
+								"timeValue": "03:00"
+							}
+							"shiftSegments": [
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-19T20:00:00-3",
+										"endDateTime": "2022-11-20T23:00:00-3"
+									}
+								}
+							]
+						}
+					]
+				},
+				{		
+					"dayOfWeekCode": {
+						"name": "Sunday"
+					},
+					"scheduleDayDate": "2022-11-20",	
+					"workShifts": [
+						{
+							"workShiftID": "2",
+							"shiftDescription": "Horário noturno 1",
+							"shiftTypeCode": {
+								"name": "Work Day"
+							},
+							"shiftDateTimePeriod": {
+								"startDateTime": "2022-11-20T23:00:00-3",
+								"endDateTime": "2022-11-21T05:00:00-3"
+							},
+							"totalTime": {
+								"timeValue": "06:00"
+							},
+							"shiftSegments": [
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-19T23:00:00-3",
+										"endDateTime": "2022-11-20T02:00:00-3"
+									}
+								},
+								{
+									"segmentTypeCode" : "Break",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-20T02:00:00-3",
+										"endDateTime": "2022-11-20T03:00:00-3"
+									}
+								},
+								{
+									"segmentTypeCode" : "Work",
+									"segmentDateTimePeriod": {
+										"startDateTime": "2022-11-20T03:00:00-3",
+										"endDateTime": "2022-11-20T05:00:00-3"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}	
+	]
+}

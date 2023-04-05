@@ -8,11 +8,11 @@
                     }
                 },
                 "transform": {
-                    "effectiveDateTime": "2019-04-28",
                     "worker": {
                         "person": {
                             "maritalStatusCode": {
-                                "codeValue": "V"
+                                "codeValue": "V",
+                                "effectiveDate": "2019-04-28"
                             }
                         }
                     }

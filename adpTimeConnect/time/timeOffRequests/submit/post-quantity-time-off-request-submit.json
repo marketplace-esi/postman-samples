@@ -1,0 +1,36 @@
+/*
+Submit a time off request in quantity value
+*/
+{
+	"events": [{
+		"data": {
+			"eventContext": {
+				"associateOID": "AO0N1KB0218MBI8"
+			},
+			"transform": {
+				"timeOffRequest": {
+					"timeOffEntries": [{
+						"timeOffPolicyCode": {
+							"codeValue": "QT1QT2",
+							"shortName": "Qté 1 ou Qt 2"
+						},
+						"payCode": {
+							"codeValue": "QT1QT2",
+							"shortName": "Qté 1 ou Qt 2"
+						},
+						"dateTimePeriod": {
+							"startDateTime": "2023-03-23T00:00:00+01:00",
+							"endDateTime": "2023-03-23T00:00:00+01:00"
+						},
+						"durationTypeCode": {
+							"codeValue": "dateQuantityEntry"
+						},
+						"totalQuantity": {
+							"quantityValue": 5.5
+						}
+					}]
+				}
+			}
+		}
+	}]
+}

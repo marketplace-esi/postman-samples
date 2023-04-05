@@ -1,0 +1,15 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {}
+      },
+      "eventNameCode": {
+        "codeValue": "organizationCostCenter.remove"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "core"
+      }
+    }
+  ]
+}

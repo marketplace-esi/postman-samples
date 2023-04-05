@@ -1,0 +1,39 @@
+{
+	"workShift": {
+			"workShiftID": "1",
+			"shiftDescription": "Horário padrão 1",
+			"shiftTypeCode": {
+				"name": "Work Day"
+			},
+			"shiftDateTimePeriod": {
+				"startDateTime": "2022-11-18T09:00:00-3",
+				"endDateTime": "2022-11-18T18:00:00-3"
+			},
+			"totalTime": {
+				"timeValue": "08:00"
+			},
+			"shiftSegments": [
+				{
+					"segmentTypeCode" : "Work",
+					"segmentDateTimePeriod": {
+						"startDateTime": "2022-11-18T09:00:00-3",
+						"endDateTime": "2022-11-18T13:00:00-3"
+					}
+				},
+				{
+					"segmentTypeCode" : "Break",
+					"segmentDateTimePeriod": {
+						"startDateTime": "2022-11-18T13:00:00-3",
+						"endDateTime": "2022-11-18T14:00:00-3"
+					}
+				},
+				{
+					"segmentTypeCode" : "Work",
+					"segmentDateTimePeriod": {
+						"startDateTime": "2022-11-18T14:00:00-3",
+						"endDateTime": "2022-11-18T18:00:00-3"
+					}
+				}
+			]
+	}
+}

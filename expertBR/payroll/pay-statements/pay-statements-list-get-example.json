@@ -1,0 +1,25 @@
+{
+	"payStatements": [
+		{
+			"employerName": "Estabelecimento 1",
+			"payDate": "2022-09-30",
+			"payPeriod": {
+				"startDate": "2022-09-01",
+				"endDate": "2022-09-30",
+				"payPeriodLabelName": "MENSAL 09/2022"
+			},
+			"netPayAmount": {
+				"amountValue": 5000.0,
+				"currencyCode": "BRL"
+			},
+			"grossPayAmount": {
+				"amountValue": 7500.0,
+				"currencyCode": "BRL"
+			},
+			"totalHours": 200.0,
+			"payDetailUri": {
+				"href": "/payroll/v1/workers/10565025-0000001/pay-statements/9999-2040-1-700"
+			}			
+		}
+	]
+}

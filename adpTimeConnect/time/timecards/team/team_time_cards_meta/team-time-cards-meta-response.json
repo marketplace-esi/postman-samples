@@ -1,0 +1,26 @@
+{
+    "meta": {
+        "queryCriteria": [
+            {
+                "itemID": "1",
+                "queryOptionTypeCode": "OData",
+                "queryValueCodeList": {
+                    "listItems": [
+                        {
+                            "codeValue": "current"
+                        }
+                    ]
+                },
+                "resourcePaths": [
+                    "periodCode/codeValue"
+                ],
+                "queryOptionCode": "$filter",
+                "logicalOperators": [
+                    {
+                        "logicalOperatorCode": "eq"
+                    }
+                ]
+            }
+        ]
+    }
+}
