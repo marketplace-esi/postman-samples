@@ -1,0 +1,144 @@
+{
+    "organizationJobs": [
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "0d3b4378-d674-44fd-99b5-05035a2a7cbf",
+            "jobCode": {
+                "codeValue": "0030"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Manager",
+                "shortName": "Manager"
+            },
+            "jobTitle": "UAT Manager"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "c8591c5a-8dfb-4931-883a-386081817f2c",
+            "jobCode": {
+                "codeValue": "0005"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Director",
+                "shortName": "Director"
+            },
+            "jobTitle": "HR Director"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "29b15c4e-389f-47cd-af22-65378ce32365",
+            "jobCode": {
+                "codeValue": "0025"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Manager",
+                "shortName": "Manager"
+            },
+            "jobTitle": "HR Manager"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "945198a4-9e56-4931-94a7-8523ed1d607b",
+            "jobCode": {
+                "codeValue": "0020"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Manager",
+                "shortName": "Manager"
+            },
+            "jobTitle": "District Manager"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "5682925e-9b28-4a06-9c82-98f4fe6fc415",
+            "jobCode": {
+                "codeValue": "0050"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Technical",
+                "shortName": "Technical"
+            },
+            "jobTitle": "Architect"
+        },
+        {
+            "effectiveDate": "2020-11-19",
+            "itemID": "c03bc753-5de7-46a4-a5dd-be399e3cea4f",
+            "jobCode": {
+                "codeValue": "Vacancy"
+            },
+            "jobTitle": "Vacancy"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "8d025838-83c4-413d-801d-d9a39b6a1933",
+            "jobCode": {
+                "codeValue": "0015"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Director",
+                "shortName": "Director"
+            },
+            "jobTitle": "Sales Director"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "f2d9259c-ed93-41e1-9da9-d9f39bffcef3",
+            "jobCode": {
+                "codeValue": "0000"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Director",
+                "shortName": "Director"
+            },
+            "jobTitle": "CEO"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "8ceec296-b7a4-41cc-a4e5-e0e58257bf5b",
+            "jobCode": {
+                "codeValue": "0035"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Manager",
+                "shortName": "Manager"
+            },
+            "jobTitle": "Development Manager"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "3fbecc64-cd61-41a5-bd48-e8389489a683",
+            "jobCode": {
+                "codeValue": "0040"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Technical",
+                "shortName": "Technical"
+            },
+            "jobTitle": "Tester"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "5fdb23d5-332b-4794-a6f6-f06be6ebed95",
+            "jobCode": {
+                "codeValue": "0045"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Other",
+                "shortName": "Other"
+            },
+            "jobTitle": "Scrum Master"
+        },
+        {
+            "effectiveDate": "2020-11-24",
+            "itemID": "1282518e-0d07-45e7-a9a6-fe8d09301d55",
+            "jobCode": {
+                "codeValue": "0010"
+            },
+            "jobFamilyCode": {
+                "codeValue": "Director",
+                "shortName": "Director"
+            },
+            "jobTitle": "R&D Director"
+        }
+    ]
+}
