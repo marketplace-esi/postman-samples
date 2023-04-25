@@ -1,0 +1,43 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.legalName.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0K3R9323645PX7"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2014-01-01T00:00:00Z",
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "shortName": "Mr."
+                                        }
+                                    }
+                                ],
+                                "givenName": "Sabrina",
+                                "middleName": "Sabrina",
+                                "familyName1": "Spellman Divyarani",
+                                "familyName2": "Divyarani",
+                                "nickName": "Sabrina"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
