@@ -1,0 +1,41 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0N4CB41104XIH"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "Roohi",
+                                "middleName": "Sabrina",
+                                "familyName1": "Testing",
+                                "formattedName": "Roohi Testing",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "Miss",
+                                            "shortName": "Miss."
+                                        }
+                                    }
+                                ],
+                                "nickName": "Sabrina",
+                                "familyName2": "Divyarani"
+                            }
+                        }
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.legalName.change"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}
