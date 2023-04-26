@@ -4,27 +4,27 @@
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "UK0N4CB41104XIH"
+                        "associateOID": "UK0K3R9323645PX7"
                     }
                 },
                 "output": {
                     "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "Roohi",
-                                "middleName": "Sabrina",
-                                "familyName1": "Testing",
-                                "formattedName": "Roohi Testing",
+                                "givenName": "Jack",
+                                "middleName": "Samuel",
+                                "familyName1": "Adams",
+                                "familyName2": "Allen",
+                                "nickName": "JK",
+                                "formattedName": "Jack Samuel Adams",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "Miss",
-                                            "shortName": "Miss."
+                                            "codeValue": "Mr",
+                                            "shortName": "Mr."
                                         }
                                     }
-                                ],
-                                "nickName": "Sabrina",
-                                "familyName2": "Divyarani"
+                                ]
                             }
                         }
                     }
