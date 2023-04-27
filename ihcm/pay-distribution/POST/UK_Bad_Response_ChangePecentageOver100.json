@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "a4b14918-66ae-448f-9b35-b615019487c5",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-03-30T12:43:46.5798282\u002B00:00",
+    "requestReceiptDateTime": "2023-03-30T12:43:46.5798283\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "a40d719b-d3c9-41bc-a1a0-e949c1b183b0",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "e7d0950c-6628-4711-9635-f49f5d261876",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Error in Bank Details.The total percentage of disbursements for this payslip exceeds the maximum 100%."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
