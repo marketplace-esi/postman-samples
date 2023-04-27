@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "8d842e0f-b4c5-4fce-9cff-0a947f9cde40",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-01-11T15:45:19.6779529\u002B00:00",
+    "requestReceiptDateTime": "2023-01-11T15:45:19.677953\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "5780a1f2-de0e-4620-9270-69a18a75143f",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "ff8c148b-bdf4-4b80-a737-e8a2b2efb248",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "Error"
+            },
+            "userMessage": {
+              "messageTxt": "Primary key is required or invalid"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

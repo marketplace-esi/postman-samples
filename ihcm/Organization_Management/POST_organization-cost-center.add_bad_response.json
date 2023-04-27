@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "a8b08a2c-e7a7-4423-be7c-1a87b74c930d",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-01-08T18:32:47.9388663\u002B00:00",
+    "requestReceiptDateTime": "2023-01-08T18:32:47.9388664\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "ad40b4c7-fca7-4b64-a957-3a2bfe08e48a",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "1b06102f-d021-47ed-bb52-949a44b87f6a",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "Error"
+            },
+            "userMessage": {
+              "messageTxt": "The Code you specified for this record is already assigned to another record. You must save the new record with a different Code."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

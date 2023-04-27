@@ -4,22 +4,22 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "AO0N2A92945468B",
+                        "associateOID": "AO0N29H38050MV7",
                         "workerID": {
                             "idValue": "99995008"
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "HIRE STA",
+                                "givenName": "CITREQUIREDDATA",
                                 "middleName": "",
-                                "familyName1": "MINIMAL REQUIRED DATA",
-                                "formattedName": "HIRE STA MINIMAL REQUIRED DATA",
+                                "familyName1": "COMPLETEDHIRE",
+                                "formattedName": "CITREQUIREDDATA COMPLETEDHIRE",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
-                                            "codeValue": "MME",
-                                            "shortName": "MME",
-                                            "longName": "Madame"
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
                                         },
                                         "sequenceNumber": 1
                                     }
@@ -27,43 +27,37 @@
                             },
                             "deceasedIndicator": false,
                             "genderCode": {
-                                "codeValue": "F",
-                                "shortName": "Femme",
-                                "longName": "Femme"
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
                             },
                             "maritalStatusCode": {
                                 "codeValue": ""
                             }
                         },
                         "workerDates": {
-                            "originalHireDate": "2022-08-09"
+                            "originalHireDate": "2019-08-01"
                         },
                         "workerStatus": {
                             "statusCode": {
-                                "codeValue": "PENDING",
-                                "shortName": "PENDING"
+                                "codeValue": "ACTIVE",
+                                "shortName": "ACTIVE"
                             },
-                            "effectiveDate": "2022-08-09"
+                            "effectiveDate": "2019-08-01"
                         },
                         "workAssignment": {
-                            "hireDate": "2022-08-09",
-                            "seniorityDate": "2022-08-09",
-                            "expectedStartDate": "2022-08-09",
-                            "actualStartDate": "2022-08-09",
-                            "expectedTerminationDate": "2022-12-31",
-                            "workerTypeCode": {
-                                "codeValue": "20",
-                                "shortName": "Stagiaire contr.stag",
-                                "longName": "Stagiaire contr.stag"
-                            },
-                            "legalEntityID": "01",
-                            "jobCode": {
-                                "codeValue": "EMPL2",
-                                "shortName": "Emploi (en cours)",
-                                "longName": "Emploi (en cours)"
-                            },
-                            "jobTitle": "ASSISTANT BACK OFFICE",
+                            "hireDate": "2019-08-01",
+                            "seniorityDate": "2019-08-01",
+                            "expectedStartDate": "2019-08-01",
+                            "actualStartDate": "2019-08-01",
+                            "workerTypeCode": {},
+                            "legalEntityID": "02",
                             "jobFunctionCode": {},
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "shortName": "HORAIRE = 35H",
+                                "longName": "HORAIRE = 35H"
+                            },
                             "assignedOrganizationalUnits": [
                                 {
                                     "nameCode": {},
@@ -71,9 +65,9 @@
                                 },
                                 {
                                     "nameCode": {
-                                        "codeValue": "0101001",
-                                        "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
-                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFEAFE"
+                                        "codeValue": "0202003",
+                                        "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                                        "longName": "ORION CONSEIL/ORION CONSEIL LEVALLOIS TEST"
                                     },
                                     "itemID": "strucAffectationId"
                                 }
@@ -81,20 +75,20 @@
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
-                                        "codeValue": "01001",
-                                        "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
-                                        "longName": "ORION SIEGE LEVALLOIS AFEAFE"
+                                        "codeValue": "02003",
+                                        "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                                        "longName": "ORION CONSEIL LEVALLOIS TEST"
                                     },
                                     "address": {
-                                        "lineOne": "",
-                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
-                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE",
+                                        "cityName": "LEVALLOIS PERRET",
                                         "countryCode": "FR",
-                                        "postalCode": "69370",
+                                        "postalCode": "92688",
                                         "countrySubdivisionLevel2": {
-                                            "codeValue": "SAINT DIDIER MONT D OR",
-                                            "shortName": "SAINT DIDIER MONT D OR",
-                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "codeValue": "LOCALITE",
+                                            "shortName": "LOCALITE",
+                                            "longName": "LOCALITE",
                                             "subdivisionType": "INSEE"
                                         }
                                     }
@@ -110,16 +104,16 @@
                                         "codeValue": "MSATH",
                                         "shortName": "Salaire annuel théorique"
                                     },
-                                    "amountValue": 0,
+                                    "amountValue": 0.0,
                                     "currencyCode": "EUR"
                                 }
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-7120mp2",
+                                    "associateOID": "eafe2-7121mp3",
                                     "reportsToWorkerName": {
-                                        "givenName": "LINDA",
-                                        "familyName1": "EVANGELIST"
+                                        "givenName": "EQUIPEB",
+                                        "familyName1": "AFE2"
                                     }
                                 }
                             ],
@@ -127,23 +121,28 @@
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
-                                        "codeValue": "STA",
-                                        "longName": "Stagiaire",
+                                        "codeValue": "CIT",
+                                        "longName": "Collaborateur international",
                                         "itemID": "collaborationType"
                                     },
                                     {
-                                        "codeValue": "S7",
-                                        "longName": "Stagiaire soumis impos.",
-                                        "itemID": "contractType"
+                                        "codeValue": "02",
+                                        "longName": "ORION CONSEIL",
+                                        "itemID": "activity"
                                     },
                                     {
-                                        "codeValue": "01",
-                                        "longName": "ORION",
-                                        "itemID": "activity"
+                                        "codeValue": "F",
+                                        "longName": "Appointement forfaitaire",
+                                        "itemID": "remunerationType"
+                                    },
+                                    {
+                                        "codeValue": "Z",
+                                        "longName": "Pas de GTA",
+                                        "itemID": "TLM"
                                     }
                                 ]
                             },
-                            "itemID": "99995008|2022-08-09"
+                            "itemID": "99995008|2019-08-01"
                         }
                     }
                 }
@@ -151,7 +150,7 @@
         }
     ],
     "confirmMessage": {
-        "createDateTime": "2023-02-10T10:30:52.154792705+01:00",
+        "createDateTime": "2023-02-09T18:38:06.91316345+01:00",
         "protocolStatusCode": {
             "codeValue": "200"
         },

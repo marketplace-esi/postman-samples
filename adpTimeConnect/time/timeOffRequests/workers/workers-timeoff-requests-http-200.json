@@ -1,0 +1,219 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "OIUHljIYGilhkYRDY",
+            "requestDateTime": "2022-08-16T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-10"
+            },
+            "requestorName": {
+                "givenName": "Quentin",
+                "familyName1": "Amiens",
+                "formattedName": "Quentin Amiens"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-08-16T00:00:00+02:00",
+                        "startDateTime": "2022-08-16T00:00:00+02:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": ""
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "A",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "associateOID": "OUEHF8756KUEOI0"
+        },
+        {
+            "timeOffRequestID": "lijYFyxDSWrswLfLUF",
+            "requestDateTime": "2022-02-02T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-10"
+            },
+            "requestorName": {
+                "givenName": "Juliette",
+                "familyName1": "Bayonne",
+                "formattedName": "Juliette Bayonne"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-02-02T00:00:00+01:00",
+                        "startDateTime": "2022-02-02T00:00:00+01:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": ""
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    }
+                }
+            ],
+            "associateOID": "TTDRFET6628UUDY"
+        },
+        {
+            "timeOffRequestID": "yhuvFXlyflUTFliyfkuTD",
+            "requestDateTime": "2022-02-17T00:00:00+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-10"
+            },
+            "requestorName": {
+                "givenName": "Juliette",
+                "familyName1": "Bayonne",
+                "formattedName": "Juliette Bayonne"
+            },
+            "timeOffEntries": [
+                {
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-02-15T00:00:00+01:00",
+                        "startDateTime": "2022-02-15T00:00:00+01:00"
+                    }
+                }
+            ],
+            "associateOID": "TTDRFET6628UUDY"
+        },
+        {
+            "timeOffRequestID": "DyfxUDXktdxLUTDkdkutD",
+            "requestDateTime": "2022-04-19T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-10"
+            },
+            "requestorName": {
+                "givenName": "Jacques",
+                "familyName1": "Bordeaux",
+                "formattedName": "Jacques Bordeaux"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-03-09T12:00:00+01:00",
+                        "startDateTime": "2022-03-09T10:00:00+01:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": ""
+                    }
+                }
+            ],
+            "associateOID": "UHZEFOU7665FFA1",
+            "visibilityScope": {
+                "scopeCodes": [
+                    {
+                        "codeValue": "DEFAULT_HIDDEN"
+                    }
+                ]
+            }
+        },
+        {
+            "timeOffRequestID": "jgcKGCKugcKCXliycKUTc",
+            "requestDateTime": "2023-03-10T09:39:33+01:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-10"
+            },
+            "requestorName": {
+                "givenName": "Jacques",
+                "familyName1": "Bordeaux",
+                "formattedName": "Jacques Bordeaux"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2023-01-11T00:00:00+01:00",
+                        "startDateTime": "2023-01-11T00:00:00+01:00"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 1.3666666666666667,
+                        "unitTimeCode": {
+                            "codeValue": "hour"
+                        }
+                    },
+                    "durationTypeCode": {
+                        "codeValue": "dailyQuantity"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": ""
+                    },
+                    "dailyTimeDuration": "01:22"
+                }
+            ],
+            "associateOID": "UHZEFOU7665FFA1"
+        },
+        {
+            "timeOffRequestID": "UGCkhgcLUJGckuyCic",
+            "requestDateTime": "2022-04-21T00:00:00+02:00",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "shortName": "Accepté",
+                "effectiveDate": "2023-03-10"
+            },
+            "requestorName": {
+                "givenName": "Jacques",
+                "familyName1": "Bordeaux",
+                "formattedName": "Jacques Bordeaux"
+            },
+            "timeOffEntries": [
+                {
+                    "payCode": {
+                        "codeValue": "",
+                        "shortName": "",
+                        "longName": ""
+                    },
+                    "dateTimePeriod": {
+                        "endDateTime": "2022-04-29T00:00:00+02:00",
+                        "startDateTime": "2022-04-29T00:00:00+02:00"
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": ""
+                    },
+                    "dayPeriodStartCode": {
+                        "codeValue": "M",
+                        "shortName": "Matin"
+                    },
+                    "dayPeriodEndCode": {
+                        "codeValue": "A",
+                        "shortName": "Après-midi"
+                    }
+                }
+            ],
+            "associateOID": "UHZEFOU7665FFA1"
+        }
+    ]
+}

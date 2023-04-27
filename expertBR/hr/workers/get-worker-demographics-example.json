@@ -1,0 +1,355 @@
+{
+	"workers": [
+		{
+			"associateOID": "15-0001235869",
+			"workerid": {
+				"idvalue": "001-0001234567"
+			},
+			"person": {
+				"legalName": {
+					"givenName": "JOÃO",
+                    "middleName": "SILVA",
+                    "familyName1": "SOUZA",
+                    "formattedName": "JOÃO SILVA SOUZA",
+					"nickName": "JO"
+				},
+				"legalAddress": {
+					"lineOne": "Av. Soledade 550 - 5º andar",
+                    "lineTwo": "Três Figueiras, Porto Alegre, RS",
+					"lineThree": "90000000",
+                    "cityName": "Porto Alegre",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RS",
+                        "shortName": "Rio Grande do Sul",
+                        "subdivisionType": "STATE"
+                    },
+                    "countryCode": "BR",
+                    "postalCode": "90000000",
+                    "buildingNumber": "500",
+					"blockName": "Três Figueiras",
+                    "streetName": "Soledade",
+					"streetTypeCode": {
+						"shortName": "Avenida"
+					},
+                    "unit": "5º andar"
+				},
+				"communication": {
+                    "landlines": [
+                        {
+                            "areaDialing": "51",
+							"dialNumber": "30000000",
+                            "formattedNumber": "51 30000000",
+							"itemID": "landlines1"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "areaDialing": "51",
+							"dialNumber": "90000000",
+                            "formattedNumber": "51 90000000",
+							"itemID": "mobile1"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "emailUri": "TEST@ADP.COM",
+							"itemID": "email1"
+                        }
+                    ],
+					"faxes": [
+                        {
+                            "areaDialing": "51",
+							"dialNumber": "33000000",
+                            "formattedNumber": "51 33000000",
+							"itemID": "fax1"
+                        }
+                    ]
+					
+				},
+				"genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Masculino"
+                },
+				"maritalStatusCode": {
+                    "codeValue": "CAS",
+					"shortName": "Casado"
+                },
+				"disabledIndicator": true,
+				"disabilityTypeCodes": [
+					{
+						"shortName": "AUDITIVA",
+						"longName": "descrição da deficiência"
+					},
+					{
+						"shortName": "MOTORA",
+						"longName": "descrição da deficiência"
+					}
+				],
+				"studentIndicator": false,
+				"preferredName": {
+					 "givenName": "JOÃO",
+					 "middleName": "SILVA",
+					 "familyName1":"SOUZA",
+					 "formattedName": "JOÃO SILVA SOUZA"
+				},
+				"birthPlace": {
+						"cityname": "Porto Alegre",
+						"countrySubdivisionLevel1":{
+							"codeValue": "RS",
+							"shortName": "Rio Grande do Sul",
+							"subdivisionType":  "STATE"
+						},
+						"countryCode": "BR",
+						"formattedBirthPlace": "Porto Alegre"
+				},
+				"raceCode":{
+					"codeValue": "2",
+					"shortName": "Preta"
+				},
+                "citizenshipCountryCodes": [
+					{
+						"codeValue": "BR",
+						"shortName": "Brasil"
+					}
+				]
+			},
+			 "workerDates": {
+				"originalHireDate": "2000-01-01",
+				"adjustedServiceDate": "2000-01-01",
+				"acquisitionDate": "2000-01-01",
+				"terminationDate": "3000-01-01"		
+			 },
+			 "workerStatus":{
+				"statusCode":{
+					"shortName": "on leave"
+				},
+				"effectiveDate": "2000-01-01"		
+			 },
+			 "businessCommunication":{
+				"emails":[
+					{
+						"emailUri": "1234@adp.com",
+						"itemID": "email"
+					}
+			   ]
+			  },
+			  "workAssignments":[
+				{
+					"workAgreementRef": {
+						"workAgreementType": {
+							"codeValue": "Y",
+							"shortName": "First Job"
+						},
+						"workAgreementOrganizationalUnits": [
+							{
+								"governmentRegistrations": [
+									{
+										"registrationID": "11111111111111"
+									}
+								]
+							}
+						]
+					},
+					"primaryIndicator": true,
+					"hireReasonCode": {
+						"codeValue": "1",
+						"shortName": "Temporary replacement of workforce"
+					},
+					"hiringObjectiveCode": {
+						"codeValue": "3",
+						"shortName": "Hiring for more than 3 months"
+					},
+					"actualStartDate": "2000-01-01",			
+					"workerProbationPeriod":{
+						"startDate": "2000-01-01",
+						"endDate": "3000-01-01"
+					},
+					"workerTypeCode":{
+						"codeValue": "ESTAG",
+						"shortName": "Estagiário"
+					},
+					"assignmentTermCode":{
+						"codeValue": "1",
+						"shortName": "Indeterminate"
+					},
+					"workerLevelCode":{
+						"codeValue": "F",
+						"shortName": "Full-time"
+					},
+					"nationalityContextCode":{
+						"shortName": "Domestic"
+					},
+					"executiveIndicator": false,
+					"legalEntityID": "Empresa 1",
+					"highlyCompensatedIndicator": false,
+					"workerGroups": [
+						{
+							"nameCode": {
+								"shortName": "Sefip event"
+							},
+							"groupCode": {
+								"codeValue": "00",
+								"shortName": "Never exposed to harmful agents"
+							}
+						},
+						{
+							"nameCode": {
+								"shortName": "Hire Type"
+							},
+							"groupCode": {
+								"codeValue": "1",
+								"shortName": "Hire"
+							}
+						},
+						{
+							"nameCode": {
+								"shortName": "Hire Indicator"
+							},
+							"groupCode": {
+								"codeValue": "1",
+								"shortName": "Normal"
+							}
+						},
+						{
+							"nameCode": {
+								"shortName": "Type of Activity"
+							},
+							"groupCode": {
+								"codeValue": "1",
+								"shortName": "Urban Worker"
+							}
+						},
+						{
+							"nameCode": {
+								"shortName": "TLM Type"
+							},
+							"groupCode": {
+								"codeValue": "1",
+								"shortName": "Worker without TLM control"
+							}
+						}
+				   ],
+				   "jobCode": {
+					   "codeValue": "1-1",
+					   "shortName": "Desenvolvedor Pleno",
+					   "effectiveDate": "2020-05-05"
+					},
+					"jobTitle": "Desenvolvedor Pleno",
+					"jobFamilyCode": {
+						"codeValue": "1",
+						"shortName": "Desenvolvedor"
+					},
+					"laborUnion":{
+						"laborUnionCode":{
+							"codeValue": "1",
+							"shortName": "Processamento de Dados"
+						}
+					},
+					"bargaingUnit": {
+						"bargaingUnitCode": {
+							"codeValue": "1",
+							"shorName": "Sindicato de Processamento de Dados RS"
+					  }
+					 },
+					 "workShiftCode":{
+						"codeValue": "1-1",
+						"shortName": "Turma 9h as 18h segunda a sexta"
+					 },
+					 "standardHours":{
+						"hoursQuantity": "100.00",
+						"unitCode":{
+							"shortName": "Month"
+						}
+					},
+					 "homeOrganizationalUnits":[
+						{
+							"nameCode":{
+							  "codeValue": "B_001_01_1235687",
+							  "shortName": "Centro de Resultado 1"
+							}
+						}
+					 ],
+					 "assignedOrganizationalUnits":[
+						{
+							"nameCode":{
+							  "codeValue": "B_001_01_1235687",
+							  "shortName": "Centro de Resultado 1"
+							}
+						}
+					 ],
+					 "homeWorkLocation":{
+						"nameCode":{
+						  "codeValue": "001",
+						  "shortName": "Estabelecimento 1"
+						},
+						"address":{
+							"lineOne":  "Av. Soledade 5º andar",
+							"lineTwo": "Três Figueiras, Porto Alegre, RS",
+							"lineThree": "90000000",
+							"cityName": "Porto Alegre",
+							"countrySubdivisionLevel":{
+								"codeValue": "RS",
+								"shortName": "Rio Grande do Sul",
+								"subdivisionType": "state",
+								"countryCode": "BR",
+								"postalCode": "90000000"
+							}
+						}
+					  },
+					  "assignedWorkLocations":[
+						{
+							"nameCode":{
+								"codeValue": "001",
+								"shortName": "Estabelecimento 1"
+							},
+							"address":{
+								"lineOne": "Av. Soledade 5º andar",
+								"lineTwo": "Três Figueiras, Porto Alegre, RS",
+								"lineThree": "90000000",
+								"cityName": "Porto Alegre",
+								"countrySubdivisionLevel":{
+									"codeValue": "RS",
+									"shortName": "Rio Grande do Sul",
+									"subdivisionType": "state"								
+								},		
+								"countryCode": "BR",
+								"postalCode": "90000000"						
+							}
+						}
+					  ],
+					   "standardPayPeriodHours":{
+						 "hoursQuantity": "200",
+						 "unitCode":{
+							"shortName": "Month"
+						 }
+					   },
+					   "reportsTo":[
+						{
+							"associateOID": "1-57894",
+							"workerID":{
+								"idvalue": "001-888888"
+							},
+							"reportsToWorkerName":{
+								"givenName": "JOÃO",
+								"middleName": "SILVA",
+								"familyName1": "SOUZA",
+								"formattedName": "JOÃO SILVA SOUZA"
+							},
+							"reportsToRelationshipCode":{	
+								"itemID": "Manager"
+							}
+						}
+					  ],
+					   "payScaleCode":{
+						"codeValue": "1",
+						"shortName": "Tabela 1"
+					  },
+					   "payGradeCode":{
+						"codeValue": "2-3",
+						"shortName": "Faixa 2 Nível 3"
+					  }
+				}
+			]
+		}
+	]
+}

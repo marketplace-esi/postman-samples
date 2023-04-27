@@ -1,0 +1,53 @@
+{
+  "organizationCostCenters": [
+    {
+      "itemID": "a630c36a-71c1-4fb2-affa-24b242e217f4",
+      "costCenterCode": {
+        "codeValue": "A3",
+        "shortName": "Kitchen"
+      }
+    },
+    {
+      "itemID": "ca867dac-563a-4594-b36c-7ae229b3197a",
+      "costCenterCode": {
+        "codeValue": "C1",
+        "shortName": "Management"
+      }
+    },
+    {
+      "itemID": "b6054667-6615-4d41-bd3f-90099604479b",
+      "costCenterCode": {
+        "codeValue": "UKCC1000",
+        "shortName": "UKcostCenter"
+      }
+    },
+    {
+      "itemID": "2deffd22-975a-42dd-9b50-bbff2a369276",
+      "costCenterCode": {
+        "codeValue": "A5",
+        "shortName": "Door Staff"
+      }
+    },
+    {
+      "itemID": "e6fc3d31-504a-4888-895f-ea7156714596",
+      "costCenterCode": {
+        "codeValue": "A4",
+        "shortName": "Waiter Service"
+      }
+    },
+    {
+      "itemID": "e0e86710-989f-46c3-a6eb-eaa147d6cb3f",
+      "costCenterCode": {
+        "codeValue": "A1",
+        "shortName": "Front of House"
+      }
+    },
+    {
+      "itemID": "191513ca-74f2-4670-b37c-f7ca5157d247",
+      "costCenterCode": {
+        "codeValue": "A2",
+        "shortName": "Bar"
+      }
+    }
+  ]
+}

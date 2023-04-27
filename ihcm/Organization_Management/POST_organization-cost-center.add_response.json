@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {},
+        "output": {
+          "organizationCostCenter": {
+            "itemID": "d5bc7b45-ff27-46e0-911d-d330ac7dd152",
+            "costCenterCode": {
+              "codeValue": "Operations",
+              "shortName": "11659"
+            },
+            "activeIndicator": true
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "organization-cost-center.add"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "core"
+      }
+    }
+  ]
+}

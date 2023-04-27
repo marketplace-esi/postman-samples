@@ -1,0 +1,93 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "eventStatusCode":{
+                        "codeValue": "Completed"
+                    },
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "PREREQUIREDDATA",
+                                "familyName1": "COMPLETEDHIRE",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "M"
+                            }
+                        },
+                        "workAssignment": {
+                            "hireDate": "2019-08-01",
+                            "workArrangementCode": {
+                                "codeValue": "900"
+                            },
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "codeValue": "111111"
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "02003",
+                                        "shortName": "ORION CONSEIL LEVALLOIS",
+                                        "longName": "ORION CONSEIL LEVALLOIS"
+                                    },
+                                    "address": {
+                                        "nameCode": {
+                                            "codeValue": "66382041300198",
+                                            "shortName": "SIRET"
+                                        },
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE",
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "countryCode": "FR",
+                                        "postalCode": "92688",
+                                        "unit": "453B",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "LOCALITE",
+                                            "shortName": "LOCALITE",
+                                            "longName": "LOCALITE",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "itemID": "collaborationType",
+                                        "codeValue": "PRE"
+                                    },
+                                    {
+                                        "itemID": "activity",
+                                        "codeValue": "01"
+                                    },
+                                    {
+                                        "itemID": "subcontractorStatus",
+                                        "codeValue": "P"
+                                    },
+                                    {
+                                        "itemID": "TLM",
+                                        "codeValue": "Z"
+                                    }
+                                ]
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    ]
+}

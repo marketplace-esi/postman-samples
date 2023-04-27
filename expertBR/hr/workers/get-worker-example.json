@@ -96,7 +96,14 @@
 						"nameCode": {
 							"shortName": "Matrícula eSocial"
 						}
+					},
+					{
+						"idvalue": "1234567890123",
+						"nameCode": {
+							"shortName": "CNS"
+						}
 					}
+					
 				],
 				"legalName": {
 					"givenName": "JOÃO",
@@ -263,29 +270,48 @@
 						]
 					},
 					"primaryIndicator": true,
+					"hireReasonCode": {
+						"codeValue": "1",
+						"shortName": "Temporary replacement of workforce"
+					},
+					"hiringJustificationNote": {
+						"shortName": "Necessidade de substituição de",
+						"longName": "Necessidade de substituição de licença maternidade"
+					},
+					"hiringObjectiveCode": {
+						"codeValue": "3",
+						"shortName": "Hiring for more than 3 months"
+					},
+					"replacedWorkerGovernmentID": {
+						"idValue": "12345678912",
+						"nameCode": {
+							"shortName": "CPF"
+						}
+					},
 					"actualStartDate": "2000-01-01",			
-				   "workerProbationPeriod":{
+					"workerProbationPeriod":{
 						"startDate": "2000-01-01",
 						"endDate": "3000-01-01"
-				   },
-				   "workerTypeCode":{
+					},
+					"workerTypeCode":{
 						"codeValue": "ESTAG",
 						"shortName": "Estagiário"
-				   },
-				   "assignmentTermCode":{
+					},
+					"assignmentTermCode":{
 						"codeValue": "1",
 						"shortName": "Indeterminate"
-				   },
-				   "workerLevelCode":{
+					},
+					"workerLevelCode":{
 						"codeValue": "F",
 						"shortName": "Full-time"
-				   },
-				   "nationalityContextCode":{
+					},
+					"nationalityContextCode":{
 						"shortName": "Domestic"
-				   },
-				   "executiveIndicator": false,
-				   "highlyCompensatedIndicator": false,
-				   "workerGroups": [
+					},
+					"executiveIndicator": false,
+					"legalEntityID": "Empresa 1",
+					"highlyCompensatedIndicator": false,
+					"workerGroups": [
 						{
 							"nameCode": {
 								"shortName": "Sefip event"

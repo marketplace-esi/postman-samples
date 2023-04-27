@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "2c69c4aa-9371-46cf-9b4c-b0780a6db91e",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-01-11T16:02:02.9501296\u002B00:00",
+    "requestReceiptDateTime": "2023-01-11T16:02:02.9501296\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "a3c3fca1-84a2-4874-a4bd-95563389f786",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "c1f76bfa-7ec0-4199-8fbc-c47d7764533b",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "Error"
+            },
+            "userMessage": {
+              "messageTxt": "This record cannot be deleted, as this record no longer exists."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
