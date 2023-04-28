@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "payroll"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0M7LE2917DJ62"
+                    },
+                    "payDistribution": {
+                        "itemID": "42229b04-2a3a-41ed-939c-fd38dce831d7"
+                    }
+                },
+                "transform": {
+                    "payDistribution": {
+                        "distributionPurposeCode": {
+                            "codeValue": ""
+                        },
+                        "distributionInstructions": [
+                            {
+                                "precedenceCode": {
+                                    "codeValue": 2
+                                },
+                                "paymentMethodCode": {
+                                    "codeValue": "D",
+                                    "shortName": "BACS"
+                                },
+                                "depositAccount": {
+                                    "financialParty": {
+                                        "branchNameCode": {
+                                            "codeValue": "100000"
+                                        }
+                                    },
+                                    "financialAccount": {
+                                        "accountNumber": "31510604",
+                                        "accountName": "Miss Jane Dohaha",
+                                        "rollNumber": "6667"
+                                    }
+                                },
+                                "distributionAmount": {
+                                    "amountValue": ""
+                                },
+                                "distributionPercentage": 50,
+                                "remainingBalanceIndicator": false,
+                                "instructionEffectivePeriod": {
+                                    "startDateTime": "2023-02-02T00:00:00.00Z",
+                                    "endDateTime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "worker": {
+                        "associateOID": "UK0M7LE2917DJ62"
+                    }
+                }
+            }
+        }
+    ]
+}
