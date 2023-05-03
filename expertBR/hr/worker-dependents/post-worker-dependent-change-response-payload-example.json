@@ -1,0 +1,104 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "hr"
+			},
+			"eventNameCode": {
+				"shortName": "dependent.change"
+			},
+			"eventTitle": "Dependent Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker" : {
+						"associateOID": "15-0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						}
+					},
+					"dependent" : {
+						"itemID" : "ABC1"
+					}
+				},
+				"output": {
+					"dependent": {
+						"associateOID": "1010_555",
+						"relationshipTypeCode": {
+							"codeValue": "1"
+						},
+						"person": {
+							"governmentIDs": [
+								{
+									"idValue": "111111111111111",
+									"nameCode": {
+										"codeValue": "Cartório A"
+										"shortName": "Reg. Nascimento"
+									},
+									"statusCode": {
+										"effectiveDate": "2020-01-01"
+									},
+									"itemID": "1234/1234"
+									
+								},
+								{
+									"idValue": "00000000000",
+									"nameCode": {
+										"shortName": "CPF"
+									}
+								}
+							],
+							"legalName": {
+								"formattedName": "dependente do colaborador 1"
+							},
+							"birthDate": "2014-01-01",
+							"dependentID": "1",
+							"genderCode": {
+								"codeValue": "M"
+							},
+							"maritalStatusCode": {
+								"codeValue": "SOL"
+							},
+							"disabilityTypeCodes": [
+								{
+									"codeValue": "MENTAL"
+								}
+							],
+							"studentStatusCode": {
+								"shortName": "1",
+								"effectiveDate": "2014-01-01"
+							},
+							"taxDependentIndicator": true
+						},
+						"customFieldGroup": {
+							"indicatorFields": [
+								{
+									"indicatorValue": true,
+									"nameCode": {
+										"shortName": "Active"
+									}
+								}
+							],
+							"stringFields": [
+								{
+									"stringValue": "Mãe do dependente 1",
+									"nameCode": {
+										"shortName": "Mother's name"
+									}
+								},
+								{
+									"stringValue": "Porto Alegre - RS",
+									"nameCode": {
+										"shortName": "Birthplace"
+									}
+								}
+							]
+						},
+					}
+				}
+			}
+		}
+	]
+}
