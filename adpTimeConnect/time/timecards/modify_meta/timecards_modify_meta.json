@@ -1,0 +1,172 @@
+{
+    "meta": {
+        "/data/eventContext": {
+            "/associateOID": {
+                "optional": false,
+                "default": "IUHG8794UYF5"
+            }
+        },
+        "/data/transforms": [
+            {
+                "/timeEntries/entryCode": {
+                    "codeList": {
+                        "listItems": [
+                            {
+                                "defaultIndicator": true,
+                                "foreignKey": "dayPeriodEntry",
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            {
+                                "foreignKey": "hoursEntry",
+                                "shortName": "Heures travaillées",
+                                "codeValue": "HRETRA"
+                            }
+                        ]
+                    },
+                    "optional": false
+                },
+                "/timeEntries/entryTypeCode": {
+                    "dependencyLinks": [
+                        {
+                            "href": "#/meta/data/transforms/timeEntries/entryCode/codeList/listItems?$select=foreignKey$filter=codeValue%20eq%20%7B/timeEntries/entryCode/codeValue%7D",
+                            "rel": "/adp/codelist"
+                        }
+                    ]
+                },
+                "/timeEntries/dayPeriodCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "oneOf": [
+                                {
+                                    "value": {
+                                        "listItems": [
+                                            {
+                                                "shortName": "Journée",
+                                                "codeValue": "J"
+                                            },
+                                            {
+                                                "shortName": "Matin",
+                                                "codeValue": "M"
+                                            },
+                                            {
+                                                "shortName": "Après-midi",
+                                                "codeValue": "A"
+                                            },
+                                            {
+                                                "shortName": "Non présent",
+                                                "codeValue": "N"
+                                            }
+                                        ]
+                                    },
+                                    "attributes": {
+                                        "/timeEntries/entryCode/codeValue": {
+                                            "pattern": "(^W_PRES)$"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "optional": false
+                },
+                "/timeEntries/timeDuration": {
+                    "optional": false,
+                    "pattern": "^(?:(?:0?[0-9]|1[0-9]|2[0-3]):[0-5][0-9])$"
+                },
+                "/timeEntries/entryCode/codeValue": {
+                    "optional": false
+                },
+                "/timeEntries/laborAllocations/allocationCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "anyOf": [
+                                {
+                                    "value": {
+                                        "links": [
+                                            {
+                                                "method": "GET",
+                                                "href": "/codelists/time/v3/time-entry-management/labor-allocations?$filter=itemID%20eq%20'Lieu'",
+                                                "rel": "/adp/codelist"
+                                            }
+                                        ]
+                                    },
+                                    "attributes": {
+                                        "/timeEntries/laborAllocations/allocationTypeCode/codeValue": {
+                                            "pattern": "^Lieu$"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "optional": {
+                            "oneOf": [
+                                {
+                                    "value": false,
+                                    "attributes": {
+                                        "/timeEntries/laborAllocations/allocationTypeCode/codeValue": {
+                                            "pattern": "(^Lieu)$"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "optional": true,
+                    "dataType": "object"
+                },
+                "/timeEntries/laborAllocations": {
+                    "dependencies": {
+                        "hidden": {
+                            "oneOf": [
+                                {
+                                    "value": false,
+                                    "attributes": {
+                                        "/timeEntries/entryCode/codeValue": {
+                                            "pattern": "(^HRETRA)$"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "minItems": 0,
+                    "maxItems": 1,
+                    "hidden": true,
+                    "dataType": "array"
+                },
+                "/timeEntries/laborAllocations/allocationCode/codeValue": {
+                    "optional": false,
+                    "dataType": "string"
+                },
+                "/timeEntries/laborAllocations/allocationTypeCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "anyOf": [
+                                {
+                                    "value": {
+                                        "listItems": [
+                                            {
+                                                "shortName": "__LIEU__",
+                                                "codeValue": "Lieu"
+                                            }
+                                        ]
+                                    },
+                                    "attributes": {
+                                        "/timeEntries/entryCode/codeValue": {
+                                            "pattern": "(^HRETRA)$"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "optional": false,
+                    "dataType": "object"
+                }
+            }
+        ],
+        "/eventNameCode/codeValue": "timeEntries.modify",
+        "/serviceCategoryCode/codeValue": "time"
+    }
+}

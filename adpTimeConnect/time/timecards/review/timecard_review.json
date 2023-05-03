@@ -1,0 +1,18 @@
+{
+	"events": [{
+		"data": {
+			"transform": {
+				"timeCard": {
+					"reviewStatusCode": {
+						"codeValue": "Approve"
+					},
+					"timeCardApprovalTillDate": "2023-01-15"
+				}
+			},
+			"eventContext": {
+				"timeCardID": "MjAyMy8wMS8wretOS0yMrtjheDIzLzAxLzE1",
+				"associateOID": "AO0N1OIJHGZER8511FA"
+			}
+		}
+	}]
+}

@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "payDistribution": {
+            "itemID": "42229b04-2a3a-41ed-939c-fd38dce831d7"
+          },
+          "worker": {
+            "associateOID": "UK0M7LE2917DJ62"
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "UK0M7LE2917DJ62"
+          },
+          "payDistribution": {
+            "itemID": "42229b04-2a3a-41ed-939c-fd38dce831d7",
+            "distributionInstructions": [
+              {
+                "precedenceCode": {
+                  "codeValue": "2"
+                },
+                "paymentMethodCode": {
+                  "shortName": "BACS"
+                },
+                "depositAccount": {
+                  "financialParty": {
+                    "nameCode": {
+                      "shortName": "BANK OF ENGLAND"
+                    },
+                    "branchNameCode": {
+                      "codeValue": "100000",
+                      "shortName": "Banking Operations"
+                    }
+                  },
+                  "financialAccount": {
+                    "accountNumber": "31510604",
+                    "accountName": "Miss Jane Dohaha",
+                    "rollNumber": "6667"
+                  }
+                },
+                "distributionPercentage": 50.0,
+                "remainingBalanceIndicator": false,
+                "instructionEffectivePeriod": {
+                  "startDateTime": "2023-02-02T00:00:00Z"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.payDistribution.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "payroll"
+      }
+    }
+  ]
+}

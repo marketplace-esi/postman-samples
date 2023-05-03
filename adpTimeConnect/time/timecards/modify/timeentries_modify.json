@@ -1,0 +1,85 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "IJHBVZ63154"
+                },
+                "transform": {
+                    "timeEntries": [
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMi8wMy8wMQlXX1BSRV999999999",
+                            "entryDate": "2023-02-03",
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "J"
+                            },
+                            "_changeCode": "add"
+                        },
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMi8wMy8wMglXX1BSRVM99999999",
+                            "entryDate": "2022-03-02",
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "J"
+                            },
+                            "_changeCode": "change"
+                        }
+                    ]
+                },
+                "output": {
+                    "timeEntries": [
+                        {
+                            "entryCode": {
+                                "shortName": "Présence intranet",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMi8wMy8wMQlXX1BSRV9999999",
+                            "entryDate": "2023-02-03",
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "J"
+                            },
+                            "_changeCode": "add"
+                        }
+                    ]
+                }
+            },
+            "serviceCategoryCode": {
+                "codeValue": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "timeEntries.modify"
+            }
+        }
+    ],
+    "confirmMessage": {
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "La date du 02/03/2022 est en dehors de vos limites en visualisation (01/02/2023 au 31/07/2023)"
+                }
+            }
+        ]
+    }
+}

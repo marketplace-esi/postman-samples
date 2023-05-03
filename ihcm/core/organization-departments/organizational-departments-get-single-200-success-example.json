@@ -1,0 +1,30 @@
+{
+    "organizationDepartments": [
+        {
+            "itemID": "0e859081-0690-4cf4-b5c6-07861ff30a1b",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT2-706876",
+                "shortName": "Dev Team"
+            },
+            "departmentDescription": "Dev Team",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-14",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        }
+    ]
+}

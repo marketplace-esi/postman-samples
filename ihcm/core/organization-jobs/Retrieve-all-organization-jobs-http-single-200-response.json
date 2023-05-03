@@ -1,0 +1,19 @@
+{
+    "organizationJobs": [
+        {
+            "itemID": "b3c0035c-ecff-4ff2-80fe-3d075c6bffdd",
+            "jobCode": {
+                "codeValue": "DEC03"
+            },
+            "jobTitle": "Architect ADP",
+            "jobFamilyCode": {
+                "codeValue": "finance",
+                "shortName": "finance"
+            },
+            "standardHours": {
+                "hoursQuantity": 15000.0
+            },
+            "effectiveDate": "2022-12-20"
+        }
+    ]
+}
