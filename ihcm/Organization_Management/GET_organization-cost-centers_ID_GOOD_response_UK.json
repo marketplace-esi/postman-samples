@@ -1,0 +1,12 @@
+{
+  "organizationCostCenters": [
+    {
+      "itemID": "9abafeff-ab85-4b83-8697-2acc5d1666ad",
+      "costCenterCode": {
+        "codeValue": "101",
+        "shortName": "Sales"
+      },
+      "activeIndicator": true
+    }
+  ]
+}
