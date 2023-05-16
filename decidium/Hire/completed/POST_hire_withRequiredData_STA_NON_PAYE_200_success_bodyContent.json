@@ -1,0 +1,150 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "eventStatusCode":{
+                        "codeValue": "Completed"
+                    },
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "STANONPAYE",
+                                "familyName1": "COMPLETEDHIRE",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                            "birthPlace": {
+                                "countryCode": "FR",
+                                "cityName": "PARIS",
+                                "postalCode": "75000"
+                            },
+                            "birthDate": "1979-09-19",
+                            "genderCode": {
+                                "codeValue": "M"
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "FR"
+                                }
+                            ],
+                            "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "THOUARE SUR LOIRE"
+                                },
+                                "countryCode": "FR",
+                                "postalCode": "44470"
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "1790975200032"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "hireDate": "2019-08-01",
+                            "payrollProcessingStatusCode": {
+                                "codeValue": "I"
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "00"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00"
+                                    }
+                                }
+                            ],
+                            "jobCode": {
+                                "codeValue": "EMPL1"
+                            },
+                            "jobFunctionCode": {
+                                "codeValue": "10"
+                            },
+                            "workArrangementCode": {
+                                "codeValue": "900"
+                            },
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "codeValue": "111111"
+                                    }
+                                }
+                            ],
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA1"
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "02003",
+                                        "shortName": "ORION CONSEIL LEVALLOIS",
+                                        "longName": "ORION CONSEIL LEVALLOIS"
+                                    },
+                                    "address": {
+                                        "nameCode": {
+                                            "codeValue": "66382041300198",
+                                            "shortName": "SIRET"
+                                        },
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE",
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "countryCode": "FR",
+                                        "postalCode": "92688",
+                                        "unit": "453B",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "LOCALITE",
+                                            "shortName": "LOCALITE",
+                                            "longName": "LOCALITE",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "itemID": "collaborationType",
+                                        "codeValue": "STA"
+                                    },
+                                    {
+                                        "itemID": "contractType",
+                                        "codeValue": "00"
+                                    },
+                                    {
+                                        "itemID": "activity",
+                                        "codeValue": "01"
+                                    },
+                                    {
+                                        "itemID": "remunerationType",
+                                        "codeValue": "B"
+                                    },
+                                    {
+                                        "itemID": "workSchedule",
+                                        "codeValue": "101"
+                                    },
+                                    {
+                                        "itemID": "TLM",
+                                        "codeValue": "Z"
+                                    }
+                                ]
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    ]
+}
