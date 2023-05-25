@@ -1,195 +1,308 @@
 {
-    "workers": [
-        {
-            "associateOID": "nfiolot0-mp8",
-            "workerID": {
-                "idValue": "00000001"
-            },
-            "person": {
-                "legalName": {
-                    "givenName": "NOEL",
-                    "middleName": "",
-                    "familyName1": "FIOLOT",
-                    "formattedName": "NOEL FIOLOT",
-                    "preferredSalutations": [
-                        {
-                            "salutationCode": {
-                                "codeValue": "M",
-                                "shortName": "M",
-                                "longName": "Monsieur"
-                            },
-                            "sequenceNumber": 1
-                        }
-                    ],
-                    "titleAffixCodes": [
-                        {
-                            "affixCode": {
-                                "codeValue": "M",
-                                "shortName": "M",
-                                "longName": "Monsieur"
-                            },
-                            "sequenceNumber": 1
-                        }
-                    ]
-                },
-                "legalAddress": {
-                    "countrySubdivisionLevel1": {
-                        "codeValue": "NANTES",
-                        "subdivisionType": "NANTES"
-                    },
-                    "countryCode": "FR",
-                    "postalCode": "44000",
-                    "buildingNumber": "97",
-                    "streetName": "RUE SAINT PIERRE",
-					"lineone": "97 RUE SAINT PIERRE"
-                },
-                "communication": {
-                    "landlines": [
-                        {
-                            "formattedNumber": "123456",
-                            "itemID": "Personnel"
-                        }
-                    ],
-                    "mobiles": [
-                        {
-                            "formattedNumber": "12333",
-                            "itemID": "Personnel"
-                        }
-                    ],
-                    "emails": [
-                        {
-                            "nameCode": {
-                                "codeValue": "Personnel",
-                                "shortName": "Personnel",
-                                "longName": "Personnel"
-                            },
-                            "emailUri": "fiolot@test.com"
-                        }
-                    ],
-                    "faxes": [
-                        {
-                            "formattedNumber": "1234",
-                            "itemID": "Personnel"
-                        }
-                    ]
-                },
-                "deceasedIndicator": false,
-                "genderCode": {
-                    "codeValue": "M",
-                    "shortName": "Homme",
-                    "longName": "Homme"
-                },
-                "maritalStatusCode": {
-                    "codeValue": "C",
-                    "shortName": "CELIBATAIRE",
-                    "longName": "CELIBATAIRE"
-                },
-                "disabilityIdentificationDeclinedIndicator": true,
-                "birthPlace": {
-                    "cityName": "PARIS",
-                    "postalCode": "93",
-                    "countryCode": "FR"
-                },
-                "citizenshipCountryCodes": [
-                    {
-                        "codeValue": "FR",
-                        "shortName": "FRANCE",
-                        "longName": "FRANCE"
-                    }
-                ]
-            },
-            "workerDates": {
-                "originalHireDate": "2019-12-01"
-            },
-            "workerStatus": {
-                "statusCode": {
-                    "codeValue": "ACTIVE",
-                    "shortName": "ACTIVE"
-                },
-                "effectiveDate": "2021-12-03"
-            },
-            "photos": [
-                {
-                    "links": [
-                        {
-                            "href": "/hr/v2/workers/nfiolot0-mp8/worker-images/photo"
-                        }
-                    ],
-                    "itemID": "1"
-                }
-            ],
-            "businessCommunication": {
-                "emails": [
-                    {
-                        "nameCode": {
-                            "codeValue": "Travail",
-                            "shortName": "Travail",
-                            "longName": "Travail"
-                        },
-                        "emailUri": "lsprh.mail@adp.com",
-                        "itemID": "Travail"
-                    }
-                ]
-            },
-            "workAssignments": [
-                {
+	"workers": [
+		{
+			"associateOID": "nfiolot1-7130mp4",
+			"workerStatus": {
+				"effectiveDate": "2019-12-01",
+				"statusCode": {
+					"codeValue": "ACTIVE",
+					"shortName": "ACTIVE"
+				}
+			},
+			"workerID": {
+				"idValue": "00000001"
+			},
+			"workAssignments": [
+				{
 					"itemID": "A0000808|2019-12-01",
-                    "hireDate": "2019-12-01",
-                    "actualStartDate": "2019-12-01",
-                    "jobTitle": "CHEF PROJET",
-                    "assignedOrganizationalUnits": [
-                        {
-                            "nameCode": {
-                                "codeValue": "222221",
-                                "shortName": "TRESORERIE ACHATS",
-                                "longName": "TRESORERIE ACHATS"
-                            },
-                            "itemID": "departmentId"
-                        },
-                        {
-                            "nameCode": {
-                                "codeValue": "0202004222221",
-                                "shortName": "TRESORERIE ACHATS",
-                                "longName": "ORION CONSEIL/ORION CONSEIL STRASBOURG/ADMIN-FINANCIERE/FINANCIERE/TRESORERIE ACHATS"
-                            },
-                            "itemID": "strucAffectationId"
-                        }
-                    ],
-                    "assignedWorkLocations": [
-                        {
-                            "nameCode": {
-                                "codeValue": "02004",
-                                "shortName": "ORION CONSEIL STRASBOURG",
-                                "longName": "ORION CONSEIL STRASBOURG"
-                            },
-                            "address": {
-                                "lineOne": "BP 23",
-                                "lineTwo": "15 Rue Jacobe Mayer",
-                                "cityName": "STRASBOURG",
-                                "countryCode": "FR",
-                                "postalCode": "67037",
-                                "countrySubdivisionLevel2": {
-                                    "subdivisionType": "INSEE"
-                                }
-                            }
-                        }
-                    ],
-                    "remunerationBasisCode": {
-                        "codeValue": "S",
-                        "shortName": "S"
-                    },
-                    "reportsTo": [
-                        {
-                            "associateOID": "jlmoureau-mp8",
-                            "reportsToWorkerName": {
-                                "givenName": "JEAN-LUCAFESTN",
-                                "familyName1": "MOUREAU"
-                            }
-                        }
-                    ],
-                    "payrollFileNumber": "A0000808",
-                }
-            ]
-        }
-    ]
+					"customFieldGroup": {
+						"numberFields": [
+							{
+								"itemID": "fullTimeHours",
+								"numberValue": 151.67
+							},
+							{
+								"itemID": "weeklyHours",
+								"numberValue": 35.0
+							},
+							{
+								"itemID": "monthlyHours",
+								"numberValue": 151.67
+							}
+						],
+						"codeFields": [
+							{
+								"itemID": "collaborationType",
+								"codeValue": "SAL",
+								"longName": "Salarié"
+							},
+							{
+								"itemID": "contractType",
+								"codeValue": "00",
+								"longName": "CDI"
+							},
+							{
+								"itemID": "activity",
+								"codeValue": "02",
+								"longName": "ORION CONSEIL"
+							},
+							{
+								"itemID": "remunerationType",
+								"codeValue": "B",
+								"longName": "Base mensuelle"
+							},
+							{
+								"itemID": "workSchedule",
+								"codeValue": "001",
+								"longName": "HORAIRE 35 HEURES"
+							},
+							{
+								"itemID": "teleworkingActivity",
+								"codeValue": "01",
+								"longName": "Totale"
+							},
+							{
+								"itemID": "TLM",
+								"codeValue": "W",
+								"longName": "GTA Web Gestil"
+							}
+						],
+						"dateFields": [
+							{
+								"itemID": "endProbationDate",
+								"dateValue": "2021-04-07"
+							}
+						]
+					},
+					"hireDate": "2019-12-01",
+					"reportsTo": [
+						{
+							"associateOID": "tboname-7130mp4",
+							"reportsToWorkerName": {
+								"givenName": "TRACY",
+								"familyName1": "BONAME"
+							}
+						}
+					],
+					"seniorityDate": "2019-12-01",
+					"expectedStartDate": "2019-12-01",
+					"workArrangementCode": {
+						"codeValue": "900",
+						"longName": "HORAIRE = 35H",
+						"shortName": "HORAIRE = 35H"
+					},
+					"remunerationBasisCode": {
+						"codeValue": "S",
+						"shortName": "S"
+					},
+					"assignedWorkLocations": [
+						{
+							"itemID": "default",
+							"address": {
+								"countrySubdivisionLevel2": {
+									"subdivisionType": "INSEE"
+								},
+								"lineTwo": "15 Rue Jacobe Mayer",
+								"lineOne": "BP 23",
+								"countryCode": "FR",
+								"cityName": "STRASBOURG",
+								"postalCode": "67037",
+								"nameCode": {
+									"codeValue": "66382041300123",
+									"shortName": "SIRET"
+								}
+							},
+							"nameCode": {
+								"codeValue": "02004",
+								"longName": "ORION CONSEIL STRASBOURG",
+								"shortName": "ORION CONSEIL STRASBOURG"
+							}
+						}
+					],
+					"workerTypeCode": {
+						"codeValue": "00",
+						"longName": "CDI",
+						"shortName": "CDI"
+					},
+					"fullTimeEquivalenceRatio": 1.0,
+					"actualStartDate": "2022-12-14",
+					"jobTitle": "CHEF PROJET",
+					"jobFunctionCode": {
+						"codeValue": "19",
+						"longName": "ASS. CADRE 4BIS",
+						"shortName": "ASS. CADRE 4BIS"
+					},
+					"assignedOrganizationalUnits": [
+						{
+							"itemID": "administrativeAssignment1",
+							"nameCode": {
+								"codeValue": "1",
+								"shortName": "GENERALE"
+							}
+						},
+						{
+							"itemID": "administrativeAssignment2",
+							"nameCode": {
+								"codeValue": "11",
+								"shortName": "STRATEGIE"
+							}
+						},
+						{
+							"itemID": "administrativeAssignment3",
+							"nameCode": {
+								"codeValue": "111",
+								"shortName": "MANAGEMENT"
+							}
+						},
+						{
+							"itemID": "departmentId",
+							"nameCode": {
+								"codeValue": "111111",
+								"longName": "MANAGEMENT",
+								"shortName": "MANAGEMENT"
+							}
+						},
+						{
+							"itemID": "strucAffectationId",
+							"nameCode": {
+								"codeValue": "02~02004~1~11~111",
+								"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~STRATEGIE~MANAGEMENT",
+								"shortName": "MANAGEMENT"
+							}
+						}
+					],
+					"workerGroups": [
+						{
+							"groupCode": {
+								"codeValue": "00",
+								"longName": "METALL I&C NAT  3025",
+								"shortName": "METALL I&C NAT  3025"
+							}
+						}
+					],
+					"payrollFileNumber": "00000001",
+					"legalEntityID": "02",
+					"occupationalClassifications": [
+						{
+							"itemID": "default",
+							"classificationCode": {
+								"codeValue": "HC",
+								"longName": "HORS CLASSIFICATION",
+								"shortName": "HORS CLASSIFICATION"
+							}
+						}
+					]
+				}
+			],
+			"businessCommunication": {
+				"emails": [
+					{
+						"itemID": "Travail",
+						"emailUri": "testmail.lsprh@fr.adp.com",
+						"nameCode": {
+							"codeValue": "Travail",
+							"longName": "Travail",
+							"shortName": "Travail"
+						}
+					}
+				],
+				"landlines": [
+					{
+						"itemID": "Travail",
+						"formattedNumber": "0688998877"
+					}
+				]
+			},
+			"person": {
+				"deceasedIndicator": false,
+				"maritalStatusCode": {
+					"codeValue": "C",
+					"longName": "CELIBATAIRE",
+					"shortName": "CELIBATAIRE"
+				},
+				"citizenshipCountryCodes": [
+					{
+						"codeValue": "FR",
+						"longName": "FRANCE",
+						"shortName": "FRANCE"
+					}
+				],
+				"birthPlace": {
+					"countryCode": "FR",
+					"countrySubdivisionLevel1": {
+						"codeValue": "93"
+					},
+					"cityName": "PARIS",
+					"postalCode": "93"
+				},
+				"genderCode": {
+					"codeValue": "M",
+					"longName": "Homme",
+					"shortName": "Homme"
+				},
+				"legalName": {
+					"preferredSalutations": [
+						{
+							"sequenceNumber": 1,
+							"salutationCode": {
+								"codeValue": "M",
+								"longName": "Monsieur",
+								"shortName": "M"
+							}
+						}
+					],
+					"formattedName": "NOEL FIOLOT",
+					"middleName": "",
+					"givenName": "NOEL",
+					"familyName1": "FIOLOT"
+				},
+				"communication": {
+					"faxes": [
+						{
+							"itemID": "Personnel",
+							"formattedNumber": "1234"
+						}
+					],
+					"emails": [
+						{
+							"itemID": "Personnel",
+							"emailUri": "pascale.mennetrier@orange.fr",
+							"nameCode": {
+								"codeValue": "Personnel",
+								"longName": "Personnel",
+								"shortName": "Personnel"
+							}
+						}
+					],
+					"landlines": [
+						{
+							"itemID": "Personnel",
+							"formattedNumber": "123456"
+						}
+					],
+					"mobiles": [
+						{
+							"itemID": "Personnel",
+							"formattedNumber": "12333"
+						}
+					]
+				},
+				"legalAddress": {
+					"buildingNumber": "97",
+					"buildingNumberExtension": "C",
+					"streetName": "RUE SAINT PIERRE",
+					"lineOne": "97 C RUE SAINT PIERRE",
+					"countryCode": "FR",
+					"countrySubdivisionLevel1": {
+						"subdivisionType": "NANTES",
+						"codeValue": "NANTES"
+					},
+					"postalCode": "44000"
+				}
+			},
+			"workerDates": {
+				"originalHireDate": "2019-12-01"
+			}
+		}
+	]
 }

@@ -4,20 +4,1389 @@
 			"itemID": "departments",
 			"listItems": [
 				{
-					"codeValue": "1",
-					"shortName": "GENERALE"
+					"codeValue": "02~02010",
+					"shortName": "ORION CONSEIL PARIS",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS"
 				},
 				{
-					"codeValue": "2",
-					"shortName": "ADMIN-FINANCIERE"
+					"codeValue": "02~02010~1",
+					"shortName": "GENERALE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE"
 				},
 				{
-					"codeValue": "3",
-					"shortName": "COMMERCIALE"
+					"codeValue": "02~02010~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~STRATEGIE"
 				},
 				{
-					"codeValue": "4",
-					"shortName": "OPERATIONNELLE"
+					"codeValue": "02~02010~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "02~02010~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "02~02010~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "02~02010~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "02~02010~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "02~02010~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "02~02010~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "02~02010~1~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~GENERALE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "02~02010~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "02~02010~4~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~OPERATIONNELLE~INDUSTRIE"
+				},
+				{
+					"codeValue": "02~02010~4~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~OPERATIONNELLE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "02~02010~4~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~OPERATIONNELLE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "02~02010~4~42",
+					"shortName": "CONSEIL",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~OPERATIONNELLE~CONSEIL"
+				},
+				{
+					"codeValue": "02~02010~4~42~421",
+					"shortName": "METHODE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~OPERATIONNELLE~CONSEIL~METHODE"
+				},
+				{
+					"codeValue": "02~02010~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "02~02010~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "02~02010~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "02~02010~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "02~02010~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "02~02010~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "02~02010~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "02~02010~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~COMMERCIALE"
+				},
+				{
+					"codeValue": "02~02010~3~32",
+					"shortName": "VENTES",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "02~02010~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "02~02010~3~32~322",
+					"shortName": "VTE SERVICES",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~COMMERCIALE~VENTES~VTE SERVICES"
+				},
+				{
+					"codeValue": "02~02010~3~31",
+					"shortName": "MARKETING",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~COMMERCIALE~MARKETING"
+				},
+				{
+					"codeValue": "02~02010~3~31~311",
+					"shortName": "MTG PRODUITS",
+					"longName": "ORION CONSEIL~ORION CONSEIL PARIS~COMMERCIALE~MARKETING~MTG PRODUITS"
+				},
+				{
+					"codeValue": "02~02004",
+					"shortName": "ORION CONSEIL STRASBOURG",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG"
+				},
+				{
+					"codeValue": "02~02004~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "02~02004~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "02~02004~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "02~02004~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "02~02004~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "02~02004~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "02~02004~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~COMMERCIALE"
+				},
+				{
+					"codeValue": "02~02004~3~32",
+					"shortName": "VENTES",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "02~02004~3~32~322",
+					"shortName": "VTE SERVICES",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~COMMERCIALE~VENTES~VTE SERVICES"
+				},
+				{
+					"codeValue": "02~02004~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "02~02004~3~31",
+					"shortName": "MARKETING",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~COMMERCIALE~MARKETING"
+				},
+				{
+					"codeValue": "02~02004~3~31~311",
+					"shortName": "MTG PRODUITS",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~COMMERCIALE~MARKETING~MTG PRODUITS"
+				},
+				{
+					"codeValue": "02~02004~1",
+					"shortName": "GENERALE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE"
+				},
+				{
+					"codeValue": "02~02004~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "02~02004~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "02~02004~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "02~02004~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "02~02004~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "02~02004~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "02~02004~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "02~02004~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "02~02004~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "02~02004~4~42",
+					"shortName": "CONSEIL",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~OPERATIONNELLE~CONSEIL"
+				},
+				{
+					"codeValue": "02~02004~4~42~421",
+					"shortName": "METHODE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~OPERATIONNELLE~CONSEIL~METHODE"
+				},
+				{
+					"codeValue": "02~02004~4~42~422",
+					"shortName": "MISE EN OEUVRE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~OPERATIONNELLE~CONSEIL~MISE EN OEUVRE"
+				},
+				{
+					"codeValue": "02~02004~4~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~OPERATIONNELLE~INDUSTRIE"
+				},
+				{
+					"codeValue": "02~02004~4~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORION CONSEIL~ORION CONSEIL STRASBOURG~OPERATIONNELLE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "02~02003",
+					"shortName": "ORION CONSEIL LEVALLOIS TEST",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST"
+				},
+				{
+					"codeValue": "02~02003~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "02~02003~4~42",
+					"shortName": "CONSEIL",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE~CONSEIL"
+				},
+				{
+					"codeValue": "02~02003~4~42~422",
+					"shortName": "MISE EN OEUVRE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE~CONSEIL~MISE EN OEUVRE"
+				},
+				{
+					"codeValue": "02~02003~4~42~421",
+					"shortName": "METHODE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE~CONSEIL~METHODE"
+				},
+				{
+					"codeValue": "02~02003~4~42~423",
+					"shortName": "MISE EN PLACE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE~CONSEIL~MISE EN PLACE"
+				},
+				{
+					"codeValue": "02~02003~4~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE~INDUSTRIE"
+				},
+				{
+					"codeValue": "02~02003~4~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~OPERATIONNELLE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "02~02003~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "02~02003~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "02~02003~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "02~02003~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "02~02003~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "02~02003~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "02~02003~1",
+					"shortName": "GENERALE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE"
+				},
+				{
+					"codeValue": "02~02003~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "02~02003~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "02~02003~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "02~02003~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "02~02003~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "02~02003~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "02~02003~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "02~02003~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "02~02003~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~COMMERCIALE"
+				},
+				{
+					"codeValue": "02~02003~3~32",
+					"shortName": "VENTES",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "02~02003~3~32~322",
+					"shortName": "VTE SERVICES",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~COMMERCIALE~VENTES~VTE SERVICES"
+				},
+				{
+					"codeValue": "02~02003~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "02~02003~3~31",
+					"shortName": "MARKETING",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~COMMERCIALE~MARKETING"
+				},
+				{
+					"codeValue": "02~02003~3~31~311",
+					"shortName": "MTG PRODUITS",
+					"longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~COMMERCIALE~MARKETING~MTG PRODUITS"
+				},
+				{
+					"codeValue": "04",
+					"shortName": "ORION USINES",
+					"longName": "ORION USINES"
+				},
+				{
+					"codeValue": "04~04006",
+					"shortName": "ORION USINE ROUEN",
+					"longName": "ORION USINES~ORION USINE ROUEN"
+				},
+				{
+					"codeValue": "04~04006~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "04~04006~4~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~INDUSTRIE"
+				},
+				{
+					"codeValue": "04~04006~4~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "04~04006~4~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "04~04006~4~42",
+					"shortName": "CONSEIL",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~CONSEIL"
+				},
+				{
+					"codeValue": "04~04006~4~42~421",
+					"shortName": "METHODE",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~CONSEIL~METHODE"
+				},
+				{
+					"codeValue": "04~04006~4~42~422",
+					"shortName": "MISE EN OEUVRE",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~CONSEIL~MISE EN OEUVRE"
+				},
+				{
+					"codeValue": "04~04006~4~43",
+					"shortName": "PDTS FINANCIERS",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~PDTS FINANCIERS"
+				},
+				{
+					"codeValue": "04~04006~4~43~431",
+					"shortName": "LEASING",
+					"longName": "ORION USINES~ORION USINE ROUEN~OPERATIONNELLE~PDTS FINANCIERS~LEASING"
+				},
+				{
+					"codeValue": "04~04006~1",
+					"shortName": "GENERALE",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE"
+				},
+				{
+					"codeValue": "04~04006~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "04~04006~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "04~04006~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "04~04006~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "04~04006~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "04~04006~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "04~04006~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "04~04006~1~41~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION USINES~ORION USINE ROUEN~GENERALE~INDUSTRIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "04~04006~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORION USINES~ORION USINE ROUEN~COMMERCIALE"
+				},
+				{
+					"codeValue": "04~04006~3~31",
+					"shortName": "MARKETING",
+					"longName": "ORION USINES~ORION USINE ROUEN~COMMERCIALE~MARKETING"
+				},
+				{
+					"codeValue": "04~04006~3~31~311",
+					"shortName": "MTG PRODUITS",
+					"longName": "ORION USINES~ORION USINE ROUEN~COMMERCIALE~MARKETING~MTG PRODUITS"
+				},
+				{
+					"codeValue": "04~04006~3~32",
+					"shortName": "VENTES",
+					"longName": "ORION USINES~ORION USINE ROUEN~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "04~04006~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORION USINES~ORION USINE ROUEN~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "04~04006~3~32~322",
+					"shortName": "VTE SERVICES",
+					"longName": "ORION USINES~ORION USINE ROUEN~COMMERCIALE~VENTES~VTE SERVICES"
+				},
+				{
+					"codeValue": "04~04006~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "04~04006~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "04~04006~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "04~04006~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "04~04006~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "04~04006~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "04~04006~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORION USINES~ORION USINE ROUEN~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "04~01002",
+					"shortName": "ORION LYON USINE",
+					"longName": "ORION USINES~ORION LYON USINE"
+				},
+				{
+					"codeValue": "04~01002~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORION USINES~ORION LYON USINE~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "04~01002~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORION USINES~ORION LYON USINE~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "04~01002~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORION USINES~ORION LYON USINE~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "04~01002~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORION USINES~ORION LYON USINE~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "04~01002~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "ORION USINES~ORION LYON USINE~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "04~01002~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORION USINES~ORION LYON USINE~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "04~01002~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORION USINES~ORION LYON USINE~COMMERCIALE"
+				},
+				{
+					"codeValue": "04~01002~3~32",
+					"shortName": "VENTES",
+					"longName": "ORION USINES~ORION LYON USINE~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "04~01002~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORION USINES~ORION LYON USINE~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "04~01002~1",
+					"shortName": "GENERALE",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE"
+				},
+				{
+					"codeValue": "04~01002~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "04~01002~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "04~01002~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "04~01002~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "04~01002~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "04~01002~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "04~01002~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "04~01002~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION USINES~ORION LYON USINE~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "04~01002~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORION USINES~ORION LYON USINE~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "04~01002~4~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION USINES~ORION LYON USINE~OPERATIONNELLE~INDUSTRIE"
+				},
+				{
+					"codeValue": "04~01002~4~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORION USINES~ORION LYON USINE~OPERATIONNELLE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "04~01002~4~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION USINES~ORION LYON USINE~OPERATIONNELLE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "04~01002~4~43",
+					"shortName": "PDTS FINANCIERS",
+					"longName": "ORION USINES~ORION LYON USINE~OPERATIONNELLE~PDTS FINANCIERS"
+				},
+				{
+					"codeValue": "04~01002~4~43~431",
+					"shortName": "LEASING",
+					"longName": "ORION USINES~ORION LYON USINE~OPERATIONNELLE~PDTS FINANCIERS~LEASING"
+				},
+				{
+					"codeValue": "04~99005",
+					"shortName": "VESINET",
+					"longName": "ORION USINES~VESINET"
+				},
+				{
+					"codeValue": "04~99005~1",
+					"shortName": "GENERALE",
+					"longName": "ORION USINES~VESINET~GENERALE"
+				},
+				{
+					"codeValue": "03",
+					"shortName": "ORION BANQUE",
+					"longName": "ORION BANQUE"
+				},
+				{
+					"codeValue": "03~03005",
+					"shortName": "ORION BANQUE",
+					"longName": "ORION BANQUE~ORION BANQUE"
+				},
+				{
+					"codeValue": "03~03005~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "03~03005~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "03~03005~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "03~03005~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "03~03005~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "03~03005~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "03~03005~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORION BANQUE~ORION BANQUE~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "03~03005~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORION BANQUE~ORION BANQUE~COMMERCIALE"
+				},
+				{
+					"codeValue": "03~03005~3~32",
+					"shortName": "VENTES",
+					"longName": "ORION BANQUE~ORION BANQUE~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "03~03005~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORION BANQUE~ORION BANQUE~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "03~03005~3~32~322",
+					"shortName": "VTE SERVICES",
+					"longName": "ORION BANQUE~ORION BANQUE~COMMERCIALE~VENTES~VTE SERVICES"
+				},
+				{
+					"codeValue": "03~03005~1",
+					"shortName": "GENERALE",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE"
+				},
+				{
+					"codeValue": "03~03005~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "03~03005~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "03~03005~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "03~03005~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "03~03005~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "03~03005~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "03~03005~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "03~03005~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "03~03005~1~41~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORION BANQUE~ORION BANQUE~GENERALE~INDUSTRIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "03~03005~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORION BANQUE~ORION BANQUE~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "03~03005~4~43",
+					"shortName": "PDTS FINANCIERS",
+					"longName": "ORION BANQUE~ORION BANQUE~OPERATIONNELLE~PDTS FINANCIERS"
+				},
+				{
+					"codeValue": "03~03005~4~43~431",
+					"shortName": "LEASING",
+					"longName": "ORION BANQUE~ORION BANQUE~OPERATIONNELLE~PDTS FINANCIERS~LEASING"
+				},
+				{
+					"codeValue": "01",
+					"shortName": "ORIONB",
+					"longName": "ORIONB"
+				},
+				{
+					"codeValue": "01~01001",
+					"shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE"
+				},
+				{
+					"codeValue": "01~01001~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "01~01001~4~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~INDUSTRIE"
+				},
+				{
+					"codeValue": "01~01001~4~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "01~01001~4~41~411",
+					"shortName": "ROBOTIQUE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~INDUSTRIE~ROBOTIQUE"
+				},
+				{
+					"codeValue": "01~01001~4~43",
+					"shortName": "PDTS FINANCIERS",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~PDTS FINANCIERS"
+				},
+				{
+					"codeValue": "01~01001~4~43~431",
+					"shortName": "LEASING",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~PDTS FINANCIERS~LEASING"
+				},
+				{
+					"codeValue": "01~01001~4~42",
+					"shortName": "CONSEIL",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~CONSEIL"
+				},
+				{
+					"codeValue": "01~01001~4~42~422",
+					"shortName": "MISE EN OEUVRE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~OPERATIONNELLE~CONSEIL~MISE EN OEUVRE"
+				},
+				{
+					"codeValue": "01~01001~1",
+					"shortName": "GENERALE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE"
+				},
+				{
+					"codeValue": "01~01001~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "01~01001~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "01~01001~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "01~01001~1~11~113",
+					"shortName": "TEST1 LBN",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~STRATEGIE~TEST1 LBN"
+				},
+				{
+					"codeValue": "01~01001~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "01~01001~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "01~01001~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "01~01001~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "01~01001~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "01~01001~1~41~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~GENERALE~INDUSTRIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "01~01001~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~COMMERCIALE"
+				},
+				{
+					"codeValue": "01~01001~3~32",
+					"shortName": "VENTES",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "01~01001~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "01~01001~3~32~322",
+					"shortName": "VTE SERVICES",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~COMMERCIALE~VENTES~VTE SERVICES"
+				},
+				{
+					"codeValue": "01~01001~3~31",
+					"shortName": "MARKETING",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~COMMERCIALE~MARKETING"
+				},
+				{
+					"codeValue": "01~01001~3~31~311",
+					"shortName": "MTG PRODUITS",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~COMMERCIALE~MARKETING~MTG PRODUITS"
+				},
+				{
+					"codeValue": "01~01001~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "01~01001~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "01~01001~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "01~01001~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "01~01001~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "01~01001~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "01~01001~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "01~01001~2~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~INDUSTRIE"
+				},
+				{
+					"codeValue": "01~01001~2~41~555",
+					"shortName": "Service pentests",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~ADMIN-FINANCIERE~INDUSTRIE~Service pentests"
+				},
+				{
+					"codeValue": "01~01001~5",
+					"shortName": "Direction pentests",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Direction pentests"
+				},
+				{
+					"codeValue": "01~01001~5~55",
+					"shortName": "Département pentests",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Direction pentests~Département pentests"
+				},
+				{
+					"codeValue": "01~01001~5~55~555",
+					"shortName": "Service pentests",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Direction pentests~Département pentests~Service pentests"
+				},
+				{
+					"codeValue": "01~01001~TIC",
+					"shortName": "Techn. Informatique",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Techn. Informatique"
+				},
+				{
+					"codeValue": "01~01001~TIC~R&D",
+					"shortName": "Recherches et dével.",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Techn. Informatique~Recherches et dével."
+				},
+				{
+					"codeValue": "01~01001~TIC~R&D~COMPTA",
+					"shortName": "Comptabilité",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Techn. Informatique~Recherches et dével.~Comptabilité"
+				},
+				{
+					"codeValue": "01~01001~6",
+					"shortName": "Direction Test UX",
+					"longName": "ORIONB~ORION SIEGE LEVALLOIS AFEAFE~Direction Test UX"
+				},
+				{
+					"codeValue": "01~01002",
+					"shortName": "ORION LYON USINE",
+					"longName": "ORIONB~ORION LYON USINE"
+				},
+				{
+					"codeValue": "01~01002~1",
+					"shortName": "GENERALE",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE"
+				},
+				{
+					"codeValue": "01~01002~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "01~01002~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "01~01002~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "01~01002~1~12",
+					"shortName": "RECHERCHE ET DEV",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~RECHERCHE ET DEV"
+				},
+				{
+					"codeValue": "01~01002~1~12~121",
+					"shortName": "OFFRE",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~RECHERCHE ET DEV~OFFRE"
+				},
+				{
+					"codeValue": "01~01002~1~12~122",
+					"shortName": "QUALITE",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~RECHERCHE ET DEV~QUALITE"
+				},
+				{
+					"codeValue": "01~01002~1~41",
+					"shortName": "INDUSTRIE",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~INDUSTRIE"
+				},
+				{
+					"codeValue": "01~01002~1~41~412",
+					"shortName": "MACHINES OUTILS",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~INDUSTRIE~MACHINES OUTILS"
+				},
+				{
+					"codeValue": "01~01002~1~41~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORIONB~ORION LYON USINE~GENERALE~INDUSTRIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "01~01002~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "ORIONB~ORION LYON USINE~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "01~01002~4~43",
+					"shortName": "PDTS FINANCIERS",
+					"longName": "ORIONB~ORION LYON USINE~OPERATIONNELLE~PDTS FINANCIERS"
+				},
+				{
+					"codeValue": "01~01002~4~43~431",
+					"shortName": "LEASING",
+					"longName": "ORIONB~ORION LYON USINE~OPERATIONNELLE~PDTS FINANCIERS~LEASING"
+				},
+				{
+					"codeValue": "01~01002~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "01~01002~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "01~01002~2~21~212",
+					"shortName": "RESSOURCES HUMAINES",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~ADMINISTRATIVE~RESSOURCES HUMAINES"
+				},
+				{
+					"codeValue": "01~01002~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "01~01002~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "01~01002~2~22~221",
+					"shortName": "TRESORERIE ACHATS",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~FINANCIERE~TRESORERIE ACHATS"
+				},
+				{
+					"codeValue": "01~01002~2~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~STRATEGIE"
+				},
+				{
+					"codeValue": "01~01002~2~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORIONB~ORION LYON USINE~ADMIN-FINANCIERE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "01~01002~3",
+					"shortName": "COMMERCIALE",
+					"longName": "ORIONB~ORION LYON USINE~COMMERCIALE"
+				},
+				{
+					"codeValue": "01~01002~3~32",
+					"shortName": "VENTES",
+					"longName": "ORIONB~ORION LYON USINE~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "01~01002~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "ORIONB~ORION LYON USINE~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "01~99005",
+					"shortName": "VESINET",
+					"longName": "ORIONB~VESINET"
+				},
+				{
+					"codeValue": "01~99005~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "ORIONB~VESINET~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "01~99005~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "ORIONB~VESINET~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "01~99005~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "ORIONB~VESINET~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "01~99005~1",
+					"shortName": "GENERALE",
+					"longName": "ORIONB~VESINET~GENERALE"
+				},
+				{
+					"codeValue": "01~99005~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "ORIONB~VESINET~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "01~99005~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "ORIONB~VESINET~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "01~99005~5",
+					"shortName": "Direction pentests",
+					"longName": "ORIONB~VESINET~Direction pentests"
+				},
+				{
+					"codeValue": "01~99005~5~55",
+					"shortName": "Département pentests",
+					"longName": "ORIONB~VESINET~Direction pentests~Département pentests"
+				},
+				{
+					"codeValue": "01~99005~5~55~555",
+					"shortName": "Service pentests",
+					"longName": "ORIONB~VESINET~Direction pentests~Département pentests~Service pentests"
+				},
+				{
+					"codeValue": "66",
+					"shortName": "TEST OLC",
+					"longName": "TEST OLC"
+				},
+				{
+					"codeValue": "66~22222",
+					"shortName": "TEST OLC 1",
+					"longName": "TEST OLC~TEST OLC 1"
+				},
+				{
+					"codeValue": "66~22222~2",
+					"shortName": "ADMIN-FINANCIERE",
+					"longName": "TEST OLC~TEST OLC 1~ADMIN-FINANCIERE"
+				},
+				{
+					"codeValue": "66~22222~2~22",
+					"shortName": "FINANCIERE",
+					"longName": "TEST OLC~TEST OLC 1~ADMIN-FINANCIERE~FINANCIERE"
+				},
+				{
+					"codeValue": "66~22222~2~22~222",
+					"shortName": "CONTROLE DE GESTION",
+					"longName": "TEST OLC~TEST OLC 1~ADMIN-FINANCIERE~FINANCIERE~CONTROLE DE GESTION"
+				},
+				{
+					"codeValue": "66~22222~2~21",
+					"shortName": "ADMINISTRATIVE",
+					"longName": "TEST OLC~TEST OLC 1~ADMIN-FINANCIERE~ADMINISTRATIVE"
+				},
+				{
+					"codeValue": "66~22222~2~21~211",
+					"shortName": "COMPTABILITE",
+					"longName": "TEST OLC~TEST OLC 1~ADMIN-FINANCIERE~ADMINISTRATIVE~COMPTABILITE"
+				},
+				{
+					"codeValue": "66~22222~1",
+					"shortName": "GENERALE",
+					"longName": "TEST OLC~TEST OLC 1~GENERALE"
+				},
+				{
+					"codeValue": "66~22222~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "TEST OLC~TEST OLC 1~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "66~22222~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "TEST OLC~TEST OLC 1~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "66~22222~1~11~112",
+					"shortName": "COMMUNICATION",
+					"longName": "TEST OLC~TEST OLC 1~GENERALE~STRATEGIE~COMMUNICATION"
+				},
+				{
+					"codeValue": "66~22222~3",
+					"shortName": "COMMERCIALE",
+					"longName": "TEST OLC~TEST OLC 1~COMMERCIALE"
+				},
+				{
+					"codeValue": "66~22222~3~32",
+					"shortName": "VENTES",
+					"longName": "TEST OLC~TEST OLC 1~COMMERCIALE~VENTES"
+				},
+				{
+					"codeValue": "66~22222~3~32~321",
+					"shortName": "VTE PRODUITS",
+					"longName": "TEST OLC~TEST OLC 1~COMMERCIALE~VENTES~VTE PRODUITS"
+				},
+				{
+					"codeValue": "66~22222~4",
+					"shortName": "OPERATIONNELLE",
+					"longName": "TEST OLC~TEST OLC 1~OPERATIONNELLE"
+				},
+				{
+					"codeValue": "66~22222~4~43",
+					"shortName": "PDTS FINANCIERS",
+					"longName": "TEST OLC~TEST OLC 1~OPERATIONNELLE~PDTS FINANCIERS"
+				},
+				{
+					"codeValue": "66~22222~4~43~431",
+					"shortName": "LEASING",
+					"longName": "TEST OLC~TEST OLC 1~OPERATIONNELLE~PDTS FINANCIERS~LEASING"
+				},
+				{
+					"codeValue": "10",
+					"shortName": "MONADP MANAGERS",
+					"longName": "MONADP MANAGERS"
+				},
+				{
+					"codeValue": "10~11",
+					"shortName": "MON ADP 2",
+					"longName": "MONADP MANAGERS~MON ADP 2"
+				},
+				{
+					"codeValue": "10~11~1",
+					"shortName": "GENERALE",
+					"longName": "MONADP MANAGERS~MON ADP 2~GENERALE"
+				},
+				{
+					"codeValue": "10~11~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "MONADP MANAGERS~MON ADP 2~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "10~11~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "MONADP MANAGERS~MON ADP 2~GENERALE~STRATEGIE~MANAGEMENT"
+				},
+				{
+					"codeValue": "10~10",
+					"shortName": "MON ADP 1",
+					"longName": "MONADP MANAGERS~MON ADP 1"
+				},
+				{
+					"codeValue": "10~10~1",
+					"shortName": "GENERALE",
+					"longName": "MONADP MANAGERS~MON ADP 1~GENERALE"
+				},
+				{
+					"codeValue": "10~10~1~11",
+					"shortName": "STRATEGIE",
+					"longName": "MONADP MANAGERS~MON ADP 1~GENERALE~STRATEGIE"
+				},
+				{
+					"codeValue": "10~10~1~11~111",
+					"shortName": "MANAGEMENT",
+					"longName": "MONADP MANAGERS~MON ADP 1~GENERALE~STRATEGIE~MANAGEMENT"
 				}
 			]
 		}
