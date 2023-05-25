@@ -17,16 +17,6 @@
                         },
                         "workerDates": {
                             "rehireDate": "2020-08-28"
-                        },
-                        "workAssignment": {
-                            "assignedOrganizationalUnits": [
-                                {
-                                    "nameCode": {
-                                        "codeValue": ""
-                                    },
-                                    "itemID": "strucAffectationId"
-                                }
-                            ]
                         }
                     }
                 }

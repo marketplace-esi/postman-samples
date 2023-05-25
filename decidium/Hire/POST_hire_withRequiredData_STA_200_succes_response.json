@@ -4,16 +4,16 @@
             "data": {
                 "output": {
                     "worker": {
-                        "associateOID": "mrhiresta-drd",
+                        "associateOID": "AO0N2A92945468B",
                         "workerID": {
-                            "idValue": "00000573"
+                            "idValue": "99995008"
                         },
                         "person": {
                             "legalName": {
-                                "givenName": "MINIMAL REQUIRED DATA",
+                                "givenName": "HIRE STA",
                                 "middleName": "",
-                                "familyName1": "HIRE STA",
-                                "formattedName": "MINIMAL REQUIRED DATA HIRE STA",
+                                "familyName1": "MINIMAL REQUIRED DATA",
+                                "formattedName": "HIRE STA MINIMAL REQUIRED DATA",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
@@ -33,25 +33,36 @@
                             },
                             "maritalStatusCode": {
                                 "codeValue": ""
-                            },
-                            "identityDocuments": [],
-                            "immigrationDocuments": [],
-                            "birthPlace": {}
+                            }
                         },
                         "workerDates": {
-                            "originalHireDate": "2020-01-01"
+                            "originalHireDate": "2022-08-09"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "PENDING",
+                                "shortName": "PENDING"
+                            },
+                            "effectiveDate": "2022-08-09"
                         },
                         "workAssignment": {
-							"itemID": "A1234642|2020-01-01",
-                            "hireDate": "2020-01-01",
-                            "seniorityDate": "2020-01-01",
-                            "actualStartDate": "2020-01-01",
+                            "hireDate": "2022-08-09",
+                            "seniorityDate": "2022-08-09",
+                            "expectedStartDate": "2022-08-09",
+                            "actualStartDate": "2022-08-09",
+                            "expectedTerminationDate": "2022-12-31",
                             "workerTypeCode": {
                                 "codeValue": "20",
                                 "shortName": "Stagiaire contr.stag",
                                 "longName": "Stagiaire contr.stag"
                             },
                             "legalEntityID": "01",
+                            "jobCode": {
+                                "codeValue": "EMPL2",
+                                "shortName": "Emploi (en cours)",
+                                "longName": "Emploi (en cours)"
+                            },
+                            "jobTitle": "ASSISTANT BACK OFFICE",
                             "jobFunctionCode": {},
                             "assignedOrganizationalUnits": [
                                 {
@@ -61,8 +72,8 @@
                                 {
                                     "nameCode": {
                                         "codeValue": "0101001",
-                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
-                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFE"
+                                        "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFEAFE"
                                     },
                                     "itemID": "strucAffectationId"
                                 }
@@ -71,8 +82,8 @@
                                 {
                                     "nameCode": {
                                         "codeValue": "01001",
-                                        "shortName": "ORION SIEGE LEVALLOIS AFE",
-                                        "longName": "ORION SIEGE LEVALLOIS AFE"
+                                        "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFEAFE"
                                     },
                                     "address": {
                                         "lineOne": "",
@@ -99,20 +110,20 @@
                                         "codeValue": "MSATH",
                                         "shortName": "Salaire annuel théorique"
                                     },
-                                    "amountValue": 0.0,
+                                    "amountValue": 0,
                                     "currencyCode": "EUR"
                                 }
                             },
                             "reportsTo": [
                                 {
-                                    "associateOID": "levangelist-mp5",
+                                    "associateOID": "levangelist-7120mp2",
                                     "reportsToWorkerName": {
                                         "givenName": "LINDA",
                                         "familyName1": "EVANGELIST"
                                     }
                                 }
                             ],
-                            "payrollFileNumber": "00000573",
+                            "payrollFileNumber": "99995008",
                             "customFieldGroup": {
                                 "codeFields": [
                                     {
@@ -131,7 +142,8 @@
                                         "itemID": "activity"
                                     }
                                 ]
-                            }                            
+                            },
+                            "itemID": "99995008|2022-08-09"
                         }
                     }
                 }
@@ -139,7 +151,7 @@
         }
     ],
     "confirmMessage": {
-        "createDateTime": "2021-11-09T15:15:18.074+01:00",
+        "createDateTime": "2023-02-10T10:30:52.154792705+01:00",
         "protocolStatusCode": {
             "codeValue": "200"
         },

@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "core"
+            },
+            "eventNameCode": {
+                "codeValue": "organization-cost-center.change"
+            },
+            "data": {
+                "eventContext": {},
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-10-31T11:02:44.597",
+                    "organizationCostCenter": {
+                        "costCenterCode": {
+                            "codeValue": "116540",
+                            "shortName": "Operations L2"
+                        },
+                        "itemID": "d5bc7b45-ff27-46e0-911d-d330ac7d34154"
+                    }
+                }
+            }
+        }
+    ]
+}

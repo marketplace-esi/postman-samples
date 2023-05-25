@@ -1,0 +1,202 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "ADP201301",
+                "schemeCode": {
+                    "codeValue": "REFERENCE",
+                    "shortName": "Employee Reference Number"
+                }
+            },
+            "associateOID": "AO0M7DE5729MSGV",
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Current",
+                    "shortName": "Current"
+                },
+                "reasonCode": {
+                    "codeValue": "Hire",
+                    "shortName": "Hire"
+                }
+            },
+            "person": {
+                "legalName": {
+                    "familyName1": "Stokes",
+                    "givenName": "Ben",
+                    "nickName": "Ben",
+                    "formattedName": "Ben Stokes",
+                    "preferredSalutations": [
+                        {
+                            "sequenceNumber": 1,
+                            "salutationCode": {
+                                "codeValue": "Mr",
+                                "shortName": "Mr."
+                            },
+                            "typeCode": {
+                                "codeValue": "SOCIAL",
+                                "shortName": "Social"
+                            }
+                        },
+                        {
+                            "sequenceNumber": 2,
+                            "salutationCode": {
+                                "shortName": "Stokes"
+                            },
+                            "typeCode": {
+                                "codeValue": "PROFESSIONAL",
+                                "shortName": "Professional"
+                            }
+                        }
+                    ],
+                    "familyName2": "B"
+                },
+                "birthDate": "1987-08-09",
+                "birthPlace": {
+                    "countryCode": "134",
+                    "cityName": "Irish"
+                },
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Male"
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "135",
+                        "shortName": "135-Irish"
+                    }
+                ],
+                "communication": {
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "PERSONALEMAIL",
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "santhosh.padamatinti@adp.com"
+                        }
+                    ]
+                },
+                "customFieldGroup": {
+                    "dateFields": [
+                        {
+                            "dateValue": "2013-07-13",
+                            "nameCode": {
+                                "shortName": "DateFirstEmployment",
+                                "longName": "Date first Employment"
+                            }
+                        }
+                    ]
+                },
+                "otherPersonalAddresses": [
+                    {
+                        "deliveryPoint": "True",
+                        "itemID": "f7322b82-a32a-4c00-b3ee-c8e83821a39d",
+                        "lineOne": "Irish",
+                        "cityName": "Irish",
+                        "postalCode": "45655",
+                        "countryCode": "D"
+                    }
+                ],
+                "legalAddress": {
+                    "deliveryPoint": "True",
+                    "itemID": "f7322b82-a32a-4c00-b3ee-c8e83821a39d",
+                    "cityName": "Irish",
+                    "postalCode": "45655",
+                    "countryCode": "D",
+                    "lineOne": "Irish"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "WORKEMAIL",
+                            "shortName": "Work Email"
+                        },
+                        "emailUri": "santhosh.padamatinti@adp.com"
+                    }
+                ]
+            },
+            "workerDates": {
+                "adjustedServiceDate": "2013-07-13"
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "U",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "V",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "Test",
+                    "jobCode": {
+                        "effectiveDate": "2013-07-13",
+                        "codeValue": "000012",
+                        "shortName": "Vetriebsmitarbeiter Nord/West (m/w)"
+                    },
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "DE"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 40.0,
+                        "unitCode": {
+                            "codeValue": "F",
+                            "shortName": "Fixed"
+                        }
+                    },
+                    "legalEntityID": "COMP000 - ADP/PAISY Musterfirma",
+                    "payrollFileNumber": "ADP201301",
+                    "hireDate": "2013-07-13",
+                    "itemID": "f26f657a-9a03-4d5f-aead-8a787ee95d79",
+                    "customFieldGroup": {
+                        "amountFields": [
+                            {
+                                "amountValue": 520000.0,
+                                "nameCode": {
+                                    "codeValue": "SALAMOUNT",
+                                    "shortName": "Salary Amount"
+                                }
+                            }
+                        ],
+                        "codeFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "SALFRQCODE",
+                                    "shortName": "Salary Pay Frequency Code"
+                                },
+                                "codeValue": "H",
+                                "shortName": "Hourly"
+                            }
+                        ]
+                    },
+                    "baseRemuneration": {
+                        "annualRateAmount": {
+                            "amountValue": 520000.0,
+                            "nameCode": {
+                                "codeValue": "SALAMOUNT",
+                                "shortName": "Salary Amount"
+                            }
+                        },
+                        "effectiveDate": "2013-07-13",
+                        "recordingBasisCode": {
+                            "codeValue": "H",
+                            "shortName": "Hourly"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

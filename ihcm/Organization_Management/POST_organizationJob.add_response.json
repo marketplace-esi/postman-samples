@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {},
+        "output": {
+          "organizationJob": {
+            "itemID": "abfb65f2-7473-4ad8-b26c-536f976ef893",
+            "jobCode": {
+              "codeValue": "C101"
+            },
+            "jobTitle": "Head Chef Level 2",
+            "jobFamilyCode": {
+              "codeValue": "Finance",
+              "shortName": "140 - Finance"
+            },
+            "standardHours": {
+              "hoursQuantity": 40.0
+            },
+            "effectiveDate": "2023-01-09T08:08:32.913"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "organizationJob.add"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ]
+}

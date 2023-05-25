@@ -1,0 +1,163 @@
+{
+  "workers": [
+    {
+      "workerID": {
+        "idValue": "789987",
+        "schemeCode": {
+          "codeValue": "REFERENCE",
+          "shortName": "Employee Reference Number"
+        }
+      },
+      "workerStatus": {
+        "statusCode": {
+          "codeValue": "Current",
+          "shortName": "Current"
+        },
+        "reasonCode": {
+          "codeValue": "Hire",
+          "shortName": "Hire"
+        }
+      },
+      "person": {
+        "legalName": {
+          "familyName1": "Mathews",
+          "givenName": "Adam",
+          "middleName": "Milne",
+          "nickName": "Matt",
+          "formattedName": "Adam Mathews",
+          "preferredSalutations": [
+            {
+              "sequenceNumber": 1,
+              "salutationCode": {
+                "codeValue": "Mr",
+                "shortName": "Mr."
+              },
+              "typeCode": {
+                "codeValue": "SOCIAL",
+                "shortName": "Social"
+              }
+            }
+          ],
+          "familyName2": "Adam"
+        },
+        "birthDate": "1990-01-01",
+        "genderCode": {
+          "codeValue": "Male",
+          "shortName": "Male"
+        },
+        "maritalStatusCode": {
+          "codeValue": "8",
+          "shortName": "Minor"
+        },
+        "citizenshipCountryCodes": [
+          {
+            "codeValue": "Italian",
+            "shortName": "Italian"
+          }
+        ],
+        "communication": {
+          "landlines": [
+            {
+              "nameCode": {
+                "codeValue": "HOME",
+                "shortName": "Home Telephone"
+              },
+              "formattedNumber": "541 754-3010"
+            }
+          ],
+          "mobiles": [
+            {
+              "nameCode": {
+                "codeValue": "PERMOBILE",
+                "shortName": "Personal Mobile"
+              },
+              "formattedNumber": "876 937-9011"
+            }
+          ],
+          "emails": [
+            {
+              "nameCode": {
+                "codeValue": "PERSONALEMAIL",
+                "shortName": "Personal Email"
+              },
+              "emailUri": "Adam.work@email.com"
+            }
+          ]
+        },
+        "birthPlace": {
+          "countrySubdivisionLevel2": {
+            "codeValue": "A006",
+            "shortName": "Abbadia San Salvatore",
+            "subdivisionType": "City"
+          }
+        }
+      },
+      "businessCommunication": {
+        "emails": [
+          {
+            "nameCode": {
+              "codeValue": "WORKEMAIL",
+              "shortName": "Work Email"
+            },
+            "emailUri": "Adam.work@email.com"
+          }
+        ]
+      },
+      "workerDates": {
+        "adjustedServiceDate": "2018-02-23"
+      },
+      "workAssignments": [
+        {
+          "primaryIndicator": true,
+          "assignmentStatus": {
+            "statusCode": {
+              "codeValue": "Current",
+              "shortName": "Current"
+            }
+          },
+          "fullTimeEquivalenceRatio": 1.0,
+          "jobTitle": "Vacancy",
+          "jobCode": {
+            "effectiveDate": "2018-02-23"
+          },
+          "homeWorkLocation": {
+            "address": {
+              "countryCode": "IT"
+            }
+          },
+          "standardHours": {
+            "unitCode": {
+              "codeValue": "C",
+              "shortName": "Casual Worker"
+            }
+          },
+          "legalEntityID": "ITC - IT Comp",
+          "reportsTo": [
+            {
+              "itemID": "b3f3cce0-7dc2-4b3b-9327-c8b4b6bbb552",
+              "reportsToRelationshipCode": {
+                "codeValue": "REPORTSTO",
+                "shortName": "REPORTSTO"
+              },
+              "workerID": {
+                "schemeCode": {
+                  "codeValue": "REFERENCENUMBER",
+                  "shortName": "REFERENCE NUMBER"
+                }
+              }
+            },
+            {
+              "itemID": "fc35d4fb-5a87-494c-9ef6-123ef53ae33e",
+              "reportsToRelationshipCode": {
+                "codeValue": "SUPERVISOR",
+                "shortName": "SUPERVISOR"
+              }
+            }
+          ],
+          "payrollFileNumber": "956432",
+          "hireDate": "2018-02-23"
+        }
+      ]
+    }
+  ]
+}

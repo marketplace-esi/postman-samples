@@ -1,0 +1,50 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "familyName1": "MINIMAL REQUIRED DATA",
+                                "givenName": "HIRE INT",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "MME"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "F"
+                            }
+                        },
+                        "workAssignment": {
+                            "hireDate": "2021-12-25",
+                            "jobCode": {
+                                "codeValue": "EMPLO1"
+                            },
+                            "jobTitle": "CONTRÔLE DE GESTION SOCIALES API",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "INT",
+                                        "itemID": "collaborationType"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

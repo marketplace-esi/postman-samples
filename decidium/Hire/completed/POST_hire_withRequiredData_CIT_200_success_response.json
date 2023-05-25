@@ -1,0 +1,162 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "AO0N29H38050MV7",
+                        "workerID": {
+                            "idValue": "99995008"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "CITREQUIREDDATA",
+                                "middleName": "",
+                                "familyName1": "COMPLETEDHIRE",
+                                "formattedName": "CITREQUIREDDATA COMPLETEDHIRE",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2019-08-01"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "ACTIVE",
+                                "shortName": "ACTIVE"
+                            },
+                            "effectiveDate": "2019-08-01"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2019-08-01",
+                            "seniorityDate": "2019-08-01",
+                            "expectedStartDate": "2019-08-01",
+                            "actualStartDate": "2019-08-01",
+                            "workerTypeCode": {},
+                            "legalEntityID": "02",
+                            "jobFunctionCode": {},
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "shortName": "HORAIRE = 35H",
+                                "longName": "HORAIRE = 35H"
+                            },
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {},
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0202003",
+                                        "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                                        "longName": "ORION CONSEIL/ORION CONSEIL LEVALLOIS TEST"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "02003",
+                                        "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                                        "longName": "ORION CONSEIL LEVALLOIS TEST"
+                                    },
+                                    "address": {
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE",
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "countryCode": "FR",
+                                        "postalCode": "92688",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "LOCALITE",
+                                            "shortName": "LOCALITE",
+                                            "longName": "LOCALITE",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "eafe2-7121mp3",
+                                    "reportsToWorkerName": {
+                                        "givenName": "EQUIPEB",
+                                        "familyName1": "AFE2"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "99995008",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "CIT",
+                                        "longName": "Collaborateur international",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "02",
+                                        "longName": "ORION CONSEIL",
+                                        "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "F",
+                                        "longName": "Appointement forfaitaire",
+                                        "itemID": "remunerationType"
+                                    },
+                                    {
+                                        "codeValue": "Z",
+                                        "longName": "Pas de GTA",
+                                        "itemID": "TLM"
+                                    }
+                                ]
+                            },
+                            "itemID": "99995008|2019-08-01"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2023-02-09T18:38:06.91316345+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "10001",
+                "schemeCode": {
+                    "codeValue": "REFERENCE",
+                    "shortName": "Employee Reference Number"
+                }
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Current",
+                    "shortName": "Current"
+                },
+                "reasonCode": {
+                    "codeValue": "Hire",
+                    "shortName": "Hire"
+                }
+            },
+            "person": {
+                "legalName": {
+                    "familyName1": "lastname1",
+                    "givenName": "itemployee1",
+                    "nickName": "itemployee1",
+                    "formattedName": "itemployee1 lastname1",
+                    "preferredSalutations": [
+                        {
+                            "sequenceNumber": 1,
+                            "salutationCode": {
+                                "codeValue": "Dr",
+                                "shortName": "Dr."
+                            },
+                            "typeCode": {
+                                "codeValue": "SOCIAL",
+                                "shortName": "Social"
+                            }
+                        }
+                    ]
+                },
+                "birthDate": "1990-01-01",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "Male"
+                },
+                "birthPlace": {
+                    "countrySubdivisionLevel2": {
+                        "codeValue": "A001",
+                        "shortName": "Abano Terme",
+                        "subdivisionType": "City"
+                    }
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "WORKEMAIL",
+                            "shortName": "Work Email"
+                        },
+                        "emailUri": "dsdsd@add.com"
+                    }
+                ]
+            },
+            "workerDates": {
+                "adjustedServiceDate": "2018-06-26"
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": false,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Permanent",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "HR",
+                    "jobCode": {
+                        "effectiveDate": "2020-06-08",
+                        "codeValue": "02",
+                        "shortName": "HR"
+                    },
+                    "terminationDate": "2020-06-23",
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "IT"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 40.0,
+                        "unitCode": {
+                            "codeValue": "F",
+                            "shortName": "Fixed"
+                        }
+                    },
+                    "legalEntityID": "01 - ADP Employer Services Italia",
+                    "reportsTo": [
+                        {
+                            "itemID": "4ec35253-37ab-4514-9d49-c36621e3d5e3",
+                            "associateOID": "UK0I6Q804070LEMB",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTSTO"
+                            },
+                            "workerID": {
+                                "idValue": "10002",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "firstname2 lastname",
+                                "givenName": "firstname2",
+                                "familyName1": "lastname"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "10001",
+                    "hireDate": "2018-06-26",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "WO09",
+                                "shortName": "HR"
+                            },
+                            "typeCode": {
+                                "shortName": "Division",
+                                "longName": "Main Structure"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "primaryIndicator": false,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Permanent",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "Developer",
+                    "jobCode": {
+                        "effectiveDate": "2020-06-24",
+                        "codeValue": "04",
+                        "shortName": "Developer"
+                    },
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "IT"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 0.15,
+                        "unitCode": {
+                            "codeValue": "V",
+                            "shortName": "Variable"
+                        }
+                    },
+                    "legalEntityID": "01 - ADP Employer Services Italia",
+                    "reportsTo": [
+                        {
+                            "itemID": "4ec35253-37ab-4514-9d49-c36621e3d5e3",
+                            "associateOID": "UK0I6Q804070LEMB",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTSTO"
+                            },
+                            "workerID": {
+                                "idValue": "10002",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "firstname2 lastname",
+                                "givenName": "firstname2",
+                                "familyName1": "lastname"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "10001",
+                    "hireDate": "2018-06-26",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "WU02",
+                                "shortName": "Services"
+                            },
+                            "typeCode": {
+                                "shortName": "Division",
+                                "longName": "Main Structure"
+                            }
+                        }
+                    ],
+                    "customFieldGroup": {
+                        "amountFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "SALAMOUNT",
+                                    "shortName": "Salary Amount"
+                                }
+                            }
+                        ],
+                        "codeFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "SALFRQCODE",
+                                    "shortName": "Salary Pay Frequency Code"
+                                },
+                                "codeValue": "A",
+                                "shortName": "Annually"
+                            }
+                        ]
+                    },
+                    "baseRemuneration": {
+                        "effectiveDate": "2020-01-13",
+                        "recordingBasisCode": {
+                            "codeValue": "A",
+                            "shortName": "Annually"
+                        }
+                    }
+                },
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Permanent",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "-",
+                    "jobCode": {
+                        "effectiveDate": "2020-06-09",
+                        "codeValue": "-",
+                        "shortName": "-"
+                    },
+                    "terminationDate": "2020-06-23",
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "IT"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 0.17,
+                        "unitCode": {
+                            "codeValue": "V",
+                            "shortName": "Variable"
+                        }
+                    },
+                    "legalEntityID": "01 - ADP Employer Services Italia",
+                    "reportsTo": [
+                        {
+                            "itemID": "4ec35253-37ab-4514-9d49-c36621e3d5e3",
+                            "associateOID": "UK0I6Q804070LEMB",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTSTO"
+                            },
+                            "workerID": {
+                                "idValue": "10002",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "firstname2 lastname",
+                                "givenName": "firstname2",
+                                "familyName1": "lastname"
+                            }
+                        }
+                    ],
+                    "payrollFileNumber": "10001",
+                    "hireDate": "2018-06-26",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "WO09",
+                                "shortName": "HR"
+                            },
+                            "typeCode": {
+                                "shortName": "Division",
+                                "longName": "Main Structure"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

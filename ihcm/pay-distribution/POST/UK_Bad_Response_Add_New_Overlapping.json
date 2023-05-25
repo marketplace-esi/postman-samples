@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "9f5193b3-ba39-4f2b-9c5c-ec22f757354f",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-03-30T12:38:03.2451103\u002B00:00",
+    "requestReceiptDateTime": "2023-03-30T12:38:03.2451104\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "7ef9b837-eeb7-428f-9b05-2781da69a8fb",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "548902d1-7961-4e1f-af49-759c84b91ff5",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Error in Bank Details.Start Date of Payment Method provided overlap with existing records.The priority order you specified for this record is already assigned to another record."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

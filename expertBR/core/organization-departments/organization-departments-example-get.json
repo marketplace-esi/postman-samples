@@ -1,0 +1,88 @@
+{
+	"organizationDepartments" : [
+		{
+			"departmentCode": {
+				"codeValue" : "E_1_001_001_124579934",
+				"shortName": "Centro de Resultado 1"
+			},
+			"departmentDescription": "descrição do Centro de resultado 1",
+			"parentDepartmentCode": {
+				"codeValue" : "U_1_01",
+				"shortName": "Unidade Organizacional 1",
+				"longName": "Organograma 1"
+			},
+			"activeIndicator": yes,
+			"effectiveDate": "2000-01-01",
+			"assignedLocation": {
+				"nameCode": {
+					"codeValue" : "E_001_001",
+					"shortName": "Estabelecimento 1"
+				},
+				"lineOne": "Av. Soledade 5º andar",
+				"lineTwo": "Três Figueiras, Porto Alegre, RS",
+				"lineThree": "90000000",
+				"cityName": "Porto Alegre",
+				"countrySubdivisionLevel1": {
+					"codeValue": "RS",
+					"shortName": "Rio Grande do Sul",
+					"subdivisionType": "STATE"
+				},
+				"countryCode": "BR",
+				"postalCode": "90000000",
+				"buildingNumber": "500",
+				"blockName": "Três Figueiras",
+				"streetName": "Soledade",
+				"streetTypeCode": {
+					"shortName": "Avenida"
+				},
+				"unit": "5º andar"
+			},
+			"contactPerson":{
+				"associateOID": "15-0001235869",
+				"workerid": {
+					"idvalue": "001-0001234567"
+				},
+				"personName": {
+					"givenName": "JOÃO",
+					"middleName": "SILVA",
+					"familyName1": "SOUZA",
+					"formattedName": "JOÃO SILVA SOUZA",
+				},
+				"communication": {
+					"landlines": [
+						{
+							"areaDialing": "51",
+							"dialNumber": "30000000",
+							"formattedNumber": "51 30000000",
+							"itemID": "landlines1"
+						}
+					],
+					"mobiles": [
+						{
+							"areaDialing": "51",
+							"dialNumber": "90000000",
+							"formattedNumber": "51 90000000",
+							"itemID": "mobile1"
+						}
+					],
+					"emails": [
+						{
+							"emailUri": "TEST@ADP.COM",
+							"itemID": "email1"
+						}
+					],
+					"faxes": [
+						{
+							"areaDialing": "51",
+							"dialNumber": "33000000",
+							"formattedNumber": "51 33000000",
+							"itemID": "fax1"
+						}
+					]	
+				},
+			},
+			"itemID": "B_001_001_124579934",
+			"organizationName": "Estabelecimento 1"
+		}
+	]
+}

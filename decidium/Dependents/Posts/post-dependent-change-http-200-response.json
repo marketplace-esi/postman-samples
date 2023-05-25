@@ -42,6 +42,10 @@
                                 {
                                     "itemID": "healthInsurance",
                                     "coveredIndicator": true
+                                },
+                                {
+                                    "coveredIndicator": true,
+                                    "itemID": "allocatee"
                                 }
                             ],
                             "disabledIndicator": false,

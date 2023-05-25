@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.gender.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0M7LE2917DJ62"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2014-01-01T00:00:00Z",
+                    "worker": {
+                        "person": {
+                            "genderCode": {
+                                "codeValue": "Female",
+                                "shortName": "Female"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

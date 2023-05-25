@@ -1,0 +1,152 @@
+{
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "AO0N2A93038C9MB",
+                        "workerID": {
+                            "idValue": "99995009"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "HIRE CIT",
+                                "middleName": "",
+                                "familyName1": "MINIMAL REQUIRED DATA",
+                                "formattedName": "HIRE CIT MINIMAL REQUIRED DATA",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "shortName": "M",
+                                            "longName": "Monsieur"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "M",
+                                "shortName": "Homme",
+                                "longName": "Homme"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2022-08-09"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "PENDING",
+                                "shortName": "PENDING"
+                            },
+                            "effectiveDate": "2022-08-09"
+                        },
+                        "workAssignment": {
+                            "hireDate": "2022-08-09",
+                            "seniorityDate": "2022-08-09",
+                            "expectedStartDate": "2022-08-09",
+                            "actualStartDate": "2022-08-09",
+                            "workerTypeCode": {},
+                            "legalEntityID": "01",
+                            "jobFunctionCode": {},
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {},
+                                    "itemID": "departmentId"
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0101001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+                                        "longName": "ORIONB/ORION SIEGE LEVALLOIS AFEAFE"
+                                    },
+                                    "itemID": "strucAffectationId"
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "shortName": "ORION SIEGE LEVALLOIS AFEAFE",
+                                        "longName": "ORION SIEGE LEVALLOIS AFEAFE"
+                                    },
+                                    "address": {
+                                        "lineOne": "",
+                                        "lineTwo": "14 RUE DE LA VOIE LACTEE",
+                                        "cityName": "SAINT DIDIER MONT D OR",
+                                        "countryCode": "FR",
+                                        "postalCode": "69370",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "SAINT DIDIER MONT D OR",
+                                            "shortName": "SAINT DIDIER MONT D OR",
+                                            "longName": "SAINT DIDIER MONT D OR",
+                                            "subdivisionType": "INSEE"
+                                        }
+                                    }
+                                }
+                            ],
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    },
+                                    "amountValue": 0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "levangelist-7120mp2",
+                                    "reportsToWorkerName": {
+                                        "givenName": "LINDA",
+                                        "familyName1": "EVANGELIST"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "99995009",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "CIT",
+                                        "longName": "Collaborateur international",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "longName": "ORION",
+                                        "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "F",
+                                        "longName": "Appointement forfaitaire",
+                                        "itemID": "remunerationType"
+                                    }
+                                ]
+                            },
+                            "itemID": "99995009|2022-08-09"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2023-02-10T10:42:06.815049915+01:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {},
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}

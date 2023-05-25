@@ -1,0 +1,50 @@
+/*
+Submit a time off request in slot time : J (all day), A (Afternoon), M (Morning).
+Cases for a long period time off request :
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=A, dayPeriodEndCode=M => A for 2020-12-01, M for 2020-12-04, J for days for the others days.
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=A, dayPeriodEndCode=A => A for 2020-12-01, J for days for the others days.
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCode=M => M for 2020-12-04, J for days for the others days.
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCode=A => J for all days in the period
+*/
+
+{
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"associateOID": "employee1-xyz"
+				},
+				"transform": {
+					"timeOffRequest": {
+						"timeOffEntries": [
+							{
+								"timeOffPolicyCode": {
+									"codeValue": "CP"
+								},
+								"payCode": {
+									"codeValue": "CP"
+								},
+								"durationTypeCode": {
+									"codeValue": "dayPeriodEntry"
+								},
+								"dateTimePeriod": {
+									"startDateTime": "2020-12-01",
+									"endDateTime": "2020-12-04"
+								},
+								"dayPeriodStartCode": {
+									"codeValue": "A"
+								},
+								"dayPeriodEndCode": {
+									"codeValue": "M"
+								}
+							}
+						],
+						"comment": {
+							"textValue": "Request Time Off Sample"
+						}
+					}
+				}
+			}
+		}
+	]
+}

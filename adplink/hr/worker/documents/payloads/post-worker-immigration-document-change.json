@@ -1,0 +1,32 @@
+{  
+   "events":[  
+      {  
+         "data":{  
+            "transform":{  
+               "worker":{  
+                  "person":{  
+                     "immigrationDocument": {
+			                "documentID": "12345",
+			                "typeCode": {
+			                  "codeValue": "01"
+			                },
+			                "issuingParty": {
+				                  "nameCode": {
+				                    "codeValue": "PREFECTURE DE PARIS"
+				                  }
+			                },
+			                "issueDate": "2019-01-01",
+                			"expirationDate": "2029-12-31"
+                     }
+                  }
+               }
+            },
+            "eventContext":{  
+               "worker":{  
+                  "associateOID":"employee-xyz"
+               }
+            }
+         }
+      }
+   ]
+}

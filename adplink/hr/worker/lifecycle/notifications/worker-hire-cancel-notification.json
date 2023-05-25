@@ -16,17 +16,7 @@
                             "idValue": "0001275"
                         },
                         "workAssignment": {
-                            "hireDate": "2010-03-01",
-                            "assignedOrganizationalUnits": [
-                                {
-                                    "nameCode": {
-                                        "codeValue": "FG_3_4",
-                                        "shortName": "Ent 4 Niv 3",
-                                        "longName": "Ent 4 Niv 3"
-                                    },
-                                    "itemID": "strucAffectationId"
-                                }
-                            ]
+                            "hireDate": "2010-03-01"
                         }
                     }
                 }

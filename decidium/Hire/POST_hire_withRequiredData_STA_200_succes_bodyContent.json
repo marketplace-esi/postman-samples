@@ -6,8 +6,8 @@
                     "worker": {
                         "person": {
                             "legalName": {
-                                "givenName": "MINIMAL REQUIRED DATA",
-                                "familyName1": "HIRE STA",
+                                "familyName1": "MINIMAL REQUIRED DATA",
+                                "givenName": "HIRE STA",
                                 "preferredSalutations": [
                                     {
                                         "salutationCode": {
@@ -21,10 +21,15 @@
                             }
                         },
                         "workAssignment": {
-                            "hireDate": "2020-01-01",
+                            "hireDate": "2022-08-09",
+                            "expectedTerminationDate": "2022-12-31",
                             "workerTypeCode": {
                                 "codeValue": "20"
                             },
+                            "jobCode": {
+                                "codeValue": "EMPL2"
+                            },
+                            "jobTitle": "ASSISTANT BACK OFFICE",
                             "assignedWorkLocations": [
                                 {
                                     "nameCode": {
@@ -41,12 +46,6 @@
                                     {
                                         "codeValue": "S7",
                                         "itemID": "contractType"
-                                    }
-                                ],
-                                "dateFields": [
-                                    {
-                                        "dateValue": "2020-01-30",
-                                        "itemID": "contractEndDate"
                                     }
                                 ]
                             }

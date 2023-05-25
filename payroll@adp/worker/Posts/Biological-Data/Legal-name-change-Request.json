@@ -1,0 +1,33 @@
+{
+    "events": [
+      {
+        "data": {
+          "eventContext": {
+            "worker": {
+              "associateOID": "1d31905e:134840f88de:-7ff7"
+            }
+          },
+          "transform": {
+            "worker": {
+              "person": {
+                "legalName": {
+                  "givenName": "Roberto",
+                  "familyName1": "DEPO",
+                  "preferredSalutations": [
+                    {
+                      "salutationCode": {
+                        "codeValue": "01"
+                      }
+                    }
+                  ]
+                },
+                "governmentID": {
+                    "idValue": "DPERRT65E15D969N"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }

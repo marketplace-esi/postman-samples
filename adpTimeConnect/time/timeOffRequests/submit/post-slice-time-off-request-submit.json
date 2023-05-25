@@ -1,0 +1,36 @@
+/*
+Submit a time off request in slice time (start time and end time)
+*/
+{
+	"events": [{
+		"data": {
+			"eventContext": {
+				"associateOID": "AO0N1KB0218MBI8"
+			},
+			"transform": {
+				"timeOffRequest": {
+					"timeOffEntries": [{
+						"timeOffPolicyCode": {
+							"codeValue": "B_ABS1",
+							"shortName": "Absence 1"
+						},
+						"payCode": {
+							"codeValue": "B_ABS1",
+							"shortName": "Absence 1"
+						},
+						"dateTimePeriod": {
+							"startDateTime": "2023-03-08T07:00:00+01:00",
+							"endDateTime": "2023-03-08T10:00:00+01:00"
+						},
+						"durationTypeCode": {
+							"codeValue": "timePairEntry"
+						}
+					}],
+					"comment": {
+						"textValue": "My comments"
+					}
+				}
+			}
+		}
+	}]
+}

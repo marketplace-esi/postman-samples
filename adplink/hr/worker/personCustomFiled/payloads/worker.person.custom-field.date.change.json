@@ -1,0 +1,33 @@
+{
+    "events": [{
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-abc",
+                        "person": {
+                        "customFieldGroup": {
+                            "dateField": {
+                            "itemID": "dateEntryCompany"
+                            }
+                        }
+                        }
+                    }
+                 },
+				 "transform": {
+                    "worker": {
+                        "person": {
+                            "customFieldGroup": {
+                                "dateField": 
+                                    {
+                                        "dateValue": "2010-10-15"
+                                       
+                                    }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

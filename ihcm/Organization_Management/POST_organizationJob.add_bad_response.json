@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "2a340b16-0506-4210-ab50-2541f891994e",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-01-11T14:55:36.114837\u002B00:00",
+    "requestReceiptDateTime": "2023-01-11T14:55:36.1148371\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "71700f36-043c-4580-a675-bad2f54f9510",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "6dbb9c2c-2600-4fa2-a9bc-a0d4ec94a7a9",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "Error"
+            },
+            "userMessage": {
+              "messageTxt": "The following field(s) must be unique within the database: Post Reference No"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

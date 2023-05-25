@@ -1,0 +1,245 @@
+{
+  "workers": [
+    {
+      "workerID": {
+        "idValue": "RN3002",
+        "schemeCode": {
+          "codeValue": "REFERENCE",
+          "shortName": "Employee Reference Number"
+        }
+      },
+      "workerStatus": {
+        "statusCode": {
+          "codeValue": "Current",
+          "shortName": "Current"
+        },
+        "reasonCode": {
+          "codeValue": "Hire",
+          "shortName": "Hire"
+        }
+      },
+      "person": {
+        "legalName": {
+          "familyName1": "Laia",
+          "givenName": "Salma",
+          "middleName": "Ramos",
+          "nickName": "Ramo",
+          "formattedName": "Salma Laia",
+          "preferredSalutations": [
+            {
+              "sequenceNumber": 1,
+              "salutationCode": {
+                "codeValue": "Mr",
+                "shortName": "Mr."
+              },
+              "typeCode": {
+                "codeValue": "SOCIAL",
+                "shortName": "Social"
+              }
+            }
+          ],
+          "familyName2": "Ramos"
+        },
+        "birthDate": "1980-01-01",
+        "genderCode": {
+          "codeValue": "Male",
+          "shortName": "Male"
+        },
+        "maritalStatusCode": {
+          "codeValue": "M",
+          "shortName": "Married"
+        },
+        "citizenshipCountryCodes": [
+          {
+            "codeValue": "Spanish",
+            "shortName": "Spanish"
+          }
+        ],
+        "communication": {
+          "landlines": [
+            {
+              "nameCode": {
+                "codeValue": "HOME",
+                "shortName": "Home Telephone"
+              },
+              "formattedNumber": "+34812345677"
+            }
+          ],
+          "mobiles": [
+            {
+              "nameCode": {
+                "codeValue": "PERMOBILE",
+                "shortName": "Personal Mobile"
+              },
+              "formattedNumber": "+34812345678"
+            }
+          ],
+          "emails": [
+            {
+              "nameCode": {
+                "codeValue": "PERSONALEMAIL",
+                "shortName": "Personal Email"
+              },
+              "emailUri": "Salma.personal@email.com"
+            }
+          ]
+        },
+        "governmentIDs": [
+          {
+            "idValue": "434567890443",
+            "nameCode": {
+              "codeValue": "SocialInsuranceID",
+              "shortName": "SocialInsuranceID"
+            },
+            "countryCode": "ES"
+          }
+        ],
+        "identityDocuments": [
+          {
+            "documentID": "434567890443",
+            "typeCode": {
+              "codeValue": "SocialInsuranceID",
+              "shortName": "SocialInsuranceID"
+            },
+            "countryCode": "ES"
+          }
+        ],
+        "birthPlace": {
+          "countrySubdivisionLevel1": {
+            "codeValue": "41",
+            "shortName": "SEVILLA",
+            "subdivisionType": "Province"
+          },
+          "countryCode": "ESP",
+          "cityName": "Camas"
+        },
+        "otherPersonalAddresses": [
+          {
+            "lineOne": "10, del",
+            "lineTwo": "Rector",
+            "lineThree": "Esperabe",
+            "cityName": "Salamanca Town",
+            "typeCode": {
+              "codeValue": "Home",
+              "shortName": "Home"
+            },
+            "countryCode": "ES",
+            "postalCode": "37008",
+            "deliveryPoint": true,
+            "nameCode": {
+              "codeValue": "Home",
+              "shortName": "Home"
+            },
+            "countrySubdivisionLevel2": {
+              "codeValue": "Salamanca Region"
+            }
+          }
+        ],
+        "legalAddress": {
+          "nameCode": {
+            "codeValue": "Home",
+            "shortName": "Home"
+          },
+          "lineOne": "10, del",
+          "lineTwo": "Rector",
+          "lineThree": "Esperabe",
+          "cityName": "Salamanca Town",
+          "countryCode": "ES",
+          "postalCode": "37008",
+          "countrySubdivisionLevel2": {
+            "codeValue": "Salamanca Region"
+          },
+          "deliveryPoint": true
+        }
+      },
+      "businessCommunication": {
+        "emails": [
+          {
+            "nameCode": {
+              "codeValue": "WORKEMAIL",
+              "shortName": "Work Email"
+            },
+            "emailUri": "Salma.ramos@email.com"
+          }
+        ]
+      },
+      "workerDates": {
+        "retirementDate": "2050-12-17",
+        "adjustedServiceDate": "2000-01-10",
+        "originalHireDate": "2000-01-01",
+        "acquisitionDate": "2000-01-01"
+      },
+      "workAssignments": [
+        {
+          "primaryIndicator": true,
+          "assignmentStatus": {
+            "statusCode": {
+              "codeValue": "Current",
+              "shortName": "Current"
+            },
+            "reasonCode": {
+              "codeValue": "04",
+              "shortName": "New Hiring"
+            }
+          },
+          "workerTypeCode": {
+            "shortName": "Permanent",
+            "longName": "Permanent"
+          },
+          "fullTimeEquivalenceRatio": 1.0,
+          "workLevelCode": {
+            "codeValue": "Full_Time",
+            "shortName": "Full Time"
+          },
+          "jobTitle": "Vacancy",
+          "jobCode": {
+            "effectiveDate": "2000-01-10"
+          },
+          "terminationDate": "2090-05-30",
+          "homeWorkLocation": {
+            "nameCode": {
+              "codeValue": "ESMD",
+              "shortName": "Madrid"
+            },
+            "address": {
+              "countryCode": "ES"
+            }
+          },
+          "standardHours": {
+            "hoursQuantity": 40.0,
+            "unitCode": {
+              "codeValue": "F",
+              "shortName": "Fixed"
+            }
+          },
+          "assignmentCostCenters": [
+            {
+              "costCenterID": "EC",
+              "costCenterName": "Spain Center"
+            }
+          ],
+          "legalEntityID": "ESComp - Comp",
+          "payrollFileNumber": "3002",
+          "hireDate": "2000-01-10",
+          "workerProbationPeriod": {
+            "endDate": "2030-05-30"
+          },
+          "itemID": "bfe271a1-ca11-498d-8454-9f09682608b2",
+          "homeOrganizationalUnits": [
+            {
+              "nameCode": {
+                "codeValue": "ESComp",
+                "shortName": "Comp"
+              },
+              "typeCode": {
+                "codeValue": "0",
+                "shortName": "Company",
+                "longName": "Struct"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

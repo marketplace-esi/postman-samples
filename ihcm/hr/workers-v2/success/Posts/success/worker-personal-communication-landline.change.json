@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "565656"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "landline": {
+                                    "formattedNumber": "45454785885"
+                                }
+                            }
+                        },
+                        "associateOID": "565656"
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalCommunication.landline.change"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "familyName1": "MINIMAL REQUIRED DATA",
+                                "givenName": "HIRE CIT",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "M"
+                            }
+                        },
+                        "workAssignment": {
+                            "hireDate": "2022-08-09",
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    }
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "CIT",
+                                        "itemID": "collaborationType"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
