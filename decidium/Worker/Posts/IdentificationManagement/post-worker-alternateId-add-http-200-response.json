@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "createDateTime": "2023-05-17T17:58:49.9920046+02:00"
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-7130mp4"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "alternateIDs": [
+                            {
+                                "schemeCode": {
+                                    "codeValue": "SEUDECI01"
+                                },
+                                "idValue": "alternateId"
+                            }
+                        ],
+                        "associateOID": "pmassina-7130mp4"
+                    }
+                }
+            }
+        }
+    ]
+}

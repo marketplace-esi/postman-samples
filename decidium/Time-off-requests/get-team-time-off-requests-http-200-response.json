@@ -1,148 +1,192 @@
 {
-    "timeOffRequests": [
-        {
-            "timeOffRequestID": "6573730000358350024",
-            "requestDateTime": "2021-01-14T00:00:00+01:00",
-            "requestStatusCode": {
-                "codeValue": "approved",
-                "shortName": "Acceptée"
-            },
-            "requestorName": {
-                "givenName": "P01I4006",
-                "familyName1": "COL01I4006",
-                "formattedName": "P01I4006, COL01I4006"
-            },
-            "timeOffEntries": [
-                {
-                    "payCode": {
-                        "codeValue": "JD",
-                        "shortName": "JOUR SUPPL.RTT 1/2J"
-                    },
-                    "dateTimePeriod": {
-                        "startDateTime": "2021-01-25T00:00:00+01:00",
-                        "endDateTime": "2021-01-25T00:00:00+01:00"
-                    },
-                    "durationTypeCode": {
-                        "codeValue": "dayPeriodEntry",
-                        "shortName": "Plage horaire"
-                    },
-                    "timeOffPolicyCode": {
-                        "codeValue": "JD"
-                    },
-                    "dayPeriodStartCode": {
-                        "codeValue": "1",
-                        "shortName": "Matin"
-                    },
-                    "dayPeriodEndCode": {
-                        "codeValue": "1",
-                        "shortName": "Matin"
-                    }
-                }
-            ],
-            "actions": [],
-            "associateOID": "pcol01i4006-zsc",
-            "workAssignmentID": "00000010"
-        },
-        {
-            "timeOffRequestID": "6573730000358350031",
-            "requestDateTime": "2021-01-14T00:00:00+01:00",
-            "requestStatusCode": {
-                "codeValue": "approved",
-                "shortName": "Acceptée"
-            },
-            "requestorName": {
-                "givenName": "P01I4006",
-                "familyName1": "COL01I4006",
-                "formattedName": "P01I4006, COL01I4006"
-            },
-            "timeOffEntries": [
-                {
-                    "payCode": {
-                        "codeValue": "AE",
-                        "shortName": "ENFANT MALADE"
-                    },
-                    "dateTimePeriod": {
-                        "startDateTime": "2021-01-18T00:00:00+01:00",
-                        "endDateTime": "2021-01-18T00:00:00+01:00"
-                    },
-                    "durationTypeCode": {
-                        "codeValue": "fullday",
-                        "shortName": "Journée entière"
-                    },
-                    "timeOffPolicyCode": {
-                        "codeValue": "AE"
-                    }
-                }
-            ],
-            "actions": [],
-            "associateOID": "pcol01i4006-zsc",
-            "workAssignmentID": "00000010"
-        },
-        {
-            "timeOffRequestID": "D997880|6573730000358350016",
-            "requestDateTime": "2021-01-14T00:00:00+01:00",
-            "requestStatusCode": {
-                "codeValue": "pending",
-                "shortName": "En cours"
-            },
-            "requestorName": {
-                "givenName": "P01I4006",
-                "familyName1": "COL01I4006",
-                "formattedName": "P01I4006, COL01I4006"
-            },
-            "timeOffEntries": [
-                {
-                    "payCode": {
-                        "codeValue": "CP",
-                        "shortName": "CONGES PAYES"
-                    },
-                    "dateTimePeriod": {
-                        "startDateTime": "2021-01-15T00:00:00+01:00",
-                        "endDateTime": "2021-01-15T00:00:00+01:00"
-                    },
-                    "durationTypeCode": {
-                        "codeValue": "fullday",
-                        "shortName": "Journée entière"
-                    },
-                    "timeOffPolicyCode": {
-                        "codeValue": "CP"
-                    },
-                    "dayPeriodStartCode": {
-                        "codeValue": "1",
-                        "shortName": "Matin"
-                    },
-                    "dayPeriodEndCode": {
-                        "codeValue": "2",
-                        "shortName": "Après-midi"
-                    }
-                }
-            ],
-            "actions": [],
-            "associateOID": "pcol01i4006-zsc",
-            "workAssignmentID": "00000010",
-            "comments": [
-                {
-                    "textValue": "AFE commentaire",
-                    "entryDateTime": "2021-01-14T00:00:00+01:00",
-                    "author": {
-                        "associateOID": "",
-                        "formattedName": ""
-                    }
-                }
-            ],
-            "reviewRequest": {
-                "reviewDetails": [
-                    {
-                        "reviewer": {
-                            "associateOID": "padm01a3000-8p7",
-                            "formattedName": "M P01A3000 ADM01A3000"
-                        }
-                    }
-                ]
+   "timeOffRequests":[
+      {
+         "associateOID":"eamay-7130mp4",
+         "reviewRequest":{
+            "reviewDetails":[
+               {
+                  "reviewer":{
+                     "formattedName":"M ANTOINE MARC",
+                     "associateOID":"amarc-7130mp4"
+                  }
+               }
+            ]
+         },
+         "comments":[
+            {
+               "entryDateTime":"2023-05-26T00:00:00+02:00",
+               "author":{
+                  "formattedName":"",
+                  "associateOID":""
+               },
+               "textValue":"congé imposé"
             }
-        }
-    ],
-    "meta": {
-        "totalNumber": 3
-    }
+         ],
+         "timeOffRequestID":"D1804579|7079650000574180053",
+         "requestDateTime":"2023-05-26T00:00:00+02:00",
+         "requestorName":{
+            "formattedName":"ERIK, AMAY",
+            "familyName1":"AMAY",
+            "givenName":"ERIK"
+         },
+         "timeOffEntries":[
+            {
+               "timeOffPolicyCode":{
+                  "codeValue":"CP"
+               },
+               "dayPeriodStartCode":{
+                  "codeValue":"1",
+                  "shortName":"Matin"
+               },
+               "dayPeriodEndCode":{
+                  "codeValue":"2",
+                  "shortName":"Après-midi"
+               },
+               "dateTimePeriod":{
+                  "startDateTime":"2023-06-15T00:00:00+02:00",
+                  "endDateTime":"2023-06-15T00:00:00+02:00"
+               },
+               "durationTypeCode":{
+                  "codeValue":"fullday",
+                  "shortName":"Journée entière"
+               },
+               "payCode":{
+                  "codeValue":"CP",
+                  "shortName":"CONGES PAYES"
+               }
+            }
+         ],
+         "requestSubmitter":{
+            "formattedName":"CEDRIC, MARTINELLI",
+            "associateOID":"cmartinelli-7130mp4"
+         },
+         "requestStatusCode":{
+            "codeValue":"pending",
+            "shortName":"En attente"
+         }
+      },
+      {
+         "associateOID":"bbailly-7130mp4",
+         "reviewRequest":{
+            "reviewDetails":[
+               {
+                  "reviewer":{
+                     "formattedName":"M LINDA EVANGELIST",
+                     "associateOID":"levangelist-7130mp4"
+                  }
+               }
+            ]
+         },
+         "timeOffRequestID":"D1804789|7079650000574270004",
+         "requestDateTime":"2023-05-26T00:00:00+02:00",
+         "requestorName":{
+            "formattedName":"BERNADETTE, BAILLY",
+            "familyName1":"BAILLY",
+            "givenName":"BERNADETTE"
+         },
+         "timeOffEntries":[
+            {
+               "timeOffPolicyCode":{
+                  "codeValue":"CP"
+               },
+               "dayPeriodStartCode":{
+                  "codeValue":"1",
+                  "shortName":"Matin"
+               },
+               "dayPeriodEndCode":{
+                  "codeValue":"2",
+                  "shortName":"Après-midi"
+               },
+               "dateTimePeriod":{
+                  "startDateTime":"2023-06-06T00:00:00+02:00",
+                  "endDateTime":"2023-06-06T00:00:00+02:00"
+               },
+               "durationTypeCode":{
+                  "codeValue":"fullday",
+                  "shortName":"Journée entière"
+               },
+               "payCode":{
+                  "codeValue":"CP",
+                  "shortName":"CONGES PAYES"
+               }
+            }
+         ],
+         "requestSubmitter":{
+            "formattedName":"BERNADETTE, BAILLY",
+            "associateOID":"bbailly-7130mp4"
+         },
+         "requestStatusCode":{
+            "codeValue":"pending",
+            "shortName":"En attente"
+         }
+      },
+      {
+         "associateOID":"tvoeckler-7130mp4",
+         "reviewRequest":{
+            "reviewDetails":[
+               {
+                  "reviewer":{
+                     "formattedName":"M LINDA EVANGELIST",
+                     "associateOID":"levangelist-7130mp4"
+                  }
+               }
+            ]
+         },
+         "comments":[
+            {
+               "entryDateTime":"2023-05-26T00:00:00+02:00",
+               "author":{
+                  "formattedName":"",
+                  "associateOID":""
+               },
+               "textValue":"repos forcé !"
+            }
+         ],
+         "timeOffRequestID":"D1804377|7079650000574180045",
+         "requestDateTime":"2023-05-26T00:00:00+02:00",
+         "requestorName":{
+            "formattedName":"THOMAS, VOECKLER",
+            "familyName1":"VOECKLER",
+            "givenName":"THOMAS"
+         },
+         "timeOffEntries":[
+            {
+               "timeOffPolicyCode":{
+                  "codeValue":"CP"
+               },
+               "dayPeriodStartCode":{
+                  "codeValue":"1",
+                  "shortName":"Matin"
+               },
+               "dayPeriodEndCode":{
+                  "codeValue":"2",
+                  "shortName":"Après-midi"
+               },
+               "dateTimePeriod":{
+                  "startDateTime":"2023-05-22T00:00:00+01:00",
+                  "endDateTime":"2023-05-26T00:00:00+02:00"
+               },
+               "durationTypeCode":{
+                  "codeValue":"fullday",
+                  "shortName":"Journée entière"
+               },
+               "payCode":{
+                  "codeValue":"CP",
+                  "shortName":"CONGES PAYES"
+               }
+            }
+         ],
+         "requestSubmitter":{
+            "formattedName":"CEDRIC, MARTINELLI",
+            "associateOID":"cmartinelli-7130mp4"
+         },
+         "requestStatusCode":{
+            "codeValue":"pending",
+            "shortName":"En attente"
+         }
+      }
+   ],
+   "meta":{
+      "totalNumber":3
+   }
 }
