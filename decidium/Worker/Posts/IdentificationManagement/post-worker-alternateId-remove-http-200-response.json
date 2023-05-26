@@ -1,20 +1,33 @@
 {
+    "confirmMessage": {
+        "createDateTime": "2023-05-17T18:35:02.6331283+02:00",
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {}
+    },
     "events": [
         {
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "pmassina-mp2"
+                        "associateOID": "pmassina-7130mp4"
                     }
                 },
                 "output": {
                     "worker": {
-                        "associateOID": "pmassina-mp2",
-                        "person": {
-                            "citizenshipCountryCode": {
-                                "codeValue": "ES"
+                        "associateOID": "pmassina-7130mp4",
+                        "alternateIDs": [
+                            {
+                                "schemeCode": {
+                                    "codeValue": "SEUDECI01"
+                                },
+                                "idValue": "alternateId"
                             }
-                        }
+                        ]
                     }
                 }
             }
