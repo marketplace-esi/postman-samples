@@ -1,0 +1,61 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "{{CodeValue}}"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "{{ValidMonthlyPaygroupCode1}}"
+                    },
+                    "payDataInput":
+                    {
+                        "itemID": "23-05-2"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "6001"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "{{TestEarningCode}}"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 27.1
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2023-04-01"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "{{TestEarningCode}}"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 27.2
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2023-04-01"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
