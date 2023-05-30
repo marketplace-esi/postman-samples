@@ -1,0 +1,80 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "NL"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "93346"
+                    },
+                    "payDataInput": {
+                        "payeePayInputs": [],
+                        "itemID": "23-05-2"
+                    }
+                },
+                "output": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "6001"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V607"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 27.1
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2023-04-01",
+                                                        "itemID": "a40f7168-c469-45fd-bb64-156fe93322e2"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "V607"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 27.2
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2023-04-01",
+                                                        "itemID": "2460d3a0-8b3f-42e2-adc3-3bb04e40aa21"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "itemID": "23-05-2"
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2023-05-26T10:40:24.640666+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "processMessages": []
+    }
+}
