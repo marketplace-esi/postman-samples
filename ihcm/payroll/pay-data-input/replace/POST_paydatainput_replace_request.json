@@ -4,14 +4,14 @@
             "data": {
                 "eventContext": {
                     "payrollRegionCode": {
-                        "codeValue": "{{CodeValue}}"
+                        "codeValue": "NL"
                     },
                     "payrollGroupCode": {
-                        "codeValue": "{{ValidMonthlyPaygroupCode1}}"
+                        "codeValue": "999999"
                     },
                     "payDataInput":
                     {
-                        "itemID": "23-05-2"
+                        "itemID": "23-05-9"
                     }
                 },
                 "transform": {
@@ -19,7 +19,7 @@
                         "payeePayInputs": [
                             {
                                 "payeeID": {
-                                    "idValue": "6001"
+                                    "idValue": "6999"
                                 },
                                 "payPeriodStartDate": "2022-01-01",
                                 "payPeriodEndDate": "2022-01-31",
@@ -30,7 +30,7 @@
                                                 "earningInputs": [
                                                     {
                                                         "earningCode": {
-                                                            "codeValue": "{{TestEarningCode}}"
+                                                            "codeValue": "V607"
                                                         },
                                                         "rate": {
                                                             "rateValue": 27.1
@@ -39,7 +39,7 @@
                                                     },
                                                     {
                                                         "earningCode": {
-                                                            "codeValue": "{{TestEarningCode}}"
+                                                            "codeValue": "V607"
                                                         },
                                                         "rate": {
                                                             "rateValue": 27.2
