@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "eventID": "changemaritalstatus22",
+            "serviceCategoryCode": {
+                "codeValue": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.maritalStatus.change"
+            },
+            "eventTitle": "Worker Marital Status Change",
+			"recordDateTime": "2023-03-24T00:00:00Z",
+            "creationDateTime": "2023-03-24T00:00:00Z",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "15_423423423",
+						"workerID": {
+							"idValue": "001-00013234"
+						}
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": "CAS",
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "timeOffBalances": [
+        {
+            "associateOID": "10980075-12345",
+            "itemID": "15_23323_01012022-01012023",
+            "balanceAsOfDate": "2023-03-08",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 20,
+                                "unitTimeCode": {
+                                    "shortName": "Days"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+		   {
+            "associateOID": "10980075-12345",
+            "itemID": "15_23344_01012022-01012023",
+            "balanceAsOfDate": "2023-03-08",
+            "timeOffPolicyBalances": [
+                {
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 10,
+                                "unitTimeCode": {
+                                    "shortName": "Days"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
