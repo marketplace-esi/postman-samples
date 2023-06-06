@@ -1,0 +1,34 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "hr"
+			},
+			"eventNameCode": {
+				"shortName": "worker.leave.return.request"
+			},
+			"eventTitle": "Worker Leave Return Request",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"associateOID": "15-0001235869",
+					"workerID": {
+							"idValue": "001-0001234567"
+					},
+					"leaveStartDate": "2014-01-01T00:00:00Z",
+					"leaveTypeCode": {
+						"codeValue": "AT"
+					}
+				},
+				"output": {
+					"leaveReturn": {
+						"returnDateTime": "2014-01-02T00:00:00Z"
+					}
+				}
+			}
+		}
+	]
+}

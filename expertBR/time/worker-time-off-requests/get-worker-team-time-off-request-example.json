@@ -1,0 +1,137 @@
+{
+    "timeOffRequests": [
+        {
+            "requestID": "15_99999_01012020-01012021_01",
+            "associateOID": "10565025-9999",
+            "workerID": {
+                "id": "15_1_424242"
+            },
+            "requestDateTime": "2022-01-25T04:33:00-05:00",
+            "requestStatusCode": {
+                "name": "Have Leave In"
+            },
+            "requestTypeCode": {
+                "name": "Paid Vacations"
+            },
+            "totalQuantity": {
+                "quantity": 30,
+                "unitCode": {
+                    "name": "Days"
+                }
+            },
+            "datePeriod": {
+                "startDate": "2022-03-14",
+                "endDate": "2022-04-13"                
+            },
+            "paymentOnScheduleIndicator": true,
+            "additionalPaymentIndicator": true,
+            "additionalPaymentPercentage": {
+                "percentage": 50
+            },
+            "timeOffEntries": [
+                {
+                    "entryTypeCode": {
+                        "name": "On Vacation"
+                    },                    
+                    "totalQuantity": {
+                        "quantity": 20
+                    }
+                }
+				{
+                    "entryTypeCode": {
+                        "name": "Vacation Bonus"
+                    },                    
+                    "totalQuantity": {
+                        "quantity": 10
+                    }
+                }
+            ]
+        },
+        {
+            "requestID": "15_88888_01012020-01012021_01",
+            "associateOID": "10565025-00026243",
+            "workerID": {
+                "id": "15_1_525252"
+            },
+            "requestDateTime": "2022-01-25T04:33:00-05:00",
+            "requestStatusCode": {
+                "name": "Leave Taken"
+            },
+            "requestTypeCode": {
+                "name": "Paid Vacations"
+            },
+            "totalQuantity": {
+                "quantity": 10,
+                "unitCode": {
+                    "name": "Days"
+                }
+            },
+            "datePeriod": {
+                "startDate": "2022-03-10",
+                "endDate": "2022-03-20"               
+            },
+            "paymentOnScheduleIndicator": false,
+            "additionalPaymentIndicator": true,
+            "additionalPaymentPercentage": {
+                "percentage": 50
+            },
+            "timeOffEntries": [
+                {
+                    "entryTypeCode": {
+                        "name": "On Vacation"
+                    },                    
+                    "totalQuantity": {
+                        "quantity": 10
+                    }
+                }
+            ]
+        },
+        {
+            "requestID": "15_99999_01012020-0101202_01",
+            "associateOID": "10565025-99999",
+            "workerID": {
+                "id": "15_1_626262"
+            },
+            "requestDateTime": "2017-01-25T04:33:00-05:00",
+            "requestStatusCode": {
+                "name": "Leave Taken"
+            },
+            "requestTypeCode": {
+                "name": "Paid Vacations"
+            },
+            "totalQuantity": {
+                "quantity": 20,
+                "unitCode": {
+                    "name": "Days"
+                }
+            },
+            "datePeriod": {
+                "startDate": "2022-03-25",
+                "endDate": "2022-03-05"                
+            },
+            "paymentOnScheduleIndicator": true,
+            "additionalPaymentIndicator": false,
+            "additionalPaymentPercentage": {
+                "percentage": 50
+            },
+            "timeOffEntries": [
+                {
+                    "entryTypeCode": {
+                        "name": "On Vacation"
+                    },                    
+                    "totalQuantity": {
+                        "quantity": 10
+                    }
+                }
+				{
+                    "entryTypeCode": {
+                        "name": "Vacation Bonus"
+                    },                    
+                    "totalQuantity": {
+                        "quantity": 10
+                    }
+                }
+            ]
+        }
+    ]
+}

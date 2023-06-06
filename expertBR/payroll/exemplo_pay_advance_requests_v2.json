@@ -1,0 +1,28 @@
+{
+    "payAdvanceRequests": [
+        {
+            "requestDate": "2022-01-11",
+            "amount": {
+                "amountValue": "50000.0",
+                "currencyCode": "BRL"
+            },
+            "itemID": "10980075_5461_01_12345",
+            "statusCode": {
+                "shortName": "Received",
+                "effectiveDate": "2022-01-31"
+            }
+        }
+        {
+            "requestDate": "2022-01-11",
+            "amount": {
+                "amountValue": "80000.50",
+                "currencyCode": "BRL"
+            },
+            "itemID": "10980075_5462_01_12345",
+            "statusCode": {
+                "shortName": "Received",
+                "effectiveDate": "2022-01-31"
+            }
+        }
+    ]
+}
