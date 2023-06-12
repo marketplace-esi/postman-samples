@@ -1,0 +1,19 @@
+{
+    "organizationalUnits": [
+        {
+            "unitID": "d828c43e-7c7e-4ad0-94bf-0950291c842f",
+            "unitName": "NL Company",
+            "nameCode": {
+                "code": "93368",
+                "name": "NL Company"
+            },
+            "legalName": "NL Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        }
+    ]
+}
