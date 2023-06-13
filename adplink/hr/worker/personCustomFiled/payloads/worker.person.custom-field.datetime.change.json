@@ -1,33 +1,29 @@
 {
     "events": [{
-            "data": {
-                "eventContext": {
-                    "worker": {
-                        "associateOID": "employee-abc",
-                        "person": {
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "employee-abc",
+                    "person": {
                         "customFieldGroup": {
                             "dateTimeField": {
-                            "itemID": "hireTime"
+                                "itemID": "hireTime"
                             }
                         }
-                        }
                     }
-                 },
-				 "transform": {
-                    "worker": {
-                        "person": {
-                            "customFieldGroup": {
-                                "dateTimeField": 
-                                    {
-                                        "dateTimeValue": "2013-06-03T08:00:00Z"
-                                       
-                                    }
-                                
+                }
+            },
+            "transform": {
+                "worker": {
+                    "person": {
+                        "customFieldGroup": {
+                            "dateTimeField": {
+                                "dateTimeValue": "2013-06-03T08:00:00Z"
                             }
                         }
                     }
                 }
             }
         }
-    ]
+    }]
 }
