@@ -1,0 +1,264 @@
+{
+    "confirmMessage": {
+        "protocolCode": {},
+        "createDateTime": "2023-05-15T18:11:11.760407117+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "itemID": "99995654|2019-08-01",
+                            "jobFunctionCode": {
+                                "longName": "PDG,DG (ADMINIST)",
+                                "shortName": "PDG,DG (ADMINIST)",
+                                "codeValue": "10"
+                            },
+                            "jobCode": {
+                                "longName": "Emploi 1",
+                                "shortName": "Emploi 1",
+                                "codeValue": "EMPL1"
+                            },
+                            "workArrangementCode": {
+                                "longName": "HORAIRE = 35H",
+                                "shortName": "HORAIRE = 35H",
+                                "codeValue": "900"
+                            },
+                            "remunerationBasisCode": {
+                                "shortName": "S",
+                                "codeValue": "S"
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "address": {
+                                        "countrySubdivisionLevel2": {
+                                            "subdivisionType": "INSEE",
+                                            "longName": "LOCALITE",
+                                            "shortName": "LOCALITE",
+                                            "codeValue": "LOCALITE"
+                                        },
+                                        "lineTwo": "209 B RUE ANATOLE FRANCE",
+                                        "lineOne": "COMPLEMENT ADRESSE",
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "postalCode": "92688",
+                                        "countryCode": "FR"
+                                    },
+                                    "nameCode": {
+                                        "longName": "ORION CONSEIL LEVALLOIS TEST",
+                                        "shortName": "ORION CONSEIL LEVALLOIS TEST",
+                                        "codeValue": "02003"
+                                    }
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "longName": "CDI",
+                                "shortName": "CDI",
+                                "codeValue": "00"
+                            },
+                            "jobTitle": "Emploi 1",
+                            "expectedStartDate": "2019-08-01",
+                            "legalEntityID": "02",
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "longName": "METALL I&C NAT  3025",
+                                        "shortName": "METALL I&C NAT  3025",
+                                        "codeValue": "00"
+                                    }
+                                }
+                            ],
+                            "hireDate": "2019-08-01",
+                            "reportsTo": [
+                                {
+                                    "reportsToWorkerName": {
+                                        "givenName": "REHIRE GIVEN",
+                                        "familyName1": "REHIRE FAMILY"
+                                    },
+                                    "associateOID": "eafe2-7130mp4"
+                                }
+                            ],
+                            "payrollProcessingStatusCode": {
+                                "codeValue": "I"
+                            },
+                            "payrollScheduleGroupID": "001",
+                            "occupationalClassifications": [
+                                {
+                                    "itemID": "default",
+                                    "classificationCode": {
+                                        "longName": "CADRE POSITION I",
+                                        "shortName": "CADRE POSITION I",
+                                        "codeValue": "CA1"
+                                    }
+                                }
+                            ],
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "administrativeAssignment1",
+                                    "nameCode": {
+                                        "shortName": "GENERALE",
+                                        "codeValue": "1"
+                                    }
+                                },
+                                {
+                                    "itemID": "administrativeAssignment2",
+                                    "nameCode": {
+                                        "shortName": "STRATEGIE",
+                                        "codeValue": "11"
+                                    }
+                                },
+                                {
+                                    "itemID": "administrativeAssignment3",
+                                    "nameCode": {
+                                        "shortName": "MANAGEMENT",
+                                        "codeValue": "111"
+                                    }
+                                },
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "longName": "MANAGEMENT",
+                                        "shortName": "MANAGEMENT",
+                                        "codeValue": "111111"
+                                    }
+                                },
+                                {
+                                    "itemID": "strucAffectationId",
+                                    "nameCode": {
+                                        "longName": "ORION CONSEIL~ORION CONSEIL LEVALLOIS TEST~GENERALE~STRATEGIE~MANAGEMENT",
+                                        "shortName": "MANAGEMENT",
+                                        "codeValue": "02~02003~1~11~111"
+                                    }
+                                }
+                            ],
+                            "actualStartDate": "2019-08-01",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "itemID": "collaborationType",
+                                        "longName": "Stagiaire",
+                                        "codeValue": "STA"
+                                    },
+                                    {
+                                        "itemID": "contractType",
+                                        "longName": "CDI",
+                                        "codeValue": "00"
+                                    },
+                                    {
+                                        "itemID": "activity",
+                                        "longName": "ORION CONSEIL",
+                                        "codeValue": "02"
+                                    },
+                                    {
+                                        "itemID": "remunerationType",
+                                        "longName": "Base mensuelle",
+                                        "codeValue": "B"
+                                    },
+                                    {
+                                        "itemID": "workSchedule",
+                                        "longName": "TPS PART: 80% - LuMa JeVe",
+                                        "codeValue": "101"
+                                    },
+                                    {
+                                        "itemID": "TLM",
+                                        "longName": "Pas de GTA",
+                                        "codeValue": "Z"
+                                    }
+                                ]
+                            },
+                            "payrollFileNumber": "99995654",
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "currencyCode": "EUR",
+                                    "amountValue": 0.0,
+                                    "nameCode": {
+                                        "shortName": "Salaire annuel théorique",
+                                        "codeValue": "MSATH"
+                                    }
+                                }
+                            },
+                            "seniorityDate": "2019-08-01"
+                        },
+                        "person": {
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            },
+                            "identityDocuments": [
+                                {
+                                    "typeCode": {
+                                        "shortName": "Numéro de sécurité sociale",
+                                        "codeValue": "SSN"
+                                    },
+                                    "documentID": "1790975200032"
+                                }
+                            ],
+                            "deceasedIndicator": false,
+                            "citizenshipCountryCodes": [
+                                {
+                                    "longName": "FRANCE",
+                                    "shortName": "FRANCE",
+                                    "codeValue": "FR"
+                                }
+                            ],
+                            "genderCode": {
+                                "longName": "Homme",
+                                "shortName": "Homme",
+                                "codeValue": "M"
+                            },
+                            "birthPlace": {
+                                "cityName": "PARIS",
+                                "postalCode": "75000",
+                                "countryCode": "FR"
+                            },
+                            "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "subdivisionType": "THOUARE SUR LOIRE",
+                                    "codeValue": "THOUARE SUR LOIRE"
+                                },
+                                "postalCode": "44470",
+                                "countryCode": "FR"
+                            },
+                            "legalName": {
+                                "preferredSalutations": [
+                                    {
+                                        "sequenceNumber": 1,
+                                        "salutationCode": {
+                                            "longName": "Monsieur",
+                                            "shortName": "M",
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ],
+                                "givenName": "STANONPAYE",
+                                "middleName": "",
+                                "familyName1": "COMPLETEDHIRE",
+                                "formattedName": "STANONPAYE COMPLETEDHIRE"
+                            },
+                            "birthDate": "1979-09-19"
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2019-08-01"
+                        },
+                        "workerStatus": {
+                            "effectiveDate": "2019-08-01",
+                            "statusCode": {
+                                "shortName": "ACTIVE",
+                                "codeValue": "ACTIVE"
+                            }
+                        },
+                        "associateOID": "AO0N5FG1106ODTM",
+                        "workerID": {
+                            "idValue": "99995654"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

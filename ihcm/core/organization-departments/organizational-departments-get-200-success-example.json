@@ -1,0 +1,847 @@
+{
+    "organizationDepartments": [
+        {
+            "itemID": "0e859081-0690-4cf4-b5c6-07861ff30a1b",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT2-706876",
+                "shortName": "Dev Team"
+            },
+            "departmentDescription": "Dev Team",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-14",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "d3030476-472b-4cdc-a163-346b1d7901e6",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT3-750676"
+            },
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-13",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "e1f9f6b9-636d-47b0-a807-546371c20674",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT1-595375",
+                "shortName": "Scrum Team"
+            },
+            "departmentDescription": "Test",
+            "activeIndicator": false,
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "a2b60096-523e-4908-90e1-64609170e9d1",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT4-493360",
+                "shortName": "25 Test Team"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-24",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "e95f8058-892c-4f21-8fc3-6b168362de1f",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT4-568486",
+                "shortName": "UK Payroll"
+            },
+            "departmentDescription": "payroll will available under this teams",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-15",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "21e3a494-f352-43b3-b660-879548470857",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT6-711460",
+                "shortName": "Future Team"
+            },
+            "departmentDescription": "Future date check",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-31",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "634f707e-7146-47b9-b22d-af17ff2a5fae",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT1-732730",
+                "shortName": "22 Dev Test 171.2"
+            },
+            "departmentDescription": "Check the Employee two and three status .\\nTwo - should be inactive in Dev team\\nVerify the report",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-22",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "228f278c-3cf5-4f42-a6fb-af50df7c8447",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT6-463082",
+                "shortName": "16 Dev Team 1 CH"
+            },
+            "departmentDescription": "Check this tmrw",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-15",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "000757d1-8772-4b70-9fcc-b49ec1ed1022",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT2-879371",
+                "shortName": "22 Dev team .2"
+            },
+            "departmentDescription": "check the exiting Dev team report employee 2 and 3",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-21",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "2b12510a-de39-4f7f-8544-bae101f8a131",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT3-577053",
+                "shortName": "23 PO Team"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-22",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "5d59703d-4693-4469-b8fd-c4ebb3883bd9",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT7-41515",
+                "shortName": "16 DEV team 2 CH"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-15",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "98e72100-2b62-4c05-8fa0-c6379326d8d7",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT5-156506",
+                "shortName": "PO Team"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-15",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "bccfb0a9-369d-496c-9a26-eb8834b3e3ad",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT5-962748",
+                "shortName": "Testing"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-12",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "40f0feea-f716-4520-a0a7-f78debbdac58",
+            "organizationName": "Non-Hierarchical teams",
+            "departmentCode": {
+                "codeValue": "MT1-75075",
+                "shortName": "17 PO team -1"
+            },
+            "departmentDescription": "Test",
+            "activeIndicator": false,
+            "effectiveDate": "2020-09-17",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "11",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Teams",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "fb65c36f-a4f0-49ec-8d46-0aa6d5458fba",
+            "organizationName": "Organisational",
+            "departmentCode": {
+                "codeValue": "COM001",
+                "shortName": "Company1"
+            },
+            "departmentDescription": "Testing company",
+            "activeIndicator": false,
+            "effectiveDate": "2020-10-11",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "0",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Company",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "6653ff69-1ddd-4285-9d63-22b9040be14d",
+            "organizationName": "Organisational",
+            "departmentCode": {
+                "codeValue": "OC001",
+                "shortName": "Org Company"
+            },
+            "departmentDescription": "Testing Org",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-12",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "0",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Company",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "bf0b667b-b8b8-410b-ac59-2a8fc5be77fc",
+            "organizationName": "Organisational",
+            "departmentCode": {
+                "codeValue": "TC002",
+                "shortName": "Tata Company"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "0",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Company",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "0e9e7e6f-6a93-42c0-b304-50367cdc4e54",
+            "organizationName": "Organisational",
+            "departmentCode": {
+                "codeValue": "AMA001",
+                "shortName": "Amazon"
+            },
+            "departmentDescription": "Company",
+            "activeIndicator": true,
+            "effectiveDate": "2000-10-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "0",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Company",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "ececf664-846d-4ed5-b557-65d6c54a62fd",
+            "organizationName": "Organisational",
+            "departmentCode": {
+                "codeValue": "UKLLP01",
+                "shortName": "UK LLP"
+            },
+            "departmentDescription": "172 US testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "0",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Company",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "c6554a9d-b1e8-469e-8db3-963d33f674ee",
+            "organizationName": "Organisational",
+            "departmentCode": {
+                "codeValue": "COMP",
+                "shortName": "Company"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2018-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "0",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Company",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "ded3368c-3bdf-44d9-8360-284b58c1e8d4",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "UKLLP01",
+                "shortName": "UK LLP"
+            },
+            "departmentCode": {
+                "codeValue": "Div001",
+                "shortName": "UK LLP Division"
+            },
+            "departmentDescription": "Divison",
+            "activeIndicator": true,
+            "effectiveDate": "2020-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "1",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Cost Center",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "874d694a-0c2e-4ccd-a12e-47c2a4c12367",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "TC002",
+                "shortName": "Tata Company"
+            },
+            "departmentCode": {
+                "codeValue": "P1",
+                "shortName": "Product"
+            },
+            "departmentDescription": "Product Division",
+            "activeIndicator": false,
+            "effectiveDate": "2022-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "1",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Cost Center",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "9f741ded-5729-42ae-b5d6-5696ce72defd",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "COMP",
+                "shortName": "Company"
+            },
+            "departmentCode": {
+                "codeValue": "ORGDIV",
+                "shortName": "ORG Division"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2020-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "1",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Cost Center",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "01def868-2ec0-42f1-a19c-9a5bdf21aa0d",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "COM001",
+                "shortName": "Company1"
+            },
+            "departmentCode": {
+                "codeValue": "DV001",
+                "shortName": "Division1"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-08",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "1",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Cost Center",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "3f7a41e6-167f-45bb-8d09-4c5088a9a506",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "DV001",
+                "shortName": "Division1"
+            },
+            "departmentCode": {
+                "codeValue": "DT001",
+                "shortName": "Department1"
+            },
+            "departmentDescription": "Department is created",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-11",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "2",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "level",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "cbfc3fd2-ac38-4e9e-971a-91f56884a38f",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "DV001",
+                "shortName": "Division1"
+            },
+            "departmentCode": {
+                "codeValue": "DD001",
+                "shortName": "Deparment2"
+            },
+            "departmentDescription": "testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-12",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "2",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "level",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "fc051fe8-230d-4f41-8f2c-a62184231ec4",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "Div001",
+                "shortName": "UK LLP Division"
+            },
+            "departmentCode": {
+                "codeValue": "UKT001",
+                "shortName": "UK Team"
+            },
+            "departmentDescription": "UK Team",
+            "activeIndicator": true,
+            "effectiveDate": "2020-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "2",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "level",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "b1fde759-c6c2-43fe-8e66-501e927213a2",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "UKT001",
+                "shortName": "UK Team"
+            },
+            "departmentCode": {
+                "codeValue": "UKS001",
+                "shortName": "UK Sub team"
+            },
+            "departmentDescription": "UK sub team",
+            "activeIndicator": true,
+            "effectiveDate": "2020-01-01",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "3",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Team",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "368ca3e1-e71e-4598-9ad3-9527a15e4d33",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "DT001",
+                "shortName": "Department1"
+            },
+            "departmentCode": {
+                "codeValue": "TT001",
+                "shortName": "Team1"
+            },
+            "departmentDescription": "Team created",
+            "activeIndicator": false,
+            "effectiveDate": "2020-10-11",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "3",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Team",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "c6efcf1a-d233-4927-91c8-2862a3f2aad0",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "TT001",
+                "shortName": "Team1"
+            },
+            "departmentCode": {
+                "codeValue": "ST01",
+                "shortName": "Sub Team1"
+            },
+            "departmentDescription": "Create Sub team",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-07",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "4",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Sub Team",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "0b56acac-1162-4c82-bddb-6bfd3e09cff1",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "UKS001",
+                "shortName": "UK Sub team"
+            },
+            "departmentCode": {
+                "codeValue": "UK",
+                "shortName": "UK ST"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-09",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "4",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Sub Team",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        },
+        {
+            "itemID": "dfcbf0bd-3717-4cd2-9993-f278788b7f9c",
+            "organizationName": "Organisational",
+            "parentDepartmentCode": {
+                "codeValue": "TT001",
+                "shortName": "Team1"
+            },
+            "departmentCode": {
+                "codeValue": "ST2",
+                "shortName": "Sub Team2"
+            },
+            "departmentDescription": "Testing",
+            "activeIndicator": true,
+            "effectiveDate": "2020-10-09",
+            "auxilliaryFields": [
+                {
+                    "stringValue": "4",
+                    "nameCode": {
+                        "codeValue": "Level"
+                    }
+                },
+                {
+                    "stringValue": "Sub Team",
+                    "nameCode": {
+                        "codeValue": "Type"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -118,48 +118,38 @@
           "optional": false,
           "dataType": "string[date]",
           "equals": [
-            "2023-02-06",
-            "2023-02-13",
-            "2023-02-20",
-            "2023-02-27",
-            "2023-03-06",
-            "2023-03-13",
-            "2023-03-20",
-            "2023-03-27"
+            "2023-02-12",
+            "2023-02-19",
+            "2023-02-26",
+            "2023-03-05",
+            "2023-03-12",
+            "2023-03-19"
           ],
           "valueSet": {
             "valueSetListItems": [
               {
-                "idValue": "2023-02-06",
-                "itemDescription": "Period 45 2022/23"
+                "idValue": "2023-02-12",
+                "itemDescription": "Period 47 Paid on 24/02/2023 (12/02/2023 to 18/02/2023) (Processing)"
               },
               {
-                "idValue": "2023-02-13",
-                "itemDescription": "Period 46 2022/23"
+                "idValue": "2023-02-19",
+                "itemDescription": "Period 48 Paid on 03/03/2023 (19/02/2023 to 25/02/2023) (Not Open)"
               },
               {
-                "idValue": "2023-02-20",
-                "itemDescription": "Period 47 2022/23"
+                "idValue": "2023-02-26",
+                "itemDescription": "Period 49 Paid on 10/03/2023 (26/02/2023 to 04/03/2023) (Not Open)"
               },
               {
-                "idValue": "2023-02-27",
-                "itemDescription": "Period 48 2022/23"
+                "idValue": "2023-03-05",
+                "itemDescription": "Period 50 Paid on 17/03/2023 (05/03/2023 to 11/03/2023) (Not Open)"
               },
               {
-                "idValue": "2023-03-06",
-                "itemDescription": "Period 49 2022/23"
+                "idValue": "2023-03-12",
+                "itemDescription": "Period 51 Paid on 24/03/2023 (12/03/2023 to 18/03/2023) (Not Open)"
               },
               {
-                "idValue": "2023-03-13",
-                "itemDescription": "Period 50 2022/23"
-              },
-              {
-                "idValue": "2023-03-20",
-                "itemDescription": "Period 51 2022/23"
-              },
-              {
-                "idValue": "2023-03-27",
-                "itemDescription": "Period 52 2022/23"
+                "idValue": "2023-03-19",
+                "itemDescription": "Period 52 Paid on 31/03/2023 (19/03/2023 to 25/03/2023) (Not Open)"
               }
             ]
           }
@@ -168,48 +158,38 @@
           "optional": false,
           "dataType": "string[date]",
           "equals": [
-            "2023-02-12",
-            "2023-02-19",
-            "2023-02-26",
-            "2023-03-05",
-            "2023-03-12",
-            "2023-03-19",
-            "2023-03-26",
-            "2023-04-02"
+            "2023-02-18",
+            "2023-02-25",
+            "2023-03-04",
+            "2023-03-11",
+            "2023-03-18",
+            "2023-04-25"
           ],
           "valueSet": {
             "valueSetListItems": [
               {
-                "idValue": "2023-02-12",
-                "itemDescription": "Period 45 2022/23"
+                "idValue": "2023-02-18",
+                "itemDescription": "Period 47 Paid on 24/02/2023 (12/02/2023 to 18/02/2023) (Processing)"
               },
               {
-                "idValue": "2023-02-19",
-                "itemDescription": "Period 46 2022/23"
+                "idValue": "2023-02-25",
+                "itemDescription": "Period 48 Paid on 03/03/2023 (19/02/2023 to 25/02/2023) (Not Open)"
               },
               {
-                "idValue": "2023-02-26",
-                "itemDescription": "Period 47 2022/23"
+                "idValue": "2023-03-04",
+                "itemDescription": "Period 49 Paid on 10/03/2023 (26/02/2023 to 04/03/2023) (Not Open)"
               },
               {
-                "idValue": "2023-03-05",
-                "itemDescription": "Period 48 2022/23"
+                "idValue": "2023-03-11",
+                "itemDescription": "Period 50 Paid on 17/03/2023 (05/03/2023 to 11/03/2023) (Not Open)"
               },
               {
-                "idValue": "2023-03-12",
-                "itemDescription": "Period 49 2022/23"
+                "idValue": "2023-03-18",
+                "itemDescription": "Period 51 Paid on 24/03/2023 (12/03/2023 to 18/03/2023) (Not Open)"
               },
               {
-                "idValue": "2023-03-19",
-                "itemDescription": "Period 50 2022/23"
-              },
-              {
-                "idValue": "2023-03-26",
-                "itemDescription": "Period 51 2022/23"
-              },
-              {
-                "idValue": "2023-04-02",
-                "itemDescription": "Period 52 2022/23"
+                "idValue": "2023-03-25",
+                "itemDescription": "Period 52 Paid on 31/03/2023 (19/03/2023 to 25/03/2023) (Not Open)"
               }
             ]
           }

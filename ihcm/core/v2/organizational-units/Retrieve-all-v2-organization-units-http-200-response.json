@@ -1,0 +1,577 @@
+{
+    "organizationalUnits": [
+        {
+            "unitID": "0e8acd44-3263-55b4-b5ba-056613d46c2c",
+            "unitName": "NLAtlas Test Comp",
+            "nameCode": {
+                "code": "421",
+                "name": "NLAtlas Test Comp"
+            },
+            "legalName": "NLAtlas Test Comp",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2000-05-02"
+            }
+        },
+        {
+            "unitID": "06ec99e2-fef8-4c00-b884-05d519ee9c4d",
+            "unitName": "Dep 1-93348",
+            "nameCode": {
+                "code": "933481",
+                "name": "Dep 1-93348"
+            },
+            "legalName": "Dep 1-93348",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "d828c43e-7c7e-4ad0-94bf-0950291c842f",
+            "unitName": "NL Company",
+            "nameCode": {
+                "code": "93368",
+                "name": "NL Company"
+            },
+            "legalName": "NL Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "07904199-e0b7-415e-985e-123885224500",
+            "unitName": "SG Company",
+            "nameCode": {
+                "code": "93418",
+                "name": "SG Company"
+            },
+            "legalName": "SG Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "cea86aa6-3ae3-4175-a02e-2c96d06d47ef",
+            "unitName": "DIVISION",
+            "nameCode": {
+                "code": "526235",
+                "name": "DIVISION"
+            },
+            "legalName": "DIVISION",
+            "parentOrganizationalUnitID": "366ec53d-b2ba-47b7-a05b-542197772c57",
+            "typeCode": {
+                "name": "Level 1"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1980-01-01"
+            }
+        },
+        {
+            "unitID": "f8ffb47d-2dc8-46bb-847e-2dd1c604df83",
+            "unitName": "Comp",
+            "nameCode": {
+                "code": "ESComp",
+                "name": "Comp"
+            },
+            "legalName": "Comp",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "unitID": "867d1665-4f43-274a-b667-36a29c5759ef",
+            "unitName": "NL Company 33789",
+            "nameCode": {
+                "code": "33789",
+                "name": "NL Company 33789"
+            },
+            "legalName": "NL Company 33789",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "718dd625-6bab-4183-a109-3886bf76f87c",
+            "unitName": "DEPARTMENT",
+            "nameCode": {
+                "code": "569325",
+                "name": "DEPARTMENT"
+            },
+            "legalName": "DEPARTMENT",
+            "parentOrganizationalUnitID": "cea86aa6-3ae3-4175-a02e-2c96d06d47ef",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1980-01-01"
+            }
+        },
+        {
+            "unitID": "0a58ead0-d2d8-4c77-9ad1-3d9ae75264c7",
+            "unitName": "IT Company",
+            "nameCode": {
+                "code": "93388",
+                "name": "IT Company"
+            },
+            "legalName": "IT Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "8b965c7f-49d9-4fe2-bdfb-52c1757e9211",
+            "unitName": "IE Company",
+            "nameCode": {
+                "code": "93499",
+                "name": "IE Company"
+            },
+            "legalName": "IE Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "366ec53d-b2ba-47b7-a05b-542197772c57",
+            "unitName": "ADP COMPANY",
+            "nameCode": {
+                "code": "545555",
+                "name": "ADP COMPANY"
+            },
+            "legalName": "ADP COMPANY",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1980-01-01"
+            }
+        },
+        {
+            "unitID": "8c58b89b-aee9-464e-8458-59ffc7ba1d54",
+            "unitName": "Company 93504",
+            "nameCode": {
+                "code": "93504",
+                "name": "Company 93504"
+            },
+            "legalName": "Company 93504",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "61626406-8f89-4ae4-ba27-5b595750d626",
+            "unitName": "Dep 1-93346",
+            "nameCode": {
+                "code": "933461",
+                "name": "Dep 1-93346"
+            },
+            "legalName": "Dep 1-93346",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "2377ad8f-7c0e-4e1f-8b35-627ef7afdbc2",
+            "unitName": "CN Company",
+            "nameCode": {
+                "code": "93408",
+                "name": "CN Company"
+            },
+            "legalName": "CN Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "e294ea76-8a92-45c8-8983-6e30a693ae5e",
+            "unitName": "Company 94406",
+            "nameCode": {
+                "code": "94406",
+                "name": "Company 94406"
+            },
+            "legalName": "Company 94406",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "2dbf3d4d-3f7e-49a8-a002-8633a23271ce",
+            "unitName": "PH Company",
+            "nameCode": {
+                "code": "94399",
+                "name": "PH Company"
+            },
+            "legalName": "PH Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "4da227a1-3c9c-4046-b427-8d7c4d9f0ad0",
+            "unitName": "GB Company",
+            "nameCode": {
+                "code": "93358",
+                "name": "GB Company"
+            },
+            "legalName": "GB Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "38240bc4-39b2-4143-b43e-8f20502f28e0",
+            "unitName": "Dep 2-93348",
+            "nameCode": {
+                "code": "933482",
+                "name": "Dep 2-93348"
+            },
+            "legalName": "Dep 2-93348",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "71e80c67-1876-40f0-a827-91036a5ece53",
+            "unitName": "NLAtlas Test Div",
+            "nameCode": {
+                "code": "521",
+                "name": "NLAtlas Test Div"
+            },
+            "legalName": "NLAtlas Test Div",
+            "parentOrganizationalUnitID": "0e8acd44-3263-55b4-b5ba-056613d46c2c",
+            "typeCode": {
+                "name": "Level 1"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2000-05-02"
+            }
+        },
+        {
+            "unitID": "3b42a64a-b3a8-4373-84cd-93cdbbb3df60",
+            "unitName": "NL Company 93346",
+            "nameCode": {
+                "code": "93346",
+                "name": "NL Company 93346"
+            },
+            "legalName": "NL Company 93346",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "de360bfd-5853-44f3-bf17-963a54b161f6",
+            "unitName": "Test Company",
+            "nameCode": {
+                "code": "COMP1",
+                "name": "Test Company"
+            },
+            "legalName": "Test Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "0f1ce367-227c-40e1-a79d-967c1046bba0",
+            "unitName": "HR Company",
+            "nameCode": {
+                "code": "93428",
+                "name": "HR Company"
+            },
+            "legalName": "HR Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "d51ac104-9099-443a-aee1-99ceb789338b",
+            "unitName": "DE Comp",
+            "nameCode": {
+                "code": "DECOMP",
+                "name": "DE Comp"
+            },
+            "legalName": "DE Comp",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "unitID": "39eeb261-6984-400f-8b08-a15a6e32dba0",
+            "unitName": "Dep 2-93346",
+            "nameCode": {
+                "code": "933462",
+                "name": "Dep 2-93346"
+            },
+            "legalName": "Dep 2-93346",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "e5735cf5-6b32-4207-a146-ab2fce39d0ea",
+            "unitName": "Company 93503",
+            "nameCode": {
+                "code": "93503",
+                "name": "Company 93503"
+            },
+            "legalName": "Company 93503",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "2d5498c3-e7ff-4a6b-8850-bcedf89313b0",
+            "unitName": "Sales",
+            "nameCode": {
+                "code": "S01",
+                "name": "Sales"
+            },
+            "legalName": "Sales",
+            "typeCode": {
+                "name": "Level 4"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2022-06-01"
+            }
+        },
+        {
+            "unitID": "ec8402ae-ab81-4729-9c40-c81906959f4f",
+            "unitName": "DIVA1",
+            "nameCode": {
+                "code": "COMP1456",
+                "name": "DIVA1"
+            },
+            "legalName": "DIVA1",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "4bd3e452-786c-45f2-b9f5-cf03d793dc66",
+            "unitName": "Marketing",
+            "nameCode": {
+                "code": "M01",
+                "name": "Marketing"
+            },
+            "legalName": "Marketing",
+            "typeCode": {
+                "name": "Level 4"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2022-06-01"
+            }
+        },
+        {
+            "unitID": "ce2b8169-dda6-4650-912f-e034ac26d888",
+            "unitName": "DIVA3",
+            "nameCode": {
+                "code": "COMP1872",
+                "name": "DIVA3"
+            },
+            "legalName": "DIVA3",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "c4cf9b19-cc27-4517-9a48-e05b29172fe4",
+            "unitName": "NL Company 93348",
+            "nameCode": {
+                "code": "93348",
+                "name": "NL Company 93348"
+            },
+            "legalName": "NL Company 93348",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "c88e6f87-1ed5-4751-83c7-e4761282fe5b",
+            "unitName": "IT Comp",
+            "nameCode": {
+                "code": "ITC",
+                "name": "IT Comp"
+            },
+            "legalName": "IT Comp",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "unitID": "3ee92bfe-eb78-44d2-8906-e60005a0e0b7",
+            "unitName": "DIVA2",
+            "nameCode": {
+                "code": "COMP1789",
+                "name": "DIVA2"
+            },
+            "legalName": "DIVA2",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "c1101a98-bb8f-47ea-ba4b-e8eb11c47c5c",
+            "unitName": "ES Company",
+            "nameCode": {
+                "code": "93398",
+                "name": "ES Company"
+            },
+            "legalName": "ES Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "1b37f3ba-0426-4797-b9c9-f01856da21f9",
+            "unitName": "Dep 1-93503",
+            "nameCode": {
+                "code": "935031",
+                "name": "Dep 1-93503"
+            },
+            "legalName": "Dep 1-93503",
+            "typeCode": {
+                "name": "Level 2"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "fefdf3de-ec0d-4d9b-97f8-f1e0527743c4",
+            "unitName": "HK Company",
+            "nameCode": {
+                "code": "93429",
+                "name": "HK Company"
+            },
+            "legalName": "HK Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "dd9787e6-567d-4dff-8464-f425702883ad",
+            "unitName": "uk company",
+            "nameCode": {
+                "code": "ukcomp",
+                "name": "uk company"
+            },
+            "legalName": "uk company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "2000-01-01"
+            }
+        },
+        {
+            "unitID": "9de150b8-9209-4e8a-ac8e-f655a7c28c9f",
+            "unitName": "DE Company",
+            "nameCode": {
+                "code": "93378",
+                "name": "DE Company"
+            },
+            "legalName": "DE Company",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        },
+        {
+            "unitID": "2c7f4dc7-3d58-494a-a3b8-ffaa22700ddd",
+            "unitName": "ADP Germany Pvt Ltd",
+            "nameCode": {
+                "code": "DE001",
+                "name": "ADP Germany Pvt Ltd"
+            },
+            "legalName": "ADP Germany Pvt Ltd",
+            "typeCode": {
+                "name": "Company"
+            },
+            "effectiveDatePeriod": {
+                "startDate": "1900-01-01"
+            }
+        }
+    ]
+}
