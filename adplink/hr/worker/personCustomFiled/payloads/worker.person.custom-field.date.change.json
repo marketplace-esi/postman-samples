@@ -12,8 +12,8 @@
                         }
                     }
                 }
-             },
-             "transform": {
+            },
+            "transform": {
                 "worker": {
                     "person": {
                         "customFieldGroup": {
