@@ -1,33 +1,29 @@
 {
     "events": [{
-            "data": {
-                "eventContext": {
-                    "worker": {
-                        "associateOID": "employee-abc",
-                        "person": {
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "employee-abc",
+                    "person": {
                         "customFieldGroup": {
                             "codeField": {
-                            "itemID": "typeContrat"
+                                "itemID": "typeContrat"
                             }
                         }
-                        }
                     }
-                 },
-				 "transform": {
-                    "worker": {
-                        "person": {
-                            "customFieldGroup": {
-                                "codeField": 
-                                    {
-                                        "codeValue": "01"
-                                       
-                                    }
-                                
+                }
+            },
+            "transform": {
+                "worker": {
+                    "person": {
+                        "customFieldGroup": {
+                            "codeField": {
+                                "codeValue": "01"
                             }
                         }
                     }
                 }
             }
         }
-    ]
+    }]
 }
