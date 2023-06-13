@@ -17,10 +17,9 @@
                 "worker": {
                     "person": {
                         "customFieldGroup": {
-                            "dateField": 
-                                {
-                                    "dateValue": "2010-10-15"
-                                }
+                            "dateField": {
+                                "dateValue": "2010-10-15"
+                            }
                         }
                     }
                 }
