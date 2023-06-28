@@ -1,0 +1,21 @@
+{
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "requestStatus": "success",
+    "applicationID": "5cbddc06-b815-4c7a-b4f7-90080044beda",
+    "messageID": "df63b10e-bdc1-4b46-aa4c-e6ca7ac2711a",
+    "messageDateTime": "2023-06-11T12:54:48.604119\u002B00:00",
+    "messages": [
+      {
+        "messageTargetCode": "developer",
+        "processMessageIndicator": false,
+        "messageTypeCode": "success",
+        "resourceID": "d70d9a78-617c-4b88-9452-090316d8de67",
+        "messageText": "Request Processed",
+        "resourceStatus": "success"
+      }
+    ],
+    "resourceMessages": [],
+    "links": []
+  }
+}
