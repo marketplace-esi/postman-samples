@@ -1,0 +1,497 @@
+{
+  "codeLists": [
+    {
+      "codeListTitle": "job-titles",
+      "listItems": [
+        {
+          "codeValue": "45",
+          "shortName": "Account Management Team Leader",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "46",
+          "shortName": "Account Manager",
+          "longName": "SalesOrServices"
+        },
+        {
+          "codeValue": "ARP20",
+          "shortName": "Accountant",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "15",
+          "shortName": "Accountant",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "ARP11",
+          "shortName": "Accounting Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "20",
+          "shortName": "Accounts Administrator",
+          "longName": "ADMIN"
+        },
+        {
+          "codeValue": "17",
+          "shortName": "Accounts Clerk",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "19",
+          "shortName": "Accounts Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP45",
+          "shortName": "Advertising Executive",
+          "longName": "Marketing"
+        },
+        {
+          "codeValue": "ARP35",
+          "shortName": "Area Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "22",
+          "shortName": "Asia Sales Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP57",
+          "shortName": "Assistant Buyer",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "ARP56",
+          "shortName": "Assistant HR Business Partner",
+          "longName": "ADMIN"
+        },
+        {
+          "codeValue": "21",
+          "shortName": "Banking Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP10",
+          "shortName": "Billing Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP19",
+          "shortName": "Billing Representative",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "041",
+          "shortName": "Business Analyst",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "040",
+          "shortName": "Business Analyst Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP44",
+          "shortName": "Buyer",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "58",
+          "shortName": "Campaign Assistant",
+          "longName": "Marketing"
+        },
+        {
+          "codeValue": "52",
+          "shortName": "Campaign Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "27",
+          "shortName": "Chief Accountant",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP1",
+          "shortName": "Chief Executive Officer",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP2",
+          "shortName": "Chief Financial Officer",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP3",
+          "shortName": "Chief Human Resource Officer",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP4",
+          "shortName": "Chief Information Officer",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP29",
+          "shortName": "Chief Operating Officer",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "032",
+          "shortName": "Client Trainer",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "046",
+          "shortName": "Client UAT Consultant",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "045",
+          "shortName": "Client UAT Team Lead",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "51",
+          "shortName": "Communication Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "55",
+          "shortName": "Communications Assistant",
+          "longName": "Marketing"
+        },
+        {
+          "codeValue": "050",
+          "shortName": "Credit Control",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "ARP18",
+          "shortName": "Credit Controller",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "ARP9",
+          "shortName": "Credit Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP34",
+          "shortName": "Customer Service Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP42",
+          "shortName": "Customer Service Representative",
+          "longName": "SalesOrServices"
+        },
+        {
+          "codeValue": "43",
+          "shortName": "Customer Services Advisor",
+          "longName": "Support"
+        },
+        {
+          "codeValue": "40",
+          "shortName": "Customer Services Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "42",
+          "shortName": "Customer Services Supervisor",
+          "longName": "SalesOrServices"
+        },
+        {
+          "codeValue": "0840",
+          "shortName": "Database Administrator"
+        },
+        {
+          "codeValue": "ARP53",
+          "shortName": "Department Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "AB1019",
+          "shortName": "Develop"
+        },
+        {
+          "codeValue": "AB1021",
+          "shortName": "Develop"
+        },
+        {
+          "codeValue": "F103",
+          "shortName": "Develop"
+        },
+        {
+          "codeValue": "219",
+          "shortName": "Developer",
+          "longName": "140 - Finance"
+        },
+        {
+          "codeValue": "ARP26",
+          "shortName": "Developer",
+          "longName": "Support"
+        },
+        {
+          "codeValue": "11",
+          "shortName": "Development Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP7",
+          "shortName": "Development Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "023",
+          "shortName": "Development Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP24",
+          "shortName": "Development Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "024",
+          "shortName": "Development Team Leader",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP30",
+          "shortName": "Director of Customer Service",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP32",
+          "shortName": "Director of Merchandising \u0026 Promotion",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP31",
+          "shortName": "Director of Operations",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP51",
+          "shortName": "Dispatch Clerk",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "2",
+          "shortName": "EMEA Sales Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "1005",
+          "shortName": "EMPLOYEE"
+        },
+        {
+          "codeValue": "ARP46",
+          "shortName": "Events Planner",
+          "longName": "Marketing"
+        },
+        {
+          "codeValue": "ARP16",
+          "shortName": "Facilities Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "039",
+          "shortName": "Field Sales Executive",
+          "longName": "SalesOrServices"
+        },
+        {
+          "codeValue": "038",
+          "shortName": "Field Sales Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "10018",
+          "shortName": "Finance"
+        },
+        {
+          "codeValue": "10014",
+          "shortName": "Finance"
+        },
+        {
+          "codeValue": "10013",
+          "shortName": "Finance"
+        },
+        {
+          "codeValue": "ADP102",
+          "shortName": "Finance Administrator",
+          "longName": "Finance"
+        },
+        {
+          "codeValue": "5",
+          "shortName": "Finance Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP5",
+          "shortName": "Finance Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "14",
+          "shortName": "Financial Controller",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "0756",
+          "shortName": "First Aider"
+        },
+        {
+          "codeValue": "ARP38",
+          "shortName": "Fulfillment Manager",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "56",
+          "shortName": "Global Sales Manager",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP39",
+          "shortName": "Goods Inward Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP40",
+          "shortName": "Goods Outward Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "6",
+          "shortName": "Head of People",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "028",
+          "shortName": "HR Assistant",
+          "longName": "Clerical"
+        },
+        {
+          "codeValue": "027",
+          "shortName": "HR Business Partner",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "ARP21",
+          "shortName": "HR Business Partner",
+          "longName": "ADMIN"
+        },
+        {
+          "codeValue": "ARP6",
+          "shortName": "HR Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP12",
+          "shortName": "HR Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "00991",
+          "shortName": "IHCM - Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "044",
+          "shortName": "Implementation Consultant",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "034",
+          "shortName": "Implementation Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "042",
+          "shortName": "Implementation Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "043",
+          "shortName": "Implementation Team Lead",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "033",
+          "shortName": "Internal Trainer",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "ARP52",
+          "shortName": "Inventory Clerk",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "ARP41",
+          "shortName": "Inventory Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "ARP8",
+          "shortName": "IT Director",
+          "longName": "Director"
+        },
+        {
+          "codeValue": "ARP17",
+          "shortName": "IT Manager",
+          "longName": "Manager"
+        },
+        {
+          "codeValue": "0995",
+          "shortName": "Jnr QA Engineering Manager",
+          "longName": "Clerical"
+        },
+        {
+          "codeValue": "1234ADP15",
+          "shortName": "Jnr QA Manager",
+          "longName": "Clerical"
+        },
+        {
+          "codeValue": "09956",
+          "shortName": "Jnr QA Manager",
+          "longName": "Clerical"
+        },
+        {
+          "codeValue": "09957",
+          "shortName": "Jnr QA Manager",
+          "longName": "Clerical"
+        },
+        {
+          "codeValue": "026",
+          "shortName": "Junior Developer",
+          "longName": "Other"
+        },
+        {
+          "codeValue": "0724",
+          "shortName": "LGL - Associate Solicitor",
+          "longName": "Solicitor"
+        },
+        {
+          "codeValue": "0692",
+          "shortName": "LGL - Managing Partner"
+        },
+        {
+          "codeValue": "0636",
+          "shortName": "LGL - Paralegal"
+        },
+        {
+          "codeValue": "0708",
+          "shortName": "LGL - Partner"
+        },
+        {
+          "codeValue": "0716",
+          "shortName": "LGL - Senior Associate Solicitor",
+          "longName": "Solicitor"
+        }
+      ]
+    }
+  ]
+}

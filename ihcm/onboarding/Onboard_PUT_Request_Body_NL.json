@@ -1,0 +1,104 @@
+{
+    "applicantOnboarding": {
+        "applicantID": "8df9ca4a-ed48-439c-beab-5407c9591b3e",
+        "workerID": {
+            "id": "1265554"
+        },
+        "applicantPersonalProfile": {
+            "legalName": {
+                "givenName": "Sylvia",
+                "familyName": "Kristel",
+                "titles": [
+                    "Miss."
+                ],
+                "familyName2Prefix": " Kristel"
+            },
+            "genderCode": {
+                "code": "Female"
+            },
+            "birthDate": "1998-06-23",
+            "languageCode": {
+                "code": "en-GB"
+            },
+            "communication": {
+                "mobiles": [
+                    {
+                        "formattedNumber": "2345677"
+                    }
+                ],
+                "emails": [
+                    {
+                        "emailUri": "Jason@adpNL.com"
+                    }
+                ]
+            }
+        },
+        "applicantWorkerProfile": {
+            "reportsTo": [
+                {
+                    "workerID": {
+                        "id": "48669-666"
+                    },
+                    "reportsToWorkerName": {
+                        "formattedName": "Jane Van Doe"
+                    }
+                }
+            ],
+            "job": {
+                "jobCode": {
+                    "code": "9408",
+                    "name": "Accountmanager"
+                }
+            },
+            "hireDate": "2023-06-01",
+            "homeWorkLocation": {
+                "nameCode": {
+                    "code": "1",
+                    "name": "Amsterdam"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "emailUri": "Krystal@city.com"
+                    }
+                ]
+            },
+            "customFieldGroup": {
+                "stringFields": [
+                    {
+                        "nameCode": {
+                            "code": "JobDetails.CompanyRef"
+                        },
+                        "stringValue": "48669"
+                    }
+                ],
+                "indicatorFields": [
+                    {
+                        "nameCode": {
+                            "code": "Anonymous Employee"
+                        },
+                        "indicatorValue": true
+                    }
+                ]
+            }
+        },
+        "onboardingChecklists": [
+            {
+                "checklistCode": {
+                    "code": "Standard Checklist"
+                },
+                "accessGroup": {
+                    "groupCode": {
+                        "code": "Employee"
+                    }
+                }
+            }
+        ],
+        "onboardingStatus": {
+            "statusCode": {
+                "code": "T"
+            }
+        }
+    }
+}

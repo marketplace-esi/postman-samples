@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "/applicantOnboarding": {
+      "hidden": true,
+      "sequence": 0,
+      "shortLabelName": ", ",
+      "longLabelName": ", ",
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantID": {
+      "readOnly": false,
+      "optional": false,
+      "dataType": "guid"
+    },
+    "/applicantOnboarding/applicantPersonalProfile": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/birthDate": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "datetime"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/communication/emails": {
+      "readOnly": true,
+      "minItems": 0,
+      "uniqueItems": true,
+      "dataType": "array"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/communication/emails/emailUri": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "string"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/communication/mobiles": {
+      "readOnly": true,
+      "minItems": 0,
+      "uniqueItems": true,
+      "dataType": "array"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/communication/mobiles/formattedNumber": {
+      "readOnly": true,
+      "optional": true,
+      "minLength": 0,
+      "maxLength": 20,
+      "dataType": "string"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/genderCode": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/genderCode/code": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "string",
+      "codeList": {
+        "codeListTitle": "Gender of a person.",
+        "listItems": [
+          {
+            "codeValue": "D",
+            "shortName": "Diverse",
+            "longName": "Diverse"
+          },
+          {
+            "codeValue": "Female",
+            "shortName": "Female",
+            "longName": "Female"
+          },
+          {
+            "codeValue": "M",
+            "shortName": "Male",
+            "longName": "Male"
+          },
+          {
+            "codeValue": "Male",
+            "shortName": "Male",
+            "longName": "Male"
+          },
+          {
+            "codeValue": "Transgender",
+            "shortName": "Transgender",
+            "longName": "Transgender"
+          },
+          {
+            "codeValue": "U",
+            "shortName": "Unknown",
+            "longName": "Unknown"
+          },
+          {
+            "codeValue": "Unspecified",
+            "shortName": "Unspecified",
+            "longName": "Unspecified"
+          },
+          {
+            "codeValue": "W",
+            "shortName": "Female",
+            "longName": "Female"
+          }
+        ]
+      }
+    },
+    "/applicantOnboarding/applicantPersonalProfile/legalName": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/legalName/familyName": {
+      "readOnly": true,
+      "optional": true,
+      "minLength": 0,
+      "maxLength": 50,
+      "dataType": "string"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/legalName/givenName": {
+      "readOnly": true,
+      "optional": true,
+      "minLength": 0,
+      "maxLength": 50,
+      "dataType": "string"
+    },
+    "/applicantOnboarding/applicantPersonalProfile/legalName/titles": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "string",
+      "codeList": {
+        "codeListTitle": "Title.",
+        "listItems": [
+          {
+            "codeValue": "Ms",
+            "shortName": "Ms.",
+            "longName": "Ms."
+          },
+          {
+            "codeValue": "Dr",
+            "shortName": "Dr.",
+            "longName": "Dr."
+          },
+          {
+            "codeValue": "M",
+            "shortName": "M.",
+            "longName": "M."
+          },
+          {
+            "codeValue": "Mis",
+            "shortName": "Ms.",
+            "longName": "Ms."
+          },
+          {
+            "codeValue": "Miss",
+            "shortName": "Miss.",
+            "longName": "Miss."
+          },
+          {
+            "codeValue": "MM",
+            "shortName": "MM.",
+            "longName": "MM."
+          },
+          {
+            "codeValue": "Mr",
+            "shortName": "Mr.",
+            "longName": "Mr."
+          },
+          {
+            "codeValue": "Mrs",
+            "shortName": "Mrs.",
+            "longName": "Mrs."
+          }
+        ]
+      }
+    },
+    "/applicantOnboarding/applicantWorkerProfile": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/businessCommunication/emails": {
+      "readOnly": true,
+      "minItems": 0,
+      "uniqueItems": true,
+      "dataType": "array"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/businessCommunication/emails/emailUri": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "string"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/customFieldGroup/stringFields": {
+      "readOnly": true,
+      "minItems": 0,
+      "uniqueItems": true,
+      "dataType": "array"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/customFieldGroup/stringFields/stringValue": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "guid"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/hireDate": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "datetime"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/homeWorkLocation/nameCode": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/homeWorkLocation/nameCode/name": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "guid"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/job/jobCode": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/job/jobCode/name": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "guid"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/reportsTo/reportsToWorkerName": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/applicantWorkerProfile/reportsTo/reportsToWorkerName/formattedName": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "guid"
+    },
+    "/applicantOnboarding/onboardingStatus/statusCode": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/onboardingStatus/statusCode/code": {
+      "readOnly": true,
+      "optional": true,
+      "dataType": "string",
+      "codeList": {
+        "codeListTitle": "Status for onboarding.",
+        "listItems": [
+          {
+            "codeValue": "C",
+            "shortName": "Cancelled",
+            "longName": "Cancelled"
+          },
+          {
+            "codeValue": "H",
+            "shortName": "Hired",
+            "longName": "Hired"
+          },
+          {
+            "codeValue": "T",
+            "shortName": "To be Onboarded",
+            "longName": "To be Onboarded"
+          }
+        ]
+      }
+    },
+    "/applicantOnboarding/workerID": {
+      "hidden": true,
+      "sequence": 0,
+      "dataType": "object"
+    },
+    "/applicantOnboarding/workerID/id": {
+      "readOnly": true,
+      "optional": true,
+      "minLength": 0,
+      "maxLength": 20,
+      "dataType": "string"
+    }
+  }
+}

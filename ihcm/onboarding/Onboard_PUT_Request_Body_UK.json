@@ -1,0 +1,80 @@
+{
+    "applicantOnboarding": {
+        "applicantID": "d54704d9-55a8-4eca-a2a5-1c20b013150f",
+        "workerID": {
+            "id": "Tim001"
+        },
+        "applicantPersonalProfile": {
+            "legalName": {
+                "givenName": "Althea",
+                "familyName": "Giber",
+                "titles": [
+                    "Miss."
+                ]
+            },
+            "genderCode": {
+                "code": "Female"
+            },
+            "birthDate": "1970-07-01T11:02:31Z",
+            "communication": {
+                "mobiles": [
+                    {
+                        "formattedNumber": "079171234599"
+                    }
+                ],
+                "emails": [
+                    {
+                        //"emailUri": "Jessica@hotmaail.com"
+                    }
+                ]
+            }
+        },
+        "applicantWorkerProfile": {
+            "reportsTo": [
+                {
+                    "workerID": {
+                        "id": "TLM544"
+                    },
+                    "reportsToWorkerName": {
+                        "formattedName": "Elizabeeth Keane"
+                    }
+                }
+            ],
+            "job": {
+                "jobCode": {
+                    "code": "2",
+                    "name": "EMEA Sales Manager"
+                }
+            },
+            //"hireDate": "2023-04-07",
+            "homeWorkLocation": {
+                "nameCode": {
+                   "code": "ADPPOST_E",
+                    "name": "Envelope and post to home address"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "emailUri": "JessicaWork@adp.com"
+                    }
+                ]
+            },
+            "customFieldGroup": {
+                "stringFields": [
+                    {
+                        "nameCode": {
+                            "code": "JobDetails.CompanyRef"
+                        },
+                        "stringValue": "8787"
+                    }
+                ]
+            }
+        },
+        "onboardingStatus": {
+            "statusCode": {
+                "code": "T"
+            }
+        }
+    }
+}

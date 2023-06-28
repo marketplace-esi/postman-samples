@@ -1,0 +1,139 @@
+{
+  "codeLists": [
+    {
+      "codeListTitle": "locations",
+      "listItems": [
+        {
+          "codeValue": "ADPPOST",
+          "shortName": "Post to home address",
+          "valueDescription": "ADPPOST - Post to home address"
+        },
+        {
+          "codeValue": "ADPPOST_E",
+          "shortName": "Envelope and post to home address",
+          "valueDescription": "ADPPOST_E - Envelope and post to home address"
+        },
+        {
+          "codeValue": "ARPBIR",
+          "shortName": "Birmingham Store",
+          "valueDescription": "ARPBIR - Birmingham Store"
+        },
+        {
+          "codeValue": "ARPBRI",
+          "shortName": "Bristol Store",
+          "valueDescription": "ARPBRI - Bristol Store"
+        },
+        {
+          "codeValue": "ARPCAR",
+          "shortName": "Cardiff Store",
+          "valueDescription": "ARPCAR - Cardiff Store"
+        },
+        {
+          "codeValue": "ARPEDI",
+          "shortName": "Edinburgh Store",
+          "valueDescription": "ARPEDI - Edinburgh Store"
+        },
+        {
+          "codeValue": "ARPHO",
+          "shortName": "ARP Head Office",
+          "valueDescription": "ARPHO - ARP Head Office"
+        },
+        {
+          "codeValue": "ARPLIV",
+          "shortName": "Liverpool Store",
+          "valueDescription": "ARPLIV - Liverpool Store"
+        },
+        {
+          "codeValue": "ARPLON",
+          "shortName": "London Store",
+          "valueDescription": "ARPLON - London Store"
+        },
+        {
+          "codeValue": "ARPMAN",
+          "shortName": "Manchester Store",
+          "valueDescription": "ARPMAN - Manchester Store"
+        },
+        {
+          "codeValue": "ARPNEW",
+          "shortName": "Newcastle Store",
+          "valueDescription": "ARPNEW - Newcastle Store"
+        },
+        {
+          "codeValue": "ARPSOU",
+          "shortName": "Southampton Store",
+          "valueDescription": "ARPSOU - Southampton Store"
+        },
+        {
+          "codeValue": "ARPWAR",
+          "shortName": "ARP Warehouse",
+          "valueDescription": "ARPWAR - ARP Warehouse"
+        },
+        {
+          "codeValue": "ASIA 004",
+          "shortName": "Asia",
+          "valueDescription": "ASIA 004 - Asia"
+        },
+        {
+          "codeValue": "BIR001",
+          "shortName": "Birmingham",
+          "valueDescription": "BIR001 - Birmingham"
+        },
+        {
+          "codeValue": "BirminghaL",
+          "shortName": "LGL Birmingham",
+          "valueDescription": "BirminghaL - LGL Birmingham"
+        },
+        {
+          "codeValue": "Birmingham",
+          "shortName": "MNF - Birmingham",
+          "valueDescription": "Birmingham - MNF - Birmingham"
+        },
+        {
+          "codeValue": "EUROPE 5",
+          "shortName": "Europe",
+          "valueDescription": "EUROPE 5 - Europe"
+        },
+        {
+          "codeValue": "LGL Manc",
+          "shortName": "LGL Manchester",
+          "valueDescription": "LGL Manc - LGL Manchester"
+        },
+        {
+          "codeValue": "LND",
+          "shortName": "MNF - London",
+          "valueDescription": "LND - MNF - London"
+        },
+        {
+          "codeValue": "LON01",
+          "shortName": "London",
+          "valueDescription": "LON01 - London"
+        },
+        {
+          "codeValue": "London",
+          "shortName": "LGL London",
+          "valueDescription": "London - LGL London"
+        },
+        {
+          "codeValue": "MAN01",
+          "shortName": "Manchester",
+          "valueDescription": "MAN01 - Manchester"
+        },
+        {
+          "codeValue": "Manchester",
+          "shortName": "MNF - Manchester",
+          "valueDescription": "Manchester - MNF - Manchester"
+        },
+        {
+          "codeValue": "Newcastle",
+          "shortName": "MNF - Newcastle",
+          "valueDescription": "Newcastle - MNF - Newcastle"
+        },
+        {
+          "codeValue": "USA 6",
+          "shortName": "USA",
+          "valueDescription": "USA 6 - USA"
+        }
+      ]
+    }
+  ]
+}
