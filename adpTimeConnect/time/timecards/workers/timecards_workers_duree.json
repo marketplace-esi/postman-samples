@@ -5,6 +5,9 @@
             "associateOID": "OHBF5332E25255D",
             "actions": [
                 {
+                    /* 
+                        If this section is present, it allows the consumer to download the time card in pdf version.
+                    */
                     "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read",
                     "confirmationRequiredIndicator": false,
                     "actionTypeCode": "callback",
@@ -20,19 +23,31 @@
                 }
             ],
             "dayEntries": [
+                /*
+                This section contains all days in the time card period.
+                */
                 {
                     "exceptions": [
+                        /* This section indicates that an anomaly exists within the day
+                        */
                         {
                             "exceptionTypeCode": {
                                 "codeValue": "error"
                             },
                             "exceptionCode": {
+                                // functional error code
                                 "codeValue": "ANOWP0"
                             },
+                            // functional error message
                             "exceptionDescription": "Présence non saisie"
                         }
                     ],
+                    // date of the day
                     "entryDate": "2023-03-01",
+                    /* status of the day
+                    locked : the day must not be modified (read only)
+                    
+                    */
                     "dayStatusCode": {
                         "effectiveDate": "2023-03-08",
                         "shortName": "Journée hors dates limites de modification",
