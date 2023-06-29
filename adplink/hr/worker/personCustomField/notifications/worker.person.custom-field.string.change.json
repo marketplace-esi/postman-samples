@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "aaccad7c8ed8461f79cce47d",
+            "eventNameCode": {
+                "codeValue": "worker.person.customField.string.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "customFieldGroup": {
+                                "stringField": {
+                                    "stringValue": "VALUE",
+                                    "itemID": "personCustomStringXXX"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
