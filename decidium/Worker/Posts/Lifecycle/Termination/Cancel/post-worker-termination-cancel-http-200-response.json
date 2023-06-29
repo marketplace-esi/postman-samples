@@ -141,15 +141,17 @@
                                     "expirationDate": "2020-06-12",
                                     "issueDate": "2020-03-04",
                                     "typeCode": {
-                                        "codeValue": "visa",
-                                        "shortName": " Visa"
+                                        "codeValue": "visa1",
+                                        "shortName": "Visa 1"
                                     }
                                 },
                                 {
                                     "documentID": "VISA2ID",
+                                    "expirationDate": "2050-01-01",
+                                    "issueDate": "2011-01-01",
                                     "typeCode": {
-                                        "codeValue": "visa",
-                                        "shortName": " Visa"
+                                        "codeValue": "visa2",
+                                        "shortName": "Visa 2"
                                     }
                                 }
                             ],
@@ -206,13 +208,22 @@
                                 "familyName2": "MASSINAT",
                                 "formattedName": "PHILIPPE MASSINA",
                                 "givenName": "PHILIPPE",
-                                "middleName": "JEAN, CLAUDE, CHRISTOPHE"
+                                "middleName": "JEAN, CLAUDE, CHRISTOPHE",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "longName": "Monsieur",
+                                            "shortName": "M"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
                             },
                             "maritalStatusCode": {
                                 "codeValue": "C",
                                 "effectiveDate": "2013-02-01",
-                                "longName": "CELIBATAIRE",
-                                "shortName": "CELIBATAIRE"
+                                "longName": "CELIBATAIRE"
                             },
                             "otherPersonalAddresses": [
                                 {
@@ -356,6 +367,16 @@
                             },
                             "jobTitle": "INGENIEUR INDIVIDUALISE",
                             "legalEntityID": "02",
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA5",
+                                        "longName": "CADRE POS. III REP.C",
+                                        "shortName": "CADRE POS. III REP.C"
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
                             "payrollFileNumber": "00000002",
                             "remunerationBasisCode": {
                                 "codeValue": "S",

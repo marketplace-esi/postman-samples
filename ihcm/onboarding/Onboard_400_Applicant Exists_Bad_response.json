@@ -1,0 +1,20 @@
+{
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "requestStatus": "failure",
+    "applicationID": "52541ffb-ecd3-4597-9f4e-f3d46d647905",
+    "messageID": "c0ff6048-dcdd-4828-bb07-d49fa1894618",
+    "messageDateTime": "2023-06-11T12:56:21.5210243\u002B00:00",
+    "messages": [
+      {
+        "messageTargetCode": "developer",
+        "processMessageIndicator": false,
+        "messageTypeCode": "error",
+        "messageText": "So it would read \\\u0022A person with Candidate ID \u0027Demo123\u0027 and Name \u0027Jessica \u0027 already exists and cannot be added again.\\\u0022",
+        "resourceStatus": "failure"
+      }
+    ],
+    "resourceMessages": [],
+    "links": []
+  }
+}
