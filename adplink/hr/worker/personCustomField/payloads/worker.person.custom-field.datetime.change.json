@@ -1,0 +1,29 @@
+{
+    "events": [{
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "employee-abc",
+                    "person": {
+                        "customFieldGroup": {
+                            "dateTimeField": {
+                                "itemID": "personCustomDateTimeXXX"
+                            }
+                        }
+                    }
+                }
+            },
+            "transform": {
+                "worker": {
+                    "person": {
+                        "customFieldGroup": {
+                            "dateTimeField": {
+                                "dateTimeValue": "2023-01-01T09:30:00Z"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }]
+}
