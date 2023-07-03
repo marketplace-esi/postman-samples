@@ -1,0 +1,93 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payrollRegionCode": {
+                        "codeValue": "NL"
+                    },
+                    "payrollGroupCode": {
+                        "codeValue": "48669"
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "payeeID": {
+                                    "idValue": "67"
+                                },
+                                "payPeriodStartDate": "2022-01-01",
+                                "payPeriodEndDate": "2022-01-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "VA1D"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 99.34
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-01"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "VA1D"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": -11.21
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-02"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "VA1D"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 20.00
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-03"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "VA1D"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": -21
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-30"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "VA1D"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 22
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-31"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "VA1D"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 23.01
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2022-01-01"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
