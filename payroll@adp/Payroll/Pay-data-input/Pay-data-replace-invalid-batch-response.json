@@ -1,0 +1,25 @@
+{
+    "events": [],
+    "confirmMessage": {
+        "createDateTime": "2023-07-03T10:17:06.2727323+02:00",
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "The replace process needs a Batch ID to function"
+                },
+                "developerMessage": {
+                    "messageTxt": "Batch ID should be set in input"
+                }
+            }
+        ]
+    }
+}
