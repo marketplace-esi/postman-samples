@@ -1,8 +1,8 @@
 {
     "confirmMessage": {
-        "createDateTime": "2021-04-16T13:00:00Z",
+        "createDateTime": "2023-05-10T13:00:00Z",
         "protocolStatusCode": {
-            "codeValue": "403"
+            "codeValue": "404"
         },
         "protocolCode": {
             "codeValue": "http"
@@ -19,10 +19,10 @@
                     "codeValue": "error"
                 },
                 "userMessage": {
-                    "messageTxt": "The requestor is not authorized to access payrollGroupCode PG01."
+                    "messageTxt": "Invalid itemID 94171cc3-15be-4b1a-b4e3-5744dd3e5e41."
                 },
                 "developerMessage": {
-                    "messageTxt": "event[0].data.eventContext.payrollGroupCode::unauthorized"
+                    "messageTxt": "event[0].data.eventContext.payDataInput.itemID::invalid"
                 }
             }
         ]

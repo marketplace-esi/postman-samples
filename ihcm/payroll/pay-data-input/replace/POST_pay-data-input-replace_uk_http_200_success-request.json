@@ -3,11 +3,8 @@
         {
             "data": {
                 "eventContext": {
-                    "payrollRegionCode": {
-                        "codeValue": "GB"
-                    },
-                    "payrollGroupCode": {
-                        "codeValue": "PG01"
+                    "payDataInput": {
+                        "itemID": "94171cc3-15be-4b1a-b4e3-5744dd3e5e41"
                     }
                 },
                 "transform": {
@@ -15,6 +12,9 @@
                         "payeePayInputs": [
                             {
                                 "associateOID": "AOID001",
+                                "payeeID": {
+                                    "idValue": "EMP001"
+                                },
                                 "payPeriodStartDate": "2021-03-01",
                                 "payPeriodEndDate": "2021-03-31",
                                 "payrollProfilePayInputs": [
@@ -62,6 +62,7 @@
                                 ]
                             },
                             {
+                                "associateOID": "AOID002",
                                 "payeeID": {
                                     "idValue": "EMP002"
                                 },
