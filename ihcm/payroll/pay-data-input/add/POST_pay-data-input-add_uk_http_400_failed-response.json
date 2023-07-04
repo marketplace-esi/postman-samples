@@ -1,0 +1,41 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2021-04-16T13:00:00Z",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid earningCode OVT2_0 for payee AOID001."
+                },
+                "developerMessage": {
+                    "messageTxt": "event[0].data.transform.payDataInput.payeePayInputs[0].earningInputs[0].earningCode.codeValue::invalid"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid earningCode RETENTION for payee AOID002."
+                },
+                "developerMessage": {
+                    "messageTxt": "event[0].data.transform.payDataInput.payeePayInputs[1].earningInputs[0].earningCode.codeValue::invalid"
+                }
+            }
+        ]
+    }
+}
