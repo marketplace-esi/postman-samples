@@ -1,33 +1,20 @@
 {
     "events": [
         {
-            "serviceCategoryCode": {
-                "codeValue": "payroll"
-            },
-            "eventNameCode": {
-                "codeValue": "pay-data-input.add"
-            },
-            "eventStatusCode": {
-                "codeValue": "complete"
-            },
-            "eventTitle": "Pay Data Input Add",
-            "recordDateTime": "2021-04-16T13:00:00Z",
-            "creationDateTime": "2021-04-16T13:00:00Z",
-            "effectiveDateTime": "2021-04-16T13:00:00Z",
             "data": {
                 "eventContext": {
-                    "payrollRegionCode": {
-                        "codeValue": "GB"
-                    },
-                    "payrollGroupCode": {
-                        "codeValue": "PG01"
+                    "payDataInput": {
+                        "itemID": ""
                     }
                 },
-                "output": {
+                "transform": {
                     "payDataInput": {
                         "payeePayInputs": [
                             {
                                 "associateOID": "AOID001",
+                                "payeeID": {
+                                    "idValue": "EMP001"
+                                },
                                 "payPeriodStartDate": "2021-03-01",
                                 "payPeriodEndDate": "2021-03-31",
                                 "payrollProfilePayInputs": [
@@ -43,24 +30,21 @@
                                                         "rate": {
                                                             "rateValue": 20.0
                                                         },
-                                                        "earnedPayPeriodStartDate": "2021-03-15",
-                                                        "itemID": "fbde6572-c9f9-4812-b122-38b42b6784ff"
+                                                        "earnedPayPeriodStartDate": "2021-03-15"
                                                     },
                                                     {
                                                         "earningCode": {
                                                             "codeValue": "BASIC"
                                                         },
                                                         "numberOfHours": 10.0,
-                                                        "earnedPayPeriodStartDate": "2021-03-16",
-                                                        "itemID": "7fddc431-2a38-429e-b6a5-fb174424b270"
+                                                        "earnedPayPeriodStartDate": "2021-03-16"
                                                     },
                                                     {
                                                         "earningCode": {
                                                             "codeValue": "BASIC"
                                                         },
                                                         "numberOfHours": 5.0,
-                                                        "earnedPayPeriodStartDate": "2021-03-17",
-                                                        "itemID": "6cb092de-ffa0-425b-ba13-80260a495db9"
+                                                        "earnedPayPeriodStartDate": "2021-03-17"
                                                     },
                                                     {
                                                         "earningCode": {
@@ -69,8 +53,7 @@
                                                         "rate": {
                                                             "rateValue": 35.0
                                                         },
-                                                        "earnedPayPeriodStartDate": "2021-03-25",
-                                                        "itemID": "e070f7fe-a78d-453d-b35d-24ac829e1aa5"
+                                                        "earnedPayPeriodStartDate": "2021-03-25"
                                                     }
                                                 ]
                                             }
@@ -79,6 +62,7 @@
                                 ]
                             },
                             {
+                                "associateOID": "AOID002",
                                 "payeeID": {
                                     "idValue": "EMP002"
                                 },
@@ -96,8 +80,7 @@
                                                         "rate": {
                                                             "rateValue": 150.0
                                                         },
-                                                        "earnedPayPeriodStartDate": "2021-03-13",
-                                                        "itemID": "7e49841e-8652-4247-a22d-b20a1480e0b4"
+                                                        "earnedPayPeriodStartDate": "2021-03-13"
                                                     }
                                                 ]
                                             }
@@ -110,20 +93,5 @@
                 }
             }
         }
-    ],
-    "confirmMessage": {
-        "createDateTime": "2021-04-16T13:00:00Z",
-        "protocolStatusCode": {
-            "codeValue": "200"
-        },
-        "protocolCode": {
-            "codeValue": "http"
-        },
-        "requestMethodCode": {
-            "codeValue": "POST"
-        },
-        "requestStatusCode": {
-            "codeValue": "succeeded"
-        }
-    }
+    ]
 }

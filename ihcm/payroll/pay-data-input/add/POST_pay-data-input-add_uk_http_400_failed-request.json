@@ -2,7 +2,7 @@
     "events": [
         {
             "data": {
-                "eventContext":{
+                "eventContext": {
                     "payrollRegionCode": {
                         "codeValue": "GB"
                     },
@@ -12,7 +12,7 @@
                 },
                 "transform": {
                     "payDataInput": {
-                        "payeePayInputs":[
+                        "payeePayInputs": [
                             {
                                 "associateOID": "AOID001",
                                 "payPeriodStartDate": "2021-03-01",
@@ -26,9 +26,9 @@
                                                         "earningCode": {
                                                             "codeValue": "OVT2_0"
                                                         },
-                                                        "numberOfHours": 10.00,
+                                                        "numberOfHours": 10.0,
                                                         "rate": {
-                                                            "rateValue": 20.00
+                                                            "rateValue": 20.0
                                                         },
                                                         "earnedPayPeriodStartDate": "2021-03-15"
                                                     }
@@ -52,7 +52,7 @@
                                                             "codeValue": "RETENTION"
                                                         },
                                                         "rate": {
-                                                            "rateValue": 2000.00
+                                                            "rateValue": 2000.0
                                                         },
                                                         "earnedPayPeriodStartDate": "2021-03-13"
                                                     }
