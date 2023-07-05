@@ -1,56 +1,60 @@
 {
     "meta": {
         "/serviceCategoryCode/codeValue": "payroll",
-        "/eventNameCode/codeValue": "payDataInput.add",
+        "/eventNameCode/codeValue": "payDataInput.replace",
         "queryCriteria": [
             {
                 "itemID": "1",
                 "queryOptionCode": "$filter",
                 "obligationCode": "optional",
                 "queryOptionTypeCode": "OData",
-                "resourcePaths": ["/payrollGroupCode/codeValue"],
+                "resourcePaths": ["/payDataInput/itemID"],
                 "queryValueCodeList": {
                     "listItems": [
                         {
-                            "itemID": "PG1",
-                            "valueDescription": "My Monthly Pay Group"
+                            "itemID": "48065604-a008-452e-bea8-0724cee114ab",
+                            "valueDescription": "Created: 2023-06-16 15:16:46 PayrollGroupCode: PG1"
                         },
                         {
-                            "itemID": "PG2",
-                            "valueDescription": "My Weekly Pay Group"
+                            "itemID": "06423841-85db-46bf-bc34-237c5f5b3156",
+                            "valueDescription": "Created: 2023-06-16 15:16:46 PayrollGroupCode: PG2"
                         }
                     ]
                 },
-                "logicalOperators": [{ "logicalOperatorCode": "eq" }]
+                "logicalOperators": [
+                    {
+                        "logicalOperatorCode": "eq"
+                    }
+                ]
             }
         ],
         "/data/eventContext": {
-            "/payrollRegionCode/codeValue": {
+            "/payDataInput": {
+                "optional": false,
+                "dataType": "object"
+            },
+            "/payDataInput/itemID": {
                 "optional": false,
                 "dataType": "string",
-                "default": "GB",
-                "equals": ["GB"]
-            },
-            "/payrollGroupCode": {
-                "codeList": {
-                    "listItems": [
+                "minLength": 36,
+                "maxLength": 36,
+                "equals": [
+                    "48065604-a008-452e-bea8-0724cee114ab",
+                    "06423841-85db-46bf-bc34-237c5f5b3156"
+                ],
+                "pattern": "^[{]?[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}[}]?$",
+                "valueSet": {
+                    "valueSetListItems": [
                         {
-                            "itemID": "PG1",
-                            "valueDescription": "My Monthly Pay Group"
+                            "idValue": "48065604-a008-452e-bea8-0724cee114ab",
+                            "itemDescription": "Created: 2023-06-16 15:16:46 PayrollGroupCode: APICSTPG11"
                         },
                         {
-                            "itemID": "PG2",
-                            "valueDescription": "My Weekly Pay Group"
+                            "idValue": "06423841-85db-46bf-bc34-237c5f5b3156",
+                            "itemDescription": "Created: 2023-06-16 15:16:46 PayrollGroupCode: APICSTPG11"
                         }
                     ]
                 }
-            },
-            "/payrollGroupCode/codeValue": {
-                "optional": false,
-                "dataType": "string",
-                "minLength": 1,
-                "maxLength": 10,
-                "equals": ["PG1", "PG2"]
             }
         },
         "/data/transforms": [
