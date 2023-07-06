@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"eventID": "cfd82633-4aae-46b4-b9ff-46cb65cfcfb4",
+			"eventNameCode": {
+				"codeValue": "worker.personalCommunication.email.change"
+			},
+			"recordDateTime": "2023-07-06T00:00:00+02:00",
+			"creationDateTime": "2023-07-06T15:11:00+02:00",
+			"effectiveDateTime": "2023-02-10T00:00:00+01:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"communication": {
+								"email": {
+									"itemID": "1"
+								}
+							}
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"communication": {
+								"email": {
+									"emailUri": "j.van.klaassen@gmail.com",
+									"itemID": "1"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}
