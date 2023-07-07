@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "data": {
+        "transform": {
+          "timeEntries": [
+            {
+              "laborAllocations": [
+                {
+                  "allocationCode": {
+                    "codeValue": "FRAISE",
+                    "shortName": "Fraiseur"
+                  },
+                  "allocationTypeCode": {
+                    "codeValue": "Qualif_A",
+                    "shortName": "Qualification"
+                  }
+                }
+              ],
+              "entryCode": {
+                "codeValue": "____ASTR02",
+                "shortName": "Astreinte 02"
+              },
+              "entryTypeCode": {
+                "codeValue": "hoursEntry"
+              },
+              "timeDuration": "PT3H",
+              "entryDate": "2022-12-22",
+              "_changeCode": "add"
+            }
+          ]
+        },
+        "eventContext": {
+          "associateOID": "AO0N1KB034299BZ"
+        }
+      },
+      "serviceCategoryCode": {
+        "codeValue": "time"
+      },
+      "eventNameCode": {
+        "codeValue": "timeEntries.modify"
+      }
+    }
+  ]
+}
