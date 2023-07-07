@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "data": {
+        "transform": {
+          "timeEntries": [
+            {
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              },
+              "entryID": "MjAyMy8wNy8wNQlXX1BSRVMJCQlNCQ",
+              "entryDate": "2023-07-05",
+              "_changeCode": "remove"
+            }
+          ]
+        },
+        "eventContext": {
+          "associateOID": "AO0N1KB0218MBI8"
+        }
+      },
+      "serviceCategoryCode": {
+        "codeValue": "time"
+      },
+      "eventNameCode": {
+        "codeValue": "timeEntries.modify"
+      }
+    }
+  ]
+}
