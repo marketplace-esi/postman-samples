@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "/data/eventContext": {
+      "/associateOID": {
+        "default": "AO0N1KA5856IQHM",
+        "optional": false
+      }
+    },
+    "/data/transforms": [
+      {
+        "/timeEntries/endPeriod": {
+          "optional": false
+        },
+        "/timeEntries/endPeriod/endDateTime": {
+          "optional": false,
+          "pattern": "^(?:(?:0?[0-9]|1[0-9]|2[0-3]):[0-5][0-9])$"
+        },
+        "/timeEntries/startPeriod": {
+          "optional": false
+        },
+        "/timeEntries/startPeriod/startDateTime": {
+          "optional": false,
+          "pattern": "^(?:(?:0?[0-9]|1[0-9]|2[0-3]):[0-5][0-9])$"
+        },
+        "/timeEntries/entryCode": {
+          "codeList": {
+            "listItems": [
+              {
+                "foreignKey": "timePairEntry",
+                "defaultIndicator": true,
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            ]
+          },
+          "optional": false
+        },
+        "/timeEntries/entryCode/codeValue": {
+          "optional": false
+        }
+      }
+    ],
+    "/eventNameCode/codeValue": "timeEntries.modify",
+    "/serviceCategoryCode/codeValue": "time"
+  }
+}
