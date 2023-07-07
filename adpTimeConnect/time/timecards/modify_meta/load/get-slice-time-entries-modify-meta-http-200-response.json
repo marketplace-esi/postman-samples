@@ -28,7 +28,7 @@
               {
                 "foreignKey": "timePairEntry",
                 "defaultIndicator": true,
-                "shortName": "Présence intranet",
+                "shortName": "PrÃ©sence intranet",
                 "codeValue": "W_PRES"
               }
             ]
