@@ -25,11 +25,11 @@
 				"codeValue": "CP"
 			},
 			"dayPeriodStartCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matin"
 			},
 			"dayPeriodEndCode": {
-				"codeValue": "A",
+				"codeValue": "2",
 				"shortName": "Après-midi"
 			}
 		}],
@@ -179,11 +179,11 @@
 				"codeValue": "CP"
 			},
 			"dayPeriodStartCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matin"
 			},
 			"dayPeriodEndCode": {
-				"codeValue": "A",
+				"codeValue": "2",
 				"shortName": "Après-midi"
 			}
 		}],
@@ -218,7 +218,7 @@
 				"codeValue": "CP"
 			},
 			"dayPeriodStartCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matins"
 			}
 		}],
@@ -250,11 +250,11 @@
 				"codeValue": "CP"
 			},
 			"dayPeriodStartCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matin"
 			},
 			"dayPeriodEndCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matin"
 			}
 		}],
@@ -286,11 +286,11 @@
 				"codeValue": "CP"
 			},
 			"dayPeriodStartCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matin"
 			},
 			"dayPeriodEndCode": {
-				"codeValue": "A",
+				"codeValue": "2",
 				"shortName": "Après-midi"
 			}
 		}],
@@ -322,11 +322,11 @@
 				"codeValue": "CP"
 			},
 			"dayPeriodStartCode": {
-				"codeValue": "M",
+				"codeValue": "1",
 				"shortName": "Matin"
 			},
 			"dayPeriodEndCode": {
-				"codeValue": "A",
+				"codeValue": "2",
 				"shortName": "Après-midi"
 			}
 		}],
