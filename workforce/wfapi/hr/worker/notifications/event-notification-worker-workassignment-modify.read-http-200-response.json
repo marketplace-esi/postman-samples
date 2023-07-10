@@ -1,0 +1,129 @@
+{
+	"events": [
+		{
+			"eventID": "9706b5ac-2807-4062-8f92-8ec98a08a2c3",
+			"eventNameCode": {
+				"codeValue": "worker.workAssignment.modify"
+			},
+			"recordDateTime": "2023-07-10T00:00:00+02:00",
+			"creationDateTime": "2023-07-10T10:18:55+02:00",
+			"effectiveDateTime": "2023-12-01T00:00:00+01:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"workerID": {
+						"idValue": "000106"
+					},
+					"workAssignmentID": "1"
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000106"
+						},
+						"workAssignment": {
+							"actualStartDate": "2023-07-10",
+							"workerTypeCode": {
+								"codeValue": "01"
+							},
+							"managementPositionIndicator": false,
+							"jobCode": {
+								"codeValue": "000000032",
+								"longName": "Accountant"
+							},
+							"wageLawCoverage": {
+								"wageLawNameCode": {
+									"codeValue": "215",
+									"longName": "ADP CAO 215"
+								}
+							},
+							"positionID": "000091-000000032",
+							"positionTitle": "Accountant (000091)",
+							"standardHours": {
+								"hoursQuantity": 32.0,
+								"unitCode": {
+									"codeValue": "W",
+									"longName": "week"
+								}
+							},
+							"fullTimeEquivalenceRatio": 80.0,
+							"homeOrganizationalUnits": [
+								{
+									"nameCode": {
+										"codeValue": "000091",
+										"longName": "Finance"
+									}
+								}
+							],
+							"homeWorkLocation": {
+								"nameCode": {
+									"codeValue": "1"
+								}
+							},
+							"assignedWorkLocations": [
+								{
+									"nameCode": {
+										"codeValue": "1"
+									}
+								}
+							],
+							"baseRemuneration": {
+								"payPeriodRateAmount": {
+									"amountValue": 6180.8,
+									"currencyCode": "EUR"
+								},
+								"effectiveDate": "2023-12-01"
+							},
+							"payrollGroupCode": "99998",
+							"payScaleCode": {
+								"codeValue": "13"
+							},
+							"payGradeStepCode": {
+								"codeValue": "8.0"
+							},
+							"customFieldGroup": {
+								"stringFields": [
+									{
+										"nameCode": {
+											"codeValue": "costCenter"
+										},
+										"stringValue": "001225"
+									},
+									{
+										"nameCode": {
+											"codeValue": "costCenterName"
+										},
+										"stringValue": "Kotsenplaats 01225"
+									},
+									{
+										"nameCode": {
+											"codeValue": "contractHours"
+										},
+										"stringValue": "32.0"
+									},
+									{
+										"nameCode": {
+											"codeValue": "dateEndOfProbation"
+										},
+										"stringValue": "2023-10-10"
+									},
+									{
+										"nameCode": {
+											"codeValue": "mut_status"
+										},
+										"stringValue": "3"
+									}
+								]
+							},
+							"itemID": "1"
+						}
+					}
+				}
+			}
+		}
+	]
+}
