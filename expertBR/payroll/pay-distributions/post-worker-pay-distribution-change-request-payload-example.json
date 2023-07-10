@@ -1,0 +1,64 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "payroll"
+			},
+			"eventNameCode": {
+				"shortName": "worker.payDistribution.change"
+			},
+			"eventTitle": "Worker Pay Distribution Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker" : {
+						"associateOID": "15-0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						}
+					}
+				},
+				"transform": {
+					"payDistribution": {
+						{
+							"distributionPurposeCode": {
+								"shortName": "Salary"
+							},
+							"distributionInstructions": [
+								"paymentMethodCode": {
+									"codeValue": "3",
+									"shortName": "Wire Transfer - Checking Account"
+								},
+								"depositAccount": {
+									"BBAN": "341",
+									"financialParty": {
+										"nameCode": {
+											"codeValue": "0",
+											"shortName": "João Silva"
+										},
+										"branchNameCode": {
+											"codeValue": "012548-7",
+											"shortName": "Agência do Centro"
+										},
+										"routingTransitID": {
+											"idValue": "033"
+										}
+									},
+									"financialAccount": {
+										"accountNumber": "1234-5",
+										"typeCode": {
+											"shortName": "Checking"
+										},
+										"currencyCode": "BRL"
+									}
+								}
+							]
+						}
+					}
+				}				 
+			}
+		}
+	]
+}

@@ -1,70 +1,77 @@
 {
-    "timeOffRequests": [
-        {
-            "timeOffRequestID": "D997880|6573730000358350016",
-            "requestDateTime": "2021-01-14T00:00:00+01:00",
-            "requestStatusCode": {
-                "codeValue": "pending",
-                "shortName": "En cours"
-            },
-            "requestorName": {
-                "givenName": "P01I4006",
-                "familyName1": "COL01I4006",
-                "formattedName": "P01I4006, COL01I4006"
-            },
-            "timeOffEntries": [
-                {
-                    "payCode": {
-                        "codeValue": "CP",
-                        "shortName": "CONGES PAYES"
-                    },
-                    "dateTimePeriod": {
-                        "startDateTime": "2021-01-15T00:00:00+01:00",
-                        "endDateTime": "2021-01-15T00:00:00+01:00"
-                    },
-                    "durationTypeCode": {
-                        "codeValue": "fullday",
-                        "shortName": "Journée entière"
-                    },
-                    "timeOffPolicyCode": {
-                        "codeValue": "CP"
-                    },
-                    "dayPeriodStartCode": {
-                        "codeValue": "1",
-                        "shortName": "Matin"
-                    },
-                    "dayPeriodEndCode": {
-                        "codeValue": "2",
-                        "shortName": "Après-midi"
-                    }
-                }
-            ],
-            "actions": [],
-            "associateOID": "pcol01i4006-zsc",
-            "workAssignmentID": "00000010",
-            "comments": [
-                {
-                    "textValue": "AFE commentaire",
-                    "entryDateTime": "2021-01-14T00:00:00+01:00",
-                    "author": {
-                        "associateOID": "",
-                        "formattedName": ""
-                    }
-                }
-            ],
-            "reviewRequest": {
-                "reviewDetails": [
-                    {
-                        "reviewer": {
-                            "associateOID": "padm01a3000-8p7",
-                            "formattedName": "M P01A3000 ADM01A3000"
-                        }
-                    }
-                ]
+   "timeOffRequests":[
+     {
+         "associateOID":"jdurieux-7130mp4",
+         "reviewRequest":{
+            "reviewDetails":[
+               {
+                  "reviewer":{
+                     "formattedName":"M LINDA EVANGELIST",
+                     "associateOID":"levangelist-7130mp4"
+                  }
+               }
+            ]
+         },
+         "comments":[
+            {
+               "entryDateTime":"2023-05-26T00:00:00+02:00",
+               "author":{
+                  "formattedName":"",
+                  "associateOID":""
+               },
+               "textValue":"Besoin de repos !"
             }
-        }
-    ],
-    "meta": {
-        "totalNumber": 1
-    }
+         ],
+         "timeOffRequestID":"D1804164|7079650000574180038",
+         "requestDateTime":"2023-05-26T00:00:00+02:00",
+         "requestorName":{
+            "formattedName":"JACQUELINE, DURIEUX",
+            "familyName1":"DURIEUX",
+            "givenName":"JACQUELINE"
+         },
+         "timeOffEntries":[
+            {
+               "timeOffPolicyCode":{
+                  "codeValue":"CP"
+               },
+               "dayPeriodStartCode":{
+                  "codeValue":"1",
+                  "shortName":"Matin"
+               },
+               "dayPeriodEndCode":{
+                  "codeValue":"2",
+                  "shortName":"Après-midi"
+               },
+               "dateTimePeriod":{
+                  "startDateTime":"2023-06-06T00:00:00+02:00",
+                  "endDateTime":"2023-06-06T00:00:00+02:00"
+               },
+               "durationTypeCode":{
+                  "codeValue":"fullday",
+                  "shortName":"Journée entière"
+               },
+               "payCode":{
+                  "codeValue":"CP",
+                  "shortName":"CONGES PAYES"
+               }
+            }
+         ],
+         "requestSubmitter":{
+            "formattedName":"JACQUELINE, DURIEUX",
+            "associateOID":"jdurieux-7130mp4"
+         },
+         "actions":[
+            {
+               "operationID":"timeOffRequest.cancel"
+            }
+         ],
+         "requestStatusCode":{
+            "codeValue":"pending",
+            "shortName":"En attente"
+         }
+      }
+   ],
+   "meta":{
+      "totalNumber":1
+   }
 }

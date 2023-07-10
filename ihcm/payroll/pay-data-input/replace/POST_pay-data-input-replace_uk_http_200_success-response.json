@@ -1,0 +1,133 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "payroll"
+            },
+            "eventNameCode": {
+                "codeValue": "pay-data-input.replace"
+            },
+            "eventStatusCode": {
+                "codeValue": "complete"
+            },
+            "eventTitle": "Pay Data Input Replace",
+            "recordDateTime": "2021-04-16T13:00:00Z",
+            "creationDateTime": "2021-04-16T13:00:00Z",
+            "effectiveDateTime": "2021-04-16T13:00:00Z",
+            "data": {
+                "eventContext": {
+                    "payDataInput": {
+                        "itemID": "94171cc3-15be-4b1a-b4e3-5744dd3e5e41"
+                    }
+                },
+                "output": {
+                    "payDataInput": [
+                        {
+                            "itemID": "94171cc3-15be-4b1a-b4e3-5744dd3e5e41",
+                            "payeePayInputs": [
+                                {
+                                    "associateOID": "EMP001",
+                                    "payeeID": {
+                                        "idValue": "EMP001"
+                                    },
+                                    "payPeriodStartDate": "2021-03-01",
+                                    "payPeriodEndDate": "2021-03-31",
+                                    "payrollProfilePayInputs": [
+                                        {
+                                            "payInputs": [
+                                                {
+                                                    "earningInputs": [
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "OVT2_0"
+                                                            },
+                                                            "numberOfHours": 10.0,
+                                                            "rate": {
+                                                                "rateValue": 20.0
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2021-03-15",
+                                                            "itemID": "95a74a58-3707-4bf8-9172-fe4000e278a5"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "BASIC"
+                                                            },
+                                                            "numberOfHours": 10.0,
+                                                            "earnedPayPeriodStartDate": "2021-03-16",
+                                                            "itemID": "03cf15d9-294c-49ba-a017-8ec2e86969c7"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "BASIC"
+                                                            },
+                                                            "numberOfHours": 5.0,
+                                                            "earnedPayPeriodStartDate": "2021-03-17",
+                                                            "itemID": "5bb7c5ae-5b26-4c97-903a-4835ae5bfa9d"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "BONUS"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": 35.0
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2021-03-25",
+                                                            "itemID": "ba83e845-d935-4237-9c6c-a8ab0c54883b"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "associateOID": "EMP002",
+                                    "payeeID": {
+                                        "idValue": "EMP002"
+                                    },
+                                    "payPeriodStartDate": "2021-03-01",
+                                    "payPeriodEndDate": "2021-03-31",
+                                    "payrollProfilePayInputs": [
+                                        {
+                                            "payInputs": [
+                                                {
+                                                    "earningInputs": [
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "BONUS"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": 150.0
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2021-03-13",
+                                                            "itemID": "303569c4-e3af-4765-a872-232c5e90626d"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2021-04-16T13:00:00Z",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    }
+}

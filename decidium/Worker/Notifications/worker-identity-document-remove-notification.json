@@ -18,8 +18,8 @@
                         "person": {
                             "identityDocument": {
                                 "typeCode": {
-                                    "codeValue": "IDCard",
-                                    "shortName": "Carte d'identité"
+                                    "codeValue": "visa2",
+                                    "shortName": "Visa 2"
                                 }
                             }
                         }

@@ -1,0 +1,30 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2023-05-10T13:00:00Z",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "itemID is mandatory."
+                },
+                "developerMessage": {
+                    "messageTxt": "event[0].data.eventContext.payDataInput.itemID::invalid"
+                }
+            }
+        ]
+    }
+}

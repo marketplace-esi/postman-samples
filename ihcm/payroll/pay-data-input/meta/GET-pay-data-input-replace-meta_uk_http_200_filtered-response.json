@@ -1,0 +1,311 @@
+{
+    "meta": {
+        "/serviceCategoryCode/codeValue": "payroll",
+        "/eventNameCode/codeValue": "payDataInput.replace",
+        "queryCriteria": [
+            {
+                "itemID": "1",
+                "queryOptionCode": "$filter",
+                "obligationCode": "optional",
+                "queryOptionTypeCode": "OData",
+                "resourcePaths": ["/payDataInput/itemID"],
+                "queryValueCodeList": {
+                    "listItems": [
+                        {
+                            "itemID": "db71fe2c-3543-4877-9cdf-f4370a2d1643",
+                            "valueDescription": "Created: 2023-06-16 08:20:42 PayrollGroupCode: PG2"
+                        }
+                    ]
+                },
+                "logicalOperators": [
+                    {
+                        "logicalOperatorCode": "eq"
+                    }
+                ]
+            }
+        ],
+        "/data/eventContext": {
+            "/payDataInput": {
+                "optional": false,
+                "dataType": "object"
+            },
+            "/payDataInput/itemID": {
+                "optional": false,
+                "dataType": "string",
+                "minLength": 36,
+                "maxLength": 36,
+                "equals": ["db71fe2c-3543-4877-9cdf-f4370a2d1643"],
+                "pattern": "^[{]?[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}[}]?$"
+            }
+        },
+        "/data/transforms": [
+            {
+                "/payDataInput": {
+                    "optional": false,
+                    "dataType": "object"
+                },
+                "/payDataInput/payeePayInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/associateOID": {
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 16,
+                    "maxLength": 16,
+                    "pattern": "^[a-zA-Z0-9]*$",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payeeID/idValue": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payeeID": {
+                    "optional": false,
+                    "dataType": "object",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/associateOID": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payeeID/idValue": {
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 1,
+                    "maxLength": 60,
+                    "pattern": "^[^\\s][a-zA-Z0-9,<>()/=!\"%&*;:'+?.-\\s]*$",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/associateOID": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payPeriodStartDate": {
+                    "optional": false,
+                    "dataType": "string[date]",
+                    "equals": [
+                        "2023-02-12",
+                        "2023-02-19",
+                        "2023-02-26",
+                        "2023-03-05",
+                        "2023-03-12",
+                        "2023-03-19"
+                    ],
+                    "valueSet": {
+                        "valueSetListItems": [
+                            {
+                                "idValue": "2023-02-12",
+                                "itemDescription": "Period 47 Paid on 24/02/2023 (12/02/2023 to 18/02/2023) (Processing)"
+                            },
+                            {
+                                "idValue": "2023-02-19",
+                                "itemDescription": "Period 48 Paid on 03/03/2023 (19/02/2023 to 25/02/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-02-26",
+                                "itemDescription": "Period 49 Paid on 10/03/2023 (26/02/2023 to 04/03/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-05",
+                                "itemDescription": "Period 50 Paid on 17/03/2023 (05/03/2023 to 11/03/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-12",
+                                "itemDescription": "Period 51 Paid on 24/03/2023 (12/03/2023 to 18/03/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-19",
+                                "itemDescription": "Period 52 Paid on 31/03/2023 (19/03/2023 to 25/03/2023) (Not Open)"
+                            }
+                        ]
+                    }
+                },
+                "/payDataInput/payeePayInputs/payPeriodEndDate": {
+                    "optional": false,
+                    "dataType": "string[date]",
+                    "equals": [
+                        "2023-02-18",
+                        "2023-02-25",
+                        "2023-03-04",
+                        "2023-03-11",
+                        "2023-03-18",
+                        "2023-04-25"
+                    ],
+                    "valueSet": {
+                        "valueSetListItems": [
+                            {
+                                "idValue": "2023-02-18",
+                                "itemDescription": "Period 47 Paid on 24/02/2023 (12/02/2023 to 18/02/2023) (Processing)"
+                            },
+                            {
+                                "idValue": "2023-02-25",
+                                "itemDescription": "Period 48 Paid on 03/03/2023 (19/02/2023 to 25/02/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-04",
+                                "itemDescription": "Period 49 Paid on 10/03/2023 (26/02/2023 to 04/03/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-11",
+                                "itemDescription": "Period 50 Paid on 17/03/2023 (05/03/2023 to 11/03/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-18",
+                                "itemDescription": "Period 51 Paid on 24/03/2023 (12/03/2023 to 18/03/2023) (Not Open)"
+                            },
+                            {
+                                "idValue": "2023-03-25",
+                                "itemDescription": "Period 52 Paid on 31/03/2023 (19/03/2023 to 25/03/2023) (Not Open)"
+                            }
+                        ]
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs": {
+                    "dataType": "array",
+                    "minItems": 1,
+                    "maxItems": 100
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
+                    "codeList": {
+                        "listItems": [
+                            {
+                                "itemID": "EARN3",
+                                "valueDescription": "Earning 3"
+                            },
+                            {
+                                "itemID": "EARN4",
+                                "valueDescription": "Earning 4"
+                            }
+                        ]
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
+                    "optional": false,
+                    "dataType": "string",
+                    "maxLength": 10,
+                    "equals": ["EARN3", "EARN4"],
+                    "pattern": "^[a-zA-Z0-9.-]*$"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate": {
+                    "optional": false,
+                    "dataType": "object",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                    "optional": false,
+                    "dataType": "number",
+                    "minValue": -99999999999.99,
+                    "maxValue": 99999999999.99,
+                    "dependencies": {
+                        "minValue": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": -99999999999.999999
+                                }
+                            ]
+                        },
+                        "maxValue": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": 99999999999.999999
+                                }
+                            ]
+                        },
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                    "optional": false,
+                    "dataType": "number",
+                    "minValue": -99999999.9999,
+                    "maxValue": 99999999.9999,
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earnedPayPeriodStartDate": {
+                    "optional": true,
+                    "dataType": "string[date]"
+                }
+            }
+        ]
+    }
+}

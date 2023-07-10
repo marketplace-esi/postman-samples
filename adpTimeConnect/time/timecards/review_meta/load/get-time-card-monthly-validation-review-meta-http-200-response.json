@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "/data/transforms": [
+      {
+        "/timeCard/comments/textValue": {
+          "hidden": false,
+          "optional": false,
+          "maxLength": 128,
+          "longLabelName": "Ajouter un commentaire"
+        }
+      }
+    ]
+  }
+}

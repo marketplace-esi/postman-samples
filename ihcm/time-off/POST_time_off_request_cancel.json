@@ -1,0 +1,87 @@
+{
+	"events": [
+	{
+		
+			"eventNameCode": {
+				"codeValue": "timeOffRequest.cancel"
+			},
+			"data": {
+				"eventContext": {
+					"associateOID": "E59A48CB-8EC4-5E82-878F-09133DF33124",
+				"workerID": {"idValue": "666"},
+					"workAssignmentID": "666 - Jane Doha ",
+                    "timeOffRequestID": "b6944f6e-3ae4-49ce-bc89-4814943561f9"
+				},
+				"transform": {
+					"timeOffRequest": {
+						"timeOffEntries": [
+                            {
+							"DatePeriod": {
+								"StartDate": "2022-08-08T20:00:00Z",
+								"StartTime": "9:00",
+								"EndDate": "2022-08-08T08:00:00Z",
+								"EndTime": "20:00"
+							},
+							"EntryTypeCode": {
+								"codeValue": "Sickness",	
+                                "longName": "Illness"	,
+                                "shortName": "Other"				
+							},
+							"totalQuantity": {
+								"quantityValue": 1
+							},
+							"totalTime": {
+								"timeValue": "7:00"
+							}
+						}  ,
+                           {
+							"DatePeriod": {
+								"StartDate": "2022-08-09T20:00:00Z",
+								"StartTime": "9:00",
+								"EndDate": "2022-08-09T08:00:00Z",
+								"EndTime": "16:00"
+							},
+							"EntryTypeCode": {
+								"codeValue": "Sickness",	
+                                "longName": "Illness"	,
+                                "shortName": "Other"				
+							},
+							"totalQuantity": {
+								"quantityValue": 1
+							},
+							"totalTime": {
+								"timeValue": "7:00"
+							}
+						} ,
+                         {
+							"DatePeriod": {
+								"StartDate": "2022-08-10T20:00:00Z",
+								"StartTime": "9:00",
+								"EndDate": "2022-08-10T08:00:00Z",
+								"EndTime": "16:00"
+							},
+							"EntryTypeCode": {
+								"codeValue": "Sickness",	
+                                "longName": "Illness"	,
+                                "shortName": "Other"				
+							},
+							"totalQuantity": {
+								"quantityValue": 1
+							},
+							"totalTime": {
+								"timeValue": "5:00"
+							}
+						}                      
+                                                ],
+						"comment": {
+							"textValue": "3 day sickness "
+						}
+					}
+				}
+			}
+		}
+
+		
+		]
+	
+}

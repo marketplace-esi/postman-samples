@@ -1,0 +1,111 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {},
+                "output": {
+                    "payDataInput": [
+                        {
+                            "payeePayInputs": [
+                                {
+                                    "payeeID": {
+                                        "idValue": "6001"
+                                    },
+                                    "payPeriodStartDate": "2023-05-01",
+                                    "payPeriodEndDate": "2023-05-31",
+                                    "payrollProfilePayInputs": [
+                                        {
+                                            "payInputs": [
+                                                {
+                                                    "earningInputs": [
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "V160"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": 99.34
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2023-05-01",
+                                                            "itemID": "065646f7-4744-428a-a427-cdbe10da371c"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "V160"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": -11.21
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2023-05-01",
+                                                            "itemID": "e3974c96-5aeb-4ce0-bb99-026c4129eed1"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "V160"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": 20.00
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2023-05-01",
+                                                            "itemID": "753987f6-928e-44ad-8bd0-7bb8b6804fc6"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "V160"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": -21.0
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2023-05-01",
+                                                            "itemID": "8d0464d7-0fff-4f4a-816c-e858e8e0e2a1"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "V160"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": 22.0
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2023-05-01",
+                                                            "itemID": "0093736f-b316-4077-af11-b2eb11fac622"
+                                                        },
+                                                        {
+                                                            "earningCode": {
+                                                                "codeValue": "V160"
+                                                            },
+                                                            "rate": {
+                                                                "rateValue": 23.01
+                                                            },
+                                                            "earnedPayPeriodStartDate": "2023-05-01",
+                                                            "itemID": "4e9ff6d8-f97d-4f00-87a0-c4ecb83a2fb1"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "itemID": "22-06-6"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "createDateTime": "2023-06-30T16:43:58.4413095+02:00",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "processMessages": []
+    }
+}

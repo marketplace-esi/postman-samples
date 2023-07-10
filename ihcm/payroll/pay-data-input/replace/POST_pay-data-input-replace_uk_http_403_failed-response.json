@@ -1,0 +1,30 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2023-05-10T13:00:00Z",
+        "protocolStatusCode": {
+            "codeValue": "403"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Replacement of itemID 94171cc3-15be-4b1a-b4e3-5744dd3e5e41 is denied."
+                },
+                "developerMessage": {
+                    "messageTxt": "event[0].data.eventContext.payDataInput.itemID::unauthorized"
+                }
+            }
+        ]
+    }
+}

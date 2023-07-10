@@ -1,0 +1,56 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "Payroll"
+			},
+			"eventNameCode": {
+				"shortName": "pay-data-input.add"
+			},
+			"eventTitle": "Pay Data Input Add",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2022-11-01T00:00:00Z",
+			"data": {
+				"output": {
+					"payDataInputs": [
+						{
+							"payeePayInputs": [
+								{
+									"associateOID": "9999-0001234567",
+									"payeeID": {
+										"idValue" : "001-123456789"
+									},
+									"payNumber": "1234",
+									"payTypeCode": {
+										"shortName": "MENSAL-11/2022" 
+									},
+									"payrollProfilePayInputs" : [
+										{
+											"payInputs": [
+												{
+													"earningsInputs": [
+														{
+															"earningCode": {
+																"codeValue": "1-001-0015"
+															},
+															"rate": {
+																"rateValue": 7000.0
+															},
+															"numberOfHours": 1
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			}
+		}
+	]
+}

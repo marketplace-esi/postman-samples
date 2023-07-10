@@ -1,0 +1,122 @@
+{
+	"payDataInputs": [
+		{
+			"payrollRunNumber": "1234-001-123456789",
+			"payeePayInputs": [
+				{
+					"associateOID": "9999-0001234567",
+					"payeeID": {
+						"idValue" : "001-123456789"
+					},
+					"payPeriodStartDate": "2022-11-01",
+					"payPeriodEndDate": "2022-11-30",
+					"payNumber": "1234",
+					"payTypeCode": {
+						"codeValue": "MENSAL",
+						"shortName": "MENSAL 11/2022" 
+					},
+					"payrollProfilePayInputs" : [
+						{
+							"payInputs": [
+								{
+									"earningsInputs": [
+										{
+											"earningCode": {
+												"codeValue": "1-001-0015",
+												"shortName": "Manuseio de Valores"
+											},
+											"rate": {
+												"rateValue": 7000.0,
+												"currencyCode": "BRL"
+											},
+											"numberOfHours": 1
+										},
+										{
+											"earningCode": {
+												"codeValue": "1-001-0055",
+												"shortName": "Quinquenio"
+											},
+											"rate": {
+												"rateValue": 500.0,
+												"currencyCode": "BRL"
+											},
+											"numberOfHours": 1
+										}
+									],
+									"memoInputs": [
+										{
+											"memoCode": {
+												"codeValue": "1-001-0720",
+												"shortName": "Mínimo Comissionado"
+											},
+											"memoAmount": {
+												"amountValue": 3000.0,
+												"currencyCode": "BRL"
+											},
+											"memoQuantity": {
+												"quantityValue" : 1
+											}
+										},
+										{
+											"memoCode": {
+												"codeValue": "1-001-9740",
+												"shortName": "INSS Simultâneo Anterior"
+											},
+											"memoAmount": {
+												"amountValue": 5000.0,
+												"currencyCode": "BRL"
+											},
+											"memoQuantity": {
+												"quantityValue" : 1
+											},
+											"configurationTags": [
+												{
+													"tagCode" : "External Payment Source",
+													"tagValues": [
+														"999999990000"
+													]
+												},
+												{
+													"tagCode" : "eSocial Category Code",
+													"tagValues": [
+														"101"
+													]
+												}
+											]
+										}
+									],
+									"deductionsInputs": [
+										{
+											"deductionCode": {
+												"codeValue": "1-001-0021",
+												"shortName": "DESCONTO PAGAMENTO INDEVIDO - VLR"
+											},
+											"deductionRate": {
+												"rateValue": 200.55,
+												"currencyCode": "BRL",
+												"baseMultiplierValue": 1
+											}
+										}
+									],
+									"taxInputs": [
+										{
+											"taxTypeCode": {
+												"codeValue": "1-001-8101",
+												"shortName": "RAT"
+											},
+											"taxRate": {
+												"rateValue": 23.1,
+												"currencyCode": "BRL"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"itemID": "1234-001-123456789"
+		}
+	]
+}				

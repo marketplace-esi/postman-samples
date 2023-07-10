@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "aac725ec8ed846127c9ee47d",
+            "eventNameCode": {
+                "codeValue": "worker.person.customField.indicator.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "customFieldGroup": {
+                                "indicatorField": {
+                                    "indicatorValue": true,
+                                    "itemID": "personCustomIndicatorXXX"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
