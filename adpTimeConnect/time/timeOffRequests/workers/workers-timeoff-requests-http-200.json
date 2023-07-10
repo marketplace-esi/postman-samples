@@ -28,11 +28,11 @@
                         "codeValue": ""
                     },
                     "dayPeriodStartCode": {
-                        "codeValue": "M",
+                        "codeValue": "1",
                         "shortName": "Matin"
                     },
                     "dayPeriodEndCode": {
-                        "codeValue": "A",
+                        "codeValue": "2",
                         "shortName": "Après-midi"
                     }
                 }
@@ -67,7 +67,7 @@
                         "codeValue": ""
                     },
                     "dayPeriodStartCode": {
-                        "codeValue": "M",
+                        "codeValue": "1",
                         "shortName": "Matin"
                     }
                 }
@@ -204,11 +204,11 @@
                         "codeValue": ""
                     },
                     "dayPeriodStartCode": {
-                        "codeValue": "M",
+                        "codeValue": "1",
                         "shortName": "Matin"
                     },
                     "dayPeriodEndCode": {
-                        "codeValue": "A",
+                        "codeValue": "2",
                         "shortName": "Après-midi"
                     }
                 }
