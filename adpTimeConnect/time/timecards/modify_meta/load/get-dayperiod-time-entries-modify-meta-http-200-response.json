@@ -18,19 +18,19 @@
                     "listItems": [
                       {
                         "shortName": "Journée",
-                        "codeValue": "J"
+                        "codeValue": "fullday"
                       },
                       {
                         "shortName": "Matin",
-                        "codeValue": "M"
+                        "codeValue": "morning"
                       },
                       {
                         "shortName": "Après-midi",
-                        "codeValue": "A"
+                        "codeValue": "afternoon"
                       },
                       {
                         "shortName": "Non présent",
-                        "codeValue": "N"
+                        "codeValue": "nopresent"
                       }
                     ]
                   }
