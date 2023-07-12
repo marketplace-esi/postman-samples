@@ -14,7 +14,7 @@
               },
               "dayPeriodCode": {
                 "shortName": "Matin",
-                "codeValue": "M"
+                "codeValue": "morning"
               },
               "entryDate": "2023-06-24",
               "_changeCode": "add"
