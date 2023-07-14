@@ -12,12 +12,9 @@
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
               },
-              "dayPeriodCode": {
-                "shortName": "Matin",
-                "codeValue": "morning"
-              },
-              "entryDate": "2023-06-24",
-              "_changeCode": "add"
+              "entryID": "MjAyMy8wNy8wNQlXX1BSRVMJCQlNCQ",
+              "entryDate": "2023-07-05",
+              "_changeCode": "remove"
             }
           ]
         },

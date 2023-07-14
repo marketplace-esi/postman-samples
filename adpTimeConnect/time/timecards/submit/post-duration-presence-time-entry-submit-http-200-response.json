@@ -2,36 +2,32 @@
     "events": [
         {
             "data": {
-                "eventContext": {
-                    "associateOID": "AO0N1KA5856IQHM"
-                },
                 "transform": {
                     "timeEntries": [
                         {
-                            "_changeCode": "change",
                             "entryTypeCode": {
-                                "codeValue": "timePairEntry"
+                                "codeValue": "hoursEntry"
                             },
+                            "timeDuration": "PT5H",
+                            "_changeCode": "add",
+                            "entryID": "MjAyMy8wNy8xNAlXX1BSRVMJMDU6MDAJCQk",
                             "entryDate": "2023-07-14",
-                            "startPeriod": {
-                                "startDateTime": "2023-07-14T08:30:00+01:00"
-                            },
-                            "endPeriod": {
-                                "endDateTime": "2023-07-14T14:00:00+01:00"
-                            },
                             "entryCode": {
                                 "codeValue": "W_PRES",
                                 "shortName": "Présence intranet"
                             }
                         }
                     ]
+                },
+                "eventContext": {
+                    "associateOID": "AO0N1KB034299BZ"
                 }
-            },
-            "eventNameCode": {
-                "codeValue": "timeEntries.modify"
             },
             "serviceCategoryCode": {
                 "codeValue": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "timeEntries.modify"
             }
         }
     ]

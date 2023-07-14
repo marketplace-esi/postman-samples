@@ -9,10 +9,10 @@
                                 "codeValue": "dayPeriodEntry"
                             },
                             "dayPeriodCode": {
-                                "codeValue": "fullday",
-                                "shortName": "Journée"
+                                "codeValue": "morning",
+                                "shortName": "Matin"
                             },
-                            "_changeCode": "change",
+                            "_changeCode": "add",
                             "entryID": "MjAyMy8wNy8xNAlXX1BSRVMJCQlOCQ",
                             "entryDate": "2023-07-14",
                             "entryCode": {

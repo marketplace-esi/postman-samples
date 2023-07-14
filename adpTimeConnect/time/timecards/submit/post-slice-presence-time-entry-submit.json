@@ -1,60 +1,38 @@
 {
-  "events": [
-    {
-      "data": {
-        "transform": {
-          "timeEntries": [
-            {
-              "laborAllocations": [
-                {
-                  "allocationCode": {
-                    "codeValue": "84",
-                    "shortName": "Lieu 1 Bench"
-                  },
-                  "allocationTypeCode": {
-                    "codeValue": "Lieu_A",
-                    "shortName": "Chantier"
-                  }
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N1KA5856IQHM"
                 },
-                {
-                  "allocationCode": {
-                    "codeValue": "B_1_P1",
-                    "shortName": "poste 1 lieu 1 Bench"
-                  },
-                  "allocationTypeCode": {
-                    "codeValue": "Poste_A",
-                    "shortName": "Maçonnerie"
-                  }
+                "transform": {
+                    "timeEntries": [
+                        {
+                            "_changeCode": "add",
+                            "entryTypeCode": {
+                                "codeValue": "timePairEntry"
+                            },
+                            "entryDate": "2023-07-14",
+                            "startPeriod": {
+                                "startDateTime": "2023-07-14T08:00:00+01:00"
+                            },
+                            "endPeriod": {
+                                "endDateTime": "2023-07-14T12:00:00+01:00"
+                            },
+                            "entryCode": {
+                                "codeValue": "W_PRES",
+                                "shortName": "PrÃ©sence intranet"
+                            }
+                        }
+                    ]
                 }
-              ],
-              "entryCode": {
-                "codeValue": "____ASTR01",
-                "shortName": "Astreinte 01"
-              },
-              "entryTypeCode": {
-                "codeValue": "timePairEntry"
-              },
-              "entryDate": "2022-12-22",
-              "startPeriod": {
-                "startDateTime": "2022-12-22T07:00:00+01:00"
-              },
-              "endPeriod": {
-                "endDateTime": "2022-12-22T08:00:00+01:00"
-              },
-              "_changeCode": "add"
+            },
+            "eventNameCode": {
+                "codeValue": "timeEntries.modify"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "time"
             }
-          ]
-        },
-        "eventContext": {
-          "associateOID": "AO0N1KA5856IQHM"
         }
-      },
-      "serviceCategoryCode": {
-        "codeValue": "time"
-      },
-      "eventNameCode": {
-        "codeValue": "timeEntries.modify"
-      }
-    }
-  ]
+    ]
 }
