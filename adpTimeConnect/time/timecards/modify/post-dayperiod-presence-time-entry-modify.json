@@ -9,13 +9,13 @@
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
-                "shortName": "Présence intranet",
+                "shortName": "PrÃ©sence intranet",
                 "codeValue": "W_PRES"
               },
               "entryID": "MjAyMy8wNy8wNQlXX1BSRVMJCQlBCQ",
               "dayPeriodCode": {
                 "shortName": "Matin",
-                "codeValue": "M"
+                "codeValue": "morning"
               },
               "entryDate": "2023-07-05",
               "_changeCode": "change"
