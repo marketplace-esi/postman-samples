@@ -1,273 +1,658 @@
 {
   "meta": {
-    "timeNotationCode": "24h",
-    "timeDurationFormatCode": "hh:mm"
+    "timeDurationFormatCode": "hh:mm",
+    "timeNotationCode": "24h"
   },
   "timeCards": [
     {
-      "timeCardID": "MjAyMy8wNy8wMS0yMDIzLzA3LzMx",
-      "actions": [
-        {
-          "links": [
-            {
-              "title": "Appliquer les horaires attendus",
-              "payLoadArguments": [
-                {
-                  "argumentValue": "MjAyMy8wNy8wMS0yMDIzLzA3LzMx",
-                  "argumentPath": "/data/eventContext/workAssignmentID"
-                },
-                {
-                  "argumentValue": "applySchedule",
-                  "argumentPath": "/data/transform/eventReasonCode/codeValue"
-                }
-              ],
-              "method": "POST",
-              "rel": "/adp/invoke",
-              "href": "/events/time/v2/time-entries.modify"
-            }
-          ],
-          "operationID": "timeEntries.modify",
-          "actionTypeCode": "callback",
-          "confirmationRequiredIndicator": true,
-          "attestation": {
-            "messageTxt": "Vous allez appliquer vos horaires théoriques sur cette feuille de présence pour chaque journée non saisie jusqu'au 06/07/2023."
-          },
-          "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-        },
-        {
-          "links": [
-            {
-              "title": "Entériner",
-              "payLoadArguments": [
-                {
-                  "argumentValue": "MjAyMy8wNy8wMS0yMDIzLzA3LzMx",
-                  "argumentPath": "/data/eventContext/timeCardID"
-                },
-                {
-                  "argumentValue": "Approve",
-                  "argumentPath": "/data/transform/timeCard/reviewStatusCode/codeValue"
-                }
-              ],
-              "method": "POST",
-              "rel": "/adp/invoke",
-              "href": "/events/time/v2/time-card.review"
-            }
-          ],
-          "operationID": "timeSheet.review",
-          "actionTypeCode": "callback",
-          "confirmationRequiredIndicator": true,
-          "attestation": {
-            "messageTxt": "Vous allez entériner votre déclaration de présence jusqu'au 06/07/2023."
-          },
-          "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.review"
-        }
-      ],
-      "totalPeriodTimeDuration": "P0,00D",
+      "timeCardID": "MjAyMy8wNi8wMS0yMDIzLzA3LzE1",
       "periodTotals": [
         {
-          "timeDuration": "P0,00D",
+          "timeDuration": "P2,00D",
           "payCode": {
             "shortName": "Présence intranet",
             "codeValue": "W_PRES"
           }
-        },
-        {
-          "laborAllocations": [
-            {
-              "allocationTypeCode": {
-                "shortName": "__LIEU__",
-                "codeValue": "Lieu"
-              },
-              "allocationCode": {
-                "shortName": "Lieu 1 Bench",
-                "codeValue": "84"
-              }
-            }
-          ],
-          "timeDuration": "PT141H0M",
-          "payCode": {
-            "shortName": "Heures théoriques",
-            "codeValue": "HORTHE"
-          }
-        },
-        {
-          "laborAllocations": [
-            {
-              "allocationTypeCode": {
-                "shortName": "__LIEU__",
-                "codeValue": "Lieu"
-              },
-              "allocationCode": {
-                "shortName": "Lieu 1 Bench",
-                "codeValue": "84"
-              }
-            }
-          ],
-          "timeDuration": "PT112H0M",
-          "payCode": {
-            "shortName": "Heures travaillées",
-            "codeValue": "HRETRA"
-          }
         }
       ],
-      "timePeriod": {
-        "endDate": "2023-07-31",
-        "startDate": "2023-07-01"
-      },
       "exceptionCounts": [
         {
-          "exceptionCode": {
-            "codeValue": "ANOWAZ"
-          },
           "exceptionTypeCode": {
             "codeValue": "error"
           },
+          "exceptionCode": {
+            "codeValue": "ANOWP1"
+          },
           "totalNumber": 1
+        },
+        {
+          "exceptionTypeCode": {
+            "codeValue": "error"
+          },
+          "exceptionCode": {
+            "codeValue": "ANOWP0"
+          },
+          "totalNumber": 9
         }
       ],
+      "totalPeriodTimeDuration": "P2,00D",
+      "timePeriod": {
+        "startDate": "2023-06-01",
+        "endDate": "2023-07-15"
+      },
       "dayEntries": [
         {
-          "actions": [
-            {
-              "links": [
-                {
-                  "title": "Saisir la présence",
-                  "method": "POST",
-                  "rel": "/adp/invoke",
-                  "href": "events/time/v2/time-entries.modify"
-                }
-              ],
-              "operationID": "timeEntry.create",
-              "actionTypeCode": "callback",
-              "confirmationRequiredIndicator": false,
-              "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-            }
-          ],
-          "timeEntries": [
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            }
-          ],
-          "entryDate": "2023-07-01",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "actions": [
-            {
-              "links": [
-                {
-                  "title": "Saisir la présence",
-                  "method": "POST",
-                  "rel": "/adp/invoke",
-                  "href": "events/time/v2/time-entries.modify"
-                }
-              ],
-              "operationID": "timeEntry.create",
-              "actionTypeCode": "callback",
-              "confirmationRequiredIndicator": false,
-              "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-            }
-          ],
-          "timeEntries": [
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            }
-          ],
-          "entryDate": "2023-07-02",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "actions": [
-            {
-              "links": [
-                {
-                  "title": "Saisir la présence",
-                  "method": "POST",
-                  "rel": "/adp/invoke",
-                  "href": "events/time/v2/time-entries.modify"
-                }
-              ],
-              "operationID": "timeEntry.create",
-              "actionTypeCode": "callback",
-              "confirmationRequiredIndicator": false,
-              "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-            }
-          ],
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-01"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-02"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-03"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-04"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-05"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-06"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-07"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-08"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-09"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-10"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-11"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-12"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-13"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-14"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-15"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-16"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-17"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-18"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-19"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-20"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-21"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-22"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0,00D",
+          "entryDate": "2023-06-23"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-24"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            }
+          ],
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-06-25"
+        },
+        {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
+          "timeEntries": [
+            {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
@@ -275,830 +660,176 @@
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
               },
-              "dayPeriodCode": {
-                "shortName": "Journée",
-                "codeValue": "J"
-              }
-            },
-            {
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/03\tHORTHE\t3\t2"
+              "entryID": "MjAyMy8wNi8yNglXX1BSRVMJCQlOCQ"
             }
           ],
-          "entryDate": "2023-07-03",
-          "totalPeriodTimeDuration": "P0,00D"
-        },
-        {
-          "actions": [
-            {
-              "links": [
-                {
-                  "title": "Saisir la présence",
-                  "method": "POST",
-                  "rel": "/adp/invoke",
-                  "href": "events/time/v2/time-entries.modify"
-                }
-              ],
-              "operationID": "timeEntry.create",
-              "actionTypeCode": "callback",
-              "confirmationRequiredIndicator": false,
-              "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-            }
-          ],
+          "totalPeriodTimeDuration": "P0,00D",
           "exceptions": [
             {
-              "exceptionCode": {
-                "codeValue": "ANOWAZ"
-              },
               "exceptionTypeCode": {
                 "codeValue": "error"
               },
-              "exceptionDescription": "Total activité incorrect"
+              "exceptionCode": {
+                "codeValue": "ANOWP1"
+              },
+              "exceptionDescription": "Présence non entérinée"
             }
           ],
+          "entryDate": "2023-06-26"
+        },
+        {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
               "dayPeriodCode": {
                 "shortName": "Journée",
-                "codeValue": "J"
-              }
-            },
-            {
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
+                "codeValue": "fullday"
               },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT5H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/04\tHORTHE\t2\t2"
-            }
-          ],
-          "entryDate": "2023-07-04",
-          "totalPeriodTimeDuration": "P0,00D"
-        },
-        {
-          "actions": [
-            {
-              "links": [
-                {
-                  "title": "Saisir la présence",
-                  "method": "POST",
-                  "rel": "/adp/invoke",
-                  "href": "events/time/v2/time-entries.modify"
-                }
-              ],
-              "operationID": "timeEntry.create",
-              "actionTypeCode": "callback",
-              "confirmationRequiredIndicator": false,
-              "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-            }
-          ],
-          "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
-          },
-          "timeEntries": [
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "entryID": "MjAyMy8wNy8wNQlXX1BSRVMJCQlOCQ",
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/05\tHORTHE\t3\t2"
             }
           ],
-          "entryDate": "2023-07-05",
-          "totalPeriodTimeDuration": "P0,00D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-06-27"
         },
         {
-          "actions": [
-            {
-              "links": [
-                {
-                  "title": "Saisir la présence",
-                  "method": "POST",
-                  "rel": "/adp/invoke",
-                  "href": "events/time/v2/time-entries.modify"
-                }
-              ],
-              "operationID": "timeEntry.create",
-              "actionTypeCode": "callback",
-              "confirmationRequiredIndicator": false,
-              "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-            }
-          ],
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
               "dayPeriodCode": {
                 "shortName": "Journée",
-                "codeValue": "J"
+                "codeValue": "fullday"
+              },
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
               }
-            },
-            {
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/06\tHORTHE\t1\t2"
-            },
-            {
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/06\tHRETRA\t2\t2"
             }
           ],
-          "entryDate": "2023-07-06",
-          "totalPeriodTimeDuration": "P0,00D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-06-28"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/07\tHRETRA\t2\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/07\tHORTHE\t1\t2"
-            }
-          ],
-          "entryDate": "2023-07-07",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
-            {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
             }
           ],
-          "entryDate": "2023-07-08",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
             {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
+              "exceptionTypeCode": {
+                "codeValue": "error"
               },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
               },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
+              "exceptionDescription": "Présence non saisie"
             }
           ],
-          "entryDate": "2023-07-09",
-          "totalPeriodTimeDuration": "P0D"
+          "entryDate": "2023-06-29"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/10\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/10\tHRETRA\t2\t2"
             }
           ],
-          "entryDate": "2023-07-10",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-06-30"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "longName": "L'expert a enregistré la journée.",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
@@ -1106,1192 +837,271 @@
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
               },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/11\tHRETRA\t2\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/11\tHORTHE\t1\t2"
+              "entryID": "MjAyMy8wNy8wMQlXX1BSRVMJCQlKCQ"
             }
           ],
-          "entryDate": "2023-07-11",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-01"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/12\tHORTHE\t1\t2"
             }
           ],
-          "entryDate": "2023-07-12",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-02"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/13\tHRETRA\t2\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/13\tHORTHE\t1\t2"
             }
           ],
-          "entryDate": "2023-07-13",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-07-03"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/14\tHRETRA\t2\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/14\tHORTHE\t1\t2"
-            }
-          ],
-          "entryDate": "2023-07-14",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
-            {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
             }
           ],
-          "entryDate": "2023-07-15",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
             {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
+              "exceptionTypeCode": {
+                "codeValue": "error"
               },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
               },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
+              "exceptionDescription": "Présence non saisie"
             }
           ],
-          "entryDate": "2023-07-16",
-          "totalPeriodTimeDuration": "P0D"
+          "entryDate": "2023-07-04"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/17\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/17\tHRETRA\t2\t2"
             }
           ],
-          "entryDate": "2023-07-17",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-07-05"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/18\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/18\tHRETRA\t2\t2"
             }
           ],
-          "entryDate": "2023-07-18",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-07-06"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/19\tHRETRA\t2\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/19\tHORTHE\t1\t2"
             }
           ],
-          "entryDate": "2023-07-19",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,00D",
+          "exceptions": [
+            {
+              "exceptionTypeCode": {
+                "codeValue": "error"
+              },
+              "exceptionCode": {
+                "codeValue": "ANOWP0"
+              },
+              "exceptionDescription": "Présence non saisie"
+            }
+          ],
+          "entryDate": "2023-07-07"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/20\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/20\tHRETRA\t2\t2"
             }
           ],
-          "entryDate": "2023-07-20",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-08"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/21\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/21\tHRETRA\t2\t2"
-            }
-          ],
-          "entryDate": "2023-07-21",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
-            {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
             }
           ],
-          "entryDate": "2023-07-22",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
-            {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            }
-          ],
-          "entryDate": "2023-07-23",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-09"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Journée",
+                "codeValue": "fullday"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
@@ -2299,129 +1109,25 @@
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
               },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/24\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/24\tHRETRA\t2\t2"
+              "entryID": "MjAyMy8wNy8xMAlXX1BSRVMJCQlKCQ"
             }
           ],
-          "entryDate": "2023-07-24",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P1,00D",
+          "entryDate": "2023-07-10"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "longName": "L'expert a enregistré la journée.",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Matin",
+                "codeValue": "morning"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
@@ -2429,129 +1135,25 @@
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
               },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/25\tHORTHE\t1\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/25\tHRETRA\t2\t2"
+              "entryID": "MjAyMy8wNy8xMQlXX1BSRVMJCQlNCQ"
             }
           ],
-          "entryDate": "2023-07-25",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,50D",
+          "entryDate": "2023-07-11"
         },
         {
           "dayStatusCode": {
-            "effectiveDate": "2023-07-06",
-            "shortName": "Temps à ventiler",
-            "codeValue": "null_toallocate"
+            "effectiveDate": "2023-07-12",
+            "longName": "L'expert a enregistré la journée.",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
           },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Après-midi",
+                "codeValue": "afternoon"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
@@ -2559,230 +1161,118 @@
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
               },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures travaillées",
-                "codeValue": "HRETRA"
-              },
-              "entryID": "00010037\tADI\t2023/07/26\tHRETRA\t2\t2"
-            },
-            {
-              "actions": [
-                {
-                  "links": [
-                    {
-                      "title": "Modifier la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.modify",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                },
-                {
-                  "links": [
-                    {
-                      "title": "Supprimer la présence",
-                      "method": "POST",
-                      "rel": "/adp/invoke",
-                      "href": "events/time/v2/time-entries.modify"
-                    }
-                  ],
-                  "operationID": "timeEntry.delete",
-                  "actionTypeCode": "callback",
-                  "confirmationRequiredIndicator": false,
-                  "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeEntries.modify"
-                }
-              ],
-              "laborAllocations": [
-                {
-                  "allocationTypeCode": {
-                    "shortName": "__LIEU__",
-                    "codeValue": "Lieu"
-                  },
-                  "allocationCode": {
-                    "shortName": "Lieu 1 Bench",
-                    "codeValue": "84"
-                  }
-                }
-              ],
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT8H0M",
-              "entryCode": {
-                "shortName": "Heures théoriques",
-                "codeValue": "HORTHE"
-              },
-              "entryID": "00010037\tADI\t2023/07/26\tHORTHE\t1\t2"
+              "entryID": "MjAyMy8wNy8xMglXX1BSRVMJCQlBCQ"
             }
           ],
-          "entryDate": "2023-07-26",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0,50D",
+          "entryDate": "2023-07-12"
         },
         {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
             }
           ],
-          "entryDate": "2023-07-27",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-13"
         },
         {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
             }
           ],
-          "entryDate": "2023-07-28",
-          "totalPeriodTimeDuration": "P0D"
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-14"
         },
         {
+          "dayStatusCode": {
+            "effectiveDate": "2023-07-12",
+            "shortName": "Journée hors dates limites de modification",
+            "codeValue": "locked"
+          },
           "timeEntries": [
             {
+              "dayPeriodCode": {
+                "shortName": "Non présent",
+                "codeValue": "nopresent"
+              },
               "entryTypeCode": {
                 "codeValue": "dayPeriodEntry"
               },
               "entryCode": {
                 "shortName": "Présence intranet",
                 "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
               }
             }
           ],
-          "entryDate": "2023-07-29",
-          "totalPeriodTimeDuration": "P0D"
-        },
+          "totalPeriodTimeDuration": "P0D",
+          "entryDate": "2023-07-15"
+        }
+      ],
+      "actions": [
         {
-          "timeEntries": [
+          "links": [
             {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
+              "mediaType": "application/pdf",
+              "method": "GET",
+              "href": "/time/v2/workers/AO0N1KB0218MBI8/time-cards?$filter=timeCards/timePeriod/startDate%20eq%20'2023-06-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-07-15'",
+              "rel": "/adp/invoke"
             }
           ],
-          "entryDate": "2023-07-30",
-          "totalPeriodTimeDuration": "P0D"
-        },
-        {
-          "timeEntries": [
-            {
-              "entryTypeCode": {
-                "codeValue": "dayPeriodEntry"
-              },
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "dayPeriodCode": {
-                "shortName": "Non présent",
-                "codeValue": "N"
-              }
-            }
-          ],
-          "entryDate": "2023-07-31",
-          "totalPeriodTimeDuration": "P0D"
+          "confirmationRequiredIndicator": false,
+          "operationID": "timeSheet.read",
+          "actionTypeCode": "callback",
+          "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read"
         }
       ],
       "associateOID": "AO0N1KB0218MBI8",
       "links": [
         {
           "method": "GET",
-          "rel": "previous",
-          "href": "/time/v2/workers/oalbi-tzb/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-06-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-06-30'"
+          "href": "/time/v2/workers/AO0N1KB0218MBI8/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-04-17'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-05-31'",
+          "rel": "previous"
         },
         {
           "method": "GET",
-          "rel": "next",
-          "href": "/time/v2/workers/oalbi-tzb/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-08-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-08-31'"
+          "href": "/time/v2/workers/AO0N1KB0218MBI8/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-07-16'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-08-29'",
+          "rel": "next"
         }
-      ]
+      ],
+      "reviewStatusCode": {
+        "longName": "La fiche de présence a été approuvée en partie par l'expert jusqu'au 12/07/2023",
+        "codeValue": "approve"
+      }
     }
   ]
 }
