@@ -1,34 +1,33 @@
 {
-  "events": [
-    {
-      "data": {
-        "transform": {
-          "timeEntries": [
-            {
-              "entryTypeCode": {
-                "codeValue": "hoursEntry"
-              },
-              "timeDuration": "PT7H30M",
-              "entryCode": {
-                "shortName": "Présence intranet",
-                "codeValue": "W_PRES"
-              },
-              "entryID": "MjAyMy8wNy8wNQlXX1BSRVMJMDc6MDAJCQk",
-              "entryDate": "2023-07-05",
-              "_changeCode": "change"
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N1KB034299BZ"
+                },
+                "transform": {
+                    "timeEntries": [
+                        {
+                            "_changeCode": "change",
+                            "entryTypeCode": {
+                                "codeValue": "hoursEntry"
+                            },
+                            "entryDate": "2023-07-14",
+                            "timeDuration": "PT6H",
+                            "entryCode": {
+                                "codeValue": "W_PRES",
+                                "shortName": "PrÃ©sence intranet"
+                            }
+                        }
+                    ]
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "timeEntries.modify"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "time"
             }
-          ]
-        },
-        "eventContext": {
-          "associateOID": "AO0N1KB034299BZ"
         }
-      },
-      "serviceCategoryCode": {
-        "codeValue": "time"
-      },
-      "eventNameCode": {
-        "codeValue": "timeEntries.modify"
-      }
-    }
-  ]
+    ]
 }
