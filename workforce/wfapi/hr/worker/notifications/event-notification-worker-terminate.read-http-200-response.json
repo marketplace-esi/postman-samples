@@ -1,0 +1,34 @@
+{
+	"events": [
+		{
+			"eventID": "79fcf342-bb78-4771-8920-c18573c25a78",
+			"eventNameCode": {
+				"codeValue": "worker.terminate"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T15:08:08+02:00",
+			"effectiveDateTime": "2016-07-17T00:00:00+02:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "010084"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerDates": {
+							"terminationDate": "2023-02-10"
+						}
+					}
+				}
+			}
+		}
+	]
+}
