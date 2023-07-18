@@ -1,0 +1,458 @@
+{
+    "workSchedules": [
+        {
+            "associateOID": "696969",
+            "workAssignmentID": "1",
+            "schedulePeriod": {
+                "startDate": "2023-12-01",
+                "endDate": "2023-12-31"
+            },
+            "scheduleDays": [
+                {
+                    "daySequenceNumber": 1,
+                    "scheduleDayDate": "2023-12-01",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 2,
+                    "scheduleDayDate": "2023-12-02",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 3,
+                    "scheduleDayDate": "2023-12-03",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 4,
+                    "scheduleDayDate": "2023-12-04",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 5,
+                    "scheduleDayDate": "2023-12-05",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 6,
+                    "scheduleDayDate": "2023-12-06",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 7,
+                    "scheduleDayDate": "2023-12-07",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 8,
+                    "scheduleDayDate": "2023-12-08",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 9,
+                    "scheduleDayDate": "2023-12-09",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 10,
+                    "scheduleDayDate": "2023-12-10",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 11,
+                    "scheduleDayDate": "2023-12-11",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 12,
+                    "scheduleDayDate": "2023-12-12",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 13,
+                    "scheduleDayDate": "2023-12-13",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 14,
+                    "scheduleDayDate": "2023-12-14",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 15,
+                    "scheduleDayDate": "2023-12-15",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 16,
+                    "scheduleDayDate": "2023-12-16",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 17,
+                    "scheduleDayDate": "2023-12-17",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 18,
+                    "scheduleDayDate": "2023-12-18",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 19,
+                    "scheduleDayDate": "2023-12-19",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 20,
+                    "scheduleDayDate": "2023-12-20",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 21,
+                    "scheduleDayDate": "2023-12-21",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 22,
+                    "scheduleDayDate": "2023-12-22",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 23,
+                    "scheduleDayDate": "2023-12-23",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 24,
+                    "scheduleDayDate": "2023-12-24",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 25,
+                    "scheduleDayDate": "2023-12-25",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 26,
+                    "scheduleDayDate": "2023-12-26",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 27,
+                    "scheduleDayDate": "2023-12-27",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 28,
+                    "scheduleDayDate": "2023-12-28",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 29,
+                    "scheduleDayDate": "2023-12-29",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 30,
+                    "scheduleDayDate": "2023-12-30",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 31,
+                    "scheduleDayDate": "2023-12-31",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "associateOID": "696969",
+            "workAssignmentID": "2",
+            "schedulePeriod": {
+                "startDate": "2023-12-01",
+                "endDate": "2023-12-31"
+            },
+            "scheduleDays": [
+                {
+                    "daySequenceNumber": 1,
+                    "scheduleDayDate": "2023-12-01",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 2,
+                    "scheduleDayDate": "2023-12-02",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 3,
+                    "scheduleDayDate": "2023-12-03",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 4,
+                    "scheduleDayDate": "2023-12-04",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 5,
+                    "scheduleDayDate": "2023-12-05",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 6,
+                    "scheduleDayDate": "2023-12-06",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 7,
+                    "scheduleDayDate": "2023-12-07",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 8,
+                    "scheduleDayDate": "2023-12-08",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 9,
+                    "scheduleDayDate": "2023-12-09",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 10,
+                    "scheduleDayDate": "2023-12-10",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 11,
+                    "scheduleDayDate": "2023-12-11",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 12,
+                    "scheduleDayDate": "2023-12-12",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 13,
+                    "scheduleDayDate": "2023-12-13",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 14,
+                    "scheduleDayDate": "2023-12-14",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 15,
+                    "scheduleDayDate": "2023-12-15",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 16,
+                    "scheduleDayDate": "2023-12-16",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 17,
+                    "scheduleDayDate": "2023-12-17",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 18,
+                    "scheduleDayDate": "2023-12-18",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 19,
+                    "scheduleDayDate": "2023-12-19",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 20,
+                    "scheduleDayDate": "2023-12-20",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 21,
+                    "scheduleDayDate": "2023-12-21",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 22,
+                    "scheduleDayDate": "2023-12-22",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 23,
+                    "scheduleDayDate": "2023-12-23",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 24,
+                    "scheduleDayDate": "2023-12-24",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 25,
+                    "scheduleDayDate": "2023-12-25",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 26,
+                    "scheduleDayDate": "2023-12-26",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 27,
+                    "scheduleDayDate": "2023-12-27",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 28,
+                    "scheduleDayDate": "2023-12-28",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 29,
+                    "scheduleDayDate": "2023-12-29",
+                    "scheduledHours": {
+                        "hoursQuantity": 8.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 30,
+                    "scheduleDayDate": "2023-12-30",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                },
+                {
+                    "daySequenceNumber": 31,
+                    "scheduleDayDate": "2023-12-31",
+                    "scheduledHours": {
+                        "hoursQuantity": 0.0
+                    }
+                }
+            ]
+        }
+    ]
+}

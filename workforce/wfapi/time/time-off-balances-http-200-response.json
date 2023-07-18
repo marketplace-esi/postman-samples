@@ -1,0 +1,91 @@
+{
+    "timeOffBalances": [
+        {
+            "associateOID": "000062",
+            "workAssignmentID": "1",
+            "workerName": {
+                "givenName": "Steven",
+                "familyName1": "Harteveld",
+                "formattedName": "prof. drs. S Harteveld arts"
+            },
+            "balanceAsOfDate": "2023-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "A",
+                        "shortName": "ADV"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 0.0,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "shortName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "associateOID": "000062",
+            "workAssignmentID": "1",
+            "workerName": {
+                "givenName": "Steven",
+                "familyName1": "Harteveld",
+                "formattedName": "prof. drs. S Harteveld arts"
+            },
+            "balanceAsOfDate": "2023-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "T",
+                        "shortName": "Tijd voor tijd"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 28.0,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "shortName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "associateOID": "000062",
+            "workAssignmentID": "1",
+            "workerName": {
+                "givenName": "Steven",
+                "familyName1": "Harteveld",
+                "formattedName": "prof. drs. S Harteveld arts"
+            },
+            "balanceAsOfDate": "2023-01-01",
+            "timeOffPolicyBalances": [
+                {
+                    "timeOffPolicyCode": {
+                        "codeValue": "V",
+                        "shortName": "Verlof"
+                    },
+                    "policyBalances": [
+                        {
+                            "totalQuantity": {
+                                "quantityValue": 336.0,
+                                "unitTimeCode": {
+                                    "codeValue": "H",
+                                    "shortName": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
