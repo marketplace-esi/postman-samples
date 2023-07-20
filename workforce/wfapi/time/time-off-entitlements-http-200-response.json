@@ -1,0 +1,102 @@
+{
+    "workerTimeOffEntitlements": [
+        {
+            "associateOID": "ADPNL00000062",
+            "workAssignmentID": "1",
+            "workerName": {
+                "givenName": "Steven",
+                "familyName": "Harteveld",
+                "formattedName": "prof. drs. S Harteveld arts"
+            },
+            "workAssignmentTitle": "Fit Test ",
+            "balanceAsOfDate": "2023-01-01",
+            "entitlementPeriod": {
+                "periodName": "2023"
+            },
+            "timeOffEntitlements": [
+                {
+                    "timeOffPolicyCode": {
+                        "code": "A",
+                        "name": "ADV"
+                    },
+                    "totalEntitledQuantity": {
+                        "quantity": 32.0,
+                        "timeUnitCode": {
+                            "code": "H",
+                            "name": "Hours"
+                        }
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 0.0,
+                        "timeUnitCode": {
+                            "code": "H",
+                            "name": "Hours"
+                        }
+                    },
+                    "entitlements": [
+                        {
+                            "entitlementTypeCode": {
+                                "code": "B"
+                            },
+                            "entitledQuantity": {
+                                "quantity": 32.0,
+                                "timeUnitCode": {
+                                    "code": "H",
+                                    "name": "Hours"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "timeOffPolicyCode": {
+                        "code": "V",
+                        "name": "Verlof"
+                    },
+                    "totalEntitledQuantity": {
+                        "quantity": 200.0,
+                        "timeUnitCode": {
+                            "code": "H",
+                            "name": "Hours"
+                        }
+                    },
+                    "totalBalanceQuantity": {
+                        "quantity": 336.0,
+                        "timeUnitCode": {
+                            "code": "H",
+                            "name": "Hours"
+                        }
+                    },
+                    "entitlements": [
+                        {
+                            "entitlementTypeCode": {
+                                "code": "B"
+                            },
+                            "entitledQuantity": {
+                                "quantity": 160.0,
+                                "timeUnitCode": {
+                                    "code": "H",
+                                    "name": "Hours"
+                                }
+                            },
+                            "expirationDateTime": "2024-07-01T00:00:00+02:00"
+                        },
+                        {
+                            "entitlementTypeCode": {
+                                "code": "E"
+                            },
+                            "entitledQuantity": {
+                                "quantity": 40.0,
+                                "timeUnitCode": {
+                                    "code": "H",
+                                    "name": "Hours"
+                                }
+                            },
+                            "expirationDateTime": "2029-01-01T00:00:00+01:00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

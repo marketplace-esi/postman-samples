@@ -1,0 +1,18 @@
+{
+    "associateCertifications": [
+        {
+            "certificationID": {
+                "idValue": "345TGH6KL876"
+            },
+            "certificationNameCode": {
+                "codeValue": "RBB",
+                "shortName": "Autorijbewijs B"
+            },
+            "certificationDescription": "Rijden met aanhanger tot 750 kg (lege gewicht + laadvermogen) of meer dan 750 kg als de auto en aanhanger samen niet boven de 3500 kg uitkomen.",
+            "lastIssueDate": "2018-01-01",
+            "expirationDate": "2028-01-01",
+            "itemID": "000043-004",
+            "associateOID": "ADPNL00000043"
+        }
+    ]
+}

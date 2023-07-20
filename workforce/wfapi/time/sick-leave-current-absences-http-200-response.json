@@ -1,0 +1,25 @@
+{
+    "absences": [
+        {
+            "absenceID": {
+                "id": "000062-1-20230303"
+            },
+            "firstDateOfAbsence": "2023-03-03",
+            "originalDateOfAbsence": "2023-03-03T00:00:00+01:00",
+            "absenceTypeCode": {
+                "code": "3",
+                "name": "Bedrijfsongeval"
+            },
+            "workerID": {
+                "id": "000062"
+            },
+            "assignmentID": {
+                "id": "1"
+            },
+            "absenceCreationDateTime": "2023-07-18T15:10:00+01:00",
+            "lastChangeDateTime": "2023-07-18T15:10:00+01:00",
+            "effectiveDate": "2023-03-03",
+            "absencePercentage": 100.0
+        }
+    ]
+}

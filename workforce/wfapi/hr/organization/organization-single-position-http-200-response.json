@@ -1,0 +1,38 @@
+{
+    "organizationPositions": [
+        {
+            "positionID": "000001-000002",
+            "positionTitle": "Corporate Headquarter - Fit Test ",
+            "positionStatusCode": {
+                "effectiveDate": "1950-01-01"
+            },
+            "budgetedAmount": {
+                "amountValue": 54105.93,
+                "currencyCode": "EUR"
+            },
+            "sharedPositionMaximumHeadcount": 1.0,
+            "workAssignment": {
+                "standardHours": {
+                    "hoursQuantity": 40.0,
+                    "unitCode": {
+                        "codeValue": "W",
+                        "longName": "Week"
+                    }
+                },
+                "wageLawCoverages": [
+                    {
+                        "wageLawNameCode": {
+                            "codeValue": "64"
+                        }
+                    }
+                ]
+            },
+            "compensationData": {
+                "remunerationBasisCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1324 @@
+{
+    "organizationDepartments": [
+        {
+            "departmentCode": {
+                "codeValue": "000001",
+                "shortName": "Head",
+                "longName": "Corporate Headquarter"
+            },
+            "departmentDescription": "Corporate Headquarter",
+            "activeIndicator": true,
+            "effectiveDate": "2022-11-03",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "indeling"
+                    },
+                    "stringValue": "David",
+                    "itemID": "afd_indeling"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000002",
+                "shortName": "ND",
+                "longName": "New department"
+            },
+            "departmentDescription": "New department",
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2023-01-01",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "costCenter"
+                    },
+                    "stringValue": "00048",
+                    "itemID": "afd_kostenplaats"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentType"
+                    },
+                    "stringValue": "3",
+                    "itemID": "afd_type"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentTypeDesc"
+                    },
+                    "stringValue": "Administratief",
+                    "itemID": "afd_type_oms"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "indeling"
+                    },
+                    "stringValue": "Klantspecifiek",
+                    "itemID": "afd_indeling"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000003",
+                "shortName": "NDD",
+                "longName": "New Demo Department"
+            },
+            "departmentDescription": "New Demo Department",
+            "parentDepartmentCode": {
+                "codeValue": "000091"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2021-04-13",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "costCenter"
+                    },
+                    "stringValue": "01225",
+                    "itemID": "afd_kostenplaats"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentType"
+                    },
+                    "stringValue": "4",
+                    "itemID": "afd_type"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentTypeDesc"
+                    },
+                    "stringValue": "Vaktechnisch",
+                    "itemID": "afd_type_oms"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "indeling"
+                    },
+                    "stringValue": "Klantspecifiek",
+                    "itemID": "afd_indeling"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000010",
+                "shortName": "ICT",
+                "longName": "ICT- 2"
+            },
+            "departmentDescription": "ICT- 2",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2021-02-04",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000020",
+                "shortName": "Marketing",
+                "longName": "Marketing"
+            },
+            "departmentDescription": "Marketing",
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000021",
+                "shortName": "Marketing/Sales",
+                "longName": "Marketing en Sales"
+            },
+            "departmentDescription": "Marketing en Sales",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2021-02-09",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "departmentType"
+                    },
+                    "stringValue": "1",
+                    "itemID": "afd_type"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentTypeDesc"
+                    },
+                    "stringValue": "Management",
+                    "itemID": "afd_type_oms"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "manager"
+                    },
+                    "stringValue": "696969",
+                    "itemID": "afd_manager"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000022",
+                "shortName": "S-a-l-e-s",
+                "longName": "S-a-l-e-s"
+            },
+            "departmentDescription": "S-a-l-e-s",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062 MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000025",
+                "shortName": "Klantenservice",
+                "longName": "Klantenservice"
+            },
+            "departmentDescription": "Klantenservice",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2019-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000030",
+                "shortName": "Beheer",
+                "longName": "Beheer"
+            },
+            "departmentDescription": "Beheer",
+            "parentDepartmentCode": {
+                "codeValue": "000050"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000040",
+                "shortName": "Archief",
+                "longName": "Kwaliteit"
+            },
+            "departmentDescription": "Kwaliteit",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000048",
+                "shortName": "TODF",
+                "longName": "Test Organization Department FIT"
+            },
+            "departmentDescription": "Test Organization Department FIT",
+            "parentDepartmentCode": {
+                "codeValue": "000010"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2021-03-08",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "costCenter"
+                    },
+                    "stringValue": "00012",
+                    "itemID": "afd_kostenplaats"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentType"
+                    },
+                    "stringValue": "3",
+                    "itemID": "afd_type"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentTypeDesc"
+                    },
+                    "stringValue": "Administratief",
+                    "itemID": "afd_type_oms"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "indeling"
+                    },
+                    "stringValue": "Klantspecifiek",
+                    "itemID": "afd_indeling"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000050",
+                "shortName": "Internal Systems",
+                "longName": "Internal Systems"
+            },
+            "departmentDescription": "Internal Systems",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000060",
+                "shortName": "Sales",
+                "longName": "Sales"
+            },
+            "departmentDescription": "Sales",
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000070",
+                "shortName": "|nt#rn@tion&l",
+                "longName": "International"
+            },
+            "departmentDescription": "International",
+            "parentDepartmentCode": {
+                "codeValue": "000060"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000071",
+                "shortName": "INT2",
+                "longName": "International 2"
+            },
+            "departmentDescription": "International 2",
+            "parentDepartmentCode": {
+                "codeValue": "000060"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "costCenter"
+                    },
+                    "stringValue": "01225",
+                    "itemID": "afd_kostenplaats"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000090",
+                "shortName": "HRM",
+                "longName": "HRM"
+            },
+            "departmentDescription": "HRM",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000091",
+                "shortName": "Finance Department",
+                "longName": "Finance"
+            },
+            "departmentDescription": "Finance",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "buildingNumber": "5",
+                "streetName": "Wijde Kerksteeg"
+            }
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000092",
+                "shortName": "Facilitair",
+                "longName": "Facilitair"
+            },
+            "departmentDescription": "Facilitair",
+            "parentDepartmentCode": {
+                "codeValue": "000030"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000093",
+                "shortName": "Office management",
+                "longName": "Office management"
+            },
+            "departmentDescription": "Office management",
+            "parentDepartmentCode": {
+                "codeValue": "000050"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000094",
+                "shortName": "ICT2",
+                "longName": "Consultancy"
+            },
+            "departmentDescription": "Consultancy",
+            "parentDepartmentCode": {
+                "codeValue": "000025"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000095",
+                "shortName": "Communicatie",
+                "longName": "Communicatie"
+            },
+            "departmentDescription": "Communicatie",
+            "parentDepartmentCode": {
+                "codeValue": "000021"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "1950-01-01",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000096",
+                "shortName": "PnO",
+                "longName": "Personeel en Organisatie"
+            },
+            "departmentDescription": "Personeel en Organisatie",
+            "parentDepartmentCode": {
+                "codeValue": "000090"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2021-02-12",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "indeling"
+                    },
+                    "stringValue": "Klantspecifiek",
+                    "itemID": "afd_indeling"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "000100",
+                "shortName": "TD",
+                "longName": "Technology Department"
+            },
+            "departmentDescription": "Technology Department",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2022-03-30",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "666666",
+                "shortName": "DVN",
+                "longName": "Divisie Noord Nederland"
+            },
+            "departmentDescription": "Divisie Noord Nederland",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": true,
+            "effectiveDate": "2022-07-04",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "costCenter"
+                    },
+                    "stringValue": "01225",
+                    "itemID": "afd_kostenplaats"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "manager"
+                    },
+                    "stringValue": "696969",
+                    "itemID": "afd_manager"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "696969",
+                "shortName": "Divisie Noord NL",
+                "longName": "Divisie Noord Nederland"
+            },
+            "departmentDescription": "Divisie Noord Nederland",
+            "activeIndicator": true,
+            "effectiveDate": "2019-01-01",
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        },
+        {
+            "departmentCode": {
+                "codeValue": "777777",
+                "shortName": "Environmnental Socia",
+                "longName": "Environmnental Social Governance "
+            },
+            "departmentDescription": "Environmnental Social Governance ",
+            "parentDepartmentCode": {
+                "codeValue": "000001"
+            },
+            "activeIndicator": false,
+            "effectiveDate": "2023-05-01",
+            "assignedLocation": {
+                "postalCode": "2802 GC",
+                "buildingNumber": "20",
+                "streetName": "Groenelaan",
+                "unit": "a"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "costCenter"
+                    },
+                    "stringValue": "00012",
+                    "itemID": "afd_kostenplaats"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentType"
+                    },
+                    "stringValue": "2",
+                    "itemID": "afd_type"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "departmentTypeDesc"
+                    },
+                    "stringValue": "Lijn",
+                    "itemID": "afd_type_oms"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "endDate"
+                    },
+                    "stringValue": "2023-07-01",
+                    "itemID": "afd_einde"
+                }
+            ]
+        }
+    ]
+}

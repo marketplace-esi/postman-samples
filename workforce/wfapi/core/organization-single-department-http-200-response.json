@@ -1,0 +1,78 @@
+{
+    "organizationDepartments": [
+        {
+            "departmentCode": {
+                "codeValue": "000001",
+                "shortName": "Head",
+                "longName": "Corporate Headquarter"
+            },
+            "departmentDescription": "Corporate Headquarter",
+            "activeIndicator": true,
+            "effectiveDate": "2022-11-03",
+            "assignedLocation": {
+                "cityName": "ROTTERDAM",
+                "postalCode": "3062MB",
+                "buildingNumber": "15",
+                "streetName": "K.P. van der Mandelelaan"
+            },
+            "auxilliaryFields": [
+                {
+                    "nameCode": {
+                        "codeValue": "telephone"
+                    },
+                    "stringValue": "010-2590000",
+                    "itemID": "afd_telefoon"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "indeling"
+                    },
+                    "stringValue": "David",
+                    "itemID": "afd_indeling"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo1"
+                    },
+                    "stringValue": "Directeur",
+                    "itemID": "afd_aggr_nivo1"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo2"
+                    },
+                    "stringValue": "Onder directeur",
+                    "itemID": "afd_aggr_nivo2"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo3"
+                    },
+                    "stringValue": "Vestigingsmanager",
+                    "itemID": "afd_aggr_nivo3"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo4"
+                    },
+                    "stringValue": "Afdelingsmanager",
+                    "itemID": "afd_aggr_nivo4"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo5"
+                    },
+                    "stringValue": "Projectleider",
+                    "itemID": "afd_aggr_nivo5"
+                },
+                {
+                    "nameCode": {
+                        "codeValue": "aggr_nivo6"
+                    },
+                    "stringValue": "Medewerker",
+                    "itemID": "afd_aggr_nivo6"
+                }
+            ]
+        }
+    ]
+}
