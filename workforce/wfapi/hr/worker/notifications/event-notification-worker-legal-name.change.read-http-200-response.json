@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"eventID": "980055ff-7a92-414b-800b-ba063fc7f786",
+			"eventNameCode": {
+				"codeValue": "worker.legalName.change"
+			},
+			"recordDateTime": "2023-07-06T00:00:00+02:00",
+			"creationDateTime": "2023-07-06T15:11:00+02:00",
+			"effectiveDateTime": "2023-02-10T00:00:00+01:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"legalName": {
+								"familyName1": "Klaassen",
+								"formattedName": "J. van Klaassen",
+								"nickName": "Jan",
+								"familyName1Prefix": "van",
+								"initials": "J."
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

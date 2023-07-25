@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"eventID": "83221d7e-ca0c-428d-9004-9d9e1f7b6c97",
+			"eventNameCode": {
+				"codeValue": "worker.businessCommunication.email.add"
+			},
+			"recordDateTime": "2023-07-03T00:00:00+02:00",
+			"creationDateTime": "2023-07-03T13:21:17+02:00",
+			"effectiveDateTime": "2023-05-01T00:00:00+02:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000105"
+						},
+						"businessCommunication": {
+							"email": {
+								"emailUri": "b.westdijk@adp.com",
+								"itemID": "1"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

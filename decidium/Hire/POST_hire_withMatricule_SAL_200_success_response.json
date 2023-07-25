@@ -57,14 +57,14 @@
                                     "documentID": "2999999999999",
                                     "typeCode": {
                                         "codeValue": "SSN",
-                                        "shortName": "Numéro de sécurité sociale"
+                                        "shortName": "NumÃ©ro de sÃ©curitÃ© sociale"
                                     }
                                 },
                                 {
                                     "documentID": "123456789",
                                     "typeCode": {
                                         "codeValue": "IDCard",
-                                        "shortName": "Carte d'identité"
+                                        "shortName": "Carte d'identitÃ©"
                                     },
                                     "issueDate": "2012-10-03",
                                     "expirationDate": "2027-10-03"
@@ -81,8 +81,8 @@
                                 {
                                     "documentID": "T&T",
                                     "typeCode": {
-                                        "codeValue": "visa",
-                                        "shortName": " Visa"
+                                        "codeValue": "visa1",
+                                        "shortName": "Visa 1"
                                     },
                                     "issueDate": "2022-09-19",
                                     "expirationDate": "2023-01-18"
@@ -90,8 +90,8 @@
                                 {
                                     "documentID": "Etats-Unis",
                                     "typeCode": {
-                                        "codeValue": "visa",
-                                        "shortName": " Visa"
+                                        "codeValue": "visa2",
+                                        "shortName": "Visa 2"
                                     },
                                     "issueDate": "2022-08-08",
                                     "expirationDate": "2022-09-30"
@@ -175,7 +175,7 @@
                                 "annualRateAmount": {
                                     "nameCode": {
                                         "codeValue": "MSATH",
-                                        "shortName": "Salaire annuel théorique"
+                                        "shortName": "Salaire annuel thÃ©orique"
                                     },
                                     "amountValue": 0.0,
                                     "currencyCode": "EUR"
@@ -186,7 +186,7 @@
                                 "codeFields": [
                                     {
                                         "codeValue": "SAL",
-                                        "longName": "Salarié",
+                                        "longName": "SalariÃ©",
                                         "itemID": "collaborationType"
                                     },
                                     {

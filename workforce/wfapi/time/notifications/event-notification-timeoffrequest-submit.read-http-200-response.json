@@ -1,0 +1,65 @@
+{
+	"events": [
+		{
+			"eventID": "37008c65-b939-45cf-b8e9-a01f8dbdc759",
+			"eventNameCode": {
+				"codeValue": "timeOffRequest.submit"
+			},
+			"recordDateTime": "2023-06-01T00:00:00+02:00",
+			"creationDateTime": "2023-06-01T10:29:26+02:00",
+			"effectiveDateTime": "2023-05-01T00:00:00+02:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"workerID": {
+						"idValue": "000105"
+					},
+					"workAssignmentID": "1"
+				},
+				"output": {
+					"workerID": {
+						"idValue": "000105"
+					},
+					"workAssignmentID": "1",
+					"timeOffRequest": {
+						"timeOffRequestID": "V-2023-06-06",
+						"requestStatusCode": {
+							"codeValue": "approved",
+							"longName": "Approved"
+						},
+						"totalQuantity": {
+							"quantityValue": 8.0,
+							"unitTimeCode": {
+								"codeValue": "H",
+								"longName": "Hours"
+							}
+						},
+						"timeOffEntries": [
+							{
+								"datePeriod": {
+									"startDate": "2023-06-06",
+									"endDate": "2023-06-06"
+								},
+								"totalQuantity": {
+									"quantityValue": 8.0,
+									"unitTimeCode": {
+										"codeValue": "H",
+										"longName": "Hours"
+									}
+								},
+								"timeOffPolicyCode": {
+									"codeValue": "V",
+									"longName": "Verlof"
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

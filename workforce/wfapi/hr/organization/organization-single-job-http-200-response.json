@@ -1,0 +1,31 @@
+{
+    "organizationJobs": [
+        {
+            "jobCode": {
+                "codeValue": "000004"
+            },
+            "jobTitle": "Medewerker Algemeen",
+            "jobStatusCode": {
+                "codeValue": "A",
+                "shortName": "Active",
+                "longName": "Active",
+                "effectiveDate": "1950-01-01"
+            },
+            "jobFamilyCode": {},
+            "wageLawCoverage": {
+                "wageLawNameCode": {
+                    "codeValue": "64",
+                    "shortName": "ADP CAO 64"
+                }
+            },
+            "effectiveDate": "1950-01-01",
+            "salaryPlan": {
+                "planCode": {
+                    "codeValue": "6",
+                    "shortName": "64-6"
+                },
+                "payGradeCode": {}
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+	"events": [
+		{
+			"eventID": "f882df2e-2364-423e-9533-6d2016f79591",
+			"eventNameCode": {
+				"codeValue": "worker.citizenship.change"
+			},
+			"recordDateTime": "2023-07-06T00:00:00+02:00",
+			"creationDateTime": "2023-07-06T15:11:00+02:00",
+			"effectiveDateTime": "2023-02-10T00:00:00+01:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "",
+						"workerID": {
+							"idValue": "000103"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"citizenshipCountryCode": {
+								"codeValue": "0055"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

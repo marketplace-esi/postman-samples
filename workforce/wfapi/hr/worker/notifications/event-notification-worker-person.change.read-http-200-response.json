@@ -1,0 +1,169 @@
+{
+	"events": [
+		{
+			"eventID": "b708bb75-529b-402f-8bc6-e8f5f12d8cec",
+			"eventNameCode": {
+				"codeValue": "worker.person.change"
+			},
+			"recordDateTime": "2023-07-10T00:00:00+02:00",
+			"creationDateTime": "2023-07-10T10:18:55+02:00",
+			"effectiveDateTime": "2023-07-10T00:00:00+02:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "",
+						"workerID": {
+							"idValue": "000106"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000106"
+						},
+						"person": {
+							"governmentIDs": [
+								{
+									"idValue": "479211620",
+									"nameCode": {
+										"codeValue": "BSN",
+										"longName": "Burgerservicenummer"
+									},
+									"itemID": "1"
+								}
+							],
+							"legalName": {
+								"givenName": "Moist",
+								"familyName1": "Lipwig",
+								"formattedName": "drs. M. von Lipwig RA",
+								"preferredSalutations": [
+									{
+										"salutationCode": {
+											"codeValue": "1M",
+											"longName": "De heer"
+										}
+									}
+								],
+								"nickName": "Moist",
+								"familyName1Prefix": "von",
+								"initials": "M."
+							},
+							"birthDate": "1989-05-25",
+							"legalAddress": {},
+							"communication": {
+								"landlines": [
+									{
+										"nameCode": {
+											"shortName": "home phone"
+										},
+										"formattedNumber": "0238674354",
+										"itemID": "1"
+									}
+								],
+								"mobiles": [
+									{
+										"nameCode": {
+											"shortName": "private mobile"
+										},
+										"formattedNumber": "0694746253",
+										"itemID": "1"
+									}
+								],
+								"emails": [
+									{
+										"nameCode": {
+											"shortName": "personal"
+										},
+										"emailUri": "moist.von.lipwig@gmail.com",
+										"itemID": "1"
+									}
+								]
+							},
+							"genderCode": {
+								"codeValue": "MALE",
+								"longName": "Male"
+							},
+							"maritalStatusCode": {
+								"codeValue": "M",
+								"shortName": "Married"
+							},
+							"identityDocuments": [
+								{
+									"documentID": "709854634B",
+									"typeCode": {
+										"codeValue": "6",
+										"shortName": "Verblijfsdocument"
+									}
+								}
+							],
+							"preferredName": {},
+							"birthPlace": {
+								"cityName": "Hoofddorp",
+								"countryCode": "NL"
+							},
+							"otherPersonalAddresses": [
+								{
+									"itemID": "1",
+									"typeCode": {
+										"shortName": "mail address"
+									}
+								}
+							],
+							"citizenshipCountryCodes": [
+								{
+									"codeValue": "0001"
+								}
+							],
+							"customFieldGroup": {
+								"stringFields": [
+									{
+										"nameCode": {
+											"codeValue": "partnerFamilyName1"
+										},
+										"stringValue": "Dearheart"
+									},
+									{
+										"nameCode": {
+											"codeValue": "partnerInitials"
+										},
+										"stringValue": "A.B."
+									},
+									{
+										"nameCode": {
+											"codeValue": "naamSamenstelling"
+										},
+										"stringValue": "tiva"
+									},
+									{
+										"nameCode": {
+											"codeValue": "samengesteldeNaam"
+										},
+										"stringValue": "drs. M. von Lipwig RA"
+									},
+									{
+										"nameCode": {
+											"codeValue": "leefvormCode"
+										},
+										"stringValue": "4"
+									},
+									{
+										"nameCode": {
+											"codeValue": "leefvorm"
+										},
+										"stringValue": "Samenwonen"
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"eventID": "1b4dd6d1-7658-4b6b-9631-f04604529406",
+			"eventNameCode": {
+				"codeValue": "organizationJob.add"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T08:34:44+02:00",
+			"effectiveDateTime": "2023-01-01T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"contextExpressionID": "001012023"
+				},
+				"output": {
+					"organizationJob": {
+						"jobCode": {
+							"codeValue": "001012023"
+						},
+						"jobTitle": "Hakselaar",
+						"jobFamilyCode": {
+							"codeValue": "1",
+							"shortName": "Klant specifiek"
+						},
+						"wageLawCoverage": {
+							"wageLawNameCode": {
+								"codeValue": "214",
+								"shortName": "ADP CAO 214"
+							}
+						},
+						"effectiveDate": "2023-01-01",
+						"salaryPlan": {
+							"planCode": {
+								"codeValue": "3",
+								"shortName": "214-3"
+							},
+							"payGradeCode": {
+								"codeValue": "3",
+								"shortName": "Vaktechnisch"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

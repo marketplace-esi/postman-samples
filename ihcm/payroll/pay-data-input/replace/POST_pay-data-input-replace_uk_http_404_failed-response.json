@@ -1,0 +1,30 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2023-05-10T13:00:00Z",
+        "protocolStatusCode": {
+            "codeValue": "404"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid itemID 94171cc3-15be-4b1a-b4e3-5744dd3e5e41."
+                },
+                "developerMessage": {
+                    "messageTxt": "event[0].data.eventContext.payDataInput.itemID::invalid"
+                }
+            }
+        ]
+    }
+}

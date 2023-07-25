@@ -1,0 +1,60 @@
+{
+    "organizationRoles": [
+        {
+            "roleCode": {
+                "codeValue": "CONS",
+                "longName": "Personeelsconsulent"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000050",
+                    "shortName": "Internal Systems",
+                    "longName": "Internal Systems"
+                }
+            },
+            "managementIndicator": false,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2021-02-11"
+            },
+            "workerID": {
+                "idValue": "696969",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "H Aroui"
+            }
+        },
+        {
+            "roleCode": {
+                "codeValue": "CONS",
+                "longName": "Personeelsconsulent"
+            },
+            "organizationalUnit": {
+                "nameCode": {
+                    "codeValue": "000100",
+                    "shortName": "TD",
+                    "longName": "Technology Department"
+                }
+            },
+            "managementIndicator": true,
+            "activeIndicator": true,
+            "roleEffectivePeriod": {
+                "startDate": "2022-03-30"
+            },
+            "workerID": {
+                "idValue": "696969",
+                "schemeCode": {
+                    "codeValue": "WF",
+                    "longName": "Workforce"
+                }
+            },
+            "workerName": {
+                "formattedName": "H Aroui"
+            }
+        }
+    ]
+}

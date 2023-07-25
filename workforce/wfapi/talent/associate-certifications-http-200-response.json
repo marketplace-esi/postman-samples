@@ -1,0 +1,58 @@
+{
+    "associateCertifications": [
+        {
+            "certificationID": {
+                "idValue": "RIJB-16-A01"
+            },
+            "certificationNameCode": {
+                "codeValue": "RBD",
+                "shortName": "Busrijbewijs D"
+            },
+            "lastIssueDate": "1980-03-22",
+            "expirationDate": "2045-03-22",
+            "itemID": "000043-001",
+            "associateOID": "ADPNL00000043"
+        },
+        {
+            "certificationID": {
+                "idValue": "ZWEM-BB-33"
+            },
+            "certificationNameCode": {
+                "codeValue": "ZWEMDIPLOMAA",
+                "shortName": "Zwemdiploma A"
+            },
+            "certificationDescription": "Basis zwemmen",
+            "lastIssueDate": "1970-03-03",
+            "expirationDate": "2099-12-31",
+            "itemID": "000043-002",
+            "associateOID": "ADPNL00000043"
+        },
+        {
+            "certificationID": {
+                "idValue": "ART678JKL09"
+            },
+            "certificationNameCode": {
+                "codeValue": "RBA",
+                "shortName": "Motorrijbewijs A"
+            },
+            "lastIssueDate": "2022-08-01",
+            "expirationDate": "2032-08-01",
+            "itemID": "000043-003",
+            "associateOID": "ADPNL00000043"
+        },
+        {
+            "certificationID": {
+                "idValue": "345TGH6KL876"
+            },
+            "certificationNameCode": {
+                "codeValue": "RBB",
+                "shortName": "Autorijbewijs B"
+            },
+            "certificationDescription": "Rijden met aanhanger tot 750 kg (lege gewicht + laadvermogen) of meer dan 750 kg als de auto en aanhanger samen niet boven de 3500 kg uitkomen.",
+            "lastIssueDate": "2018-01-01",
+            "expirationDate": "2028-01-01",
+            "itemID": "000043-004",
+            "associateOID": "ADPNL00000043"
+        }
+    ]
+}

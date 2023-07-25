@@ -1,0 +1,53 @@
+{
+	"events": [
+		{
+			"eventID": "7df387dc-5511-4519-89ef-b99b0c1435f9",
+			"eventNameCode": {
+				"codeValue": "worker.personalAddress.change"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T14:51:09+02:00",
+			"effectiveDateTime": "2023-07-01T00:00:00+02:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"personalAddress": {
+								"itemID": "1"
+							}
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"personalAddress": {
+								"cityName": "Amsterdam",
+								"countryCode": "NL",
+								"postalCode": "1071 BT",
+								"buildingNumber": "147",
+								"streetName": "P.C. Hooftstraat",
+								"unit": "A III",
+								"itemID": "1",
+								"typeCode": {
+									"shortName": "mail address"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

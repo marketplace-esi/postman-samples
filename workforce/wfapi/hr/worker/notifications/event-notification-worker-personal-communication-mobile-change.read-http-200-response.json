@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"eventID": "66f75fbd-92d2-4364-88f3-a0c6f770dc48",
+			"eventNameCode": {
+				"codeValue": "worker.personalCommunication.mobile.change"
+			},
+			"recordDateTime": "2023-07-06T00:00:00+02:00",
+			"creationDateTime": "2023-07-06T15:11:00+02:00",
+			"effectiveDateTime": "2023-02-10T00:00:00+01:00",
+			"originator": {
+				"organizationOID": "pv50_interface",
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"communication": {
+								"mobile": {
+									"itemID": "1"
+								}
+							}
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						},
+						"person": {
+							"communication": {
+								"mobile": {
+									"formattedNumber": "0621588425",
+									"itemID": "1"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"eventID": "e04c470d-cb70-45d7-9f0b-f5634130a688",
+			"eventNameCode": {
+				"codeValue": "organizationCostCenter.remove"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T09:06:58+02:00",
+			"effectiveDateTime": "1950-01-01T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"contextExpressionID": "010123"
+				},
+				"output": {}
+			}
+		}
+	]
+}
