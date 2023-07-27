@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.terminate"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0N5285025GGQI"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "eventReasonCode": {
+                        "shortName": "Improved benefits"
+                    },
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2023-05-01"
+                        },
+                        "voluntaryIndicator": true
+                    }
+                }
+            }
+        }
+    ]
+}

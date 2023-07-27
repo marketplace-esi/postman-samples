@@ -1,0 +1,22 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventStatusCode": {
+                "codeValue": "submit"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N5285025GGQI"
+                },
+                "transform": {
+                    "eventNameCode": {
+                        "codeValue": "worker.terminate"
+                    }
+                }
+            }
+        }
+    ]
+}
