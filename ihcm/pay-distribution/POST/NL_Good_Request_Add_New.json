@@ -1,0 +1,59 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "payroll"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0M33C19083EN0"
+                    }
+                },
+                "transform": {
+                    "payDistribution": {
+                        "payrollGroupCode": {
+                            "codeValue": "48669"
+                        },
+                        "distributionInstructions": [
+                            {
+                                "instructionEffectivePeriod": {
+                                    "startDateTime": "2023-07-01T00:00:00.00Z"
+                                },
+                                "payee": {
+                                    "nameCode": {
+                                        "longName": "6666"
+                                    }
+                                },
+                                "precedenceCode": {
+                                    "codeValue": "1"
+                                },
+                                "depositAccount": {
+                                    //"IBAN": "123456789",
+                                    "financialParty": {
+                                        "SWIFTCode": "12344"
+                                    },
+                                    "financialAccount": {
+                                        "accountNumber": "NL91ABNA0417164300",
+                                        "accountName": "Jane",
+                                        "typeCode": {
+                                            "codeValue": "1",
+                                            "shortName": "Primairy"
+                                        }
+                                    }
+                                },
+                                "distributionAmount": {
+                                    "amountValue": 1000
+                                },
+                                "thirdPartyBeneficiaryIndicator": false
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

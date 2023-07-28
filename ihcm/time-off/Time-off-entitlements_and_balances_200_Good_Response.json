@@ -1,0 +1,5753 @@
+{
+  "workerTimeOffEntitlements": [
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Lee"
+      },
+      "associateOID": "UK0L1R82603MPALB",
+      "itemID": "56964961-9a89-4424-afeb-b7afc7376bb6",
+      "entitlementPeriod": {
+        "startDate": "2022-01-12",
+        "endDate": "9999-01-01"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "End Date",
+                "name": "End Date"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "End Date Leave",
+            "name": "End Date Leave"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Lee"
+      },
+      "associateOID": "UK0L1R82603MPALB",
+      "itemID": "5dd66ae9-2ab7-4f91-91d8-e2843fe05d3f",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Lee"
+      },
+      "associateOID": "UK0L1R82603MPALB",
+      "itemID": "5dd66ae9-2ab7-4f91-91d8-e2843fe05d3f",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 2.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 2.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Lee"
+      },
+      "associateOID": "UK0L1R82603MPALB",
+      "itemID": "5dd66ae9-2ab7-4f91-91d8-e2843fe05d3f",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.75
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.75
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Lee"
+      },
+      "associateOID": "UK0L1R82603MPALB",
+      "itemID": "5dd66ae9-2ab7-4f91-91d8-e2843fe05d3f",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 5.75,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Elizabeth",
+        "familyName": "Wilkinson"
+      },
+      "associateOID": "PUKTIMEADMIN",
+      "itemID": "040c7f27-bd98-44ff-817e-4cd757e1111e",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Kilolm"
+      },
+      "associateOID": "AO0N3EE4047O4D5",
+      "itemID": "1765f3a8-f121-44d5-a3a1-6e2d8dca2175",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 43.8133,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 42.8133,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 27.0667
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 27.0667
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jack",
+        "familyName": "Kilolm"
+      },
+      "associateOID": "AO0N3EE4047O4D5",
+      "itemID": "1765f3a8-f121-44d5-a3a1-6e2d8dca2175",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 43.8133,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 42.8133,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 16.7466
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 15.7466
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Kyle",
+        "familyName": "Broski"
+      },
+      "associateOID": "AO0N31G5621CBNC",
+      "itemID": "ce9eeafe-2de7-4aff-ade5-d021fbe013f3",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 104.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 60.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 22.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 22.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Kyle",
+        "familyName": "Broski"
+      },
+      "associateOID": "AO0N31G5621CBNC",
+      "itemID": "ce9eeafe-2de7-4aff-ade5-d021fbe013f3",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 104.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 60.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Kyle",
+        "familyName": "Broski"
+      },
+      "associateOID": "AO0N31G5621CBNC",
+      "itemID": "ce9eeafe-2de7-4aff-ade5-d021fbe013f3",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 104.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 60.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 35.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 35.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "John",
+        "familyName": "Berry"
+      },
+      "associateOID": "AO0M9RB5312B313",
+      "itemID": "baac58bd-eb1f-46e3-a283-1fc348a7dd12",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 61.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 60.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 23.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 22.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "John",
+        "familyName": "Berry"
+      },
+      "associateOID": "AO0M9RB5312B313",
+      "itemID": "baac58bd-eb1f-46e3-a283-1fc348a7dd12",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 61.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 60.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "John",
+        "familyName": "Berry"
+      },
+      "associateOID": "AO0M9RB5312B313",
+      "itemID": "baac58bd-eb1f-46e3-a283-1fc348a7dd12",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 61.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 60.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 35.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 35.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "John",
+        "familyName": "Berry"
+      },
+      "associateOID": "AO0M9RB5312B313",
+      "itemID": "637f3f69-b539-44d1-9d27-ca1650502ab9",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 210.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 195.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 195.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 195.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Danny",
+        "familyName": "Blanchflower"
+      },
+      "associateOID": "AO0N7FA5133O9EY",
+      "itemID": "db654fee-1e38-4813-965a-d142cdd94c28",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 1.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 1.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Basic Entitlement",
+                "name": "Basic Entitlement"
+              },
+              "expirationDateTime": "2024-12-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Partner Leave Holiday",
+            "name": "Partner Leave Holiday"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Danny",
+        "familyName": "Blanchflower"
+      },
+      "associateOID": "AO0N7FA5133O9EY",
+      "itemID": "db654fee-1e38-4813-965a-d142cdd94c28",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 1.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 1.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Basic Entitlement",
+                "name": "Basic Entitlement"
+              },
+              "expirationDateTime": "2024-12-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Partner Leave Holiday",
+            "name": "Partner Leave Holiday"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Danny",
+        "familyName": "Blanchflower"
+      },
+      "associateOID": "AO0N7FA5133O9EY",
+      "itemID": "7621c60c-b703-4398-8680-a7c22b7ba78b",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 36.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 35.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 15.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 14.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Danny",
+        "familyName": "Blanchflower"
+      },
+      "associateOID": "AO0N7FA5133O9EY",
+      "itemID": "7621c60c-b703-4398-8680-a7c22b7ba78b",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 36.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 35.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 21.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 21.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Joseph",
+        "familyName": "Chan"
+      },
+      "associateOID": "PUKPRESTARTERNGUX",
+      "itemID": "ec99914a-c99e-4f1e-abc3-de73de7bb9d8",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Joseph",
+        "familyName": "Chan"
+      },
+      "associateOID": "PUKPRESTARTERNGUX",
+      "itemID": "ec99914a-c99e-4f1e-abc3-de73de7bb9d8",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Rupert",
+        "familyName": "Poulous"
+      },
+      "associateOID": "AO0N3EE0319HUFV",
+      "itemID": "0ff53e15-f5b8-441d-a245-4d595cc51fae",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 36.48,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 35.48,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 14.08
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 13.08
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Rupert",
+        "familyName": "Poulous"
+      },
+      "associateOID": "AO0N3EE0319HUFV",
+      "itemID": "0ff53e15-f5b8-441d-a245-4d595cc51fae",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 36.48,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 35.48,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 22.4
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 22.4
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Harrison",
+        "familyName": "Clarke"
+      },
+      "associateOID": "PUK1SUPERUSER",
+      "itemID": "21b666a6-1709-4539-b570-ba13abd27b62",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Harrison",
+        "familyName": "Clarke"
+      },
+      "associateOID": "PUK1SUPERUSER",
+      "itemID": "21b666a6-1709-4539-b570-ba13abd27b62",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 0.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 30.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 29.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 2.2615
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 2.2615
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Jeff",
+        "familyName": "Bowers"
+      },
+      "associateOID": "UK0L3AC24029YXDI",
+      "itemID": "53568dc8-5fb1-4d1f-b5ba-8c47c216b037",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 89.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 88.2615,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 42.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 42.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Mark",
+        "familyName": "Simmons"
+      },
+      "associateOID": "AO0N3EC56243EB4",
+      "itemID": "1f700180-871f-4a3e-96f7-54ed26d91339",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 44.08,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 43.08,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 27.0667
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 27.0667
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Mark",
+        "familyName": "Simmons"
+      },
+      "associateOID": "AO0N3EC56243EB4",
+      "itemID": "1f700180-871f-4a3e-96f7-54ed26d91339",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 44.08,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 43.08,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 17.0133
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 16.0133
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 2.7077
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 2.7077
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.2923
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.2923
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0769
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0769
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "c99282ce-8eea-4445-ae2a-c68f61eb9afd",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 40.7169,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 24.64
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 24.64
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Phoebe",
+        "familyName": "Kirk"
+      },
+      "associateOID": "PUKHRNGUX",
+      "itemID": "175144b7-6a30-4ddd-a32d-27076b2d7d73",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 195.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 195.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 195.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 195.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "JoJo",
+        "familyName": "Harriss"
+      },
+      "associateOID": "UK0KB5M51407YF4Z",
+      "itemID": "c293d81c-326d-4d25-ad09-b3060d4ddbc1",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 39.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 38.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 12.2666
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 11.2666
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "JoJo",
+        "familyName": "Harriss"
+      },
+      "associateOID": "UK0KB5M51407YF4Z",
+      "itemID": "c293d81c-326d-4d25-ad09-b3060d4ddbc1",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 39.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 38.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "JoJo",
+        "familyName": "Harriss"
+      },
+      "associateOID": "UK0KB5M51407YF4Z",
+      "itemID": "c293d81c-326d-4d25-ad09-b3060d4ddbc1",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 39.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 38.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "JoJo",
+        "familyName": "Harriss"
+      },
+      "associateOID": "UK0KB5M51407YF4Z",
+      "itemID": "c293d81c-326d-4d25-ad09-b3060d4ddbc1",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 39.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 38.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 3.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 3.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "JoJo",
+        "familyName": "Harriss"
+      },
+      "associateOID": "UK0KB5M51407YF4Z",
+      "itemID": "c293d81c-326d-4d25-ad09-b3060d4ddbc1",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 39.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 38.9333,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 18.6667
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 18.6667
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Steven",
+        "familyName": "Dawson"
+      },
+      "associateOID": "AO0N1CC5828BMJK",
+      "itemID": "7dce6c12-7f6f-4784-8d4c-2317c343f959",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Steven",
+        "familyName": "Dawson"
+      },
+      "associateOID": "AO0N1CC5828BMJK",
+      "itemID": "7dce6c12-7f6f-4784-8d4c-2317c343f959",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 56.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 56.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2030-12-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Steven",
+        "familyName": "Dawson"
+      },
+      "associateOID": "AO0N1CC5828BMJK",
+      "itemID": "7dce6c12-7f6f-4784-8d4c-2317c343f959",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.5
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.5
+              },
+              "entitlementTypeCode": {
+                "code": "Monthly Entitlement",
+                "name": "Monthly Entitlement"
+              },
+              "expirationDateTime": "2030-12-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Steven",
+        "familyName": "Dawson"
+      },
+      "associateOID": "AO0N1CC5828BMJK",
+      "itemID": "7dce6c12-7f6f-4784-8d4c-2317c343f959",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 56.5,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 0.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Sam",
+        "familyName": "Beach"
+      },
+      "associateOID": "AO0N3OF1559JP4I",
+      "itemID": "2c48e249-c7ab-47dd-bc09-c91803a86fc7",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 43.8462,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 43.8462,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 16.9231
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 16.9231
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Sam",
+        "familyName": "Beach"
+      },
+      "associateOID": "AO0N3OF1559JP4I",
+      "itemID": "2c48e249-c7ab-47dd-bc09-c91803a86fc7",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 43.8462,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 43.8462,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 26.9231
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 26.9231
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 20.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-08-05T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 5.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-08-10T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 6.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-08-10T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 20.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-11-05T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 20.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-12-08T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 865.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-12-20T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 8653.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 0.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-12-20T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 865345.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 853798.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-12-20T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 865345700.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 865345700.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2023-12-20T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 23.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 23.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 30.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 30.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 100.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 97.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2023-10-20T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 15.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 15.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 10.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 10.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 10.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 10.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 10.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 10.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              },
+              "expirationDateTime": "2024-03-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 13.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 13.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "133eff86-fd58-490d-97fc-930716e45739",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 123458100000000.0,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 171.5,
+            "timeUnitCode": {
+              "code": "Hours",
+              "name": "Hours"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Hours",
+                  "code": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Hours",
+                  "name": "Hours"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Hourly Entitlement",
+                "name": "Hourly Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Hours",
+            "name": "Annual Leave Hours"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              },
+              "expirationDateTime": "2024-01-31T23:59:00\u002B00:00"
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 20.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 20.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 14.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 14.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 14.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 14.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 14.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 14.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.55
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.55
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 1.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 1.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 14.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 14.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    },
+    {
+      "workerName": {
+        "givenName": "Bruce",
+        "familyName": "Newton"
+      },
+      "associateOID": "UK0L2GC232976930",
+      "itemID": "d4adff13-2766-4ade-a72d-77a1f27819fb",
+      "entitlementPeriod": {
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      },
+      "timeOffEntitlements": [
+        {
+          "totalEntitledQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "totalBalanceQuantity": {
+            "quantity": 100000900000000.0,
+            "timeUnitCode": {
+              "code": "Days",
+              "name": "Days"
+            }
+          },
+          "entitlements": [
+            {
+              "entitledQuantity": {
+                "timeUnitCode": {
+                  "name": "Days",
+                  "code": "Days"
+                },
+                "quantity": 14.0
+              },
+              "balanceQuantity": {
+                "timeUnitCode": {
+                  "code": "Days",
+                  "name": "Days"
+                },
+                "quantity": 14.0
+              },
+              "entitlementTypeCode": {
+                "code": "Daily Entitlement",
+                "name": "Daily Entitlement"
+              }
+            }
+          ],
+          "timeOffPolicyCode": {
+            "code": "Annual Leave Days",
+            "name": "Annual Leave Days"
+          }
+        }
+      ],
+      "balanceAsOfDate": "2023-07-28"
+    }
+  ]
+}
