@@ -1,0 +1,51 @@
+{
+    "events": [
+        {
+            "originator": {
+                "associateOID": "AO0N1K913135H38"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N1KB0218MBI8"
+                },
+                "output": {
+                    "associateOID": "AO0N1KB0218MBI8",
+                    "timeOffRequest": {
+                        "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMS45OTU4ODE4LjIwMjMvMDgvMTQuMA",
+                        "requestStatusCode": {
+                            "codeValue": "approved",
+                            "shortName": "Accepté",
+                            "effectiveDate": "2023-08-09"
+                        },
+                        "timeOffEntries": [
+                            {
+                                "payCode": {
+                                    "codeValue": "CP",
+                                    "shortName": "Congés payés"
+                                },
+                                "dateTimePeriod": {
+                                    "endDateTime": "2023-08-14T00:00:00+02:00",
+                                    "startDateTime": "2023-08-14T00:00:00+02:00"
+                                },
+                                "durationTypeCode": {
+                                    "codeValue": "dayPeriodEntry"
+                                },
+                                "timeOffPolicyCode": {
+                                    "codeValue": "CP"
+                                },
+                                "dayPeriodStartCode": {
+                                    "codeValue": "1",
+                                    "shortName": "Matin"
+                                },
+                                "dayPeriodEndCode": {
+                                    "codeValue": "2",
+                                    "shortName": "Après-midi"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
