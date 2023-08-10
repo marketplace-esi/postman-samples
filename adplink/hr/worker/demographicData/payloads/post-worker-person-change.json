@@ -1,0 +1,90 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "PRENOM",
+                                "familyName1": "NOM",
+                                "familyName2": "NOM_NAISSANCE",
+                                "middleName": "PRENOM2",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "M"
+                            },
+                            "birthDate": "1987-09-07",
+                            "birthPlace": {
+                                "countryCode": "100",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "34"
+                                },
+                                "cityName": "BERLOU"
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "100"
+                                }
+                            ],
+                            "maritalStatusCode": {
+                                "codeValue": "M",
+                                "effectiveDate": "2020-02-27"
+                            },
+                            "legalAddress": {
+                                "countryCode": "100",
+                                "postalCode": "75001",
+                                "lineFive": "",
+                                "buildingNumber": "9",
+                                "buildingNumberExtension": "",
+                                "streetName": "SQUARE DU BERRY",
+                                "countrySubdivisionLevel2": {
+                                    "longName": "PARIS 01"
+                                }
+                            },
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "countryDialing": "+33",
+                                        "formattedNumber": "1 23 45 67 89"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "countryDialing": "+33",
+                                        "formattedNumber": "1 33 45 69 89"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "emailUri": "prenom.nom@gmail.com"
+                                    }
+                                ]
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "1879934999913"
+                                },
+                                {
+                                    "documentID": "02"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
