@@ -1,0 +1,54 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "time-off-balances.modify"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N7FA5133O9EY"
+                },
+                "transform": {
+                    "effectiveDateTime": "2024-01-01T00:00:00Z",
+                    "timeOffBalances": [
+                        {
+                            "timeOffPolicyBalances": [
+                                {
+                                    "timeOffPolicyCode": {
+                                        "codeValue": "Annual Leave Days"
+                                    },
+                                    "accrualBalances": [
+                                        {
+                                            "balanceTypeCode": {
+                                                "codeValue": "Daily Entitlement",
+                                                "shortName": "Approved",
+                                                //"longName": "Banner"
+                                            },
+                                            "accrualTypeCode": {
+                                                "codeValue": "Adjustment",
+                                                "shortName": "Other date",
+                                                "longName": "2024-01-01"
+                                            },
+                                            "accrualQuantity": {
+                                                "quantityValue": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "comments": [
+                                {
+                                    "textValue": "Employee Sold a day of entitlement"
+                                }
+                            ],
+                            "_modificationTypeCode": "Debit"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
