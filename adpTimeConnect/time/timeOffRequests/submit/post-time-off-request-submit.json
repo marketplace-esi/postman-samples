@@ -1,10 +1,10 @@
 /*
-Submit a time off request in slot time : J (all day), A (Afternoon), M (Morning).
+Submit a time off request in slot time : , 1 (Morning), 2 (Afternoon).
 Cases for a long period time off request :
-Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=A, dayPeriodEndCode=M => A for 2020-12-01, M for 2020-12-04, J for days for the others days.
-Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=A, dayPeriodEndCode=A => A for 2020-12-01, J for days for the others days.
-Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCode=M => M for 2020-12-04, J for days for the others days.
-Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCode=A => J for all days in the period
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=1, dayPeriodEndCode=2 => morning for 2020-12-01, afternoon for 2020-12-04, full day for the others days.
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=A, dayPeriodEndCode=A => afternoon for 2020-12-01, full day for the others days.
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCode=M => morning for 2020-12-04, J for days for the others days.
+Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCode=A => full day for all days in the period
 */
 
 {
@@ -32,10 +32,10 @@ Start date=2020-12-01, End date=2020-12-04, dayPeriodStartCode=M, dayPeriodEndCo
 									"endDateTime": "2020-12-04"
 								},
 								"dayPeriodStartCode": {
-									"codeValue": "A"
+									"codeValue": "2"
 								},
 								"dayPeriodEndCode": {
-									"codeValue": "M"
+									"codeValue": "1"
 								}
 							}
 						],
