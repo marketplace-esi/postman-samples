@@ -1,0 +1,22 @@
+{
+	"events": [
+        {
+            "data": {
+                "transform": {
+                    "clockEntry": {
+                        "entryDateTime": "2023-08-14T14:53:19+03:00"
+                    }
+                },
+                "eventContext": {
+                    "associateOID": "AO0N1K913135H38"
+                }
+            },
+            "serviceCategoryCode": {
+                "codeValue": "time"
+            },
+            "eventNameCode": {
+                "codeValue": "clock.punch"
+            }
+        }
+    ]
+}
