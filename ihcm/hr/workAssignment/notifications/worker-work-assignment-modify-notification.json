@@ -1,0 +1,242 @@
+{
+    "events": [
+        {
+            "eventID": "3e40ec22-d42f-45cb-9763-0bb1fb7e5c7c",
+            "serviceCategoryCode": {
+                "codeValue": "HR",
+                "shortName": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.modify",
+                "shortName": "worker.workAssignment.modify"
+            },
+            "eventTitle": "Change Work Assignment",
+            "eventStatusCode": {
+                "codeValue": "Complete"
+            },
+            "recordDateTime": "2023-07-27T12:04:06Z",
+            "creationDateTime": "2023-07-27T12:04:11Z",
+            "effectiveDateTime": "2023-07-27T12:04:12Z",
+            "originator": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "314cf478-3f69-41ea-aff2-f4c1d96ff8be",
+                "personOID": "Get Worker_Marketplace",
+                "formattedName": "Get Worker_Marketplace",
+                "deviceID": "iHCM",
+                "eventID": "3e40ec22-d42f-45cb-9763-0bb1fb7e5c7c",
+                "eventNameCode": {
+                    "codeValue": "worker.workAssignment.modify",
+                    "shortName": "worker.workAssignment.modify",
+                    "longName": "worker.workAssignment.modify"
+                }
+            },
+            "actor": {
+                "applicationID": {
+                    "idValue": "iHCM"
+                },
+                "associateOID": "314cf478-3f69-41ea-aff2-f4c1d96ff8be",
+                "formattedName": "Get Worker_Marketplace",
+                "deviceID": "iHCM",
+                "geoCoordinate": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "UK0JAPA5322MOXNL",
+                    "workAssignmentID": "772af2dd-85df-45f4-9228-9adaf111e2e3"
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "Complete"
+                    },
+                    "effectiveDateTime": "2015-12-02T00:00:00",
+                    "workAssignment": {
+                        "workerTypeCode": {
+                            "codeValue": "Temporary",
+                            "shortName": "Temporary"
+                        },
+                        "workLevelCode": {
+                            "codeValue": "Full_Time",
+                            "shortName": "Full Time"
+                        },
+                        "legalEntityID": "UK-Comp",
+                        "jobCode": {
+                            "codeValue": "021",
+                            "shortName": "UAT Manager"
+                        },
+                        "jobTitle": "UAT Manager",
+                        "standardHours": {
+                            "unitCode": {
+                                "codeValue": "C",
+                                "shortName": "Casual Worker"
+                            },
+                            "hoursQuantity": 0.0
+                        },
+                        "fullTimeEquivalenceRatio": 1.0,
+                        "assignedOrganizationalUnits": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "UK-Comp",
+                                    "shortName": "UK Comp"
+                                },
+                                "typeCode": {
+                                    "codeValue": "0",
+                                    "shortName": "Company",
+                                    "longName": "ADP UK"
+                                }
+                            },
+                            {
+                                "nameCode": {
+                                    "codeValue": "MNL_PC",
+                                    "shortName": "Parent Company"
+                                },
+                                "typeCode": {
+                                    "codeValue": "-1",
+                                    "shortName": "Parent Company",
+                                    "longName": "MNL STRUCTURE"
+                                }
+                            }
+                        ],
+                        "homeWorkLocation": {
+                            "nameCode": {
+                                "codeValue": "ADPPOST_E",
+                                "shortName": "Envelope and post to home address"
+                            }
+                        },
+                        "customFieldGroup": {
+                            "codeFields": [
+                                {
+                                    "codeValue": "New Starter",
+                                    "shortName": "New Starter",
+                                    "nameCode": {
+                                        "codeValue": "REASONFORCHANGE",
+                                        "shortName": "Reason for Change"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "UK0JAPA5322MOXNL",
+                        "workerID": {
+                            "idValue": "ARP1006"
+                        },
+                        "workAssignment": {
+                            "primaryIndicator": true,
+                            "hireDate": "2015-12-01",
+                            "assignmentStatus": {
+                                "statusCode": {
+                                    "codeValue": "Current",
+                                    "shortName": "Current"
+                                }
+                            },
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "104",
+                                    "costCenterName": "Services",
+                                    "costCenterPercentage": 100.0
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "Temporary",
+                                "shortName": "Temporary"
+                            },
+                            "workLevelCode": {
+                                "codeValue": "Full_Time",
+                                "shortName": "Full Time"
+                            },
+                            "legalEntityID": "UK-Comp",
+                            "jobCode": {
+                                "codeValue": "021",
+                                "shortName": "UAT Manager"
+                            },
+                            "jobTitle": "UAT Manager",
+                            "standardHours": {
+                                "unitCode": {
+                                    "codeValue": "C",
+                                    "shortName": "Casual Worker"
+                                },
+                                "hoursQuantity": 0.0
+                            },
+                            "fullTimeEquivalenceRatio": 1.0,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "UK-Comp",
+                                        "shortName": "UK Comp"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "0",
+                                        "shortName": "Company",
+                                        "longName": "ADP UK"
+                                    }
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "MNL_PC",
+                                        "shortName": "Parent Company"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "-1",
+                                        "shortName": "Parent Company",
+                                        "longName": "MNL STRUCTURE"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "ADPPOST_E",
+                                    "shortName": "Envelope and post to home address"
+                                }
+                            },
+                            "reportsTo": [
+                                {
+                                    "itemID": "ce565336-651a-41f3-8af3-86d23536974f",
+                                    "workerID": {
+                                        "idValue": "ARP1021"
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "Jordan LeechSupriya"
+                                    },
+                                    "reportsToRelationshipCode": {
+                                        "codeValue": "REPORTSTO",
+                                        "shortName": "REPORTSTO"
+                                    }
+                                }
+                            ],
+                            "payrollFileNumber": "ARP1006",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "New Starter",
+                                        "shortName": "New Starter",
+                                        "nameCode": {
+                                            "codeValue": "REASONFORCHANGE",
+                                            "shortName": "Reason for Change"
+                                        }
+                                    },
+                                    {
+                                        "codeValue": "Current",
+                                        "shortName": "Current",
+                                        "longName": "Current",
+                                        "nameCode": {
+                                            "codeValue": "STATUS",
+                                            "shortName": "Status"
+                                        }
+                                    }
+                                ]
+                            },
+                            "itemID": "772af2dd-85df-45f4-9228-9adaf111e2e3"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

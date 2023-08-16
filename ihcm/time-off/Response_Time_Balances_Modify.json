@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "associateOID": "AO0N7FA5133O9EY"
+        },
+        "output": {
+          "timeOffBalances": [
+            {
+              "timeOffPolicyBalances": [
+                {
+                  "timeOffPolicyCode": {
+                    "codeValue": "Annual Leave Days"
+                  },
+                  "policyBalances": [
+                    {
+                      "balanceTypeCode": {
+                        "codeValue": "Daily Entitlement",
+                        "shortName": "Approved",
+                        "longName": "Annual Leave Days (Daily Entitlement) granted on 01/01/2024"
+                      },
+                      "accrualBalances": [
+                        {
+                          "accrualTypeCode": {
+                            "codeValue": "Requested by Employee",
+                            "shortName": "Other date",
+                            "longName": "2024-01-01T00:00:00Z"
+                          },
+                          "totalQuantity": {
+                            "quantityValue": 50.0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "comments": [
+                {
+                  "textValue": "Sucessfully Credited from entitlement balances"
+                }
+              ],
+              "_modificationTypeCode": "CREDIT",
+              "itemID": "c3380f0c-8e6c-4b32-8370-37c89088c360"
+            }
+          ]
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "time-off-balances.modify"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "time"
+      }
+    }
+  ]
+}

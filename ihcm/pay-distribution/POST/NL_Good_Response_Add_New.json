@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "ecd8f3c2-d6bc-47ce-a788-6edb4ee5a86a",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-07-27T13:47:03.4067566\u002B00:00",
+    "requestReceiptDateTime": "2023-07-27T13:47:03.4067567\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "fe527640-6f46-440c-a1a9-c3f4dd1080cc",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "5d0bdd0b-024d-413c-82d9-3aaf0322939c",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "The primary bank account should not have an amount."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
