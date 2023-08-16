@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.birthPlace.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "12345"
+                    }
+                },
+                "transform": {
+                    "effectiveDateTime": "2022-04-22T00:00:00Z",
+                    "worker": {
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "Paris",
+                                "countryCode": "FR"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
