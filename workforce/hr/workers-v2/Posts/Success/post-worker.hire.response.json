@@ -1,0 +1,157 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.hire"
+            },
+            "eventStatusCode": {
+                "codeValue": "completed"
+            },
+            "recordDateTime": "2023-08-16T09:11:11.9295253+02:00",
+            "creationDateTime": "2023-08-16T09:11:11.9295253+02:00",
+            "effectiveDateTime": "2021-07-18T00:00:00Z",
+            "data": {
+                "eventContext": {},
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000109"
+                        },
+                        "person": {
+                            "legalName": {
+                                "givenName": "Nicole",
+                                "familyName1": "Viking",
+                                "nickName": "Nicky",
+                                "familyName1Prefix": "de",
+                                "initials": "N"
+                            },
+                            "birthDate": "1987-08-08",
+                            "legalAddress": {
+                                "cityName": "Tilburg",
+                                "countryCode": "NL",
+                                "postalCode": "5011NN",
+                                "buildingNumber": "124",
+                                "streetName": "Teststraat",
+                                "unit": "B"
+                            },
+                            "communication": {
+                                "mobiles": [
+                                    {
+                                        "nameCode": {
+                                            "shortName": "private mobile"
+                                        },
+                                        "formattedNumber": "+31614089260",
+                                        "itemID": "1"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "nameCode": {
+                                            "shortName": "personal"
+                                        },
+                                        "emailUri": "test@adp.com",
+                                        "itemID": "1"
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "FEMALE",
+                                "longName": "Female"
+                            },
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "loginName"
+                                        },
+                                        "stringValue": "ndviking@test.nl"
+                                    }
+                                ]
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2021-07-18"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "shortName": "Active"
+                            }
+                        },
+                        "workAssignment": {
+                            "actualStartDate": "2021-07-18",
+                            "workerTypeCode": {
+                                "codeValue": "Klantspecifiek"
+                            },
+                            "managementPositionIndicator": false,
+                            "jobCode": {
+                                "codeValue": "000000211"
+                            },
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "214"
+                                }
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 40.0,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "000025"
+                                    },
+                                    "itemID": "1"
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "AMS"
+                                }
+                            },
+                            "baseRemuneration": {
+                                "payPeriodRateAmount": {
+                                    "amountValue": 1200.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "payScaleCode": {
+                                "codeValue": "6"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "6.0"
+                            },
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenter"
+                                        },
+                                        "stringValue": "001225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "40.0"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "W67",
+            "schemeName": "Event verwerkt"
+        }
+    }
+}

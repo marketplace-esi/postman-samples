@@ -1,0 +1,44 @@
+{
+    "events":
+	[
+		{
+            "eventNameCode":
+			{
+                "codeValue":"worker.businessCommunication.mobile.change"
+            },
+			"data":
+			{
+                "eventContext":
+				{
+                    "worker":
+                    {
+                        "workerID":
+                        {
+                            "idValue":"000042"
+                        },
+                        "businessCommunication":
+                        {
+                            "mobile":
+                            {
+                                "itemID" : "1"
+                            }
+                        }
+                    }
+                },
+				"transform":
+				{
+                    "worker":
+                    {
+                        "businessCommunication":
+    				    {
+                            "mobile":
+						    {
+                                "formattedNumber":"+619588425"
+                            }
+					    }
+                    }
+				}
+			}
+		}
+	]
+}
