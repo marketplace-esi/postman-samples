@@ -1,0 +1,50 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.change"
+            },
+            "eventStatusCode": {
+                "codeValue": "completed"
+            },
+            "recordDateTime": "2023-08-16T11:38:16.9548326+02:00",
+            "creationDateTime": "2023-08-16T11:38:16.9548326+02:00",
+            "effectiveDateTime": "1900-01-01T00:00:00+01:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000042"
+                        },
+                        "businessCommunication": {
+                            "landline": {
+                                "itemID": "1"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000042"
+                        },
+                        "businessCommunication": {
+                            "landline": {
+                                "formattedNumber": "+31201234567",
+                                "itemID": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "Transaction succes"
+        }
+    }
+}

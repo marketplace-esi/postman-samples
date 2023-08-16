@@ -1,0 +1,19 @@
+{"events":
+	[
+		{"eventNameCode":
+			{"codeValue":"worker.businessCommunication.email.change"},
+			"data":
+				{"eventContext":
+					{"worker":{"workerID":{"idValue":"000042"}}},
+					"transform":
+						{"worker":
+							{"businessCommunication":
+								{"email":
+									{"emailUri":"leandro.swoll@adp.com"}
+								}
+							}
+						}
+				}
+		}
+	]
+}
