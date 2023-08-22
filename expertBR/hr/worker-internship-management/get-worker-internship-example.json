@@ -1,0 +1,118 @@
+{
+  "workerInternship": {
+    "associateOID": "15X0001235869",
+    "workerid": {
+      "id": "001-0001234567"
+    },
+    "educationalInstitution": {
+      "institutionNameCode": {
+        "name": "Cambridge University"
+      },
+      "primaryLocation": {
+        "address": {
+          "lineOne": "Av. Soledade 550 - 50 floor",
+          "lineTwo": "Três Figueiras, Porto Alegre, RS",
+          "lineThree": "90000000",
+          "cityName": "Porto Alegre",
+          "subdivisionCode": {
+            "code": "RS",
+            "name": "Rio Grande do Sul",
+            "subdivisionType": "STATE"
+          },
+          "countryCode": "BR",
+          "postalCode": "90000000",
+          "buildingNumber": "500",
+          "blockName": "Três Figueiras",
+          "streetName": "Soledade",
+          "streetTypeCode": {
+            "shortName": "Avenida"
+          },
+          "unit": "50 floor"
+        }
+      },
+	  "legalEntity": {
+		"legalEntityID": "1234567891234"
+	  },
+      "courseOfStudy": {
+        "courseOfStudyCode": {
+          "name": "Computer Science"
+        },
+        "levelAttainedCode": {
+          "name": "3rd Semester"
+        },
+        "courseOfStudyDuration": "P2Y6M0DT00H00M00S"
+      }
+    },
+    "expectedEndDate": "2023-12-31",
+    "internshipLevelCode": {
+      "code": "0123",
+      "name": "Graduate School"
+    },
+    "plannedRemuneration": {
+      "monthlyRateAmount": {
+        "amount": 2000,
+        "currencyCode": "USD"
+      }
+    },
+    "activities": [
+      {
+        "name": "Human Resources"
+      }
+    ],
+    "insurancePolicy": {
+      "insurancePolicyNumber": "123456789",
+      "insuranceCompany": "Insurance Company A"
+    },
+    "responsibleParty": {
+      "governmentIDs": [
+        {
+          "id": "11111111111",
+          "nameCode": {
+            "shortName": "CPF"
+          }
+        }
+      ],
+      "legalName": {
+        "formattedName": "JOÃO SILVA SOUZA"
+      },
+      "communication": {
+        "emails": [
+          {
+            "emailUri": "aaa@adp.com"
+          }
+        ]
+      }
+    },
+    "internshipManagementAgency": {
+      "internshipManagementAgencyCode": {
+        "code": "5678",
+        "name": "Agency School Company Integrator"
+      },
+      "legalEntity": {
+        "legalEntityID": "1234"
+      }
+    },
+    "workplaces": [
+      {
+        "workLocation": {
+          "locationName": "Roseland Office",
+		  "assignedWorkDayOfWeekCodes": [
+			"Segunda", "Terça", "Sexta"
+          ]
+		}
+      },
+      {
+        "workLocation": {
+          "locationName": "New York Brooklyn Office",
+		  "assignedWorkDayOfWeekCodes": [
+			"Quarta", "Quinta"
+          ]
+		}
+      }
+    ],
+	"hiringModelCode": "Direta",
+	"onTheJobActivitiesEntityID": {
+		"legalEntityID": "12345678912345"
+	}
+  }
+}
