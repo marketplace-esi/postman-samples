@@ -1,0 +1,93 @@
+{
+    "payrollOutputs": [
+        {
+            "payrollProcessingJobID": "Mensal-2023",
+            "associatePayments": [
+                {
+                    "associateOID": "15-Jan-121212-11111",
+                    "payments": [
+                        {
+                            "paymentDate": "02022023",
+							"paymentSummary": {
+                                "nonstatutoryDeductions": {
+                                    "payrollAccumulations": {
+                                        "accumulatedAmount": {
+                                            "amountValue": 2000.00,
+											"currencyCode": "BRL"
+                                        }
+                                    },
+                                    "nonstatutoryDeductionSections": [
+                                        {
+                                            "nonstatutoryDeductionItems": [
+                                                {
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1000,
+														"currencyCode": "BRL"
+                                                    },
+                                                    "itemID": {
+                                                        "idValue": "15-001-2821-ADIANT QUINZENAL"
+                                                    }
+												},
+												{
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1000,
+														"currencyCode": "BRL"
+                                                    },
+													"itemID":{
+                                                        "idValue": "15-001-0515-ADIANTAMENTO DE 13º SAL. EM FÉRIAS"
+													}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "15-Fev-121212-22222",
+                    "payments": [
+                        {
+                            "paymentDate": "02032023",
+							"paymentSummary": {
+                                "nonstatutoryDeductions": {
+                                    "payrollAccumulations": {
+                                        "accumulatedAmount": {
+                                            "amountValue": 1500.00,
+											"currencyCode": "BRL"
+                                        }
+                                    },
+                                    "nonstatutoryDeductionSections": [
+                                        {
+                                            "nonstatutoryDeductionItems": [
+                                                {
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1000,
+														"currencyCode": "BRL"
+                                                    },
+                                                    "itemID": {
+                                                        "idValue": "15-001-2821-ADIANT QUINZENAL"
+                                                    },
+												},
+												{
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 500,
+														"currencyCode": "BRL"
+                                                    },
+													"itemID":{
+                                                        "idValue": "15-001-2076-ADIC INSALUBRIDADE MÁXIMO"
+													}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

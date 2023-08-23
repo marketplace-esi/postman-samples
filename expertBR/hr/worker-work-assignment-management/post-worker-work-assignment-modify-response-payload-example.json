@@ -1,0 +1,177 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.workAssignment.modify"
+			},
+			"eventTitle": "Worker Work Assignment Modify",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"associateOID": "15X0001235869",
+					"workerID": {
+							"idValue": "001-0001234567"
+					}
+				},
+				"output": {
+					"worker": {
+						"workAssignment":{
+							"hireReasonCode": {
+								"codeValue": "1"
+							},
+							"hiringJustificationNote": {
+								"longName": "Necessidade de substituição de licença maternidade"
+							},
+							"hiringObjectiveCode": {
+								"codeValue": "3"
+							},
+							"replacedWorkerGovernmentID": {
+								"idValue": "12345678912",
+								"nameCode": {
+									"shortName": "CPF"
+								}
+							},
+							"assignmentTermCode":{
+								"codeValue": "1"
+							},
+							"executiveIndicator": false,
+							"workerTypeCode":{
+								"codeValue": "ESTAG"
+							},
+							"highlyCompensatedIndicator": false,
+							"workerGroups": [
+								{
+									"nameCode": {
+										"shortName": "Hire Type"
+									},
+									"groupCode": {
+										"codeValue": "1"
+									}
+								},
+								{
+									"nameCode": {
+										"shortName": "Hire Indicator"
+									},
+									"groupCode": {
+										"codeValue": "1"
+									}
+								},
+								{
+									"nameCode": {
+										"shortName": "Type of Activity"
+									},
+									"groupCode": {
+										"codeValue": "1"
+									}
+								},
+								{
+									"nameCode": {
+										"shortName": "TLM Type"
+									},
+									"groupCode": {
+										"codeValue": "1"
+									}
+								}
+						   ],
+						   "jobCode": {
+							   "codeValue": "1-1"
+							},
+							"laborUnion":{
+								"laborUnionCode":{
+									"codeValue": "1"
+								}
+							},
+							"bargainingUnit": {
+								"bargainingUnitCode": {
+									"codeValue": "1"
+							  }
+							 },
+							 "workShiftCode":{
+								"codeValue": "1-1"
+							 },
+							 "workArrangementCode": {
+								"codeValue": "1" 
+							 },
+							 "standardHours":{
+								"hoursQuantity": "100.00"
+							 },
+							 "homeOrganizationalUnits":[
+								{
+									"nameCode":{
+									  "codeValue": "B_001_01_1235687"
+									}
+								}
+							 ],
+							 "assignedOrganizationalUnits":[
+								{
+									"nameCode":{
+									  "codeValue": "B_001_01_1235687"
+									}
+								}
+							 ],
+							 "remunerationBasisCode":{
+								"codeValue": "M"
+							},
+						   "baseRemuneration":{
+							"hourlyRateAmount":{
+								"amountValue": "10.00"
+							},
+							"monthlyRateAmount":{
+								"amountValue": "2000.00"
+							}
+						   },
+						   "additionalRemunerations":[
+							{
+								"nameCode":{
+									"longName": "Remuneração adicional por vendas efetuadas"
+								}
+							}
+						   ],
+						   "reportsTo":[
+							{
+								"associateOID": "1X57894",
+								"workerID":{
+									"idvalue": "001-888888"
+								}
+							}
+						  ],
+							   "payScaleCode":{
+								"codeValue": "1"
+							  },
+							   "payGradeCode":{
+								"codeValue": "2-3"
+							  },
+							  "customFieldGroup": {
+								"stringFields": [
+									{
+										"nameCode": {
+											"shortName": "Union Legal ID"
+										},
+										"stringValue": "11111111111111"
+									},
+									{
+										"nameCode": {
+											"shortName": "Legal authorization proceding"
+										},
+										"stringValue": "12345678912"
+									},
+									{
+										"nameCode": {
+											"shortName": "Hire origination legal proceding"
+										},
+										"stringValue": "12345678912"
+									}
+								]
+							}
+						}
+					}
+				}				 
+			}
+		}
+	]
+}
