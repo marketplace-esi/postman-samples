@@ -1,0 +1,41 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "UK0K3R9323645PX7"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "givenName": "Jack",
+                                "middleName": "Samuel",
+                                "familyName1": "Adams",
+                                "familyName2": "Allen",
+                                "nickName": "JK",
+                                "formattedName": "Jack Samuel Adams",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "Mr",
+                                            "shortName": "Mr."
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.legalName.change"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "565656"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "communication": {
+                                "mobile": {
+                                    "formattedNumber": "123344"
+                                }
+                            }
+                        },
+                        "associateOID": "565656"
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personal-communication.mobile.change"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}
