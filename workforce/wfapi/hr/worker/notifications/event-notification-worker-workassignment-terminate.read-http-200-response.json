@@ -9,7 +9,6 @@
 			"creationDateTime": "2023-07-17T11:36:12+02:00",
 			"effectiveDateTime": "2017-11-23T00:00:00+01:00",
 			"originator": {
-				"organizationOID": "pv50_interface",
 				"associateOID": "010018",
 				"formattedName": "BCAA Carter"
 			},
