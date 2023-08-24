@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "12345"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "Paris",
+                                "countryCode": "FR"
+                            }
+                        },
+                        "associateOID": "12345"
+                    }
+                }
+            },
+            "eventNameCode": {
+                "codeValue": "worker.birthPlace.change"
+            },
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            }
+        }
+    ]
+}
