@@ -1,0 +1,1952 @@
+{
+  "payrollOutputs": [
+    {
+      "itemID": "6abac1e1-542a-468f-a82d-cd84bf336d56",
+      "alternateJobIDs": [
+        {
+          "idValue": "MPDONE P4 23/24",
+          "schemeCode": {
+            "codeValue": "PAYRUNDESC",
+            "longName": "Payrun Description"
+          }
+        },
+        {
+          "idValue": "Period 4 Paid on 02/08/2023 (01/07/2023 to 31/07/2023)",
+          "schemeCode": {
+            "codeValue": "PERIODDESC",
+            "longName": "Pay Period Description"
+          }
+        }
+      ],
+      "payrollProcessingJobID": "52f86cfa-150f-4f1b-997b-304d938f3652",
+      "payrollRegionCode": {
+        "codeValue": "UK",
+        "shortName": "United Kingdom",
+        "longName": "United Kingdom"
+      },
+      "payrollGroupCode": {
+        "codeValue": "060923",
+        "shortName": "MPDONE",
+        "longName": "MPDONE"
+      },
+      "payrollScheduleReference": {
+        "payrollScheduleID": "d152c67a-8fef-4509-8c36-1f05cbe4ee48",
+        "scheduleEntryID": "80594a54-3eb4-4659-95d1-840f38ab7d12",
+        "payrollYear": "2023/24",
+        "payrollWeekNumber": "4"
+      },
+      "payrollProcessingJobStatusCode": {
+        "codeValue": "Z99",
+        "longName": "Payrun Complete"
+      },
+      "associatePayments": [
+        {
+          "itemID": "1",
+          "associateOID": "MPDONE01",
+          "payrollID": {
+            "idValue": "MPDONE01",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3001.16,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "2",
+          "associateOID": "MPDONE02",
+          "payrollID": {
+            "idValue": "MPDONE02",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3001.16,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "3",
+          "associateOID": "MPDONE03",
+          "payrollID": {
+            "idValue": "MPDONE03",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3136,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 784,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 784,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "4",
+          "associateOID": "MPDONE04",
+          "payrollID": {
+            "idValue": "MPDONE04",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3345.8,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "5",
+          "associateOID": "MPDONE05",
+          "payrollID": {
+            "idValue": "MPDONE05",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3345.8,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "6",
+          "associateOID": "MPDONE06",
+          "payrollID": {
+            "idValue": "MPDONE06",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3001.16,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "7",
+          "associateOID": "MPDONE07",
+          "payrollID": {
+            "idValue": "MPDONE07",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3001.16,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "8",
+          "associateOID": "MPDONE10",
+          "payrollID": {
+            "idValue": "MPDONE10",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3001.16,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 344.64,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 436.36,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "itemID": "9",
+          "associateOID": "MPDONE11",
+          "payrollID": {
+            "idValue": "MPDONE11",
+            "idDescription": "Reference Number"
+          },
+          "payments": [
+            {
+              "paymentDate": "2023-08-02T00:00:00",
+              "payPeriodStartDate": "2023-07-01T00:00:00",
+              "payPeriodEndDate": "2023-07-31T00:00:00",
+              "paymentAmount": {
+                "amountValue": 3345.8,
+                "currencyCode": "GBP"
+              },
+              "paymentSummary": {
+                "earnings": {
+                  "earningsSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "GSL_BSS",
+                      "sectionName": "Basic salary",
+                      "earningsItems": [
+                        {
+                          "earningID": {
+                            "idValue": "BASIC",
+                            "idDescription": "Salary"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": 4000,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "1"
+                        },
+                        {
+                          "earningID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "earningClassificationCode": {},
+                          "earningAmount": {
+                            "amountValue": -80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0,
+                            "unitTimeCode": {}
+                          },
+                          "itemID": "2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "reportableEarningsAndBenefits": {
+                  "reportableEarningsAndBenefitsSections": [
+                    {
+                      "sectionCategory": "NTP_BIK",
+                      "sectionName": "Benefits in Kind deduction",
+                      "reportableEarningsAndBenefitsItems": []
+                    }
+                  ]
+                },
+                "reimbursements": {},
+                "statutoryDeductions": {
+                  "statutoryDeductionsSections": [
+                    {
+                      "itemID": "1",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 574.2,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "2",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "itemID": "3",
+                      "statutoryDeductionsItems": [
+                        {
+                          "statutoryJurisdiction": {
+                            "countryCode": "UK",
+                            "jurisdictionCode": {
+                              "codeValue": "HMRC",
+                              "shortName": "HM Revenue and Customs"
+                            },
+                            "livedInIndicator": false,
+                            "workedInIndicator": false
+                          },
+                          "statutoryDeductionTypeCode": {},
+                          "associateDeductionAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 0,
+                            "currencyCode": "GBP"
+                          },
+                          "associateTaxableAmount": {
+                            "amountValue": 3920,
+                            "currencyCode": "GBP"
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "nonStatutoryDeductions": {
+                  "nonStatutoryDeductionSections": [
+                    {
+                      "itemID": "1",
+                      "sectionCategory": "EEC_VOTH",
+                      "sectionName": "Employer's miscellaneous voluntary contribution",
+                      "nonStatutoryDeductionsItems": [
+                        {
+                          "deductionID": {
+                            "idValue": "SALARY_SAC",
+                            "idDescription": "salary sac pension"
+                          },
+                          "associateDeductionAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "associateDeductionTakenAmount": {
+                            "amountValue": 80,
+                            "currencyCode": "GBP"
+                          },
+                          "timeWorkedQuantity": {
+                            "quantityValue": 0
+                          },
+                          "itemID": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "paymentDistributions": [
+                {
+                  "itemID": "1",
+                  "paymentDocumentID": {
+                    "idValue": "Q         ",
+                    "idDescription": "Cheque"
+                  },
+                  "directDeposits": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "startSequence": 1,
+    "completeIndicator": true,
+    "TotalNumber": 9,
+    "links": [
+      {
+        "rel": "first",
+        "href": "/payroll/v2/payroll-output$top=9&$filter=payrollProcessingJobID eq 52f86cfa-150f-4f1b-997b-304d938f3652",
+        "method": "GET"
+      },
+      {},
+      {
+        "rel": "self",
+        "href": "/payroll/v2/payroll-output$skip=0$top=9&$filter=payrollProcessingJobID eq 52f86cfa-150f-4f1b-997b-304d938f3652",
+        "method": "GET"
+      },
+      {
+        "rel": "last",
+        "href": "/payroll/v2/payroll-output$skip=0$top=9&$filter=payrollProcessingJobID eq 52f86cfa-150f-4f1b-997b-304d938f3652",
+        "method": "GET"
+      }
+    ]
+  },
+  "confirmMessage": {
+    "createDateTime": "2023-09-22T11:09:56.7998152Z",
+    "protocolStatusCode": {
+      "codeValue": "200"
+    },
+    "protocolCode": {
+      "codeValue": "http"
+    },
+    "requestMethodCode": {
+      "codeValue": "GET"
+    },
+    "requestStatusCode": {
+      "codeValue": "succeeded"
+    },
+    "processMessages": [],
+    "requestLink": {
+      "href": "/payroll/v2/payroll-output",
+      "method": "GET"
+    }
+  }
+}
