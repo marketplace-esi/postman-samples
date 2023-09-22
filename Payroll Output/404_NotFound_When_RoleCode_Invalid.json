@@ -1,0 +1,34 @@
+{
+  "confirmMessage": {
+    "createDateTime": "2023-09-22T11:12:21.5903282Z",
+    "protocolStatusCode": {
+      "codeValue": "404"
+    },
+    "protocolCode": {
+      "codeValue": "http"
+    },
+    "requestMethodCode": {
+      "codeValue": "GET"
+    },
+    "requestStatusCode": {
+      "codeValue": "failed"
+    },
+    "processMessages": [
+      {
+        "messageTypeCode": {
+          "codeValue": "error"
+        },
+        "userMessage": {
+          "messageTxt": "The roleCode HTTP header contains an invalid value. It must be one of: employee,manager,practitioner,administrator,supervisor."
+        },
+        "developerMessage": {
+          "messageTxt": "roleCode"
+        }
+      }
+    ],
+    "requestLink": {
+      "href": "/payroll/v2/payroll-output",
+      "method": "GET"
+    }
+  }
+}
