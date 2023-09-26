@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "/serviceCategoryCode/codeValue": "payroll",
+        "/eventNameCode/codeValue": "payDataInput.add/meta"
+    },
+    "confirmMessage": {
+        "createDateTime": "2023-09-26T11:47:01.8410717+05:30",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "The query option(s) are invalid."
+                },
+                "developerMessage": {
+                    "messageTxt": "The query option(s) are invalid."
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,563 @@
+{
+    "meta": {
+        "/serviceCategoryCode/codeValue": "payroll",
+        "/eventNameCode/codeValue": "payDataInput.add/meta",
+        "queryCriteria": [
+            {
+                "itemID": "1",
+                "queryOptionCode": "$filter",
+                "obligationCode": "optional",
+                "queryOptionTypeCode": "OData",
+                "queryValueCodeList": {
+                    "listItems": [
+                        {
+                            "itemID": "93503",
+                            "valueDescription": "Company 93503"
+                        },
+                        {
+                            "itemID": "32654",
+                            "valueDescription": "32654 NL Paygroup"
+                        },
+                        {
+                            "itemID": "123",
+                            "valueDescription": "ADP Solutions"
+                        },
+                        {
+                            "itemID": "93348",
+                            "valueDescription": "Company 93348"
+                        },
+                        {
+                            "itemID": "93504",
+                            "valueDescription": "Company 93504"
+                        },
+                        {
+                            "itemID": "93346",
+                            "valueDescription": "Company 93346"
+                        }
+                    ]
+                }
+            }
+        ],
+        "/data/eventContext": {
+            "/payrollRegionCode/codeValue": {
+                "optional": false,
+                "dataType": "string",
+                "default": "NL",
+                "equals": [
+                    "NL"
+                ]
+            },
+            "/payrollGroupCode": {
+                "codeList": {
+                    "listItems": [
+                        {
+                            "itemID": "93503",
+                            "valueDescription": "Company 93503"
+                        },
+                        {
+                            "itemID": "32654",
+                            "valueDescription": "32654 NL Paygroup"
+                        },
+                        {
+                            "itemID": "123",
+                            "valueDescription": "ADP Solutions"
+                        },
+                        {
+                            "itemID": "93348",
+                            "valueDescription": "Company 93348"
+                        },
+                        {
+                            "itemID": "93504",
+                            "valueDescription": "Company 93504"
+                        },
+                        {
+                            "itemID": "93346",
+                            "valueDescription": "Company 93346"
+                        }
+                    ]
+                }
+            },
+            "/payrollGroupCode/codeValue": {
+                "optional": false,
+                "dataType": "string",
+                "minLength": 1,
+                "maxLength": 9,
+                "equals": [
+                    "NL"
+                ],
+                "pattern": "^[0-9]*$"
+            }
+        },
+        "/data/transforms": [
+            {
+                "/payDataInput": {
+                    "optional": false,
+                    "dataType": "object"
+                },
+                "/payDataInput/payeePayInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/associateOID": {
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 16,
+                    "maxLength": 16,
+                    "pattern": "^[a-zA-Z0-9]*$"
+                },
+                "/payDataInput/payeePayInputs/payeeID": {
+                    "optional": false,
+                    "dataType": "object"
+                },
+                "/payDataInput/payeePayInputs/payeeID/idValue": {
+                    "pattern": "^[0-9]*$",
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 1,
+                    "maxLength": 7
+                },
+                "/payDataInput/payeePayInputs/payPeriodStartDate": {
+                    "optional": false,
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payPeriodEndDate": {
+                    "optional": false,
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs": {
+                    "dataType": "array",
+                    "minItems": 1,
+                    "maxItems": 1000
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
+                    "codeList": {
+                        "listItems": [
+                            {
+                                "itemID": "VA5U",
+                                "valueDescription": "93503 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "V606",
+                                "valueDescription": "93503 - Wachtdagen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V609",
+                                "valueDescription": "93503 - Zwangersch.verlof dg  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V699",
+                                "valueDescription": "93503 - Zwangerschapsuren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAW1",
+                                "valueDescription": "93503 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "V608",
+                                "valueDescription": "93503 - Ziekdagen uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAT2",
+                                "valueDescription": "93503 - Aanv VT ZSV"
+                            },
+                            {
+                                "itemID": "VA5T",
+                                "valueDescription": "93503 - OSV uitkering UWV"
+                            },
+                            {
+                                "itemID": "VA4C",
+                                "valueDescription": "93503 - Urn.uitk.wieg UWV LA"
+                            },
+                            {
+                                "itemID": "V601",
+                                "valueDescription": "93503 - Bijdrage auto onbelast (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA6B",
+                                "valueDescription": "93503 - Aanv betaald OSV"
+                            },
+                            {
+                                "itemID": "V162",
+                                "valueDescription": "93503 - Overuren 125%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V161",
+                                "valueDescription": "93503 - meeruren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V607",
+                                "valueDescription": "93503 - Ziekdagen 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V689",
+                                "valueDescription": "93503 - Ziekuren 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA4D",
+                                "valueDescription": "93503 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "VAW2",
+                                "valueDescription": "93503 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "VCWA",
+                                "valueDescription": "93503 - Uren geboorteverlof"
+                            },
+                            {
+                                "itemID": "V697",
+                                "valueDescription": "93503 - Uren zorgverlof  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V688",
+                                "valueDescription": "93503 - Wachturen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA6D",
+                                "valueDescription": "93503 - Uren betaald OSV"
+                            },
+                            {
+                                "itemID": "VCWC",
+                                "valueDescription": "93503 - Uren geboorteverlof"
+                            },
+                            {
+                                "itemID": "VAT5",
+                                "valueDescription": "93503 - Uren ZSV UWV"
+                            },
+                            {
+                                "itemID": "VAT7",
+                                "valueDescription": "93503 - Uitk zwangersch UWV"
+                            },
+                            {
+                                "itemID": "VAT9",
+                                "valueDescription": "93503 - Uitk zwangersch UWV"
+                            },
+                            {
+                                "itemID": "VASW",
+                                "valueDescription": "93503 - WAZO uitk.geb.verlof"
+                            },
+                            {
+                                "itemID": "VA3X",
+                                "valueDescription": "93503 - Uren geb.verlof loon"
+                            },
+                            {
+                                "itemID": "VA1G",
+                                "valueDescription": "93503 - Afkoopsom BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAS1",
+                                "valueDescription": "93503 - WAZO uitk.geb.verlof"
+                            },
+                            {
+                                "itemID": "VA1H",
+                                "valueDescription": "93503 - Transitievergoeding BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "V160",
+                                "valueDescription": "93503 - Gewerkte uren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VASX",
+                                "valueDescription": "93503 - WAZO uitk. zw.verlof"
+                            },
+                            {
+                                "itemID": "VAT4",
+                                "valueDescription": "93503 - Uren zwangerschap"
+                            },
+                            {
+                                "itemID": "V163",
+                                "valueDescription": "93503 - Overuren 150%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA5W",
+                                "valueDescription": "93503 - Uren uitk betOSV UWV"
+                            },
+                            {
+                                "itemID": "V164",
+                                "valueDescription": "93503 - Overuren 175%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAT3",
+                                "valueDescription": "93503 - Aanv zwangerschap"
+                            },
+                            {
+                                "itemID": "V698",
+                                "valueDescription": "93503 - Ziekuren uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VDB2",
+                                "valueDescription": "93503 - Uitkeringsdagen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V606",
+                                "valueDescription": "93348 - Wachtdagen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V699",
+                                "valueDescription": "93348 - Zwangerschapsuren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V608",
+                                "valueDescription": "93348 - Ziekdagen uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V601",
+                                "valueDescription": "93348 - Bijdrage auto onbelast (eenmalig)"
+                            },
+                            {
+                                "itemID": "V162",
+                                "valueDescription": "93348 - Overuren 125%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V161",
+                                "valueDescription": "93348 - meeruren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V607",
+                                "valueDescription": "93348 - Ziekdagen 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V689",
+                                "valueDescription": "93348 - Ziekuren 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V697",
+                                "valueDescription": "93348 - Uren zorgverlof  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V688",
+                                "valueDescription": "93348 - Wachturen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA1G",
+                                "valueDescription": "93348 - Afkoopsom BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA1H",
+                                "valueDescription": "93348 - Transitievergoeding BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "V160",
+                                "valueDescription": "93348 - Gewerkte uren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V163",
+                                "valueDescription": "93348 - Overuren 150%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V164",
+                                "valueDescription": "93348 - Overuren 175%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V698",
+                                "valueDescription": "93348 - Ziekuren uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V999",
+                                "valueDescription": "93348 - V999"
+                            },
+                            {
+                                "itemID": "VA5U",
+                                "valueDescription": "93346 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "V606",
+                                "valueDescription": "93346 - Wachtdagen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V609",
+                                "valueDescription": "93346 - Zwangersch.verlof dg  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V699",
+                                "valueDescription": "93346 - Zwangerschapsuren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAW1",
+                                "valueDescription": "93346 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "V608",
+                                "valueDescription": "93346 - Ziekdagen uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAT2",
+                                "valueDescription": "93346 - Aanv VT ZSV"
+                            },
+                            {
+                                "itemID": "VA5T",
+                                "valueDescription": "93346 - OSV uitkering UWV"
+                            },
+                            {
+                                "itemID": "VA4C",
+                                "valueDescription": "93346 - Urn.uitk.wieg UWV LA"
+                            },
+                            {
+                                "itemID": "V601",
+                                "valueDescription": "93346 - Bijdrage auto onbelast (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA6B",
+                                "valueDescription": "93346 - Aanv betaald OSV"
+                            },
+                            {
+                                "itemID": "V162",
+                                "valueDescription": "93346 - Overuren 125%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V161",
+                                "valueDescription": "93346 - meeruren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V607",
+                                "valueDescription": "93346 - Ziekdagen 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V689",
+                                "valueDescription": "93346 - Ziekuren 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA4D",
+                                "valueDescription": "93346 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "VAW2",
+                                "valueDescription": "93346 - Uitk. geb.verlof UWV"
+                            },
+                            {
+                                "itemID": "VCWA",
+                                "valueDescription": "93346 - Uren geboorteverlof"
+                            },
+                            {
+                                "itemID": "V697",
+                                "valueDescription": "93346 - Uren zorgverlof  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V688",
+                                "valueDescription": "93346 - Wachturen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA6D",
+                                "valueDescription": "93346 - Uren betaald OSV"
+                            },
+                            {
+                                "itemID": "VCWC",
+                                "valueDescription": "93346 - Uren geboorteverlof"
+                            },
+                            {
+                                "itemID": "VAT5",
+                                "valueDescription": "93346 - Uren ZSV UWV"
+                            },
+                            {
+                                "itemID": "VAT7",
+                                "valueDescription": "93346 - Uitk zwangersch UWV"
+                            },
+                            {
+                                "itemID": "VAT9",
+                                "valueDescription": "93346 - Uitk zwangersch UWV"
+                            },
+                            {
+                                "itemID": "VASW",
+                                "valueDescription": "93346 - WAZO uitk.geb.verlof"
+                            },
+                            {
+                                "itemID": "VA3X",
+                                "valueDescription": "93346 - Uren geb.verlof loon"
+                            },
+                            {
+                                "itemID": "VA1G",
+                                "valueDescription": "93346 - Afkoopsom BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAS1",
+                                "valueDescription": "93346 - WAZO uitk.geb.verlof"
+                            },
+                            {
+                                "itemID": "VA1H",
+                                "valueDescription": "93346 - Transitievergoeding BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "V160",
+                                "valueDescription": "93346 - Gewerkte uren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VASX",
+                                "valueDescription": "93346 - WAZO uitk. zw.verlof"
+                            },
+                            {
+                                "itemID": "VAT4",
+                                "valueDescription": "93346 - Uren zwangerschap"
+                            },
+                            {
+                                "itemID": "V163",
+                                "valueDescription": "93346 - Overuren 150%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA5W",
+                                "valueDescription": "93346 - Uren uitk betOSV UWV"
+                            },
+                            {
+                                "itemID": "V164",
+                                "valueDescription": "93346 - Overuren 175%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VAT3",
+                                "valueDescription": "93346 - Aanv zwangerschap"
+                            },
+                            {
+                                "itemID": "V698",
+                                "valueDescription": "93346 - Ziekuren uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VDB2",
+                                "valueDescription": "93346 - Uitkeringsdagen  (eenmalig)"
+                            }
+                        ]
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
+                    "optional": false,
+                    "dataType": "string",
+                    "maxLength": 4,
+                    "pattern": "^[A-Z0-9.-]*$"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate": {
+                    "optional": false,
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                    "optional": false,
+                    "dataType": "number",
+                    "minValue": -9999999.99,
+                    "maxValue": 9999999.99,
+                    "pattern": "^[0-9.-]*$"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earnedPayPeriodStartDate": {
+                    "optional": true,
+                    "dataType": "string[date]"
+                }
+            }
+        ]
+    },
+    "confirmMessage": {
+        "createDateTime": "2023-09-26T11:39:30.6758523+05:30",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "processMessages": []
+    }
+}
