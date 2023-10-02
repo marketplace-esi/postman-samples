@@ -46,6 +46,11 @@
                     "NL"
                 ],
                 "pattern": "^[0-9]*$"
+            },
+	     "/payDataInput": {
+                "optional": false,
+                "dataType": "string",
+                "pattern": "^(((0[1-9])|([1-9][0-9]))[-](0[1-9]|1(0|1|2))[-]\\d+)$"
             }
         },
         "/data/transforms": [

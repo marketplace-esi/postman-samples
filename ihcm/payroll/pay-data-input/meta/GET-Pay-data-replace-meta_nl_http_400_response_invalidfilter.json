@@ -1,7 +1,7 @@
 {
     "meta": {
         "/serviceCategoryCode/codeValue": "payroll",
-        "/eventNameCode/codeValue": "payDataInput.add/meta"
+        "/eventNameCode/codeValue": "payDataInput.replace/meta"
     },
     "confirmMessage": {
         "createDateTime": "2023-09-26T11:47:01.8410717+05:30",

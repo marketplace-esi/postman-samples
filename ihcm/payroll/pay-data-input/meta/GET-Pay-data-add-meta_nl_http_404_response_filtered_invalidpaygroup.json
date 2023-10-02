@@ -12,7 +12,7 @@
             "codeValue": "http"
         },
         "requestMethodCode": {
-            "codeValue": "POST"
+            "codeValue": "GET"
         },
         "requestStatusCode": {
             "codeValue": "Not Found"
