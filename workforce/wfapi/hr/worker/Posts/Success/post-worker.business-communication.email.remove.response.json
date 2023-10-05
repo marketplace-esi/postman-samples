@@ -8,7 +8,7 @@
                 "codeValue": "worker.businessCommunication.email.remove"
             },
             "eventStatusCode": {
-                "codeValue": "completed"
+                "codeValue": "submitted"
             },
             "recordDateTime": "2023-08-16T12:01:55.109482+02:00",
             "creationDateTime": "2023-08-16T12:01:55.109482+02:00",
