@@ -8,7 +8,7 @@
                 "codeValue": "worker.businessCommunication.mobile.add"
             },
             "eventStatusCode": {
-                "codeValue": "completed"
+                "codeValue": "submitted"
             },
             "recordDateTime": "2023-08-16T11:52:07.0715313+02:00",
             "creationDateTime": "2023-08-16T11:52:07.0715313+02:00",

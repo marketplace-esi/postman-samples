@@ -8,7 +8,7 @@
                 "codeValue": "worker.workAssignment.modify"
             },
             "eventStatusCode": {
-                "codeValue": "completed"
+                "codeValue": "submitted"
             },
             "recordDateTime": "2023-09-13T09:39:52.6594927+02:00",
             "creationDateTime": "2023-09-13T09:39:52.6594927+02:00",

@@ -8,7 +8,7 @@
                 "codeValue": "worker.businessCommunication.landline.remove"
             },
             "eventStatusCode": {
-                "codeValue": "completed"
+                "codeValue": "submitted"
             },
             "recordDateTime": "2023-08-16T12:04:23.3877944+02:00",
             "creationDateTime": "2023-08-16T12:04:23.3877944+02:00",
