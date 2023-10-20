@@ -1,0 +1,561 @@
+{
+  "events": [
+    {
+      "data": {
+        "output": {
+          "worker": {
+            "workerID": {
+              "idValue": "JP6111",
+              "schemeCode": {
+                "codeValue": "REFERENCE",
+                "shortName": "Employee Reference Number"
+              }
+            },
+            "associateOID": "AO0NAKC1224F057",
+            "person": {
+              "identityDocuments": [
+                {
+                  "documentID": "842426",
+                  "typeCode": {
+                    "longName": "DRIVINGLICENCE",
+                    "codeValue": "FC",
+                    "shortName": "Full Car"
+                  }
+                },
+                {
+                  "documentID": "112233",
+                  "typeCode": {
+                    "codeValue": "2",
+                    "shortName": "Passport"
+                  },
+                  "countryCode": "CAN",
+                  "expirationDate": "2030-03-08"
+                }
+              ],
+              "governmentIDs": [
+                {
+                  "idValue": "842426",
+                  "nameCode": {
+                    "longName": "DRIVINGLICENCE",
+                    "codeValue": "FC",
+                    "shortName": "Full Car"
+                  }
+                },
+                {
+                  "idValue": "112233",
+                  "nameCode": {
+                    "codeValue": "2",
+                    "shortName": "Passport"
+                  },
+                  "countryCode": "CAN",
+                  "expirationDate": "2030-03-08"
+                }
+              ],
+              "legalName": {
+                "givenName": "Dave",
+                "middleName": "John",
+                "familyName1": "Mackay",
+                "formattedName": "Dave Mackay",
+                "preferredSalutations": [
+                  {
+                    "salutationCode": {
+                      "codeValue": "Mr",
+                      "shortName": "Mr."
+                    },
+                    "typeCode": {
+                      "codeValue": "SOCIAL",
+                      "shortName": "Social"
+                    },
+                    "sequenceNumber": 1
+                  }
+                ],
+                "nickName": "Dave"
+              },
+              "birthDate": "1970-07-03",
+              "birthDateString": "07/1970",
+              "communication": {
+                "landlines": [
+                  {
+                    "formattedNumber": "12345678900",
+                    "nameCode": {
+                      "codeValue": "HOME",
+                      "shortName": "Home Telephone"
+                    }
+                  }
+                ],
+                "mobiles": [
+                  {
+                    "formattedNumber": "00987654321",
+                    "nameCode": {
+                      "codeValue": "PERMOBILE",
+                      "shortName": "Personal Mobile"
+                    }
+                  }
+                ],
+                "emails": [
+                  {
+                    "emailUri": "Mypersonalemail@adp.com",
+                    "nameCode": {
+                      "codeValue": "PERSONALEMAIL",
+                      "shortName": "Personal Email"
+                    }
+                  }
+                ]
+              },
+              "deceasedIndicator": false,
+              "genderCode": {
+                "codeValue": "Male",
+                "shortName": "Male"
+              },
+              "religionCode": {
+                "codeValue": "HINDU"
+              },
+              "maritalStatusCode": {
+                "codeValue": "S",
+                "shortName": "Single"
+              },
+              "disabledIndicator": false,
+              "birthPlace": {
+                "cityName": "canada",
+                "countryCode": "Canadian"
+              },
+              "ethnicityCode": {
+                "codeValue": "African American",
+                "shortName": "African American"
+              },
+              "citizenshipCountryCodes": [
+                {
+                  "codeValue": "Canadian",
+                  "shortName": "Canadian"
+                }
+              ],
+              "customFieldGroup": {
+                "codeFields": [
+                  {
+                    "codeValue": "1",
+                    "nameCode": {
+                      "codeValue": "TERMINATIONTYPE",
+                      "shortName": "TERMINATION TYPE"
+                    },
+                    "shortName": "Voluntary"
+                  }
+                ],
+                "dateFields": [
+                  {
+                    "dateValue": "2020-03-09",
+                    "nameCode": {
+                      "shortName": "DateFirstEmployment",
+                      "longName": "Date First Employment"
+                    }
+                  }
+                ]
+              },
+              "legalAddress": {
+                "nameCode": {
+                  "codeValue": "ADD1",
+                  "shortName": "Weekday Address"
+                },
+                "lineOne": "Address Line One",
+                "lineTwo": "Address Line Two",
+                "lineThree": "Address LineThree",
+                "cityName": "Bristol",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "Avon"
+                },
+                "postalCode": "BS30 2HT",
+                "deliveryPoint": "True",
+                "countryCode": "GBR"
+              },
+              "otherPersonalAddresses": [
+                {
+                  "nameCode": {
+                    "codeValue": "HOME",
+                    "shortName": "Home Address"
+                  },
+                  "lineOne": "Per One",
+                  "lineTwo": "Per Two",
+                  "lineThree": "Per Three",
+                  "cityName": "Chennai",
+                  "countrySubdivisionLevel1": {
+                    "codeValue": "Bravo"
+                  },
+                  "countryCode": "CAN",
+                  "postalCode": "BS50 2AK"
+                }
+              ],
+              "passports": [
+                {
+                  "documentID": "112233",
+                  "typeCode": {
+                    "codeValue": "2",
+                    "shortName": "Passport"
+                  },
+                  "countryCode": "CAN",
+                  "issuingParty": {
+                    "address": {
+                      "lineThree": "canada"
+                    }
+                  },
+                  "issueDate": "2020-03-09",
+                  "expirationDate": "2030-03-08"
+                }
+              ]
+            },
+            "workerDates": {
+              "firstHireDate": "2020-03-09",
+              "originalHireDate": "2020-03-09",
+              "adjustedServiceDate": "2020-03-09",
+              "acquisitionDate": "2020-03-09"
+            },
+            "workerStatus": {
+              "statusCode": {
+                "codeValue": "Current",
+                "shortName": "Current"
+              }
+            },
+            "businessCommunication": {
+              "landlines": [
+                {
+                  "formattedNumber": "12345678900",
+                  "nameCode": {
+                    "codeValue": "WORK",
+                    "shortName": "Work Telephone"
+                  },
+                  "extension": "90210"
+                }
+              ],
+              "mobiles": [
+                {
+                  "formattedNumber": "00987654321",
+                  "nameCode": {
+                    "codeValue": "WORKMOBILE",
+                    "shortName": "Work Mobile Telephone"
+                  }
+                }
+              ],
+              "emails": [
+                {
+                  "emailUri": "MyWork3mail@adp.com",
+                  "nameCode": {
+                    "codeValue": "WORKEMAIL",
+                    "shortName": "Work Email"
+                  }
+                }
+              ]
+            },
+            "workAssignment": {
+              "hireDate": "2020-03-09",
+              "assignmentStatus": {
+                "statusCode": {
+                  "codeValue": "Current",
+                  "shortName": "Current"
+                },
+                "reasonCode": {
+                  "codeValue": "01",
+                  "shortName": "Newly created position"
+                }
+              },
+              "workerProbationPeriod": {
+                "endDate": "2024-01-09"
+              },
+              "homeWorkLocation": {
+                "address": {
+                  "countryCode": "GB"
+                },
+                "nameCode": {
+                  "codeValue": "ADPPOST_E",
+                  "shortName": "Envelope and post to home address"
+                }
+              },
+              "reportsTo": [
+                {
+                  "associateOID": "AO0N9PE4459AMMB",
+                  "workerID": {
+                    "schemeCode": {
+                      "codeValue": "REFERENCENUMBER",
+                      "shortName": "REFERENCE NUMBER"
+                    },
+                    "idValue": "JP1012"
+                  },
+                  "reportsToWorkerName": {
+                    "formattedName": "Ram Ruberg"
+                  },
+                  "reportsToRelationshipCode": {
+                    "codeValue": "REPORTSTO",
+                    "shortName": "REPORTS TO"
+                  }
+                }
+              ],
+              "payrollFileNumber": "JP6111",
+              "customFieldGroup": {
+                "codeFields": [
+                  {
+                    "codeValue": "04",
+                    "nameCode": {
+                      "codeValue": "LEGALSITUATION",
+                      "shortName": "Legal Situation"
+                    },
+                    "shortName": "Employer\u00B4s retirement"
+                  },
+                  {
+                    "codeValue": "99",
+                    "nameCode": {
+                      "codeValue": "ENDCOMPANYREASON",
+                      "shortName": "End Company Reason"
+                    },
+                    "shortName": "Other reason for Termination"
+                  },
+                  {
+                    "codeValue": "Trainee",
+                    "nameCode": {
+                      "codeValue": "REASONFORCHANGE",
+                      "shortName": "Reason for Change"
+                    },
+                    "shortName": "Trainee"
+                  },
+                  {
+                    "codeValue": "1234",
+                    "nameCode": {
+                      "codeValue": "GLBUSINESSCODE",
+                      "shortName": "General Ledger Business Code"
+                    }
+                  },
+                  {
+                    "codeValue": "M",
+                    "nameCode": {
+                      "codeValue": "WPCONTRACTEDHOURSUNIT",
+                      "shortName": "Contracted Hours Units"
+                    },
+                    "shortName": "Monthly"
+                  }
+                ],
+                "dateFields": [
+                  {
+                    "dateValue": "2025-03-09",
+                    "nameCode": {
+                      "codeValue": "CONTRACTENDDATE",
+                      "shortName": "CONTRACTENDDATE"
+                    }
+                  }
+                ],
+                "indicatorFields": [
+                  {
+                    "indicatorValue": false,
+                    "nameCode": {
+                      "codeValue": "CLOSEPREVIOUSJOB",
+                      "shortName": "CLOSEPREVIOUSJOB"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "COVERINGPOSITION",
+                      "shortName": "COVERINGPOSITION"
+                    }
+                  },
+                  {
+                    "indicatorValue": false,
+                    "nameCode": {
+                      "codeValue": "SUSPENDTIMESHEETS",
+                      "shortName": "SUSPENDTIMESHEETS"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "IRREGULARPAYMENTPATTERN",
+                      "shortName": "IRREGULARPAYMENTPATTERN"
+                    }
+                  },
+                  {
+                    "indicatorValue": false,
+                    "nameCode": {
+                      "codeValue": "USEWORKPATTERN",
+                      "shortName": "USEWORKPATTERN"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "EEAUTOGENREGIND",
+                      "shortName": "EEAUTOGENREGIND"
+                    }
+                  }
+                ],
+                "numberFields": [
+                  {
+                    "numberValue": 8.0,
+                    "nameCode": {
+                      "codeValue": "ORDINARYHOURSPERDAY",
+                      "shortName": "Ordinary Hours per Day"
+                    }
+                  },
+                  {
+                    "numberValue": 40.0,
+                    "nameCode": {
+                      "codeValue": "CONTRACTEDHOURS",
+                      "shortName": "Contracted Hours"
+                    }
+                  },
+                  {
+                    "numberValue": 40,
+                    "nameCode": {
+                      "codeValue": "Base Rate - Days per year",
+                      "shortName": "Base Rate - Days per year"
+                    }
+                  },
+                  {
+                    "numberValue": 40.0,
+                    "nameCode": {
+                      "codeValue": "Base Rate - Hours per pay period",
+                      "shortName": "Base Rate - Hours per pay period"
+                    }
+                  }
+                ],
+                "stringFields": [
+                  {
+                    "stringValue": "9881eba9-8ed8-4a4e-9203-83dd1a7477dc",
+                    "nameCode": {
+                      "codeValue": "JOBDETAIL_ID",
+                      "shortName": "JOBDETAIL_ID"
+                    }
+                  },
+                  {
+                    "stringValue": "notessss",
+                    "nameCode": {
+                      "codeValue": "COMMENTS",
+                      "shortName": "COMMENTS"
+                    }
+                  },
+                  {
+                    "stringValue": "9881eba9-8ed8-4a4e-9203-83dd1a7477dc",
+                    "nameCode": {
+                      "codeValue": "workAssignmentId",
+                      "shortName": "workAssignmentId"
+                    }
+                  }
+                ]
+              },
+              "primaryIndicator": true,
+              "legalEntityID": "GBMAG",
+              "expectedStartDate": "2023-08-30",
+              "assignmentCostCenters": [
+                {
+                  "costCenterID": "101",
+                  "costCenterName": "Sales"
+                }
+              ],
+              "workerTypeCode": {
+                "codeValue": "Permanent",
+                "shortName": "Permanent"
+              },
+              "workLevelCode": {
+                "codeValue": "Full_Time",
+                "shortName": "Full Time"
+              },
+              "jobCode": {
+                "codeValue": "01",
+                "shortName": "QA Lead"
+              },
+              "jobTitle": "QA Lead",
+              "standardHours": {
+                "hoursQuantity": 9.23,
+                "unitCode": {
+                  "codeValue": "V",
+                  "shortName": "Variable"
+                }
+              },
+              "fullTimeEquivalenceRatio": 1.0,
+              "assignedOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "0",
+                    "shortName": "GBMAG",
+                    "longName": "GBMAG01"
+                  },
+                  "typeCode": {
+                    "codeValue": "Company",
+                    "shortName": "Organisational"
+                  }
+                }
+              ],
+              "standardPayPeriodHours": {
+                "unitCode": {
+                  "shortName": "B - 16 - 23.99 hours"
+                }
+              },
+              "payrollGroupCode": "GBMAG01",
+              "baseRemuneration": {
+                "effectiveDate": "2020-03-09",
+                "hourlyRateAmount": {
+                  "amountValue": 1041.666667
+                },
+                "dailyRateAmount": {
+                  "amountValue": 12500.0
+                },
+                "weeklyRateAmount": {
+                  "amountValue": 9615.384615
+                },
+                "monthlyRateAmount": {
+                  "amountValue": 41666.666667
+                },
+                "annualRateAmount": {
+                  "amountValue": 500000.0
+                },
+                "recordingBasisCode": {
+                  "shortName": "Annual"
+                },
+                "biweeklyRateAmount": {
+                  "amountValue": 19230.769231
+                },
+                "payPeriodRateAmount": {
+                  "nameCode": {
+                    "shortName": "Base rate"
+                  },
+                  "amountValue": 500000.0,
+                  "currencyCode": "GBP"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "f39860e7-cb87-4536-bddc-3bd231e38d19",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-10-20T12:12:31.3975707\u002B00:00",
+    "requestReceiptDateTime": "2023-10-20T12:12:31.3975708\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "a079f4ef-82e1-4ae6-8338-830b51d5048c",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "succeeded"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "b8350fea-6954-4419-b6bc-015ff6654593",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "warning"
+            },
+            "userMessage": {
+              "messageTxt": "The value in the Automatic Standard Pay  field is different to the value set at the Pay Group level."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
