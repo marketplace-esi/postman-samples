@@ -1,0 +1,161 @@
+{
+    "payrollOutputs": [
+        {
+            "associatePayments": [
+                {
+                    "payments": [
+                        {
+                            "paymentDistributions": [
+                                {
+                                    "paymentDocumentID": {
+                                        "idValue": "00063721"
+                                    }
+                                }
+                            ],
+                            "paymentAmount": {
+                                "amountValue": 1118.58
+                            },
+                            "paymentSummary": {
+                                "earnings": {
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "itemID": "DroitsCP1",
+                                                    "earningAmount": {
+                                                        "amountValue": 0
+                                                    },
+                                                    "earningID": {
+                                                        "idDescription": "Total droits CP en cours",
+                                                        "idValue": "DroitsCP1"
+                                                    }
+                                                },
+                                                {
+                                                    "itemID": "salaireNet",
+                                                    "earningAmount": {
+                                                        "amountValue": 0
+                                                    },
+                                                    "earningID": {
+                                                        "idDescription": "Salaire net",
+                                                        "idValue": "salaireNet"
+                                                    }
+                                                },
+                                                {
+                                                    "itemID": "RepriseAcompte(A)",
+                                                    "earningAmount": {
+                                                        "amountValue": -200
+                                                    },
+                                                    "earningID": {
+                                                        "idDescription": "REPRISE ACOMPTE",
+                                                        "idValue": "RepriseAcompte(A)",
+                                                        "schemeCode": {
+                                                            "codeValue": "Amount"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "itemID": "CodeEKeyBulletin",
+                                                    "earningClassificationCode": {
+                                                        "codeValue": "00063721"
+                                                    },
+                                                    "earningID": {
+                                                        "idDescription": "Code E-Key bulletin",
+                                                        "idValue": "CodeEKeyBulletin"
+                                                    }
+                                                }
+                                            ],
+                                            "itemID": "default"
+                                        }
+                                    ]
+                                },
+                                "statutoryDeductions": {
+                                    "statutoryDeductionsSections": [
+                                        {
+                                            "statutoryDeductionsItems": [
+                                                {
+                                                    "itemID": "S_VIEILLESSE_TT(A)",
+                                                    "statutoryDeductionTypeCode": {
+                                                        "shortName": "S VIEILLESSE   TT",
+                                                        "codeValue": "S_VIEILLESSE_TT(N)",
+                                                        "longName": "S VIEILLESSE   TT (Number)"
+                                                    },
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1492.12
+                                                    }
+                                                },
+                                                {
+                                                    "itemID": "S_VIEILLESSE_TT(A)",
+                                                    "statutoryDeductionTypeCode": {
+                                                        "shortName": "S VIEILLESSE   TT",
+                                                        "codeValue": "S_VIEILLESSE_TT(R)",
+                                                        "longName": "S VIEILLESSE   TT (Rate)"
+                                                    },
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 0.4
+                                                    }
+                                                },
+                                                {
+                                                    "itemID": "S_VIEILLESSE_TT(A)",
+                                                    "statutoryDeductionTypeCode": {
+                                                        "shortName": "S VIEILLESSE   TT",
+                                                        "codeValue": "S_VIEILLESSE_TT(A)",
+                                                        "longName": "S VIEILLESSE   TT (Amount)"
+                                                    },
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": -5.97
+                                                    }
+                                                },
+                                                {
+                                                    "itemID": "PASduMois",
+                                                    "statutoryDeductionTypeCode": {
+                                                        "shortName": "Montant PAS du mois",
+                                                        "codeValue": "PASduMois",
+                                                        "longName": "Montant PAS du mois"
+                                                    },
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 10
+                                                    }
+                                                }
+                                            ],
+                                            "itemID": "default"
+                                        }
+                                    ]
+                                },
+                                "nonStatutoryDeductions": {
+                                    "nonStatutoryDeductionSections": [
+                                        {
+                                            "nonStatutoryDeductionsItems": [
+                                                {
+                                                    "itemID": "pretEmployeur(A)",
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": -375
+                                                    },
+                                                    "deductionID": {
+                                                        "idDescription": "PRET EMPLOYEUR",
+                                                        "idValue": "pretEmployeur(A)",
+                                                        "schemeCode": {
+                                                            "codeValue": "Amount"
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "itemID": "default"
+                                        }
+                                    ]
+                                }
+                            },
+                            "payPeriodStartDate": "2023-07-10",
+                            "itemID": "A0000508"
+                        }
+                    ],
+                    "payrollID": {
+                        "idValue": "99994181"
+                    },
+                    "associateOID": "AO0N8O70955IPZR",
+                    "itemID": "99994181"
+                }
+            ],
+            "itemID": "99994181"
+        }
+    ]
+}
