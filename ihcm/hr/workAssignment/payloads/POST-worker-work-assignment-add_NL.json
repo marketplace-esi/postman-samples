@@ -1,0 +1,174 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.add"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N8G61818GYJ7"
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-04-29T16:02:44.59Z",
+                    "worker": {
+                        "workAssignment": {
+                            "primaryIndicator": false,
+                            "expectedStartDate": "2000-02-02",
+                            "terminationDate": "2017-04-23",
+                            "nextPayGradeStepDate": "2030-05-29",
+                            "assignmentTermCode": {
+                                "shortName": "Fixed"
+                            },
+                            "worklevelCode": {
+                                "shortName": "Full Time"
+                            },
+                            "workerTypeCode": {
+                                "shortName": "Permanent"
+                            },
+                            "workShiftCode": {
+                                "shortName": "Sample Work Pattern"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "shortName": "Crew 1"
+                                    }
+                                }
+                            ],
+                            "legalEntityID": "34708",
+                            "jobCode": {
+                                "codeValue": "0026",
+                                "shortName": "HR Payroll Specialist"
+                            },
+                            "jobTitle": "HR Payroll Specialist",
+                            "fullTimeEquivalenceRatio": 1.0,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0",
+                                        "shortName": "34708",
+                                        "longName": "34708 SALES DEMO BEDRIJF"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Company",
+                                        "shortName": "Organisation structure"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "shortName": "Amsterdam"
+                                }
+                            },
+                            "payGradeCode": {
+                                "codeValue": "ATSG1",
+                                "shortName": "ATS Standard",
+                                "longName": "ATSS01"
+                            },
+                            "payGradeStepCode": {
+                                "shortName": "ATSS1"
+                            },
+                            "payrollGroupCode": "34708",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "INCOME RELATIONSHIP TYPE"
+                                        },
+                                        "codeValue": "04",
+                                        "shortName": "Aanvullend geboorteverlof"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "REASONFORCHANGE"
+                                        },
+                                        "codeValue": "New Starter",
+                                        "shortName": "New Starter"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CONTRACTENDDATE"
+                                        },
+                                        "dateValue": "2030-05-29"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Income Relationship Start Date"
+                                        },
+                                        "dateValue": "2000-02-02"
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CLOSEPREVIOUSJOB"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "EXCLUDEFROMSALARYSCALE"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "SUSPENDTIMESHEETS"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "WPUSEWORKPATTERN"
+                                        },
+                                        "indicatorValue": true
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "TIMESHEETTEMPLATE"
+                                        },
+                                        "stringValue": "Overuren"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "JOBTITLEFORPAYSLIP"
+                                        },
+                                        "stringValue": "HR Payroll"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "NOTES"
+                                        },
+                                        "stringValue": "sample comment"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Employee Contract Code"
+                                        },
+                                        "stringValue": "8305"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Employment type"
+                                        },
+                                        "stringValue": "Stagiaire"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
