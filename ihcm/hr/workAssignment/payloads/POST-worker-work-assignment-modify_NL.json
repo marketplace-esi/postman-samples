@@ -1,0 +1,181 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.modify"
+            },
+            "data": {
+                "eventContext": {
+                    "workAssignmentID": "30592d54-cf85-4191-97e5-9840d81666ac"
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-04-29T16:02:44.59Z",
+                    "worker": {
+                        "workAssignment": {
+                            "primaryIndicator": true,
+                            "expectedStartDate": "2015-02-01",
+                            "terminationDate": "",
+                            "nextPayGradeStepDate": "",
+                            "assignmentTermCode": {
+                                "shortName": "Casual Worker"
+                            },
+                            "worklevelCode": {
+                                "shortName": "Full Time"
+                            },
+                            "workerTypeCode": {
+                                "shortName": "Temporary"
+                            },
+                            "workShiftCode": {
+                                "shortName": "Sample Work Pattern"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "shortName": "Crew 1"
+                                    }
+                                }
+                            ],
+                            "legalEntityID": "34708",
+                            "jobCode": {
+                                "codeValue": "0025",
+                                "shortName": "HR Payroll & Analytics Specialist"
+                            },
+                            "jobTitle": "HR Payroll & Analytics Specialist",
+                            "fullTimeEquivalenceRatio": 0.5,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0",
+                                        "shortName": "34708",
+                                        "longName": "34708 SALES DEMO BEDRIJF"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Company",
+                                        "shortName": "Organisation structure"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "shortName": "Rotterdam"
+                                }
+                            },
+                            "payGradeCode": {
+                                "codeValue": "ATSG1",
+                                "shortName": "ATS Standard",
+                                "longName": "ATSS01"
+                            },
+                            "payGradeStepCode": {
+                                "shortName": "ATSS1"
+                            },
+                            "payrollGroupCode": "34708",
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "INCOME RELATIONSHIP TYPE"
+                                        },
+                                        "codeValue": "04",
+                                        "shortName": "Aanvullend geboorteverlof"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "REASONFORCHANGE"
+                                        },
+                                        "codeValue": "New Starter",
+                                        "shortName": "New Starter"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "WPCONTRACTEDHOURSUNIT"
+                                        },
+                                        "codeValue": "W",
+                                        "shortName": "Weekly"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CONTRACTENDDATE"
+                                        },
+                                        "dateValue": "2030-05-29"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Income Relationship Start Date"
+                                        },
+                                        "dateValue": "2015-02-01"
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CLOSEPREVIOUSJOB"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "EXCLUDEFROMSALARYSCALE"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "SUSPENDTIMESHEETS"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "WPUSEWORKPATTERN"
+                                        },
+                                        "indicatorValue": false
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "TIMESHEETTEMPLATE"
+                                        },
+                                        "stringValue": "Overuren"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "NOTES"
+                                        },
+                                        "stringValue": "notes"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "JOBTITLEFORPAYSLIP"
+                                        },
+                                        "stringValue": "HR PayrollA"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Employee Contract Code"
+                                        },
+                                        "stringValue": "1357"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Employment type"
+                                        },
+                                        "stringValue": "Commissaris"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.deceased"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "GB0L9UF2045ABSDK"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "worker": {
+                        "person": {
+                            "deathDate": "2023-07-30"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
