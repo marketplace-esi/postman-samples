@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "eedfb0f7-c74e-4733-86ee-d0a15981e536",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-11-02T19:37:09.8283375\u002B00:00",
+    "requestReceiptDateTime": "2023-11-02T19:37:09.8283376\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "b7fd3f64-281a-4ac7-a202-b6b06970de84",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "9b1d74f4-bc42-4ea3-a613-f92b1549e9e0",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid Length Specified for ADDRESSDETAILS.UKHR_POSTCODE. Please provide a String with Valid Length between Minimum 0 and Maximum 10"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
