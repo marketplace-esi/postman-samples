@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "AO0N7EF1156AX96"
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "AO0N7EF1156AX96",
+            "workerID": {
+              "idValue": "JP123"
+            },
+            "person": {
+              "personalAddress": {
+                "itemID": "902f57b7-08db-4959-bfe3-e438b459f5bc",
+                "deliveryPoint": "False",
+                "countrySubdivisionLevel2": {
+                  "codeValue": "Help"
+                },
+                "nameCode": {
+                  "shortName": "Home Address",
+                  "codeValue": "HOME"
+                },
+                "lineOne": "The Court No One ",
+                "lineTwo": "Wimbledon High Road",
+                "lineThree": "Wimbledon",
+                "cityName": "London",
+                "postalCode": "SW19 2HT",
+                "countryCode": "GBR"
+              }
+            }
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.personal-address.add"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "HR"
+      }
+    }
+  ]
+}

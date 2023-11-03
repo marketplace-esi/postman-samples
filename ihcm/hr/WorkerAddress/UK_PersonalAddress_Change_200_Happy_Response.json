@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "AO0N7EF1156AX96",
+            "person": {
+              "personalAddress": {
+                "itemID": "ec39bbe4-9aef-4b83-9f10-52ede7829b84"
+              }
+            }
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "AO0N7EF1156AX96",
+            "workerID": {
+              "idValue": "JP123"
+            },
+            "person": {
+              "personalAddress": {
+                "itemID": "ec39bbe4-9aef-4b83-9f10-52ede7829b84",
+                "deliveryPoint": "False",
+                "countrySubdivisionLevel2": {
+                  "codeValue": "Avon"
+                },
+                "nameCode": {
+                  "shortName": "Home Address",
+                  "codeValue": "HOME"
+                },
+                "lineOne": "The Court No Two",
+                "lineTwo": "Wimbledon High Road",
+                "lineThree": "Wimbledon",
+                "cityName": "London",
+                "postalCode": "SW19 2HT",
+                "countryCode": "GBR"
+              }
+            }
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.personal-address.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "HR"
+      }
+    }
+  ]
+}

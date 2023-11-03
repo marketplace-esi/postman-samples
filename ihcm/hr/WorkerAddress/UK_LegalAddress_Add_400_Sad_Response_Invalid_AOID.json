@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "92e74203-4efe-492e-aea2-b263771c64ed",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-11-02T19:06:08.0603169\u002B00:00",
+    "requestReceiptDateTime": "2023-11-02T19:06:08.0603169\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "7bad4bbb-4dd1-42d5-9e61-c165e117e9d1",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "7839b0f1-e802-4c27-b678-ee3321075afd",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "No people record found."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

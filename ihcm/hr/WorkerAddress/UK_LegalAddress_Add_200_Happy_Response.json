@@ -1,0 +1,76 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "AO0M9UF0922IP59"
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "AO0M9UF0922IP59",
+            "workerID": {
+              "idValue": "TLM556"
+            },
+            "person": {
+              "legalAddress": {
+                "deliveryPoint": "True",
+                "nameCode": {
+                  "shortName": "Home Address",
+                  "codeValue": "HOME"
+                },
+                "lineOne": " One White Hart Lane",
+                "lineTwo": "Tottenham",
+                "cityName": "London",
+                "countryCode": "GBR"
+              }
+            }
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.legal-address.add"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "HR"
+      }
+    }
+  ],
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "610e2862-cce7-430f-8b46-a04ed840d7c8",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-11-02T18:53:00.6968236\u002B00:00",
+    "requestReceiptDateTime": "2023-11-02T18:53:00.6968237\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "89947793-50e4-43ba-a372-49933083b3cb",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "succeeded"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "524930c1-3ba9-4c66-81a2-e8c9c9a60e46",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "warning"
+            },
+            "userMessage": {
+              "messageTxt": "Correspondence Address already set"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
