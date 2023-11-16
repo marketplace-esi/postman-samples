@@ -1,0 +1,44 @@
+{
+    "events":
+	[
+		{
+            "eventNameCode":
+			{
+                "codeValue":"worker.person.customField.string.change"
+            },
+			"data":
+			{
+                "eventContext":
+				{
+                    "worker":
+                    {
+                        "workerID":
+                        {
+                            "idValue":"000042"
+                        }
+                    }
+                },
+				"transform":
+				{
+                    "worker":
+                    {
+                        "person":
+                        {
+                            "customFieldGroup":
+                            {
+                                "stringField":
+                                {
+                                    "nameCode":
+                                    {
+                                        "codeValue": "i_login"
+                                    },
+                                    "stringValue": "lswoll"
+                                }
+                            }
+                        }
+                    }
+				}
+			}
+		}
+	]
+}
