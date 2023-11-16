@@ -1,0 +1,49 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.person.customField.string.change"
+            },
+            "eventStatusCode": {
+                "codeValue": "completed"
+            },
+            "recordDateTime": "2023-11-16T09:50:38.2718532+01:00",
+            "creationDateTime": "2023-11-16T09:50:38.2718532+01:00",
+            "effectiveDateTime": "1900-01-01T00:00:00+01:00",
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000042"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000042"
+                        },
+                        "person": {
+                            "customFieldGroup": {
+                                "stringField": {
+                                    "nameCode": {
+                                        "codeValue": "i_login"
+                                    },
+                                    "stringValue": "lswoll"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "Transaction was successful"
+        }
+    }
+}
