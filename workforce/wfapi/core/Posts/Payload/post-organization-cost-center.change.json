@@ -1,0 +1,32 @@
+{
+    "events":
+	[
+		{
+            "eventNameCode":
+			{
+                "codeValue":"organizationCostCenter.change"
+            },
+			"data":
+			{
+				"transform":
+				{
+                    "effectiveDateTime": "2010-01-01T00:00:00Z",
+                    "organizationCostCenter":
+                    {
+                        "costCenterCode":
+                        {
+                            "codeValue": "001500",
+                            "shortName": "Kstnplts 1500",
+                            "longName": "Kostenplaats 1500"
+                        },
+                        "costCenterEffectivePeriod":
+                        {
+                            "startDate": "2010-01-01",
+                            "endDate": "2030-01-01"
+                        }
+                    }
+				}
+			}
+		}
+	]
+}
