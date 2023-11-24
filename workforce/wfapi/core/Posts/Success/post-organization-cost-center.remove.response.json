@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "core"
+            },
+            "eventNameCode": {
+                "codeValue": "organizationCostCenter.remove"
+            },
+            "eventStatusCode": {
+                "codeValue": "completed"
+            },
+            "recordDateTime": "2023-11-16T12:23:54.5498487+01:00",
+            "creationDateTime": "2023-11-16T12:23:54.5498487+01:00",
+            "effectiveDateTime": "1900-01-01T00:00:00+01:00",
+            "data": {
+                "output": {
+                    "organizationCostCenter": {
+                        "costCenterCode": {},
+                        "costCenterDescription": {},
+                        "activeIndicator": false
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": ""
+        }
+    }
+}

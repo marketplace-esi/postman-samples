@@ -1,0 +1,1295 @@
+{
+    "meta": {
+        "timeDurationFormatCode": "hh:mm",
+        "timeNotationCode": "24h"
+    },
+    "timeCards": [
+        {
+            "timeCardID": "MjAyMy8wOS8wMS0yMDIzLzA5LzMw",
+            "actions": [
+                {
+                    "confirmationRequiredIndicator": false,
+                    "links": [
+                        {
+                            "mediaType": "application/pdf",
+                            "href": "/time/v2/workers/AO0N1KB034299BZ/time-cards?$filter=timeCards/timePeriod/startDate%20eq%20'2023-09-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-09-30'",
+                            "rel": "/adp/invoke",
+                            "method": "GET"
+                        }
+                    ],
+                    "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read",
+                    "actionTypeCode": "callback",
+                    "operationID": "timeSheet.read"
+                }
+            ],
+            "totalPeriodTimeDuration": "PT0H0M",
+            "periodTotals": [
+                {
+                    "timeDuration": "PT0H0M",
+                    "payCode": {
+                        "shortName": "Présence intranet",
+                        "codeValue": "W_PRES"
+                    }
+                }
+            ],
+            "associateOID": "AO0N1KB034299BZ",
+            "timePeriod": {
+                "startDate": "2023-09-01",
+                "endDate": "2023-09-30"
+            },
+            "dayEntries": [
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-01"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-02"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-03"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-04"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-05"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-06"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-07"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-08"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-09"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-10"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-11"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-12"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-13"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-14"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-15"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-16"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-17"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-18"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-19"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-20"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-21"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-22"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-23"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-24"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-25"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-26"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-27"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-28"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-29"
+                },
+                {
+                    "totalPeriodTimeDuration": "PT0H0M",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "entryDate": "2023-09-30"
+                }
+            ],
+            "links": [
+                {
+                    "href": "/time/v2/workers/AO0N1KB034299BZ/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-08-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-08-31'",
+                    "rel": "previous",
+                    "method": "GET"
+                },
+                {
+                    "href": "/time/v2/workers/AO0N1KB034299BZ/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-10-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-10-31'",
+                    "rel": "next",
+                    "method": "GET"
+                }
+            ]
+        },
+        {
+            "timeCardID": "MjAyMy8wOS8wMS0yMDIzLzA5LzMw",
+            "actions": [
+                {
+                    "confirmationRequiredIndicator": false,
+                    "links": [
+                        {
+                            "mediaType": "application/pdf",
+                            "href": "/time/v2/workers/AO0N1KB0218MBI8/time-cards?$filter=timeCards/timePeriod/startDate%20eq%20'2023-09-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-09-30'",
+                            "rel": "/adp/invoke",
+                            "method": "GET"
+                        }
+                    ],
+                    "canonicalUri": "/time/timeLaborManagement/timeEntryManagement/timeSheetManagement/timeSheet.read",
+                    "actionTypeCode": "callback",
+                    "operationID": "timeSheet.read"
+                }
+            ],
+            "totalPeriodTimeDuration": "P8,00D",
+            "exceptionCounts": [
+                {
+                    "exceptionCode": {
+                        "codeValue": "ANOWAZ"
+                    },
+                    "exceptionTypeCode": {
+                        "codeValue": "error"
+                    },
+                    "totalNumber": 3
+                },
+                {
+                    "exceptionCode": {
+                        "codeValue": "ANOWA8"
+                    },
+                    "exceptionTypeCode": {
+                        "codeValue": "error"
+                    },
+                    "totalNumber": 2
+                }
+            ],
+            "periodTotals": [
+                {
+                    "timeDuration": "P8,00D",
+                    "payCode": {
+                        "shortName": "Présence intranet",
+                        "codeValue": "W_PRES"
+                    }
+                }
+            ],
+            "associateOID": "AO0N1KB0218MBI8",
+            "timePeriod": {
+                "startDate": "2023-09-01",
+                "endDate": "2023-09-30"
+            },
+            "dayEntries": [
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-01"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-02"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-03"
+                },
+                {
+                    "totalPeriodTimeDuration": "P1,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8wNAlXX1BSRVMJCQlKCQ"
+                        },
+                        {
+                            "comments": [
+                                {
+                                    "author": {
+                                        "associateOID": "AO0N1KB0218MBI8"
+                                    },
+                                    "textValue": "commentaire"
+                                }
+                            ],
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "codeValue": "J"
+                            },
+                            "entryCode": {
+                                "codeValue": "__COMM__"
+                            },
+                            "entryID": "__COMM__20230904"
+                        }
+                    ],
+                    "entryDate": "2023-09-04"
+                },
+                {
+                    "totalPeriodTimeDuration": "P1,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked",
+                        "longName": "Votre manager a enregistré votre journée."
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Après-midi",
+                                "codeValue": "J"
+                            },
+                            "entryCode": {
+                                "shortName": "Déclaration collaborateur",
+                                "codeValue": ""
+                            },
+                            "entryID": "__COMM__20230905"
+                        },
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet Validée",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8wNQlXX1BSRVMJCQlKCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-05"
+                },
+                {
+                    "totalPeriodTimeDuration": "P1,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked",
+                        "longName": "Votre manager a enregistré votre journée."
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Après-midi",
+                                "codeValue": "J"
+                            },
+                            "entryCode": {
+                                "shortName": "Déclaration collaborateur",
+                                "codeValue": ""
+                            },
+                            "entryID": "__COMM__20230906"
+                        },
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet Validée",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8wNglXX1BSRVMJCQlKCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-06"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,50D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8wNwlXX1BSRVMJCQlNCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-07"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Après-midi",
+                                "codeValue": "afternoon"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8wOAlXX1BSRVMJCQlBCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-08"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-09"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-10"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,50D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8xMQlXX1BSRVMJCQlNCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-11"
+                },
+                {
+                    "totalPeriodTimeDuration": "P1,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8xMglXX1BSRVMJCQlKCQ"
+                        }
+                    ],
+                    "exceptions": [
+                        {
+                            "exceptionDescription": "Total activité incorrect",
+                            "exceptionCode": {
+                                "codeValue": "ANOWAZ"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-12"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,50D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8xMwlXX1BSRVMJCQlNCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-13"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-14"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "exceptions": [
+                        {
+                            "exceptionDescription": "Anomalie sur code du lieu",
+                            "exceptionCode": {
+                                "codeValue": "ANOWA8"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            }
+                        },
+                        {
+                            "exceptionDescription": "Anomalie sur code du lieu",
+                            "exceptionCode": {
+                                "codeValue": "ANOWA8"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-15"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-16"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-17"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,50D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8xOAlXX1BSRVMJCQlNCQ"
+                        }
+                    ],
+                    "exceptions": [
+                        {
+                            "exceptionDescription": "Total activité incorrect",
+                            "exceptionCode": {
+                                "codeValue": "ANOWAZ"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            }
+                        },
+                        {
+                            "exceptionDescription": "Total activité incorrect",
+                            "exceptionCode": {
+                                "codeValue": "ANOWAZ"
+                            },
+                            "exceptionTypeCode": {
+                                "codeValue": "error"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-18"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8xOQlXX1BSRVMJCQlNCQ"
+                        },
+                        {
+                            "comments": [
+                                {
+                                    "author": {
+                                        "associateOID": "AO0N1KB0218MBI8"
+                                    },
+                                    "textValue": "com3"
+                                }
+                            ],
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "codeValue": "J"
+                            },
+                            "entryCode": {
+                                "codeValue": "__COMM__"
+                            },
+                            "entryID": "__COMM__20230919"
+                        }
+                    ],
+                    "entryDate": "2023-09-19"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8yMAlXX1BSRVMJCQlNCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-20"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8yMQlXX1BSRVMJCQlNCQ"
+                        },
+                        {
+                            "comments": [
+                                {
+                                    "author": {
+                                        "associateOID": "AO0N1KB0218MBI8"
+                                    },
+                                    "textValue": "com213"
+                                }
+                            ],
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "codeValue": "J"
+                            },
+                            "entryCode": {
+                                "codeValue": "__COMM__"
+                            },
+                            "entryID": "__COMM__20230921"
+                        }
+                    ],
+                    "entryDate": "2023-09-21"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Matin",
+                                "codeValue": "morning"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8yMglXX1BSRVMJCQlNCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-22"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-23"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-24"
+                },
+                {
+                    "totalPeriodTimeDuration": "P1,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8yNQlXX1BSRVMJCQlKCQ"
+                        },
+                        {
+                            "comments": [
+                                {
+                                    "author": {
+                                        "associateOID": "AO0N1KB0218MBI8"
+                                    },
+                                    "textValue": "Comm01"
+                                }
+                            ],
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "codeValue": "J"
+                            },
+                            "entryCode": {
+                                "codeValue": "__COMM__"
+                            },
+                            "entryID": "__COMM__20230925"
+                        }
+                    ],
+                    "entryDate": "2023-09-25"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-26"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-27"
+                },
+                {
+                    "totalPeriodTimeDuration": "P1,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked",
+                        "longName": "L'expert a enregistré la journée."
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet Validée",
+                                "codeValue": "W_PRES"
+                            },
+                            "entryID": "MjAyMy8wOS8yOAlXX1BSRVMJCQlKCQ"
+                        }
+                    ],
+                    "entryDate": "2023-09-28"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0,00D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Journée",
+                                "codeValue": "fullday"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-29"
+                },
+                {
+                    "totalPeriodTimeDuration": "P0D",
+                    "dayStatusCode": {
+                        "effectiveDate": "2023-10-20",
+                        "shortName": "Journée hors dates limites de modification",
+                        "codeValue": "locked"
+                    },
+                    "timeEntries": [
+                        {
+                            "entryTypeCode": {
+                                "codeValue": "dayPeriodEntry"
+                            },
+                            "dayPeriodCode": {
+                                "shortName": "Non présent",
+                                "codeValue": "nopresent"
+                            },
+                            "entryCode": {
+                                "shortName": "Présence intranet ",
+                                "codeValue": "W_PRES"
+                            }
+                        }
+                    ],
+                    "entryDate": "2023-09-30"
+                }
+            ],
+            "links": [
+                {
+                    "href": "/time/v2/workers/AO0N1KB0218MBI8/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-08-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-08-31'",
+                    "rel": "previous",
+                    "method": "GET"
+                },
+                {
+                    "href": "/time/v2/workers/AO0N1KB0218MBI8/time-cards?$expand=dayEntries&$filter=timeCards/timePeriod/startDate%20eq%20'2023-10-01'%20and%20timeCards/timePeriod/endDate%20eq%20'2023-10-31'",
+                    "rel": "next",
+                    "method": "GET"
+                }
+            ],
+            "reviewStatusCode": {
+                "codeValue": "approve",
+                "longName": "La fiche de présence a été approuvée en partie par le manager et l'expert jusqu'au 28/09/2023"
+            }
+        }
+    ]
+}

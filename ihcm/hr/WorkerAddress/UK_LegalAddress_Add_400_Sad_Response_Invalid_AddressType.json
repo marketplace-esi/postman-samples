@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "40704e38-c4cb-4611-962b-3f87dfd24f5e",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-11-02T18:57:28.3473688\u002B00:00",
+    "requestReceiptDateTime": "2023-11-02T18:57:28.3473689\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "f7a75781-f3fb-4e4c-a8c7-8449bfcf0087",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "1b505e01-4d1c-4499-8fb6-d37118b39f11",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "ADDRESSDETAILS.ADDRESSTYPE is a mandatory field. Please provide valid data.. Invalid Pick List Value specified for ADDRESSDETAILS.ADDRESSTYPE. Please check !!!"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
