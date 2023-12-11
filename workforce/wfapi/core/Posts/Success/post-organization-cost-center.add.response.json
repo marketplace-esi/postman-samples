@@ -10,13 +10,14 @@
             "eventStatusCode": {
                 "codeValue": "completed"
             },
-            "recordDateTime": "2023-11-16T12:22:20.3699713+01:00",
-            "creationDateTime": "2023-11-16T12:22:20.3698959+01:00",
-            "effectiveDateTime": "2020-01-01T00:00:00+01:00",
+            "recordDateTime": "2023-12-08T15:41:26.2671904+01:00",
+            "creationDateTime": "2023-12-08T15:41:26.2671904+01:00",
+            "effectiveDateTime": "2020-01-01T00:00:00Z",
             "data": {
                 "output": {
                     "organizationCostCenter": {
                         "costCenterCode": {
+                            "codeValue": "001500",
                             "shortName": "Kpl1500",
                             "longName": "Kostenplaats 1500"
                         },
