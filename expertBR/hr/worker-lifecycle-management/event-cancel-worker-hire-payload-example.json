@@ -1,0 +1,30 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker-hire.cancel"
+			},
+			"eventTitle": "Cancel Worker Hire",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2023-12-01T00:00:00Z"
+			"data": {
+				"output": {
+					"worker" : {
+						"associateOID": "15X0001235869",
+						"workerID": {
+							"idValue": "001-0001234567"
+						},
+						"workerDates": {
+							"originalHireDate": "2023-12-01T00:00:00Z"
+						}
+					}
+				}				 
+			}
+		}
+	]
+}
