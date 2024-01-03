@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "UK0M33C19083EN0"
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "UK0M33C19083EN0",
+            "workerID": {
+              "idValue": "48669-6666"
+            },
+            "person": {
+              "legalAddress": {
+                "deliveryPoint": "True",
+                "buildingName": "ADP L",
+                "buildingNumber": "6617",
+                "streetName": "White Hart Lane",
+                "cityName": "London",
+                "countryCode": "ES",
+                "postalCode": "9000 AA"
+              }
+            }
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.legal-address.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "HR"
+      }
+    }
+  ]
+}

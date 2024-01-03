@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personalAddress.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "itemID": "ec39bbe4-9aef-4b83-9f10-52ede7829b84"
+                            }
+                        }
+                    }
+                 }
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "AO0N7EF1156AX96"
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "AO0N7EF1156AX96",
+            "workerID": {
+              "idValue": "JP123"
+            },
+            "person": {
+              "legalAddress": {
+                "deliveryPoint": "True",
+                "nameCode": {
+                  "shortName": "Work Address",
+                  "codeValue": "WORK"
+                },
+                "lineOne": " Two Hundred White Hart Lane",
+                "lineTwo": "Tottenham",
+                "cityName": "London",
+                "postalCode": "N17 0BX",
+                "countryCode": "GBR"
+              }
+            }
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.legal-address.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "HR"
+      }
+    }
+  ]
+}
