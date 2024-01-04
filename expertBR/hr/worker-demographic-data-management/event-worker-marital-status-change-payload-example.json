@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "eventID": "123456789123456789",
+      "serviceCategoryCode": {
+        "shortName": "HR"
+      },
+      "eventNameCode": {
+        "shortName": "worker.maritalStatus.change"
+      },
+      "eventTitle": "Worker Marital Status Change",
+      "recordDateTime": "2023-03-24T00:00:00Z",
+      "creationDateTime": "2023-03-24T00:00:00Z",
+	  "effectiveDateTime": "2023-03-24T00:00:00Z",
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "120923825-00112979",
+            "workerID": {
+              "idValue": "100-00428523"
+            }
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "maritalStatusCode": {
+                "codeValue": "CAS"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
