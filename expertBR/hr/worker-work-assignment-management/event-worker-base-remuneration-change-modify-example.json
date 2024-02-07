@@ -1,0 +1,60 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.work-assignment.base-remuneration.change"
+			},
+			"eventTitle": "Worker Base Remuneration Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2024-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "15X0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "15X0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						},
+						"workAssignment":{ 
+						   "baseRemuneration":{
+							"hourlyRateAmount":{
+								"amountValue": "10.00"
+							},
+							"monthlyRateAmount":{
+								"amountValue": "2000.00"
+							},
+							"recordingBasisCode":{
+								"codeValue": "M"
+							}
+						   },
+						   "payScaleCode":{
+							"codeValue": "1"
+						   },
+						   "payGradeCode":{
+							"codeValue": "2-3"
+						   },
+						   "standardHours": {
+							   "hoursQuantity": 200.00,
+							   "unitCode": {
+								   "shortName": "Hours"
+							   }
+						   }
+						}
+					}
+				}
+			}				 
+		}
+	]
+}
