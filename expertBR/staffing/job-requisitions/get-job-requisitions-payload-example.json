@@ -1,0 +1,108 @@
+{
+	"jobRequisitions": [
+		{
+			"clientRequisitionID": "12",
+			"requisitionStatusCode":{
+				"codeValue": "PUB",
+				"shortName": "Publicação - Em andamento",
+				"effectiveDate": "2014-01-01T00:00:00Z"
+			},
+			"job":{
+				"jobCode":{
+					"codeValue": "1234-1",
+					"shortName": "Função 1"
+				},
+				"jobTitle": "função administrativa 1"
+			},
+			"requisitionLocations":[
+				{
+					"nameCode":{
+						"codeValue": "D_001_001_124579934",
+						"shortName": "centro de resultado 1"
+					}
+				}
+			],
+			"hiringManager":{
+				"personName":{
+					"givenName": "João",
+					"middleName": "Silva",
+					"familyName1": "Souza",
+					"formattedName": "João Silva Souza"
+				},
+				"associateOID": "1234X000000010",
+				"workerID":{
+					"idValue": "001-123456"
+				}
+			},
+			"recruiter":{
+				"personName":{
+					"formattedName": "João Silva Souza"
+				},
+				"nameCode":{
+					"shortName": "012345678912345"
+				},
+				"associateOID": "1234X000000010",
+				"workerID":{
+					"idValue": "001-123456"
+				}
+			},
+			"requisitionReasonCode":{
+				"codeValue": "1",
+				"shortName": "Substituição",
+				"longName": "Substituição do colaborador que pediu demissão"
+			},
+			"internalIndicator": true,
+			"externalIndicator": true,
+			"evergreenIndicator": true,
+			"postDate": "2014-01-01T00:00:00Z",
+			"standardHours":{
+				"monthlyHoursQuantity": 200.00
+			},
+			"payScaleCode":{
+				"codeValue": "1",
+				"shortName": "Tabela Salarial 1"
+			},
+			"payGradeRange":{
+				"minimumRate":{
+					"amountValue": 3000.00,
+					"currencyCode": "BRL"
+				},
+				"maximumRate":{
+					"amountValue": 5000.00,
+					"currencyCode": "BRL"
+				}
+			},
+			"remunerationBasisCode":{
+				"codeValue": "M",
+				"shortName": "Monthly"
+			},
+			"assignmentTermCode":{
+				"codeValue": "0",
+				"shortName": "Indeterminate"
+			},
+			"workerTypeCode":{
+				"codeValue": "ESTAG",
+				"shortName": "Estagiário"
+			},
+			"projectedStartDate": "2014-01-01T00:00:00Z",
+			"projectedEndDate": "2014-01-01T00:00:00Z",
+			"openingsQuantity": 5,
+			"customFieldGroup":{
+				"stringFields":[
+					{
+						"nameCode":{
+							"shortName": "Work Shift"
+						},
+						"stringValue": "1-1"						
+					},
+					{
+						"nameCode":{
+							"shortName": "TLM Control"
+						},
+						"stringValue": "Worker without TLM Control"
+					}
+				]
+			}			
+		}
+	]
+}

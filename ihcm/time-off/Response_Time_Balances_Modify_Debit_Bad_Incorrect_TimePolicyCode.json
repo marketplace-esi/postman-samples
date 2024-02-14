@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "9b17ef9c-a2c2-4eba-a5ba-c903f5e30ae4",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-08-03T18:08:14.9545709\u002B00:00",
+    "requestReceiptDateTime": "2023-08-03T18:08:14.954571\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "382abda9-ca04-441d-8627-ab7babd3c5c4",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "f69a2619-a8a7-4a4c-b23b-c24d13c46a7e",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid lookup/picklist value or incorrect metadata"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

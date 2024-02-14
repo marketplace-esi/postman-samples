@@ -1,0 +1,93 @@
+{
+    "payrollOutputs": [
+        {
+            "payrollProcessingJobID": "Mensal-2023",
+            "associatePayments": [
+                {
+                    "associateOID": "15-Jan-121212-11111",
+                    "payments": [
+                        {
+                            "paymentDate": "02022023",
+							"paymentSummary": {
+                                "earnings": {
+                                    "payrollAccumulations": {
+                                        "accumulatedAmount": {
+                                            "amountValue": 5300.00,
+											"currencyCode": "BRL"
+                                        }
+                                    },
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "earningID":{
+                                                        "idValue": "15-001-0010-Salário Base"
+													},
+                                                    "earningAmount": {
+                                                        "amountValue": 5000,
+														"currencyCode": "BRL"
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "15-001-0011-Diferença de Salário"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 300,
+														"currencyCode": "BRL"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "15-Fev-121212-22222",
+                    "payments": [
+                        {
+                            "paymentDate": "02032023",
+							"paymentSummary": {
+                                "earnings": {
+                                    "payrollAccumulations": {
+                                        "accumulatedAmount": {
+                                            "amountValue": 6300.00,
+											"currencyCode": "BRL"
+                                        }
+                                    },
+                                    "earningsSections": [
+                                        {
+                                            "earningsItems": [
+                                                {
+                                                    "earningID":{
+                                                        "idValue": "15-001-0010-Salário Base"
+													},
+                                                    "earningAmount": {
+                                                        "amountValue": 5000,
+														"currencyCode": "BRL"
+                                                    }
+                                                },
+                                                {
+                                                    "earningID": {
+                                                        "idValue": "15-001-0011-Diferença de Salário"
+                                                    },
+                                                    "earningAmount": {
+                                                        "amountValue": 1300,
+														"currencyCode": "BRL"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

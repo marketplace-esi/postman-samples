@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.personal-address.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0N7EF1156AX96"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "personalAddress": {
+                                "deliveryPoint": "T",
+                                "lineOne": "The Court No One ",
+                                "lineTwo": "Wimbledon High Road",
+                                "lineThree": "Wimbledon",
+                                "cityName": "London",
+                                "countryCode": "GBR",
+                                "postalCode": "SW19 2HT",
+                                "countrySubdivisionLevel2": {
+                                    "codeValue": "Help"
+                                },
+                                "nameCode": {
+                                    "shortName": "Home Address"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+} 

@@ -1,0 +1,30 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2023-10-16T10:17:48.388363+02:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "The value 4567.999 is passed with more decimals then allowed 2"
+                },
+                "developerMessage": {
+                    "messageTxt": "events[0]::invalid"
+                }
+            }
+        ]
+    }
+} 

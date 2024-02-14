@@ -1,244 +1,244 @@
 {
-  "meta": {
-    "/serviceCategoryCode/codeValue": "payroll",
-    "/eventNameCode/codeValue": "payDataInput.add",
-    "queryCriteria": [
-      {
-        "itemID": "1",
-        "queryOptionCode": "$filter",
-        "obligationCode": "optional",
-        "queryOptionTypeCode": "OData",
-        "resourcePaths": ["/payrollGroupCode/codeValue"],
-        "queryValueCodeList": {
-          "listItems": [
+    "meta": {
+        "/serviceCategoryCode/codeValue": "payroll",
+        "/eventNameCode/codeValue": "payDataInput.add",
+        "queryCriteria": [
             {
-              "itemID": "PG1",
-              "valueDescription": "My Monthly Pay Group"
+                "itemID": "1",
+                "queryOptionCode": "$filter",
+                "obligationCode": "optional",
+                "queryOptionTypeCode": "OData",
+                "resourcePaths": ["/payrollGroupCode/codeValue"],
+                "queryValueCodeList": {
+                    "listItems": [
+                        {
+                            "itemID": "PG1",
+                            "valueDescription": "My Monthly Pay Group"
+                        },
+                        {
+                            "itemID": "PG2",
+                            "valueDescription": "My Weekly Pay Group"
+                        }
+                    ]
+                },
+                "logicalOperators": [{ "logicalOperatorCode": "eq" }]
+            }
+        ],
+        "/data/eventContext": {
+            "/payrollRegionCode/codeValue": {
+                "optional": false,
+                "dataType": "string",
+                "default": "GB",
+                "equals": ["GB"]
             },
+            "/payrollGroupCode": {
+                "codeList": {
+                    "listItems": [
+                        {
+                            "itemID": "PG1",
+                            "valueDescription": "My Monthly Pay Group"
+                        },
+                        {
+                            "itemID": "PG2",
+                            "valueDescription": "My Weekly Pay Group"
+                        }
+                    ]
+                }
+            },
+            "/payrollGroupCode/codeValue": {
+                "optional": false,
+                "dataType": "string",
+                "minLength": 1,
+                "maxLength": 10,
+                "equals": ["PG1", "PG2"]
+            }
+        },
+        "/data/transforms": [
             {
-              "itemID": "PG2",
-              "valueDescription": "My Weekly Pay Group"
-            }
-          ]
-        },
-        "logicalOperators": [{ "logicalOperatorCode": "eq" }]
-      }
-    ],
-    "/data/eventContext": {
-      "/payrollRegionCode/codeValue": {
-        "optional": false,
-        "dataType": "string",
-        "default": "GB",
-        "equals": ["GB"]
-      },
-      "/payrollGroupCode": {
-        "codeList": {
-          "listItems": [
-            {
-              "itemID": "PG1",
-              "valueDescription": "My Monthly Pay Group"
-            },
-            {
-              "itemID": "PG2",
-              "valueDescription": "My Weekly Pay Group"
-            }
-          ]
-        }
-      },
-      "/payrollGroupCode/codeValue": {
-        "optional": false,
-        "dataType": "string",
-        "minLength": 1,
-        "maxLength": 10,
-        "equals": ["PG1", "PG2"]
-      }
-    },
-    "/data/transforms": [
-      {
-        "/payDataInput": {
-          "optional": false,
-          "dataType": "object"
-        },
-        "/payDataInput/payeePayInputs": {
-          "dataType": "array"
-        },
-        "/payDataInput/payeePayInputs/associateOID": {
-          "optional": false,
-          "dataType": "string",
-          "minLength": 16,
-          "maxLength": 16,
-          "pattern": "^[a-zA-Z0-9]*$",
-          "dependencies": {
-            "optional": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/payeeID/idValue": {
-                      "pattern": "^.+$"
+                "/payDataInput": {
+                    "optional": false,
+                    "dataType": "object"
+                },
+                "/payDataInput/payeePayInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/associateOID": {
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 16,
+                    "maxLength": 16,
+                    "pattern": "^[a-zA-Z0-9]*$",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payeeID/idValue": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
                     }
-                  },
-                  "value": true
+                },
+                "/payDataInput/payeePayInputs/payeeID": {
+                    "optional": false,
+                    "dataType": "object",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/associateOID": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payeeID/idValue": {
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 1,
+                    "maxLength": 60,
+                    "pattern": "^[^\\s][a-zA-Z0-9,<>()/=!\"%&*;:'+?.-\\s]*$",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/associateOID": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payPeriodStartDate": {
+                    "optional": false,
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payPeriodEndDate": {
+                    "optional": false,
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs": {
+                    "dataType": "array",
+                    "minItems": 1,
+                    "maxItems": 100
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
+                    "codeList": {
+                        "listItems": []
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
+                    "optional": false,
+                    "dataType": "string",
+                    "maxLength": 10,
+                    "pattern": "^[a-zA-Z0-9.-]*$"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate": {
+                    "optional": false,
+                    "dataType": "object",
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                    "optional": false,
+                    "dataType": "number",
+                    "minValue": -99999999999.99,
+                    "maxValue": 99999999999.99,
+                    "dependencies": {
+                        "minValue": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": -99999999999.999999
+                                }
+                            ]
+                        },
+                        "maxValue": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": 99999999999.999999
+                                }
+                            ]
+                        },
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                    "optional": false,
+                    "dataType": "number",
+                    "minValue": -99999999.9999,
+                    "maxValue": 99999999.9999,
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "attributes": {
+                                        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                                            "pattern": "^.+$"
+                                        }
+                                    },
+                                    "value": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earnedPayPeriodStartDate": {
+                    "optional": true,
+                    "dataType": "string[date]"
                 }
-              ]
             }
-          }
-        },
-        "/payDataInput/payeePayInputs/payeeID": {
-          "optional": false,
-          "dataType": "object",
-          "dependencies": {
-            "optional": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/associateOID": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": true
-                }
-              ]
-            }
-          }
-        },
-        "/payDataInput/payeePayInputs/payeeID/idValue": {
-          "optional": false,
-          "dataType": "string",
-          "minLength": 1,
-          "maxLength": 60,
-          "pattern": "^[^\\s][a-zA-Z0-9,<>()\/=!\"%&*;:'+?.-\\s]*$",
-          "dependencies": {
-            "optional": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/associateOID": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": true
-                }
-              ]
-            }
-          }
-        },
-        "/payDataInput/payeePayInputs/payPeriodStartDate": {
-          "optional": false,
-          "dataType": "string[date]"
-        },
-        "/payDataInput/payeePayInputs/payPeriodEndDate": {
-          "optional": false,
-          "dataType": "string[date]"
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs": {
-          "dataType": "array",
-          "minItems": 1,
-          "maxItems": 100
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs": {
-          "dataType": "array"
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs": {
-          "dataType": "array"
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
-          "codeList": {
-            "listItems": []
-          }
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
-          "optional": false,
-          "dataType": "string",
-          "maxLength": 10,
-          "pattern": "^[a-zA-Z0-9.-]*$"
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate": {
-          "optional": false,
-          "dataType": "object",
-          "dependencies": {
-            "optional": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": true
-                }
-              ]
-            }
-          }
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
-          "optional": false,
-          "dataType": "number",
-          "minValue": -99999999999.99,
-          "maxValue": 99999999999.99,
-          "dependencies": {
-            "minValue": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": -99999999999.999999
-                }
-              ]
-            },
-            "maxValue": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": 99999999999.999999
-                }
-              ]
-            },
-            "optional": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": true
-                }
-              ]
-            }
-          }
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
-          "optional": false,
-          "dataType": "number",
-          "minValue": -99999999.9999,
-          "maxValue": 99999999.9999,
-          "dependencies": {
-            "optional": {
-              "allOf": [
-                {
-                  "attributes": {
-                    "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
-                      "pattern": "^.+$"
-                    }
-                  },
-                  "value": true
-                }
-              ]
-            }
-          }
-        },
-        "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earnedPayPeriodStartDate": {
-          "optional": true,
-          "dataType": "string[date]"
-        }
-      }
-    ]
-  }
+        ]
+    }
 }

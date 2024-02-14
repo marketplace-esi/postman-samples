@@ -1,0 +1,58 @@
+{
+	"events": [
+		{
+			"eventID": "32f489ed-6719-49db-b161-274030a6febf",
+			"eventNameCode": {
+				"codeValue": "organizationDepartment.change"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T08:52:19+02:00",
+			"effectiveDateTime": "2023-07-01T00:00:00+02:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"contextExpressionID": "010123"
+				},
+				"output": {
+					"organizationDepartment": {
+						"departmentCode": {
+							"codeValue": "010123",
+							"shortName": "Red. Dept.",
+							"longName": "Department of redundancy dept."
+						},
+						"departmentDescription": "Department of redundancy dept.",
+						"parentDepartmentCode": {
+							"codeValue": "000040"
+						},
+						"auxilliaryFields": [
+							{
+								"nameCode": {
+									"codeValue": "costCenter"
+								},
+								"stringValue": "010123",
+								"itemID": "afd_kostenplaats"
+							},
+							{
+								"nameCode": {
+									"codeValue": "departmentType"
+								},
+								"stringValue": "5",
+								"itemID": "afd_type"
+							},
+							{
+								"nameCode": {
+									"codeValue": "departmentTypeDesc"
+								},
+								"stringValue": "Overig",
+								"itemID": "afd_type_oms"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

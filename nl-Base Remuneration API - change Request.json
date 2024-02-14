@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "G4O73G9Z62SL2NFM",
+            "workAssignment": {
+                "itemID": "8BF3ECED-F101-4C37-9B8D-6C846D771FE8"
+            }
+          }
+        },
+        "transform": {
+          "effectiveDateTime": "2021-01-01T00:00:00Z",
+          "workAssignment": {
+            "baseRemuneration": {
+              "payPeriodRateAmount": {
+                "amountValue": 1234567.89
+              },
+              "recordingBasisCode": {
+                "codeValue": "1"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+} 

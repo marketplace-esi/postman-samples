@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "eventID": "8c3325ec8ed846127c9ee8e4",
+            "eventNameCode": {
+                "codeValue": "worker.person.customField.date.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "employee-xyz"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "employee-xyz",
+                        "workerID": {
+                            "idValue": "0000000"
+                        },
+                        "person": {
+                            "customFieldGroup": {
+                                "dateField": {
+                                    "dateValue": "2023-01-01",
+                                    "itemID": "personCustomDateXXX"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

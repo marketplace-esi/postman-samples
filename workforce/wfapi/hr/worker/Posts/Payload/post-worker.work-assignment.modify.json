@@ -1,0 +1,75 @@
+{
+    "events": [
+        {
+			"eventNameCode": {
+				"codeValue": "worker.workAssignment.modify"
+			},
+            "data": {
+                "eventContext": {
+                    "workerID": {
+                        "idValue": "000215"
+                    },
+                    "workAssignmentID": "1"
+                },
+                "transform": {
+                    "effectiveDateTime": "2023-09-07T00:00:00.000Z",
+                    "workAssignment": {
+                        "homeWorkLocation": {
+                            "nameCode": {
+                                "codeValue": "1"
+                            }
+                        },
+                        "wageLawCoverage": {
+                            "wageLawNameCode": {
+                                "codeValue": "333"
+                            }
+                        },
+                        "baseRemuneration": {
+                            "payPeriodRateAmount": {
+                                "amountValue": 1234
+                            }
+                        },
+                        "customFieldGroup": {
+                            "stringFields": [
+                                {
+                                    "nameCode": {
+                                        "shortName": "costCenter"
+                                    },
+                                    "stringValue": "001250"
+                                },
+                                {
+                                    "nameCode": {
+                                        "shortName": "contractHours"
+                                    },
+                                    "stringValue": "36"
+                                }
+                            ]
+                        },
+                        "standardHours": {
+                            "hoursQuantity": 36
+                        },
+                        "payScaleCode": {
+                            "codeValue": "E"
+                        },
+                        "payGradeStepCode": {
+                            "codeValue": "001.00"
+                        },
+                        "workerTypeCode": {
+                            "codeValue": "00"
+                        },
+                        "homeOrganizationalUnits": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "000025"
+                                }
+                            }
+                        ],
+                        "jobCode": {
+                            "codeValue": "000000211"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

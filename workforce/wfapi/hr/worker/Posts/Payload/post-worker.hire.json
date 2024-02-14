@@ -1,0 +1,128 @@
+{
+    "events": [
+        {
+			"eventNameCode": {
+				"codeValue": "worker.hire"
+			},
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000888"
+                        }
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000327"
+                        },
+                        "person": {
+                            "birthDate": "1987-08-08",
+                            "communication": {
+                                "emails": [
+                                    {
+                                        "emailUri": "test@adp.com"
+                                    }
+                                ],
+                                "landlines": [
+                                    {}
+                                ],
+                                "mobiles": [
+                                    {
+                                        "formattedNumber": "+31614089260"
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "V"
+                            },
+                            "legalAddress": {
+                                "buildingNumber": "124",
+                                "cityName": "Tilburg",
+                                "countryCode": "NL",
+                                "postalCode": "5011NN",
+                                "streetName": "Teststraat",
+                                "unit": "B"
+                            },
+                            "legalName": {
+                                "familyName1": "Viking",
+                                "givenName": "Nicole",
+                                "initials": "N",
+                                "nickName": "Nicky",
+                                "familyName1Prefix": "de"
+                            }
+                        },
+                        "customFieldGroup": {
+                            "stringFields": [
+                                {
+                                    "nameCode": {
+                                        "shortName": "loginName"
+                                    },
+                                    "stringValue": "ndviking@test.nl"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "actualStartDate": "2021-07-18",
+                            "managementPositionIndicator": false,
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "AMS"
+                                }
+                            },
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "214"
+                                }
+                            },
+                            "baseRemuneration": {
+                                "payPeriodRateAmount": {
+                                    "amountValue": 1200
+                                }
+                            },
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "shortName": "costCenter"
+                                        },
+                                        "stringValue": "001225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "shortName": "contractHours"
+                                        },
+                                        "stringValue": "40"
+                                    }
+                                ]
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 40
+                            },
+                            "payScaleCode": {
+                                "codeValue": "6"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "006.00"
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "Klantspecifiek"
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "000025"
+                                    }
+                                }
+                            ],
+                            "jobCode": {
+                                "codeValue": "000000211"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

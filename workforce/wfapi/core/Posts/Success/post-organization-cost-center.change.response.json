@@ -1,0 +1,42 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "core"
+            },
+            "eventNameCode": {
+                "codeValue": "organizationCostCenter.change"
+            },
+            "eventStatusCode": {
+                "codeValue": "completed"
+            },
+            "recordDateTime": "2023-12-08T15:42:11.0808201+01:00",
+            "creationDateTime": "2023-12-08T15:42:11.0808201+01:00",
+            "effectiveDateTime": "2010-01-01T00:00:00Z",
+            "data": {
+                "output": {
+                    "organizationCostCenter": {
+                        "costCenterCode": {
+                            "codeValue": "001500",
+                            "shortName": "Kstnplts 1500",
+                            "longName": "Kostenplaats 1500"
+                        },
+                        "costCenterDescription": {
+                            "longLabelName": "Kostenplaats 1500"
+                        },
+                        "activeIndicator": false,
+                        "costCenterEffectivePeriod": {
+                            "startDate": "2010-01-01",
+                            "endDate": "2030-01-01"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "Transaction was successful"
+        }
+    }
+}

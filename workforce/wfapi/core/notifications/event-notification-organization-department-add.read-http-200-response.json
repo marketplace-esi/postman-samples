@@ -1,0 +1,58 @@
+{
+	"events": [
+		{
+			"eventID": "c0ace67b-02f5-4181-b7fd-d2d5f80c5e4b",
+			"eventNameCode": {
+				"codeValue": "organizationDepartment.add"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T08:34:43+02:00",
+			"effectiveDateTime": "2023-01-01T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"contextExpressionID": "010123"
+				},
+				"output": {
+					"organizationDepartment": {
+						"departmentCode": {
+							"codeValue": "010123",
+							"shortName": "DORD",
+							"longName": "Department of redundancy dept."
+						},
+						"departmentDescription": "Department of redundancy dept.",
+						"parentDepartmentCode": {
+							"codeValue": "000040"
+						},
+						"auxilliaryFields": [
+							{
+								"nameCode": {
+									"codeValue": "costCenter"
+								},
+								"stringValue": "001255",
+								"itemID": "afd_kostenplaats"
+							},
+							{
+								"nameCode": {
+									"codeValue": "departmentType"
+								},
+								"stringValue": "2",
+								"itemID": "afd_type"
+							},
+							{
+								"nameCode": {
+									"codeValue": "departmentTypeDesc"
+								},
+								"stringValue": "Lijn",
+								"itemID": "afd_type_oms"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

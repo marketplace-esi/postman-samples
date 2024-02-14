@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"eventID": "3f0cb51f-c14f-44b1-ae75-95b762ae175d",
+			"eventNameCode": {
+				"codeValue": "organizationPosition.change"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T08:52:19+02:00",
+			"effectiveDateTime": "2023-07-01T00:00:00+02:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"contextExpressionID": "010123-001012023"
+				},
+				"output": {
+					"organizationPosition": {
+						"positionTitle": "Department of redundancy dept. - Hakselaar",
+						"positionStatusCode": {
+							"effectiveDate": "2023-01-01"
+						},
+						"budgetedAmount": {
+							"amountValue": 44700.85,
+							"currencyCode": "EUR"
+						},
+						"sharedPositionMaximumHeadcount": 1.0,
+						"workAssignment": {
+							"standardHours": {
+								"hoursQuantity": 38.0,
+								"unitCode": {
+									"codeValue": "W",
+									"longName": "Week"
+								}
+							},
+							"wageLawCoverages": [
+								{
+									"wageLawNameCode": {
+										"codeValue": "214"
+									}
+								}
+							]
+						},
+						"compensationData": {
+							"remunerationBasisCode": {
+								"codeValue": "4",
+								"shortName": "214-4"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

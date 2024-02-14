@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "data": {
+        "transform": {
+          "timeEntries": [
+            {
+              "entryTypeCode": {
+                "codeValue": "dayPeriodEntry"
+              },
+              "entryCode": {
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              },
+              "dayPeriodCode": {
+                "shortName": "Matin",
+                "codeValue": "morning"
+              },
+              "entryDate": "2023-06-24",
+              "_changeCode": "add"
+            }
+          ]
+        },
+        "eventContext": {
+          "associateOID": "AO0N1KB0218MBI8"
+        }
+      },
+      "serviceCategoryCode": {
+        "codeValue": "time"
+      },
+      "eventNameCode": {
+        "codeValue": "timeEntries.modify"
+      }
+    }
+  ]
+}

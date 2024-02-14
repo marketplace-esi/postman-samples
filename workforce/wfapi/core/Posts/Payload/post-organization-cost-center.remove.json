@@ -1,0 +1,29 @@
+{
+    "events":
+	[
+		{
+            "eventNameCode":
+			{
+                "codeValue":"organizationCostCenter.remove"
+            },
+			"data":
+			{
+                "eventContext":
+                {
+                    "contextExpressionID": "001500"
+                },
+				"transform":
+				{
+                    "organizationCostCenter":
+                    {
+                        "itemID": "001500",
+                        "costCenterCode":
+                        {
+                            "codeValue": "001500"
+                        }
+                    }
+				}
+			}
+		}
+	]
+}

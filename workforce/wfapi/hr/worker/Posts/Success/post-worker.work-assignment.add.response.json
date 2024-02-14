@@ -1,0 +1,99 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.workAssignment.add"
+            },
+            "eventStatusCode": {
+                "codeValue": "submitted"
+            },
+            "recordDateTime": "2023-09-13T09:39:17.9093705+02:00",
+            "creationDateTime": "2023-09-13T09:39:17.9093705+02:00",
+            "effectiveDateTime": "2021-07-18T00:00:00Z",
+            "data": {
+                "eventContext": {
+                    "workerID": {
+                        "idValue": "000450"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "000450"
+                        },
+                        "workAssignment": {
+                            "workerTypeCode": {
+                                "codeValue": "Klantspecifiek"
+                            },
+                            "jobCode": {
+                                "codeValue": "000000211"
+                            },
+                            "wageLawCoverage": {
+                                "wageLawNameCode": {
+                                    "codeValue": "214"
+                                }
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 32.0,
+                                "unitCode": {
+                                    "codeValue": "W",
+                                    "longName": "week"
+                                }
+                            },
+                            "homeOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "000025"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codeValue": "AMS"
+                                }
+                            },
+                            "baseRemuneration": {
+                                "payPeriodRateAmount": {
+                                    "amountValue": 1200.0,
+                                    "currencyCode": "EUR"
+                                }
+                            },
+                            "payScaleCode": {
+                                "codeValue": "3"
+                            },
+                            "payGradeStepCode": {
+                                "codeValue": "3.0"
+                            },
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "costCenter"
+                                        },
+                                        "stringValue": "001225"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "contractHours"
+                                        },
+                                        "stringValue": "32.0"
+                                    }
+                                ]
+                            },
+                            "itemID": "3"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "W284",
+            "schemeName": "Event verwerkt"
+        }
+    }
+}

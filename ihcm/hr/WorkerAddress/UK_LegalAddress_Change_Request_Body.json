@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "HR"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.legal-address.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0N7EF1156AX96"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "legalAddress": {
+                                "lineOne": " Two Hundred White Hart Lane",
+                                "lineTwo": "Tottenham",
+                                "lineThree": "",
+                                "cityName": "London",
+                                "countryCode": "GBR",
+                                "nameCode": {
+                                    "shortName": "Work Address"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+            "originator": {
+                "associateOID": "AO0N1KB0218MBI8"
+            },
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N1KB0218MBI8",
+                    "timeOffRequestID": "Mi4wMDAxMDAzNy5BREkuQ1AuMS45OTU4ODkyLjIwMjMvMDgvMDkuMA"
+                },
+                "output": {
+                    "timeOffRequest": {
+                        "requestStatusCode": {
+                            "codeValue": "inprogress",
+                            "shortName": "Annulation demandée",
+                            "effectiveDate": "2023-08-09"
+                        },
+                        "actions": []
+                    }
+                }
+            }
+        }
+    ]
+}

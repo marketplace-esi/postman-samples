@@ -1,0 +1,53 @@
+{
+  "codeLists": [
+    {
+      "codeListTitle": "departments",
+      "listItems": [
+        {
+          "codeValue": "7896",
+          "shortName": "phantomworks",
+          "valueDescription": "7896 - phantomworks"
+        },
+        {
+          "codeValue": "8545",
+          "shortName": "New GB Phantomworks Company",
+          "valueDescription": "8545 - New GB Phantomworks Company"
+        },
+        {
+          "codeValue": "8562",
+          "shortName": "New GB Company",
+          "valueDescription": "8562 - New GB Company",
+          "foreignKey": "43243"
+        },
+        {
+          "codeValue": "5454",
+          "shortName": "43435",
+          "valueDescription": "5454 - 43435"
+        },
+        {
+          "codeValue": "C001",
+          "shortName": "New org company",
+          "valueDescription": "C001 - New org company",
+          "foreignKey": "C001"
+        },
+        {
+          "codeValue": "180",
+          "shortName": "ADP",
+          "valueDescription": "180 - ADP"
+        },
+        {
+          "codeValue": "123",
+          "shortName": "abc",
+          "valueDescription": "123 - abc",
+          "foreignKey": "180"
+        },
+        {
+          "codeValue": "Demo",
+          "shortName": "Demo Company",
+          "valueDescription": "Demo - Demo Company",
+          "foreignKey": "34/\u0026*"
+        },   
+      ]
+    }
+  ]
+}

@@ -50,6 +50,34 @@
     "genderCode": {
       "codeValue": "Male",
       "shortName": "Male"
+    },
+    "customFieldGroup": {
+      "dateFields": [
+        {
+          "dateValue": "2018-05-10",
+          "nameCode": {
+            "shortName": "CONTRACT SIGN DATE"
+          }
+        },
+        {
+          "dateValue": "2030-05-12",
+          "nameCode": {
+            "shortName": "END DATE CONTRACT 1"
+          }
+        },
+        {
+          "dateValue": "2031-08-09",
+          "nameCode": {
+            "shortName": "END DATE CONTRACT 2"
+          }
+        },
+        {
+          "dateValue": "2032-06-07",
+          "nameCode": {
+            "shortName": "END DATE CONTRACT 3"
+          }
+        }
+      ]
     }
   },
   "workerDates": {
@@ -128,7 +156,64 @@
           }
         }
       ],
-      "payrollFileNumber": "AC543534"
+      "payrollFileNumber": "AC543534",
+      "baseRemuneration": {
+        "effectiveDate": "2023-04-01",
+        "payPeriodRateAmount": {
+          "amountValue": 1650.0,
+          "nameCode": {
+            "codeValue": "SALAMOUNT",
+            "shortName": "Salary Amount"
+          },
+          "currencyCode": "EURO"
+        },
+        "recordingBasisCode": {
+          "codeValue": "4",
+          "shortName": "4=Hourly wage"
+        }
+      },
+      "premiumRateMultipliers": [
+        {
+          "rateMultiplier": 50.0
+        }
+      ],
+      "customFieldGroup": {
+        "stringFields": [
+          {
+            "nameCode": {
+              "codeValue": "Employment type"
+            },
+            "stringValue": "Casual"
+          }
+        ],
+        "amountFields": [
+          {
+            "amountValue": 1500.0,
+            "nameCode": {
+              "codeValue": "SALAMOUNT",
+              "shortName": "Salary Amount"
+            }
+          }
+        ],
+        "codeFields": [
+          {
+            "codeValue": "0",
+            "shortName": "0=Monthly salary",
+            "nameCode": {
+              "codeValue": "SALFRQCODE",
+              "shortName": "Salary Pay Frequency Code"
+            }
+          }
+        ],
+        "numberFields": [
+          {
+            "nameCode": {
+              "shortName": "Hours per period"
+            },
+            "numberValue": 21.0
+          }
+        ]
+      }
     }
   ]
 }

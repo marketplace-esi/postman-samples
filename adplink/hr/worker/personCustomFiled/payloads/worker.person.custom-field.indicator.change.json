@@ -1,33 +1,29 @@
 {
     "events": [{
-            "data": {
-                "eventContext": {
-                    "worker": {
-                        "associateOID": "employee-abc",
-                        "person": {
+        "data": {
+            "eventContext": {
+                "worker": {
+                    "associateOID": "employee-abc",
+                    "person": {
                         "customFieldGroup": {
                             "indicatorField": {
-                            "itemID": "probationPeriod"
+                                "itemID": "probationPeriod"
                             }
                         }
-                        }
                     }
-                 },
-				 "transform": {
-                    "worker": {
-                        "person": {
-                            "customFieldGroup": {
-                                "indicatorField": 
-                                    {
-                                        "indicatorValue": "false"
-                                       
-                                    }
-                                
+                }
+            },
+            "transform": {
+                "worker": {
+                    "person": {
+                        "customFieldGroup": {
+                            "indicatorField": {
+                                "indicatorValue": "false"
                             }
                         }
                     }
                 }
             }
         }
-    ]
+    }]
 }

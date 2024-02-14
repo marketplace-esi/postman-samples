@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"eventID": "1f3024bc-64a6-40cc-85c1-49f440c931f0",
+			"eventNameCode": {
+				"codeValue": "organizationCostCenter.add"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T08:34:44+02:00",
+			"effectiveDateTime": "2023-01-01T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"contextExpressionID": "010123"
+				},
+				"output": {
+					"organizationCostCenter": {
+						"costCenterCode": {
+							"longName": "Kostenplaats 010123"
+						},
+						"costCenterDescription": {
+							"longLabelName": "Kostenplaats 010123"
+						},
+						"costCenterEffectivePeriod": {
+							"startDate": "2023-01-01"
+						}
+					}
+				}
+			}
+		}
+	]
+}

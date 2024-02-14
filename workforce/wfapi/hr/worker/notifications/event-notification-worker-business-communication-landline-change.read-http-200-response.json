@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"eventID": "84fe77bc-322b-4a33-a820-ffe26aa1b245",
+			"eventNameCode": {
+				"codeValue": "worker.businessCommunication.landline.change"
+			},
+			"recordDateTime": "2023-07-03T00:00:00+02:00",
+			"creationDateTime": "2023-07-03T13:21:16+02:00",
+			"effectiveDateTime": "2023-02-01T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000104"
+						},
+						"businessCommunication": {
+							"landline": {
+								"itemID": "1"
+							}
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "000104"
+						},
+						"businessCommunication": {
+							"landline": {
+								"formattedNumber": "0204865001",
+								"itemID": "1"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

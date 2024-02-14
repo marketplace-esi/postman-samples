@@ -1,0 +1,61 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "hr"
+			},
+			"eventNameCode": {
+				"shortName": "worker.leave.change"
+			},
+			"eventTitle": "Worker Leave Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"associateOID": "15-0001235869",
+					"workerID": {
+							"idValue": "001-0001234567"
+					},
+					"leaveStartDate": "2014-01-01T00:00:00Z",
+					"leaveTypeCode": {
+						"codeValue": "SE"
+					}
+				},
+				"transform": {
+					"eventReasonCode": {
+						"codeValue": "3",
+						"shortName": "124563987789"
+					},
+					"workerLeave": {
+						"leaveAbsence": {
+							"statutoryAbsenceCode": {
+								"codeValue": "1",
+								"shortName": "Work Related Accident - Transit"
+							},
+							"startDateTime": "2014-01-01T00:00:00Z",
+							"expectedEndDateTime": "2014-01-20T00:00:00Z"
+							"leaveDuration": {
+								"quantityValue": 20
+							},
+							"leaveTypeCode": {
+								"codeValue": "SE"
+							},
+							"leaveSubType": {
+								"shortName": "B43.0"
+							},
+							"paymentStatusCode": {
+								"codeValue": "1234567891234"
+								"shortName": "Employer"
+							},
+							"comment": {
+								"textValue": "comentario"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

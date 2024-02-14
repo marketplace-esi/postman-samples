@@ -1,0 +1,59 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "payroll"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                      "associateOID": "UK0LCGN13014U29"
+                    }
+                },
+                "transform": {
+                    "payDistribution": {
+                        "itemID": "",
+                        "payrollGroupCode": {
+                           "codeValue": "48669"
+                        },
+                        "distributionInstructions": [
+                            {
+                                "instructionEffectivePeriod": {
+                                    "startDateTime": "2023-03-01T00:00:00.00Z"
+                                    //"endDateTime": "2023-07-21T00:00:00.00Z"
+                                },
+                                "payee": {
+                                    "nameCode": {
+                                        "longName": "666"
+                                    }
+                                },
+                                "precedenceCode": {
+                                    "codeValue": "No"
+                                },
+                                "depositAccount": {
+                                    "financialParty": {
+                                        "SWIFTCode": "123456789"
+                                    },
+                                    "financialAccount": {
+                                        "accountNumber": "NL91ABNA0417164300",
+                                        "accountName": "Jane Doe",
+                                        "typeCode" : {
+                                            "codeValue" : "3",
+                                            "shortName" : "Primary Two"
+                                        }
+                                    }
+                                },
+                                "distributionAmount": {
+                                    "amountValue": "4000"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+} 

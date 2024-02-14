@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "/data/eventContext": {
+      "/associateOID": {
+        "default": "AO0N1KB034299BZ",
+        "optional": false
+      }
+    },
+    "/data/transforms": [
+      {
+        "/timeEntries/timeDuration": {
+          "optional": false,
+          "pattern": "^(?:(?:0?[0-9]|1[0-9]|2[0-3]):[0-5][0-9])$"
+        },
+        "/timeEntries/entryCode": {
+          "codeList": {
+            "listItems": [
+              {
+                "foreignKey": "hoursEntry",
+                "defaultIndicator": true,
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            ]
+          },
+          "optional": false
+        },
+        "/timeEntries/entryCode/codeValue": {
+          "optional": false
+        }
+      }
+    ],
+    "/eventNameCode/codeValue": "timeEntries.modify",
+    "/serviceCategoryCode/codeValue": "time"
+  }
+}

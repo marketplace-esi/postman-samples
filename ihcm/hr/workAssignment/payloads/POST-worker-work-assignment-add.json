@@ -1,0 +1,139 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.add"
+            },
+            "eventStatusCode": {
+                "codeValue": "submit"
+            },
+            "effectiveDateTime": "2022-04-29T16:02:44.597Z",
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0N52A2454R8VT"
+                },
+                "transform": {
+                    "worker": {
+                        "workAssignment": {
+                            "primaryIndicator": true,
+                            "expectedStartDate": "2023-07-23",
+                            "terminationDate": "",
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "GBMG01",
+                                    "costCenterName": "MagCC"
+                                }
+                            ],
+                            "assignmentTermCode": {
+                                "shortName": "Casual Worker"
+                            },
+                            "worklevelCode": {
+                                "shortName": "Full Time"
+                            },
+                            "workerTypeCode": {
+                                "shortName": "Temporary"
+                            },
+                            "legalEntityID": "GBOrg0",
+                            "jobCode": {
+                                "codeValue": "0001",
+                                "shortName": "QA"
+                            },
+                            "jobTitle": "QA",
+                            "workShiftCode": {
+                                "shortName": "Sample Work Pattern"
+                            },
+                            "workerGroups": {
+                                "groupCode": {
+                                    "shortName": "Crew 1"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": 1.0,
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "0",
+                                        "shortName": "GBOrg0",
+                                        "longName": "GBOrg Zero"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Company",
+                                        "shortName": "GB Organisation"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "shortName": "Envelope and post to home address"
+                                }
+                            },
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "REASONFORCHANGE"
+                                        },
+                                        "shortName": "New Starter"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": ""
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CLOSEPREVIOUSJOB"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "COVERINGPOSITION"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "SUSPENDTIMESHEETS"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "IRREGULARPAYMENTPATTERN"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "WPUSEWORKPATTERN"
+                                        },
+                                        "indicatorValue": false
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "TSTIMESHEETTEMPLATE_NAME"
+                                        },
+                                        "stringValue": ""
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "NOTES"
+                                        },
+                                        "stringValue": "sample comment"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

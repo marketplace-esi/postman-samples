@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "5709157a-59e5-438e-9f3e-67e78569e8b7",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-06-27T14:57:27.2355058\u002B00:00",
+    "requestReceiptDateTime": "2023-06-27T14:57:27.2355059\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "f9a52564-0059-405e-9c41-d2444d78f945",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "ebd33636-74ae-47e3-97b4-df3bc17eb983",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "You can\u2019t delete correspondence address"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+    "timeOffRequests": [
+        {
+            "timeOffRequestID": "V-2023-04-10",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-04-10",
+                        "endDate": "2023-04-10"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "V",
+                        "longName": "Verlof"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        },
+        {
+            "timeOffRequestID": "V-2023-04-11",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-04-11",
+                        "endDate": "2023-04-11"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "V",
+                        "longName": "Verlof"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        },
+        {
+            "timeOffRequestID": "A-2023-06-16",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-06-16",
+                        "endDate": "2023-06-16"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "A",
+                        "longName": "ADV"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        },
+        {
+            "timeOffRequestID": "A-2023-06-19",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-06-19",
+                        "endDate": "2023-06-19"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "A",
+                        "longName": "ADV"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        },
+        {
+            "timeOffRequestID": "A-2023-06-20",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-06-20",
+                        "endDate": "2023-06-20"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "A",
+                        "longName": "ADV"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        },
+        {
+            "timeOffRequestID": "A-2023-06-21",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-06-21",
+                        "endDate": "2023-06-21"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "A",
+                        "longName": "ADV"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        },
+        {
+            "timeOffRequestID": "T-2023-12-05",
+            "requestStatusCode": {
+                "codeValue": "approved",
+                "longName": "Approved"
+            },
+            "totalQuantity": {
+                "quantityValue": 8.0,
+                "unitTimeCode": {
+                    "codeValue": "H",
+                    "longName": "Hours"
+                }
+            },
+            "timeOffEntries": [
+                {
+                    "datePeriod": {
+                        "startDate": "2023-12-05",
+                        "endDate": "2023-12-05"
+                    },
+                    "totalQuantity": {
+                        "quantityValue": 8.0,
+                        "unitTimeCode": {
+                            "codeValue": "H",
+                            "longName": "Hours"
+                        }
+                    },
+                    "timeOffPolicyCode": {
+                        "codeValue": "T",
+                        "longName": "Tijd voor tijd"
+                    }
+                }
+            ],
+            "workerID": {
+                "idValue": "000062"
+            },
+            "workAssignmentID": "1"
+        }
+    ]
+}

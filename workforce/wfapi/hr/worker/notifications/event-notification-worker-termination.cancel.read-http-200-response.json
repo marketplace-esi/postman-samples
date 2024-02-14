@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"eventID": "a432dead-6754-4629-ae7c-a60ce7c73287",
+			"eventNameCode": {
+				"codeValue": "workerTermination.cancel"
+			},
+			"recordDateTime": "2023-07-10T00:00:00+02:00",
+			"creationDateTime": "2023-07-10T11:00:02+02:00",
+			"effectiveDateTime": "2016-12-16T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"workerID": {
+						"idValue": "010338"
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "010338"
+						}
+					}
+				}
+			}
+		}
+	]
+}

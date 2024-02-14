@@ -1,0 +1,211 @@
+{
+    "meta": {
+        "/serviceCategoryCode/codeValue": "payroll",
+        "/eventNameCode/codeValue": "payDataInput.add/meta",
+        "queryCriteria": [
+            {
+                "itemID": "1",
+                "queryOptionCode": "$filter",
+                "obligationCode": "optional",
+                "queryOptionTypeCode": "OData",
+                "queryValueCodeList": {
+                    "listItems": [
+                        {
+                            "itemID": "93348",
+                            "valueDescription": "Company 93348"
+                        }
+                    ]
+                }
+            }
+        ],
+        "/data/eventContext": {
+            "/payrollRegionCode/codeValue": {
+                "optional": false,
+                "dataType": "string",
+                "default": "NL",
+                "equals": [
+                    "NL"
+                ]
+            },
+            "/payrollGroupCode": {
+                "codeList": {
+                    "listItems": [
+                        {
+                            "itemID": "93348",
+                            "valueDescription": "Company 93348"
+                        }
+                    ]
+                }
+            },
+            "/payrollGroupCode/codeValue": {
+                "optional": false,
+                "dataType": "string",
+                "minLength": 1,
+                "maxLength": 9,
+                "equals": [
+                    "NL"
+                ],
+                "pattern": "^[0-9]*$"
+            }
+        },
+        "/data/transforms": [
+            {
+                "/payDataInput": {
+                    "optional": false,
+                    "dataType": "object"
+                },
+                "/payDataInput/payeePayInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/associateOID": {
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 16,
+                    "maxLength": 16,
+                    "pattern": "^[a-zA-Z0-9]*$"
+                },
+                "/payDataInput/payeePayInputs/payeeID": {
+                    "optional": false,
+                    "dataType": "object"
+                },
+                "/payDataInput/payeePayInputs/payeeID/idValue": {
+                    "pattern": "^[0-9]*$",
+                    "optional": false,
+                    "dataType": "string",
+                    "minLength": 1,
+                    "maxLength": 7
+                },
+                "/payDataInput/payeePayInputs/payPeriodStartDate": {
+                    "optional": false,
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payPeriodEndDate": {
+                    "optional": false,
+                    "dataType": "string[date]"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs": {
+                    "dataType": "array",
+                    "minItems": 1,
+                    "maxItems": 1000
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs": {
+                    "dataType": "array"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
+                    "codeList": {
+                        "listItems": [
+                            {
+                                "itemID": "V606",
+                                "valueDescription": "93348 - Wachtdagen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V699",
+                                "valueDescription": "93348 - Zwangerschapsuren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V608",
+                                "valueDescription": "93348 - Ziekdagen uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V601",
+                                "valueDescription": "93348 - Bijdrage auto onbelast (eenmalig)"
+                            },
+                            {
+                                "itemID": "V162",
+                                "valueDescription": "93348 - Overuren 125%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V161",
+                                "valueDescription": "93348 - meeruren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V607",
+                                "valueDescription": "93348 - Ziekdagen 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V689",
+                                "valueDescription": "93348 - Ziekuren 100%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V697",
+                                "valueDescription": "93348 - Uren zorgverlof  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V688",
+                                "valueDescription": "93348 - Wachturen  (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA1G",
+                                "valueDescription": "93348 - Afkoopsom BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "VA1H",
+                                "valueDescription": "93348 - Transitievergoeding BT en SV (eenmalig)"
+                            },
+                            {
+                                "itemID": "V160",
+                                "valueDescription": "93348 - Gewerkte uren  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V163",
+                                "valueDescription": "93348 - Overuren 150%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V164",
+                                "valueDescription": "93348 - Overuren 175%  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V698",
+                                "valueDescription": "93348 - Ziekuren uvi  (eenmalig)"
+                            },
+                            {
+                                "itemID": "V999",
+                                "valueDescription": "93348 - V999"
+                            }
+                        ]
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
+                    "optional": false,
+                    "dataType": "string",
+                    "maxLength": 4,
+                    "pattern": "^[A-Z0-9.-]*$"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate": {
+                    "optional": false,
+                    "dataType": "string"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                    "optional": false,
+                    "dataType": "number",
+                    "minValue": -9999999.99,
+                    "maxValue": 9999999.99,
+                    "pattern": "^[0-9.-]*$"
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earnedPayPeriodStartDate": {
+                    "optional": true,
+                    "dataType": "string[date]"
+                }
+            }
+        ]
+    },
+    "confirmMessage": {
+        "createDateTime": "2023-09-26T11:44:56.5015353+05:30",
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "GET"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        },
+        "processMessages": []
+    }
+}

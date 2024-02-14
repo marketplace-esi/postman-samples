@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"eventID": "af46f4f6-d1fc-4993-894e-b86a77c15696",
+			"eventNameCode": {
+				"codeValue": "worker.workAssignment.terminationDate.change"
+			},
+			"recordDateTime": "2023-07-07T00:00:00+02:00",
+			"creationDateTime": "2023-07-07T15:08:08+02:00",
+			"effectiveDateTime": "2014-09-02T00:00:00+02:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "010416"
+						},
+						"workAssignment": {
+							"itemID": "1"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerID": {
+							"idValue": "010416"
+						},
+						"workAssignment": {
+							"terminationDate": "2023-04-03"
+						}
+					}
+				}
+			}
+		}
+	]
+}

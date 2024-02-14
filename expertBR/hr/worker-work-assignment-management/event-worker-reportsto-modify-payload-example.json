@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.reports-to.modify"
+			},
+			"eventTitle": "Worker reportsTo Modify",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"associateOID": "15X0001235869",
+					"workerID": {
+							"idValue": "001-0001234567"
+					}
+				},
+				"output": {
+					"worker": {
+						"workAssignment": {
+							"reportsTo": [
+								{
+									"associateOID": "15X0001235999",
+									"workerID": {
+										"idValue": "001-0009876543"
+									}
+								}
+							]
+						}
+					}
+				}				 
+			}
+		}
+	]
+}

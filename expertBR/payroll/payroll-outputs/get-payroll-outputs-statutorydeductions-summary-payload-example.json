@@ -1,0 +1,93 @@
+{
+    "payrollOutputs": [
+        {
+            "payrollProcessingJobID": "Mensal-2023",
+            "associatePayments": [
+                {
+                    "associateOID": "15-Jan-121212-11111",
+                    "payments": [
+                        {
+                            "paymentDate": "02022023",
+							"paymentSummary": {
+                                "statutoryDeductions": {
+                                    "payrollAccumulations": {
+                                        "accumulatedAmount": {
+                                            "amountValue": 2000.00,
+											"currencyCode": "BRL"
+                                        }
+                                    },
+                                    "statutoryDeductionSections": [
+                                        {
+                                            "statutoryDeductionItems": [
+                                                {
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1000,
+														"currencyCode": "BRL"
+                                                    },
+                                                    "itemID": {
+                                                        "idValue": "15-001-0011-IRRF na fonte"
+                                                    }
+												},
+												{
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1000,
+														"currencyCode": "BRL"
+                                                    },
+													"itemID":{
+                                                        "idValue": "15-001-0010-5500-IR RETIDO"
+													}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "associateOID": "15-Fev-121212-22222",
+                    "payments": [
+                        {
+                            "paymentDate": "02032023",
+							"paymentSummary": {
+                                "statutoryDeductions": {
+                                    "payrollAccumulations": {
+                                        "accumulatedAmount": {
+                                            "amountValue": 1500.00,
+											"currencyCode": "BRL"
+                                        }
+                                    },
+                                    "statutoryDeductionSections": [
+                                        {
+                                            "statutoryDeductionItems": [
+                                                {
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 1000,
+														"currencyCode": "BRL"
+                                                    },
+                                                    "itemID": {
+                                                        "idValue": "15-001-5560-INSS"
+                                                    }
+												},
+												{
+                                                    "associateDeductionAmount": {
+                                                        "amountValue": 500,
+														"currencyCode": "BRL"
+                                                    },
+													"itemID":{
+                                                        "idValue": "15-001-5500-IR RETIDO"
+													}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

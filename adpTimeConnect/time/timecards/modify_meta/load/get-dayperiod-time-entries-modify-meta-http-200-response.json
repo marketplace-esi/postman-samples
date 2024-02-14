@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "/data/eventContext": {
+      "/associateOID": {
+        "default": "AO0N1KB0218MBI8",
+        "optional": false
+      }
+    },
+    "/data/transforms": [
+      {
+        "/timeEntries/dayPeriodCode": {
+          "optional": false,
+          "dependencies": {
+            "codeList": {
+              "oneOf": [
+                {
+                  "value": {
+                    "listItems": [
+                      {
+                        "shortName": "Journée",
+                        "codeValue": "fullday"
+                      },
+                      {
+                        "shortName": "Matin",
+                        "codeValue": "morning"
+                      },
+                      {
+                        "shortName": "Après-midi",
+                        "codeValue": "afternoon"
+                      },
+                      {
+                        "shortName": "Non présent",
+                        "codeValue": "nopresent"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "/timeEntries/entryCode": {
+          "codeList": {
+            "listItems": [
+              {
+                "foreignKey": "dayPeriodEntry",
+                "defaultIndicator": true,
+                "shortName": "Présence intranet",
+                "codeValue": "W_PRES"
+              }
+            ]
+          },
+          "optional": false
+        },
+        "/timeEntries/entryCode/codeValue": {
+          "optional": false
+        }
+      }
+    ],
+    "/eventNameCode/codeValue": "timeEntries.modify",
+    "/serviceCategoryCode/codeValue": "time"
+  }
+}

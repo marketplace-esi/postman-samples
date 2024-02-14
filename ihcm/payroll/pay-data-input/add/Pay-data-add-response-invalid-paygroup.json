@@ -1,0 +1,42 @@
+{
+    "events": [],
+    "confirmMessage": {
+        "createDateTime": "2023-07-03T10:03:52.3236339+02:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid payrollGroupCode '99999', not found"
+                },
+                "developerMessage": {
+                    "messageTxt": "events[0]::invalid"
+                }
+            },
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "Invalid payrollGroupCode 'A9999', it should be an integer"
+                },
+                "developerMessage": {
+                    "messageTxt": "events[1]::invalid"
+                }
+            }
+        ]
+    }
+}

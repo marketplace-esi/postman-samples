@@ -1,0 +1,36 @@
+{
+	"events": [
+		{
+			"eventID": "144f0611-7da7-49d8-946d-d502456ca418",
+			"eventNameCode": {
+				"codeValue": "worker.birthPlace.change"
+			},
+			"recordDateTime": "2023-07-06T00:00:00+02:00",
+			"creationDateTime": "2023-07-06T15:11:00+02:00",
+			"effectiveDateTime": "2023-02-10T00:00:00+01:00",
+			"originator": {
+				"associateOID": "010018",
+				"formattedName": "BCAA Carter"
+			},
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000103"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"person": {
+							"birthPlace": {
+								"cityName": "Bad Schüschein",
+								"countryCode": "DE"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

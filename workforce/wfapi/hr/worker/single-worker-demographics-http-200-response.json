@@ -1,0 +1,268 @@
+{
+    "workers": [
+        {
+            "associateOID": "ADPNL00000062",
+            "workerID": {
+                "idValue": "000062"
+            },
+            "person": {
+                "legalName": {
+                    "givenName": "Steven",
+                    "familyName1": "Harteveld",
+                    "formattedName": "prof. drs. S Harteveld-Robben arts",
+                    "preferredSalutations": [
+                        {
+                            "salutationCode": {
+                                "codeValue": "1M",
+                                "longName": "De heer"
+                            }
+                        }
+                    ],
+                    "nickName": "Steven",
+                    "initials": "S"
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "nameCode": {
+                                "shortName": "home phone"
+                            },
+                            "dialNumber": "010-5612889",
+                            "itemID": "1"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "nameCode": {
+                                "shortName": "private mobile"
+                            },
+                            "dialNumber": "0622466007",
+                            "itemID": "1"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "shortName": "personal"
+                            },
+                            "emailUri": "harteveld@yahoo.com",
+                            "itemID": "1"
+                        }
+                    ]
+                },
+                "genderCode": {
+                    "codeValue": "MALE",
+                    "longName": "Male"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "M",
+                    "shortName": "Married"
+                },
+                "preferredName": {
+                    "titlePrefixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": "prof. drs."
+                            }
+                        }
+                    ],
+                    "titleAffixCodes": [
+                        {
+                            "affixCode": {
+                                "longName": "arts"
+                            }
+                        }
+                    ]
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "0001",
+                        "longName": "Nederlandse"
+                    }
+                ]
+            },
+            "workerDates": {
+                "originalHireDate": "1988-09-01",
+                "adjustedServiceDate": "1988-09-01"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "shortName": "Active"
+                }
+            },
+            "businessCommunication": {
+                "landlines": [
+                    {
+                        "nameCode": {
+                            "shortName": "business landline"
+                        },
+                        "formattedNumber": "0206124533",
+                        "itemID": "1"
+                    }
+                ],
+                "mobiles": [
+                    {
+                        "nameCode": {
+                            "shortName": "business mobile"
+                        },
+                        "formattedNumber": "0652123987",
+                        "itemID": "1"
+                    }
+                ],
+                "emails": [
+                    {
+                        "nameCode": {
+                            "shortName": "business"
+                        },
+                        "emailUri": "000062@adp.com",
+                        "itemID": "1"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "actualStartDate": "1988-09-01",
+                    "workerTypeCode": {
+                        "codeValue": "01",
+                        "longName": "Vast contract"
+                    },
+                    "jobCode": {
+                        "codeValue": "000102",
+                        "longName": "Accountmanager"
+                    },
+                    "jobTitle": "Accountmanager (000025)",
+                    "wageLawCoverage": {
+                        "wageLawNameCode": {
+                            "codeValue": "64",
+                            "longName": "ADP CAO 64"
+                        }
+                    },
+                    "positionID": "000025-000102",
+                    "positionTitle": "Accountmanager (000025)",
+                    "standardHours": {
+                        "hoursQuantity": 40.0,
+                        "unitCode": {
+                            "codeValue": "W",
+                            "longName": "week"
+                        }
+                    },
+                    "fullTimeEquivalenceRatio": 100.0,
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "000025",
+                                "longName": "Klantenservice"
+                            },
+                            "itemID": "1"
+                        }
+                    ],
+                    "reportsTo": [
+                        {
+                            "associateOID": "000019",
+                            "workerID": {
+                                "idValue": "000019"
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "P van Consten"
+                            },
+                            "reportsToRelationshipCode": {
+                                "longName": "HOOFD"
+                            },
+                            "itemID": "000019-HOOFD"
+                        },
+                        {
+                            "associateOID": "000025",
+                            "workerID": {
+                                "idValue": "000025"
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "MCJ Jeuneville"
+                            },
+                            "reportsToRelationshipCode": {
+                                "longName": "PNO"
+                            },
+                            "itemID": "000025-PNO"
+                        }
+                    ],
+                    "payrollGroupCode": "2572",
+                    "payrollFileNumber": "621",
+                    "customFieldGroup": {
+                        "stringFields": [
+                            {
+                                "nameCode": {
+                                    "codeValue": "costCenter"
+                                },
+                                "stringValue": "01225"
+                            },
+                            {
+                                "nameCode": {
+                                    "codeValue": "costCenterName"
+                                },
+                                "stringValue": "Kostenplaats 01225"
+                            },
+                            {
+                                "nameCode": {
+                                    "codeValue": "contractHours"
+                                },
+                                "stringValue": "40.0"
+                            },
+                            {
+                                "nameCode": {
+                                    "codeValue": "workingHoursMinus"
+                                },
+                                "stringValue": "PT4H56M"
+                            }
+                        ]
+                    },
+                    "itemID": "1"
+                }
+            ],
+            "customFieldGroup": {
+                "stringFields": [
+                    {
+                        "nameCode": {
+                            "codeValue": "partnerFamilyName1"
+                        },
+                        "stringValue": "Robben"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "partnerInitials"
+                        },
+                        "stringValue": "JLKJ"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "naamSamenstelling"
+                        },
+                        "stringValue": "tiva-wp"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "samengesteldeNaam"
+                        },
+                        "stringValue": "prof. drs. S Harteveld-Robben arts"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "verwijzendWerknemernummer"
+                        },
+                        "stringValue": "P062"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "leefvormCode"
+                        },
+                        "stringValue": "2"
+                    },
+                    {
+                        "nameCode": {
+                            "codeValue": "leefvorm"
+                        },
+                        "stringValue": "Gemeenschappelijk wonen"
+                    }
+                ]
+            }
+        }
+    ]
+}

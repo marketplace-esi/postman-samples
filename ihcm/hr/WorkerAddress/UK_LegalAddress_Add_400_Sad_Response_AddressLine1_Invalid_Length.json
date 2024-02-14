@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "955a1d1f-7cad-46a0-9fa4-6be3531e6676",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-11-02T19:04:09.5007599\u002B00:00",
+    "requestReceiptDateTime": "2023-11-02T19:04:09.5007599\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "48575a77-6332-449d-a9b0-3afd00a756a0",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "66fd0858-ac05-48d0-8057-ea4e01194a3c",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid Length Specified for ADDRESSDETAILS.UKHR_ADDRESS1. Please provide a String with Valid Length between Minimum 1 and Maximum 40"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "7dd46c95-d782-469b-b9ef-72ca3554d257",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-11-02T19:27:49.8964617\u002B00:00",
+    "requestReceiptDateTime": "2023-11-02T19:27:49.8964618\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "88cc4e2e-8f50-45ca-a93e-5d822eb181c0",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "905510f7-d99c-405a-9832-773b54ef3eef",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid Pick List Value specified for ADDRESSDETAILS.NLHR_COUNTRY. Please check !!!"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

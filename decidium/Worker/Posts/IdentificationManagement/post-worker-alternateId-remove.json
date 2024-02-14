@@ -1,0 +1,14 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext" : {
+                    "worker" : { "associateOID" : "pmassina-7130mp4"},
+                    "alternateID": {
+                        "idValue": "reference2"
+                    }
+                }
+            }
+        }
+    ]
+}

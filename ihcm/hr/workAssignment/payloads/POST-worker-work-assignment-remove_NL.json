@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.terminate"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workAssignment": {
+                            "itemID": "22d919e5-8755-4632-bf24-5ede0db58f9e"
+                        }
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    }
+                }
+            }
+        }
+    ]
+}

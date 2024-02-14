@@ -1,0 +1,97 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "payDataInput": {
+                        "itemID": ""
+                    }
+                },
+                "transform": {
+                    "payDataInput": {
+                        "payeePayInputs": [
+                            {
+                                "associateOID": "AOID001",
+                                "payeeID": {
+                                    "idValue": "EMP001"
+                                },
+                                "payPeriodStartDate": "2021-03-01",
+                                "payPeriodEndDate": "2021-03-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "OVT2_0"
+                                                        },
+                                                        "numberOfHours": 10.0,
+                                                        "rate": {
+                                                            "rateValue": 20.0
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2021-03-15"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "BASIC"
+                                                        },
+                                                        "numberOfHours": 10.0,
+                                                        "earnedPayPeriodStartDate": "2021-03-16"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "BASIC"
+                                                        },
+                                                        "numberOfHours": 5.0,
+                                                        "earnedPayPeriodStartDate": "2021-03-17"
+                                                    },
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "BONUS"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 35.0
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2021-03-25"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "associateOID": "AOID002",
+                                "payeeID": {
+                                    "idValue": "EMP002"
+                                },
+                                "payPeriodStartDate": "2021-03-01",
+                                "payPeriodEndDate": "2021-03-31",
+                                "payrollProfilePayInputs": [
+                                    {
+                                        "payInputs": [
+                                            {
+                                                "earningInputs": [
+                                                    {
+                                                        "earningCode": {
+                                                            "codeValue": "BONUS"
+                                                        },
+                                                        "rate": {
+                                                            "rateValue": 150.0
+                                                        },
+                                                        "earnedPayPeriodStartDate": "2021-03-13"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
