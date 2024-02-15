@@ -1,0 +1,218 @@
+{
+    "jobApplicants": [
+        {
+            "person": {
+                "personName": {
+                    "givenName": "JOAO",
+                    "middleName": "SILVA",
+                    "familyName1": "SOUZA",
+                    "formattedName": "JOAO SILVA SOUZA"
+                },
+                "communication": {
+                    "landlines": [
+                        {
+                            "areaDialing": "51",
+                            "dialNumber": "30000000",
+                            "formattedNumber": "51 30000000",
+                            "itemID": "landlines1"
+                        }
+                    ],
+                    "mobiles": [
+                        {
+                            "areaDialing": "51",
+                            "dialNumber": "90000000",
+                            "formattedNumber": "51 90000000",
+                            "itemID": "mobile1"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "emailUri": "TEST@ADP.COM",
+                            "itemID": "email1"
+                        }
+                    ],
+                    "faxes": [
+                        {
+                            "areaDialing": "51",
+                            "dialNumber": "33000000",
+                            "formattedNumber": "51 33000000",
+                            "itemID": "fax1"
+                        }
+                    ]
+                },
+                "legalAddress": {
+                    "lineOne": "Av. Soledade 550 - 5 andar",
+                    "lineTwo": "Tres Figueiras, Porto Alegre, RS",
+                    "lineThree": "90000000",
+                    "cityName": "Porto Alegre",
+                    "countrySubdivisionLevel1": {
+                        "codeValue": "RS",
+                        "shortName": "Rio Grande do Sul",
+                        "subdivisionType": "STATE"
+                    },
+                    "countryCode": "BR",
+                    "postalCode": "90000000",
+                    "buildingNumber": "500",
+                    "blockName": "Tres Figueiras",
+                    "streetName": "Soledade",
+                    "streetTypeCode": {
+                        "shortName": "Avenida"
+                    },
+                    "unit": "5 andar"
+                },
+                "preferredName": {
+                     "givenName": "JOAO",
+                     "middleName": "SILVA",
+                     "familyName1":"SOUZA",
+                     "formattedName": "JOAO SILVA SOUZA"
+                },
+                "governmentIDs": [
+                    {
+                        "idValue": "11111111111",
+                        "nameCode": {
+                            "shortName": "CPF"
+                        }
+                    },
+                    {
+                        "idValue": "123456789",
+                        "nameCode": {
+                            "codeValue": "123 - RS",
+                            "shortName": "CTPS"
+                        },
+                        "statusCode": {
+                            "effectiveDate": "2000-01-01"
+                        }
+                    },
+                    {
+                        "idValue": "123456879",
+                        "nameCode": {
+                            "shortName": "PIS"
+                        },
+                        "statusCode": {
+                            "effectiveDate": "2000-01-01"
+                        }
+                    },
+                    {
+                        "idValue": "11111111111",
+                        "nameCode": {
+                            "shortName": "Certificado de Reservista"
+                        }
+                    },
+                    {
+                        "idValue": "11111111111",
+                        "nameCode": {
+                            "codeValue": "1050 - 704 - 4314902",
+                            "shortName": "Titulo de Eleitor"
+                        }
+                    },
+                    {
+                        "idValue": "11111111111",
+                        "nameCode": {
+                            "codeValue": "A - DETRAN - RS",
+                            "shortName": "CNH"
+                        },
+                        "statusCode": {
+                            "effectiveDate": "2000-01-01"
+                        },
+                        "expirationDate": "3000-01-01"
+                    },
+                    {
+                        "idValue": "11111111111",
+                        "nameCode": {
+                            "codeValue": "SJS",
+                            "shortName": "RIC"
+                        },
+                        "statusCode": {
+                            "effectiveDate": "2000-01-01"
+                        }
+                    },
+                    {
+                        "idValue": "11111111111",
+                        "nameCode": {
+                            "codeValue": "SJS",
+                            "shortName": "OC"
+                        },
+                        "statusCode": {
+                            "effectiveDate": "2000-01-01"
+                        },
+                        "expirationDate": "3000-01-01"
+                    },
+                    {
+                        "idValue": "esocial12468795",
+                        "nameCode": {
+                            "shortName": "Matricula eSocial"
+                        }
+                    }
+                ],
+                "birthPlace": {
+                    "cityName": "Porto Alegre",
+                    "countrySubdivisionLevel1":{
+                        "codeValue": "RS",
+                        "shortName": "Rio Grande do Sul",
+                        "subdivisionType":  "STATE"
+                    },
+                    "countryCode": "BR"
+                },
+                "studentIndicator": false,
+                "citizenshipCountryCodes":[
+                    {
+                        "codeValue": "BR",
+                        "shortName": "Brasil"
+                    }
+                ],
+                "highestEducationLevelCode":{
+                    "codeValue": "1",
+                    "shortName": "Ensino Medio Completo"
+                },
+                "birthDate": "1990-01-01",
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Masculino"
+                },
+                "raceCode":{
+                    "codeValue": "2",
+                    "shortName": "Preta"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "CAS",
+                    "shortName": "Casado"
+                },
+                "disabledIndicator": true,
+                "disabilityTypeCodes": [
+                    {
+                        "shortName": "AUDITIVA",
+                        "longName": "descricao da deficiencia"
+                    },
+                    {
+                        "shortName": "MOTORA",
+                        "longName": "descricao da deficiencia"
+                    }
+                ],
+                "customFieldGroup": {
+                    "stringFields":[
+                            {
+                                "nameCode":{
+                                    "shortName": "Mothers name"
+                                },
+                                "stringValue": "Maria"
+                            },
+                            {
+                                "nameCode":{
+                                    "shortName": "Fathers name"
+                                },
+                                "stringValue": "Everton"
+                            }
+                    ]
+                }
+            },
+            "associateOID": "15X012345678",
+            "internalApplicantIndicator": false,
+            "applicantID": "9_1",
+            "jobApplicationReferences": [
+                {
+                    "applicationID": "8"
+                }
+            ]
+        }
+    ]
+}
