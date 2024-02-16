@@ -1,0 +1,82 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.work-assignment.additional-remuneration.change"
+			},
+			"eventTitle": "Worker Additional Remuneration Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2024-01-01T00:00:00Z",
+			"expirationDateTime": "2024-12-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "15X0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						},
+						"workAssignment": {
+							"additionalRemuneration": {
+								"itemID": "LF_0011_2023-12-01"
+							}
+						}
+					}
+				},
+				"transform": {
+					"workAssignment":{ 
+					   "additionalRemuneration":{
+						   "typeCode":{
+							   "codeValue": "AC"
+						   },
+						   "nameCode":{
+							   "codeValue": "0011",
+							   "shortName": "Comissão sobre vendas realizadas"
+						   },
+						   "rate": {
+							 "amountValue": 1000.00,
+							 "unitCode":{
+							   "codeValue": "50_50"
+							 },
+							 "baseUnitCode":{
+								"codeValue": "M"
+							 },
+							 "baseMultiplierValue": 1.00
+						   },
+						   "associatedRateQualifiers":[
+							{
+								"qualifierObjectTypeCode": {
+									"shortName": "Job"
+								},
+								"qualifierObjectCode": {
+									"codeValue": "1-1"
+								}									
+							},
+							{
+								"qualifierObjectTypeCode": {
+									"shortName": "Org Unit"
+								},
+								"qualifierObjectCode": {
+									"codeValue": "D_1_2_3"
+								}									
+							},
+							{
+								"qualifierObjectTypeCode": {
+									"shortName": "Pay Scale"
+								},
+								"qualifierObjectCode": {
+									"codeValue": "1-1-1"
+								}									
+							}
+						   ]
+						}
+					}
+				}				 
+			}
+		}
+	]
+}

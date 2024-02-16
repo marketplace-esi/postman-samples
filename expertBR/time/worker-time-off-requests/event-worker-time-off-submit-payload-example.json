@@ -1,0 +1,82 @@
+{
+	"events": [
+        {
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+                "codeValue":"time-off-request.submit"
+            },
+			"eventTitle": "Time Off Requests Submit",
+			"recordDateTime": "2023-04-05T00:00:00Z",
+			"creationDateTime": "2023-04-05T00:00:00Z",
+			"effectiveDateTime": "2023-10-05T00:00:00Z",
+            "data":{
+				"eventContext": {
+					"associateOID": "15X423423423",
+					"workerID": {
+						"idValue": "001-00013234"
+					}
+				},
+                "output": {
+				    "timeOffRequest": {
+						"timeOffRequestID": "FE_2023-10-05",
+						"totalQuantity": {
+                            "quantityValue": 25,
+                            "unitCode": {
+                                "name": "Days"
+    		                }
+                        },
+						"paymentOnScheduleIndicator": true,
+                        "additionalPaymentIndicator": true,
+                        "additionalPaymentPercentage": 50,
+                        "timeOffEntries": [
+							{
+								"entryTypeCode": {
+									"codeValue": "FE",
+									"shortName": "Férias",
+									"longName":  "1 - Birth Mother (120 days)"
+								},
+								"datePeriod": {
+									"startDate": "2023-10-05",
+									"endDate": "2023-10-20"
+								},
+								"totalQuantity": {
+									"quantity": 15
+								},
+								"timeOffPolicyCode": {
+									"codeValue": "1",
+									"shortName": "Typical Work Related Accident"
+								}
+							},
+							{
+								"entryTypeCode": {
+									"codeValue": "FE",
+									"shortName": "Abono de Férias",
+									"longName":  "1 - Birth Mother (120 days)"
+								},
+								"datePeriod": {
+									"startDate": "2023-10-05",
+									"endDate": "2023-10-20"
+								},
+								"totalQuantity": {
+									"quantity": 15
+								},
+								"timeOffPolicyCode": {
+									"codeValue": "1",
+									"shortName": "Typical Work Related Accident"
+								}
+							}
+						],
+						"comments": [
+							{
+								"textValue": "comentarios"
+							}
+						]
+                    }
+                }
+            }
+        }
+    ]
+}
