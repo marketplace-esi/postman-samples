@@ -23,14 +23,8 @@
                 "transform": {
 				    "timeOffRequest": {
 						"totalQuantity": {
-                            "quantityValue": 25,
-                            "unitCode": {
-                                "name": "Days"
-    		                }
+                            "quantityValue": 25
                         },
-						"paymentOnScheduleIndicator": true,
-                        "additionalPaymentIndicator": true,
-                        "additionalPaymentPercentage": 50,
                         "timeOffEntries": [
 							{
 								"entryTypeCode": {
@@ -42,7 +36,7 @@
 									"endDate": "2023-10-20"
 								},
 								"totalQuantity": {
-									"quantity": 15
+									"quantityValue": 15
 								},
 								"totalQuantityToMonetize": {
 									"quantityValue": "50"
@@ -58,7 +52,7 @@
 									"endDate": "2023-10-20"
 								},
 								"totalQuantity": {
-									"quantity": 10
+									"quantityValue": 10
 								}
 								"totalQuantityToMonetize": {
 									"quantityValue": "50"
