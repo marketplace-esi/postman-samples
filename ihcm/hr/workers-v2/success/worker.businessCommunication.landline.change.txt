@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.landline.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "48c1c7f3-ae56-4571-b20d-15a752731ba9"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-04-29T16:02:44.597",
+                    "worker": {
+                        
+                         "businessCommunication": {
+                             "landlines": {
+                                 "formattedNumber": "123456789",
+                                 "extension": "75894"
+                             }
+                         }
+                       
+                    }
+                }
+            }
+        }
+    ]
+}

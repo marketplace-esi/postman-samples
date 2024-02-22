@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.gender.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "b0a9494e-b383-47c5-ba59-42c3380c8b5f"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "effectiveDateTime": "2022-07-01T00:00:00Z",
+                    "worker": {
+                        "person": {
+                            "genderCode": {
+                                "codeValue": "Female",
+                                "shortName": "Female"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

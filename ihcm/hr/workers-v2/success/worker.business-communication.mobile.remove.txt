@@ -1,0 +1,19 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.businessCommunication.mobile.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "b0a9494e-b383-47c5-ba59-42c3380c8b5f"
+                    }
+                }
+            }
+        }
+    ]
+}
