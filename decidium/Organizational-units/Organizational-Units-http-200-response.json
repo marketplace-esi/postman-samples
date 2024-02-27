@@ -1,0 +1,494 @@
+{
+    "organizationalUnits": [
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "442422",
+                "name": "MISE EN OEUVRE"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "441411",
+                "name": "ROBOTIQUE"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "441412",
+                "name": "MACHINES OUTILS"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "111111",
+                "name": "MANAGEMENT"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "442421",
+                "name": "METHODE"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "112122",
+                "name": "QUALITE"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "111112",
+                "name": "COMMUNICATION"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "112121",
+                "name": "OFFRE"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "332322",
+                "name": "VTE SERVICES"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "221211",
+                "name": "COMPTABILITE"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "331311",
+                "name": "MTG PRODUITS"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "221212",
+                "name": "RESSOURCES HUMAINES"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "332321",
+                "name": "VTE PRODUITS"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "222221",
+                "name": "TRESORERIE ACHATS"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "222222",
+                "name": "CONTROLE DE GESTION"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "443431",
+                "name": "LEASING"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "141412",
+                "name": "MACHINES OUTILS"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "9999999",
+                "name": "Affectation testia"
+            },
+            "typeCode": {
+                "code": "LTR"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "1",
+                "name": "GENERALE"
+            },
+            "typeCode": {
+                "code": "LTR01"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "2",
+                "name": "ADMIN-FINANCIERE"
+            },
+            "typeCode": {
+                "code": "LTR01"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "3",
+                "name": "COMMERCIALE"
+            },
+            "typeCode": {
+                "code": "LTR01"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "4",
+                "name": "OPERATIONNELLE"
+            },
+            "typeCode": {
+                "code": "LTR01"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "11",
+                "name": "STRATEGIE"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "32",
+                "name": "VENTES"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "31",
+                "name": "MARKETING"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "12",
+                "name": "RECHERCHE ET DEV"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "21",
+                "name": "ADMINISTRATIVE"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "22",
+                "name": "FINANCIERE"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "41",
+                "name": "INDUSTRIE"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "42",
+                "name": "CONSEIL"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "43",
+                "name": "PDTS FINANCIERS"
+            },
+            "typeCode": {
+                "code": "LTR02"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "111",
+                "name": "MANAGEMENT"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "112",
+                "name": "COMMUNICATION"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "121",
+                "name": "OFFRE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "122",
+                "name": "QUALITE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "211",
+                "name": "COMPTABILITE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "212",
+                "name": "RESSOURCES HUMAINES"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "221",
+                "name": "TRESORERIE ACHATS"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "222",
+                "name": "CONTROLE DE GESTION"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "311",
+                "name": "MTG PRODUITS"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "312",
+                "name": "MTG SERVICES"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "321",
+                "name": "VTE PRODUITS"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "322",
+                "name": "VTE SERVICES"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "411",
+                "name": "ROBOTIQUE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "412",
+                "name": "MACHINES OUTILS"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "421",
+                "name": "METHODE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "422",
+                "name": "MISE EN OEUVRE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "431",
+                "name": "LEASING"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        },
+        {
+            "legalName": "Structure administrative",
+            "nameCode": {
+                "code": "432",
+                "name": "LEASING VEHICULE"
+            },
+            "typeCode": {
+                "code": "LTR03"
+            }
+        }
+    ]
+}

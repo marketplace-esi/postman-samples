@@ -1,0 +1,61 @@
+{
+    "codeLists": [
+        {
+            "itemID": "worker-type",
+            "listItems": [
+                {
+                    "codeValue": "00",
+                    "shortName": "CDI"
+                },
+                {
+                    "codeValue": "01",
+                    "shortName": "CDD"
+                },
+                {
+                    "codeValue": "02",
+                    "shortName": "Mandataire social"
+                },
+                {
+                    "codeValue": "03",
+                    "shortName": "Intermitt /vacataire"
+                },
+                {
+                    "codeValue": "04",
+                    "shortName": "Saisonnier"
+                },
+                {
+                    "codeValue": "05",
+                    "shortName": "VRP CDI"
+                },
+                {
+                    "codeValue": "06",
+                    "shortName": "VRP CDD"
+                },
+                {
+                    "codeValue": "08",
+                    "shortName": "Travail domicile CDI"
+                },
+                {
+                    "codeValue": "09",
+                    "shortName": "Travail domicile CDD"
+                },
+                {
+                    "codeValue": "10",
+                    "shortName": "Apprenti sous contr."
+                },
+                {
+                    "codeValue": "20",
+                    "shortName": "Stagiaire contr.stag"
+                },
+                {
+                    "codeValue": "30",
+                    "shortName": "Contrat d'aide et de soutien"
+                },
+                {
+                    "codeValue": "90",
+                    "shortName": "Autres"
+                }
+            ]
+        }
+    ]
+}

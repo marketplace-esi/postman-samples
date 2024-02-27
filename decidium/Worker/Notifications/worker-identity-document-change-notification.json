@@ -1,32 +1,33 @@
 {
     "events": [
         {
-            "eventID": "1ec99825-7229-4652-9c39-9d7cefcf78bd",
-            "eventNameCode": {
-                "codeValue": "worker.identityDocument.change"
-            },
-            "recordDateTime": "2020-09-22T13:40:45+02:00",
-            "effectiveDateTime": "2020-09-22T13:40:45+02:00",
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "dabt-mp2"
+                        "associateOID": "gmartinelli-7150mp3"
                     }
                 },
                 "output": {
                     "worker": {
                         "person": {
                             "identityDocument": {
-                                "documentID": "1850506321456",
+                                "documentID": "NEW CARD ID",
+                                "issueDate": "2023-12-24",
                                 "typeCode": {
-                                    "codeValue": "SSN",
-                                    "shortName": "Numéro de sécurité sociale"
+                                    "codeValue": "IDCard",
+                                    "shortName": "Carte d'identité"
                                 }
                             }
                         }
                     }
                 }
-            }
+            },
+            "effectiveDateTime": "2024-02-27T15:33:40+01:00",
+            "eventID": "65ddf31f6a1f7a83dea9fcb0",
+            "eventNameCode": {
+                "codeValue": "worker.identityDocument.change"
+            },
+            "recordDateTime": "2024-02-27T15:33:40+01:00"
         }
     ]
 }

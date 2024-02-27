@@ -1,0 +1,44 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "grenard-7150mp3",
+                    "workAssignmentID": "A0000295|2020-10-01"
+                },
+                "transform": {
+                    "effectiveDateTime": "2024-02-15T00:00:00Z",
+                    "workAssignment": {
+                        "assignmentCostCenters": [
+                            {
+                                "costCenterID": "S0016",
+                                "costCenterPercentage": 60.0
+                            },
+                            {
+                                "costCenterID": "S0017",
+                                "costCenterPercentage": 40.0
+                            }
+                        ],
+                        "baseRemuneration": {
+                            "recordingBasisCode": {
+                                "codeValue": "2"
+                            }
+                        },
+                        "customFieldGroup": {
+                            "codeFields": [
+                                {
+                                    "codeValue": "441",
+                                    "itemID": "healthServiceSSAN"
+                                },
+                                {
+                                    "codeValue": "F",
+                                    "itemID": "modeRemSATH"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

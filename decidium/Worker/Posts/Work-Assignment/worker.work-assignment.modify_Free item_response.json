@@ -1,0 +1,375 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-02-27T14:47:35.079675701+01:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "grenard-7150mp3",
+                    "workAssignmentID": "A0000295|2020-10-01",
+                    "workerID": {
+                        "idValue": "00000707"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "grenard-7150mp3",
+                        "workAssignment": {
+                            "actualStartDate": "2020-10-01",
+                            "additionalRemunerations": [
+                                {
+                                    "itemID": "additionalRemuneration",
+                                    "rate": {
+                                        "amountValue": 0
+                                    }
+                                }
+                            ],
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "administrativeAssignment1",
+                                    "nameCode": {
+                                        "codeValue": "2",
+                                        "shortName": "ADMIN-FINANCIERE"
+                                    }
+                                },
+                                {
+                                    "itemID": "administrativeAssignment2",
+                                    "nameCode": {
+                                        "codeValue": "21",
+                                        "shortName": "ADMINISTRATIVE"
+                                    }
+                                },
+                                {
+                                    "itemID": "administrativeAssignment3",
+                                    "nameCode": {
+                                        "codeValue": "212",
+                                        "shortName": "RESSOURCES HUMAINES"
+                                    }
+                                },
+                                {
+                                    "itemID": "hierarchicalAssignment1",
+                                    "nameCode": {
+                                        "codeValue": "A0006",
+                                        "shortName": "Direction des Ventes/Retail"
+                                    }
+                                },
+                                {
+                                    "itemID": "hierarchicalAssignment2",
+                                    "nameCode": {
+                                        "codeValue": "B0060",
+                                        "shortName": "Direction Régionale Sud"
+                                    }
+                                },
+                                {
+                                    "itemID": "hierarchicalAssignment3",
+                                    "nameCode": {
+                                        "codeValue": "C0134",
+                                        "shortName": "Magasin Nice"
+                                    }
+                                },
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "codeValue": "221212",
+                                        "longName": "RESSOURCES HUMAINES",
+                                        "shortName": "RESSOURCES HUMAINES"
+                                    }
+                                },
+                                {
+                                    "itemID": "strucAffectationId",
+                                    "nameCode": {
+                                        "codeValue": "A0006~B0060~C0134",
+                                        "longName": "Direction des Ventes/Retail~Direction Régionale Sud~Magasin Nice",
+                                        "shortName": "Magasin Nice"
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "address": {
+                                        "cityName": "PETIT COURONNE",
+                                        "countryCode": "FR",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "PETIT COURONNE",
+                                            "longName": "PETIT COURONNE",
+                                            "shortName": "PETIT COURONNE",
+                                            "subdivisionType": "INSEE"
+                                        },
+                                        "lineTwo": "210 RUE GEORGES GUYNEMER",
+                                        "postalCode": "76650"
+                                    },
+                                    "nameCode": {
+                                        "codeValue": "04006",
+                                        "longName": "ORION USINE ROUEN",
+                                        "shortName": "ORION USINE ROUEN"
+                                    }
+                                }
+                            ],
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "amountValue": 42500,
+                                    "currencyCode": "EUR",
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    }
+                                }
+                            },
+                            "customFieldGroup": {
+                                "amountFields": [
+                                    {
+                                        "amountValue": 3400,
+                                        "currencyCode": "EUR",
+                                        "itemID": "proratedRateAmount"
+                                    }
+                                ],
+                                "codeFields": [
+                                    {
+                                        "codeValue": "F",
+                                        "itemID": "modeRemSATH"
+                                    },
+                                    {
+                                        "codeValue": "SAL",
+                                        "itemID": "collaborationType",
+                                        "longName": "Salarié"
+                                    },
+                                    {
+                                        "codeValue": "CR",
+                                        "itemID": "recoursReason",
+                                        "longName": "Création de poste (CDI)"
+                                    },
+                                    {
+                                        "codeValue": "00",
+                                        "itemID": "contractType",
+                                        "longName": "CDI"
+                                    },
+                                    {
+                                        "codeValue": "04",
+                                        "itemID": "activity",
+                                        "longName": "ORION USINES"
+                                    },
+                                    {
+                                        "codeValue": "F",
+                                        "itemID": "remunerationType",
+                                        "longName": "Appointement forfaitaire"
+                                    },
+                                    {
+                                        "codeValue": "001",
+                                        "itemID": "workSchedule",
+                                        "longName": "Temps plein"
+                                    },
+                                    {
+                                        "codeValue": "Z",
+                                        "itemID": "TLM",
+                                        "longName": "Pas de GTA"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2022-08-01",
+                                        "itemID": "AYA_PAI2DAT04"
+                                    },
+                                    {
+                                        "dateValue": "2022-08-01",
+                                        "itemID": "LI2_LI2DAT00"
+                                    },
+                                    {
+                                        "dateValue": "2022-08-01",
+                                        "itemID": "LI3_LI3DAT05"
+                                    },
+                                    {
+                                        "dateValue": "2022-10-01",
+                                        "itemID": "PTP_C1LDAT1"
+                                    },
+                                    {
+                                        "dateValue": "2022-09-01",
+                                        "itemID": "SAD_DAT19"
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "indicatorValue": true,
+                                        "itemID": "ATT_CARATT00"
+                                    },
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "CTR_CTRPACOD06"
+                                    },
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "CTR_CTRPACOD07"
+                                    },
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "CTR_CTRPACOD09"
+                                    },
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "CTR_CTRPACOD11"
+                                    },
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "REM_COD40"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "itemID": "coefficient",
+                                        "numberValue": 150
+                                    },
+                                    {
+                                        "itemID": "weeklyHours",
+                                        "numberValue": 35
+                                    },
+                                    {
+                                        "itemID": "DRE_DREMTS22",
+                                        "numberValue": 72
+                                    },
+                                    {
+                                        "itemID": "LIB_GR1NUM1",
+                                        "numberValue": 12
+                                    },
+                                    {
+                                        "itemID": "LI5_LI5NUM00",
+                                        "numberValue": 11
+                                    },
+                                    {
+                                        "itemID": "REM_MTS28",
+                                        "numberValue": 60
+                                    },
+                                    {
+                                        "itemID": "monthlyHours",
+                                        "numberValue": 151.67
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "itemID": "AY1_AYACOD20",
+                                        "stringValue": "AYACOD20"
+                                    },
+                                    {
+                                        "itemID": "COC_G2COD00",
+                                        "stringValue": "G2COD00"
+                                    },
+                                    {
+                                        "itemID": "CTC_ALTLALPHA1",
+                                        "stringValue": "ALTLALPHA1"
+                                    },
+                                    {
+                                        "itemID": "DRE_DRECODE12",
+                                        "stringValue": "DRECODE12"
+                                    },
+                                    {
+                                        "itemID": "LI1_LI1COD16",
+                                        "stringValue": "LI1COD16"
+                                    },
+                                    {
+                                        "itemID": "LIB_GR1ALPHA1",
+                                        "stringValue": "GR1ALPHA1"
+                                    },
+                                    {
+                                        "itemID": "LI5_LI5LIB25",
+                                        "stringValue": "LI5LIB25"
+                                    },
+                                    {
+                                        "itemID": "PTP_C1LALPHA1",
+                                        "stringValue": "C1LALPHA1"
+                                    },
+                                    {
+                                        "itemID": "PTP_EMPCOD08",
+                                        "stringValue": "X"
+                                    },
+                                    {
+                                        "itemID": "PTP_EMPCOD09",
+                                        "stringValue": "X"
+                                    },
+                                    {
+                                        "itemID": "REM_COD00",
+                                        "stringValue": "O"
+                                    },
+                                    {
+                                        "itemID": "SAC_ENTLALPHA1",
+                                        "stringValue": "ENTLALPHA1"
+                                    },
+                                    {
+                                        "itemID": "SAD_LIB41",
+                                        "stringValue": "151672"
+                                    }
+                                ]
+                            },
+                            "expectedStartDate": "2020-10-01",
+                            "fullTimeEquivalenceRatio": 1,
+                            "hireDate": "2020-10-01",
+                            "itemID": "A0000295|2020-10-01",
+                            "jobCode": {
+                                "codeValue": "190",
+                                "longName": "CONSULTANT",
+                                "shortName": "CONSULTANT"
+                            },
+                            "jobFunctionCode": {
+                                "codeValue": "13",
+                                "longName": "CADRE ART 4",
+                                "shortName": "CADRE ART 4"
+                            },
+                            "jobTitle": "CONSULTANT",
+                            "legalEntityID": "04",
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "IC5",
+                                        "longName": "INGENIEUR - CADRE POSITION 2-3",
+                                        "shortName": "INGENIEUR - CADRE POSITION 2-3"
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
+                            "payrollFileNumber": "00000707",
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "longName": "S",
+                                "shortName": "S"
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "jescal-7150mp3",
+                                    "reportsToWorkerName": {
+                                        "familyName1": "ESCAL",
+                                        "givenName": "JEAN"
+                                    }
+                                }
+                            ],
+                            "seniorityDate": "2020-10-01",
+                            "workArrangementCode": {
+                                "codeValue": "403",
+                                "longName": "Cadre Forfait jours",
+                                "shortName": "Cadre Forfait jours"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "SY",
+                                        "longName": "SYNTEC          3018",
+                                        "shortName": "SYNTEC          3018"
+                                    }
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "00",
+                                "longName": "CDI",
+                                "shortName": "CDI"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

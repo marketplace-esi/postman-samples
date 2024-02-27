@@ -1,34 +1,32 @@
 {
     "events": [
         {
-            "eventID": "03887d90-d655-48b7-b008-85fa85d9f7b3",
-            "eventNameCode": {
-                "codeValue": "worker.identityDocument.add"
-            },
-            "recordDateTime": "2020-09-22T14:37:57+02:00",
-            "effectiveDateTime": "2020-09-22T14:37:57+02:00",
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "dabt-mp2"
+                        "associateOID": "gmartinelli-7150mp3"
                     }
                 },
                 "output": {
                     "worker": {
                         "person": {
                             "identityDocument": {
-                                "documentID": "12378954",
+                                "documentID": "123456789",
                                 "typeCode": {
-                                    "codeValue": "IDCard",
-                                    "shortName": "Carte d'identité"
-                                },
-                                "issueDate": "2020-09-05",
-                                "expirationDate": "2025-09-05"
+                                    "codeValue": "passport",
+                                    "shortName": "Passeport"
+                                }
                             }
                         }
                     }
                 }
-            }
+            },
+            "effectiveDateTime": "2024-02-27T15:06:25+01:00",
+            "eventID": "65ddee6ce83952c5946c3c76",
+            "eventNameCode": {
+                "codeValue": "worker.identityDocument.add"
+            },
+            "recordDateTime": "2024-02-27T15:06:25+01:00"
         }
     ]
 }

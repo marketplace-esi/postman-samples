@@ -1,0 +1,229 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-01-22T15:52:50.260207175+01:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0O1IC3042RE24",
+                    "workAssignmentID": "90000068|2023-02-01",
+                    "workerID": {
+                        "idValue": "90000068"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "AO0O1IC3042RE24",
+                        "workAssignment": {
+                            "actualStartDate": "2023-02-01",
+                            "additionalRemunerations": [
+                                {
+                                    "itemID": "additionalRemuneration",
+                                    "rate": {
+                                        "amountValue": 0
+                                    }
+                                }
+                            ],
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "strucAffectationId",
+                                    "nameCode": {
+                                        "codeValue": "",
+                                        "longName": "",
+                                        "shortName": ""
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "address": {
+                                        "cityName": "PARIS",
+                                        "countryCode": "FR",
+                                        "countrySubdivisionLevel2": {
+                                            "subdivisionType": "INSEE"
+                                        },
+                                        "lineTwo": "0065 AVENUE ELYSEES",
+                                        "postalCode": "75008"
+                                    },
+                                    "nameCode": {
+                                        "codeValue": "03001",
+                                        "longName": "ALPHA TAURUS MEGA",
+                                        "shortName": "ALPHA TAURUS MEGA"
+                                    }
+                                }
+                            ],
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "amountValue": 0,
+                                    "currencyCode": "EUR",
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    }
+                                }
+                            },
+                            "customFieldGroup": {
+                                "amountFields": [
+                                    {
+                                        "amountValue": 4200.01,
+                                        "currencyCode": "EUR",
+                                        "itemID": "proratedRateAmount"
+                                    }
+                                ],
+                                "codeFields": [
+                                    {
+                                        "codeValue": "441",
+                                        "itemID": "healthServiceSSAN",
+                                        "shortName": "441 - SAT NANTAISE SSTRN"
+                                    },
+                                    {
+                                        "codeValue": "F",
+                                        "itemID": "modeRemSATH"
+                                    },
+                                    {
+                                        "codeValue": "5",
+                                        "itemID": "oldSATH",
+                                        "shortName": "Rémunération sur 14 mois"
+                                    },
+                                    {
+                                        "codeValue": "SAL",
+                                        "itemID": "collaborationType",
+                                        "longName": "Salarié"
+                                    },
+                                    {
+                                        "codeValue": "23",
+                                        "itemID": "recoursReason",
+                                        "longName": "Travaux urgents"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "itemID": "contractType",
+                                        "longName": "Sans particularités"
+                                    },
+                                    {
+                                        "codeValue": "02",
+                                        "itemID": "activity",
+                                        "longName": "MODE"
+                                    },
+                                    {
+                                        "codeValue": "200",
+                                        "itemID": "workSchedule"
+                                    },
+                                    {
+                                        "codeValue": "Z",
+                                        "itemID": "TLM",
+                                        "longName": "Pas de GTA"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2023-10-31",
+                                        "itemID": "endProbationDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-12-31",
+                                        "itemID": "endRenewalProbationDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-11-30",
+                                        "itemID": "endSecondProbationDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-10-31",
+                                        "itemID": "startProbationDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-12-31",
+                                        "itemID": "startRenewalProbationDate"
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "CTR_CTRPACOD11"
+                                    },
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "REM_COD40"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "itemID": "weeklyHours",
+                                        "numberValue": 35
+                                    },
+                                    {
+                                        "itemID": "monthlyHours",
+                                        "numberValue": 151.67
+                                    }
+                                ]
+                            },
+                            "expectedStartDate": "2023-02-01",
+                            "expectedTerminationDate": "2023-12-31",
+                            "fullTimeEquivalenceRatio": 1,
+                            "hireDate": "2023-02-01",
+                            "itemID": "90000068|2023-02-01",
+                            "jobFunctionCode": {
+                                "codeValue": "15",
+                                "longName": "ASSIMILE CADRE",
+                                "shortName": "ASSIMILE CADRE"
+                            },
+                            "jobTitle": "PAPA VAUDOO",
+                            "legalEntityID": "03",
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "4A"
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
+                            "payrollFileNumber": "90000068",
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "longName": "S",
+                                "shortName": "S"
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "AO0O18G4139EMI0",
+                                    "reportsToWorkerName": {
+                                        "familyName1": "LAGACE",
+                                        "givenName": "ANTON"
+                                    }
+                                }
+                            ],
+                            "seniorityDate": "2023-02-01",
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "longName": "FORF. PRESTATION",
+                                "shortName": "FORF. PRESTATION"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "03",
+                                        "shortName": "CCR  COUTURE PARISIENNE"
+                                    }
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "CDD",
+                                "longName": "Contrat à durée déterminée",
+                                "shortName": "Contrat à durée déterminée"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

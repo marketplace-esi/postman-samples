@@ -1,0 +1,215 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "completed"
+                    },
+                    "worker": {
+                        "person": {
+                            "legalName": {
+                                "familyName1": "NTAMACK",
+                                "givenName": "ROMAIN",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M"
+                                        }
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "M"
+                            },
+                            "birthDate": "1981-05-01",
+                            "birthPlace": {
+                                "cityName": "NANTES",
+                                "countryCode": "FR",
+                                "postalCode": "44000"
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "FR"
+                                }
+                            ],
+                            "legalAddress": {
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "NANTES"
+                                },
+                                "countryCode": "FR",
+                                "postalCode": "44000"
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "1810544561234"
+                                }
+                            ]
+                        },
+                        "customFieldGroup": {
+                            "stringFields": [
+                                {
+                                    "stringValue": "VPRCODE00",
+                                    "itemID": "VEH_PRCODE00"
+                                },
+                                {
+                                    "stringValue": "DPRCODE01",
+                                    "itemID": "DPR_CODE01"
+                                }
+                            ],
+                            "dateFields": [
+                                {
+                                    "dateValue": "2022-10-01",
+                                    "itemID": "LI4_LI4DAT00"
+                                },
+                                
+                                {
+                                    "dateValue": "2022-11-01",
+                                    "itemID": "VEH_PADATE00"
+                                },
+                                {
+                                    "dateValue": "2022-12-01",
+                                    "itemID": "VEH_PRDATE00"
+                                }
+                            ],
+                            "numberFields": [
+                                {
+                                    "numberValue": 40.0,
+                                    "itemID": "INF_COOMTS00"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "hireDate": "2023-06-03",
+                            "workerTypeCode": {
+                                "codeValue": "01"
+                            },
+                            "assignedWorkLocations": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01001"
+                                    },
+                                    "address": {
+                                        "unit": "num bureau"
+                                    }
+                                }
+                            ],
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "111111"
+                                    },
+                                    "itemID": "departmentId"
+                                }
+                            ],
+                            "jobCode": {
+                                "codeValue": "190"
+                            },
+                            "jobFunctionCode": {
+                                "codeValue": "10"
+                            },
+                            "workArrangementCode": {
+                                "codeValue": "900"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00"
+                                    }
+                                }
+                            ],
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA1"
+                                    }
+                                }
+                            ],
+                            "baseRemuneration": {
+                                "recordingBasisCode": {
+                                    "codeValue": "4"
+                                }
+                            },
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "S0016",
+                                    "costCenterPercentage": 60.0
+                                },
+                                {
+                                    "costCenterID": "S0017",
+                                    "costCenterPercentage": 40.0
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "stringFields": [
+                                    {
+                                        "stringValue": "Reference embauche",
+                                        "itemID": "internalContractReference"
+                                    },
+                                    {
+                                        "stringValue": "O",
+                                        "itemID": "AYA_VAL_A41"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "numberValue": 350,
+                                        "itemID": "REM_MTS28"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                    "dateValue": "2022-12-01",
+                                    "itemID": "ATT_ATDAT00"
+                                },
+                                    {
+                                        "dateValue": "2022-08-01",
+                                        "itemID": "LI1_LI1DAT00"
+                                    }
+                                ],
+                                "codeFields": [
+                                    {
+                                        "codeValue": "SAL",
+                                        "itemID": "collaborationType"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "itemID": "contractType"
+                                    },
+                                    {
+                                        "codeValue": "40",
+                                        "itemID": "recoursReason"
+                                    },
+                                    {
+                                        "codeValue": "B",
+                                        "itemID": "remunerationType"
+                                    },
+                                    {
+                                        "codeValue": "B",
+                                        "itemID": "modeRemSATH"
+                                    },
+                                    {
+                                        "codeValue": "441",
+                                        "itemID": "healthServiceSSAN"
+                                    },
+                                    {
+                                        "codeValue": "101",
+                                        "itemID": "workSchedule"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "itemID": "activity"
+                                    },
+                                    {
+                                        "codeValue": "Z",
+                                        "itemID": "TLM"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
