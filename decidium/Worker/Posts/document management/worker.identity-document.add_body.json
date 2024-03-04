@@ -7,25 +7,20 @@
                         "associateOID": "gmartinelli-7150mp3"
                     }
                 },
-                "output": {
+                "transform": {
                     "worker": {
                         "person": {
                             "identityDocument": {
+                                "documentID": "123456789",
+                               
                                 "typeCode": {
-                                    "codeValue": "visa1",
-                                    "shortName": "Visa 1"
+                                    "codeValue": "passport"
                                 }
                             }
                         }
                     }
                 }
-            },
-            "effectiveDateTime": "2024-02-27T15:35:40+01:00",
-            "eventID": "65ddf578e8395230c96c3c7a",
-            "eventNameCode": {
-                "codeValue": "worker.identityDocument.remove"
-            },
-            "recordDateTime": "2024-02-27T15:35:40+01:00"
+            }
         }
     ]
 }

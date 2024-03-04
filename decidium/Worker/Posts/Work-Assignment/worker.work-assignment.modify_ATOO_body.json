@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "AO0O1IC3042RE24"
+                },
+                "transform": {
+                    "effectiveDateTime": "2024-01-01T00:00:00Z",
+                    "workAssignment": {
+                        "customFieldGroup": {
+                            "codeFields": [
+                                {
+                                    "codeValue": "5",
+                                    "itemID": "oldSATH",
+                                    "shortName": "Rémunération sur 14 mois et demi"
+                                }
+                            ]
+                        },
+                        "workerGroups": [
+                            {
+                                "groupCode": {
+                                    "codeValue": "03"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
