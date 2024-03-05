@@ -1,0 +1,528 @@
+{
+  "events": [
+    {
+      "data": {
+        "output": {
+          "worker": {
+            "workerID": {
+              "idValue": "34709-112485",
+              "schemeCode": {
+                "codeValue": "REFERENCE",
+                "shortName": "Employee Reference Number"
+              }
+            },
+            "associateOID": "AO0O35M42171Y17",
+            "person": {
+              "legalName": {
+                "givenName": "Amster",
+                "familyName1": "Damm",
+                "formattedName": "Amster Van Damm",
+                "preferredSalutations": [
+                  {
+                    "salutationCode": {
+                      "codeValue": "Mr",
+                      "shortName": "Mr."
+                    },
+                    "typeCode": {
+                      "codeValue": "SOCIAL",
+                      "shortName": "Social"
+                    },
+                    "sequenceNumber": 1
+                  }
+                ],
+                "nickName": "Jammy",
+                "titlePrefixCodes": [
+                  {
+                    "affixCode": {
+                      "codeValue": "DR."
+                    },
+                    "sequenceNumber": 1
+                  }
+                ],
+                "qualificationAffixCode": {
+                  "codeValue": "suffix"
+                },
+                "familyName1Prefix": "Van"
+              },
+              "birthDate": "1998-10-10",
+              "birthDateString": "10/1998",
+              "communication": {
+                "landlines": [
+                  {
+                    "formattedNumber": "12345678900",
+                    "nameCode": {
+                      "codeValue": "HOME",
+                      "shortName": "Home Telephone"
+                    }
+                  }
+                ],
+                "mobiles": [
+                  {
+                    "formattedNumber": "00987654321",
+                    "nameCode": {
+                      "codeValue": "PERMOBILE",
+                      "shortName": "Personal Mobile"
+                    }
+                  }
+                ],
+                "emails": [
+                  {
+                    "emailUri": "Amster@adp.com",
+                    "nameCode": {
+                      "codeValue": "PERSONALEMAIL",
+                      "shortName": "Personal Email"
+                    }
+                  }
+                ]
+              },
+              "deceasedIndicator": false,
+              "genderCode": {
+                "codeValue": "Male",
+                "shortName": "Male"
+              },
+              "maritalStatusCode": {
+                "codeValue": "1",
+                "shortName": "Single"
+              },
+              "disabledIndicator": false,
+              "customFieldGroup": {
+                "dateFields": [
+                  {
+                    "dateValue": "2024-02-01",
+                    "nameCode": {
+                      "shortName": "DateFirstEmployment",
+                      "longName": "Date First Employment"
+                    }
+                  }
+                ],
+                "codeFields": [
+                  {
+                    "codeValue": "O",
+                    "nameCode": {
+                      "codeValue": "Employee Fullname combination",
+                      "shortName": "Employee Fullname combination"
+                    },
+                    "shortName": "Own Name"
+                  }
+                ],
+                "indicatorFields": [
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "ANONYMOUSEMPLOYEE",
+                      "shortName": "ANONYMOUSEMPLOYEE"
+                    }
+                  }
+                ]
+              },
+              "governmentIDs": [
+                {
+                  "idValue": "222222232",
+                  "nameCode": {
+                    "codeValue": "SocialSecurityNumber",
+                    "shortName": "SocialSecurityNumber"
+                  }
+                },
+                {
+                  "idValue": "123456",
+                  "nameCode": {
+                    "codeValue": "IDDocumentNumber",
+                    "shortName": "IDDocumentNumber"
+                  }
+                },
+                {
+                  "idValue": "112233",
+                  "nameCode": {
+                    "codeValue": "2",
+                    "shortName": "Passport"
+                  },
+                  "countryCode": "CAN",
+                  "expirationDate": "2030-03-08"
+                }
+              ],
+              "identityDocuments": [
+                {
+                  "documentID": "222222232",
+                  "typeCode": {
+                    "codeValue": "SocialSecurityNumber",
+                    "shortName": "SocialSecurityNumber"
+                  }
+                },
+                {
+                  "documentID": "123456",
+                  "typeCode": {
+                    "codeValue": "IDDocumentNumber",
+                    "shortName": "IDDocumentNumber"
+                  }
+                },
+                {
+                  "documentID": "112233",
+                  "typeCode": {
+                    "codeValue": "2",
+                    "shortName": "Passport"
+                  },
+                  "countryCode": "CAN",
+                  "expirationDate": "2030-03-08"
+                }
+              ],
+              "birthPlace": {
+                "cityName": "canada",
+                "countryCode": "Netherlands"
+              },
+              "citizenshipCountryCodes": [
+                {
+                  "codeValue": "0073",
+                  "shortName": "Portuguese"
+                }
+              ],
+              "legalAddress": {
+                "countryCode": "NL",
+                "deliveryPoint": "True",
+                "cityName": "Rotterdam",
+                "postalCode": "8787 AA",
+                "buildingNumber": "12365",
+                "buildingName": "no.",
+                "streetName": "South town street"
+              },
+              "passports": [
+                {
+                  "documentID": "112233",
+                  "typeCode": {
+                    "codeValue": "2",
+                    "shortName": "Passport"
+                  },
+                  "countryCode": "CAN",
+                  "issuingParty": {
+                    "address": {
+                      "lineThree": "canada"
+                    }
+                  },
+                  "issueDate": "2021-05-11",
+                  "expirationDate": "2030-03-08"
+                }
+              ]
+            },
+            "workerDates": {
+              "firstHireDate": "2024-02-01",
+              "originalHireDate": "2020-04-10",
+              "adjustedServiceDate": "2020-04-10",
+              "acquisitionDate": "2020-05-13",
+              "retirementDate": "2030-06-15"
+            },
+            "workerStatus": {
+              "statusCode": {
+                "codeValue": "Current",
+                "shortName": "Current"
+              }
+            },
+            "businessCommunication": {
+              "landlines": [
+                {
+                  "formattedNumber": "12345678900",
+                  "nameCode": {
+                    "codeValue": "WORK",
+                    "shortName": "Work Telephone"
+                  },
+                  "extension": "911"
+                }
+              ],
+              "mobiles": [
+                {
+                  "formattedNumber": "00987654321",
+                  "nameCode": {
+                    "codeValue": "WORKMOBILE",
+                    "shortName": "Work Mobile Telephone"
+                  }
+                }
+              ],
+              "emails": [
+                {
+                  "emailUri": "Amster@adp.com",
+                  "nameCode": {
+                    "codeValue": "WORKEMAIL",
+                    "shortName": "Work Email"
+                  }
+                }
+              ]
+            },
+            "workAssignment": {
+              "hireDate": "2024-02-03",
+              "assignmentStatus": {
+                "statusCode": {
+                  "codeValue": "Current",
+                  "shortName": "Current"
+                },
+                "reasonCode": {
+                  "codeValue": "01",
+                  "shortName": "Newly created position"
+                }
+              },
+              "workerProbationPeriod": {
+                "endDate": "2024-05-01"
+              },
+              "homeWorkLocation": {
+                "address": {
+                  "countryCode": "NL"
+                },
+                "nameCode": {
+                  "codeValue": "ADPPOST",
+                  "shortName": "Post to home address"
+                }
+              },
+              "reportsTo": [
+                {
+                  "associateOID": "AO0N21A0156H7LI",
+                  "workerID": {
+                    "schemeCode": {
+                      "codeValue": "REFERENCENUMBER",
+                      "shortName": "REFERENCE NUMBER"
+                    },
+                    "idValue": "1001-123456"
+                  },
+                  "reportsToWorkerName": {
+                    "formattedName": "Steven Dawson"
+                  },
+                  "reportsToRelationshipCode": {
+                    "codeValue": "REPORTSTO",
+                    "shortName": "REPORTS TO"
+                  }
+                }
+              ],
+              "payrollFileNumber": "112485",
+              "customFieldGroup": {
+                "codeFields": [
+                  {
+                    "codeValue": "04",
+                    "nameCode": {
+                      "codeValue": "LEGALSITUATION",
+                      "shortName": "Legal Situation"
+                    },
+                    "shortName": "Employer\u00B4s retirement"
+                  },
+                  {
+                    "codeValue": "Trainee",
+                    "nameCode": {
+                      "codeValue": "REASONFORCHANGE",
+                      "shortName": "Reason for Change"
+                    },
+                    "shortName": "Trainee"
+                  },
+                  {
+                    "codeValue": "M",
+                    "nameCode": {
+                      "codeValue": "WPCONTRACTEDHOURSUNIT",
+                      "shortName": "Contracted Hours Units"
+                    },
+                    "shortName": "Monthly"
+                  },
+                  {
+                    "shortName": "Primair",
+                    "nameCode": {
+                      "codeValue": "INCOME RELATIONSHIP TYPE",
+                      "shortName": "INCOME RELATIONSHIP TYPE"
+                    },
+                    "codeValue": "01"
+                  },
+                  {
+                    "codeValue": "81",
+                    "shortName": "Other fictious employment",
+                    "nameCode": {
+                      "codeValue": "CONTRACT NATURE",
+                      "shortName": "CONTRACT NATURE"
+                    }
+                  }
+                ],
+                "dateFields": [
+                  {
+                    "dateValue": "2025-03-21",
+                    "nameCode": {
+                      "codeValue": "CONTRACTENDDATE",
+                      "shortName": "CONTRACTENDDATE"
+                    }
+                  },
+                  {
+                    "dateValue": "2024-02-03",
+                    "nameCode": {
+                      "codeValue": "Income Relatioship Start Date",
+                      "shortName": "Income Relatioship Start Date"
+                    }
+                  }
+                ],
+                "indicatorFields": [
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "CLOSEPREVIOUSJOB",
+                      "shortName": "CLOSEPREVIOUSJOB"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "EXCLUDEFROMSALARYSCALE",
+                      "shortName": "Exclude from salary scale"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "SUSPENDTIMESHEETS",
+                      "shortName": "SUSPENDTIMESHEETS"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "USEWORKPATTERN",
+                      "shortName": "USEWORKPATTERN"
+                    }
+                  }
+                ],
+                "stringFields": [
+                  {
+                    "stringValue": "e1072a7c-e3de-4064-a2c5-0b83551edbb0",
+                    "nameCode": {
+                      "codeValue": "JOBDETAIL_ID",
+                      "shortName": "JOBDETAIL_ID"
+                    }
+                  },
+                  {
+                    "stringValue": "Overuren",
+                    "nameCode": {
+                      "codeValue": "TIMESHEETTEMPLATE",
+                      "shortName": "TIMESHEETTEMPLATE"
+                    }
+                  },
+                  {
+                    "stringValue": "NL notessss",
+                    "nameCode": {
+                      "codeValue": "COMMENTS",
+                      "shortName": "COMMENTS"
+                    }
+                  },
+                  {
+                    "stringValue": "Artist",
+                    "nameCode": {
+                      "codeValue": "JOBTITLEFORPAYSLIP",
+                      "shortName": "JOBTITLEFORPAYSLIP"
+                    }
+                  },
+                  {
+                    "stringValue": "e1072a7c-e3de-4064-a2c5-0b83551edbb0",
+                    "nameCode": {
+                      "codeValue": "workAssignmentId",
+                      "shortName": "workAssignmentId"
+                    }
+                  },
+                  {
+                    "stringValue": "112485",
+                    "nameCode": {
+                      "codeValue": "Employee Contract Code",
+                      "shortName": "Employee Contract Code"
+                    }
+                  },
+                  {
+                    "stringValue": "Stagiaire",
+                    "nameCode": {
+                      "codeValue": "Employment type"
+                    }
+                  }
+                ],
+                "numberFields": [
+                  {
+                    "numberValue": 183.33,
+                    "nameCode": {
+                      "codeValue": "HOURSPERPERIOD",
+                      "shortName": "Hours Per Period"
+                    }
+                  },
+                  {
+                    "numberValue": 40.0,
+                    "nameCode": {
+                      "codeValue": "CONTRACTUALHOURSPERWEEK",
+                      "shortName": "Contractual Hours Per Week"
+                    }
+                  }
+                ]
+              },
+              "primaryIndicator": true,
+              "legalEntityID": "34709",
+              "expectedStartDate": "2024-02-03",
+              "workerTypeCode": {
+                "codeValue": "Permanent",
+                "shortName": "Permanent"
+              },
+              "workLevelCode": {
+                "codeValue": "Full_Time",
+                "shortName": "Full Time"
+              },
+              "workerGroups": [
+                {
+                  "groupCode": {
+                    "shortName": "Crew 1"
+                  }
+                }
+              ],
+              "jobCode": {
+                "codeValue": "0026",
+                "shortName": "HR Payroll Specialist"
+              },
+              "jobTitle": "Manager",
+              "workShiftCode": {
+                "shortName": "Sample Work Pattern"
+              },
+              "standardHours": {
+                "unitCode": {
+                  "codeValue": "F",
+                  "shortName": "Fixed"
+                }
+              },
+              "fullTimeEquivalenceRatio": 1.0,
+              "assignedOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "0",
+                    "shortName": "34709",
+                    "longName": "34709 SALES DEMO DIRECTIE"
+                  },
+                  "typeCode": {
+                    "codeValue": "Company",
+                    "shortName": "Organisation structure"
+                  }
+                }
+              ],
+              "payGradeCode": {
+                "codeValue": "ATSG1",
+                "shortName": "ATS Standard"
+              },
+              "payGradeStepCode": {
+                "shortName": "ATSS1"
+              },
+              "nextPayGradeStepDate": "2024-11-01",
+              "payrollGroupCode": "34709",
+              "premiumRateMultipliers": [
+                {
+                  "rateMultiplier": 24.0
+                }
+              ],
+              "baseRemuneration": {
+                "effectiveDate": "2024-02-03",
+                "recordingBasisCode": {
+                  "shortName": "Monthly salary"
+                },
+                "payPeriodRateAmount": {
+                  "amountValue": 5000.0,
+                  "nameCode": {
+                    "codeValue": "SALAMOUNT",
+                    "shortName": "Salary Amount"
+                  },
+                  "currencyCode": "EURO"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
