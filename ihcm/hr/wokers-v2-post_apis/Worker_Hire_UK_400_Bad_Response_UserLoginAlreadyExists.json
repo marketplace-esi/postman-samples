@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "6a3a0155-118b-4e13-9670-0fb9f02e1c2c",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-10-20T12:10:07.8339139\u002B00:00",
+    "requestReceiptDateTime": "2023-10-20T12:10:07.8339139\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "5ed82200-c356-46d9-8156-02f69ec16319",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "f1832bf2-9597-47e8-ae44-1f3ce2fc3a82",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "(3007) The user login is already used."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

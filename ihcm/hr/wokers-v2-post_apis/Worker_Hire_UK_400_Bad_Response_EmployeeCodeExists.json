@@ -1,0 +1,51 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "320f8a1c-6a59-4225-894b-bca8f000f4a5",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2023-10-24T15:05:59.5068813\u002B00:00",
+    "requestReceiptDateTime": "2023-10-24T15:05:59.5068817\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "a720ed16-b304-4042-b84f-f366f6fec464",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "succeeded"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "fdb57c24-46ba-412c-8d61-e4b334aa2c56",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "warning"
+            },
+            "userMessage": {
+              "messageTxt": "The NI number entered is currently recorded against another employee. It should be unique."
+            }
+          },
+          {
+            "processMessageID": {
+              "idValue": "be36f116-863e-44f2-bf15-ec371da10c72",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "warning"
+            },
+            "userMessage": {
+              "messageTxt": "The Employee Code exists. Please provide an alternative"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
