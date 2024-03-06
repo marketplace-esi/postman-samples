@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "9b8d6fea-1f78-412d-b570-b6ee1dc59d1e",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-03-05T22:48:18.1236525\u002B00:00",
+    "requestReceiptDateTime": "2024-03-05T22:48:18.1236526\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "b2bbbbda-271d-4bf7-a664-5b521f31d6b0",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "ea3ce23f-37f3-4e5c-ad6a-9bcba8085d72",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "PEOPLE.REPORTSTO is a mandatory field. Please provide valid data.. Invalid Lookup Value specified for PEOPLE.REPORTSTO. Please check !!!"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

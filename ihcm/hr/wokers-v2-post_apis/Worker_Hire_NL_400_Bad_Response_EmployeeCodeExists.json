@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "31475ad7-9c02-4f14-a361-80a2a774c1f3",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-03-05T22:45:23.6076449\u002B00:00",
+    "requestReceiptDateTime": "2024-03-05T22:45:23.607645\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "8b8d6695-72a8-48bf-9ed1-b411ed4bbf26",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "96f6a9c3-cee3-4489-898d-dc3675fafbd6",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "The following field(s) must be unique within the database: Reference Number"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

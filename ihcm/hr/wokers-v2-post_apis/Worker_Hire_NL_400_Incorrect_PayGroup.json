@@ -1,0 +1,51 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "efa4906f-e1ea-4f63-81f5-99da38a95dfd",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-03-05T22:46:38.0634927\u002B00:00",
+    "requestReceiptDateTime": "2024-03-05T22:46:38.0634928\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "8fa875b8-a3e1-433d-bf5d-56035d3a4a1d",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "e95a431e-c081-4b43-9534-857767cc9178",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid Lookup Value specified for MNCPR_EEPAYGROUPASSIGNMENT.MNCPR_PAYGROUPCODE. Please check !!!"
+            }
+          },
+          {
+            "processMessageID": {
+              "idValue": "b5702305-a7b7-4f9a-b01c-6ce7b93f4e81",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid Lookup Value specified for NLMNCPR_STARTERPAYROLLDATA.NLMNCPR_SALARISPERIODE. Please check !!!"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
