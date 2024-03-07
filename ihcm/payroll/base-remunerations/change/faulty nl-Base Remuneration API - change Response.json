@@ -1,0 +1,30 @@
+{
+	"confirmMessage": {
+        "createDateTime": "2023-11-24T13:24:46.6588316+01:00",
+        "protocolStatusCode": {
+            "codeValue": "400"
+        },
+        "protocolCode": {
+            "codeValue": "http"
+        },
+        "requestMethodCode": {
+            "codeValue": "POST"
+        },
+        "requestStatusCode": {
+            "codeValue": "failed"
+        },
+        "processMessages": [
+            {
+                "messageTypeCode": {
+                    "codeValue": "error"
+                },
+                "userMessage": {
+                    "messageTxt": "The WorkAssignment Id 00000000-F101-4C37-9B8D-6C846D771FE9 does not imply a valid work assignment"
+                },
+                "developerMessage": {
+                    "messageTxt": "events[0]::invalid"
+                }
+            }
+        ]
+    }
+}

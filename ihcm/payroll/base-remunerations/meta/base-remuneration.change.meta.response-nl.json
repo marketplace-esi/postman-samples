@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "/serviceCategoryCode/codeValue": "hr",
+    "/eventNameCode/codeValue": "worker.workAssignment.baseRemuneration.change",
+    "/data/eventContext": {
+      "/worker": {
+        "optional": false
+      },
+      "/worker/associateOID": {
+        "optional": false,
+        "dataType": "string"
+      },
+      "/worker/workAssignment": {
+        "optional": false
+      },
+      "/worker/workAssignment/itemID": {
+        "optional": false,
+        "dataType": "string",
+        "minLength": 36,
+        "maxLength": 36,
+        "pattern": "^[{]?[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}[}]?$"
+      }
+    },
+    "/data/transforms": [
+      {
+        "/effectiveDateTime": {
+          "optional": false,
+          "dataType": "string[date-time]"
+        },
+        "/workAssignment": {
+          "optional": false
+        },
+        "/workAssignment/baseRemuneration": {
+          "optional": false
+        },
+        "/workAssignment/baseRemuneration/recordingBasisCode": {
+          "optional": true,
+          "codeList": {
+            "listItems": [
+              {
+                "codeValue": "0",
+                "valueDescription": "0=Monthly salary"
+              },
+              {
+                "codeValue": "1",
+                "valueDescription": "1=4-weekly wage"
+              },
+              {
+                "codeValue": "2",
+                "valueDescription": "2=Weekly wage"
+              },
+              {
+                "codeValue": "3",
+                "valueDescription": "3=Daily wage"
+              },
+              {
+                "codeValue": "4",
+                "valueDescription": "4=Hourly wage"
+              }
+            ]
+          }
+        },
+        "/workAssignment/baseRemuneration/recordingBasisCode/codeValue": {
+          "optional": false,
+          "dataType": "string",
+          "minLength": 1,
+          "maxLength": 1
+        },
+        "/workAssignment/baseRemuneration/payPeriodRateAmount": {
+          "optional": true
+        },
+        "/workAssignment/baseRemuneration/payPeriodRateAmount/amountValue": {
+          "optional": false,
+          "dataType": "number"
+        }
+      }
+    ]
+  }
+}
