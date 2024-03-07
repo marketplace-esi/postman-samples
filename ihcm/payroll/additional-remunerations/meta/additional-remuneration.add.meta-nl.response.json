@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "/serviceCategoryCode/codeValue": "hr",
+    "/eventNameCode/codeValue": "worker.workAssignment.additionalRemuneration.add",
+    "queryCriteria": [
+      {
+        "itemID": "1",
+        "queryOptionCode": "$filter",
+        "obligationCode": "required",
+        "queryOptionTypeCode": "OData",
+        "resourcePaths": [
+          "payrollGroupCode"
+        ],
+        "queryValueCodeList": {
+          "listItems": [
+            {
+              "codeValue": "48669",
+              "valueDescription": "SALES DEMO BEDRIJF"
+            },
+            {
+              "codeValue": "48671",
+              "valueDescription": "SALES DEMO DIRECTIE"
+            },
+            {
+              "codeValue": "99991",
+              "valueDescription": "Bedrijf 99991"
+            }
+          ]
+        },
+        "logicalOperators": [
+          {
+            "logicalOperatorCode": "eq"
+          }
+        ]
+      }
+    ],
+    "/data/eventContext": {
+      "/worker": {
+        "optional": false
+      },
+      "/worker/associateOID": {
+        "optional": false,
+        "dataType": "string"
+      },
+      "/worker/workAssignment": {
+        "optional": false
+      },
+      "/worker/workAssignment/itemID": {
+        "optional": false,
+        "dataType": "string",
+        "minLength": 36,
+        "maxLength": 36,
+        "pattern": "^[{]?[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}[}]?$"
+      }
+    },
+    "/data/transforms": [
+      {
+        "/effectiveDateTime": {
+          "optional": false,
+          "dataType": "string[date-time]"
+        },
+        "/workAssignment": {
+          "optional": false
+        },
+        "/workAssignment/additionalRemuneration": {
+          "optional": false
+        },
+        "/workAssignment/additionalRemuneration/nameCode": {
+          "optional": false,
+          "codeList": {
+            "listItems": [
+              {
+                "codeValue": "2056",
+                "valueDescription": "Code defaulter"
+              },
+              {
+                "codeValue": "2063",
+                "valueDescription": "CLA code hirer"
+              },
+              {
+                "codeValue": "2073",
+                "valueDescription": "Contractual hours per week"
+              },
+              {
+                "codeValue": "2106",
+                "valueDescription": "Days various (5 pos. 2 dec.)"
+              },
+              {
+                "codeValue": "2107",
+                "valueDescription": "Diverse (5 pos./2 dec.)"
+              },
+              {
+                "codeValue": "2118",
+                "valueDescription": "Code afw.toepassing woonland rekenregels"
+              },
+              {
+                "codeValue": "2178",
+                "valueDescription": "CAO Code"
+              },
+              {
+                "codeValue": "2188",
+                "valueDescription": "Code volledig thuiswerken"
+              },
+              {
+                "codeValue": "2203",
+                "valueDescription": "Code revision AWf"
+              },
+              {
+                "codeValue": "2204",
+                "valueDescription": "Start of WAO benefit payment"
+              },
+              {
+                "codeValue": "2219",
+                "valueDescription": "Telephone country code"
+              },
+              {
+                "codeValue": "2228",
+                "valueDescription": "Telephone extension"
+              },
+              {
+                "codeValue": "2240",
+                "valueDescription": "Balance lifecycle wage"
+              },
+              {
+                "codeValue": "2243",
+                "valueDescription": "Salary period"
+              },
+              {
+                "codeValue": "2244",
+                "valueDescription": "Standard amount wage garnishment"
+              },
+              {
+                "codeValue": "2245",
+                "valueDescription": "Code nature of employment relation"
+              },
+              {
+                "codeValue": "2247",
+                "valueDescription": "Non-standard premium/risk group"
+              },
+              {
+                "codeValue": "2250",
+                "valueDescription": "Annual salary column 6 last year"
+              },
+              {
+                "codeValue": "2251",
+                "valueDescription": "Life-course code"
+              },
+              {
+                "codeValue": "2253",
+                "valueDescription": "% life-course savings of estimated annual salary"
+              },
+              {
+                "codeValue": "2254",
+                "valueDescription": "Estimated annual salary"
+              },
+              {
+                "codeValue": "2260",
+                "valueDescription": "Reason for no addition"
+              },
+              {
+                "codeValue": "2267",
+                "valueDescription": "Income relationship sequence number"
+              },
+              {
+                "codeValue": "2277",
+                "valueDescription": "Part-time percentage"
+              },
+              {
+                "codeValue": "2287",
+                "valueDescription": "Code of temporary worker"
+              },
+              {
+                "codeValue": "2318",
+                "valueDescription": "Contractloon"
+              },
+              {
+                "codeValue": "2385",
+                "valueDescription": "% periodic holiday entitlement"
+              },
+              {
+                "codeValue": "2416",
+                "valueDescription": "Salary code"
+              },
+              {
+                "codeValue": "2417",
+                "valueDescription": "Salary amount"
+              },
+              {
+                "codeValue": "2424",
+                "valueDescription": "Hourly rate for overtime"
+              },
+              {
+                "codeValue": "2435",
+                "valueDescription": "Code student and pupils scheme"
+              },
+              {
+                "codeValue": "2441",
+                "valueDescription": "Printing indicator"
+              },
+              {
+                "codeValue": "2442",
+                "valueDescription": "E-mail notification"
+              },
+              {
+                "codeValue": "2444",
+                "valueDescription": "Changed percentage taxeable 30% arrangement"
+              },
+              {
+                "codeValue": "2471",
+                "valueDescription": "Income code (only before 2016)"
+              },
+              {
+                "codeValue": "2473",
+                "valueDescription": "Hours per period"
+              },
+              {
+                "codeValue": "2479",
+                "valueDescription": "30% order code"
+              },
+              {
+                "codeValue": "2483",
+                "valueDescription": "Tax credit code"
+              },
+              {
+                "codeValue": "2485",
+                "valueDescription": "Special indication 1"
+              },
+              {
+                "codeValue": "2493",
+                "valueDescription": "Annual salary for special rate payroll tax"
+              },
+              {
+                "codeValue": "2608",
+                "valueDescription": "Standard amount wage garnishment Belastingdienst"
+              },
+              {
+                "codeValue": "2614",
+                "valueDescription": "Code meerdere dienstverbanden"
+              },
+              {
+                "codeValue": "2662",
+                "valueDescription": "Zero or empty payslip"
+              },
+              {
+                "codeValue": "2674",
+                "valueDescription": "Code disability rebate for young people"
+              },
+              {
+                "codeValue": "2698",
+                "valueDescription": "Changed percentage off taks 30% arrangement"
+              },
+              {
+                "codeValue": "2752",
+                "valueDescription": "Code loonheffing MDV"
+              },
+              {
+                "codeValue": "2816",
+                "valueDescription": "Pay period annual statement"
+              },
+              {
+                "codeValue": "2818",
+                "valueDescription": "One-time application day table"
+              },
+              {
+                "codeValue": "2991",
+                "valueDescription": "Code LKV participation seniors"
+              },
+              {
+                "codeValue": "2992",
+                "valueDescription": "Code LKV participation hire disabled"
+              },
+              {
+                "codeValue": "2993",
+                "valueDescription": "Code LKV participation job agreement population"
+              },
+              {
+                "codeValue": "2994",
+                "valueDescription": "Code LKV participation relocation disabled"
+              },
+              {
+                "codeValue": "S004",
+                "valueDescription": "Representation costs"
+              },
+              {
+                "codeValue": "S007",
+                "valueDescription": "Telephone allowance"
+              },
+              {
+                "codeValue": "S008",
+                "valueDescription": "Allowance"
+              },
+              {
+                "codeValue": "S023",
+                "valueDescription": "Chauffeurstoeslag TB en SV (va"
+              },
+              {
+                "codeValue": "S030",
+                "valueDescription": "Ouderschapsverlof TB en SV (va"
+              },
+              {
+                "codeValue": "S094",
+                "valueDescription": "Personeelsver. onbelast (vast)"
+              },
+              {
+                "codeValue": "S103",
+                "valueDescription": "Attachment of earnings"
+              },
+              {
+                "codeValue": "S193",
+                "valueDescription": "Days worked"
+              },
+              {
+                "codeValue": "S291",
+                "valueDescription": "Uren per week  (vast)"
+              },
+              {
+                "codeValue": "S292",
+                "valueDescription": "S292"
+              },
+              {
+                "codeValue": "S302",
+                "valueDescription": "Km rate, method 1"
+              },
+              {
+                "codeValue": "S316",
+                "valueDescription": "Commuting payment"
+              },
+              {
+                "codeValue": "S392",
+                "valueDescription": "S392"
+              },
+              {
+                "codeValue": "S601",
+                "valueDescription": "Employee contribution for company car"
+              },
+              {
+                "codeValue": "S631",
+                "valueDescription": "Lening onbelast (vast)"
+              },
+              {
+                "codeValue": "S635",
+                "valueDescription": "Loonbeslag onbelast (vast)"
+              },
+              {
+                "codeValue": "SA0K",
+                "valueDescription": "Bijt. fiets vd zaak TB en SV (vast)"
+              },
+              {
+                "codeValue": "SA10",
+                "valueDescription": "Aflossing fietsplan TB en SV (vast)"
+              },
+              {
+                "codeValue": "SA1D",
+                "valueDescription": "Stagevergoeding TB en SV (vast)"
+              },
+              {
+                "codeValue": "SA28",
+                "valueDescription": "Levensloop sparen tabel (vast)"
+              },
+              {
+                "codeValue": "SA30",
+                "valueDescription": "Levensloop werkgever TB en SV"
+              },
+              {
+                "codeValue": "SA33",
+                "valueDescription": "Levensloop betaling TB en SV (vast)"
+              },
+              {
+                "codeValue": "SA60",
+                "valueDescription": "Aanv.minimumloon TB en SV (vast)"
+              },
+              {
+                "codeValue": "SA64",
+                "valueDescription": "Reisdagen  (vast)"
+              },
+              {
+                "codeValue": "SDB2",
+                "valueDescription": "Uitkeringsdagen  (vast)"
+              },
+              {
+                "codeValue": "SKE2",
+                "valueDescription": "Perc. pens. opb. OSV"
+              }
+            ]
+          }
+        },
+        "/workAssignment/additionalRemuneration/nameCode/codeValue": {
+          "optional": false,
+          "minLength": 4,
+          "maxLength": 4
+        },
+        "/workAssignment/additionalRemuneration/rate": {
+          "optional": false
+        },
+        "/workAssignment/additionalRemuneration/rate/amountValue": {
+          "optional": false
+        }
+      }
+    ]
+  }
+}
