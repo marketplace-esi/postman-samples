@@ -1,0 +1,437 @@
+{
+    "events": [
+        {
+            "data": {
+                "transform": {
+                    "worker": {
+                        "workerID": {
+                            "idValue": "JP1962"
+                        },
+                        "person": {
+                            "governmentIDs": [
+                                {
+                                    "idValue": "WH354682A",
+                                    "nameCode": {
+                                        "codeValue": "UK National Insurance Number",
+                                        "shortName": "UK National Insurance Number"
+                                    }
+                                }
+                            ],
+                            "legalName": {
+                                "givenName": "Mitsu",
+                                "middleName": "",
+                                "familyName1": "Bishi",
+                                "familyName2": "Honda",
+                                "preferredSalutations": [
+                                    {
+                                        "typeCode": {
+                                            "codeValue": "SOCIAL"
+                                        },
+                                        "salutationCode": {
+                                            "codeValue": "Mr"
+                                        }
+                                    }
+                                ],
+                                "nickName": "Bishy"
+                            },
+                            "birthDate": "1970-07-03",
+                            "legalAddress": {
+                                "nameCode": {
+                                    "codeValue": "ADD2"
+                                },
+                                "lineOne": "10 Downing St",
+                                "lineTwo": "Whitehall",
+                                "lineThree": "City of Westminister",
+                                "cityName": "London",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "Greater London"
+                                },
+                                "countryCode": "GBR",
+                                "postalCode": "SW1 2AA",
+                                "deliveryPoint": "true"
+                            },
+                            "communication": {
+                                "landlines": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "HOME"
+                                        },
+                                        "formattedNumber": "12345678900"
+                                    }
+                                ],
+                                "mobiles": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "PERMOBILE"
+                                        },
+                                        "formattedNumber": "00987654321"
+                                    }
+                                ],
+                                "emails": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "PERSONALEMAIL"
+                                        },
+                                        "emailUri": "Mitsu@adp.com"
+                                    }
+                                ]
+                            },
+                            "genderCode": {
+                                "codeValue": "Male"
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": "S"
+                            },
+                            "religionCode": {
+                                "codeValue": "Buddhist"
+                            },
+                            "disabledIndicator": false,
+                            "identityDocuments": [
+                                {
+                                    "countryCode": "GBR",
+                                    "documentID": "112233",
+                                    "typeCode": {
+                                        "codeValue": "FC"
+                                    }
+                                }
+                            ],
+                            "birthPlace": {
+                                "cityName": "canada",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "08",
+                                    "shortName": "BARCELONA",
+                                    "subdivisionType": "Province"
+                                },
+                                "countryCode": "Canadian"
+                            },
+                            "otherPersonalAddresses": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "HOME",
+                                        "shortName": "Home Address"
+                                    },
+                                    "lineOne": "White Hart Lane",
+                                    "lineTwo": "North London",
+                                    "lineThree": "Tottenham",
+                                    "cityName": "London",
+                                    "countrySubdivisionLevel1": {
+                                        "codeValue": "Bravo"
+                                    },
+                                    "countryCode": "CAN",
+                                    "postalCode": "BS50 2AK"
+                                }
+                            ],
+                            "ethnicityCode": {
+                                "codeValue": "African American"
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "Canadian"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "TERMINATIONTYPE"
+                                        },
+                                        "codeValue": "1",
+                                        "shortName": "Voluntary"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "nameCode": {
+                                            "shortName": "IssueDate"
+                                        },
+                                        "dateValue": "2023-03-09"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "shortName": "ExpiryDate",
+                                            "longName": "Expiry Date"
+                                        },
+                                        "dateValue": "2028-03-09"
+                                    }
+                                ]
+                            }
+                        },
+                        "workerDates": {
+                            "firstHireDate": "2023-01-09",
+                            "originalHireDate": "2023-01-08",
+                            "acquisitionDate": "2023-01-07"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "Current",
+                                "shortName": "Current"
+                            }
+                        },
+                        "businessCommunication": {
+                            "landlines": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "WORK",
+                                        "shortName": "Work Telephone"
+                                    },
+                                    "formattedNumber": "12345678900",
+                                    "extension": "90210"
+                                }
+                            ],
+                            "mobiles": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "WORKMOBILE"
+                                    },
+                                    "formattedNumber": "00987654321"
+                                }
+                            ],
+                            "emails": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "WORKEMAIL",
+                                        "shortName": "Work Email"
+                                    },
+                                    "emailUri": "MitsuB@adp.com"
+                                }
+                            ]
+                        },
+                        "workAssignment": {
+                            "hireDate": "2024-01-02",
+                            "reportsTo": [
+                                {
+                                    "associateOID": "",
+                                    "workerID": {
+                                        "idValue": "JP6121",
+                                        "schemeCode": {
+                                            "codeValue": "REFERENCENUMBER",
+                                            "shortName": "REFERENCE NUMBER"
+                                        }
+                                    },
+                                    "reportsToWorkerName": {
+                                        "formattedName": "Jean Alesi"
+                                    }
+                                }
+                            ],
+                            "primaryIndicator": true,
+                            "expectedStartDate": "2024-01-02",
+                            "assignmentStatus": {
+                                "reasonCode": {
+                                    "codeValue": "02"
+                                }
+                            },
+                            "standardPayPeriodHours": {
+                                "unitCode": {
+                                    "shortName": "D"
+                                }
+                            },
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "F1"
+                                }
+                            ],
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "REASONFORCHANGE"
+                                        },
+                                        "codeValue": "New Starter",
+                                        "shortName": "New Starter"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "GLBUSINESSCODE"
+                                        },
+                                        "codeValue": "1234-67"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "WPCONTRACTEDHOURSUNIT"
+                                        },
+                                        "codeValue": "W",
+                                        "shortName": "Weekly"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "LEGALSITUATION"
+                                        },
+                                        "codeValue": "04",
+                                        "shortName": "Employer´s retirement"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CONTRACTENDDATE"
+                                        },
+                                        "dateValue": "2025-03-09"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "ORDINARYHOURSPERDAY",
+                                            "shortName": "Ordinary Hours per Day"
+                                        },
+                                        "numberValue": 8
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CONTRACTEDHOURS",
+                                            "shortName": "Contracted Hours"
+                                        },
+                                        "numberValue": 40
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Base Rate - Days per year"
+                                        },
+                                        "numberValue": 260
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "Base Rate - Hours per pay period",
+                                            "shortName": "Base Rate - Hours per pay period"
+                                        },
+                                        "numberValue": 186.66
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "TIMESHEETTEMPLATE"
+                                        },
+                                        "stringValue": "Weekly Template"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "COMMENTS"
+                                        },
+                                        "stringValue": " 6 month notice period"
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "PAYROLLCOMPANY",
+                                            "shortName": "PAYROLLCOMPANY"
+                                        },
+                                        "stringValue": "GBMAG01"
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "CLOSEPREVIOUSJOB"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "COVERINGPOSITION"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "SUSPENDTIMESHEETS"
+                                        },
+                                        "indicatorValue": false
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "USEWORKPATTERN",
+                                            "shortName": "USEWORKPATTERN"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "IRREGULARPAYMENTPATTERN"
+                                        },
+                                        "indicatorValue": true
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "EEAUTOGENREGIND"
+                                        },
+                                        "indicatorValue": true
+                                    }
+                                ]
+                            },
+                            "workerProbationPeriod": {
+                                "endDate": "2025-03-10"
+                            },
+                            "workerTypeCode": {
+                                "codeValue": "Permanent",
+                                "shortName": "Permanent"
+                            },
+                            "workLevelCode": {
+                                "codeValue": "Full_Time",
+                                "shortName": "Full Time"
+                            },
+                            "legalEntityID": "API_125",
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "shortName": "Crew 1"
+                                    }
+                                }
+                            ],
+                            "jobCode": {
+                                "codeValue": "2",
+                                "shortName": "EMEA Sales Manager"
+                            },
+                            "jobTitle": "EMEA Sales Manager",
+                            "workShiftCode": {
+                                "shortName": "Sample Work Pattern"
+                            },
+                            "standardHours": {
+                                "hoursQuantity": 40,
+                                "unitCode": {
+                                    "codeValue": "F",
+                                    "shortName": "Fixed"
+                                }
+                            },
+                            "fullTimeEquivalenceRatio": "1",
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "01",
+                                        "shortName": "PW123",
+                                        "longName": "Phantomworks"
+                                    },
+                                    "typeCode": {
+                                        "codeValue": "Department",
+                                        "shortName": "API_125"
+                                    }
+                                }
+                            ],
+                            "homeWorkLocation": {
+                                "nameCode": {
+                                    "codevalue": "ADPPOST_E"
+                                },
+                                "address": {
+                                    "conutryCode": "GB"
+                                }
+                            },
+                            "payrollFileNumber": "JP1962",
+                            "payrollGroupCode": "GBMAG01",
+                            "baseRemuneration": {
+                                "effectiveDate": "2024-01-02",
+                                "recordingBasisCode": {
+                                    "ShortName": "Hourly"
+                                },
+                                "payPeriodRateAmount": {
+                                    "nameCode": {
+                                        "shortName": "Base rate"
+                                    },
+                                    "amountValue": 61.97
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
