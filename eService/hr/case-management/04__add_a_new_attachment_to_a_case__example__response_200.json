@@ -1,0 +1,16 @@
+{
+    "_confirmMessage": {
+      "requestStatus": "success",
+      "messages": [
+        {
+          "messageCode": "Pass",
+          "messageText": "Request Success"
+        }
+      ],
+      "resourceMessages": [
+        {
+          "resourceID": "A123456"
+        }
+      ]
+    }
+  }

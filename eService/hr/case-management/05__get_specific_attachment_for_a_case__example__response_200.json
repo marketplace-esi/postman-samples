@@ -1,0 +1,20 @@
+{
+    "attachmentID": "A123456",
+    "attachmentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "uploadedDateTime": "03/12/2024 05:36:25",
+    "uploadedByName": "Client",
+    "fileSize": "6",
+    "textValue": "MTIzJCVe",
+    "nameCode": {
+      "name": "LoremIpsum.7z"
+    },
+    "_confirmMessage": {
+      "requestStatus": "success",
+      "messages": [
+        {
+          "messageCode": "Pass",
+          "messageText": "Request Success"
+        }
+      ]
+    }
+  }

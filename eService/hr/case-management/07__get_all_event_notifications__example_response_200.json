@@ -1,0 +1,38 @@
+[
+    {
+        "effectiveDateTime": "2024-03-11T12:24:54.31Z",
+        "eventID": "5e3acc0ad004b9174caf080b",
+        "eventNameCode": {
+            "codeValue": "case.status.change"
+        },
+        "links": [
+            {
+                "rel": "full",
+                "href": "/hr/v1/case-management/workers/AOID123/cases/A123456"
+            }
+        ],
+        "recordDateTime": "2024-03-11T12:24:54.31Z",
+        "creationDateTime": "2024-03-11T12:24:54.434Z",
+        "originator": {
+            "associateOID": "AOID123"
+        }
+    },
+    {
+        "effectiveDateTime": "2024-03-11T12:24:54.31Z",
+        "eventID": "5e3acc0ad004b9174caf080b",
+        "eventNameCode": {
+            "codeValue": "case.status.change"
+        },
+        "links": [
+            {
+                "rel": "full",
+                "href": "/hr/v1/case-management/workers/AOID123/cases/A123457"
+            }
+        ],
+        "recordDateTime": "2024-03-11T12:24:54.31Z",
+        "creationDateTime": "2024-03-11T12:24:54.434Z",
+        "originator": {
+            "associateOID": "AOID123"
+        }
+    }
+]
