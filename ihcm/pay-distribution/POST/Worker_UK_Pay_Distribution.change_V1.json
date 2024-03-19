@@ -1,0 +1,68 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "payroll"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.payDistribution.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0O3DD4514G9S6"
+                    },
+                    "payDistribution": {
+                        "itemID": ""
+                    }
+                },
+                "transform": {
+                    "payDistribution": {
+                        "payrollGroupCode": {
+                            "codeValue": "GBMAG01"
+                        },
+                        "distributionPurposeCode": {
+                            "codeValue": ""
+                        },
+                        "distributionInstructions": [
+                            {
+                                "precedenceCode": {
+                                    "codeValue": 1
+                                },
+                                "paymentMethodCode": {
+                                    "codeValue": "D",
+                                    "shortName": "BACS"
+                                },
+                                "depositAccount": {
+                                    "financialParty": {
+                                        "nameCode": {
+                                            "shortName": "Bank of England"
+                                        },
+                                        "branchNameCode": {
+                                            "codeValue": "100000",
+                                            "shortName": "Head Office"
+                                        }
+                                    },
+                                    "financialAccount": {
+                                        "accountNumber": "31510604",
+                                        "accountName": "My Bank Name",
+                                        "rollNumber": "666"
+                                    }
+                                },
+                                "distributionAmount": {
+                                    "amountValue": ""
+                                },
+                                "distributionPercentage": 100,
+                                "remainingBalanceIndicator": true,
+                                "instructionEffectivePeriod": {
+                                    "startDateTime": "2024-02-01T00:00:00.00Z",
+                                    "endDateTime": ""
+                               }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+} 

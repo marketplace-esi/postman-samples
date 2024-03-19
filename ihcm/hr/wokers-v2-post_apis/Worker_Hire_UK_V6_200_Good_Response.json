@@ -1,0 +1,396 @@
+{
+  "events": [
+    {
+      "data": {
+        "output": {
+          "worker": {
+            "workerID": {
+              "idValue": "JP1962",
+              "schemeCode": {
+                "codeValue": "REFERENCE",
+                "shortName": "Employee Reference Number"
+              }
+            },
+            "associateOID": "AO0O3EN5943HRQL",
+            "person": {
+              "identityDocuments": [
+                {
+                  "documentID": "WH354682A",
+                  "typeCode": {
+                    "codeValue": "UK National Insurance Number",
+                    "shortName": "UK National Insurance Number"
+                  }
+                }
+              ],
+              "governmentIDs": [
+                {
+                  "idValue": "WH354682A",
+                  "nameCode": {
+                    "codeValue": "UK National Insurance Number",
+                    "shortName": "UK National Insurance Number"
+                  }
+                }
+              ],
+              "legalName": {
+                "givenName": "Mitsu",
+                "familyName1": "Bishi",
+                "familyName2": "Honda",
+                "formattedName": "Mitsu Bishi",
+                "preferredSalutations": [
+                  {
+                    "salutationCode": {
+                      "codeValue": "Mr",
+                      "shortName": "Mr."
+                    },
+                    "typeCode": {
+                      "codeValue": "SOCIAL",
+                      "shortName": "Social"
+                    },
+                    "sequenceNumber": 1
+                  }
+                ],
+                "nickName": "Bishy"
+              },
+              "birthDate": "1970-07-03",
+              "birthDateString": "07/1970",
+              "deceasedIndicator": false,
+              "genderCode": {
+                "codeValue": "Male",
+                "shortName": "Male"
+              },
+              "religionCode": {
+                "codeValue": "Buddhist",
+                "shortName": "Buddhist"
+              },
+              "maritalStatusCode": {
+                "codeValue": "S",
+                "shortName": "Single"
+              },
+              "disabledIndicator": false,
+              "birthPlace": {
+                "cityName": "canada",
+                "countryCode": "Canadian"
+              },
+              "ethnicityCode": {
+                "codeValue": "African American",
+                "shortName": "African American"
+              },
+              "citizenshipCountryCodes": [
+                {
+                  "codeValue": "Canadian",
+                  "shortName": "Canadian"
+                }
+              ],
+              "customFieldGroup": {
+                "dateFields": [
+                  {
+                    "dateValue": "2023-01-09",
+                    "nameCode": {
+                      "shortName": "DateFirstEmployment",
+                      "longName": "Date First Employment"
+                    }
+                  }
+                ]
+              },
+              "legalAddress": {
+                "nameCode": {
+                  "codeValue": "ADD2",
+                  "shortName": "Weekend Address"
+                },
+                "lineOne": "10 Downing St",
+                "lineTwo": "Whitehall",
+                "lineThree": "City of Westminister",
+                "cityName": "London",
+                "countrySubdivisionLevel1": {
+                  "codeValue": "Greater London"
+                },
+                "postalCode": "SW1 2AA",
+                "deliveryPoint": "True",
+                "countryCode": "GBR"
+              },
+              "otherPersonalAddresses": [
+                {
+                  "nameCode": {
+                    "codeValue": "HOME",
+                    "shortName": "Home Address"
+                  },
+                  "lineOne": "White Hart Lane",
+                  "lineTwo": "North London",
+                  "lineThree": "Tottenham",
+                  "cityName": "London",
+                  "countrySubdivisionLevel1": {
+                    "codeValue": "Bravo"
+                  },
+                  "countryCode": "CAN",
+                  "postalCode": "BS50 2AK"
+                }
+              ]
+            },
+            "workerDates": {
+              "firstHireDate": "2023-01-09",
+              "originalHireDate": "2023-01-08",
+              "adjustedServiceDate": "2023-01-08",
+              "acquisitionDate": "2023-01-07"
+            },
+            "workerStatus": {
+              "statusCode": {
+                "codeValue": "Current",
+                "shortName": "Current"
+              }
+            },
+            "businessCommunication": {
+              "landlines": [
+                {
+                  "formattedNumber": "12345678900",
+                  "nameCode": {
+                    "codeValue": "WORK",
+                    "shortName": "Work Telephone"
+                  },
+                  "extension": "90210"
+                }
+              ],
+              "emails": [
+                {
+                  "emailUri": "MitsuB@adp.com",
+                  "nameCode": {
+                    "codeValue": "WORKEMAIL",
+                    "shortName": "Work Email"
+                  }
+                }
+              ]
+            },
+            "workAssignment": {
+              "hireDate": "2024-01-02",
+              "assignmentStatus": {
+                "statusCode": {
+                  "codeValue": "Current",
+                  "shortName": "Current"
+                },
+                "reasonCode": {
+                  "codeValue": "02",
+                  "shortName": "Internal promotion"
+                }
+              },
+              "workerProbationPeriod": {
+                "endDate": "2025-03-10"
+              },
+              "homeWorkLocation": {
+                "address": {
+                  "countryCode": "GB"
+                },
+                "nameCode": {
+                  "codeValue": "ADPPOST_E",
+                  "shortName": "Envelope and post to home address"
+                }
+              },
+              "reportsTo": [
+                {
+                  "associateOID": "AO0O1KD0136042Y",
+                  "workerID": {
+                    "schemeCode": {
+                      "codeValue": "REFERENCENUMBER",
+                      "shortName": "REFERENCE NUMBER"
+                    },
+                    "idValue": "JP6121"
+                  },
+                  "reportsToWorkerName": {
+                    "formattedName": "Jean Alesi"
+                  },
+                  "reportsToRelationshipCode": {
+                    "codeValue": "REPORTSTO",
+                    "shortName": "REPORTS TO"
+                  }
+                }
+              ],
+              "payrollFileNumber": "JP1962",
+              "primaryIndicator": true,
+              "legalEntityID": "API_125",
+              "expectedStartDate": "2024-01-02",
+              "assignmentCostCenters": [
+                {
+                  "costCenterID": "F1",
+                  "costCenterName": "Formula One"
+                }
+              ],
+              "workerTypeCode": {
+                "codeValue": "Permanent",
+                "shortName": "Permanent"
+              },
+              "workLevelCode": {
+                "codeValue": "Full_Time",
+                "shortName": "Full Time"
+              },
+              "workerGroups": [
+                {
+                  "groupCode": {
+                    "shortName": "Crew 1"
+                  }
+                }
+              ],
+              "jobCode": {
+                "codeValue": "2",
+                "shortName": "EMEA Sales Manager"
+              },
+              "jobTitle": "EMEA Sales Manager",
+              "workShiftCode": {
+                "shortName": "Sample Work Pattern"
+              },
+              "standardHours": {
+                "unitCode": {
+                  "codeValue": "F",
+                  "shortName": "Fixed"
+                }
+              },
+              "fullTimeEquivalenceRatio": 1.0,
+              "assignedOrganizationalUnits": [
+                {
+                  "nameCode": {
+                    "codeValue": "1",
+                    "shortName": "PW123",
+                    "longName": "Phantomworks"
+                  },
+                  "typeCode": {
+                    "codeValue": "Department",
+                    "shortName": "API_125"
+                  }
+                }
+              ],
+              "customFieldGroup": {
+                "codeFields": [
+                  {
+                    "codeValue": "100",
+                    "nameCode": {
+                      "codeValue": "GLBUSINESSCODE",
+                      "shortName": "General Ledger Business Code"
+                    }
+                  }
+                ],
+                "indicatorFields": [
+                  {
+                    "indicatorValue": false,
+                    "nameCode": {
+                      "codeValue": "CLOSEPREVIOUSJOB",
+                      "shortName": "CLOSEPREVIOUSJOB"
+                    }
+                  },
+                  {
+                    "indicatorValue": true,
+                    "nameCode": {
+                      "codeValue": "USEWORKPATTERN",
+                      "shortName": "USEWORKPATTERN"
+                    }
+                  }
+                ],
+                "stringFields": [
+                  {
+                    "stringValue": "2e869864-b202-4ff3-9923-b824e9db6e0a",
+                    "nameCode": {
+                      "codeValue": "JOBDETAIL_ID",
+                      "shortName": "JOBDETAIL_ID"
+                    }
+                  },
+                  {
+                    "stringValue": "2e869864-b202-4ff3-9923-b824e9db6e0a",
+                    "nameCode": {
+                      "codeValue": "workAssignmentId",
+                      "shortName": "workAssignmentId"
+                    }
+                  }
+                ],
+                "numberFields": [
+                  {
+                    "numberValue": 260,
+                    "nameCode": {
+                      "codeValue": "Base Rate - Days per year",
+                      "shortName": "Base Rate - Days per year"
+                    }
+                  },
+                  {
+                    "numberValue": 186.66,
+                    "nameCode": {
+                      "codeValue": "Base Rate - Hours per pay period",
+                      "shortName": "Base Rate - Hours per pay period"
+                    }
+                  }
+                ]
+              },
+              "standardPayPeriodHours": {
+                "unitCode": {
+                  "shortName": "D - 30 hours or more"
+                }
+              },
+              "payrollGroupCode": "GBMAG01",
+              "baseRemuneration": {
+                "effectiveDate": "2024-01-02",
+                "hourlyRateAmount": {
+                  "amountValue": 62.0
+                },
+                "dailyRateAmount": {
+                  "amountValue": 534.134769
+                },
+                "weeklyRateAmount": {
+                  "amountValue": 2670.673846
+                },
+                "monthlyRateAmount": {
+                  "amountValue": 11572.92
+                },
+                "annualRateAmount": {
+                  "amountValue": 138875.04
+                },
+                "recordingBasisCode": {
+                  "shortName": "Hourly"
+                },
+                "biweeklyRateAmount": {
+                  "amountValue": 5341.347692
+                },
+                "payPeriodRateAmount": {
+                  "nameCode": {
+                    "shortName": "Base rate"
+                  },
+                  "amountValue": 62.0,
+                  "currencyCode": "GBP"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "fdd012f2-d769-4372-904c-080f4c366f6d",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-03-14T23:59:49.3310061\u002B00:00",
+    "requestReceiptDateTime": "2024-03-14T23:59:49.3310062\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "6005ea98-28a9-430b-85da-6ea5222d9b97",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "succeeded"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "104c3af7-286d-418f-820f-b4e9d9b50754",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "warning"
+            },
+            "userMessage": {
+              "messageTxt": "The NI number entered is currently recorded against another employee. It should be unique."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
