@@ -1,0 +1,173 @@
+{
+    "caseManagementCases": [
+      {
+        "caseSubject": "Lorem ipsum",
+        "caseCategoryCode": {
+          "name": "Relationship"
+        },
+        "caseSubCategoryCode": {
+          "name": "Client Care"
+        },
+        "caseTypeCode": {
+          "name": "Employer"
+        },
+        "caseSubTypeCode": {
+          "name": "Report an Issue"
+        },
+        "casePriorityCode": "4-Low",
+        "caseDescription": "Lorem ipsum",
+        "caseSubmittedBy": {
+          "formattedName": "Lorem ipsum"
+        },
+        "caseCommunication": {
+          "emails": [
+            {
+              "emailUri": "user@example.com"
+            }
+          ]
+        },
+        "customFieldGroup": {
+          "stringFields": [
+            {
+              "nameCode": {
+                "code": "Account",
+                "name": "Lorem ipsum"
+              }
+            },
+            {
+              "nameCode": {
+                "code": "AccountCountry",
+                "name": "Lorem ipsum"
+              }
+            },
+            {
+              "nameCode": {
+                "code": "ProductName",
+                "name": "Enterprise eTIME"
+              }
+            },
+            {
+              "nameCode": {
+                "code": "ProductCategory",
+                "name": "Time and Attendance"
+              }
+            },
+            {
+              "nameCode": {
+                "code": "ProductDescription",
+                "name": "Enterprise eTIME for Global Workforce Management"
+              }
+            }
+          ]
+        },
+        "caseStatus": {
+          "code": "Cancelled"
+        },
+        "caseNumber": "A123456789",
+        "createdDateTime": "2024-01-25T10:42:03",
+        "modifiedDateTime": "2024-03-08T08:31:42",
+        "closedDateTime": "2024-03-08T08:31:41",
+        "comments": [
+          {
+            "commentText": "Lorem ipsum",
+            "commentCode": {
+              "code": "CommentType",
+              "name": "Customer Comments"
+            },
+            "entryDateTime": "2024-01-30T06:58:47",
+            "commentID": "A123456",
+            "commentStatus": {
+              "name": "Open"
+            }
+          },
+          {
+            "commentText": "Lorem ipsum",
+            "commentCode": {
+              "code": "CommentType",
+              "name": "Agent Comments"
+            },
+            "entryDateTime": "2024-01-29T06:25:17",
+            "commentID": "A123456",
+            "commentStatus": {
+              "name": "Done"
+            }
+          },
+          {
+            "commentText": "Lorem ipsum",
+            "commentCode": {
+              "code": "CommentType",
+              "name": "Customer Comments"
+            },
+            "entryDateTime": "2024-01-25T11:19:52",
+            "commentID": "A123456",
+            "commentStatus": {
+              "name": "Done"
+            }
+          },
+          {
+            "commentText": "Lorem ipsum",
+            "commentCode": {
+              "code": "CommentType",
+              "name": "Agent Comments"
+            },
+            "entryDateTime": "2024-01-25T10:48:49",
+            "commentID": "A123456",
+            "commentStatus": {
+              "name": "Done"
+            }
+          }
+        ],
+        "attachments": [
+          {
+            "attachmentID": "A123456",
+            "nameCode": {
+              "name": "LoremIpsum.txt"
+            },
+            "attachmentDescription": "Lorem ipsum",
+            "uploadedByName": "Client",
+            "uploadedDateTime": "2024-02-02T06:58:32",
+            "fileSize": 74
+          },
+          {
+            "attachmentID": "1-HVL84W9",
+            "nameCode": {
+              "name": "LoremIpsum1.txt"
+            },
+            "attachmentDescription": "Lorem ipsum",
+            "uploadedByName": "Client",
+            "uploadedDateTime": "2024-01-31T06:29:56",
+            "fileSize": 773739
+          },
+          {
+            "attachmentID": "1-HVL8KVJ",
+            "nameCode": {
+              "name": "LoremIpsum2.txt"
+            },
+            "attachmentDescription": "Lorem ipsum",
+            "uploadedByName": "Client",
+            "uploadedDateTime": "2024-01-31T07:47:44",
+            "fileSize": 192806
+          },
+          {
+            "attachmentID": "1-HVL8KYV",
+            "nameCode": {
+              "name": "LoremIpsum3.txt"
+            },
+            "attachmentDescription": "Lorem ipsum",
+            "uploadedByName": "Client",
+            "uploadedDateTime": "2024-01-31T07:51:49",
+            "fileSize": 374126
+          }
+        ]
+      }
+    ],
+    "_confirmMessage": {
+      "requestStatus": "success",
+      "messages": [
+        {
+          "messageCode": "Pass",
+          "messageText": "Request Success"
+        }
+      ]
+    }
+  }

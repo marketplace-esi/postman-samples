@@ -1,0 +1,25 @@
+{
+    "caseSubject": "Lorem ipsum",
+    "casePriorityCode": "4-Low",
+    "caseCategoryCode": {
+        "name": "General/Account"
+    },
+    "caseSubCategoryCode": {
+        "name": "Update company details"
+    },
+    "caseTypeCode": {
+        "name": "Employer"
+    },
+    "caseDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "externalReferenceID": "123456789",
+    "customFieldGroup": {
+        "stringFields": [
+            {
+                "nameCode": {
+                    "code": "ProductId",
+                    "name": "A123456"
+                }
+            }
+        ]
+    }
+}
