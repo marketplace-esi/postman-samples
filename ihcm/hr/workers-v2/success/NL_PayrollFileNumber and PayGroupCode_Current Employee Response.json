@@ -1,0 +1,270 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "46607-49",
+                "schemeCode": {
+                    "codeValue": "REFERENCE",
+                    "shortName": "Employee Reference Number"
+                }
+            },
+            "associateOID": "AOID00106",
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Current",
+                    "shortName": "Current"
+                }
+            },
+            "person": {
+                "legalName": {
+                    "familyName1": "AAAAa",
+                    "givenName": "AAAa",
+                    "nickName": "AAAa",
+                    "formattedName": "AAAAAAAAAa",
+                    "preferredSalutations": [
+                        {
+                            "sequenceNumber": 1,
+                            "salutationCode": {
+                                "codeValue": "Ms",
+                                "shortName": "Ms."
+                            },
+                            "typeCode": {
+                                "codeValue": "SOCIAL",
+                                "shortName": "Social"
+                            }
+                        }
+                    ],
+                    "initials": "A"
+                },
+                "birthDate": "1995-09-27",
+                "genderCode": {
+                    "codeValue": "Female",
+                    "shortName": "Female"
+                },
+                "communication": {
+                    "mobiles": [
+                        {
+                            "nameCode": {
+                                "codeValue": "PERMOBILE",
+                                "shortName": "Personal Mobile"
+                            },
+                            "formattedNumber": "06191-173373"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "PERSONALEMAIL",
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "EMAIL@EMAIL.COM"
+                        }
+                    ]
+                },
+                "customFieldGroup": {
+                    "dateFields": [
+                        {
+                            "dateValue": "2023-06-01",
+                            "nameCode": {
+                                "shortName": "DateFirstEmployment",
+                                "longName": "Date first Employment"
+                            }
+                        },
+                        {
+                            "dateValue": "2024-05-30",
+                            "nameCode": {
+                                "shortName": "END DATE CONTRACT 1"
+                            }
+                        }
+                    ]
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "0001",
+                        "shortName": "Dutch"
+                    }
+                ],
+                "governmentIDs": [
+                    {
+                        "idValue": "111111110",
+                        "nameCode": {
+                            "codeValue": "SocialSecurityNumber",
+                            "shortName": "Social Security Number"
+                        },
+                        "countryCode": "NL"
+                    }
+                ],
+                "identityDocuments": [
+                    {
+                        "documentID": "111111110",
+                        "typeCode": {
+                            "codeValue": "SocialSecurityNumber",
+                            "shortName": "Social Security Number"
+                        },
+                        "countryCode": "NL"
+                    }
+                ],
+                "otherPersonalAddresses": [
+                    {
+                        "deliveryPoint": "True",
+                        "itemID": "4978dc48-1474-4cc7-8f6f-889a8285ec3b",
+                        "buildingNumber": "A2",
+                        "cityName": "AAAAAAAAl",
+                        "countryCode": "AL",
+                        "streetName": "AAAAAAg",
+                        "postalCode": "UT1 5GX"
+                    }
+                ],
+                "legalAddress": {
+                    "deliveryPoint": "True",
+                    "buildingNumber": "A2",
+                    "cityName": "AAAAAAAAl",
+                    "countryCode": "AL",
+                    "postalCode": "UT1 5GX",
+                    "streetName": "AAAAAAg"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "WORKEMAIL",
+                            "shortName": "Work Email"
+                        },
+                        "emailUri": "EMAIL@EMAIL.COM"
+                    }
+                ]
+            },
+            "workerDates": {
+                "adjustedServiceDate": "2023-06-01"
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Current",
+                            "shortName": "Current"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Temporary",
+                        "longName": "Temporary"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Part_Time",
+                        "shortName": "Part Time"
+                    },
+                    "jobTitle": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg",
+                    "jobCode": {
+                        "effectiveDate": "2023-06-01",
+                        "codeValue": "23012",
+                        "shortName": "Food & Beverage Waiter - Medewerker Bediening"
+                    },
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "NL"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 0.0,
+                        "unitCode": {
+                            "codeValue": "C",
+                            "shortName": "Casual Worker"
+                        }
+                    },
+                    "legalEntityID": "46607 - Qdiymchuzgsyidl",
+                    "reportsTo": [
+                        {
+                            "itemID": "5d2e1413-68b4-454e-b156-84f450203098",
+                            "associateOID": "AOID00912",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTS TO"
+                            },
+                            "workerID": {
+                                "idValue": "46607-4",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "AAAAAAAAAAAk",
+                                "givenName": "AAAAAa",
+                                "familyName1": "AAAAk"
+                            }
+                        }
+                    ],
+                    "hireDate": "2023-06-01",
+                    "workerProbationPeriod": {
+                        "endDate": "2039-07-01"
+                    },
+                    "itemID": "fe0e18dc-e0b5-4e10-a322-9e36f6651ec5",
+                    "payrollGroupCode": "46607",
+                    "payrollFileNumber": "49",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "46607-210",
+                                "shortName": "Amedia F&B"
+                            },
+                            "typeCode": {
+                                "codeValue": "1",
+                                "shortName": "Department",
+                                "longName": "Organisation structure"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "46607",
+                                "shortName": "Amedia Hotel BV"
+                            },
+                            "typeCode": {
+                                "codeValue": "0",
+                                "shortName": "Company",
+                                "longName": "Organisation structure"
+                            }
+                        }
+                    ],
+                    "baseRemuneration": {
+                        "recordingBasisCode": {
+                            "codeValue": "4",
+                            "shortName": "4=Hourly wage"
+                        }
+                    },
+                    "customFieldGroup": {
+                        "amountFields": [
+                            {
+                                "amountValue": 13.39,
+                                "nameCode": {
+                                    "codeValue": "SALAMOUNT",
+                                    "shortName": "Salary Amount"
+                                }
+                            }
+                        ],
+                        "codeFields": [
+                            {
+                                "codeValue": "4",
+                                "shortName": "4=Hourly wage",
+                                "nameCode": {
+                                    "codeValue": "SALFRQCODE",
+                                    "shortName": "Salary Pay Frequency Code"
+                                }
+                            }
+                        ],
+                        "numberFields": [
+                            {
+                                "nameCode": {
+                                    "shortName": "Hours per period"
+                                },
+                                "numberValue": 1.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
