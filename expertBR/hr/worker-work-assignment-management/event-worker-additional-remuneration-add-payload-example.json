@@ -1,0 +1,95 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.work-assignment.additional-remuneration.add"
+			},
+			"eventTitle": "Worker Additional Remuneration Add",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2024-01-01T00:00:00Z",
+			"expirationDateTime": "2024-12-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker": {
+						"associateOID": "15X0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"associateOID": "15X0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						},
+						"workAssignment":{ 
+						   "additionalRemuneration":{
+							   "typeCode":{
+								   "codeValue": "AC",
+								   "shortName": "Additional contract"
+							   },
+							   "intervalCode":{
+								   "shortName": "monthly"
+							   },
+							   "nameCode":{
+								   "codeValue": "0011",
+								   "shortName": "Payment",
+								   "longName": "Diferença de Salário"
+							   },
+							   "rate": {
+								 "amountValue": 1000.00,
+								 "currencyCode": "BRL",
+								 "unitCode":{
+								   "codeValue": "50_50",
+								   "shortName": "Lecture and Administrative Hours"
+								 },
+								 "baseUnitCode":{
+									"codeValue": "M",
+									"shortName": "Monthly"
+								 },
+								 "baseMultiplierValue": 1.00
+							   },
+							   "associatedRateQualifiers":[
+								{
+									"qualifierObjectTypeCode": {
+										"shortName": "Job"
+									},
+									"qualifierObjectCode": {
+										"codeValue": "1-1",
+										"shortName": "Função 1"
+									}									
+								},
+								{
+									"qualifierObjectTypeCode": {
+										"shortName": "Org Unit"
+									},
+									"qualifierObjectCode": {
+										"codeValue": "D_1_2_3",
+										"shortName": "Centro de Resultado 1"
+									}									
+								},
+								{
+									"qualifierObjectTypeCode": {
+										"shortName": "Pay Scale"
+									},
+									"qualifierObjectCode": {
+										"codeValue": "1-1-1",
+										"shortName": "Tabela Salarial 1"
+									}									
+								}
+							   ],
+							   "itemID": "LF_0011_2023-12-01"
+							}
+						}
+					}
+				}				 
+			}
+		}
+	]
+}

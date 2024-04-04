@@ -1,0 +1,12 @@
+{
+  "codeListTitle": "Holidays",
+  "exclusiveIndicator": true,
+  "listItems": [
+    {
+      "code": "2023-09-20_State_RS",
+      "name": "Holiday 2023-09-20 State Rio Grande do Sul",
+      "category": "State",
+      "valuePattern": "Holiday"
+    }
+  ]
+}

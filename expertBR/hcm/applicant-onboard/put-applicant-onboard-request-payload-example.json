@@ -1,0 +1,325 @@
+{
+	"applicantOnboarding": {
+		"associateOID": "1X123456789",
+		"onboardingStatus": {
+			"statusCode": {
+				"code": "HIRE"
+			}
+		},
+		"applicantID": "9_1",
+		"workerID": {
+			"id": "123456"
+		},		
+		"applicantPersonalProfile": {
+			"legalName": {
+				"givenName": "Mário",
+				"middleName": "Roberto",
+				"familyName": "Silva",
+				"formattedName": "Mário Roberto Silva"
+			},
+			"preferredName": {
+				"givenName": "Maria",
+				"middleName": "Augusta",
+				"familyName": "Silva",
+				"formattedName": "Maria Augusta Silva"
+			},
+			"genderCode": {
+				"code": "M"
+			},
+			"birthDate": "2003-04-05",
+			"governmentIDs": [
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"name": "CPF"
+					}
+				},
+				{
+					"id": "123456789",
+					"nameCode": {
+						"code": "123 - RS",
+						"name": "CTPS"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					}
+				},
+				{
+					"id": "123456879",
+					"nameCode": {
+						"name": "PIS"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					}
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"name": "Certificado de Reservista"
+					}
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"code": "1050 – 704 – 4314902",
+						"name": "Título de Eleitor"
+					}
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"code": "A - DETRAN - RS",
+						"name": "CNH"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					},
+					"expirationDate": "3000-01-01"
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"code": "SJS",
+						"name": "RIC"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					}
+				}
+			],
+			"communication": {
+				"landlines": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "30000000",
+						"formattedNumber": "51 30000000"
+					}
+				],
+				"mobiles": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "90000000",
+						"formattedNumber": "51 90000000"
+					}
+				],
+				"emails": [
+					{
+						"emailUri": "TEST@ADP.COM"
+					}
+				],
+				"faxes": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "33000000",
+						"formattedNumber": "51 33000000"
+					}
+				]
+			},
+			"legalAddress": {
+				"cityName": "Porto Alegre",
+				"countryCode": "BR",
+				"postalCode": "90000000",
+				"buildingNumber": "500",
+				"blockName": "Três Figueiras",
+				"streetName": "Soledade",
+				"streetTypeCode": {
+					"name": "Avenida"
+				},
+				"unit": "5º andar"
+			},
+			"maritalStatusCode": {
+				"code": "CAS"
+			},
+			"raceCode":{
+				"code": "2"
+			},
+			"studentIndicator": false,
+			"disabilityTypeCodes": [
+				{
+					"code": "AUDITIVA",
+					"name": "descrição da deficiência"
+				},
+				{
+					"code": "MOTORA",
+					"name": "descrição da deficiência"
+				}
+			]
+		},
+		"applicantWorkerProfile": {
+			"alternateIDs":{
+				"id": "ABC123456"
+			},			
+			"reportsTo":[
+				{
+					"associateOID": "1X00057894",
+					"workerID":{
+						"id": "001-888888"
+					}
+				}
+			],
+			"job": {
+				"jobCode": {
+				   "code": "1-1"
+				}
+			},
+			"hireDate": "2024-01-01",
+			"hireReasonCode": {
+				"code": "1"
+			},
+			"payGradeCode": {
+				"code": "1-1-1"
+			},
+			"workerTypeCode":{
+				"code": "ESTAG"
+			},
+			"workArrangementCode": {
+				"code": "1"
+			},
+			"assignmentTermCode":{
+				"code": "1"
+			},
+			"workShiftCode":{
+				"code": "1-1"
+			},
+			"homeOrganizationalUnits":[
+				{
+					"nameCode":{
+					  "code": "B_001_01_1235687"
+					},
+					"itemID": "12345678"
+				}
+			],
+			"laborUnion": {
+				"laborUnionCode": {
+					"code": "1"
+				}
+			},
+			"bargainingUnit": {
+				"bargainingUnitCode": {
+					"code": "1"
+				}
+			},
+			"businessCommunication":{
+				"emails":[
+					{
+						"emailUri": "1234@adp.com"
+					}
+			   ]
+			},
+			"customFieldGroup": {
+				"stringFields":[
+					{
+						"nameCode":{
+							"shortName": "Mother's name"
+						},
+						"stringValue": "Maria"
+					},
+					{
+						"nameCode":{
+							"shortName": "Father's name"
+						},
+						"stringValue": "Everton"
+					},
+					{
+						"nameCode":{
+							"shortName": "Union Legal ID"
+						},
+						"stringValue": "1234567890123"
+					},
+					{
+						"nameCode":{
+							"shortName": "Legal authorization proceding"
+						},
+						"stringValue": "123456789"
+					},
+					{
+						"nameCode":{
+							"shortName": "Hire origination legal proceding"
+						},
+						"stringValue": "123456789"
+					},
+					{
+						"nameCode":{
+							"shortName": "Contract duration based on a fact"
+						},
+						"stringValue": "fato"
+					}
+				],
+				"codeFields":[
+					{
+						"nameCode":{
+							"shortName": "Sefip Event"
+						},
+						"stringValue": "00"
+					},
+					{
+						"nameCode":{
+							"shortName": "Hire Type"
+						},
+						"stringValue": "1"
+					},
+					{
+						"nameCode":{
+							"shortName": "Hire Indicator"
+						},
+						"stringValue": "1"
+					},
+					{
+						"nameCode":{
+							"shortName": "Type of Activity"
+						},
+						"stringValue": "1"
+					},
+					{
+						"nameCode":{
+							"shortName": "TLM Type"
+						},
+						"stringValue": "1"
+					}
+				]
+			}
+		},
+		"applicantPayrollProfile": {
+			"baseRemuneration": {
+				"recordingBasisCode":{
+					"code": "M"
+				},
+				"hourlyRateAmount": {
+					"amountValue": 10.00
+				},
+				"monthlyRateAmount": {
+					"amountValue": 2000.00
+				},
+				"effectiveEndDate": "2024-06-01"
+			},
+			"additionalRemunerations": [
+				{
+					"remunerationTypeCode": {
+						"name": "remuneração variável"
+					}
+				}
+			],
+			"standardHours": 200.00
+		},
+		"payDistributionInstructions": [
+			{
+				"paymentMethodCode": {
+					"code": "1"
+				},
+				"paymentMethod": {
+					"depositAccount": {
+						"depositAccountID": "341",
+						"branchNameCode": {
+							"code": "123456-1"
+						},
+						"routingTransitID": {
+							"id": "033"
+						},
+						"accountNumber": "123456"
+					}
+				}
+			}
+		]
+	}
+}

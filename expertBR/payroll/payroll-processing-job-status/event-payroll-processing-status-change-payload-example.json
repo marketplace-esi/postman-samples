@@ -1,0 +1,38 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "payroll-processing-job.status.change"
+			},
+			"eventTitle": "Payroll Processing Job Status",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"output": {
+					"payrollProcessingJob": {
+						"payrollYear": "2023",
+						"payrollRunNumber": "1234",
+						"payDate": "2023-01-01T00:00:00Z",
+						"payrollPeriod": {
+							"startDate": "2023-01-01T00:00:00Z",
+							"endDate": "2023-01-31T00:00:00Z"
+						},
+						"processingJobTypeCode": {
+							"codeValue": "8",
+							"shortName": "RESCIS",
+							"longName": "Rescisão"
+						},
+						"payrollProcessingStatusCode": {
+							"shortName": "Closed"
+						}
+					}
+				}				 
+			}
+		}
+	]
+}

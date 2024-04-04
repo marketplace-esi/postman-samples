@@ -1,0 +1,13 @@
+{
+	"applicantOnboarding": {
+		"applicantID": "9_1",
+		"associateOID": "1X12345678",
+		"onboardingStatus": {
+			"statusCode": {
+				"code": "complete"
+			}
+		},
+		"hireDate": "2024-01-08"
+	}
+}
+		

@@ -1,0 +1,26 @@
+{
+	"events": [
+        {
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+                "codeValue":"time-off-request.cancel"
+            },
+			"eventTitle": "Cancel Time Off Requests",
+			"recordDateTime": "2023-04-05T00:00:00Z",
+			"creationDateTime": "2023-04-05T00:00:00Z",
+			"effectiveDateTime": "2023-10-05T00:00:00Z",
+            "data":{
+				"eventContext": {
+					"associateOID": "15X423423423",
+					"workerID": {
+						"idValue": "001-00013234"
+                    },
+					"timeOffRequestID": "FE_2023-10-05"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,377 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-02-27T14:16:45.359400547+01:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "output": {
+                    "worker": {
+                        "associateOID": "AO0O2RD16424E80",
+                        "customFieldGroup": {
+                            "dateFields": [
+                                {
+                                    "dateValue": "2022-10-01",
+                                    "itemID": "LI4_LI4DAT00"
+                                },
+                                {
+                                    "dateValue": "2022-11-01",
+                                    "itemID": "VEH_PADATE00"
+                                },
+                                {
+                                    "dateValue": "2022-12-01",
+                                    "itemID": "VEH_PRDATE00"
+                                }
+                            ],
+                            "numberFields": [
+                                {
+                                    "itemID": "INF_COOMTS00",
+                                    "numberValue": 40
+                                }
+                            ],
+                            "stringFields": [
+                                {
+                                    "itemID": "DPR_CODE01",
+                                    "stringValue": "DPRCODE01"
+                                },
+                                {
+                                    "itemID": "VEH_PRCODE00",
+                                    "stringValue": "VPRCODE00"
+                                }
+                            ]
+                        },
+                        "person": {
+                            "birthDate": "1981-05-01",
+                            "birthPlace": {
+                                "cityName": "NANTES",
+                                "countryCode": "FR",
+                                "postalCode": "44000"
+                            },
+                            "citizenshipCountryCodes": [
+                                {
+                                    "codeValue": "FR",
+                                    "longName": "FRANCE",
+                                    "shortName": "FRANCE"
+                                }
+                            ],
+                            "deceasedIndicator": false,
+                            "genderCode": {
+                                "codeValue": "M",
+                                "longName": "Homme",
+                                "shortName": "Homme"
+                            },
+                            "identityDocuments": [
+                                {
+                                    "documentID": "1810544561234",
+                                    "typeCode": {
+                                        "codeValue": "SSN",
+                                        "shortName": "Numéro de sécurité sociale"
+                                    }
+                                }
+                            ],
+                            "legalAddress": {
+                                "countryCode": "FR",
+                                "countrySubdivisionLevel1": {
+                                    "codeValue": "NANTES",
+                                    "subdivisionType": "NANTES"
+                                },
+                                "postalCode": "44000"
+                            },
+                            "legalName": {
+                                "familyName1": "NTAMACK",
+                                "formattedName": "ROMAIN NTAMACK",
+                                "givenName": "ROMAIN",
+                                "middleName": "",
+                                "preferredSalutations": [
+                                    {
+                                        "salutationCode": {
+                                            "codeValue": "M",
+                                            "longName": "Monsieur",
+                                            "shortName": "M"
+                                        },
+                                        "sequenceNumber": 1
+                                    }
+                                ]
+                            },
+                            "maritalStatusCode": {
+                                "codeValue": ""
+                            }
+                        },
+                        "workAssignment": {
+                            "actualStartDate": "2023-06-03",
+                            "assignedOrganizationalUnits": [
+                                {
+                                    "itemID": "administrativeAssignment1",
+                                    "nameCode": {
+                                        "codeValue": "1",
+                                        "shortName": "GENERALE"
+                                    }
+                                },
+                                {
+                                    "itemID": "administrativeAssignment2",
+                                    "nameCode": {
+                                        "codeValue": "11",
+                                        "shortName": "STRATEGIE"
+                                    }
+                                },
+                                {
+                                    "itemID": "administrativeAssignment3",
+                                    "nameCode": {
+                                        "codeValue": "111",
+                                        "shortName": "MANAGEMENT"
+                                    }
+                                },
+                                {
+                                    "itemID": "departmentId",
+                                    "nameCode": {
+                                        "codeValue": "111111",
+                                        "longName": "MANAGEMENT",
+                                        "shortName": "MANAGEMENT"
+                                    }
+                                },
+                                {
+                                    "itemID": "strucAffectationId",
+                                    "nameCode": {
+                                        "codeValue": "",
+                                        "longName": "",
+                                        "shortName": ""
+                                    }
+                                }
+                            ],
+                            "assignedWorkLocations": [
+                                {
+                                    "address": {
+                                        "cityName": "LEVALLOIS PERRET",
+                                        "countryCode": "FR",
+                                        "countrySubdivisionLevel2": {
+                                            "codeValue": "LEVALLOIS PERRET",
+                                            "longName": "LEVALLOIS PERRET",
+                                            "shortName": "LEVALLOIS PERRET",
+                                            "subdivisionType": "INSEE"
+                                        },
+                                        "lineOne": "",
+                                        "lineTwo": "148 RUE ANATOLE FRANCE",
+                                        "postalCode": "92688",
+                                        "unit": "num bureau"
+                                    },
+                                    "nameCode": {
+                                        "codeValue": "01001",
+                                        "longName": "ORION SIEGE LEVALLOIS",
+                                        "shortName": "ORION SIEGE LEVALLOIS"
+                                    }
+                                }
+                            ],
+                            "assignmentCostCenters": [
+                                {
+                                    "costCenterID": "S0016",
+                                    "costCenterName": "Section 16",
+                                    "costCenterPercentage": 60
+                                },
+                                {
+                                    "costCenterID": "S0017",
+                                    "costCenterName": "Section 17",
+                                    "costCenterPercentage": 40
+                                }
+                            ],
+                            "baseRemuneration": {
+                                "annualRateAmount": {
+                                    "amountValue": 0,
+                                    "currencyCode": "EUR",
+                                    "nameCode": {
+                                        "codeValue": "MSATH",
+                                        "shortName": "Salaire annuel théorique"
+                                    }
+                                },
+                                "recordingBasisCode": {
+                                    "codeValue": "4",
+                                    "shortName": "13 mois"
+                                }
+                            },
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "441",
+                                        "itemID": "healthServiceSSAN",
+                                        "shortName": "SST REGION NANTAISE SSTRN"
+                                    },
+                                    {
+                                        "codeValue": "B",
+                                        "itemID": "modeRemSATH"
+                                    },
+                                    {
+                                        "codeValue": "SAL",
+                                        "itemID": "collaborationType",
+                                        "longName": "Salarié"
+                                    },
+                                    {
+                                        "codeValue": "40",
+                                        "itemID": "recoursReason",
+                                        "longName": "Contrat saisonnier"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "itemID": "contractType",
+                                        "longName": "CDD"
+                                    },
+                                    {
+                                        "codeValue": "01",
+                                        "itemID": "activity",
+                                        "longName": "ORION"
+                                    },
+                                    {
+                                        "codeValue": "B",
+                                        "itemID": "remunerationType",
+                                        "longName": "Base mensuelle"
+                                    },
+                                    {
+                                        "codeValue": "101",
+                                        "itemID": "workSchedule",
+                                        "longName": "Temps partiel 80%"
+                                    },
+                                    {
+                                        "codeValue": "Z",
+                                        "itemID": "TLM",
+                                        "longName": "Pas de GTA"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2022-12-01",
+                                        "itemID": "ATT_ATDAT00"
+                                    },
+                                    {
+                                        "dateValue": "2022-08-01",
+                                        "itemID": "LI1_LI1DAT00"
+                                    }
+                                ],
+                                "indicatorFields": [
+                                    {
+                                        "indicatorValue": false,
+                                        "itemID": "REM_COD40"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "itemID": "coefficient",
+                                        "numberValue": 60
+                                    },
+                                    {
+                                        "itemID": "REM_MTS28",
+                                        "numberValue": 350
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "itemID": "internalContractReference",
+                                        "stringValue": "Reference embauche"
+                                    },
+                                    {
+                                        "itemID": "AYA_LIB35",
+                                        "stringValue": "Oui"
+                                    },
+                                    {
+                                        "itemID": "AYA_VAL_A41",
+                                        "stringValue": "O"
+                                    },
+                                    {
+                                        "itemID": "PTP_EMPCOD08",
+                                        "stringValue": "X"
+                                    },
+                                    {
+                                        "itemID": "PTP_EMPCOD09",
+                                        "stringValue": "X"
+                                    },
+                                    {
+                                        "itemID": "SAD_LIB41",
+                                        "stringValue": "151672"
+                                    }
+                                ]
+                            },
+                            "expectedStartDate": "2023-06-03",
+                            "fullTimeEquivalenceRatio": 0.8,
+                            "hireDate": "2023-06-03",
+                            "itemID": "A0000677|2023-06-03",
+                            "jobCode": {
+                                "codeValue": "190",
+                                "longName": "CONSULTANT",
+                                "shortName": "CONSULTANT"
+                            },
+                            "jobFunctionCode": {
+                                "codeValue": "10",
+                                "longName": "PDG,DG (ADMINIST)",
+                                "shortName": "PDG,DG (ADMINIST)"
+                            },
+                            "jobTitle": "CONSULTANT",
+                            "legalEntityID": "01",
+                            "occupationalClassifications": [
+                                {
+                                    "classificationCode": {
+                                        "codeValue": "CA1",
+                                        "longName": "CADRE POSITION I",
+                                        "shortName": "CADRE POSITION I"
+                                    },
+                                    "itemID": "default"
+                                }
+                            ],
+                            "payrollFileNumber": "99994389",
+                            "payrollScheduleGroupID": "001",
+                            "remunerationBasisCode": {
+                                "codeValue": "S",
+                                "shortName": "S"
+                            },
+                            "reportsTo": [
+                                {
+                                    "associateOID": "bbailly-7150mp3",
+                                    "reportsToWorkerName": {
+                                        "familyName1": "BAILLY",
+                                        "givenName": "BERNADETTE"
+                                    }
+                                }
+                            ],
+                            "seniorityDate": "2023-06-03",
+                            "workArrangementCode": {
+                                "codeValue": "900",
+                                "longName": "HORAIRE = 35H",
+                                "shortName": "HORAIRE = 35H"
+                            },
+                            "workerGroups": [
+                                {
+                                    "groupCode": {
+                                        "codeValue": "00",
+                                        "longName": "METALL I&C NAT  3025",
+                                        "shortName": "METALL I&C NAT  3025"
+                                    }
+                                }
+                            ],
+                            "workerTypeCode": {
+                                "codeValue": "01",
+                                "longName": "CDD",
+                                "shortName": "CDD"
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2023-06-03"
+                        },
+                        "workerID": {
+                            "idValue": "99994389"
+                        },
+                        "workerStatus": {
+                            "effectiveDate": "2023-06-03",
+                            "statusCode": {
+                                "codeValue": "ACTIVE",
+                                "shortName": "ACTIVE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

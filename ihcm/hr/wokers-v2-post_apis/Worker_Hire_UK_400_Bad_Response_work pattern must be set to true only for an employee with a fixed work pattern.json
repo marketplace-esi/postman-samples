@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "58388957-1fca-4de0-b2cd-1422779e8f8f",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-02-16T17:53:59.3943026\u002B00:00",
+    "requestReceiptDateTime": "2024-02-16T17:53:59.3943026\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "f6a12ac0-3aca-431e-8183-0cb232ffd87e",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "857a90c0-0451-40b9-9039-45b67b3f135b",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Assign  to work pattern must be set to true only for an employee with a fixed work pattern."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

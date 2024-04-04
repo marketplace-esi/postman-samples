@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "gmartinelli-7150mp3"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "identityDocument": {
+                                "documentID": "123456789",
+                               
+                                "typeCode": {
+                                    "codeValue": "passport"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

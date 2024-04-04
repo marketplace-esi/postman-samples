@@ -1,0 +1,106 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "associateOID": "grenard-7150mp3"
+                },
+                "transform": {
+                    "effectiveDateTime": "2024-02-01T00:00:00Z",
+                    "workAssignment": {
+                        "customFieldGroup": {
+                            "stringFields": [
+                                {
+                                    "stringValue": "AYACOD20",
+                                    "itemID": "AY1_AYACOD20"
+                                },
+                                {
+                                    "stringValue": "LI5LIB25",
+                                    "itemID": "LI5_LI5LIB25"
+                                },
+                                {
+                                    "stringValue": "GR1ALPHA1",
+                                    "itemID": "LIB_GR1ALPHA1"
+                                },
+                                {
+                                    "stringValue": "LI1COD16",
+                                    "itemID": "LI1_LI1COD16"
+                                },
+                                {
+                                    "stringValue": "G2COD00",
+                                    "itemID": "COC_G2COD00"
+                                },
+                                {
+                                    "stringValue": "O",
+                                    "itemID": "REM_COD00"
+                                },
+                                {
+                                    "stringValue": "ALTLALPHA1",
+                                    "itemID": "CTC_ALTLALPHA1"
+                                },
+                                {
+                                    "stringValue": "ENTLALPHA1",
+                                    "itemID": "SAC_ENTLALPHA1"
+                                },
+                                {
+                                    "stringValue": "C1LALPHA1",
+                                    "itemID": "PTP_C1LALPHA1"
+                                },
+                                {
+                                    "stringValue": "DRECODE12",
+                                    "itemID": "DRE_DRECODE12"
+                                }
+                            ],
+                            "dateFields": [
+                                {
+                                    "dateValue": "2022-08-01",
+                                    "itemID": "AYA_PAI2DAT04"
+                                },
+                                {
+                                    "dateValue": "2022-10-01",
+                                    "itemID": "PTP_C1LDAT1"
+                                },
+                                {
+                                    "dateValue": "2022-09-01",
+                                    "itemID": "SAD_DAT19"
+                                },
+                                {
+                                    "dateValue": "2022-08-01",
+                                    "itemID": "LI2_LI2DAT00"
+                                },
+                                {
+                                    "dateValue": "2022-08-01",
+                                    "itemID": "LI3_LI3DAT05"
+                                }
+                            ],
+                            "numberFields": [
+                                {
+                                    "itemID": "REM_MTS28",
+                                    "numberValue": 60.0
+                                },
+                                {
+                                    "numberValue": 11.0,
+                                    "itemID": "LI5_LI5NUM00"
+                                },
+                                {
+                                    "numberValue": 12.0,
+                                    "itemID": "LIB_GR1NUM1"
+                                },
+                                {
+                                    "numberValue": 72.0,
+                                    "itemID": "DRE_DREMTS22"
+                                }
+                            ],
+                            "indicatorFields": [
+                                {
+                                    "indicatorValue": true,
+                                    "itemID": "ATT_CARATT00"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

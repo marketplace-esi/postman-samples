@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"eventID": "wqeipq-548-qwieuoi",
+			"serviceCategoryCode": {
+				"shortName": "HR"
+			},
+			"eventNameCode": {
+				"shortName": "worker.legal-name.change"
+			},
+			"eventTitle": "Worker Legal Name Change",
+			"recordDateTime": "2014-01-01T00:00:00Z",
+			"creationDateTime": "2014-01-01T00:00:00Z",
+			"effectiveDateTime": "2014-01-01T00:00:00Z",
+			"data": {
+				"eventContext": {
+					"worker" : {
+						"associateOID": "15-0001235869",
+						"workerID": {
+								"idValue": "001-0001234567"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"person": {
+							"legalName": {
+								"givenName": "Maria",
+								"middleName": "Augusta",
+								"familyName1": "Silva",
+								"formattedName": "Maria Augusta Silva"
+							}
+						}
+					}
+				}				 
+			}
+		}
+	]
+}

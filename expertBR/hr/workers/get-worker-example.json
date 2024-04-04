@@ -2,18 +2,18 @@
 	"workers": [
 		{
 			"associateOID": "15-0001235869",
-			"workerid": {
-				"idvalue": "001-0001234567"
+			"workerID": {
+				"idValue": "001-0001234567"
 			},
 			"alternateIDs": [
 				{
-					"idvalue": "56987565",
+					"idValue": "56987565",
 					"schemeCode": {
 						"shortName": "IDGLOBAL"
 					}
 				},
 				{
-					"idvalue": "1234567",
+					"idValue": "1234567",
 					"schemeCode": {
 						"shortName": "Matrícula"
 					}
@@ -22,13 +22,13 @@
 			"person": {
 				"governmentIDs": [
 					{
-						"idvalue": "11111111111",
+						"idValue": "11111111111",
 						"nameCode": {
 							"shortName": "CPF"
 						}
 					},
 					{
-						"idvalue": "123456789",
+						"idValue": "123456789",
 						"nameCode": {
 							"codeValue": "123 - RS",
 							"shortName": "CTPS"
@@ -38,7 +38,7 @@
 						}
 					},
 					{
-						"idvalue": "123456879",
+						"idValue": "123456879",
 						"nameCode": {
 							"shortName": "PIS"
 						},
@@ -47,20 +47,20 @@
 						}
 					},
 					{
-						"idvalue": "11111111111",
+						"idValue": "11111111111",
 						"nameCode": {
 							"shortName": "Certificado de Reservista"
 						}
 					},
 					{
-						"idvalue": "11111111111",
+						"idValue": "11111111111",
 						"nameCode": {
 							"codeValue": "1050 – 704 – 4314902",
 							"shortName": "Título de Eleitor"
 						}
 					},
 					{
-						"idvalue": "11111111111",
+						"idValue": "11111111111",
 						"nameCode": {
 							"codeValue": "A - DETRAN - RS",
 							"shortName": "CNH"
@@ -71,9 +71,9 @@
 						"expirationDate": "3000-01-01"
 					},
 					{
-						"idvalue": "11111111111",
+						"idValue": "11111111111",
 						"nameCode": {
-							"codeValue": "SJS"
+							"codeValue": "SJS",
 							"shortName": "RIC"
 						},
 						"statusCode": {
@@ -81,9 +81,9 @@
 						}
 					},
 					{
-						"idvalue": "11111111111",
+						"idValue": "11111111111",
 						"nameCode": {
-							"codeValue": "SJS"
+							"codeValue": "SJS",
 							"shortName": "OC"
 						},
 						"statusCode": {
@@ -92,18 +92,11 @@
 						"expirationDate": "3000-01-01"
 					},
 					{
-						"idvalue": "esocial12468795",
+						"idValue": "esocial12468795",
 						"nameCode": {
 							"shortName": "Matrícula eSocial"
 						}
-					},
-					{
-						"idvalue": "1234567890123",
-						"nameCode": {
-							"shortName": "CNS"
-						}
 					}
-					
 				],
 				"legalName": {
 					"givenName": "JOÃO",
@@ -164,7 +157,7 @@
 							"itemID": "fax1"
                         }
                     ]
-					
+
 				},
 				"genderCode": {
                     "codeValue": "M",
@@ -174,7 +167,7 @@
                     "codeValue": "CAS",
 					"shortName": "Casado"
                 },
-				"disabledIndicator": yes,
+				"disabledIndicator": true,
 				"disabilityTypeCodes": [
 					{
 						"shortName": "AUDITIVA",
@@ -191,27 +184,31 @@
 					 "middleName": "SILVA",
 					 "familyName1":"SOUZA",
 					 "formattedName": "JOÃO SILVA SOUZA"
-				}
+				},
 				"birthPlace": {
-						"cityname": "Porto Alegre",
-						"countrySubdivisionLevel1":{
-							"codeValue": "RS",
-							"shortName": "Rio Grande do Sul",
-							"subdivisionType":  "STATE"
-						},
-						"countryCode": "BR",
-						"formattedBirthPlace": "Porto Alegre"
+					"cityName": "Porto Alegre",
+					"countrySubdivisionLevel1":{
+						"codeValue": "RS",
+						"shortName": "Rio Grande do Sul",
+						"subdivisionType":  "STATE"
+					},
+					"countryCode": "BR",
+					"formattedBirthPlace": "Porto Alegre"
 				},
 				"raceCode":{
 					"codeValue": "2",
 					"shortName": "Preta"
 				},
-                "citizenshipCountryCodes": "Brasil" [
+                "citizenshipCountryCodes":[
 					{
 						"codeValue": "BR",
 						"shortName": "Brasil"
 					}
-			   ],
+				],
+				"highestEducationLevelCode":{
+					"codeValue": "1",
+					"shortName": "Ensino Medio Completo"
+				},
                 "customFieldGroup": {
 					"stringFields":[
 							{
@@ -219,7 +216,7 @@
 									"shortName": "Mother's name"
 								},
 								"stringValue": "Maria"
-							}
+							},
 							{
 								"nameCode":{
 									"shortName": "Father's name"
@@ -235,13 +232,14 @@
 				"acquisitionDate": "2000-01-01",
 				"terminationDate": "3000-01-01",
 				"expectedTerminationDate": "3000-01-01",
-				"leaveOfAbsenceReturnDate": "2000-01-01"			
+				"leaveOfAbsenceReturnDate": "2000-01-01"
 			 },
 			 "workerStatus":{
 				"statusCode":{
-					"shortName": "on leave"
+                    "shortName": "active",
+                    "longName": "active"
 				},
-				"effectiveDate": "2000-01-01"		
+				"effectiveDate": "2000-01-01"
 			 },
 			 "businessCommunication":{
 				"emails":[
@@ -270,48 +268,30 @@
 						]
 					},
 					"primaryIndicator": true,
-					"hireReasonCode": {
-						"codeValue": "1",
-						"shortName": "Temporary replacement of workforce"
-					},
-					"hiringJustificationNote": {
-						"shortName": "Necessidade de substituição de",
-						"longName": "Necessidade de substituição de licença maternidade"
-					},
-					"hiringObjectiveCode": {
-						"codeValue": "3",
-						"shortName": "Hiring for more than 3 months"
-					},
-					"replacedWorkerGovernmentID": {
-						"idValue": "12345678912",
-						"nameCode": {
-							"shortName": "CPF"
-						}
-					},
-					"actualStartDate": "2000-01-01",			
-					"workerProbationPeriod":{
+					"actualStartDate": "2000-01-01",
+				   "workerProbationPeriod":{
 						"startDate": "2000-01-01",
 						"endDate": "3000-01-01"
-					},
-					"workerTypeCode":{
+				   },
+				   "workerTypeCode":{
 						"codeValue": "ESTAG",
 						"shortName": "Estagiário"
-					},
-					"assignmentTermCode":{
+				   },
+				   "assignmentTermCode":{
 						"codeValue": "1",
 						"shortName": "Indeterminate"
-					},
-					"workerLevelCode":{
+				   },
+				   "workLevelCode":{
 						"codeValue": "F",
 						"shortName": "Full-time"
-					},
-					"nationalityContextCode":{
+				   },
+				   "nationalityContextCode":{
 						"shortName": "Domestic"
-					},
-					"executiveIndicator": false,
-					"legalEntityID": "Empresa 1",
-					"highlyCompensatedIndicator": false,
-					"workerGroups": [
+				   },
+				   "executiveIndicator": false,
+				   "legalEntityID": "Empresa 1",
+				   "highlyCompensatedIndicator": false,
+				   "workerGroups": [
 						{
 							"nameCode": {
 								"shortName": "Sefip event"
@@ -374,11 +354,15 @@
 							"shortName": "Processamento de Dados"
 						}
 					},
-					"bargaingUnit": {
-						"bargaingUnitCode": {
+					"bargainingUnit": {
+						"bargainingUnitCode": {
 							"codeValue": "1",
-							"shorName": "Sindicato de Processamento de Dados RS"
+							"shortName": "Sindicato de Processamento de Dados RS"
 					  }
+					 },
+					 "workArrangementCode":{
+						"codeValue": "1",
+						"shortName": "Teletrabalho"
 					 },
 					 "workShiftCode":{
 						"codeValue": "1-1",
@@ -410,20 +394,20 @@
 						"nameCode":{
 						  "codeValue": "001",
 						  "shortName": "Estabelecimento 1"
-						}
+						},
 						"address":{
 							"lineOne":  "Av. Soledade 5º andar",
 							"lineTwo": "Três Figueiras, Porto Alegre, RS",
 							"lineThree": "90000000",
 							"cityName": "Porto Alegre",
-							"countrySubdivisionLevel":{
+							"countrySubdivisionLevel1":{
 								"codeValue": "RS",
 								"shortName": "Rio Grande do Sul",
 								"subdivisionType": "state"
-							"countryCode": "BR"
+							},
+							"countryCode": "BR",
 							"postalCode": "90000000"
 							}
-						}
 					  },
 					  "assignedWorkLocations":[
 						{
@@ -436,13 +420,13 @@
 								"lineTwo": "Três Figueiras, Porto Alegre, RS",
 								"lineThree": "90000000",
 								"cityName": "Porto Alegre",
-								"countrySubdivisionLevel":{
+								"countrySubdivisionLevel1":{
 									"codeValue": "RS",
 									"shortName": "Rio Grande do Sul",
-									"subdivisionType": "state"								
-							 },		
+									"subdivisionType": "state"
+							 },
 								"countryCode": "BR",
-								"postalCode": "90000000"						
+								"postalCode": "90000000"
 							}
 						}
 					  ],
@@ -469,17 +453,28 @@
 					   },
 					   "additionalRemunerations":[
 						{
+							"typeCode":{
+								"shortName": "Variable income"
+							},
 							"nameCode":{
 								"shortName": "Remuneração adicional por vend",
 								"longName": "Remuneração adicional por vendas efetuadas"
+							}
+						},
+						{
+							"typeCode":{
+								"shortName": "Minimum garanteed income"
+							},
+							"rate":{
+								"amountValue": "2000.00"
 							}
 						}
 					   ],
 					   "reportsTo":[
 						{
-							"associateOID": "1-57894"
+							"associateOID": "1-57894",
 							"workerID":{
-								"idvalue": "001-888888"
+								"idValue": "001-888888"
 							},
 							"reportsToWorkerName":{
 								"givenName": "JOÃO",
@@ -487,19 +482,17 @@
 								"familyName1": "SOUZA",
 								"formattedName": "JOÃO SILVA SOUZA"
 							},
-							"reportsToRelationshipCode":{	
-								"itemID": "Manager"
-							}
+							"itemID": "Manager"
 						}
 					  ],
 					   "payScaleCode":{
 						"codeValue": "1",
 						"shortName": "Tabela 1"
-					  }
+					  },
 					   "payGradeCode":{
 						"codeValue": "2-3",
 						"shortName": "Faixa 2 Nível 3"
-					  }
+					  },
 					  "customFieldGroup": {
 						"indicatorFields": [
 							{
@@ -511,19 +504,19 @@
 							{
 								"nameCode": {
 									"shortName": "Union Legal ID"
-								}
+								},
 								"stringValue": "11111111111111"
 							},
 							{
 								"nameCode": {
 									"shortName": "Legal authorization proceding"
-								}
+								},
 								"stringValue": "12345678912"
 							},
 							{
 								"nameCode": {
 									"shortName": "Hire origination legal proceding"
-								}
+								},
 								"stringValue": "12345678912"
 							}
 						]

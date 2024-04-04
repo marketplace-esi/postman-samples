@@ -1,0 +1,34 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-02-27T15:06:57.306687739+01:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "gmartinelli-7150mp3"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "gmartinelli-7150mp3",
+                        "person": {
+                            "identityDocument": {
+                                "documentID": "NEW CARD ID",
+                                "issueDate": "2023-11-20"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

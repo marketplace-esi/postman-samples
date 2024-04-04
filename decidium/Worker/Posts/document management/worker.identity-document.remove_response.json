@@ -1,0 +1,36 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-02-27T15:11:59.398175403+01:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "gmartinelli-7150mp3",
+                        "person": {
+                            "identityDocument": {
+                                "itemID": "3"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "gmartinelli-7150mp3",
+                        "person": {
+                            "identityDocument": {}
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

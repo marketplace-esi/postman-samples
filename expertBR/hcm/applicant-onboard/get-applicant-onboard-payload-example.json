@@ -1,0 +1,242 @@
+{
+	"applicantOnboarding": {
+		"applicantID": "9_1",
+		"internalApplicantIndicator": true,
+		"applicantPersonalProfile": {
+			"legalName": {
+				"givenName": "Mario",
+				"middleName": "Roberto",
+				"familyName": "Silva",
+				"formattedName": "Mario Roberto Silva"
+			},
+			"preferredName": {
+				"givenName": "Maria",
+				"middleName": "Augusta",
+				"familyName": "Silva",
+				"formattedName": "Maria Augusta Silva"
+			},
+			"genderCode": {
+				"code": "M",
+				"name": "Masculino"
+			},
+			"birthDate": "2003-04-05",
+			"governmentIDs": [
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"name": "CPF"
+					}
+				},
+				{
+					"id": "123456789",
+					"nameCode": {
+						"code": "123 - RS",
+						"name": "CTPS"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					}
+				},
+				{
+					"id": "123456879",
+					"nameCode": {
+						"name": "PIS"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					}
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"name": "Certificado de Reservista"
+					}
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"code": "1050 - 704 - 4314902",
+						"name": "Título de Eleitor"
+					}
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"code": "A - DETRAN - RS",
+						"name": "CNH"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					},
+					"expirationDate": "3000-01-01"
+				},
+				{
+					"id": "11111111111",
+					"nameCode": {
+						"code": "SJS",
+						"name": "RIC"
+					},
+					"statusCode": {
+						"effectiveDate": "2000-01-01"
+					}
+				}
+			],
+			"communication": {
+				"landlines": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "30000000",
+						"formattedNumber": "51 30000000"
+					}
+				],
+				"mobiles": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "90000000",
+						"formattedNumber": "51 90000000"
+					}
+				],
+				"emails": [
+					{
+						"emailUri": "TEST@ADP.COM"
+					}
+				],
+				"faxes": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "33000000",
+						"formattedNumber": "51 33000000"
+					}
+				]
+			},
+			"legalAddress": {
+				"lineOne": "Av Soledade 550",
+				"lineTwo": "Tres Figueiras, Porto Alegre",
+				"lineThree": "90000000",
+				"cityName": "Porto Alegre",
+				"subdivisionCode": {
+					"code": "RS",
+					"name": "Rio Grande do Sul",
+					"subdivisionType": "state"
+				},
+				"countryCode": "BR",
+				"postalCode": "90000000",
+				"buildingNumber": "500",
+				"blockName": "Tres Figueiras",
+				"streetName": "Soledade",
+				"streetTypeCode": {
+					"name": "Avenida"
+				},
+				"unit": "5 andar"
+			},
+			"maritalStatusCode": {
+				"code": "CAS",
+				"name": "Casado"
+			},
+			"raceCode":{
+				"code": "2",
+				"name": "Preta"
+			},
+			"studentIndicator": false,
+			"disabledIndicator": true,
+			"disabilityTypeCodes": [
+				{
+					"code": "AUDITIVA",
+					"name": "descricao da deficiencia"
+				},
+				{
+					"code": "MOTORA",
+					"name": "descricao da deficiencia"
+				}
+			]
+		},
+		"applicantWorkerProfile": {
+			"reportsTo":[
+				{
+					"associateOID": "1X00057894",
+					"workerID":{
+						"id": "001-888888"
+					},
+					"reportsToWorkerName":{
+						"givenName": "JOAO",
+						"middleName": "SILVA",
+						"familyName1": "SOUZA",
+						"formattedName": "JOAO SILVA SOUZA"
+					}
+				}
+			],
+			"job": {
+				"jobCode": {
+				   "code": "1-1",
+				   "name": "Desenvolvedor Pleno"
+				},
+				"jobTitle": "Desenvolvedor Pleno",
+				"jobFamilyCode": {
+					"code": "1",
+					"name": "Desenvolvedor"
+				}
+			},
+			"hireDate": "2024-01-01",
+			"workerTypeCode":{
+				"code": "ESTAG",
+				"name": "Estagiario"
+			},
+			"assignmentTermCode":{
+				"code": "1",
+				"name": "Indeterminate"
+			},
+			"workShiftCode":{
+				"code": "1-1",
+				"name": "Turma 9h as 18h segunda a sexta"
+			},
+			"homeWorkLocation":{
+				"nameCode":{
+				  "code": "001",
+				  "name": "Estabelecimento 1"
+				}
+			},
+			"homeOrganizationalUnits":[
+				{
+					"nameCode":{
+					  "code": "B_001_01_1235687",
+					  "name": "Centro de Resultado 1"
+					}
+				}
+			],
+			"businessCommunication":{
+				"emails":[
+					{
+						"emailUri": "1234@adp.com"
+					}
+			   ]
+			},
+			"customFieldGroup": {
+				"stringFields":[
+					{
+						"nameCode":{
+							"name": "Mothers name"
+						},
+						"stringValue": "Maria"
+					},
+					{
+						"nameCode":{
+							"name": "Fathers name"
+						},
+						"stringValue": "Everton"
+					}
+				]
+			}
+		},
+		"applicantPayrollProfile": {
+			"baseRemuneration": {
+				"recordingBasisCode":{
+					"code": "M",
+					"name": "Monthly"
+				}
+			},
+            "standardHours": {
+                "hoursQuantity": 150.0
+            }
+		}
+	}
+}

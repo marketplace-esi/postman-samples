@@ -1,0 +1,31 @@
+{
+    "events":
+	[
+		{
+            "eventNameCode":
+			{
+                "codeValue":"organizationCostCenter.add"
+            },
+			"data":
+			{
+				"transform":
+				{
+                    "effectiveDateTime": "2020-01-01T00:00:00Z",
+                    "organizationCostCenter":
+                    {
+                        "costCenterCode":
+                        {
+                            "codeValue": "1500",
+                            "shortName": "Kpl1500",
+                            "longName": "Kostenplaats 1500"
+                        },
+                        "costCenterEffectivePeriod":
+                        {
+                            "startDate": "2020-01-01"
+                        }
+                    }
+				}
+			}
+		}
+	]
+}

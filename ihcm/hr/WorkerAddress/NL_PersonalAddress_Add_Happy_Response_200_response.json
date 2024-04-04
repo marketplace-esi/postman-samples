@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "UK0M33C19083EN0"
+          }
+        },
+        "output": {
+          "worker": {
+            "associateOID": "UK0M33C19083EN0",
+            "workerID": {
+              "idValue": "48669-6666"
+            },
+            "person": {
+              "personalAddress": {
+                "itemID": "d3822a55-6774-4627-8702-0484cec92701",
+                "deliveryPoint": "True",
+                "buildingName": "M",
+                "buildingNumber": "90210",
+                "streetName": "Zeedijk",
+                "cityName": "Amsterdam",
+                "countryCode": "NL",
+                "postalCode": "9001 AA"
+              }
+            }
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.personal-address.add"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "HR"
+      }
+    }
+  ]
+}

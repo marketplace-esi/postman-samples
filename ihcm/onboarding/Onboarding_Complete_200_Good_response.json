@@ -1,0 +1,21 @@
+{
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "requestStatus": "success",
+    "applicationID": "1c5ebb13-0636-4ea9-b413-73020024ba83",
+    "messageID": "75f26e4f-ba53-4d95-8094-c1eb56f7a1f4",
+    "messageDateTime": "2024-03-05T23:09:57.512251\u002B00:00",
+    "messages": [
+      {
+        "messageTargetCode": "developer",
+        "processMessageIndicator": false,
+        "messageTypeCode": "info",
+        "resourceID": "AO0O35N0936PK1V",
+        "messageText": "The request has been submitted successfully and the process has been initiated",
+        "resourceStatus": "success"
+      }
+    ],
+    "resourceMessages": [],
+    "links": []
+  }
+}
