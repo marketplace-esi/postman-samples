@@ -1,0 +1,29 @@
+{
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "requestStatus": "failure",
+    "applicationID": "4030d0b1-776f-4e27-97bd-c531c9a785c5",
+    "messageID": "3e829c1b-0f31-4f17-93cf-73c0424c19a7",
+    "messageDateTime": "2024-04-04T18:14:16.3680392\u002B00:00",
+    "messages": [
+      {
+        "messageTargetCode": "developer",
+        "processMessageIndicator": false,
+        "messageTypeCode": "error",
+        "resourceID": "33a90464-1ed6-4798-bfe8-d237f51dd414",
+        "messageText": "A candidate with Reference number \u0027JP2104\u0027 and Name \u0027Fer Rari\u0027 already exists with an Employee status, and cannot be imported again.",
+        "resourceStatus": "failure"
+      },
+      {
+        "messageTargetCode": "developer",
+        "processMessageIndicator": false,
+        "messageTypeCode": "error",
+        "resourceID": "33a90464-1ed6-4798-bfe8-d237f51dd414",
+        "messageText": "The Employee Code supplied must be unique.",
+        "resourceStatus": "failure"
+      }
+    ],
+    "resourceMessages": [],
+    "links": []
+  }
+}
