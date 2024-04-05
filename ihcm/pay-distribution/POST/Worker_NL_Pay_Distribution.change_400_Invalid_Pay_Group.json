@@ -1,0 +1,38 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "4ca644c1-f265-4a1b-ad94-9586adb133ae",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-03-25T18:28:07.1069482\u002B00:00",
+    "requestReceiptDateTime": "2024-03-25T18:28:07.1069483\u002B00:00",
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "e5275f9c-920f-422e-8ec9-394f147db309",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "processMessageID": {
+              "idValue": "d8f18ec5-7999-4508-8c88-1811b9db8394",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Invalid Lookup Value specified for Pay Group"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
