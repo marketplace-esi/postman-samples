@@ -1,0 +1,334 @@
+{
+    "workers": [
+        {
+            "workerID": {
+                "idValue": "46607-42",
+                "schemeCode": {
+                    "codeValue": "REFERENCE",
+                    "shortName": "Employee Reference Number"
+                }
+            },
+            "associateOID": "AOID00304",
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Leaver",
+                    "shortName": "Leaver"
+                },
+                "reasonCode": {
+                    "codeValue": "MA",
+                    "shortName": "Mutual Agreement"
+                }
+            },
+            "person": {
+                "legalName": {
+                    "familyName1": "AAAAAa",
+                    "givenName": "AAAAd",
+                    "nickName": "AAAAAa",
+                    "formattedName": "AAAAAAAAAAAa",
+                    "preferredSalutations": [
+                        {
+                            "sequenceNumber": 1,
+                            "salutationCode": {
+                                "codeValue": "Mr",
+                                "shortName": "Mr."
+                            },
+                            "typeCode": {
+                                "codeValue": "SOCIAL",
+                                "shortName": "Social"
+                            }
+                        }
+                    ],
+                    "initials": "D"
+                },
+                "birthDate": "2001-10-15",
+                "genderCode": {
+                    "codeValue": "Male",
+                    "shortName": "Male"
+                },
+                "maritalStatusCode": {
+                    "codeValue": "4",
+                    "shortName": "Independent"
+                },
+                "communication": {
+                    "mobiles": [
+                        {
+                            "nameCode": {
+                                "codeValue": "PERMOBILE",
+                                "shortName": "Personal Mobile"
+                            },
+                            "formattedNumber": "05617-572613"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "PERSONALEMAIL",
+                                "shortName": "Personal Email"
+                            },
+                            "emailUri": "EMAIL@EMAIL.COM"
+                        }
+                    ]
+                },
+                "customFieldGroup": {
+                    "dateFields": [
+                        {
+                            "dateValue": "2023-03-13",
+                            "nameCode": {
+                                "shortName": "DateFirstEmployment",
+                                "longName": "Date first Employment"
+                            }
+                        }
+                    ]
+                },
+                "citizenshipCountryCodes": [
+                    {
+                        "codeValue": "0001",
+                        "shortName": "Dutch"
+                    }
+                ],
+                "governmentIDs": [
+                    {
+                        "idValue": "111111110",
+                        "nameCode": {
+                            "codeValue": "SocialSecurityNumber",
+                            "shortName": "Social Security Number"
+                        },
+                        "countryCode": "NL"
+                    }
+                ],
+                "identityDocuments": [
+                    {
+                        "documentID": "111111110",
+                        "typeCode": {
+                            "codeValue": "SocialSecurityNumber",
+                            "shortName": "Social Security Number"
+                        },
+                        "countryCode": "NL"
+                    }
+                ],
+                "otherPersonalAddresses": [
+                    {
+                        "deliveryPoint": "False",
+                        "itemID": "052c8c8b-c76b-4b36-a030-45df5e3bf3b3",
+                        "buildingNumber": "A0",
+                        "cityName": "AAAAAAAn",
+                        "countryCode": "AL",
+                        "streetName": "AAAAAAAAw",
+                        "postalCode": "RZ6 4EJ"
+                    },
+                    {
+                        "deliveryPoint": "True",
+                        "itemID": "c6dbee22-add1-4450-b30d-62a2bc7f1ea0",
+                        "buildingNumber": "7",
+                        "cityName": "AAAAAAAAAn",
+                        "countryCode": "AL",
+                        "streetName": "AAAe",
+                        "postalCode": "JF4 1ND"
+                    }
+                ],
+                "legalAddress": {
+                    "deliveryPoint": "True",
+                    "buildingNumber": "7",
+                    "cityName": "AAAAAAAAAn",
+                    "countryCode": "AL",
+                    "postalCode": "JF4 1ND",
+                    "streetName": "AAAe"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "nameCode": {
+                            "codeValue": "WORKEMAIL",
+                            "shortName": "Work Email"
+                        },
+                        "emailUri": "EMAIL@EMAIL.COM"
+                    }
+                ]
+            },
+            "workerDates": {
+                "terminationDate": "2023-07-05",
+                "expectedTerminationDate": "2023-07-05",
+                "adjustedServiceDate": "2023-03-13"
+            },
+            "workAssignments": [
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Leaver",
+                            "shortName": "Leaver"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Permanent",
+                        "longName": "Permanent"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg",
+                    "jobCode": {
+                        "effectiveDate": "2023-03-13",
+                        "codeValue": "23012",
+                        "shortName": "Food & Beverage Waiter - Medewerker Bediening"
+                    },
+                    "terminationDate": "2023-05-07",
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "NL"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 0.0,
+                        "unitCode": {
+                            "codeValue": "C",
+                            "shortName": "Casual Worker"
+                        }
+                    },
+                    "legalEntityID": "46607 - Qdiymchuzgsyidl",
+                    "reportsTo": [
+                        {
+                            "itemID": "5d2e1413-68b4-454e-b156-84f450203098",
+                            "associateOID": "AOID00912",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTS TO"
+                            },
+                            "workerID": {
+                                "idValue": "46607-4",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "AAAAAAAAAAAk",
+                                "givenName": "AAAAAa",
+                                "familyName1": "AAAAk"
+                            }
+                        }
+                    ],
+                    "hireDate": "2023-03-13",
+                    "itemID": "2d5b66ea-e31a-4879-9f2f-8a0efda7a09a",
+                    "payrollGroupCode": "46607",
+                    "payrollFileNumber": "42",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "46607-210",
+                                "shortName": "Amedia F&B"
+                            },
+                            "typeCode": {
+                                "codeValue": "1",
+                                "shortName": "Department",
+                                "longName": "Organisation structure"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "46607",
+                                "shortName": "Amedia Hotel BV"
+                            },
+                            "typeCode": {
+                                "codeValue": "0",
+                                "shortName": "Company",
+                                "longName": "Organisation structure"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "primaryIndicator": true,
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "Leaver",
+                            "shortName": "Leaver"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "shortName": "Temporary",
+                        "longName": "Temporary"
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "workLevelCode": {
+                        "codeValue": "Full_Time",
+                        "shortName": "Full Time"
+                    },
+                    "jobTitle": "AAAAAAAAAAAt",
+                    "jobCode": {
+                        "effectiveDate": "2023-05-08",
+                        "codeValue": "74012",
+                        "shortName": "Receptionist"
+                    },
+                    "terminationDate": "2023-07-05",
+                    "homeWorkLocation": {
+                        "address": {
+                            "countryCode": "NL"
+                        }
+                    },
+                    "standardHours": {
+                        "hoursQuantity": 8.77,
+                        "unitCode": {
+                            "codeValue": "V",
+                            "shortName": "Variable"
+                        }
+                    },
+                    "legalEntityID": "46607 - Qdiymchuzgsyidl",
+                    "reportsTo": [
+                        {
+                            "itemID": "5d2e1413-68b4-454e-b156-84f450203098",
+                            "associateOID": "AOID00912",
+                            "reportsToRelationshipCode": {
+                                "codeValue": "REPORTSTO",
+                                "shortName": "REPORTS TO"
+                            },
+                            "workerID": {
+                                "idValue": "46607-4",
+                                "schemeCode": {
+                                    "codeValue": "REFERENCENUMBER",
+                                    "shortName": "REFERENCE NUMBER"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "AAAAAAAAAAAk",
+                                "givenName": "AAAAAa",
+                                "familyName1": "AAAAk"
+                            }
+                        }
+                    ],
+                    "hireDate": "2023-03-13",
+                    "itemID": "465c7b9d-cfa5-4a5c-aee6-05892a3c9800",
+                    "payrollGroupCode": "46607",
+                    "payrollFileNumber": "42",
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "46607-100",
+                                "shortName": "Amedia Front Office"
+                            },
+                            "typeCode": {
+                                "codeValue": "1",
+                                "shortName": "Department",
+                                "longName": "Organisation structure"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "46607",
+                                "shortName": "Amedia Hotel BV"
+                            },
+                            "typeCode": {
+                                "codeValue": "0",
+                                "shortName": "Company",
+                                "longName": "Organisation structure"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
