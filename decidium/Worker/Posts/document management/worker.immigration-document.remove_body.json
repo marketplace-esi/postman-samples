@@ -1,0 +1,18 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160",
+                        "person": {
+                            "immigrationDocument": {
+                                "itemID": "0"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
