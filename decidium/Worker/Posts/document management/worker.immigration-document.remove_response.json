@@ -1,0 +1,42 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-04-22T17:32:10.992225+02:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160",
+                        "person": {
+                            "immigrationDocument": {
+                                "itemID": "0"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160",
+                        "person": {
+                            "immigrationDocument": {
+                                "itemID": "0",
+                                "typeCode": {
+                                    "codeValue": "resPermit",
+                                    "shortName": "Residence Permit"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
