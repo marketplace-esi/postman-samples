@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "person": {
+                            "immigrationDocument": {
+                                "documentID": "RF12345789",
+                                "expirationDate": "2030-01-01",
+                                "issueDate": "2024-01-01",
+                                "issuingParty": {
+                                    "nameCode": {
+                                        "codeValue": "Préfecture de Paris"
+                                    }
+                                },
+                                "typeCode": {
+                                    "codeValue": "resPermit"
+                                }
+                            }
+                         }
+                    }
+                }
+            }
+        }
+    ]
+}

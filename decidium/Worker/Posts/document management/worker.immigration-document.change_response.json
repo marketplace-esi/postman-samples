@@ -1,0 +1,50 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-04-22T17:31:58.8675171+02:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160",
+                        "person": {
+                            "immigrationDocument": {
+                                "itemID": "0"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160",
+                        "person": {
+                            "immigrationDocument": {
+                                "documentID": "RF987654321",
+                                "expirationDate": "2028-02-18",
+                                "issueDate": "2023-02-25",
+                                "issuingParty": {
+                                    "nameCode": {
+                                        "codeValue": "PRÉFECTURE DU RHÔNE"
+                                    }
+                                },
+                                "itemID": "0",
+                                "typeCode": {
+                                    "codeValue": "resPermit",
+                                    "shortName": "Residence Permit"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

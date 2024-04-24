@@ -1,0 +1,45 @@
+{
+    "confirmMessage": {
+        "createDateTime": "2024-04-22T17:31:46.0359533+02:00",
+        "protocolCode": {},
+        "protocolStatusCode": {
+            "codeValue": "200"
+        },
+        "requestStatusCode": {
+            "codeValue": "succeeded"
+        }
+    },
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "pmassina-mp7160",
+                        "person": {
+                            "immigrationDocument": {
+                                "documentID": "RF12345789",
+                                "expirationDate": "2030-01-01",
+                                "issueDate": "2024-01-01",
+                                "issuingParty": {
+                                    "nameCode": {
+                                        "codeValue": "PRÉFECTURE DE PARIS"
+                                    }
+                                },
+                                "itemID": "0",
+                                "typeCode": {
+                                    "codeValue": "resPermit",
+                                    "shortName": "Residence Permit"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

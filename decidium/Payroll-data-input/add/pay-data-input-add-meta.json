@@ -1,0 +1,117 @@
+{
+    "meta": {
+        "/data/transforms": [
+            {
+                "/payDataInput": {},
+                "/payDataInput/payeePayInputs": {},
+                "/payDataInput/payeePayInputs/associateOID": {
+                    "dataType": "string",
+                    "longLabelName": "associateOID"
+                },
+                "/payDataInput/payeePayInputs/payPeriodStartDate": {
+                    "dataType": "string",
+                    "longLabelName": "Période de paie",
+                    "maxLength": 32
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorCode": {
+                    "codeList": {}
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorCode/codeValue": {
+                    "dataType": "string",
+                    "longLabelName": "Code élément",
+                    "maxLength": 32
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorRate": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorRate/baseUnitCode": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/calculationFactorRate/baseUnitCode/codeValue": {
+                    "dataType": "string",
+                    "longLabelName": "Valeur",
+                    "maxLength": 32
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/configurationTags": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/calculationFactorInputs/configurationTags/tagCode": {
+                    "dataType": "string",
+                    "longLabelName": "Indicatif",
+                    "maxLength": 32
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode": {
+                    "codeList": {
+                        "listItems": [
+                            {
+                                "codeValue": "MobilityPackage",
+                                "longName": "Forfait mobilité (montant)",
+                                "shortName": "Forfait mobilité (montant)"
+                            },
+                            {
+                                "codeValue": "PayAdvanceAmount",
+                                "longName": "Acompte (montant)",
+                                "shortName": "Acompte (montant)"
+                            },
+                            {
+                                "codeValue": "PersonalBicycleAllowance",
+                                "longName": "Indemnité kilométrique vélo personnel (nombre)",
+                                "shortName": "Indemnité kilométrique vélo personnel (nombre)"
+                            },
+                            {
+                                "codeValue": "SustainableMobility",
+                                "longName": "Mobilité durable (montant)",
+                                "shortName": "Mobilité durable (montant)"
+                            },
+                            {
+                                "codeValue": "SustainablePersonalVehicle",
+                                "longName": "Véhicule personnel énergie verte (montant)",
+                                "shortName": "Véhicule personnel énergie verte (montant)"
+                            },
+                            {
+                                "codeValue": "TransportAllowance",
+                                "longName": "Indemnité de transport (montant)",
+                                "shortName": "Indemnité de transport (montant)"
+                            },
+                            {
+                                "codeValue": "TransportAllowanceDeduction",
+                                "longName": "Reprise indemnité de transport (montant)",
+                                "shortName": "Reprise indemnité de transport (montant)"
+                            },
+                            {
+                                "codeValue": "UnsustainablePersonalVehicle",
+                                "longName": "Véhicule personnel énergie fossile (montant)",
+                                "shortName": "Véhicule personnel énergie fossile (montant)"
+                            }
+                        ]
+                    }
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/earningCode/codeValue": {
+                    "dataType": "string",
+                    "longLabelName": "Code rubrique",
+                    "maxLength": 4
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/numberOfHours": {
+                    "dataType": "number",
+                    "longLabelName": "Nombre",
+                    "maxLength": 14
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/baseMultiplierValue": {
+                    "dataType": "number",
+                    "longLabelName": "Montant",
+                    "maxLength": 14
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/earningInputs/rate/rateValue": {
+                    "dataType": "number",
+                    "longLabelName": "Taux",
+                    "maxLength": 14
+                },
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/payAllocation": {},
+                "/payDataInput/payeePayInputs/payrollProfilePayInputs/payInputs/payAllocation/allocationID": {
+                    "dataType": "string",
+                    "longLabelName": "Imputation",
+                    "maxLength": 18
+                }
+            }
+        ]
+    }
+}
