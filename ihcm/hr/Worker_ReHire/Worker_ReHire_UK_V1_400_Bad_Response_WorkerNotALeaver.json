@@ -1,0 +1,59 @@
+{
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "97cbae33-4443-46ad-ba6d-674079685d31",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-04-26T16:44:47.9940382Z",
+    "requestReceiptDateTime": "2024-04-26T16:44:47.9940383Z",
+    "processMessages": [
+      {
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessageID": {
+          "idValue": "9d2bd62a-1bb6-498b-b4f2-8148f5b7a689",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "messageTypeCode": {
+          "codeValue": "error"
+        },
+        "userMessage": {
+          "messageTxt": "Validation Failed for PEOPLE.REFERENCENUMBER. Please provide valid data."
+        }
+      }
+    ],
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "54f0edee-fca1-4239-9050-d3ed5f63e315",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "failed"
+        },
+        "processMessages": [
+          {
+            "resourceStatusCode": {
+              "codeValue": "failed"
+            },
+            "processMessageID": {
+              "idValue": "666a4106-2edc-416e-84fd-899fe1959f17",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "error"
+            },
+            "userMessage": {
+              "messageTxt": "Validation Failed for PEOPLE.REFERENCENUMBER. Please provide valid data."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
