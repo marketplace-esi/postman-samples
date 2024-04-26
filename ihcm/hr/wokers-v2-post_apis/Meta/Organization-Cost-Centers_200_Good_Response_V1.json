@@ -1,0 +1,36 @@
+{
+    "organizationCostCenters": [
+        {
+            "itemID": "4145fc21-98a9-443d-900d-21a31aef50a4",
+            "costCenterCode": {
+                "codeValue": "601",
+                "shortName": "Development"
+            },
+            "activeIndicator": true
+        },
+        {
+            "itemID": "9abafeff-ab85-4b83-8697-2acc5d1666ad",
+            "costCenterCode": {
+                "codeValue": "101",
+                "shortName": "Sales"
+            },
+            "activeIndicator": true
+        },
+        {
+            "itemID": "9c56be1d-51c1-4f3f-8261-6f716112f444",
+            "costCenterCode": {
+                "codeValue": "105",
+                "shortName": "Human Resources"
+            },
+            "activeIndicator": true
+        },
+        {
+            "itemID": "53a4fa03-b5cc-4dd1-b4aa-744a93d56b3b",
+            "costCenterCode": {
+                "codeValue": "102",
+                "shortName": "Finance"
+            },
+            "activeIndicator": true
+        },
+    ]
+}

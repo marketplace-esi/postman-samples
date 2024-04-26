@@ -1,0 +1,24 @@
+{
+  "codeLists": [
+    {
+      "codeListTitle": "Pay Group",
+      "listItems": [
+        {
+          "codeValue": "AD002",
+          "shortName": "UK Monthly",
+          "longName": "ADP GB Main Company"
+        },
+        {
+          "codeValue": "GBMAG01",
+          "shortName": "Paris Weekly",
+          "longName": "ADP France Main Company"
+        },
+        {
+          "codeValue": "GBMAGPG",
+          "shortName": "Milan Monthly",
+          "longName": "ADP Italy Main Company"
+        }
+      ]
+    }
+  ]
+}

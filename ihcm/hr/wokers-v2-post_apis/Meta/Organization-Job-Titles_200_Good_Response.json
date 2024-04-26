@@ -1,0 +1,35 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "job-titles",
+            "listItems": [
+                {
+                    "codeValue": "F1",
+                    "shortName": "1st Team Driver"
+                },
+                {
+                    "codeValue": "2069",
+                    "shortName": "EMEA Sales Manager"
+                },
+                {
+                    "codeValue": "8693",
+                    "shortName": "software Engineer Level 1"
+                },
+                {
+                    "codeValue": "2089",
+                    "shortName": "IT Tec Level 1"
+                },
+                {
+                    "codeValue": "2099",
+                    "shortName": "Product Owner",
+                    "longName": "R & D"
+                },
+                {
+                    "codeValue": "3099",
+                    "shortName": "Accountant",
+                    "longName": "Finance"
+                },
+            ]
+        }
+    ]
+}

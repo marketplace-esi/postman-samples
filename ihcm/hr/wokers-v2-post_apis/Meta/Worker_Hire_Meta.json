@@ -1,0 +1,4798 @@
+{
+  "meta": {
+    "/serviceCategoryCode/codeValue": "hr",
+    "/eventNameCode/codeValue": "worker.hire",
+    "/data/eventContext": {},
+    "/data/transforms": [
+      {
+        "/worker/businessCommunication/emails": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/businessCommunication/emails/emailUri": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Primary Email",
+          "longLabelName": "Records the work email of the person",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 80,
+          "pattern": "^[_A-Za-z0-9-\u0027]\u002B(\\\\.[_A-Za-z0-9-\u0027]\u002B)*@[A-Za-z0-9-]\u002B(\\\\.[A-Za-z0-9-]\u002B)*(\\\\.[A-Za-z]{2,})$",
+          "dataType": "string"
+        },
+        "/worker/businessCommunication/landlines": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/businessCommunication/landlines/extension": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Work Extension",
+          "longLabelName": "Records Work Extension of the person",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 20,
+          "pattern": "^([0-9]|[-]|[\u002B]|[(]|[)])([0-9]|[-]|[\u002B]|[(]|[)]|\\\\s)*$",
+          "dataType": "string"
+        },
+        "/worker/businessCommunication/landlines/formattedNumber": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Work Telephone",
+          "longLabelName": "Work Telephone Number",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 32,
+          "default": "",
+          "pattern": "^([0-9]|[-]|[\u002B]|[(]|[)])([0-9]|[-]|[\u002B]|[(]|[)]|\\\\s)*$",
+          "dataType": "string"
+        },
+        "/worker/businessCommunication/mobiles": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/businessCommunication/mobiles/formattedNumber": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Work Mobile Telephone",
+          "longLabelName": "Workmobiletelephone",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 32,
+          "dataType": "string"
+        },
+        "/worker/person": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/birthDate": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Date of Birth",
+          "longLabelName": "Records Date of Birth of the person",
+          "uniqueItems": false,
+          "default": "",
+          "dataType": "string[date-time]"
+        },
+        "/worker/person/citizenshipCountryCodes": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/citizenshipCountryCodes/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Nationality",
+          "longLabelName": "Records Nationality of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Bahraini",
+                "itemDescription": "Bahraini"
+              },
+              {
+                "idValue": "Canadian",
+                "itemDescription": "Canadian"
+              },
+              {
+                "idValue": "African",
+                "itemDescription": "African"
+              },
+              {
+                "idValue": "Albanian",
+                "itemDescription": "Albanian"
+              },
+              {
+                "idValue": "Algerian",
+                "itemDescription": "Algerian"
+              },
+              {
+                "idValue": "American",
+                "itemDescription": "American"
+              },
+              {
+                "idValue": "Argentinean",
+                "itemDescription": "Argentinean"
+              },
+              {
+                "idValue": "Armenian",
+                "itemDescription": "Armenian"
+              },
+              {
+                "idValue": "Asian",
+                "itemDescription": "Asian"
+              },
+              {
+                "idValue": "Australian",
+                "itemDescription": "Australian"
+              },
+              {
+                "idValue": "Austrian",
+                "itemDescription": "Austrian"
+              },
+              {
+                "idValue": "Bangladeshi",
+                "itemDescription": "Bangladeshi"
+              },
+              {
+                "idValue": "Belgian",
+                "itemDescription": "Belgian"
+              },
+              {
+                "idValue": "Bosnian",
+                "itemDescription": "Bosnian"
+              },
+              {
+                "idValue": "Brazilian",
+                "itemDescription": "Brazilian"
+              },
+              {
+                "idValue": "British",
+                "itemDescription": "British"
+              },
+              {
+                "idValue": "Bruneian",
+                "itemDescription": "Bruneian"
+              },
+              {
+                "idValue": "Burmese",
+                "itemDescription": "Burmese"
+              },
+              {
+                "idValue": "Chilean",
+                "itemDescription": "Chilean"
+              },
+              {
+                "idValue": "Chinese",
+                "itemDescription": "Chinese"
+              },
+              {
+                "idValue": "Colombian",
+                "itemDescription": "Colombian"
+              },
+              {
+                "idValue": "Croatian",
+                "itemDescription": "Croatian"
+              },
+              {
+                "idValue": "Cypriot",
+                "itemDescription": "Cypriot"
+              },
+              {
+                "idValue": "Czechoslovakian",
+                "itemDescription": "Czechoslovakian"
+              },
+              {
+                "idValue": "Danish",
+                "itemDescription": "Danish"
+              },
+              {
+                "idValue": "Dutch",
+                "itemDescription": "Dutch"
+              },
+              {
+                "idValue": "Ecuador",
+                "itemDescription": "Ecuador"
+              },
+              {
+                "idValue": "Egyptian",
+                "itemDescription": "Egyptian"
+              },
+              {
+                "idValue": "El Salvador",
+                "itemDescription": "El Salvador"
+              },
+              {
+                "idValue": "Emirati",
+                "itemDescription": "Emirati"
+              },
+              {
+                "idValue": "English",
+                "itemDescription": "English"
+              },
+              {
+                "idValue": "Estonian",
+                "itemDescription": "Estonian"
+              },
+              {
+                "idValue": "Ethiopian",
+                "itemDescription": "Ethiopian"
+              },
+              {
+                "idValue": "Filipino",
+                "itemDescription": "Filipino"
+              },
+              {
+                "idValue": "Finnish",
+                "itemDescription": "Finnish"
+              },
+              {
+                "idValue": "French",
+                "itemDescription": "French"
+              },
+              {
+                "idValue": "Gambian",
+                "itemDescription": "Gambian"
+              },
+              {
+                "idValue": "German",
+                "itemDescription": "German"
+              },
+              {
+                "idValue": "Ghanaian",
+                "itemDescription": "Ghanaian"
+              },
+              {
+                "idValue": "Greek",
+                "itemDescription": "Greek"
+              },
+              {
+                "idValue": "Hellenic",
+                "itemDescription": "Hellenic"
+              },
+              {
+                "idValue": "Honduras",
+                "itemDescription": "Honduras"
+              },
+              {
+                "idValue": "Hungarian",
+                "itemDescription": "Hungarian"
+              },
+              {
+                "idValue": "Indian",
+                "itemDescription": "Indian"
+              },
+              {
+                "idValue": "Indonesian",
+                "itemDescription": "Indonesian"
+              },
+              {
+                "idValue": "Iranian",
+                "itemDescription": "Iranian"
+              },
+              {
+                "idValue": "Iraqi",
+                "itemDescription": "Iraqi"
+              },
+              {
+                "idValue": "Irish",
+                "itemDescription": "Irish"
+              },
+              {
+                "idValue": "Israeli",
+                "itemDescription": "Israeli"
+              },
+              {
+                "idValue": "Italian",
+                "itemDescription": "Italian"
+              },
+              {
+                "idValue": "Jamaican",
+                "itemDescription": "Jamaican"
+              },
+              {
+                "idValue": "Japanese",
+                "itemDescription": "Japanese"
+              },
+              {
+                "idValue": "Jordanian",
+                "itemDescription": "Jordanian"
+              },
+              {
+                "idValue": "Kenyan",
+                "itemDescription": "Kenyan"
+              },
+              {
+                "idValue": "Kuwaiti",
+                "itemDescription": "Kuwaiti"
+              },
+              {
+                "idValue": "Latvian",
+                "itemDescription": "Latvian"
+              },
+              {
+                "idValue": "Lebanese",
+                "itemDescription": "Lebanese"
+              },
+              {
+                "idValue": "Liberian",
+                "itemDescription": "Liberian"
+              },
+              {
+                "idValue": "Lithuanian",
+                "itemDescription": "Lithuanian"
+              },
+              {
+                "idValue": "Malaysian",
+                "itemDescription": "Malaysian"
+              },
+              {
+                "idValue": "Marocco",
+                "itemDescription": "Marocco"
+              },
+              {
+                "idValue": "Mexican",
+                "itemDescription": "Mexican"
+              },
+              {
+                "idValue": "New Zealander",
+                "itemDescription": "New Zealander"
+              },
+              {
+                "idValue": "Nigerian",
+                "itemDescription": "Nigerian"
+              },
+              {
+                "idValue": "No Nationality",
+                "itemDescription": "No Nationality"
+              },
+              {
+                "idValue": "Northern Irish",
+                "itemDescription": "Northern Irish"
+              },
+              {
+                "idValue": "Norwegian",
+                "itemDescription": "Norwegian"
+              },
+              {
+                "idValue": "Not Stated",
+                "itemDescription": "Not Disclosed"
+              },
+              {
+                "idValue": "Omani",
+                "itemDescription": "Omani"
+              },
+              {
+                "idValue": "Pakistani",
+                "itemDescription": "Pakistani"
+              },
+              {
+                "idValue": "Palestinian",
+                "itemDescription": "Palestinian"
+              },
+              {
+                "idValue": "Peruvian",
+                "itemDescription": "Peruvian"
+              },
+              {
+                "idValue": "Philipinos",
+                "itemDescription": "Philipinos"
+              },
+              {
+                "idValue": "Polish",
+                "itemDescription": "Polish"
+              },
+              {
+                "idValue": "Portuguese",
+                "itemDescription": "Portuguese"
+              },
+              {
+                "idValue": "Qatari",
+                "itemDescription": "Qatari"
+              },
+              {
+                "idValue": "Romanian",
+                "itemDescription": "Romanian"
+              },
+              {
+                "idValue": "Russian",
+                "itemDescription": "Russian"
+              },
+              {
+                "idValue": "Saudi Arabian",
+                "itemDescription": "Saudi Arabian"
+              },
+              {
+                "idValue": "Scottish",
+                "itemDescription": "Scottish"
+              },
+              {
+                "idValue": "Singaporean",
+                "itemDescription": "Singaporean"
+              },
+              {
+                "idValue": "Slovakian",
+                "itemDescription": "Slovakian"
+              },
+              {
+                "idValue": "Somali",
+                "itemDescription": "Somali"
+              },
+              {
+                "idValue": "South African",
+                "itemDescription": "South African"
+              },
+              {
+                "idValue": "Spanish",
+                "itemDescription": "Spanish"
+              },
+              {
+                "idValue": "Sri Lankan",
+                "itemDescription": "Sri Lankan"
+              },
+              {
+                "idValue": "Sudanese",
+                "itemDescription": "Sudanese"
+              },
+              {
+                "idValue": "Swedish",
+                "itemDescription": "Swedish"
+              },
+              {
+                "idValue": "Swiss",
+                "itemDescription": "Swiss"
+              },
+              {
+                "idValue": "Syrian",
+                "itemDescription": "Syrian"
+              },
+              {
+                "idValue": "Tanzanian",
+                "itemDescription": "Tanzanian"
+              },
+              {
+                "idValue": "Thai",
+                "itemDescription": "Thai"
+              },
+              {
+                "idValue": "Turkish",
+                "itemDescription": "Turkish"
+              },
+              {
+                "idValue": "Ukrainian",
+                "itemDescription": "Ukrainian"
+              },
+              {
+                "idValue": "Vietnamese",
+                "itemDescription": "Vietnamese"
+              },
+              {
+                "idValue": "Welsh",
+                "itemDescription": "Welsh"
+              },
+              {
+                "idValue": "West Indies",
+                "itemDescription": "West Indies"
+              },
+              {
+                "idValue": "Yemeni",
+                "itemDescription": "Yemeni"
+              },
+              {
+                "idValue": "Zimbabwean",
+                "itemDescription": "Zimbabwean"
+              }
+            ]
+          }
+        },
+        "/worker/person/citizenshipCountryCodes/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Nationality",
+          "longLabelName": "Records Nationality of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Bahraini",
+                "itemDescription": "Bahraini"
+              },
+              {
+                "idValue": "Canadian",
+                "itemDescription": "Canadian"
+              },
+              {
+                "idValue": "African",
+                "itemDescription": "African"
+              },
+              {
+                "idValue": "Albanian",
+                "itemDescription": "Albanian"
+              },
+              {
+                "idValue": "Algerian",
+                "itemDescription": "Algerian"
+              },
+              {
+                "idValue": "American",
+                "itemDescription": "American"
+              },
+              {
+                "idValue": "Argentinean",
+                "itemDescription": "Argentinean"
+              },
+              {
+                "idValue": "Armenian",
+                "itemDescription": "Armenian"
+              },
+              {
+                "idValue": "Asian",
+                "itemDescription": "Asian"
+              },
+              {
+                "idValue": "Australian",
+                "itemDescription": "Australian"
+              },
+              {
+                "idValue": "Austrian",
+                "itemDescription": "Austrian"
+              },
+              {
+                "idValue": "Bangladeshi",
+                "itemDescription": "Bangladeshi"
+              },
+              {
+                "idValue": "Belgian",
+                "itemDescription": "Belgian"
+              },
+              {
+                "idValue": "Bosnian",
+                "itemDescription": "Bosnian"
+              },
+              {
+                "idValue": "Brazilian",
+                "itemDescription": "Brazilian"
+              },
+              {
+                "idValue": "British",
+                "itemDescription": "British"
+              },
+              {
+                "idValue": "Bruneian",
+                "itemDescription": "Bruneian"
+              },
+              {
+                "idValue": "Burmese",
+                "itemDescription": "Burmese"
+              },
+              {
+                "idValue": "Chilean",
+                "itemDescription": "Chilean"
+              },
+              {
+                "idValue": "Chinese",
+                "itemDescription": "Chinese"
+              },
+              {
+                "idValue": "Colombian",
+                "itemDescription": "Colombian"
+              },
+              {
+                "idValue": "Croatian",
+                "itemDescription": "Croatian"
+              },
+              {
+                "idValue": "Cypriot",
+                "itemDescription": "Cypriot"
+              },
+              {
+                "idValue": "Czechoslovakian",
+                "itemDescription": "Czechoslovakian"
+              },
+              {
+                "idValue": "Danish",
+                "itemDescription": "Danish"
+              },
+              {
+                "idValue": "Dutch",
+                "itemDescription": "Dutch"
+              },
+              {
+                "idValue": "Ecuador",
+                "itemDescription": "Ecuador"
+              },
+              {
+                "idValue": "Egyptian",
+                "itemDescription": "Egyptian"
+              },
+              {
+                "idValue": "El Salvador",
+                "itemDescription": "El Salvador"
+              },
+              {
+                "idValue": "Emirati",
+                "itemDescription": "Emirati"
+              },
+              {
+                "idValue": "English",
+                "itemDescription": "English"
+              },
+              {
+                "idValue": "Estonian",
+                "itemDescription": "Estonian"
+              },
+              {
+                "idValue": "Ethiopian",
+                "itemDescription": "Ethiopian"
+              },
+              {
+                "idValue": "Filipino",
+                "itemDescription": "Filipino"
+              },
+              {
+                "idValue": "Finnish",
+                "itemDescription": "Finnish"
+              },
+              {
+                "idValue": "French",
+                "itemDescription": "French"
+              },
+              {
+                "idValue": "Gambian",
+                "itemDescription": "Gambian"
+              },
+              {
+                "idValue": "German",
+                "itemDescription": "German"
+              },
+              {
+                "idValue": "Ghanaian",
+                "itemDescription": "Ghanaian"
+              },
+              {
+                "idValue": "Greek",
+                "itemDescription": "Greek"
+              },
+              {
+                "idValue": "Hellenic",
+                "itemDescription": "Hellenic"
+              },
+              {
+                "idValue": "Honduras",
+                "itemDescription": "Honduras"
+              },
+              {
+                "idValue": "Hungarian",
+                "itemDescription": "Hungarian"
+              },
+              {
+                "idValue": "Indian",
+                "itemDescription": "Indian"
+              },
+              {
+                "idValue": "Indonesian",
+                "itemDescription": "Indonesian"
+              },
+              {
+                "idValue": "Iranian",
+                "itemDescription": "Iranian"
+              },
+              {
+                "idValue": "Iraqi",
+                "itemDescription": "Iraqi"
+              },
+              {
+                "idValue": "Irish",
+                "itemDescription": "Irish"
+              },
+              {
+                "idValue": "Israeli",
+                "itemDescription": "Israeli"
+              },
+              {
+                "idValue": "Italian",
+                "itemDescription": "Italian"
+              },
+              {
+                "idValue": "Jamaican",
+                "itemDescription": "Jamaican"
+              },
+              {
+                "idValue": "Japanese",
+                "itemDescription": "Japanese"
+              },
+              {
+                "idValue": "Jordanian",
+                "itemDescription": "Jordanian"
+              },
+              {
+                "idValue": "Kenyan",
+                "itemDescription": "Kenyan"
+              },
+              {
+                "idValue": "Kuwaiti",
+                "itemDescription": "Kuwaiti"
+              },
+              {
+                "idValue": "Latvian",
+                "itemDescription": "Latvian"
+              },
+              {
+                "idValue": "Lebanese",
+                "itemDescription": "Lebanese"
+              },
+              {
+                "idValue": "Liberian",
+                "itemDescription": "Liberian"
+              },
+              {
+                "idValue": "Lithuanian",
+                "itemDescription": "Lithuanian"
+              },
+              {
+                "idValue": "Malaysian",
+                "itemDescription": "Malaysian"
+              },
+              {
+                "idValue": "Marocco",
+                "itemDescription": "Marocco"
+              },
+              {
+                "idValue": "Mexican",
+                "itemDescription": "Mexican"
+              },
+              {
+                "idValue": "New Zealander",
+                "itemDescription": "New Zealander"
+              },
+              {
+                "idValue": "Nigerian",
+                "itemDescription": "Nigerian"
+              },
+              {
+                "idValue": "No Nationality",
+                "itemDescription": "No Nationality"
+              },
+              {
+                "idValue": "Northern Irish",
+                "itemDescription": "Northern Irish"
+              },
+              {
+                "idValue": "Norwegian",
+                "itemDescription": "Norwegian"
+              },
+              {
+                "idValue": "Not Stated",
+                "itemDescription": "Not Disclosed"
+              },
+              {
+                "idValue": "Omani",
+                "itemDescription": "Omani"
+              },
+              {
+                "idValue": "Pakistani",
+                "itemDescription": "Pakistani"
+              },
+              {
+                "idValue": "Palestinian",
+                "itemDescription": "Palestinian"
+              },
+              {
+                "idValue": "Peruvian",
+                "itemDescription": "Peruvian"
+              },
+              {
+                "idValue": "Philipinos",
+                "itemDescription": "Philipinos"
+              },
+              {
+                "idValue": "Polish",
+                "itemDescription": "Polish"
+              },
+              {
+                "idValue": "Portuguese",
+                "itemDescription": "Portuguese"
+              },
+              {
+                "idValue": "Qatari",
+                "itemDescription": "Qatari"
+              },
+              {
+                "idValue": "Romanian",
+                "itemDescription": "Romanian"
+              },
+              {
+                "idValue": "Russian",
+                "itemDescription": "Russian"
+              },
+              {
+                "idValue": "Saudi Arabian",
+                "itemDescription": "Saudi Arabian"
+              },
+              {
+                "idValue": "Scottish",
+                "itemDescription": "Scottish"
+              },
+              {
+                "idValue": "Singaporean",
+                "itemDescription": "Singaporean"
+              },
+              {
+                "idValue": "Slovakian",
+                "itemDescription": "Slovakian"
+              },
+              {
+                "idValue": "Somali",
+                "itemDescription": "Somali"
+              },
+              {
+                "idValue": "South African",
+                "itemDescription": "South African"
+              },
+              {
+                "idValue": "Spanish",
+                "itemDescription": "Spanish"
+              },
+              {
+                "idValue": "Sri Lankan",
+                "itemDescription": "Sri Lankan"
+              },
+              {
+                "idValue": "Sudanese",
+                "itemDescription": "Sudanese"
+              },
+              {
+                "idValue": "Swedish",
+                "itemDescription": "Swedish"
+              },
+              {
+                "idValue": "Swiss",
+                "itemDescription": "Swiss"
+              },
+              {
+                "idValue": "Syrian",
+                "itemDescription": "Syrian"
+              },
+              {
+                "idValue": "Tanzanian",
+                "itemDescription": "Tanzanian"
+              },
+              {
+                "idValue": "Thai",
+                "itemDescription": "Thai"
+              },
+              {
+                "idValue": "Turkish",
+                "itemDescription": "Turkish"
+              },
+              {
+                "idValue": "Ukrainian",
+                "itemDescription": "Ukrainian"
+              },
+              {
+                "idValue": "Vietnamese",
+                "itemDescription": "Vietnamese"
+              },
+              {
+                "idValue": "Welsh",
+                "itemDescription": "Welsh"
+              },
+              {
+                "idValue": "West Indies",
+                "itemDescription": "West Indies"
+              },
+              {
+                "idValue": "Yemeni",
+                "itemDescription": "Yemeni"
+              },
+              {
+                "idValue": "Zimbabwean",
+                "itemDescription": "Zimbabwean"
+              }
+            ]
+          }
+        },
+        "/worker/person/communication/emails": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/communication/emails/emailUri": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Personal Email",
+          "longLabelName": "Records the personal email of the person",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 75,
+          "default": "",
+          "dataType": "string"
+        },
+        "/worker/person/communication/landlines": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/communication/landlines/formattedNumber": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Home Telephone",
+          "longLabelName": "Home Telephone Number",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 32,
+          "default": "",
+          "dataType": "string"
+        },
+        "/worker/person/communication/mobiles": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/communication/mobiles/formattedNumber": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Mobile Telephone",
+          "longLabelName": "Mobile Telephone Number",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 32,
+          "dataType": "string"
+        },
+        "/worker/person/customFieldGroup/codeFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/customFieldGroup/codeFields/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Termination Type",
+          "longLabelName": "Termination Type",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "1",
+                "itemDescription": "Voluntary"
+              },
+              {
+                "idValue": "2",
+                "itemDescription": "Involuntary"
+              },
+              {
+                "idValue": "3",
+                "itemDescription": "Others"
+              }
+            ]
+          }
+        },
+        "/worker/person/customFieldGroup/codeFields/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Termination Type",
+          "longLabelName": "Termination Type",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "1",
+                "itemDescription": "Voluntary"
+              },
+              {
+                "idValue": "2",
+                "itemDescription": "Involuntary"
+              },
+              {
+                "idValue": "3",
+                "itemDescription": "Others"
+              }
+            ]
+          }
+        },
+        "/worker/person/customFieldGroup/dateFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/customFieldGroup/dateFields/dateValue": {
+          "readOnly": true,
+          "shortLabelName": "Issue Date, Expiry Date",
+          "longLabelName": "Issue Date, Expiry Date",
+          "dataType": "string[date-time]"
+        },
+        "/worker/person/disabledIndicator": {
+          "readOnly": true,
+          "shortLabelName": "Disabled?",
+          "longLabelName": "Indicates if this person is Disabled?",
+          "dataType": "boolean"
+        },
+        "/worker/person/ethnicityCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/ethnicityCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Ethnicity",
+          "longLabelName": "Records Ethnicity of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "African American",
+                "itemDescription": "African American"
+              },
+              {
+                "idValue": "Anglo Asian",
+                "itemDescription": "Anglo Asian"
+              },
+              {
+                "idValue": "ASBang",
+                "itemDescription": "Asian Bangladeshi"
+              },
+              {
+                "idValue": "ASInd",
+                "itemDescription": "Asian Indian"
+              },
+              {
+                "idValue": "ASPak",
+                "itemDescription": "Asian Pakistani"
+              },
+              {
+                "idValue": "BAfr",
+                "itemDescription": "Black African"
+              },
+              {
+                "idValue": "BCarib",
+                "itemDescription": "Black Caribbean"
+              },
+              {
+                "idValue": "Black-Other",
+                "itemDescription": "Black-Other"
+              },
+              {
+                "idValue": "Chinese",
+                "itemDescription": "Chinese"
+              },
+              {
+                "idValue": "Hispanic",
+                "itemDescription": "Hispanic"
+              },
+              {
+                "idValue": "Indian",
+                "itemDescription": "Indian"
+              },
+              {
+                "idValue": "Indo European",
+                "itemDescription": "Indo European"
+              },
+              {
+                "idValue": "Not Disclosed",
+                "itemDescription": "Not Disclosed"
+              },
+              {
+                "idValue": "Not Stated",
+                "itemDescription": "Not Stated"
+              },
+              {
+                "idValue": "Other",
+                "itemDescription": "Other"
+              },
+              {
+                "idValue": "WBAfr",
+                "itemDescription": "White and Black African"
+              },
+              {
+                "idValue": "WBAsi",
+                "itemDescription": "White and Black Asian"
+              },
+              {
+                "idValue": "WBCarib",
+                "itemDescription": "White and Black Caribbean"
+              },
+              {
+                "idValue": "White",
+                "itemDescription": "White"
+              }
+            ]
+          }
+        },
+        "/worker/person/ethnicityCode/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Ethnicity",
+          "longLabelName": "Records Ethnicity of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "African American",
+                "itemDescription": "African American"
+              },
+              {
+                "idValue": "Anglo Asian",
+                "itemDescription": "Anglo Asian"
+              },
+              {
+                "idValue": "ASBang",
+                "itemDescription": "Asian Bangladeshi"
+              },
+              {
+                "idValue": "ASInd",
+                "itemDescription": "Asian Indian"
+              },
+              {
+                "idValue": "ASPak",
+                "itemDescription": "Asian Pakistani"
+              },
+              {
+                "idValue": "BAfr",
+                "itemDescription": "Black African"
+              },
+              {
+                "idValue": "BCarib",
+                "itemDescription": "Black Caribbean"
+              },
+              {
+                "idValue": "Black-Other",
+                "itemDescription": "Black-Other"
+              },
+              {
+                "idValue": "Chinese",
+                "itemDescription": "Chinese"
+              },
+              {
+                "idValue": "Hispanic",
+                "itemDescription": "Hispanic"
+              },
+              {
+                "idValue": "Indian",
+                "itemDescription": "Indian"
+              },
+              {
+                "idValue": "Indo European",
+                "itemDescription": "Indo European"
+              },
+              {
+                "idValue": "Not Disclosed",
+                "itemDescription": "Not Disclosed"
+              },
+              {
+                "idValue": "Not Stated",
+                "itemDescription": "Not Stated"
+              },
+              {
+                "idValue": "Other",
+                "itemDescription": "Other"
+              },
+              {
+                "idValue": "WBAfr",
+                "itemDescription": "White and Black African"
+              },
+              {
+                "idValue": "WBAsi",
+                "itemDescription": "White and Black Asian"
+              },
+              {
+                "idValue": "WBCarib",
+                "itemDescription": "White and Black Caribbean"
+              },
+              {
+                "idValue": "White",
+                "itemDescription": "White"
+              }
+            ]
+          }
+        },
+        "/worker/person/genderCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/genderCode/codeValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Gender",
+          "longLabelName": "Records Gender of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Female",
+                "itemDescription": "Female"
+              },
+              {
+                "idValue": "Male",
+                "itemDescription": "Male"
+              }
+            ]
+          }
+        },
+        "/worker/person/genderCode/shortName": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Gender",
+          "longLabelName": "Records Gender of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Female",
+                "itemDescription": "Female"
+              },
+              {
+                "idValue": "Male",
+                "itemDescription": "Male"
+              }
+            ]
+          }
+        },
+        "/worker/person/governmentIDs": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/governmentIDs/idValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "NI Number, Driving Licence No.",
+          "longLabelName": "NINUMBER, Records Driving Licence Number of the person",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 9,
+          "pattern": "^[A-Za-z]{2}[0-9]{6}[A-Za-z]{1}$",
+          "dataType": "string"
+        },
+        "/worker/person/governmentIDs/nameCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/governmentIDs/nameCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Driving Licence",
+          "longLabelName": "Records Driving Licence",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "FC",
+                "itemDescription": "Full Car"
+              },
+              {
+                "idValue": "FHGV",
+                "itemDescription": "Full HGV"
+              },
+              {
+                "idValue": "NONE",
+                "itemDescription": "None"
+              },
+              {
+                "idValue": "PC",
+                "itemDescription": "Provisional Car"
+              },
+              {
+                "idValue": "PHGV",
+                "itemDescription": "Provisional HGV"
+              },
+              {
+                "idValue": "UNK",
+                "itemDescription": "Unknown"
+              }
+            ]
+          }
+        },
+        "/worker/person/governmentIDs/nameCode/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Driving Licence",
+          "longLabelName": "Records Driving Licence",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "FC",
+                "itemDescription": "Full Car"
+              },
+              {
+                "idValue": "FHGV",
+                "itemDescription": "Full HGV"
+              },
+              {
+                "idValue": "NONE",
+                "itemDescription": "None"
+              },
+              {
+                "idValue": "PC",
+                "itemDescription": "Provisional Car"
+              },
+              {
+                "idValue": "PHGV",
+                "itemDescription": "Provisional HGV"
+              },
+              {
+                "idValue": "UNK",
+                "itemDescription": "Unknown"
+              }
+            ]
+          }
+        },
+        "/worker/person/legalAddress": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/legalAddress/cityName": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Town/City",
+          "longLabelName": "The town or city that forms an employee\u2019s address.\\r\\nThis field is mandatory.",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 20,
+          "dataType": "string"
+        },
+        "/worker/person/legalAddress/countryCode": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Country",
+          "longLabelName": "The country that forms an employee\u2019s address.\\r\\nThis field is mandatory.",
+          "uniqueItems": false,
+          "default": "GBR",
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "ABW",
+                "itemDescription": "Aruba"
+              },
+              {
+                "idValue": "AFG",
+                "itemDescription": "Afghanistan"
+              },
+              {
+                "idValue": "AGO",
+                "itemDescription": "Angola"
+              },
+              {
+                "idValue": "AIA",
+                "itemDescription": "Anguilla"
+              },
+              {
+                "idValue": "ALA",
+                "itemDescription": "Aland Islands"
+              },
+              {
+                "idValue": "ALB",
+                "itemDescription": "Albania"
+              },
+              {
+                "idValue": "AND",
+                "itemDescription": "Andorra"
+              },
+              {
+                "idValue": "ARE",
+                "itemDescription": "United Arab Emirates"
+              },
+              {
+                "idValue": "ARG",
+                "itemDescription": "Argentina"
+              },
+              {
+                "idValue": "ARM",
+                "itemDescription": "Armenia"
+              },
+              {
+                "idValue": "ASM",
+                "itemDescription": "American Samoa"
+              },
+              {
+                "idValue": "ATA",
+                "itemDescription": "Antarctica"
+              },
+              {
+                "idValue": "ATF",
+                "itemDescription": "French Southern Territories"
+              },
+              {
+                "idValue": "ATG",
+                "itemDescription": "Antigua and Barbuda"
+              },
+              {
+                "idValue": "AUS",
+                "itemDescription": "Australia"
+              },
+              {
+                "idValue": "AUT",
+                "itemDescription": "Austria"
+              },
+              {
+                "idValue": "AZE",
+                "itemDescription": "Azerbaijan"
+              },
+              {
+                "idValue": "BDI",
+                "itemDescription": "Burundi"
+              },
+              {
+                "idValue": "BEL",
+                "itemDescription": "Belgium"
+              },
+              {
+                "idValue": "BEN",
+                "itemDescription": "Benin"
+              },
+              {
+                "idValue": "BES",
+                "itemDescription": "Bonaire, Sint Eustatius and Saba"
+              },
+              {
+                "idValue": "BFA",
+                "itemDescription": "Burkina Faso"
+              },
+              {
+                "idValue": "BGD",
+                "itemDescription": "Bangladesh"
+              },
+              {
+                "idValue": "BGR",
+                "itemDescription": "Bulgaria"
+              },
+              {
+                "idValue": "BHR",
+                "itemDescription": "Bahrain"
+              },
+              {
+                "idValue": "BHS",
+                "itemDescription": "Bahamas"
+              },
+              {
+                "idValue": "BIH",
+                "itemDescription": "Bosnia and Herzegovina"
+              },
+              {
+                "idValue": "BLM",
+                "itemDescription": "Saint-Barthelemy"
+              },
+              {
+                "idValue": "BLR",
+                "itemDescription": "Belarus"
+              },
+              {
+                "idValue": "BLZ",
+                "itemDescription": "Belize"
+              },
+              {
+                "idValue": "BMU",
+                "itemDescription": "Bermuda"
+              },
+              {
+                "idValue": "BOL",
+                "itemDescription": "Bolivia (Plurinational State of)"
+              },
+              {
+                "idValue": "BRA",
+                "itemDescription": "Brazil"
+              },
+              {
+                "idValue": "BRB",
+                "itemDescription": "Barbados"
+              },
+              {
+                "idValue": "BRN",
+                "itemDescription": "Brunei"
+              },
+              {
+                "idValue": "BTN",
+                "itemDescription": "Bhutan"
+              },
+              {
+                "idValue": "BVT",
+                "itemDescription": "Bouvet Island"
+              },
+              {
+                "idValue": "BWA",
+                "itemDescription": "Botswana"
+              },
+              {
+                "idValue": "CAF",
+                "itemDescription": "Central African Republic"
+              },
+              {
+                "idValue": "CAN",
+                "itemDescription": "Canada"
+              },
+              {
+                "idValue": "CCK",
+                "itemDescription": "Cocos (Keeling) Islands"
+              },
+              {
+                "idValue": "CHE",
+                "itemDescription": "Switzerland"
+              },
+              {
+                "idValue": "CHL",
+                "itemDescription": "Chile"
+              },
+              {
+                "idValue": "CHN",
+                "itemDescription": "China"
+              },
+              {
+                "idValue": "CIV",
+                "itemDescription": "Cote d\u0027Ivoire"
+              },
+              {
+                "idValue": "CMR",
+                "itemDescription": "Cameroon"
+              },
+              {
+                "idValue": "COD",
+                "itemDescription": "Democratic Republic of the Congo"
+              },
+              {
+                "idValue": "COG",
+                "itemDescription": "Congo"
+              },
+              {
+                "idValue": "COK",
+                "itemDescription": "Cook Islands"
+              },
+              {
+                "idValue": "COL",
+                "itemDescription": "Colombia"
+              },
+              {
+                "idValue": "COM",
+                "itemDescription": "Comoros"
+              },
+              {
+                "idValue": "CPV",
+                "itemDescription": "Cabo Verde"
+              },
+              {
+                "idValue": "CRC",
+                "itemDescription": "Costa Rica"
+              },
+              {
+                "idValue": "CUB",
+                "itemDescription": "Cuba"
+              },
+              {
+                "idValue": "CUW",
+                "itemDescription": "Curacao"
+              },
+              {
+                "idValue": "CXR",
+                "itemDescription": "Christmas Island"
+              },
+              {
+                "idValue": "CYM",
+                "itemDescription": "Cayman Islands"
+              },
+              {
+                "idValue": "CYP",
+                "itemDescription": "Cyprus"
+              },
+              {
+                "idValue": "CZE",
+                "itemDescription": "Czech Republic"
+              },
+              {
+                "idValue": "DEU",
+                "itemDescription": "Germany"
+              },
+              {
+                "idValue": "DJI",
+                "itemDescription": "Djibouti"
+              },
+              {
+                "idValue": "DMA",
+                "itemDescription": "Dominica"
+              },
+              {
+                "idValue": "DNK",
+                "itemDescription": "Denmark"
+              },
+              {
+                "idValue": "DOM",
+                "itemDescription": "Dominican Republic"
+              },
+              {
+                "idValue": "DZA",
+                "itemDescription": "Algeria"
+              },
+              {
+                "idValue": "ECU",
+                "itemDescription": "Ecuador"
+              },
+              {
+                "idValue": "EGY",
+                "itemDescription": "Egypt"
+              },
+              {
+                "idValue": "ERI",
+                "itemDescription": "Eritrea"
+              },
+              {
+                "idValue": "ESH",
+                "itemDescription": "Western Sahara"
+              },
+              {
+                "idValue": "ESP",
+                "itemDescription": "Spain"
+              },
+              {
+                "idValue": "EST",
+                "itemDescription": "Estonia"
+              },
+              {
+                "idValue": "ETH",
+                "itemDescription": "Ethiopia"
+              },
+              {
+                "idValue": "FIN",
+                "itemDescription": "Finland"
+              },
+              {
+                "idValue": "FJI",
+                "itemDescription": "Fiji"
+              },
+              {
+                "idValue": "FLK",
+                "itemDescription": "Falkland Islands (Malvinas)"
+              },
+              {
+                "idValue": "FRA",
+                "itemDescription": "France"
+              },
+              {
+                "idValue": "FRO",
+                "itemDescription": "Faroe Islands"
+              },
+              {
+                "idValue": "FSM",
+                "itemDescription": "Micronesia (Federated States of)"
+              },
+              {
+                "idValue": "GAB",
+                "itemDescription": "Gabon"
+              },
+              {
+                "idValue": "GBR",
+                "itemDescription": "United Kingdom"
+              },
+              {
+                "idValue": "GEO",
+                "itemDescription": "Georgia"
+              },
+              {
+                "idValue": "GGY",
+                "itemDescription": "Guernsey"
+              },
+              {
+                "idValue": "GHA",
+                "itemDescription": "Ghana"
+              },
+              {
+                "idValue": "GIB",
+                "itemDescription": "Gibraltar"
+              },
+              {
+                "idValue": "GIN",
+                "itemDescription": "Guinea"
+              },
+              {
+                "idValue": "GLP",
+                "itemDescription": "Guadeloupe"
+              },
+              {
+                "idValue": "GMB",
+                "itemDescription": "Gambia"
+              },
+              {
+                "idValue": "GNB",
+                "itemDescription": "Guinea-Bissau"
+              },
+              {
+                "idValue": "GNQ",
+                "itemDescription": "Equatorial Guinea"
+              },
+              {
+                "idValue": "GRC",
+                "itemDescription": "Greece"
+              },
+              {
+                "idValue": "GRD",
+                "itemDescription": "Grenada"
+              },
+              {
+                "idValue": "GRL",
+                "itemDescription": "Greenland"
+              },
+              {
+                "idValue": "GTM",
+                "itemDescription": "Guatemala"
+              },
+              {
+                "idValue": "GUF",
+                "itemDescription": "French Guiana"
+              },
+              {
+                "idValue": "GUM",
+                "itemDescription": "Guam"
+              },
+              {
+                "idValue": "GUY",
+                "itemDescription": "Guyana"
+              },
+              {
+                "idValue": "HKG",
+                "itemDescription": "China, Hong Kong Special Administrative Region"
+              },
+              {
+                "idValue": "HMD",
+                "itemDescription": "Heard Island and McDonald Islands"
+              },
+              {
+                "idValue": "HND",
+                "itemDescription": "Honduras"
+              },
+              {
+                "idValue": "HRV",
+                "itemDescription": "Croatia"
+              },
+              {
+                "idValue": "HTI",
+                "itemDescription": "Haiti"
+              },
+              {
+                "idValue": "HUN",
+                "itemDescription": "Hungary"
+              },
+              {
+                "idValue": "IDN",
+                "itemDescription": "Indonesia"
+              },
+              {
+                "idValue": "IMN",
+                "itemDescription": "Isle of Man"
+              },
+              {
+                "idValue": "IND",
+                "itemDescription": "India"
+              },
+              {
+                "idValue": "IOT",
+                "itemDescription": "British Indian Ocean Territory"
+              },
+              {
+                "idValue": "IRL",
+                "itemDescription": "Ireland"
+              },
+              {
+                "idValue": "IRN",
+                "itemDescription": "Iran"
+              },
+              {
+                "idValue": "IRQ",
+                "itemDescription": "Iraq"
+              },
+              {
+                "idValue": "IS",
+                "itemDescription": "Iceland"
+              },
+              {
+                "idValue": "ISR",
+                "itemDescription": "Israel"
+              },
+              {
+                "idValue": "IT",
+                "itemDescription": "Italy"
+              },
+              {
+                "idValue": "JAM",
+                "itemDescription": "Jamaica"
+              },
+              {
+                "idValue": "JEY",
+                "itemDescription": "Jersey"
+              },
+              {
+                "idValue": "JOR",
+                "itemDescription": "Jordan"
+              },
+              {
+                "idValue": "JPN",
+                "itemDescription": "Japan"
+              },
+              {
+                "idValue": "KAZ",
+                "itemDescription": "Kazakhstan"
+              },
+              {
+                "idValue": "KEN",
+                "itemDescription": "Kenya"
+              },
+              {
+                "idValue": "KGZ",
+                "itemDescription": "Kyrgyzstan"
+              },
+              {
+                "idValue": "KHM",
+                "itemDescription": "Cambodia"
+              },
+              {
+                "idValue": "KIR",
+                "itemDescription": "Kiribati"
+              },
+              {
+                "idValue": "KNA",
+                "itemDescription": "Saint Kitts and Nevis"
+              },
+              {
+                "idValue": "KOR",
+                "itemDescription": "Republic of Korea"
+              },
+              {
+                "idValue": "KWT",
+                "itemDescription": "Kuwait"
+              },
+              {
+                "idValue": "LAO",
+                "itemDescription": "Lao People\u0027s Democratic Republic"
+              },
+              {
+                "idValue": "LBN",
+                "itemDescription": "Lebanon"
+              },
+              {
+                "idValue": "LBR",
+                "itemDescription": "Liberia"
+              },
+              {
+                "idValue": "LBY",
+                "itemDescription": "Libya"
+              },
+              {
+                "idValue": "LCA",
+                "itemDescription": "Saint Lucia"
+              },
+              {
+                "idValue": "LIE",
+                "itemDescription": "Liechtenstein"
+              },
+              {
+                "idValue": "LKA",
+                "itemDescription": "Sri Lanka"
+              },
+              {
+                "idValue": "LSO",
+                "itemDescription": "Lesotho"
+              },
+              {
+                "idValue": "LTU",
+                "itemDescription": "Lithuania"
+              },
+              {
+                "idValue": "LUX",
+                "itemDescription": "Luxembourg"
+              },
+              {
+                "idValue": "LVA",
+                "itemDescription": "Latvia"
+              },
+              {
+                "idValue": "MAC",
+                "itemDescription": "China, Macao Special Administrative Region"
+              },
+              {
+                "idValue": "MAF",
+                "itemDescription": "Saint-Martin (French part)"
+              },
+              {
+                "idValue": "MAR",
+                "itemDescription": "Morocco"
+              },
+              {
+                "idValue": "MCO",
+                "itemDescription": "Monaco"
+              },
+              {
+                "idValue": "MDA",
+                "itemDescription": "Republic of Moldova"
+              },
+              {
+                "idValue": "MDG",
+                "itemDescription": "Madagascar"
+              },
+              {
+                "idValue": "MDV",
+                "itemDescription": "Maldives"
+              },
+              {
+                "idValue": "MEX",
+                "itemDescription": "Mexico"
+              },
+              {
+                "idValue": "MHL",
+                "itemDescription": "Marshall Islands"
+              },
+              {
+                "idValue": "MKD ",
+                "itemDescription": "The former Yugoslav Republic of Macedonia"
+              },
+              {
+                "idValue": "MLI",
+                "itemDescription": "Mali"
+              },
+              {
+                "idValue": "MLT",
+                "itemDescription": "Malta"
+              },
+              {
+                "idValue": "MMR",
+                "itemDescription": "Myanmar"
+              },
+              {
+                "idValue": "MNE",
+                "itemDescription": "Montenegro"
+              },
+              {
+                "idValue": "MNG",
+                "itemDescription": "Mongolia"
+              },
+              {
+                "idValue": "MNP",
+                "itemDescription": "Northern Mariana Islands"
+              },
+              {
+                "idValue": "MOZ",
+                "itemDescription": "Mozambique"
+              },
+              {
+                "idValue": "MRT",
+                "itemDescription": "Mauritania"
+              },
+              {
+                "idValue": "MSR",
+                "itemDescription": "Montserrat"
+              },
+              {
+                "idValue": "MTQ",
+                "itemDescription": "Martinique"
+              },
+              {
+                "idValue": "MUS",
+                "itemDescription": "Mauritius"
+              },
+              {
+                "idValue": "MWI",
+                "itemDescription": "Malawi"
+              },
+              {
+                "idValue": "MYS",
+                "itemDescription": "Malaysia"
+              },
+              {
+                "idValue": "MYT",
+                "itemDescription": "Mayotte"
+              },
+              {
+                "idValue": "NAM",
+                "itemDescription": "Namibia"
+              },
+              {
+                "idValue": "NCL",
+                "itemDescription": "New Caledonia"
+              },
+              {
+                "idValue": "NER",
+                "itemDescription": "Niger"
+              },
+              {
+                "idValue": "NFK",
+                "itemDescription": "Norfolk Island"
+              },
+              {
+                "idValue": "NGA",
+                "itemDescription": "Nigeria"
+              },
+              {
+                "idValue": "NIC",
+                "itemDescription": "Nicaragua"
+              },
+              {
+                "idValue": "NIU",
+                "itemDescription": "Niue"
+              },
+              {
+                "idValue": "NLD",
+                "itemDescription": "Netherlands"
+              },
+              {
+                "idValue": "NOR",
+                "itemDescription": "Norway"
+              },
+              {
+                "idValue": "NPL",
+                "itemDescription": "Nepal"
+              },
+              {
+                "idValue": "NRU",
+                "itemDescription": "Nauru"
+              },
+              {
+                "idValue": "NZL",
+                "itemDescription": "New Zealand"
+              },
+              {
+                "idValue": "OMN",
+                "itemDescription": "Oman"
+              },
+              {
+                "idValue": "PAK",
+                "itemDescription": "Pakistan"
+              },
+              {
+                "idValue": "PAN",
+                "itemDescription": "Panama"
+              },
+              {
+                "idValue": "PCN",
+                "itemDescription": "Pitcairn"
+              },
+              {
+                "idValue": "PER",
+                "itemDescription": "Peru"
+              },
+              {
+                "idValue": "PHL",
+                "itemDescription": "Philippines"
+              },
+              {
+                "idValue": "PLW",
+                "itemDescription": "Palau"
+              },
+              {
+                "idValue": "PNG",
+                "itemDescription": "Papua New Guinea"
+              },
+              {
+                "idValue": "POL",
+                "itemDescription": "Poland"
+              },
+              {
+                "idValue": "PRI",
+                "itemDescription": "Puerto Rico"
+              },
+              {
+                "idValue": "PRK",
+                "itemDescription": "Democratic People\u0027s Republic of Korea"
+              },
+              {
+                "idValue": "PRT",
+                "itemDescription": "Portugal"
+              },
+              {
+                "idValue": "PRY",
+                "itemDescription": "Paraguay"
+              },
+              {
+                "idValue": "PSE",
+                "itemDescription": "State of Palestine"
+              },
+              {
+                "idValue": "PYF",
+                "itemDescription": "French Polynesia"
+              },
+              {
+                "idValue": "QAT",
+                "itemDescription": "Qatar"
+              },
+              {
+                "idValue": "REU",
+                "itemDescription": "Reunion"
+              },
+              {
+                "idValue": "ROU",
+                "itemDescription": "Romania"
+              },
+              {
+                "idValue": "RUS",
+                "itemDescription": "Russia"
+              },
+              {
+                "idValue": "RWA",
+                "itemDescription": "Rwanda"
+              },
+              {
+                "idValue": "SAU",
+                "itemDescription": "Saudi Arabia"
+              },
+              {
+                "idValue": "SDN",
+                "itemDescription": "Sudan"
+              },
+              {
+                "idValue": "SEN",
+                "itemDescription": "Senegal"
+              },
+              {
+                "idValue": "SGP",
+                "itemDescription": "Singapore"
+              },
+              {
+                "idValue": "SGS",
+                "itemDescription": "South Georgia and the South Sandwich Islands"
+              },
+              {
+                "idValue": "SHN",
+                "itemDescription": "Saint Helena"
+              },
+              {
+                "idValue": "SJM",
+                "itemDescription": "Svalbard and Jan Mayen Islands"
+              },
+              {
+                "idValue": "SLB",
+                "itemDescription": "Solomon Islands"
+              },
+              {
+                "idValue": "SLE",
+                "itemDescription": "Sierra Leone"
+              },
+              {
+                "idValue": "SLV",
+                "itemDescription": "El Salvador"
+              },
+              {
+                "idValue": "SMR",
+                "itemDescription": "San Marino"
+              },
+              {
+                "idValue": "SOM",
+                "itemDescription": "Somalia"
+              },
+              {
+                "idValue": "SPM",
+                "itemDescription": "Saint Pierre and Miquelon"
+              },
+              {
+                "idValue": "SRB",
+                "itemDescription": "Serbia"
+              },
+              {
+                "idValue": "SSD",
+                "itemDescription": "South Sudan"
+              },
+              {
+                "idValue": "STP",
+                "itemDescription": "Sao Tome and Principe"
+              },
+              {
+                "idValue": "SUR",
+                "itemDescription": "Suriname"
+              },
+              {
+                "idValue": "SVK",
+                "itemDescription": "Slovakia"
+              },
+              {
+                "idValue": "SVN",
+                "itemDescription": "Slovenia"
+              },
+              {
+                "idValue": "SWE",
+                "itemDescription": "Sweden"
+              },
+              {
+                "idValue": "SWZ",
+                "itemDescription": "Swaziland"
+              },
+              {
+                "idValue": "SXM",
+                "itemDescription": "Sint Maarten (Dutch part)"
+              },
+              {
+                "idValue": "SYC",
+                "itemDescription": "Seychelles"
+              },
+              {
+                "idValue": "SYR",
+                "itemDescription": "Syria"
+              },
+              {
+                "idValue": "TCA",
+                "itemDescription": "Turks and Caicos Islands"
+              },
+              {
+                "idValue": "TCD",
+                "itemDescription": "Chad"
+              },
+              {
+                "idValue": "TGO",
+                "itemDescription": "Togo"
+              },
+              {
+                "idValue": "THA",
+                "itemDescription": "Thailand"
+              },
+              {
+                "idValue": "TJK",
+                "itemDescription": "Tajikistan"
+              },
+              {
+                "idValue": "TKL",
+                "itemDescription": "Tokelau"
+              },
+              {
+                "idValue": "TKM",
+                "itemDescription": "Turkmenistan"
+              },
+              {
+                "idValue": "TLS",
+                "itemDescription": "Timor-Leste"
+              },
+              {
+                "idValue": "TON",
+                "itemDescription": "Tonga"
+              },
+              {
+                "idValue": "TTO",
+                "itemDescription": "Trinidad and Tobago"
+              },
+              {
+                "idValue": "TUN",
+                "itemDescription": "Tunisia"
+              },
+              {
+                "idValue": "TUR",
+                "itemDescription": "Turkey"
+              },
+              {
+                "idValue": "TUV",
+                "itemDescription": "Tuvalu"
+              },
+              {
+                "idValue": "TWN",
+                "itemDescription": "Taiwan"
+              },
+              {
+                "idValue": "TZA",
+                "itemDescription": "Tanzania"
+              },
+              {
+                "idValue": "UGA",
+                "itemDescription": "Uganda"
+              },
+              {
+                "idValue": "UKR",
+                "itemDescription": "Ukraine"
+              },
+              {
+                "idValue": "UMI",
+                "itemDescription": "United States Minor Outlying Islands"
+              },
+              {
+                "idValue": "URY",
+                "itemDescription": "Uruguay"
+              },
+              {
+                "idValue": "USA",
+                "itemDescription": "United States of America"
+              },
+              {
+                "idValue": "UZB",
+                "itemDescription": "Uzbekistan"
+              },
+              {
+                "idValue": "VAT",
+                "itemDescription": "Holy See"
+              },
+              {
+                "idValue": "VCT",
+                "itemDescription": "Saint Vincent and the Grenadines"
+              },
+              {
+                "idValue": "VEN",
+                "itemDescription": "Venezuela (Bolivarian Republic of)"
+              },
+              {
+                "idValue": "VGB",
+                "itemDescription": "British Virgin Islands"
+              },
+              {
+                "idValue": "VIR",
+                "itemDescription": "United States Virgin Islands"
+              },
+              {
+                "idValue": "VNM",
+                "itemDescription": "Viet Nam"
+              },
+              {
+                "idValue": "VUT",
+                "itemDescription": "Vanuatu"
+              },
+              {
+                "idValue": "WLF",
+                "itemDescription": "Wallis and Futuna Islands"
+              },
+              {
+                "idValue": "WSM",
+                "itemDescription": "Samoa"
+              },
+              {
+                "idValue": "YEM",
+                "itemDescription": "Yemen"
+              },
+              {
+                "idValue": "ZAF",
+                "itemDescription": "South Africa"
+              },
+              {
+                "idValue": "ZMB",
+                "itemDescription": "Zambia"
+              },
+              {
+                "idValue": "ZWE",
+                "itemDescription": "Zimbabwe"
+              }
+            ]
+          }
+        },
+        "/worker/person/legalAddress/countrySubdivisionLevel1": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/legalAddress/countrySubdivisionLevel1/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "County/State",
+          "longLabelName": "The county or state that forms an employee\u2019s address.",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 40,
+          "dataType": "string"
+        },
+        "/worker/person/legalAddress/lineOne": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Address Line 1",
+          "longLabelName": "The first line that forms an employee\u2019s address.\\r\\nThis field is mandatory.",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 40,
+          "dataType": "string"
+        },
+        "/worker/person/legalAddress/lineThree": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Address Line 3",
+          "longLabelName": "The third line that forms an employee\u2019s address.",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 40,
+          "dataType": "string"
+        },
+        "/worker/person/legalAddress/lineTwo": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Address Line 2",
+          "longLabelName": "The second line that forms an employee\u2019s address.",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 40,
+          "dataType": "string"
+        },
+        "/worker/person/legalAddress/nameCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/legalAddress/nameCode/codeValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Address Type",
+          "longLabelName": "The type of address that is being specified for the employee.  This field is mandatory.",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "ADD1",
+                "itemDescription": "Weekday Address"
+              },
+              {
+                "idValue": "ADD2",
+                "itemDescription": "Weekend Address"
+              },
+              {
+                "idValue": "ADD3",
+                "itemDescription": "Holiday Address"
+              },
+              {
+                "idValue": "ADD4",
+                "itemDescription": "Relations Address"
+              },
+              {
+                "idValue": "ADD5",
+                "itemDescription": "Dependant Address"
+              },
+              {
+                "idValue": "FWD",
+                "itemDescription": "Forwarding Address"
+              },
+              {
+                "idValue": "HOME",
+                "itemDescription": "Home Address"
+              },
+              {
+                "idValue": "WORK",
+                "itemDescription": "Work Address"
+              }
+            ]
+          }
+        },
+        "/worker/person/legalAddress/postalCode": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Post Code",
+          "longLabelName": "The postal code that forms an employee\u2019s address.",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 10,
+          "dataType": "string"
+        },
+        "/worker/person/legalName": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/legalName/familyName1": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Last Name",
+          "longLabelName": "Records Last Name of the person",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 50,
+          "pattern": "^([a-zA-Z.\u0027-]|\\\\s|\u0027)*$",
+          "dataType": "string"
+        },
+        "/worker/person/legalName/familyName2": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Maiden Name",
+          "longLabelName": "Records Maiden Name of the person",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 50,
+          "dataType": "string"
+        },
+        "/worker/person/legalName/givenName": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "First Name",
+          "longLabelName": "Records First Name of the person",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 50,
+          "default": "",
+          "pattern": "^([^0-9*;:\\\u0022\\\u0022_\u0026~\u00AC\u0060!@#$%^()_\u002B=\u003C\u003E,/?{}[\\\\]|\\\\\\\\])*$",
+          "dataType": "string"
+        },
+        "/worker/person/legalName/middleName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Middle Name(s)",
+          "longLabelName": "Records Middle Name of the person ",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 50,
+          "dataType": "string"
+        },
+        "/worker/person/legalName/nickName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Known As",
+          "longLabelName": "Records Known As of the person",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 150,
+          "default": "",
+          "dataType": "string"
+        },
+        "/worker/person/legalName/preferredSalutations": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/legalName/preferredSalutations/salutationCode": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Title",
+          "longLabelName": "Records Title of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Dr",
+                "itemDescription": "Dr."
+              },
+              {
+                "idValue": "Miss",
+                "itemDescription": "Miss."
+              },
+              {
+                "idValue": "Mr",
+                "itemDescription": "Mr."
+              },
+              {
+                "idValue": "Mrs",
+                "itemDescription": "Mrs."
+              },
+              {
+                "idValue": "Ms",
+                "itemDescription": "Ms."
+              }
+            ]
+          }
+        },
+        "/worker/person/legalName/preferredSalutations/salutationCode/codevalue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Title",
+          "longLabelName": "Records Title of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Dr",
+                "itemDescription": "Dr."
+              },
+              {
+                "idValue": "Miss",
+                "itemDescription": "Miss."
+              },
+              {
+                "idValue": "Mr",
+                "itemDescription": "Mr."
+              },
+              {
+                "idValue": "Mrs",
+                "itemDescription": "Mrs."
+              },
+              {
+                "idValue": "Ms",
+                "itemDescription": "Ms."
+              }
+            ]
+          }
+        },
+        "/worker/person/legalName/preferredSalutations/salutationCode/shortName": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Title",
+          "longLabelName": "Records Title of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Dr",
+                "itemDescription": "Dr."
+              },
+              {
+                "idValue": "Miss",
+                "itemDescription": "Miss."
+              },
+              {
+                "idValue": "Mr",
+                "itemDescription": "Mr."
+              },
+              {
+                "idValue": "Mrs",
+                "itemDescription": "Mrs."
+              },
+              {
+                "idValue": "Ms",
+                "itemDescription": "Ms."
+              }
+            ]
+          }
+        },
+        "/worker/person/maritalStatusCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/maritalStatusCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Marital Status",
+          "longLabelName": "Records Marital Status of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "D",
+                "itemDescription": "Divorced"
+              },
+              {
+                "idValue": "M",
+                "itemDescription": "Married"
+              },
+              {
+                "idValue": "P",
+                "itemDescription": "Separated"
+              },
+              {
+                "idValue": "S",
+                "itemDescription": "Single"
+              },
+              {
+                "idValue": "U",
+                "itemDescription": "Unknown"
+              },
+              {
+                "idValue": "W",
+                "itemDescription": "Widowed"
+              }
+            ]
+          }
+        },
+        "/worker/person/maritalStatusCode/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Marital Status",
+          "longLabelName": "Records Marital Status of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "D",
+                "itemDescription": "Divorced"
+              },
+              {
+                "idValue": "M",
+                "itemDescription": "Married"
+              },
+              {
+                "idValue": "P",
+                "itemDescription": "Separated"
+              },
+              {
+                "idValue": "S",
+                "itemDescription": "Single"
+              },
+              {
+                "idValue": "U",
+                "itemDescription": "Unknown"
+              },
+              {
+                "idValue": "W",
+                "itemDescription": "Widowed"
+              }
+            ]
+          }
+        },
+        "/worker/person/passports": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/person/passports/countryCode": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Country of Issue",
+          "longLabelName": "Country of Issue",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "ABW",
+                "itemDescription": "Aruba"
+              },
+              {
+                "idValue": "AFG",
+                "itemDescription": "Afghanistan"
+              },
+              {
+                "idValue": "AGO",
+                "itemDescription": "Angola"
+              },
+              {
+                "idValue": "AIA",
+                "itemDescription": "Anguilla"
+              },
+              {
+                "idValue": "ALA",
+                "itemDescription": "Aland Islands"
+              },
+              {
+                "idValue": "ALB",
+                "itemDescription": "Albania"
+              },
+              {
+                "idValue": "AND",
+                "itemDescription": "Andorra"
+              },
+              {
+                "idValue": "ARE",
+                "itemDescription": "United Arab Emirates"
+              },
+              {
+                "idValue": "ARG",
+                "itemDescription": "Argentina"
+              },
+              {
+                "idValue": "ARM",
+                "itemDescription": "Armenia"
+              },
+              {
+                "idValue": "ASM",
+                "itemDescription": "American Samoa"
+              },
+              {
+                "idValue": "ATA",
+                "itemDescription": "Antarctica"
+              },
+              {
+                "idValue": "ATF",
+                "itemDescription": "French Southern Territories"
+              },
+              {
+                "idValue": "ATG",
+                "itemDescription": "Antigua and Barbuda"
+              },
+              {
+                "idValue": "AUS",
+                "itemDescription": "Australia"
+              },
+              {
+                "idValue": "AUT",
+                "itemDescription": "Austria"
+              },
+              {
+                "idValue": "AZE",
+                "itemDescription": "Azerbaijan"
+              },
+              {
+                "idValue": "BDI",
+                "itemDescription": "Burundi"
+              },
+              {
+                "idValue": "BEL",
+                "itemDescription": "Belgium"
+              },
+              {
+                "idValue": "BEN",
+                "itemDescription": "Benin"
+              },
+              {
+                "idValue": "BES",
+                "itemDescription": "Bonaire, Sint Eustatius and Saba"
+              },
+              {
+                "idValue": "BFA",
+                "itemDescription": "Burkina Faso"
+              },
+              {
+                "idValue": "BGD",
+                "itemDescription": "Bangladesh"
+              },
+              {
+                "idValue": "BGR",
+                "itemDescription": "Bulgaria"
+              },
+              {
+                "idValue": "BHR",
+                "itemDescription": "Bahrain"
+              },
+              {
+                "idValue": "BHS",
+                "itemDescription": "Bahamas"
+              },
+              {
+                "idValue": "BIH",
+                "itemDescription": "Bosnia and Herzegovina"
+              },
+              {
+                "idValue": "BLM",
+                "itemDescription": "Saint-Barthelemy"
+              },
+              {
+                "idValue": "BLR",
+                "itemDescription": "Belarus"
+              },
+              {
+                "idValue": "BLZ",
+                "itemDescription": "Belize"
+              },
+              {
+                "idValue": "BMU",
+                "itemDescription": "Bermuda"
+              },
+              {
+                "idValue": "BOL",
+                "itemDescription": "Bolivia (Plurinational State of)"
+              },
+              {
+                "idValue": "BRA",
+                "itemDescription": "Brazil"
+              },
+              {
+                "idValue": "BRB",
+                "itemDescription": "Barbados"
+              },
+              {
+                "idValue": "BRN",
+                "itemDescription": "Brunei"
+              },
+              {
+                "idValue": "BTN",
+                "itemDescription": "Bhutan"
+              },
+              {
+                "idValue": "BVT",
+                "itemDescription": "Bouvet Island"
+              },
+              {
+                "idValue": "BWA",
+                "itemDescription": "Botswana"
+              },
+              {
+                "idValue": "CAF",
+                "itemDescription": "Central African Republic"
+              },
+              {
+                "idValue": "CAN",
+                "itemDescription": "Canada"
+              },
+              {
+                "idValue": "CCK",
+                "itemDescription": "Cocos (Keeling) Islands"
+              },
+              {
+                "idValue": "CHE",
+                "itemDescription": "Switzerland"
+              },
+              {
+                "idValue": "CHL",
+                "itemDescription": "Chile"
+              },
+              {
+                "idValue": "CHN",
+                "itemDescription": "China"
+              },
+              {
+                "idValue": "CIV",
+                "itemDescription": "Cote d\u0027Ivoire"
+              },
+              {
+                "idValue": "CMR",
+                "itemDescription": "Cameroon"
+              },
+              {
+                "idValue": "COD",
+                "itemDescription": "Democratic Republic of the Congo"
+              },
+              {
+                "idValue": "COG",
+                "itemDescription": "Congo"
+              },
+              {
+                "idValue": "COK",
+                "itemDescription": "Cook Islands"
+              },
+              {
+                "idValue": "COL",
+                "itemDescription": "Colombia"
+              },
+              {
+                "idValue": "COM",
+                "itemDescription": "Comoros"
+              },
+              {
+                "idValue": "CPV",
+                "itemDescription": "Cabo Verde"
+              },
+              {
+                "idValue": "CRC",
+                "itemDescription": "Costa Rica"
+              },
+              {
+                "idValue": "CUB",
+                "itemDescription": "Cuba"
+              },
+              {
+                "idValue": "CUW",
+                "itemDescription": "Curacao"
+              },
+              {
+                "idValue": "CXR",
+                "itemDescription": "Christmas Island"
+              },
+              {
+                "idValue": "CYM",
+                "itemDescription": "Cayman Islands"
+              },
+              {
+                "idValue": "CYP",
+                "itemDescription": "Cyprus"
+              },
+              {
+                "idValue": "CZE",
+                "itemDescription": "Czech Republic"
+              },
+              {
+                "idValue": "DEU",
+                "itemDescription": "Germany"
+              },
+              {
+                "idValue": "DJI",
+                "itemDescription": "Djibouti"
+              },
+              {
+                "idValue": "DMA",
+                "itemDescription": "Dominica"
+              },
+              {
+                "idValue": "DNK",
+                "itemDescription": "Denmark"
+              },
+              {
+                "idValue": "DOM",
+                "itemDescription": "Dominican Republic"
+              },
+              {
+                "idValue": "DZA",
+                "itemDescription": "Algeria"
+              },
+              {
+                "idValue": "ECU",
+                "itemDescription": "Ecuador"
+              },
+              {
+                "idValue": "EGY",
+                "itemDescription": "Egypt"
+              },
+              {
+                "idValue": "ERI",
+                "itemDescription": "Eritrea"
+              },
+              {
+                "idValue": "ESH",
+                "itemDescription": "Western Sahara"
+              },
+              {
+                "idValue": "ESP",
+                "itemDescription": "Spain"
+              },
+              {
+                "idValue": "EST",
+                "itemDescription": "Estonia"
+              },
+              {
+                "idValue": "ETH",
+                "itemDescription": "Ethiopia"
+              },
+              {
+                "idValue": "FIN",
+                "itemDescription": "Finland"
+              },
+              {
+                "idValue": "FJI",
+                "itemDescription": "Fiji"
+              },
+              {
+                "idValue": "FLK",
+                "itemDescription": "Falkland Islands (Malvinas)"
+              },
+              {
+                "idValue": "FRA",
+                "itemDescription": "France"
+              },
+              {
+                "idValue": "FRO",
+                "itemDescription": "Faroe Islands"
+              },
+              {
+                "idValue": "FSM",
+                "itemDescription": "Micronesia (Federated States of)"
+              },
+              {
+                "idValue": "GAB",
+                "itemDescription": "Gabon"
+              },
+              {
+                "idValue": "GBR",
+                "itemDescription": "United Kingdom"
+              },
+              {
+                "idValue": "GEO",
+                "itemDescription": "Georgia"
+              },
+              {
+                "idValue": "GGY",
+                "itemDescription": "Guernsey"
+              },
+              {
+                "idValue": "GHA",
+                "itemDescription": "Ghana"
+              },
+              {
+                "idValue": "GIB",
+                "itemDescription": "Gibraltar"
+              },
+              {
+                "idValue": "GIN",
+                "itemDescription": "Guinea"
+              },
+              {
+                "idValue": "GLP",
+                "itemDescription": "Guadeloupe"
+              },
+              {
+                "idValue": "GMB",
+                "itemDescription": "Gambia"
+              },
+              {
+                "idValue": "GNB",
+                "itemDescription": "Guinea-Bissau"
+              },
+              {
+                "idValue": "GNQ",
+                "itemDescription": "Equatorial Guinea"
+              },
+              {
+                "idValue": "GRC",
+                "itemDescription": "Greece"
+              },
+              {
+                "idValue": "GRD",
+                "itemDescription": "Grenada"
+              },
+              {
+                "idValue": "GRL",
+                "itemDescription": "Greenland"
+              },
+              {
+                "idValue": "GTM",
+                "itemDescription": "Guatemala"
+              },
+              {
+                "idValue": "GUF",
+                "itemDescription": "French Guiana"
+              },
+              {
+                "idValue": "GUM",
+                "itemDescription": "Guam"
+              },
+              {
+                "idValue": "GUY",
+                "itemDescription": "Guyana"
+              },
+              {
+                "idValue": "HKG",
+                "itemDescription": "China, Hong Kong Special Administrative Region"
+              },
+              {
+                "idValue": "HMD",
+                "itemDescription": "Heard Island and McDonald Islands"
+              },
+              {
+                "idValue": "HND",
+                "itemDescription": "Honduras"
+              },
+              {
+                "idValue": "HRV",
+                "itemDescription": "Croatia"
+              },
+              {
+                "idValue": "HTI",
+                "itemDescription": "Haiti"
+              },
+              {
+                "idValue": "HUN",
+                "itemDescription": "Hungary"
+              },
+              {
+                "idValue": "IDN",
+                "itemDescription": "Indonesia"
+              },
+              {
+                "idValue": "IMN",
+                "itemDescription": "Isle of Man"
+              },
+              {
+                "idValue": "IND",
+                "itemDescription": "India"
+              },
+              {
+                "idValue": "IOT",
+                "itemDescription": "British Indian Ocean Territory"
+              },
+              {
+                "idValue": "IRL",
+                "itemDescription": "Ireland"
+              },
+              {
+                "idValue": "IRN",
+                "itemDescription": "Iran"
+              },
+              {
+                "idValue": "IRQ",
+                "itemDescription": "Iraq"
+              },
+              {
+                "idValue": "IS",
+                "itemDescription": "Iceland"
+              },
+              {
+                "idValue": "ISR",
+                "itemDescription": "Israel"
+              },
+              {
+                "idValue": "IT",
+                "itemDescription": "Italy"
+              },
+              {
+                "idValue": "JAM",
+                "itemDescription": "Jamaica"
+              },
+              {
+                "idValue": "JEY",
+                "itemDescription": "Jersey"
+              },
+              {
+                "idValue": "JOR",
+                "itemDescription": "Jordan"
+              },
+              {
+                "idValue": "JPN",
+                "itemDescription": "Japan"
+              },
+              {
+                "idValue": "KAZ",
+                "itemDescription": "Kazakhstan"
+              },
+              {
+                "idValue": "KEN",
+                "itemDescription": "Kenya"
+              },
+              {
+                "idValue": "KGZ",
+                "itemDescription": "Kyrgyzstan"
+              },
+              {
+                "idValue": "KHM",
+                "itemDescription": "Cambodia"
+              },
+              {
+                "idValue": "KIR",
+                "itemDescription": "Kiribati"
+              },
+              {
+                "idValue": "KNA",
+                "itemDescription": "Saint Kitts and Nevis"
+              },
+              {
+                "idValue": "KOR",
+                "itemDescription": "Republic of Korea"
+              },
+              {
+                "idValue": "KWT",
+                "itemDescription": "Kuwait"
+              },
+              {
+                "idValue": "LAO",
+                "itemDescription": "Lao People\u0027s Democratic Republic"
+              },
+              {
+                "idValue": "LBN",
+                "itemDescription": "Lebanon"
+              },
+              {
+                "idValue": "LBR",
+                "itemDescription": "Liberia"
+              },
+              {
+                "idValue": "LBY",
+                "itemDescription": "Libya"
+              },
+              {
+                "idValue": "LCA",
+                "itemDescription": "Saint Lucia"
+              },
+              {
+                "idValue": "LIE",
+                "itemDescription": "Liechtenstein"
+              },
+              {
+                "idValue": "LKA",
+                "itemDescription": "Sri Lanka"
+              },
+              {
+                "idValue": "LSO",
+                "itemDescription": "Lesotho"
+              },
+              {
+                "idValue": "LTU",
+                "itemDescription": "Lithuania"
+              },
+              {
+                "idValue": "LUX",
+                "itemDescription": "Luxembourg"
+              },
+              {
+                "idValue": "LVA",
+                "itemDescription": "Latvia"
+              },
+              {
+                "idValue": "MAC",
+                "itemDescription": "China, Macao Special Administrative Region"
+              },
+              {
+                "idValue": "MAF",
+                "itemDescription": "Saint-Martin (French part)"
+              },
+              {
+                "idValue": "MAR",
+                "itemDescription": "Morocco"
+              },
+              {
+                "idValue": "MCO",
+                "itemDescription": "Monaco"
+              },
+              {
+                "idValue": "MDA",
+                "itemDescription": "Republic of Moldova"
+              },
+              {
+                "idValue": "MDG",
+                "itemDescription": "Madagascar"
+              },
+              {
+                "idValue": "MDV",
+                "itemDescription": "Maldives"
+              },
+              {
+                "idValue": "MEX",
+                "itemDescription": "Mexico"
+              },
+              {
+                "idValue": "MHL",
+                "itemDescription": "Marshall Islands"
+              },
+              {
+                "idValue": "MKD ",
+                "itemDescription": "The former Yugoslav Republic of Macedonia"
+              },
+              {
+                "idValue": "MLI",
+                "itemDescription": "Mali"
+              },
+              {
+                "idValue": "MLT",
+                "itemDescription": "Malta"
+              },
+              {
+                "idValue": "MMR",
+                "itemDescription": "Myanmar"
+              },
+              {
+                "idValue": "MNE",
+                "itemDescription": "Montenegro"
+              },
+              {
+                "idValue": "MNG",
+                "itemDescription": "Mongolia"
+              },
+              {
+                "idValue": "MNP",
+                "itemDescription": "Northern Mariana Islands"
+              },
+              {
+                "idValue": "MOZ",
+                "itemDescription": "Mozambique"
+              },
+              {
+                "idValue": "MRT",
+                "itemDescription": "Mauritania"
+              },
+              {
+                "idValue": "MSR",
+                "itemDescription": "Montserrat"
+              },
+              {
+                "idValue": "MTQ",
+                "itemDescription": "Martinique"
+              },
+              {
+                "idValue": "MUS",
+                "itemDescription": "Mauritius"
+              },
+              {
+                "idValue": "MWI",
+                "itemDescription": "Malawi"
+              },
+              {
+                "idValue": "MYS",
+                "itemDescription": "Malaysia"
+              },
+              {
+                "idValue": "MYT",
+                "itemDescription": "Mayotte"
+              },
+              {
+                "idValue": "NAM",
+                "itemDescription": "Namibia"
+              },
+              {
+                "idValue": "NCL",
+                "itemDescription": "New Caledonia"
+              },
+              {
+                "idValue": "NER",
+                "itemDescription": "Niger"
+              },
+              {
+                "idValue": "NFK",
+                "itemDescription": "Norfolk Island"
+              },
+              {
+                "idValue": "NGA",
+                "itemDescription": "Nigeria"
+              },
+              {
+                "idValue": "NIC",
+                "itemDescription": "Nicaragua"
+              },
+              {
+                "idValue": "NIU",
+                "itemDescription": "Niue"
+              },
+              {
+                "idValue": "NLD",
+                "itemDescription": "Netherlands"
+              },
+              {
+                "idValue": "NOR",
+                "itemDescription": "Norway"
+              },
+              {
+                "idValue": "NPL",
+                "itemDescription": "Nepal"
+              },
+              {
+                "idValue": "NRU",
+                "itemDescription": "Nauru"
+              },
+              {
+                "idValue": "NZL",
+                "itemDescription": "New Zealand"
+              },
+              {
+                "idValue": "OMN",
+                "itemDescription": "Oman"
+              },
+              {
+                "idValue": "PAK",
+                "itemDescription": "Pakistan"
+              },
+              {
+                "idValue": "PAN",
+                "itemDescription": "Panama"
+              },
+              {
+                "idValue": "PCN",
+                "itemDescription": "Pitcairn"
+              },
+              {
+                "idValue": "PER",
+                "itemDescription": "Peru"
+              },
+              {
+                "idValue": "PHL",
+                "itemDescription": "Philippines"
+              },
+              {
+                "idValue": "PLW",
+                "itemDescription": "Palau"
+              },
+              {
+                "idValue": "PNG",
+                "itemDescription": "Papua New Guinea"
+              },
+              {
+                "idValue": "POL",
+                "itemDescription": "Poland"
+              },
+              {
+                "idValue": "PRI",
+                "itemDescription": "Puerto Rico"
+              },
+              {
+                "idValue": "PRK",
+                "itemDescription": "Democratic People\u0027s Republic of Korea"
+              },
+              {
+                "idValue": "PRT",
+                "itemDescription": "Portugal"
+              },
+              {
+                "idValue": "PRY",
+                "itemDescription": "Paraguay"
+              },
+              {
+                "idValue": "PSE",
+                "itemDescription": "State of Palestine"
+              },
+              {
+                "idValue": "PYF",
+                "itemDescription": "French Polynesia"
+              },
+              {
+                "idValue": "QAT",
+                "itemDescription": "Qatar"
+              },
+              {
+                "idValue": "REU",
+                "itemDescription": "Reunion"
+              },
+              {
+                "idValue": "ROU",
+                "itemDescription": "Romania"
+              },
+              {
+                "idValue": "RUS",
+                "itemDescription": "Russia"
+              },
+              {
+                "idValue": "RWA",
+                "itemDescription": "Rwanda"
+              },
+              {
+                "idValue": "SAU",
+                "itemDescription": "Saudi Arabia"
+              },
+              {
+                "idValue": "SDN",
+                "itemDescription": "Sudan"
+              },
+              {
+                "idValue": "SEN",
+                "itemDescription": "Senegal"
+              },
+              {
+                "idValue": "SGP",
+                "itemDescription": "Singapore"
+              },
+              {
+                "idValue": "SGS",
+                "itemDescription": "South Georgia and the South Sandwich Islands"
+              },
+              {
+                "idValue": "SHN",
+                "itemDescription": "Saint Helena"
+              },
+              {
+                "idValue": "SJM",
+                "itemDescription": "Svalbard and Jan Mayen Islands"
+              },
+              {
+                "idValue": "SLB",
+                "itemDescription": "Solomon Islands"
+              },
+              {
+                "idValue": "SLE",
+                "itemDescription": "Sierra Leone"
+              },
+              {
+                "idValue": "SLV",
+                "itemDescription": "El Salvador"
+              },
+              {
+                "idValue": "SMR",
+                "itemDescription": "San Marino"
+              },
+              {
+                "idValue": "SOM",
+                "itemDescription": "Somalia"
+              },
+              {
+                "idValue": "SPM",
+                "itemDescription": "Saint Pierre and Miquelon"
+              },
+              {
+                "idValue": "SRB",
+                "itemDescription": "Serbia"
+              },
+              {
+                "idValue": "SSD",
+                "itemDescription": "South Sudan"
+              },
+              {
+                "idValue": "STP",
+                "itemDescription": "Sao Tome and Principe"
+              },
+              {
+                "idValue": "SUR",
+                "itemDescription": "Suriname"
+              },
+              {
+                "idValue": "SVK",
+                "itemDescription": "Slovakia"
+              },
+              {
+                "idValue": "SVN",
+                "itemDescription": "Slovenia"
+              },
+              {
+                "idValue": "SWE",
+                "itemDescription": "Sweden"
+              },
+              {
+                "idValue": "SWZ",
+                "itemDescription": "Swaziland"
+              },
+              {
+                "idValue": "SXM",
+                "itemDescription": "Sint Maarten (Dutch part)"
+              },
+              {
+                "idValue": "SYC",
+                "itemDescription": "Seychelles"
+              },
+              {
+                "idValue": "SYR",
+                "itemDescription": "Syria"
+              },
+              {
+                "idValue": "TCA",
+                "itemDescription": "Turks and Caicos Islands"
+              },
+              {
+                "idValue": "TCD",
+                "itemDescription": "Chad"
+              },
+              {
+                "idValue": "TGO",
+                "itemDescription": "Togo"
+              },
+              {
+                "idValue": "THA",
+                "itemDescription": "Thailand"
+              },
+              {
+                "idValue": "TJK",
+                "itemDescription": "Tajikistan"
+              },
+              {
+                "idValue": "TKL",
+                "itemDescription": "Tokelau"
+              },
+              {
+                "idValue": "TKM",
+                "itemDescription": "Turkmenistan"
+              },
+              {
+                "idValue": "TLS",
+                "itemDescription": "Timor-Leste"
+              },
+              {
+                "idValue": "TON",
+                "itemDescription": "Tonga"
+              },
+              {
+                "idValue": "TTO",
+                "itemDescription": "Trinidad and Tobago"
+              },
+              {
+                "idValue": "TUN",
+                "itemDescription": "Tunisia"
+              },
+              {
+                "idValue": "TUR",
+                "itemDescription": "Turkey"
+              },
+              {
+                "idValue": "TUV",
+                "itemDescription": "Tuvalu"
+              },
+              {
+                "idValue": "TWN",
+                "itemDescription": "Taiwan"
+              },
+              {
+                "idValue": "TZA",
+                "itemDescription": "Tanzania"
+              },
+              {
+                "idValue": "UGA",
+                "itemDescription": "Uganda"
+              },
+              {
+                "idValue": "UKR",
+                "itemDescription": "Ukraine"
+              },
+              {
+                "idValue": "UMI",
+                "itemDescription": "United States Minor Outlying Islands"
+              },
+              {
+                "idValue": "URY",
+                "itemDescription": "Uruguay"
+              },
+              {
+                "idValue": "USA",
+                "itemDescription": "United States of America"
+              },
+              {
+                "idValue": "UZB",
+                "itemDescription": "Uzbekistan"
+              },
+              {
+                "idValue": "VAT",
+                "itemDescription": "Holy See"
+              },
+              {
+                "idValue": "VCT",
+                "itemDescription": "Saint Vincent and the Grenadines"
+              },
+              {
+                "idValue": "VEN",
+                "itemDescription": "Venezuela (Bolivarian Republic of)"
+              },
+              {
+                "idValue": "VGB",
+                "itemDescription": "British Virgin Islands"
+              },
+              {
+                "idValue": "VIR",
+                "itemDescription": "United States Virgin Islands"
+              },
+              {
+                "idValue": "VNM",
+                "itemDescription": "Viet Nam"
+              },
+              {
+                "idValue": "VUT",
+                "itemDescription": "Vanuatu"
+              },
+              {
+                "idValue": "WLF",
+                "itemDescription": "Wallis and Futuna Islands"
+              },
+              {
+                "idValue": "WSM",
+                "itemDescription": "Samoa"
+              },
+              {
+                "idValue": "YEM",
+                "itemDescription": "Yemen"
+              },
+              {
+                "idValue": "ZAF",
+                "itemDescription": "South Africa"
+              },
+              {
+                "idValue": "ZMB",
+                "itemDescription": "Zambia"
+              },
+              {
+                "idValue": "ZWE",
+                "itemDescription": "Zimbabwe"
+              }
+            ]
+          }
+        },
+        "/worker/person/passports/documentID": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Number",
+          "longLabelName": "Number",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 20,
+          "pattern": "^[a-zA-Z0-9]*$",
+          "dataType": "string"
+        },
+        "/worker/person/passports/expirationDate": {
+          "readOnly": true,
+          "shortLabelName": "Expiry Date",
+          "longLabelName": "Expiry Date",
+          "dataType": "string[date-time]"
+        },
+        "/worker/person/passports/issueDate": {
+          "readOnly": true,
+          "shortLabelName": "Issue Date",
+          "longLabelName": "Issue Date",
+          "dataType": "string[date-time]"
+        },
+        "/worker/person/passports/issuingParty/address": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/passports/issuingParty/address/lineThree": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Place of Issue",
+          "longLabelName": "Place of Issue",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 50,
+          "dataType": "string"
+        },
+        "/worker/person/passports/typeCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/passports/typeCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Identification Document Type",
+          "longLabelName": "Identification Document Type",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "1",
+                "itemDescription": "DNI"
+              },
+              {
+                "idValue": "10",
+                "itemDescription": "People\u0027s Armed Police Certification"
+              },
+              {
+                "idValue": "13",
+                "itemDescription": "Foreign Permanent Resident ID Card"
+              },
+              {
+                "idValue": "2",
+                "itemDescription": "Passport"
+              },
+              {
+                "idValue": "6",
+                "itemDescription": "NIE (Identity Number)"
+              },
+              {
+                "idValue": "7",
+                "itemDescription": "Resident Identity Card"
+              },
+              {
+                "idValue": "8",
+                "itemDescription": "Military Officer Certification"
+              },
+              {
+                "idValue": "9",
+                "itemDescription": "Military Soldier Certification"
+              },
+              {
+                "idValue": "L",
+                "itemDescription": "Spanish non-residents without DNI"
+              },
+              {
+                "idValue": "M",
+                "itemDescription": "Foreigners residents without Identity Number (NIE)"
+              }
+            ]
+          }
+        },
+        "/worker/person/religionCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/person/religionCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Religion",
+          "longLabelName": "Records Religion of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Buddhist",
+                "itemDescription": "Buddhist"
+              },
+              {
+                "idValue": "Catholic",
+                "itemDescription": "Catholic"
+              },
+              {
+                "idValue": "Hindu",
+                "itemDescription": "Hindu"
+              },
+              {
+                "idValue": "Jewish",
+                "itemDescription": "Jewish"
+              },
+              {
+                "idValue": "Muslim",
+                "itemDescription": "Muslim"
+              },
+              {
+                "idValue": "Not Disclosed",
+                "itemDescription": "Not Disclosed"
+              },
+              {
+                "idValue": "Protestant",
+                "itemDescription": "Protestant"
+              }
+            ]
+          }
+        },
+        "/worker/person/religionCode/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Religion",
+          "longLabelName": "Records Religion of the person",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Buddhist",
+                "itemDescription": "Buddhist"
+              },
+              {
+                "idValue": "Catholic",
+                "itemDescription": "Catholic"
+              },
+              {
+                "idValue": "Hindu",
+                "itemDescription": "Hindu"
+              },
+              {
+                "idValue": "Jewish",
+                "itemDescription": "Jewish"
+              },
+              {
+                "idValue": "Muslim",
+                "itemDescription": "Muslim"
+              },
+              {
+                "idValue": "Not Disclosed",
+                "itemDescription": "Not Disclosed"
+              },
+              {
+                "idValue": "Protestant",
+                "itemDescription": "Protestant"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/assignedOrganizationalUnits/typeCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/assignedOrganizationalUnits/typeCode/shortName": {
+          "readOnly": true,
+          "shortLabelName": "Name",
+          "longLabelName": "Structure Name",
+          "minLength": 0,
+          "maxLength": 100,
+          "dataType": "string"
+        },
+        "/worker/workAssignment/assignmentStatus/reasonCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/assignmentStatus/reasonCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Start Company Reason Code",
+          "longLabelName": "Start Company Reason Code",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "01",
+                "itemDescription": "Newly created position"
+              },
+              {
+                "idValue": "02",
+                "itemDescription": "Internal promotion"
+              },
+              {
+                "idValue": "03",
+                "itemDescription": "Replacement"
+              },
+              {
+                "idValue": "04",
+                "itemDescription": "New Hiring"
+              },
+              {
+                "idValue": "05",
+                "itemDescription": "Acquisition"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/assignmentStatus/reasonCode/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Start Company Reason Code",
+          "longLabelName": "Start Company Reason Code",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "01",
+                "itemDescription": "Newly created position"
+              },
+              {
+                "idValue": "02",
+                "itemDescription": "Internal promotion"
+              },
+              {
+                "idValue": "03",
+                "itemDescription": "Replacement"
+              },
+              {
+                "idValue": "04",
+                "itemDescription": "New Hiring"
+              },
+              {
+                "idValue": "05",
+                "itemDescription": "Acquisition"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/baseRemuneration": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/baseRemuneration/effectiveDate": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Effective From",
+          "uniqueItems": false,
+          "dataType": "string[date-time]"
+        },
+        "/worker/workAssignment/baseRemuneration/payPeriodRateAmount": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/baseRemuneration/payPeriodRateAmount/amountValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Pay Rate",
+          "longLabelName": "PAYRATE",
+          "uniqueItems": false,
+          "dataType": "number"
+        },
+        "/worker/workAssignment/customFieldGroup/codeFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/workAssignment/customFieldGroup/codeFields/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Reason For Change, GL Business Code, Contracted Hours Units, Legal Situation End Company, End Company Reason Code SS",
+          "longLabelName": "Indicates the reason for the employee changing job role, if applicable., G L Business Code, WPCONTRACTEDHOURSUNIT, Legal Situation End Company, End Company Reason Code SS",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Ad-hoc Salary Review",
+                "itemDescription": "Ad-hoc Salary Review"
+              },
+              {
+                "idValue": "Annual Salary Increase",
+                "itemDescription": "Annual Salary Increase"
+              },
+              {
+                "idValue": "Annual Salary Review",
+                "itemDescription": "Annual Salary Review"
+              },
+              {
+                "idValue": "Change of Job Title",
+                "itemDescription": "Change of Job Title"
+              },
+              {
+                "idValue": "Change of Job Title And Transfer",
+                "itemDescription": "Change of Job Title And Transfer"
+              },
+              {
+                "idValue": "Change of Work Pattern",
+                "itemDescription": "Change of Work Pattern"
+              },
+              {
+                "idValue": "Change of Working Hours",
+                "itemDescription": "Change of Working Hours"
+              },
+              {
+                "idValue": "Demotion",
+                "itemDescription": "Demotion"
+              },
+              {
+                "idValue": "Extension of Fixed Term Contract",
+                "itemDescription": "Extension of Fixed Term Contract"
+              },
+              {
+                "idValue": "Fixed Term Contract to Permanent",
+                "itemDescription": "Fixed Term Contract to Permanent"
+              },
+              {
+                "idValue": "Going on Secondment",
+                "itemDescription": "Going on Secondment"
+              },
+              {
+                "idValue": "Internal Reorganisation",
+                "itemDescription": "Internal Reorganisation"
+              },
+              {
+                "idValue": "Market Value Review",
+                "itemDescription": "Market Value Review"
+              },
+              {
+                "idValue": "New Starter",
+                "itemDescription": "New Starter"
+              },
+              {
+                "idValue": "Operational Requirement",
+                "itemDescription": "Operational Requirement"
+              },
+              {
+                "idValue": "Promotion",
+                "itemDescription": "Promotion"
+              },
+              {
+                "idValue": "Promotion and Transfer",
+                "itemDescription": "Promotion and Transfer"
+              },
+              {
+                "idValue": "Qualified",
+                "itemDescription": "Qualified"
+              },
+              {
+                "idValue": "Re Grading",
+                "itemDescription": "Re Grading"
+              },
+              {
+                "idValue": "Re-Joiner",
+                "itemDescription": "Re-Joiner"
+              },
+              {
+                "idValue": "Restructuring",
+                "itemDescription": "Restructuring"
+              },
+              {
+                "idValue": "Return From Maternity Leave",
+                "itemDescription": "Return From Maternity Leave"
+              },
+              {
+                "idValue": "Return From Sabbatical",
+                "itemDescription": "Return From Sabbatical"
+              },
+              {
+                "idValue": "Return From Secondment",
+                "itemDescription": "Return From Secondment"
+              },
+              {
+                "idValue": "Start of International Secondment",
+                "itemDescription": "Start of International Secondment"
+              },
+              {
+                "idValue": "Start of Maternity Leave",
+                "itemDescription": "Start of Maternity Leave"
+              },
+              {
+                "idValue": "Start of Sabbatical",
+                "itemDescription": "Start of Sabbatical"
+              },
+              {
+                "idValue": "Start of Secondment",
+                "itemDescription": "Start of Secondment"
+              },
+              {
+                "idValue": "Trainee",
+                "itemDescription": "Trainee"
+              },
+              {
+                "idValue": "Trainee Seat Change",
+                "itemDescription": "Trainee Seat Change"
+              },
+              {
+                "idValue": "Transfer",
+                "itemDescription": "Transfer"
+              },
+              {
+                "idValue": "Unpaid Leave",
+                "itemDescription": "Unpaid Leave"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/customFieldGroup/codeFields/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Legal Situation End Company, End Company Reason Code SS",
+          "longLabelName": "Legal Situation End Company, End Company Reason Code SS",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "01",
+                "itemDescription": "Dismissal of employee"
+              },
+              {
+                "idValue": "02",
+                "itemDescription": "Objective dismissal"
+              },
+              {
+                "idValue": "03",
+                "itemDescription": "Employer\u00B4s death"
+              },
+              {
+                "idValue": "04",
+                "itemDescription": "Employer\u00B4s retirement"
+              },
+              {
+                "idValue": "05",
+                "itemDescription": "Employer\u00B4s disability"
+              },
+              {
+                "idValue": "06",
+                "itemDescription": "Dismissal of employee due to the permanent invalidity declaration"
+              },
+              {
+                "idValue": "07",
+                "itemDescription": "Dismissal of probationary employee upon request by the employer"
+              },
+              {
+                "idValue": "08",
+                "itemDescription": "Dismissal of probationary cooperative members by agreement of the Governing Council."
+              },
+              {
+                "idValue": "09",
+                "itemDescription": "Dismissal of probationary employee upon request by the employee"
+              },
+              {
+                "idValue": "10",
+                "itemDescription": "Termination by employer by senior management"
+              },
+              {
+                "idValue": "11",
+                "itemDescription": "End Temporary Contract upon request by the employer"
+              },
+              {
+                "idValue": "12",
+                "itemDescription": "End of a temporary contract\u00A0 upon request by the employee"
+              },
+              {
+                "idValue": "13",
+                "itemDescription": "End of temporary administrative relationship of employment officers and administratives"
+              },
+              {
+                "idValue": "14",
+                "itemDescription": "Contract resolution due to transfer"
+              },
+              {
+                "idValue": "15",
+                "itemDescription": "End/Interruption of activity (permanent discontinuous contracts)"
+              },
+              {
+                "idValue": "16",
+                "itemDescription": "Collective dismissal or expiration of work contract by Statutory Lay-off proceedings (ERE)"
+              },
+              {
+                "idValue": "17",
+                "itemDescription": "Contract suspension by Statutory lay-off proceedings (ERE)"
+              },
+              {
+                "idValue": "18",
+                "itemDescription": "Temporary reduced working-hours by Statutory Lay-off proceedings (ERE)"
+              },
+              {
+                "idValue": "19",
+                "itemDescription": "Voluntary suspension of employment relationship. Victim of gender-based violence"
+              },
+              {
+                "idValue": "20",
+                "itemDescription": "Expulsion of associate member"
+              },
+              {
+                "idValue": "21",
+                "itemDescription": "Voluntary resignation"
+              },
+              {
+                "idValue": "22",
+                "itemDescription": "Termination or involuntary dismissal from the commitments of the Armed Forces."
+              },
+              {
+                "idValue": "23",
+                "itemDescription": "End of artistic activity without end of contract"
+              },
+              {
+                "idValue": "24",
+                "itemDescription": "End of fixed activity of discontinuous periodical contract"
+              },
+              {
+                "idValue": "25",
+                "itemDescription": "End of assotiation (fixed-term contract)"
+              },
+              {
+                "idValue": "26",
+                "itemDescription": "Unpaid/Paid leave"
+              },
+              {
+                "idValue": "27",
+                "itemDescription": "Involuntary resignation due to public office or trade union"
+              },
+              {
+                "idValue": "28",
+                "itemDescription": "Special involuntary and permanent leave for exclusive or partial dedication to public or union busin"
+              },
+              {
+                "idValue": "29",
+                "itemDescription": "Completion of the service or maximum time period as reservist in the Armed Forces"
+              },
+              {
+                "idValue": "30",
+                "itemDescription": "Dismissal due to objective causes: inadequacy, lack of\u00A0 attendance at work and adaptation"
+              },
+              {
+                "idValue": "31",
+                "itemDescription": "Termination by employee due to modification of substantial working conditions."
+              },
+              {
+                "idValue": "32",
+                "itemDescription": "Voluntary termination of the employment relationship. Victim of gender-based violence."
+              },
+              {
+                "idValue": "33",
+                "itemDescription": "Contract resolution due to fair cause"
+              },
+              {
+                "idValue": "99",
+                "itemDescription": "Other reason"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/customFieldGroup/dateFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/workAssignment/customFieldGroup/dateFields/dateValue": {
+          "readOnly": true,
+          "shortLabelName": "Contract End Date",
+          "longLabelName": "Indicates when any contract work ends for the job role.",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workAssignment/customFieldGroup/indicatorFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/workAssignment/customFieldGroup/indicatorFields/indicatorValue": {
+          "readOnly": true,
+          "shortLabelName": "EEAUTOGENREGIND, Close Previous Job(s), Covering Position, Suspend Timesheets, Assign to Work Pattern, Irregularpaymentpattern",
+          "longLabelName": "EEAUTOGENREGIND, Indicates whether previous job records should be closed (i.e. given an end date).  When set to \u2018Yes\u2019 this field will indicate to the system to close the previous job records and on completion of this will be reset to \u2018No\u2019., Indicates if the employee will be covering an existing position by performing this job role (i.e. for temporary workers)., Suspend Timesheets, WPUSEWORKPATTERN, Irregularpaymentpattern",
+          "dataType": "boolean"
+        },
+        "/worker/workAssignment/customFieldGroup/numberFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/workAssignment/customFieldGroup/numberFields/numberValue": {
+          "readOnly": true,
+          "shortLabelName": "Ordinary Hours per Day, Contracted Hours, Days Per Year, Hours Per Pay Period",
+          "longLabelName": "WPORDINARYHOURSPERDAY, WPCONTRACTEDHOURS, DAYSPERYEAR, The hours that the employee works for the pay per period selected.  This value is transferred to ADP Freedom and used in calculating pay for an employee.    This is a mandatory field.  ",
+          "dataType": "number"
+        },
+        "/worker/workAssignment/customFieldGroup/stringFields": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/workAssignment/customFieldGroup/stringFields/stringValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Notes, Company Name",
+          "longLabelName": "Additional notes regarding this job role., Companyname",
+          "uniqueItems": false,
+          "minLength": 0,
+          "maxLength": 1000,
+          "default": "",
+          "dataType": "string"
+        },
+        "/worker/workAssignment/exitNoticeDuration": {
+          "readOnly": true,
+          "shortLabelName": "Notice Period",
+          "longLabelName": "Records Notice Period of the person",
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "1M",
+                "itemDescription": "1 Month"
+              },
+              {
+                "idValue": "1W",
+                "itemDescription": "1 Week"
+              },
+              {
+                "idValue": "2M",
+                "itemDescription": "2 Months"
+              },
+              {
+                "idValue": "2W",
+                "itemDescription": "2 Weeks"
+              },
+              {
+                "idValue": "3M",
+                "itemDescription": "3 Months"
+              },
+              {
+                "idValue": "4W",
+                "itemDescription": "4 Weeks"
+              },
+              {
+                "idValue": "6M",
+                "itemDescription": "6 Months"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/expectedStartDate": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Effective Date",
+          "longLabelName": "The date the job becomes effective for the employee.  This field is mandatory.",
+          "uniqueItems": false,
+          "default": "",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workAssignment/fullTimeEquivalenceRatio": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "FTE",
+          "longLabelName": "FTE",
+          "uniqueItems": false,
+          "default": "",
+          "dataType": "number"
+        },
+        "/worker/workAssignment/hireDate": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Effective From, Effective Status, Date of Join, Date of Join",
+          "longLabelName": "Payroll Profile Effective From, Used by the system to indicate if the record is current, future or historical, The date on which the employee joined., Records Date of Join of the person",
+          "uniqueItems": false,
+          "dataType": "string[date-time]"
+        },
+        "/worker/workAssignment/jobCode": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Job Title",
+          "longLabelName": "References the post / job role that the employee is carrying out.",
+          "uniqueItems": false,
+          "dataType": "object",
+          "codeList": {
+            "links": [
+              {
+                "href": "/hr/v1/organization-jobs",
+                "rel": "related",
+                "mediaType": "application/json",
+                "method": "GET",
+                "encType": "application/xml"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/jobTitle": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Personal Job Title",
+          "longLabelName": "A personalised title for the employee\u2019s job, normally the same as the Post\u2019s job title.    When a job title (post) has been selected and no personal job title has been provided then the personal job title will be given the title from the post.    This field is mandatory.  ",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 100,
+          "default": "",
+          "dataType": "string"
+        },
+        "/worker/workAssignment/legalEntityID": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Company",
+          "longLabelName": "Company",
+          "uniqueItems": false,
+          "dataType": "object",
+          "codeList": {
+            "links": [
+              {
+                "href": "/codelists/hr/v3/worker-management/Legal-Entity/esi/1",
+                "rel": "related",
+                "mediaType": "application/json",
+                "method": "GET",
+                "encType": "application/xml"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/payrollFileNumber": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Employee Code, Employee Code",
+          "longLabelName": "The employee\u2019s new Employee Code.  This will change when the employee is rehired.  Validation will be carried out to ensure that the value given is unique within the system.  , The employee\u2019s new Employee Code.  This will change when the employee is rehired.  This will match the most recent Employee Code defined in the Employment History table ",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 15,
+          "dataType": "string"
+        },
+        "/worker/workAssignment/payrollGroupCode": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Pay Group Code",
+          "longLabelName": "PAYGROUPCODE",
+          "uniqueItems": false,
+          "dataType": "object",
+          "codeList": {
+            "links": [
+              {
+                "href": "/codelists/hr/v3/worker-management/Payroll-Group/esi/1",
+                "rel": "related",
+                "mediaType": "application/json",
+                "method": "GET",
+                "encType": "application/xml"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/primaryIndicator": {
+          "readOnly": true,
+          "shortLabelName": "Primary Job",
+          "longLabelName": "Indicates whether the job is the primary job role that will be sent to payroll. For example, if the employee has multiple concurrent jobs only one is sent.  When set to \u2018Yes\u2019 the system will enforce that all other effective job records are set to \u2018No\u2019 i.e. there can only be one primary job at any given time.",
+          "dataType": "boolean"
+        },
+        "/worker/workAssignment/reportsTo": {
+          "minItems": 0,
+          "uniqueItems": true,
+          "dataType": "array"
+        },
+        "/worker/workAssignment/reportsTo/reportsToWorkerName": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Reports To",
+          "longLabelName": "Stores reference of Reports To",
+          "uniqueItems": false,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/reportsTo/workerID": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/reportsTo/workerID/idValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Reports To",
+          "longLabelName": "Stores reference of Reports To",
+          "uniqueItems": false,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/standardHours": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/standardHours/hoursQuantity": {
+          "readOnly": true,
+          "shortLabelName": "Ordinary Weekly Hours",
+          "longLabelName": "WPORDINARYWEEKLYHOURS",
+          "dataType": "number"
+        },
+        "/worker/workAssignment/standardHours/unitCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/standardHours/unitCode/codeValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Fixed or Variable",
+          "longLabelName": "WPVARIABLEWORKHOURS",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "C",
+                "itemDescription": "Casual Worker"
+              },
+              {
+                "idValue": "F",
+                "itemDescription": "Fixed"
+              },
+              {
+                "idValue": "V",
+                "itemDescription": "Variable"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/workArrangementCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/workArrangementCode/codeValue": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Type",
+          "longLabelName": "Type",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "1",
+                "itemDescription": "Fixed Term"
+              },
+              {
+                "idValue": "2",
+                "itemDescription": "Open Ended"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/workArrangementCode/shortName": {
+          "readOnly": false,
+          "optional": false,
+          "hidden": false,
+          "shortLabelName": "Type",
+          "longLabelName": "Type",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "1",
+                "itemDescription": "Fixed Term"
+              },
+              {
+                "idValue": "2",
+                "itemDescription": "Open Ended"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/workerProbationPeriod": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/workerProbationPeriod/endDate": {
+          "readOnly": true,
+          "shortLabelName": "End of Probation",
+          "longLabelName": "Records End of Probation Date",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workAssignment/workerTypeCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/workerTypeCode/codeValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Permanent/Temporary",
+          "longLabelName": "Permanent Temporary",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Permanent",
+                "itemDescription": "Permanent"
+              },
+              {
+                "idValue": "Temporary",
+                "itemDescription": "Temporary"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/workLevelCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/workLevelCode/codeValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Full Time/Part Time",
+          "longLabelName": "Indicates if the employee is a full or part-time worker in the job role.  This field is mandatory.",
+          "uniqueItems": false,
+          "dataType": "string",
+          "valueSet": {
+            "valueSetListItems": [
+              {
+                "idValue": "Full_Time",
+                "itemDescription": "Full Time"
+              },
+              {
+                "idValue": "Part_Time",
+                "itemDescription": "Part Time"
+              }
+            ]
+          }
+        },
+        "/worker/workAssignment/workShiftCode": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workAssignment/workShiftCode/shortName": {
+          "readOnly": true,
+          "shortLabelName": "Work Pattern Name",
+          "longLabelName": "Work Pattern Name",
+          "minLength": 0,
+          "maxLength": 40,
+          "dataType": "string"
+        },
+        "/worker/workerDates": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workerDates/acquisitionDate": {
+          "readOnly": true,
+          "shortLabelName": "Start Date within Group",
+          "longLabelName": "Start Date within Group",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workerDates/firstHireDate": {
+          "readOnly": true,
+          "shortLabelName": "Date of starting first employment",
+          "longLabelName": "Date of starting first employment",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workerDates/originalHireDate": {
+          "readOnly": true,
+          "shortLabelName": "Continuous Service Date",
+          "longLabelName": "A new field that indicates when the employee service should continue from if they are re-hired.",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workerDates/retirementDate": {
+          "readOnly": true,
+          "shortLabelName": "Retirement Date",
+          "longLabelName": "Records Retirement Date",
+          "dataType": "string[date-time]"
+        },
+        "/worker/workerID": {
+          "hidden": true,
+          "sequence": 0,
+          "dataType": "object"
+        },
+        "/worker/workerID/idValue": {
+          "readOnly": false,
+          "optional": true,
+          "hidden": false,
+          "shortLabelName": "Reference Number, Status, User Creation Decision",
+          "longLabelName": "Records Reference Number of the person, Records Status of persons employment, User Creation Decision",
+          "uniqueItems": false,
+          "minLength": 1,
+          "maxLength": 60,
+          "default": "",
+          "pattern": "^(?!\\\\s)[/a-zA-Z0-9 \u0026\u0027)(.,=!%;\\\u0022\u002B:?*-]*$",
+          "dataType": "string"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "codeLists": [
+    {
+      "codeListTitle": "Legal Entity",
+      "listItems": [
+        {
+          "codeValue": "ADPUK",
+          "shortName": "ADP GB Main Company"
+        },
+        {
+          "codeValue": "ADPFR",
+          "shortName": "ADP France Main Company"
+        },
+        {
+          "codeValue": "ADPSP",
+          "shortName": "ADP Spain Main Company"
+        },
+        {
+          "codeValue": "ADPIT",
+          "shortName": "ADP Italy Main Company"
+        }
+      ]
+    }
+  ]
+}

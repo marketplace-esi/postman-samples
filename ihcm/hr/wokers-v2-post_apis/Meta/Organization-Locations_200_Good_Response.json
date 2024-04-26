@@ -1,0 +1,39 @@
+{
+    "codeLists": [
+        {
+            "codeListTitle": "locations",
+            "listItems": [
+                {
+                    "codeValue": "PAR",
+                    "shortName": "Paris",
+                    "valueDescription": "ADP Paris House"
+                },
+                {
+                    "codeValue": "MIL",
+                    "shortName": "Milan",
+                    "valueDescription": "ADP Milan London House"
+                },
+                {
+                    "codeValue": "ROT",
+                    "shortName": "Rotterdam",
+                    "valueDescription": "ADP Rotterdam House"
+                },
+                {
+                    "codeValue": "ABD",
+                    "shortName": "Aberdeen",
+                    "valueDescription": "ADP Aberdeen House"
+                },
+                {
+                    "codeValue": "TOT",
+                    "shortName": "North London",
+                    "valueDescription": "ADP North London White House"
+                },
+                {
+                    "codeValue": "CP",
+                    "shortName": "South London",
+                    "valueDescription": "ADP South London House"
+                }
+            ]
+        }
+    ]
+}

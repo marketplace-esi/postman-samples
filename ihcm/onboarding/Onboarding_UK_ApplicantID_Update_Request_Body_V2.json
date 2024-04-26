@@ -1,0 +1,90 @@
+{
+    "applicantOnboarding": {
+        "applicantID":"33a90464-1ed6-4798-bfe8-d237f51dd414",
+        "workerID": {
+            "id": "JP2104",
+            "scheme": {
+                "code": "JP2104"
+            }
+        },
+        "applicantPersonalProfile": {
+            "legalName": {
+                "givenName": "Fer",
+                "familyName": "Rari",
+                  "titles": ["Mr"]
+            },
+            "genderCode": {
+                "code": "Male"
+            },
+           "birthDate": "1970-01-01",
+            
+              "communication": {
+                "mobiles": [
+                    {
+                        "formattedNumber": "07917 1234"
+                    }
+                ],
+                "emails": [
+                    {
+                        "emailUri": "Fer.Rari@adp.com"
+                    }
+                ]
+            },
+               "applicantPayrollProfile": {
+                   "payrollRegionCode": "GBMAG01",
+                "payrollGroupCode": "MAGGB"  
+            }
+        },
+         "applicantWorkerProfile": {
+              "reportsTo": [
+                {
+                    "workerID": {
+                        "id": "JP6118"
+                    },
+                    "reportsToWorkerName": {
+                        "formattedName": "Red Bulls"
+                    }
+                }
+            ],
+            "customFieldGroup": {
+                "stringFields": [
+                    {
+                        "nameCode": {
+                            "code": "JobDetails.CompanyRef"
+                        },
+                        "stringValue": "GBMAG"
+                    }
+                    
+                ]
+            },
+            "job": {
+                "jobCode": {
+                    "code": "F1",
+                    "name": "1st Team Driver"
+                }
+            },
+      "hireDate": "2024-02-15",
+      "homeWorkLocation": {
+                "nameCode": {
+                    "code": "N17",
+                    "name": "North London"
+                }
+            },
+      "businessCommunication": {
+                "emails": [
+                    {
+                        "emailUri": "FerRari@MyADPLtd.com"
+                    }
+                ]
+            }
+            
+         },
+
+			  "onboardingStatus": {
+            "statusCode": {
+                "code": "T"
+            }
+        }
+     }
+}
+
