@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "data": {
+        "eventContext": {
+          "worker": {
+            "associateOID": "AO0O43D4239JGT1"
+          }
+        },
+        "output": {
+          "worker": {
+            "person": {
+              "birthPlace": {
+                "cityName": "Dordogne",
+                "countryCode": "676"
+              }
+            },
+            "associateOID": "AO0O43D4239JGT1"
+          }
+        }
+      },
+      "eventNameCode": {
+        "codeValue": "worker.birthPlace.change"
+      },
+      "serviceCategoryCode": {
+        "codeValue": "hr"
+      }
+    }
+  ],
+  "confirmMessage": {
+    "confirmMessageID": {
+      "idValue": "25107685-26c7-4591-8801-52a1b2556ade",
+      "schemeName": "confirmMessageID",
+      "schemeAgencyName": "core"
+    },
+    "createDateTime": "2024-05-16T13:41:40.5644436Z",
+    "requestReceiptDateTime": "2024-05-16T13:41:40.5644437Z",
+    "processMessages": [
+      {
+        "processMessageID": {
+          "idValue": "96a79aa4-5bc7-4817-92e3-01db4dbc31ca",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "messageTypeCode": {
+          "codeValue": "success"
+        },
+        "userMessage": {
+          "messageTxt": "Request Processed"
+        }
+      }
+    ],
+    "resourceMessages": [
+      {
+        "resourceMessageID": {
+          "idValue": "877fcfe1-f846-4e8c-b317-856ce16cee38",
+          "schemeName": "processMessageID",
+          "schemeAgencyName": "core"
+        },
+        "resourceStatusCode": {
+          "codeValue": "succeeded"
+        },
+        "processMessages": [
+          {
+            "resourceStatusCode": {
+              "codeValue": "succeeded"
+            },
+            "processMessageID": {
+              "idValue": "0fc217fa-0635-445c-a2df-54a91af5483d",
+              "schemeName": "processMessageID",
+              "schemeAgencyName": "core"
+            },
+            "messageTypeCode": {
+              "codeValue": "success"
+            },
+            "userMessage": {
+              "messageTxt": "Request Processed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
