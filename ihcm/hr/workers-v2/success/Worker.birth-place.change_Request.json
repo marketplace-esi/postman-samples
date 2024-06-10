@@ -1,0 +1,30 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.birthPlace.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0O43D4239JGT1"
+                    }
+                },
+                "transform": {
+                    "effectiveDateTime": "2022-04-22T00:00:00Z",
+                    "worker": {
+                        "person": {
+                            "birthPlace": {
+                                "cityName": "Dordogne",
+                                "countryCode" : "676"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

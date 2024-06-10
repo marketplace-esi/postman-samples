@@ -21,7 +21,7 @@
                     "worker": {
                         "person": {
                             "maritalStatusCode": {
-                                "codeValue": "Separated",
+                                "codeValue": "P",
                                 "shortName": "Separated"
                             }
                         }
