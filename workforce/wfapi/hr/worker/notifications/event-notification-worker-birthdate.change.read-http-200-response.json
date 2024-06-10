@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"data": {
+				"output": {
+					"worker": {
+						"person": {
+							"birthDate": "1985-05-09"
+						}
+					}
+				},
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000737"
+						}
+					}
+				}
+			},
+			"eventNameCode": {
+				"codeValue": "worker.birthDate.change"
+			},
+			"creationDateTime": "2024-06-07T09:28:38+02:00",
+			"originator": {
+				"formattedName": "James Monroe",
+				"associateOID": "ADPNL00000535"
+			},
+			"eventID": "a5f8ffdf-aa7c-4f09-b235-09f5e256efa5",
+			"recordDateTime": "2099-12-31T00:00:00+01:00",
+			"effectiveDateTime": "2024-05-01T00:00:00+02:00"
+		}
+	]
+}

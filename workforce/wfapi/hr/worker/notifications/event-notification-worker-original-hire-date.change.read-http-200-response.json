@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"data": {
+				"eventContext": {
+					"worker": {
+						"workerID": {
+							"idValue": "000738"
+						}
+					}
+				},
+				"output": {
+					"worker": {
+						"workerDates": {
+							"originalHireDate": "2024-05-31"
+						}
+					}
+				}
+			},
+			"effectiveDateTime": "2024-06-01T00:00:00+02:00",
+			"recordDateTime": "2099-12-31T00:00:00+01:00",
+			"eventID": "7711f606-37af-40af-8109-aee3481056af",
+			"originator": {
+				"associateOID": "ADPNL00000535",
+				"formattedName": "James Monroe"
+			},
+			"eventNameCode": {
+				"codeValue": "worker.workerOriginalHireDate.change"
+			},
+			"creationDateTime": "2024-06-07T09:58:07+02:00"
+		}
+	]
+}
