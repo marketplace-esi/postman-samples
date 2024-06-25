@@ -1,0 +1,53 @@
+{
+	"dependents": [
+		{
+			"relationshipTypeCode": {
+				"codeValue": "1",
+				"shortName": "Cônjuge"
+			},
+			"classificationCode": {
+				"codeValue": "1",
+				"shortName": "Plano de saúde"
+			},
+			"person": {
+				"governmentIDs": [
+					{
+						"idValue": "00000000000",
+						"nameCode": {
+							"shortName": "CPF"
+						},
+						"statusCode": {
+							"effectiveDate": "2014-01-01"
+						}
+					}
+				],
+				"legalName": {
+					"formattedName": "Filho do colaborador"
+				},
+				"birthDate": "2014-01-01",
+				"dependentID": "1",
+				"genderCode": {
+					"codeValue": "M",
+					"shortName": "Male"
+				},
+				"maritalStatusCode": {
+					"codeValue": "CAS",
+					"shortName": "Married"
+				},
+				"disabilityTypeCodes": [
+					{
+						"codeValue": "AUDITIVA",
+						"shortName": "Auditiva"
+					}
+				],
+				"studentIndicator": true,
+				"taxDependentIndicator": true
+			},
+			"benefitEligibilityPeriod": {
+				"startDateTime": "2014-01-01T00:00:00Z",
+				"endDateTime": "2020-01-01T00:00:00Z"
+			},
+			"itemID": "001-123456_1_1"
+		}
+	]
+}

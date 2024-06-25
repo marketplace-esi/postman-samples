@@ -1,0 +1,56 @@
+{
+	"benefitPayrollDeductionOutputs": [
+		{
+			"payrollBatchID": "1234"
+			"payrollFileNumber": "001-123456_05-2024_1234_1_1",
+			"payrollOutputFileType": "Mensal"
+			"payrollCycleCode": {
+				"code": "05-2024"
+			},
+			"benefitPayrollDeductions": [
+				{
+					"deductionCode": {
+						"code": "5901",
+						"name": "Desconto de Vale Transporte"
+					},
+					"deductionAmount": {
+						"amount": 20.00
+					},
+					"benefitAreaCode": {
+						"code": "1"
+					},
+					"associatedBenefitAreaCodes": [
+						{
+							"code": "1",
+							"name": "Vale Transporte 1"
+						}
+					],
+					"coverageAmount":{
+						"amount": 120.00
+					}
+				},
+				{
+					"deductionCode": {
+						"code": "5903",
+						"name": "Custo Empresa"
+					},
+					"deductionAmount": {
+						"amount": 100.00
+					},
+					"benefitAreaCode": {
+						"code": "1"
+					},
+					"associatedBenefitAreaCodes": [
+						{
+							"code": "1",
+							"name": "Vale Transporte 1"
+						}
+					],
+					"coverageAmount":{
+						"amount": 120.00
+					}
+				}
+			]
+		}
+	]
+}
