@@ -1,0 +1,21 @@
+{
+	"benefitOfferings": [
+		{
+			"optionID": "1234",
+			"optionCode": {
+				"name": "Assistência Médica"
+			},
+			"optionName": "Plano de Saúde 1",
+			"itemID": "2_1",
+			"benefitAreaCode": {
+				"code": "111111111111111",
+				"name": "Administradora 1 - Operadora 1"
+			},
+			"benefitProgramID": "2",
+			"acaOffering": {
+				"dependentCoverageIndicator": true,
+				"spouseCoverageIndicator": true
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"retirementPlans": [
+		{
+			"planNameCode": {
+				"codeValue": "1",
+				"shortName": "Plano de previdência 1"
+			},
+			"planEffectiveDate": "2020-01-10",
+			"lastContributionDate": "2022-01-10",
+			"participantContributionDetails": [
+				{
+					"contributionTypeCode": {
+						"codeValue": "1",
+						"shortName": "Contribuição Básica",
+						"longName": "Base Salary"
+					},
+					"contributionPercentage": "5",
+					"lastContributionAmount": {
+						"effectiveDate": "2022-01-10"
+					},
+					"configurationStatusCode": {
+						"effectiveDateTime": "2020-01-10"
+					}
+				},
+				{
+					"contributionTypeCode": {
+						"codeValue": "1",
+						"shortName": "Contribuição Adicional",
+						"longName": "Base Salary"
+					},
+					"contributionPercentage": "1",
+					"lastContributionAmount": {
+						"effectiveDate": "2022-01-10"
+					},
+					"configurationStatusCode": {
+						"effectiveDateTime": "2020-01-10T00:00:00Z"
+					}
+				}
+			]
+		}
+	]
+}

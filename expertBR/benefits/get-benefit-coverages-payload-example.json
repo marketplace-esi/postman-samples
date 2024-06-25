@@ -1,0 +1,37 @@
+{
+	"benefitCoverages": [
+		{
+			"coverageOption":{
+				"optionID": "1",
+				"optionName": "Plano de Saúde 1",
+				"optionCode": {
+					"shortName": "Assistência Médica"
+				},
+				"benefitCarrier": {
+					"carrierID": "111111111111111",
+					"carrierName": "Administradora 1 - Operadora 1"
+				}
+			},
+			"effectiveTimePeriod":{
+				"startDate": "2014-01-01",
+				"endDate": "2023-01-01"
+			},
+			"coveredIndividuals": [
+				{
+					"individualID": {
+						"idValue": "1"
+					},
+					"legalName": {
+						"formattedName": "Dependente 1"	
+					},
+					"relationshipTypeCode": {
+						"codeValue": "1",
+						"shortName": "Filho(a)"
+					}
+				}
+			],
+			"itemID": "001-123456",
+			"benefitCoverageID": "2"
+		}
+	]
+}

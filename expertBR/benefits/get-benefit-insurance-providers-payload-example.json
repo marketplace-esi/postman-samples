@@ -1,0 +1,51 @@
+{
+	"benefitInsuranceProviders": [
+		{
+			"providerID": "11111111111",
+			"providerName": "Fornecedor 1",
+			"providerAddresses": [
+				{
+					"lineOne": "Av. Soledade 550 - 5 andar",
+					"lineTwo": "Tres Figueiras, Porto Alegre, RS",
+					"lineThree": "90000000",
+					"cityName": "Porto Alegre",
+					"countrySubdivisionLevel1": {
+						"codeValue": "RS",
+						"shortName": "Rio Grande do Sul",
+						"subdivisionType": "STATE"
+					},
+					"countryCode": "BR",
+					"postalCode": "90000000",
+					"buildingNumber": "500",
+					"blockName": "Tres Figueiras",
+					"streetName": "Soledade",
+					"streetTypeCode": {
+						"shortName": "Avenida"
+					},
+					"unit": "5 andar"
+				}
+            ],
+			"communication": {
+				"landlines": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "30000000",
+						"formattedNumber": "51 30000000"
+					}
+				],
+				"emails": [
+					{
+						"emailUri": "TEST@ADP.COM"
+					}
+				],
+				"faxes": [
+					{
+						"areaDialing": "51",
+						"dialNumber": "33000000",
+						"formattedNumber": "51 33000000"
+					}
+				]
+            }
+		}
+	]
+}

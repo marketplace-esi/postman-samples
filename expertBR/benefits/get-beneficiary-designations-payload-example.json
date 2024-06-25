@@ -1,0 +1,18 @@
+{
+	"beneficiaryDesignations": [
+		{
+			"itemID": "1_001-0123456",
+			"benefitName": "Seguro de Vida 1",
+			"beneficiaryAllocations": [
+				{
+					"beneficiaryFormattedName": "Maria Silva",
+					"allocationPercentage": "70"
+				},
+				{
+					"beneficiaryFormattedName": "Maria Souza",
+					"allocationPercentage": "30"
+				}
+			]
+		}
+	]
+}
