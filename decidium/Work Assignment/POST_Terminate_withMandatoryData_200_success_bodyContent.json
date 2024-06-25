@@ -1,0 +1,23 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0O6P758497NDV"
+                    }
+                },
+                "transform": {
+                    "worker": {
+                        "workerDates": {
+                            "terminationDate": "2024-02-15"
+                        },
+                        "terminationReasonCode": {
+                            "codeValue": "FD"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
