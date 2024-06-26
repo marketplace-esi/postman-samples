@@ -4,53 +4,69 @@
             "data": {
                 "eventContext": {
                     "worker": {
-                        "associateOID": "cvidal-mp6"
+                        "associateOID": "mlambert-7161mp4"
                     }
                 },
                 "transform": {
                     "worker": {
+                        "effectiveDateTime": "2024-01-21T00:00:00Z",
                         "workAssignment": {
-                            "terminationDate": "2020-10-30",
+                            "terminationDate": "2024-02-21",
                             "terminationReasonCode": {
-                                "codeValue": "MU",
-                                "shortName": "MU"
+                                "codeValue": "DM"
                             },
                             "customFieldGroup": {
+                                "indicatorFields": [
+                                    {
+                                        "indicatorValue": true,
+                                        "itemID": "endMonthBankTransfer"
+                                    }
+                                ],
+                                "codeFields": [
+                                    {
+                                        "codeValue": "05",
+                                        "itemID": "expectedRehireType"
+                                    }
+                                ],
                                 "dateFields": [
                                     {
-                                        "dateValue": "2020-10-30",
+                                        "dateValue": "2024-01-17",
+                                        "itemID": "lastPayedDay"
+                                    },
+                                    {
+                                        "dateValue": "2024-01-02",
+                                        "itemID": "terminationProcedureDate"
+                                    },
+                                     {
+                                        "dateValue": "2023-10-30",
                                         "itemID": "terminationNotificationDate"
                                     },
                                     {
-                                        "dateValue": "2020-10-01",
+                                        "dateValue": "2023-12-20",
                                         "itemID": "terminationNoticeDonePayedStartDate"
                                     },
                                     {
-                                        "dateValue": "2020-10-05",
+                                        "dateValue": "2024-01-24",
                                         "itemID": "terminationNoticeDonePayedEndDate"
                                     },
                                     {
-                                        "dateValue": "2020-10-06",
+                                        "dateValue": "2023-12-20",
                                         "itemID": "terminationNoticeNotDonePayedStartDate"
                                     },
                                     {
-                                        "dateValue": "2020-10-20",
+                                        "dateValue": "2024-01-24",
                                         "itemID": "terminationNoticeNotDonePayedEndDate"
                                     },
                                     {
-                                        "dateValue": "2020-10-21",
+                                        "dateValue": "2023-12-20",
                                         "itemID": "terminationNoticeNotDoneNotPayedStartDate"
                                     },
                                     {
-                                        "dateValue": "2020-10-31",
+                                        "dateValue": "2024-01-24",
                                         "itemID": "terminationNoticeNotDoneNotPayedEndDate"
-                                    },
-		                                {
-		                                    "dateValue":"2024-01-17",
-		                                    "itemID":"lastPayedDay"
-		                                }
+                                    }
                                 ],
-                                "stringFields": [
+                                 "stringFields": [
                                     {
                                         "stringValue": "F",
                                         "itemID": "terminationReasonPE"
@@ -58,21 +74,9 @@
                                     {
                                         "stringValue": "Test",
                                         "itemID": "unpayedNoticeReason"
-                                    },
+                                    }
 
-                                ],
-                                "indicatorFields":[
-	                                  {
-	                                      "indicatorValue":true,
-	                                      "itemID":"endMonthBankTransfer"
-	                                  }
-                                ],
-	                              "codeFields":[
-	                                  {
-	                                      "codeValue":"05",
-	                                      "itemID":"expectedRehireType"
-	                                  }
-                               ]
+                                ]
                             }
                         }
                     }

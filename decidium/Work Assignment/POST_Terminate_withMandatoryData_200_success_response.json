@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0O6P758497NDV"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "associateOID": "AO0O6P758497NDV",
+                        "terminationReasonCode": {
+                            "codeValue": "FD",
+                            "longName": "Fin de CDD"
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2023-06-03",
+                            "terminationDate": "2024-02-15"
+                        },
+                        "workerStatus": {
+                            "statusCode": {
+                                "codeValue": "INACTIVE",
+                                "shortName": "INACTIVE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

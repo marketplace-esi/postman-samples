@@ -1,0 +1,95 @@
+{
+    "events": [
+        {
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "mlambert-7161mp4",
+                        "workAssignment": {
+                            "itemID": "00000694|2019-02-01"
+                        },
+                        "workerID": {
+                            "idValue": "00000694"
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "customFieldGroup": {
+                                "codeFields": [
+                                    {
+                                        "codeValue": "05",
+                                        "itemID": "expectedRehireType"
+                                    }
+                                ],
+                                "dateFields": [
+                                    {
+                                        "dateValue": "2023-10-30",
+                                        "itemID": "terminationNotificationDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-12-20",
+                                        "itemID": "terminationNoticeDonePayedStartDate"
+                                    },
+                                    {
+                                        "dateValue": "2024-01-24",
+                                        "itemID": "terminationNoticeDonePayedEndDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-12-20",
+                                        "itemID": "terminationNoticeNotDonePayedStartDate"
+                                    },
+                                    {
+                                        "dateValue": "2024-01-24",
+                                        "itemID": "terminationNoticeNotDonePayedEndDate"
+                                    },
+                                    {
+                                        "dateValue": "2023-12-20",
+                                        "itemID": "terminationNoticeNotDoneNotPayedStartDate"
+                                    },
+                                    {
+                                        "dateValue": "2024-01-24",
+                                        "itemID": "terminationNoticeNotDoneNotPayedEndDate"
+                                    }
+                                ],
+                                "stringFields": [
+                                    {
+                                        "itemID": "terminationReasonPE",
+                                        "stringValue": "F"
+                                    },
+                                    {
+                                        "itemID": "unpayedNoticeReason",
+                                        "stringValue": "TEST"
+                                    },
+                                    {
+                                        "itemID": "terminationReason",
+                                        "stringValue": "DM"
+                                    }
+                                ]
+                            },
+                            "expectedTerminationDate": "2024-02-21",
+                            "itemID": "00000694|2019-02-01",
+                            "terminationDate": "2024-02-21",
+                            "terminationReasonCode": {
+                                "codeValue": "DM",
+                                "shortName": "Démission"
+                            }
+                        },
+                        "workerDates": {
+                            "originalHireDate": "2019-02-01",
+                            "terminationDate": "2024-02-21"
+                        },
+                        "workerStatus": {
+                            "effectiveDate": "2024-02-21",
+                            "statusCode": {
+                                "codeValue": "INACTIVE",
+                                "shortName": "INACTIVE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
