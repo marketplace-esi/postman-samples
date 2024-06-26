@@ -1,43 +1,50 @@
 {
 	"events": [
 		{
-			"eventID": "1584aed9-c8f6-4893-a2ad-299012128fb7",
-			"eventNameCode": {
-				"codeValue": "organizationRole.add"
+			"data": {
+				"eventContext": {
+					"contextExpressionID": ""
+				},
+				"output": {
+					"organizationRole": {
+						"workerID": {
+							"schemeCode": {
+								"codeValue": "WF",
+								"longName": "Workforce"
+							},
+							"idValue": "000092"
+						},
+						"workerName": {
+							"formattedName": "LLSH Terweij"
+						},
+						"organizationalUnit": {
+							"nameCode": {
+								"codeValue": "000096",
+								"longName": "Personeel en Organisatie"
+							}
+						},
+						"managementIndicator": true,
+						"roleEffectivePeriod": {
+							"startDate": "2021-01-01"
+						},
+						"roleCode": {
+							"codeValue": "HOOFD",
+							"longName": "Leidinggevende"
+						}
+					}
+				}
 			},
-			"recordDateTime": "2023-07-07T00:00:00+02:00",
-			"creationDateTime": "2023-07-07T08:34:43+02:00",
-			"effectiveDateTime": "2023-01-01T00:00:00+01:00",
+			"eventID": "b34be8c7-a105-43ed-892e-fd3b36562621",
 			"originator": {
 				"associateOID": "010018",
 				"formattedName": "BCAA Carter"
 			},
-			"data": {
-				"eventContext": {
-					"contextExpressionID": "010123"
-				},
-				"output": {
-					"organizationRole": {
-						"organizationalUnit": {
-							"nameCode": {
-								"codeValue": "010123"
-							}
-						},
-						"managementIndicator": true,
-						"roleEffectivePeriod": {},
-						"workerID": {
-							"idValue": "010796",
-							"schemeCode": {
-								"codeValue": "WF",
-								"longName": "Workforce"
-							}
-						},
-						"workerName": {
-							"formattedName": "DLHI Fontein"
-						}
-					}
-				}
+			"creationDateTime": "2024-06-26T13:47:36+02:00",
+			"effectiveDateTime": "2021-01-01T00:00:00+01:00",
+			"recordDateTime": "2099-12-31T00:00:00+01:00",
+			"eventNameCode": {
+				"codeValue": "organizationRole.add"
 			}
 		}
 	]
-}
+}	

@@ -1,22 +1,40 @@
 {
 	"events": [
 		{
-			"eventID": "cbd0b4c6-9e4a-4308-a8c4-617cb2e0625e",
-			"eventNameCode": {
-				"codeValue": "organizationRole.remove"
+			"data": {
+				"eventContext": {
+					"contextExpressionID": ""
+				},
+				"output": {
+					"organizationRole": {
+						"workerID": {
+							"schemeCode": {
+								"codeValue": "WF",
+								"longName": "Workforce"
+							},
+							"idValue": "000084"
+						},
+						"organizationalUnit": {
+							"nameCode": {
+								"codeValue": "000096"
+							}
+						},
+						"roleCode": {
+							"codeValue": "HOOFD"
+						}
+					}
+				}
 			},
-			"recordDateTime": "2023-07-07T00:00:00+02:00",
-			"creationDateTime": "2023-07-07T09:11:01+02:00",
-			"effectiveDateTime": "2023-01-01T00:00:00+01:00",
+			"eventID": "5f4fe073-84de-4a8b-80ee-88e18e8fd053",
 			"originator": {
 				"associateOID": "010018",
 				"formattedName": "BCAA Carter"
 			},
-			"data": {
-				"eventContext": {
-					"contextExpressionID": "000090"
-				},
-				"output": {}
+			"creationDateTime": "2024-06-26T14:01:20+02:00",
+			"effectiveDateTime": "2021-01-01T00:00:00+01:00",
+			"recordDateTime": "2099-12-31T00:00:00+01:00",
+			"eventNameCode": {
+				"codeValue": "organizationRole.remove"
 			}
 		}
 	]
