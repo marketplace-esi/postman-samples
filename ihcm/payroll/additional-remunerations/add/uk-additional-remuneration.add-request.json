@@ -1,0 +1,41 @@
+
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.additional-remuneration.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "GB0O6B70258067W5"
+                    }
+                },
+                "transform": {
+                    "workAssignment": {
+                        "additionalRemuneration": {
+                            "effectiveDate": "2000-01-05",
+                            "nameCode": {
+                                "codeValue": "TestEarn",
+                                "shortName": "TestEarn"
+                            },
+                            "remunerationStatus": {
+                                "shortName": "Limit met"
+                            },
+                            "rate": {
+                                "amountValue": "100"
+                               
+                            },
+                            "remunerationMaxRate": {
+                                "amountValue": "101" 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

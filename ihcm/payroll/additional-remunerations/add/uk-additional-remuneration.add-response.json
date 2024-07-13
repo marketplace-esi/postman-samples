@@ -1,0 +1,95 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.additional-remuneration.add"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "GB0O6B70258067W5"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "07c33e08-9a62-4fd1-988c-5f27b760af0b",
+                                "effectiveDate": "2000-01-05",
+                                "remunerationStatus": {
+                                    "shortName": "Limit met"
+                                },
+                                "nameCode": {
+                                    "shortName": "TestEarn"
+                                },
+                                "rate": {
+                                    "amountValue": 100.0
+                                },
+                                "remunerationMaxRate": {
+                                    "amountValue": 101.0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "e1c123b1-a69a-468f-ab42-911a3e4fd5a2",
+            "schemeName": "confirmMessageID",
+            "schemeAgencyName": "core"
+        },
+        "createDateTime": "2024-06-20T07:19:53.3561801Z",
+        "requestReceiptDateTime": "2024-06-20T07:19:53.3561801Z",
+        "processMessages": [
+            {
+                "processMessageID": {
+                    "idValue": "d78f9e41-8d3c-480a-a7d7-d98864a9c387",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "messageTypeCode": {
+                    "codeValue": "success"
+                },
+                "userMessage": {
+                    "messageTxt": "Request Processed"
+                }
+            }
+        ],
+        "resourceMessages": [
+            {
+                "resourceMessageID": {
+                    "idValue": "12fa1b42-f1f4-40cb-be96-42fab6ebf9ac",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "resourceStatusCode": {
+                    "codeValue": "succeeded"
+                },
+                "processMessages": [
+                    {
+                        "resourceStatusCode": {
+                            "codeValue": "succeeded"
+                        },
+                        "processMessageID": {
+                            "idValue": "f64cc2c1-8b29-4db0-bd7f-723660c4d6ae",
+                            "schemeName": "processMessageID",
+                            "schemeAgencyName": "core"
+                        },
+                        "messageTypeCode": {
+                            "codeValue": "success"
+                        },
+                        "userMessage": {
+                            "messageTxt": "Request Processed"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

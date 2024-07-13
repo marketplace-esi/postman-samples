@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.base-remuneration.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0N819320328CD"
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    },
+                    "eventReasonCode": {
+                        "shortName": "Promotion", // Reason
+                        "codeValue": "Promotion"
+                    },
+                    "effectiveDateTime": "2015-01-03", // Effective From
+                    "workAssignment": {
+                        "baseRemuneration": {
+                            "recordingBasisCode": {
+                                "shortName": "Weekly" // Rate Frequency
+                            },
+                            "payPeriodRateAmount": {
+                                "amountValue": 9 // Rate
+                            }
+                        },
+                        "customFieldGroup": {
+                            "numberFields": [
+                                {
+                                    "nameCode": {
+                                        "codeValue": "DAYSPERYEAR"
+                                    },
+                                    "numberValue": 18
+                                },
+                                {
+                                    "nameCode": {
+                                        "codeValue": "HOURSPERPAYPERIOD"
+                                    },
+                                    "numberValue": 18
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

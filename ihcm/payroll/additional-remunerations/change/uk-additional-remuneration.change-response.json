@@ -1,0 +1,100 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.additional-remuneration.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "eb9ab1c2-f551-464d-bc86-e772acec6b50"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "eb9ab1c2-f551-464d-bc86-e772acec6b50",
+                                "effectiveDate": "2024-02-28",
+                                "effectiveEndDate": "2024-05-01",
+                                "remunerationStatus": {
+                                    "shortName": "Limit met"
+                                },
+                                "nameCode": {
+                                    "shortName": "RCB"
+                                },
+                                "rate": {
+                                    "amountValue": 10.0
+                                },
+                                "remunerationMaxRate": {
+                                    "amountValue": 11.0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "e1c123b1-a69a-468f-ab42-911a3e4fd5a2",
+            "schemeName": "confirmMessageID",
+            "schemeAgencyName": "core"
+        },
+        "createDateTime": "2024-06-20T07:19:53.3561801Z",
+        "requestReceiptDateTime": "2024-06-20T07:19:53.3561801Z",
+        "processMessages": [
+            {
+                "processMessageID": {
+                    "idValue": "d78f9e41-8d3c-480a-a7d7-d98864a9c387",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "messageTypeCode": {
+                    "codeValue": "success"
+                },
+                "userMessage": {
+                    "messageTxt": "Request Processed"
+                }
+            }
+        ],
+        "resourceMessages": [
+            {
+                "resourceMessageID": {
+                    "idValue": "12fa1b42-f1f4-40cb-be96-42fab6ebf9ac",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "resourceStatusCode": {
+                    "codeValue": "succeeded"
+                },
+                "processMessages": [
+                    {
+                        "resourceStatusCode": {
+                            "codeValue": "succeeded"
+                        },
+                        "processMessageID": {
+                            "idValue": "f64cc2c1-8b29-4db0-bd7f-723660c4d6ae",
+                            "schemeName": "processMessageID",
+                            "schemeAgencyName": "core"
+                        },
+                        "messageTypeCode": {
+                            "codeValue": "success"
+                        },
+                        "userMessage": {
+                            "messageTxt": "Request Processed"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
