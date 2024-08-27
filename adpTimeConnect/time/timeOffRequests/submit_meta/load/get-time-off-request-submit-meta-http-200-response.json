@@ -60,6 +60,21 @@
                                 "inactiveIndicator": false
                             },
                             {
+                                "codeValue": "EVREC3",
+                                "shortName": "Evénements récurrent HRS",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVREC1",
+                                "shortName": "Evénements récurrent PLG",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVREC2",
+                                "shortName": "Evénements récurrent VOL",
+                                "inactiveIndicator": false
+                            },
+                            {
                                 "codeValue": "EVTTRA",
                                 "shortName": "Evt. Trav.",
                                 "inactiveIndicator": false
@@ -448,7 +463,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^EVHTRA$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
+                                                "pattern": "^EVHTRA$|^EVREC1$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
                                             }
                                         }
                                     ]
@@ -466,7 +481,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^EVHTRA$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
+                                                "pattern": "^EVHTRA$|^EVREC1$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
                                             }
                                         }
                                     ]
@@ -491,7 +506,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^EVHTRA$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
+                                                "pattern": "^EVHTRA$|^EVREC1$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
                                             }
                                         }
                                     ]
@@ -583,6 +598,51 @@
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
                                                 "pattern": "^EVHTRA$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVREC3",
+                                            "shortName": "Evénements récurrent HRS"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC3$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVREC1",
+                                            "shortName": "Evénements récurrent PLG"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVREC2",
+                                            "shortName": "Evénements récurrent VOL"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC2$"
                                             }
                                         }
                                     ]
@@ -1700,7 +1760,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^INTER4$|^AI$|^B_ABS1$|^VM$|^HMOINS$|^ASTR01$|^HAP$|^RETAUT$|^TS17$"
+                                                "pattern": "^EVREC3$|^INTER4$|^AI$|^B_ABS1$|^VM$|^HMOINS$|^ASTR01$|^HAP$|^RETAUT$|^TS17$"
                                             }
                                         }
                                     ]
@@ -1732,7 +1792,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^DEPASS$|^DEPASE$|^DIFMIN$|^EVHTRA$|^EVTTRA$|^NUIT$|^HREPAY$|^HORTHE$|^HRETRA$|^INTER2$|^PRES$|^W_PRES$|^TOLERE$|^AI$|^AP$|^B_ABS1$|^B_ABS2$|^BS$|^DE$|^FO$|^FERIE$|^MP$|^MI$|^PR$|^RC$|^CA$|^B_CP2$|^CS$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^BMSG4$|^BMSG1$|^BMSG3$|^BMSG2$|^MODB$|^MODH$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AJ$|^AT$|^MA$|^ML$|^BB$|^ASTR01$|^HPLUS$|^HAR$|^JDD$|^TS16$|^TS19$|^TS10$|^TS8$"
+                                                "pattern": "^DEPASS$|^DEPASE$|^DIFMIN$|^EVHTRA$|^EVREC3$|^EVREC1$|^EVREC2$|^EVTTRA$|^NUIT$|^HREPAY$|^HORTHE$|^HRETRA$|^INTER2$|^PRES$|^W_PRES$|^TOLERE$|^AI$|^AP$|^B_ABS1$|^B_ABS2$|^BS$|^DE$|^FO$|^FERIE$|^MP$|^MI$|^PR$|^RC$|^CA$|^B_CP2$|^CS$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^BMSG4$|^BMSG1$|^BMSG3$|^BMSG2$|^MODB$|^MODH$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AJ$|^AT$|^MA$|^ML$|^BB$|^ASTR01$|^HPLUS$|^HAR$|^JDD$|^TS16$|^TS19$|^TS10$|^TS8$"
                                             }
                                         }
                                     ]
@@ -1750,7 +1810,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^INTER4$|^AI$|^B_ABS1$|^VM$|^HMOINS$|^ASTR01$|^HAP$|^RETAUT$|^TS17$"
+                                                "pattern": "^EVREC3$|^INTER4$|^AI$|^B_ABS1$|^VM$|^HMOINS$|^ASTR01$|^HAP$|^RETAUT$|^TS17$"
                                             }
                                         }
                                     ]
@@ -1796,7 +1856,7 @@
                                     "attributes": [
                                         {
                                             "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
-                                                "pattern": "^DEPASS$|^DEPASE$|^DIFMIN$|^NUIT$|^HREPAY$|^HORTHE$|^HRETRA$|^INTER2$|^TOLERE$|^BS$|^PR$|^ML$|^HPLUS$|^TS16$"
+                                                "pattern": "^DEPASS$|^DEPASE$|^DIFMIN$|^EVREC2$|^NUIT$|^HREPAY$|^HORTHE$|^HRETRA$|^INTER2$|^TOLERE$|^BS$|^PR$|^ML$|^HPLUS$|^TS16$"
                                             }
                                         }
                                     ]
@@ -1838,13 +1898,77 @@
                             ]
                         }
                     }
+                },
+                "/timeOffRequest/timeOffEntries/entryRecurrence/recurrenceIndicator": {
+                    "dependencies": {
+                        "hidden": {
+                            "allOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC3$|^EVREC1$|^EVREC2$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "hidden": true
+                },
+                "/timeOffRequest/timeOffEntries/entryRecurrence/recurrencePattern/dayPeriodTypeCode": {
+                    "dependencies": {
+                        "hidden": {
+                            "allOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC1$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "morning",
+                                            "shortName": "Matin"
+                                        },
+                                        {
+                                            "codeValue": "afternoon",
+                                            "shortName": "Après-midi"
+                                        },
+                                        {
+                                            "codeValue": "all",
+                                            "shortName": "Journée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC1$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         ]
     },
     "data": {
         "control": {
-            "clockReferenceDateTime": "2024-08-27T14:58:54+01:00",
+            "clockReferenceDateTime": "2024-08-27T15:47:08+01:00",
             "timeNotationCode": "24h"
         }
     }
