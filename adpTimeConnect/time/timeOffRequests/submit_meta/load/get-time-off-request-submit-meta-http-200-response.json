@@ -1,0 +1,1975 @@
+{
+    "meta": {
+        "/serviceCategoryCode/codeValue": "time",
+        "/eventNameCode/codeValue": "timeOffRequest.submit",
+        "/data/eventContext": {
+            "/associateOID": {
+                "dataType": "string",
+                "optional": false,
+                "default": "TOUTMP"
+            }
+        },
+        "/data/transforms": [
+            {
+                "/timeOffRequest/timeOffEntries": {
+                    "dependencies": {
+                        "maxItems": {
+                            "allOf": [
+                                {
+                                    "value": "1",
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "\\w+"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/timeOffPolicyCode": {
+                    "dataType": "object",
+                    "optional": false,
+                    "codeList": {
+                        "listItems": [
+                            {
+                                "codeValue": "DEPASS",
+                                "shortName": "Dépassement de sortie",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "DEPASE",
+                                "shortName": "Dépassement d'entrée",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "DIFMIN",
+                                "shortName": "Différence minimum",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "DZ_VER",
+                                "shortName": "don versement",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVHTRA",
+                                "shortName": "Evénement travaillé",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVREC3",
+                                "shortName": "Evénements récurrent HRS",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVREC1",
+                                "shortName": "Evénements récurrent PLG",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVREC2",
+                                "shortName": "Evénements récurrent VOL",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "EVTTRA",
+                                "shortName": "Evt. Trav.",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "NUIT",
+                                "shortName": "Heures de nuit",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HREPAY",
+                                "shortName": "Heures payées",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HORTHE",
+                                "shortName": "Heures théoriques",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HRETRA",
+                                "shortName": "Heures travaillées",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "INTER2",
+                                "shortName": "Intervention 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "INTER4",
+                                "shortName": "Intervention 4",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "PRES",
+                                "shortName": "Presence",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "W_PRES",
+                                "shortName": "Présence intranet",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TOLERE",
+                                "shortName": "Retard Toléré",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "AI",
+                                "shortName": "Absence injustifiée",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "AP",
+                                "shortName": "Absence payée",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_ABS1",
+                                "shortName": "Absence 1",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_ABS2",
+                                "shortName": "Absence 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "BS",
+                                "shortName": "Bon de sortie payé",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "DE",
+                                "shortName": "Délégation",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "FO",
+                                "shortName": "Formation",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "FERIE",
+                                "shortName": "Jour fériée",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "MP",
+                                "shortName": "Mise à pied",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "MI",
+                                "shortName": "Mission",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "PR",
+                                "shortName": "Préavis",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "RC",
+                                "shortName": "Repos compensateur",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "VM",
+                                "shortName": "Visite médicale",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "CA",
+                                "shortName": "Congé ancienneté",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_CP2",
+                                "shortName": "Congé payé 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "CS",
+                                "shortName": "Congé sans solde",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "CP",
+                                "shortName": "Congés payés",
+                                "valueDescription": "On vous souhaite bonnes vacances",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "RTT",
+                                "shortName": "Jour ARTT",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_RTT1",
+                                "shortName": "RTT 1",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_RTT2",
+                                "shortName": "RTT 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_ANO1",
+                                "shortName": "Anomalie 1",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_ANO2",
+                                "shortName": "Anomalie 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_ANO3",
+                                "shortName": "Anomalie 3",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_CAL1",
+                                "shortName": "Evt calendaire 1",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_CAL2",
+                                "shortName": "Evt calendaire 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_EVT1",
+                                "shortName": "EVT 1 (facultatives)",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_EVT4",
+                                "shortName": "EVT 4 (plusieurs jours)",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_EVT5",
+                                "shortName": "EVT 5 Bench",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HMOINS",
+                                "shortName": "Heures en moins",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_INC1",
+                                "shortName": "Incompatibilité 1",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_INC2",
+                                "shortName": "Incompatibilité 2",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_INC3",
+                                "shortName": "Incompatibilité 3",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_INC4",
+                                "shortName": "Incompatibilité 4",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "BMSG4",
+                                "shortName": "Message Mal CP simultanés",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "BMSG1",
+                                "shortName": "Message Max CP",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "BMSG3",
+                                "shortName": "Message panier repas",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "BMSG2",
+                                "shortName": "Message prise RTT",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "MODB",
+                                "shortName": "Modulation basse",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "MODH",
+                                "shortName": "Modulation haute",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS14",
+                                "shortName": "QTE1 seule",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_TST1",
+                                "shortName": "TEST 1 Bench",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_TST2",
+                                "shortName": "TEST 2 Bench",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_TST3",
+                                "shortName": "TEST 3 Bench",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "B_TST4",
+                                "shortName": "TEST 4 Bench",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "VU",
+                                "shortName": "Vu",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "AJ",
+                                "shortName": "Accident de trajet",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "AT",
+                                "shortName": "Accident de travail",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "MA",
+                                "shortName": "Maladie ordinaire",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "ML",
+                                "shortName": "Maladie professionnelle",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "BB",
+                                "shortName": "Maternité",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "ASTR01",
+                                "shortName": "Astreinte 01",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HPLUS",
+                                "shortName": "Heures en plus",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HAP",
+                                "shortName": "Heures en plus à payer",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "HAR",
+                                "shortName": "Heures en plus à récupérer",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "JDD",
+                                "shortName": "Journal du Dimanche",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "RETAUT",
+                                "shortName": "Retard autorisé",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS16",
+                                "shortName": "durée seule",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS19",
+                                "shortName": "fin seule",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS18",
+                                "shortName": "plage seule",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS10",
+                                "shortName": "poste seul",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS15",
+                                "shortName": "QTE2 seule",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS8",
+                                "shortName": "Tout interdit 1j",
+                                "inactiveIndicator": false
+                            },
+                            {
+                                "codeValue": "TS17",
+                                "shortName": "tranche seul",
+                                "inactiveIndicator": false
+                            }
+                        ]
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/dayPeriodStartCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "M",
+                                            "shortName": "Matin",
+                                            "defaultIndicator": true
+                                        },
+                                        {
+                                            "codeValue": "A",
+                                            "shortName": "Après-midi",
+                                            "defaultIndicator": false
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVHTRA$|^EVREC1$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/dayPeriodEndCode": {
+                    "dependencies": {
+                        "optional": {
+                            "allOf": [
+                                {
+                                    "value": true,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVHTRA$|^EVREC1$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "M",
+                                            "shortName": "Matin",
+                                            "defaultIndicator": false
+                                        },
+                                        {
+                                            "codeValue": "A",
+                                            "shortName": "Après-midi",
+                                            "defaultIndicator": true
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVHTRA$|^EVREC1$|^EVTTRA$|^PRES$|^W_PRES$|^AP$|^B_ABS2$|^DE$|^FO$|^MP$|^MI$|^RC$|^CA$|^B_CP2$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT4$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AT$|^HAR$|^TS18$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/dailyQuantity/quantityValue": {
+                    "pattern": "hh:mm"
+                },
+                "/timeOffRequest/timeOffEntries/dailyTimeDuration": {
+                    "lessThan": [
+                        "59940"
+                    ]
+                },
+                "/timeOffRequest/timeOffEntries/payCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "DEPASS",
+                                            "shortName": "Dépassement de sortie"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DEPASS$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "DEPASE",
+                                            "shortName": "Dépassement d'entrée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DEPASE$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "DIFMIN",
+                                            "shortName": "Différence minimum"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DIFMIN$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "DZ_VER",
+                                            "shortName": "don versement"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DZ_VER$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVHTRA",
+                                            "shortName": "Evénement travaillé"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVHTRA$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVREC3",
+                                            "shortName": "Evénements récurrent HRS"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC3$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVREC1",
+                                            "shortName": "Evénements récurrent PLG"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVREC2",
+                                            "shortName": "Evénements récurrent VOL"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "EVTTRA",
+                                            "shortName": "Evt. Trav."
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVTTRA$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "NUIT",
+                                            "shortName": "Heures de nuit"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^NUIT$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HREPAY",
+                                            "shortName": "Heures payées"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HREPAY$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HORTHE",
+                                            "shortName": "Heures théoriques"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HORTHE$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HRETRA",
+                                            "shortName": "Heures travaillées"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HRETRA$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "INTER2",
+                                            "shortName": "Intervention 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^INTER2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "INTER4",
+                                            "shortName": "Intervention 4"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^INTER4$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "PRES",
+                                            "shortName": "Presence"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^PRES$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "W_PRES",
+                                            "shortName": "Présence intranet"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^W_PRES$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TOLERE",
+                                            "shortName": "Retard Toléré"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TOLERE$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "AI",
+                                            "shortName": "Absence injustifiée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^AI$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "AP",
+                                            "shortName": "Absence payée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^AP$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_ABS1",
+                                            "shortName": "Absence 1"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_ABS1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_ABS2",
+                                            "shortName": "Absence 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_ABS2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "BS",
+                                            "shortName": "Bon de sortie payé"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^BS$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "DE",
+                                            "shortName": "Délégation"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DE$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "FO",
+                                            "shortName": "Formation"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^FO$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "FERIE",
+                                            "shortName": "Jour fériée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^FERIE$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "MP",
+                                            "shortName": "Mise à pied"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^MP$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "MI",
+                                            "shortName": "Mission"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^MI$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "PR",
+                                            "shortName": "Préavis"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^PR$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "RC",
+                                            "shortName": "Repos compensateur"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^RC$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "VM",
+                                            "shortName": "Visite médicale"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^VM$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "CA",
+                                            "shortName": "Congé ancienneté"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^CA$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_CP2",
+                                            "shortName": "Congé payé 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_CP2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "CS",
+                                            "shortName": "Congé sans solde"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^CS$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "CP",
+                                            "shortName": "Congés payés"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^CP$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "RTT",
+                                            "shortName": "Jour ARTT"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^RTT$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_RTT1",
+                                            "shortName": "RTT 1"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_RTT1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_RTT2",
+                                            "shortName": "RTT 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_RTT2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_ANO1",
+                                            "shortName": "Anomalie 1"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_ANO1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_ANO2",
+                                            "shortName": "Anomalie 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_ANO2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_ANO3",
+                                            "shortName": "Anomalie 3"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_ANO3$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_CAL1",
+                                            "shortName": "Evt calendaire 1"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_CAL1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_CAL2",
+                                            "shortName": "Evt calendaire 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_CAL2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_EVT1",
+                                            "shortName": "EVT 1 (facultatives)"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_EVT1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_EVT4",
+                                            "shortName": "EVT 4 (plusieurs jours)"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_EVT4$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_EVT5",
+                                            "shortName": "EVT 5 Bench"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_EVT5$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HMOINS",
+                                            "shortName": "Heures en moins"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HMOINS$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_INC1",
+                                            "shortName": "Incompatibilité 1"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_INC1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_INC2",
+                                            "shortName": "Incompatibilité 2"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_INC2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_INC3",
+                                            "shortName": "Incompatibilité 3"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_INC3$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_INC4",
+                                            "shortName": "Incompatibilité 4"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_INC4$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "BMSG4",
+                                            "shortName": "Message Mal CP simultanés"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^BMSG4$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "BMSG1",
+                                            "shortName": "Message Max CP"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^BMSG1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "BMSG3",
+                                            "shortName": "Message panier repas"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^BMSG3$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "BMSG2",
+                                            "shortName": "Message prise RTT"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^BMSG2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "MODB",
+                                            "shortName": "Modulation basse"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^MODB$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "MODH",
+                                            "shortName": "Modulation haute"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^MODH$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS14",
+                                            "shortName": "QTE1 seule"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS14$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_TST1",
+                                            "shortName": "TEST 1 Bench"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_TST1$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_TST2",
+                                            "shortName": "TEST 2 Bench"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_TST2$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_TST3",
+                                            "shortName": "TEST 3 Bench"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_TST3$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "B_TST4",
+                                            "shortName": "TEST 4 Bench"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^B_TST4$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "VU",
+                                            "shortName": "Vu"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^VU$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "AJ",
+                                            "shortName": "Accident de trajet"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^AJ$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "AT",
+                                            "shortName": "Accident de travail"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^AT$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "MA",
+                                            "shortName": "Maladie ordinaire"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^MA$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "ML",
+                                            "shortName": "Maladie professionnelle"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^ML$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "BB",
+                                            "shortName": "Maternité"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^BB$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "ASTR01",
+                                            "shortName": "Astreinte 01"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^ASTR01$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HPLUS",
+                                            "shortName": "Heures en plus"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HPLUS$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HAP",
+                                            "shortName": "Heures en plus à payer"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HAP$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "HAR",
+                                            "shortName": "Heures en plus à récupérer"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^HAR$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "JDD",
+                                            "shortName": "Journal du Dimanche"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^JDD$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "RETAUT",
+                                            "shortName": "Retard autorisé"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^RETAUT$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS16",
+                                            "shortName": "durée seule"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS16$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS19",
+                                            "shortName": "fin seule"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS19$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS18",
+                                            "shortName": "plage seule"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS18$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS10",
+                                            "shortName": "poste seul"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS10$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS15",
+                                            "shortName": "QTE2 seule"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS15$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS8",
+                                            "shortName": "Tout interdit 1j"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS8$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "TS17",
+                                            "shortName": "tranche seul"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^TS17$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "dataType": "object"
+                },
+                "/timeOffRequest/timeOffEntries/datePeriod/startDate": {
+                    "dataType": "string[date]",
+                    "optional": false
+                },
+                "/timeOffRequest/timeOffEntries/datePeriod/startTime": {
+                    "dependencies": {
+                        "optional": {
+                            "oneOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC3$|^INTER4$|^AI$|^B_ABS1$|^VM$|^HMOINS$|^ASTR01$|^HAP$|^RETAUT$|^TS17$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/datePeriod/endDate": {
+                    "dependencies": {
+                        "hidden": {
+                            "oneOf": [
+                                {
+                                    "value": true,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DZ_VER$|^INTER4$|^VM$|^B_EVT1$|^B_EVT4$|^HMOINS$|^TS14$|^HAP$|^RETAUT$|^TS18$|^TS15$|^TS17$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "optional": {
+                            "oneOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DEPASS$|^DEPASE$|^DIFMIN$|^EVHTRA$|^EVREC3$|^EVREC1$|^EVREC2$|^EVTTRA$|^NUIT$|^HREPAY$|^HORTHE$|^HRETRA$|^INTER2$|^PRES$|^W_PRES$|^TOLERE$|^AI$|^AP$|^B_ABS1$|^B_ABS2$|^BS$|^DE$|^FO$|^FERIE$|^MP$|^MI$|^PR$|^RC$|^CA$|^B_CP2$|^CS$|^CP$|^RTT$|^B_RTT1$|^B_RTT2$|^B_ANO1$|^B_ANO2$|^B_ANO3$|^B_CAL1$|^B_CAL2$|^B_EVT5$|^B_INC1$|^B_INC2$|^B_INC3$|^B_INC4$|^BMSG4$|^BMSG1$|^BMSG3$|^BMSG2$|^MODB$|^MODH$|^B_TST1$|^B_TST2$|^B_TST3$|^B_TST4$|^VU$|^AJ$|^AT$|^MA$|^ML$|^BB$|^ASTR01$|^HPLUS$|^HAR$|^JDD$|^TS16$|^TS19$|^TS10$|^TS8$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/datePeriod/endTime": {
+                    "dependencies": {
+                        "optional": {
+                            "oneOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC3$|^INTER4$|^AI$|^B_ABS1$|^VM$|^HMOINS$|^ASTR01$|^HAP$|^RETAUT$|^TS17$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/totalQuantity/quantityValue": {
+                    "shortLabelName": "Quantité",
+                    "pattern": "(^[-]?[0-9]+((\\.|,)[0-9]{1,3})?$)",
+                    "minValue": -2000000.999,
+                    "maxValue": 2000000.999
+                },
+                "/timeOffRequest/timeOffEntries/totalQuantity/unitTimeCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DZ_VER$|^B_EVT1$|^TS14$|^TS15$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/durationTypeCode": {
+                    "dependencies": {
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "dailyQuantity",
+                                            "shortName": "Durée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^DEPASS$|^DEPASE$|^DIFMIN$|^EVREC2$|^NUIT$|^HREPAY$|^HORTHE$|^HRETRA$|^INTER2$|^TOLERE$|^BS$|^PR$|^ML$|^HPLUS$|^TS16$"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "fullday",
+                                            "shortName": "Journée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^FERIE$|^CS$|^BMSG4$|^BMSG1$|^BMSG3$|^BMSG2$|^MODB$|^MODH$|^AJ$|^MA$|^BB$|^JDD$|^TS19$|^TS10$|^TS8$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "optional": false
+                },
+                "/timeOffRequest/timeOffEntries/comment/commentCode": {
+                    "dependencies": {
+                        "default": {
+                            "allOf": [
+                                {
+                                    "value": "NOT DISPLAYED VALUE",
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "\\w+"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "/timeOffRequest/timeOffEntries/entryRecurrence/recurrenceIndicator": {
+                    "dependencies": {
+                        "hidden": {
+                            "allOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC3$|^EVREC1$|^EVREC2$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "hidden": true
+                },
+                "/timeOffRequest/timeOffEntries/entryRecurrence/recurrencePattern/dayPeriodTypeCode": {
+                    "dependencies": {
+                        "hidden": {
+                            "allOf": [
+                                {
+                                    "value": false,
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC1$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "codeList": {
+                            "allOf": [
+                                {
+                                    "value": [
+                                        {
+                                            "codeValue": "morning",
+                                            "shortName": "Matin"
+                                        },
+                                        {
+                                            "codeValue": "afternoon",
+                                            "shortName": "Après-midi"
+                                        },
+                                        {
+                                            "codeValue": "all",
+                                            "shortName": "Journée"
+                                        }
+                                    ],
+                                    "attributes": [
+                                        {
+                                            "/timeOffRequest/timeOffEntries/timeOffPolicyCode/codeValue": {
+                                                "pattern": "^EVREC1$"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "data": {
+        "control": {
+            "clockReferenceDateTime": "2024-08-27T15:47:08+01:00",
+            "timeNotationCode": "24h"
+        }
+    }
+}
