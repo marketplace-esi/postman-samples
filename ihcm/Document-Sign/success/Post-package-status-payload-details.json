@@ -1,17 +1,21 @@
 {
-    "actionID": "test123",
-    "actionMessage": {
-        "messageText": "complete",
-        "messageArguments": [
-            {
-                "argumentName": "Packageid",
-                "argumentValue": "0F77B2BC-61CF-4A43-9492-9899769151CE",
-            }
-        ]
-    },
-    "links": [
-        {
-            "href": "/core/v1/document-signature-processing/associate-document-packages?package-id=0F77B2BC-61CF-4A43-9492-9899769151CE"
-        }
-    ]
+  "_confirmMessage": {
+    "processingStatus": "completed",
+    "requestStatus": "success",
+    "applicationID": "e2f172d6-c0d5-45fc-bd9d-3998707a953e",
+    "messageID": "90fec486-2f31-4f9e-abc5-e44c79347199",
+    "messageDateTime": "2024-02-23T19:13:08.8307195+05:30",
+    "messages": [
+      {
+        "messageTargetCode": "developer",
+        "processMessageIndicator": false,
+        "messageTypeCode": "success",
+        "resourceID": "923676f0-68ed-478c-b5df-b49a473ca594",
+        "messageText": "Request Processed",
+        "resourceStatus": "success"
+      }
+    ],
+    "resourceMessages": [],
+    "links": []
+  }
 }
