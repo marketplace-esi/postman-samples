@@ -1,0 +1,86 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.additional-remuneration.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "07c33e08-9a62-4fd1-988c-5f27b760af0b"
+                            }
+                        }
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "07c33e08-9a62-4fd1-988c-5f27b760af0b"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "f25b09fa-759d-453a-8f98-654c9af50179",
+            "schemeName": "confirmMessageID",
+            "schemeAgencyName": "core"
+        },
+        "createDateTime": "2024-06-20T07:20:06.2642958Z",
+        "requestReceiptDateTime": "2024-06-20T07:20:06.2642961Z",
+        "processMessages": [
+            {
+                "processMessageID": {
+                    "idValue": "2745f73c-4e70-48e7-8d79-490688d99ec3",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "messageTypeCode": {
+                    "codeValue": "success"
+                },
+                "userMessage": {
+                    "messageTxt": "Request Processed"
+                }
+            }
+        ],
+        "resourceMessages": [
+            {
+                "resourceMessageID": {
+                    "idValue": "a1720c39-a574-426b-8d2c-540acd318b60",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "resourceStatusCode": {
+                    "codeValue": "succeeded"
+                },
+                "processMessages": [
+                    {
+                        "resourceStatusCode": {
+                            "codeValue": "succeeded"
+                        },
+                        "processMessageID": {
+                            "idValue": "d2de526c-d55d-42cb-bc51-263d67a18a78",
+                            "schemeName": "processMessageID",
+                            "schemeAgencyName": "core"
+                        },
+                        "messageTypeCode": {
+                            "codeValue": "success"
+                        },
+                        "userMessage": {
+                            "messageTxt": "Request Processed"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

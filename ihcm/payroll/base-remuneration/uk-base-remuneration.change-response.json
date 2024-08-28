@@ -1,0 +1,133 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.base-remuneration.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "associateOID": "AO0N819320328CD"
+                    }
+                },
+                "output": {
+                    "worker": {
+                        "workAssignment": {
+                            "itemID": "ff36afa3-0f56-43a7-9c63-b12516c6fb32",
+                            "baseRemuneration": {
+                                "recordingBasisCode": {
+                                    "shortName": "Weekly"
+                                },
+                                "hourlyRateAmount": {
+                                    "amountValue": 2.166667
+                                },
+                                "dailyRateAmount": {
+                                    "amountValue": 26.0
+                                },
+                                "weeklyRateAmount": {
+                                    "amountValue": 9.0
+                                },
+                                "biweeklyRateAmount": {
+                                    "amountValue": 18.0
+                                },
+                                "monthlyRateAmount": {
+                                    "amountValue": 39.0
+                                },
+                                "annualRateAmount": {
+                                    "amountValue": 468.0
+                                },
+                                "payPeriodRateAmount": {
+                                    "nameCode": {
+                                        "shortName": "Base rate"
+                                    },
+                                    "amountValue": 9.0
+                                }
+                            },
+                            "customFieldGroup": {
+                                "dateFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "ENDDATE"
+                                        },
+                                        "dateValue": "2022-08-28"
+                                    }
+                                ],
+                                "numberFields": [
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "DAYSPERYEAR"
+                                        },
+                                        "numberValue": 18.0
+                                    },
+                                    {
+                                        "nameCode": {
+                                            "codeValue": "HOURSPERPAYPERIOD"
+                                        },
+                                        "numberValue": 18.0
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "confirmMessage": {
+        "confirmMessageID": {
+            "idValue": "b0dfa192-2450-4699-b28d-396c97678fc0",
+            "schemeName": "confirmMessageID",
+            "schemeAgencyName": "core"
+        },
+        "createDateTime": "2024-06-20T06:52:28.788327Z",
+        "requestReceiptDateTime": "2024-06-20T06:52:28.7883271Z",
+        "processMessages": [
+            {
+                "processMessageID": {
+                    "idValue": "097ae1fa-b077-47d3-91e0-f4fd6573896e",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "messageTypeCode": {
+                    "codeValue": "success"
+                },
+                "userMessage": {
+                    "messageTxt": "Request Processed"
+                }
+            }
+        ],
+        "resourceMessages": [
+            {
+                "resourceMessageID": {
+                    "idValue": "7d990903-1e7c-4393-b124-09c41f26a1e0",
+                    "schemeName": "processMessageID",
+                    "schemeAgencyName": "core"
+                },
+                "resourceStatusCode": {
+                    "codeValue": "succeeded"
+                },
+                "processMessages": [
+                    {
+                        "resourceStatusCode": {
+                            "codeValue": "succeeded"
+                        },
+                        "processMessageID": {
+                            "idValue": "313775bc-b198-411b-9330-8a383e9f0ff5",
+                            "schemeName": "processMessageID",
+                            "schemeAgencyName": "core"
+                        },
+                        "messageTypeCode": {
+                            "codeValue": "success"
+                        },
+                        "userMessage": {
+                            "messageTxt": "Request Processed"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

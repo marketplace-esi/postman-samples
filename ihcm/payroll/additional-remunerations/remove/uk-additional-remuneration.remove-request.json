@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.additional-remuneration.remove"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "07c33e08-9a62-4fd1-988c-5f27b760af0b"
+                            }
+                        }
+                    }
+                },
+                "transform": {
+                    "eventStatusCode": {
+                        "codeValue": "submit"
+                    }
+                }
+            }
+        }
+    ]
+}

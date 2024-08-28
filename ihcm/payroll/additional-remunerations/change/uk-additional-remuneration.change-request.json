@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "serviceCategoryCode": {
+                "codeValue": "hr"
+            },
+            "eventNameCode": {
+                "codeValue": "worker.work-assignment.additional-remuneration.change"
+            },
+            "data": {
+                "eventContext": {
+                    "worker": {
+                        "workAssignment": {
+                            "additionalRemuneration": {
+                                "itemID": "eb9ab1c2-f551-464d-bc86-e772acec6b50"
+                            }
+                        }
+                    }
+                },
+                "transform": {
+                    "workAssignment": {
+                        "additionalRemuneration": {
+                            "effectiveDate": "2024-02-29",
+                            "effectiveEndDate": "2024-05-01",
+                            "remunerationStatus": {
+                                "shortName": "Limit Met"
+                            },
+                            "rate": {
+                                "amountValue": "10" 
+                            },
+                            "remunerationMaxRate": {
+                                "amountValue": "11"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
